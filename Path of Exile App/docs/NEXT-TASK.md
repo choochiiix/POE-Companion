@@ -1,4 +1,6 @@
-# Preparation for the next major task
+# Pre-migration task preparation — historical
+
+This note predates the November 15, 2026 application-wide React migration. Its “await next task” status and Character-only scope are superseded. Current contributor instructions and migration gates are in the repository [README](../../README.md), [migration scope](REACT-MIGRATION.md), and [QA status](REACT-QA.md).
 
 Status: ready. The user has not supplied the next task yet. Read HANDOFF.md, acknowledge readiness and await scope. Do not implement speculative features or automatically roll out the Character pilot across the app.
 

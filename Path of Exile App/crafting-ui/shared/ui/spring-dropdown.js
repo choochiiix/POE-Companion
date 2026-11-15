@@ -32,8 +32,8 @@ function mount(select){
  rows.forEach(row=>{row.tick.style.strokeDashoffset=22*(1-Math.max(0,Math.min(1,row.check.x)));row.el.style.opacity=Math.min(1,Math.max(0,row.s.x));row.el.style.transform=`translateY(${(row.s.x-1)*6}px)`;});
  }
  function animate(now){frame=0;const dt=Math.min((now-last)/1000,1/30)/4;last=now;clock+=dt*4;
- const all=[...springs,...rows.flatMap(r=>[r.s,r.check])];if(reduced()){all.forEach(s=>{s.x=s.t;s.v=0;});}else for(let i=0;i<4;i++)for(const s of all){s.v+=(-s.k*(s.x-s.t)-s.c*s.v)*dt;s.x+=s.v*dt;}
- rows.forEach((r,i)=>{if(opened&&clock>=.05+Math.min(i,9)*.045)r.s.t=1;});draw();
+ const motionReduced=reduced();rows.forEach((r,i)=>{if(opened&&(motionReduced||clock>=.05+Math.min(i,9)*.045))r.s.t=1;});
+ const all=[...springs,...rows.flatMap(r=>[r.s,r.check])];if(motionReduced){all.forEach(s=>{s.x=s.t;s.v=0;});}else for(let i=0;i<4;i++)for(const s of all){s.v+=(-s.k*(s.x-s.t)-s.c*s.v)*dt;s.x+=s.v*dt;}draw();
  if(!reduced()&&(all.some(s=>Math.abs(s.x-s.t)>.01||Math.abs(s.v)>.01)||(opened&&clock<.5)))frame=requestAnimationFrame(animate);
  else if(closing){menu.hidePopover();wrap.style.zIndex='';closing=false;}
  }

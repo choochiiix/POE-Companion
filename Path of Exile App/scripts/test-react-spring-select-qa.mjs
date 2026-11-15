@@ -1,0 +1,84 @@
+import assert from 'node:assert/strict';
+import {spawn} from 'node:child_process';
+import {createRequire} from 'node:module';
+
+const server=spawn(process.execPath,['renderer/server.mjs'],{env:{...process.env,RENDERER_PORT:'4339'},stdio:'ignore'});
+const {chromium}=createRequire(import.meta.url)(process.env.PLAYWRIGHT_MODULE||'playwright');
+let browser;
+try{
+ await new Promise(resolve=>setTimeout(resolve,1000));
+ browser=await chromium.launch({channel:'msedge',headless:true});
+ const page=await browser.newPage({viewport:{width:1102,height:929}});
+ const errors=[],external=[];
+ page.on('pageerror',error=>errors.push(error.message));
+ await page.route('**/*',route=>route.request().url().startsWith('http://127.0.0.1:4339/')?route.continue():(external.push(route.request().url()),route.abort()));
+ await page.goto('http://127.0.0.1:4339/');
+ await page.waitForFunction(()=>document.querySelector('#treeCanvas')&&document.querySelector('.unique-card')&&document.querySelector('.gem-card'));
+ const trigger=page.getByRole('button',{name:'Edit character'});
+ const initialDropdowns=await page.locator('.spring-dropdown').count();
+ await trigger.click();
+ const dialog=page.getByRole('dialog',{name:'Edit character'});
+ const characterClass=page.locator('select[aria-label="Character class"]');
+ const ascendancy=page.locator('select[aria-label="Ascendancy"]');
+ await dialog.waitFor();
+ assert.equal(await characterClass.evaluate(select=>getComputedStyle(select).color),'rgba(0, 0, 0, 0)','The native label stays hidden beneath the spring value overlay');
+ await characterClass.click();
+ await page.waitForFunction(()=>document.querySelector('select[aria-label="Character class"]')?.getAttribute('aria-expanded')==='true');
+ assert.equal(await page.locator('.spring-dropdown-menu:popover-open').count(),1,'One select menu is active');
+ await characterClass.press('End');
+ await characterClass.press('Enter');
+ await page.waitForFunction(()=>document.querySelector('select[aria-label="Character class"]')?.value==='Scion');
+ await page.waitForFunction(()=>document.querySelector('select[aria-label="Character class"]')?.getAttribute('aria-expanded')==='false');
+ await characterClass.click();
+ await characterClass.press('Home');
+ await characterClass.press('Enter');
+ await page.waitForFunction(()=>document.querySelector('select[aria-label="Character class"]')?.value==='Marauder');
+
+ await characterClass.click();
+ await characterClass.press('r');
+ await characterClass.press('Enter');
+ await page.waitForFunction(()=>document.querySelector('select[aria-label="Character class"]')?.value==='Ranger');
+ await page.waitForFunction(()=>document.querySelector('select[aria-label="Ascendancy"]')?.options.length>1);
+ await characterClass.click();
+ assert.equal(await characterClass.getAttribute('aria-expanded'),'true');
+ await ascendancy.click();
+ await page.waitForFunction(()=>document.querySelector('select[aria-label="Character class"]')?.getAttribute('aria-expanded')==='false'&&document.querySelector('select[aria-label="Ascendancy"]')?.getAttribute('aria-expanded')==='true');
+ assert.equal(await page.locator('.spring-dropdown-menu:popover-open').count(),1,'Opening another select closes the first');
+ const lastAscendancy=await ascendancy.locator('option').last().getAttribute('value');
+ await ascendancy.press('End');
+ await ascendancy.press('Enter');
+ await page.waitForFunction(expected=>document.querySelector('select[aria-label="Ascendancy"]')?.value===expected,lastAscendancy);
+ await ascendancy.click();
+ await ascendancy.press('Escape');
+ assert.equal(await ascendancy.getAttribute('aria-expanded'),'false','Escape closes the menu');
+ assert.equal(await dialog.isVisible(),true,'Escape does not close the parent dialog');
+
+ await page.emulateMedia({reducedMotion:'reduce'});
+ await characterClass.click();
+ await page.waitForFunction(()=>[...document.querySelectorAll('.spring-dropdown-menu:popover-open .spring-dropdown-option')].length>0&&[...document.querySelectorAll('.spring-dropdown-menu:popover-open .spring-dropdown-option')].every(row=>Number(row.style.opacity)===1));
+ await characterClass.press('Escape');
+ await page.keyboard.press('Escape');
+ await dialog.waitFor({state:'hidden'});
+ assert.equal(await trigger.evaluate(element=>element===document.activeElement),true,'Dialog closes with focus restored');
+ assert.equal(await page.locator('.spring-dropdown-menu:popover-open').count(),0,'Unmount closes all popovers');
+ assert.equal(await page.locator('.spring-dropdown').count(),initialDropdowns,'Unmount disposes each dropdown adapter');
+
+ await page.getByRole('button',{name:'Add helmet item'}).click();
+ const gearDialog=page.getByRole('dialog');
+ const base=gearDialog.locator('select[aria-label="Equipment base"]');
+ await base.click();
+ assert.equal(await page.locator('.spring-dropdown-menu:popover-open').count(),1,'Gear editor select mounts');
+ await page.keyboard.press('Escape');
+ assert.equal(await gearDialog.isVisible(),true,'First Escape closes the dropdown, not its parent dialog');
+ assert.equal(await page.locator('.spring-dropdown-menu:popover-open').count(),0);
+ await page.keyboard.press('Escape');
+ await gearDialog.waitFor({state:'hidden'});
+ assert.equal(await page.locator('.spring-dropdown-menu:popover-open').count(),0,'Gear editor unmount closes its popover');
+ assert.equal(await page.locator('.spring-dropdown').count(),initialDropdowns,'Gear editor unmount disposes its adapter');
+ assert.deepEqual(errors,[]);
+ assert.deepEqual(external,[]);
+ console.log('PASS React SpringSelect pointer/keyboard, Home/End/typeahead, single-menu, reduced-motion, Escape, and unmount cleanup checks.');
+}finally{
+ await browser?.close();
+ server.kill();
+}

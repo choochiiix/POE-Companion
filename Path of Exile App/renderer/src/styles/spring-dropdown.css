@@ -15,6 +15,7 @@
 
 /* Source-like paired lift and two rolling value slots. */
 .spring-dropdown select {background:var(--surface);border-color:transparent;box-shadow:none}
+.spring-dropdown select.ui-input {color:transparent}
 .spring-dropdown-value {overflow:hidden}
 .spring-dropdown-value>span {position:absolute;left:0;right:0;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .spring-dropdown-menu {padding:6px;border:0;background:var(--surface);border-radius:8px}

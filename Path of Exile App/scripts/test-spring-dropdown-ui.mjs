@@ -5,6 +5,7 @@ const {chromium}=createRequire(import.meta.url)(process.env.PLAYWRIGHT_MODULE||'
 try{
  browser=await chromium.launch({channel:'msedge',headless:true});const page=await browser.newPage({viewport:{width:1102,height:929}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(`http://127.0.0.1:${server.address().port}`);await page.getByRole('button',{name:'Combat assumptions',exact:true}).click();const dialog=page.getByRole('dialog',{name:'Combat assumptions'});const picker=dialog.getByLabel('Campaign resistance penalty',{exact:true});
+ assert.equal(await picker.evaluate(select=>getComputedStyle(select).color),'rgba(0, 0, 0, 0)','The native label stays hidden beneath the spring value overlay');
  await picker.click();await page.waitForFunction(()=>document.querySelector('dialog[aria-label="Combat assumptions"] select[aria-label="Campaign resistance penalty"]').getAttribute('aria-expanded')==='true');
  const menu=dialog.locator('.spring-dropdown-menu:popover-open');await menu.getByRole('option',{name:'After Act 5 · −30%',exact:true}).click();assert.equal(await picker.inputValue(),'-30');await page.waitForFunction(()=>![...document.querySelectorAll('select')].some(n=>n.getAttribute('aria-expanded')==='true'));
  await picker.press('ArrowDown');await picker.press('End');await picker.press('Enter');assert.equal(await picker.inputValue(),'-60');await page.waitForFunction(()=>![...document.querySelectorAll('select')].some(n=>n.getAttribute('aria-expanded')==='true'));
