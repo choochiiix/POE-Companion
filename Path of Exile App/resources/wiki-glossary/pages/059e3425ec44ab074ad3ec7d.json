@@ -1,0 +1,35 @@
+{
+  "title": "Barkskin",
+  "pageId": 119857,
+  "revision": 1700107,
+  "timestamp": "2026-08-07T23:54:32Z",
+  "retrieved": "2026-11-14T10:57:11.810175+00:00",
+  "requested": [
+    "Balek's Gift",
+    "Bane",
+    "Bane of the Loyal",
+    "Baranite Cleric's Aura",
+    "Bark",
+    "Barnacles",
+    "Baryatic Tension",
+    "Basalt Flask",
+    "Bastion of Hope",
+    "Batrachian Procession",
+    "Battlemage's Cry",
+    "Beauty Through Death",
+    "Behead",
+    "Beidat's Magnificence",
+    "Beidat's Wrath",
+    "Berserk Fury",
+    "Bestial Roar",
+    "Binding Chains",
+    "Bino's Life Regeneration",
+    "Bismuth Flask"
+  ],
+  "aliases": [
+    "Bark"
+  ],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=Barkskin}}\n\n'''Barkskin''' is a [[skill]] granted by the {{psl|Mother's Teachings}} Notable ascendancy passive for the [[Warden]]. It grants stacks of Bark, with each stack granting a flat reduction to [[physical damage]] taken from [[attack]]s. When hit by an attack, a stack of Bark is removed, granting more [[evasion]] chance based on stacks of missing Bark. Bark generates over time after not being hit.\n\n==Skill progression==\nOnly the level 20 version is being used in-game.\n\n{{Skill progression\n|id                   = Barkskin\n|c1_abbr              = - Physical Damage taken\n  |c1_header          = -x Physical Damage taken from Attack Hits per Bark\n  |c1_pattern_extract = -(%d+) Physical Damage taken from Attack Hits per Bark\n  |c1_pattern_value   = -%d\n|c2_abbr              = Chance to Evade Attacks\n  |c2_header          = x% more chance to Evade Attacks per Bark below maximum\n  |c2_pattern_extract = (%d+)%% more chance to Evade Attacks per Bark below maximum\n  |c2_pattern_value   = %d%%\n}}\n\n==Mechanics==\nBarkskin works like a [[reservation]] skill, but reserves no resources.\n\n==Passive skills==\nThese [[passive skill]]s are related to Barkskin:\n\n===Ascendancy passives===\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%barkskin%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* Barkskin, granted by the Mother's Teachings Notable Passive Skill, no longer has a Mana Reservation.\n}}\n{{Version history table row|3.25.3d|\n* Barkskin now grants -60 Physical Damage taken from Attack Hits per Bark (previously -30) and 4% more chance to Evade Attacks per Bark below maximum (previously 2%). {{Undocumented}}\n}}\n{{Version history table row|3.25.0|\n* Barkskin is now granted by the Mother's Teaching Warden Notable ascendancy passive. \n* Barkskin now reserves 10% of your mana (previously 25%), grants -30 Physical Damage taken from Attack Hits per Bark (previously -15), and no longer provides 15% increased Armour per Bark.  {{Undocumented}}\n}}\n{{Version history table row|3.23.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n{{sister|poe2wiki}}",
+  "sha256": "f0aa93afbedea05fe8dc31888ea68e770db1e96a3118a5ea4fb04e19ab2b64dc"
+}

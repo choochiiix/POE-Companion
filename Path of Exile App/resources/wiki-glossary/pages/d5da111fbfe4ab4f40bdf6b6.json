@@ -1,0 +1,33 @@
+{
+  "title": "Summon Harbinger of the Arcane",
+  "pageId": 16029,
+  "revision": 1649392,
+  "timestamp": "2026-05-22T23:40:11Z",
+  "retrieved": "2026-11-14T10:10:04.221328+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfTheArcane}}\n'''Harbinger of the Arcane''' is a [[spell]] that summons an allied Harbinger [[minion]]. The skill is only available through {{il|The Rippling Thoughts}}.\n\n==Skill functions and interactions==\nThe summoned Harbinger is immortal, and occasionally casts [[Arcane Surge]] on the player. Arcane Surge is a [[buff]] that lasts 4 seconds, with a cooldown of 8 seconds, and grants the following benefits:\n* 10% increased Cast Speed\n* 30% increased Mana Regeneration Rate\n\n==Drop restrictions==\nHarbinger of the Arcane can only be obtained by equipping {{il|The Rippling Thoughts}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Uniques can no longer be obtained: The Beachhead, Infused Beachhead, The Enmity Divine, The Flow Untethered, The Fracturing Spinner, The Rippling Thoughts, The Tempest's Binding, and The Unshattered Will.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]] [[Category:Spell (gem tag)]]",
+  "sha256": "672f48b7d4d25488789385c8b0b93e060b9023c27fc1fad5b51e0e70634ae6fb"
+}

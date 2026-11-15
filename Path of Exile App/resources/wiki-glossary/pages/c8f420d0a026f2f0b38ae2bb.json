@@ -1,0 +1,33 @@
+{
+  "title": "Witchfire Brew",
+  "pageId": 20244,
+  "revision": 1703792,
+  "timestamp": "2026-11-02T11:15:15Z",
+  "retrieved": "2026-11-14T10:57:53.948107+00:00",
+  "requested": [
+    "Weight of Despair",
+    "Wild Malady",
+    "Wild Savagery",
+    "Wildfire Phloem",
+    "Winter Orb",
+    "Wintertide",
+    "Wintertide Brand",
+    "Wintertide's End",
+    "Wisp's Blessing",
+    "Witchfire Brew",
+    "Withering Step",
+    "Worn Sandals",
+    "Wrath Aura",
+    "Wrath of the Cosmos",
+    "Wrath of the Drowned",
+    "You Fell For It Fool",
+    "You have the Blue Flag",
+    "You have the Green Flag",
+    "You have the Karui Spirit",
+    "You have the Red Flag"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Witchfire Brew\n|class_id                                = UtilityFlask\n|base_item                               = Stibnite Flask\n|explicit1                               = FlaskChargesUsedUnique__4\n|explicit2                               = VulnerabilityAuraDuringFlaskEffectUnique__1\n|flavour_text                            = \"Think of those that cursed us, judged us,<br />and burned our sisters upon the pyre.<br />Think of their names as you drink,<br />and even their children will feel what we do to them today.\"<br />-Vadinya, to her coven\n|release_version                         = 2.4.0\n}}\n\n'''Witchfire Brew''' is a [[unique]] {{il|Stibnite Flask}}.\n\n==Mechanics==\nThis flask creates a curse aura around the user, similar to {{il|Despair}} supported by {{il|Blasphemy Support}}. This effect does not bypass the [[Curse#Curse limit|curse limit]]. The Despair effect reduces Chaos Resistance by approximately 25% at baseline instead of the expected 30%.<ref>https://www.pathofexile.com/forum/view-thread/3450488</ref>\n\nThis curse aura's stats are affected by {{c|mod|#% increased Effect of your Curses}}, but not by {{c|mod|Flasks applied to you have #% increased Effect}}<ref>https://www.reddit.com/r/pathofexile/comments/4z8dvv/comment/d6u3v4p/</ref> or stats that only apply to [[skill]]s, like {{c|mod|% increased Area of Effect}} or {{c|mod|% increased Despair Curse Effect}}.\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.50 seconds instead.\n\n==Legacy variants==\nWitchfire Brew has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0|Creates a Smoke Cloud on Use|\n*{{c|mod|50% increased Charges per use}} \n*{{c|mod|(25-40)% increased Damage Over Time during Flask Effect}}\n* Grants level 21 Despair Curse Aura during Flask Effect\n}}\n{{legacy variant table row|3.0.0|Creates a Smoke Cloud on Use|\n*{{c|mod|50% increased Charges per use}} \n*{{c|mod|(50-70)% increased Damage Over Time during Flask Effect}}\n*Grants level 21 Despair Curse Aura during Flask Effect\n}}\n{{Legacy variant table end}}\n\n==Design attribution==\nWitchfire Brew was created by supporter [https://www.pathofexile.com/account/view-profile/retruber-0792 retruber].<ref>https://www.pathofexile.com/forum/view-thread/1721533/page/2#p13628985</ref>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* No longer has 25-40% increased Damage Over Time during Flask Effect. Now has -10 to 10% increased Charges Used (previously 50% increased). These modifier changes affect all versions of this item, though you will need to use a {{il|Divine Orb}} to obtain the new values.\n}}\n{{Version history table row|3.10.1d|\n* Fixed a bug where using the Witchfire Brew unique flask while you had the [[Master of Fear]], [[Dark Discourse]] or [[Evil Eye]] notable passive skills allocated caused the negative effects of those notables to also affect you.\n}}\n{{Version history table row|3.1.1b|\n* Fixed a bug with Witchfire Brew where it would cause map [[curse]]s to have double their effect.\n}}\n{{Version history table row|3.1.0|\n* Now creates [[Despair]] curse aura on use (instead of [[Vulnerability]]).\n* This affects all versions of the item.\n}}\n{{Version history table row|3.0.0|\n* The following changes can be obtained by rerolling the item's mods with a {{il|Divine Orb}}:\n* '''Witchfire Brew''': Increased Damage over Time lowered to 25-40%.\n}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}\n==References==\n{{reflist}}\n[[Category:Unique items created by supporters]]",
+  "sha256": "98b24505edc02738fd4fa56ebb5fc549de0e95312cf385b6a13169b3498e80a0"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Rats",
+  "pageId": 13409,
+  "revision": 1682512,
+  "timestamp": "2026-07-26T23:28:27Z",
+  "retrieved": "2026-11-14T10:57:38.769469+00:00",
+  "requested": [
+    "Quartz Flask",
+    "Quicksand",
+    "Quicksand ",
+    "Quicksilver Flask",
+    "RED BUFF",
+    "RENAME ME",
+    "Radiant Crusade",
+    "Radiant Crusade's Onslaught",
+    "Radiant Faith",
+    "Radiant Ground",
+    "Radiating Tempest",
+    "Raised Spider",
+    "Rakiata's Leadership",
+    "Rallied",
+    "Rallying Cry",
+    "Rat Tornado",
+    "Rats",
+    "Ravenous - Beast",
+    "Ravenous - Construct",
+    "Ravenous - Demon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Rats\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Whoever said 'more is always better' has obviously never met a rat.\n|drop_level                              = 55\n|tags                                    = armour_divination, unique_divination, unique_armour_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardRats\n|stack_size                              = 8\n|description                             = {{c|unique|{{iil|Rat's Nest}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 2_8_9, 2_9_9\n|release_version                         = 2.1.1c\n}}\n\n'''Rats''' is a [[divination card]]. A set of eight can be exchanged for {{il|Rat's Nest}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous. \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Armoury|Arsenal}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Armoury}}\n* Drop level changed from 41 to 55. {{Undocumented}}\n}}\n{{Version history table row|3.23.0|\n* {{il|Azure Rage}}, Rats, {{il|The Tireless Extractor}}, {{il|The Return of the Rat}}, and {{il|Three Faces in the Dark}} can now be found in the {{il|Port Map}}.\n}}\n{{Version history table row|3.0.0|\n* Cruel and Merciless difficulty and thus former drop locations are removed.\n}}\n{{Version history table row|2.1.1c|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "b53dabd273c93326050c026d0e96b4bcb359dc4ce09b052e44ef69a39f321837"
+}

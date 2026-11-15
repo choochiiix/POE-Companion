@@ -1,0 +1,33 @@
+{
+  "title": "Always Crit Aura",
+  "pageId": 129816,
+  "revision": 1493661,
+  "timestamp": "2025-02-04T17:49:41Z",
+  "retrieved": "2026-11-14T10:57:09.421653+00:00",
+  "requested": [
+    "Ahuana's Leadership",
+    "Akoya's Leadership",
+    "Alchemist's Genius",
+    "Alchemist's Mark",
+    "Alivia's Grace",
+    "Allflame Infused Coral",
+    "Alva's Gift",
+    "Always Crit Aura",
+    "Ambu's Charge",
+    "Ambush",
+    "Amethyst Flask",
+    "Ancestral Cry",
+    "Ancestral Earthbreaker",
+    "Ancestral Protector",
+    "Ancestral Warchief",
+    "Ancient Wisdom",
+    "Anger Aura",
+    "Anger's Intensity",
+    "Annihilating Light",
+    "Aquamarine Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Always Crit Aura\n|icon=Always Crit Aura buff icon.png\n|type=Buff\n|description=Allies always get Critical Strikes\n|bonuses= You and your Allies' Hits are always Critical Strikes\n}}\n\n'''Always Crit Aura''' is a [[monster aura]]. It is granted by a [[Diamond Totem]].\n\n==Gallery==\n<gallery>\nFile:Diamond Totem aura.png|A Diamond Totem with the Always Crit Aura and a monster affected by it\n</gallery>\n\n[[Category:Monster auras]]\n[[Category:Buffs]]",
+  "sha256": "a030798f30a297c47e98e2a36e96b27233cd110dec7b02e053f7c2401dd17252"
+}

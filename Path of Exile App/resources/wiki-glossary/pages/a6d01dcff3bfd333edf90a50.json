@@ -1,0 +1,33 @@
+{
+  "title": "Intensity",
+  "pageId": 8790,
+  "revision": 1660574,
+  "timestamp": "2026-07-07T15:29:21Z",
+  "retrieved": "2026-11-14T10:57:31.007163+00:00",
+  "requested": [
+    "Intensity",
+    "Intervention",
+    "Intimidating Cry",
+    "Intuitive Link",
+    "Invulnerability",
+    "Invulnerable",
+    "Iron Flask",
+    "Iron Manacles",
+    "Ironwood Tincture",
+    "Izaro Damage",
+    "Izaro Damage Taken",
+    "Izaro Speed",
+    "Jade Flask",
+    "Jewel Mod Thief",
+    "Jolt",
+    "K'Tash's Anger",
+    "K'Tash's Magnificence",
+    "Kahuturoa's Leadership",
+    "Kalisa's Grace",
+    "Kalisa's Joy"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the legacy cluster jewel passive skill|Intensity (passive skill)}}\n'''Intensity''' is a counter for several in-game mechanics. Intensity is gained by using the skill that grants it and decays while [[moving]].\n\n{{il|Intensify Support}} improves area damage and decreases area of effect as you gain Intensity. {{il|Pinpoint Support}} improves projectile damage and decreases the number of fired projectiles as you gain Intensity. {{il|Crackling Lance}} scales beam width, branching angle and damage with Intensity.\n\n==Mechanics==\nWithout other items and passive skills, the maximum stack of Intensity is 3. An Intensity stack is lost once every 0.5 seconds while moving.\n\n{{il|Intensify Support}} and {{il|Pinpoint Support}} cannot support [[trigger]]ed skills, [[Vaal skill]]s, [[instant]] skills, [[channelling]] skills, skills with a [[reservation]] or which create [[minion]]s, or skills used by [[totem]]s, [[trap]]s, or [[mine]]s. Similarly, Crackling Lance will only gain Intensity when you \"cast it\", implying you do not gain Intensity if the skill is used by totems, traps or mines, or if it is triggered.\n\nWhen a gem is added to or removed from an item which currently has a skill with Intensity stacks socketed, those Intensity stacks are removed. The skill also stops gaining Intensity from (for example) the {{c|mod|Spells which have gained Intensity Recently gain 1 Intensity every 0.5 seconds}} modifier on {{il|Apex Mode}} until intensity is gained again. This means there are no known ways to interact Intensity with totems, traps, mines or triggering.\n\n==Skill gems==\n{{Drop enabled gem table\n|where = items.class_id=\"Active Skill Gem\"\n  AND (skill.description LIKE \"%Intensity%\"\n    OR skill.stat_text LIKE \"%Intensity%\")\n}}\n\n==Support gems==\n{{Drop enabled gem table\n|where = items.class_id=\"Support Skill Gem\"\n  AND (skill.description LIKE \"%Intensity%\"\n    OR skill.stat_text LIKE \"%Intensity%\")\n}}\n\n==Status icons==\n{| class=\"wikitable\"\n|-\n! Gems !! graphic !! Status icon name !! description\n|-\n|{{il|Desecrate}} + {{il|Intensify Support}} || [[File:Intensity status icon 2.png|64px]] || Intensity || This spell has built up intensity from consecutive casts. Removed by moving.\n|-\n| {{il|Ball Lightning}} + {{il|Pinpoint Support}} || [[File:Intensity (Pinpoint Ball Lightning) status icon.png|64px]] || Intensity ||  This spell has built up intensity from consecutive casts. Removed by moving. \n|-\n| {{il|Crackling Lance}} || [[File:Intensity (Crackling Lance) status icon.png|64px]] || Intensity || This spell has built up intensity from consecutive casts. Removed by moving. \n|}\n\n==Related modifiers==\nThe following mods are related to Intensity:\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Intensity%\" OR mod_stats.id LIKE \"%Intensify%\"\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}\n\n===Legacy mod===\nThe following legacy mod is related to '''Intensity '''\n{{Modifier table\n|q_tables = mod_stats\n|q_join = mods._pageID=mod_stats._pageID\n|q_where = mod_stats.id LIKE \"%Intensity%\" AND mods.domain = \"21\"\n|stat_text=1\n|level=1\n|domain=1\n}}\n\n==Related unique items==\nThe following [[unique item]]s are related to Intensity:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Intensity%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Passive skills==\nThese passive skills are related to Intensity:\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to intensity:\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%intensity%\"}}\n\n===Cluster jewel passives===\nThe following [[cluster jewel]]-only passives are related to Intensity, these passives are legacy only and can no longer be created:\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"  \nAND passive_skills.stat_text LIKE \"%Intensity%\"\n|large=1\n|stat_text=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* Intensity Stacks are now lost every 0.5 seconds while Moving (previously every 0.25 seconds).\n}}\n{{Version history table row|3.16.0|\n* The notable, Intensity is removed from the main passive skill tree. Existing item anointed with Intensity , would allocate Infused Flesh instead. This does not affect the cluster jewel version of the Intensity.\n}}\n{{Version history table row|3.12.0|\n* Intensity now has a maximum of 3 stacks (from 4).\n* Intensity is no longer tied to {{il|Intensify Support}}, as skills such as {{il|Crackling Lance}} can utilise Intensity.\n}}\n{{Version history table row|3.11.0|\n* The related notable passive skill [[Intensity (passive skill)|Intensity]] has been moved to the main skill tree. The cluster jewel counterpart can no longer be spawned on new item. {{Undocumented}}\n}}\n{{Version history table row|3.10.1d|\n* Fixed a bug where {{il|Shock Nova}} and {{il|Blade Blast}}'s skill effects were not the correct visual size when cast with 9 or more stacks of Intensity.\n* Fixed an instance crash that could occur when using {{il|Blade Vortex}} while you had 9 or more stacks of Intensity.\n}}\n{{Version history table row|3.10.0|\n* Maximum stack of Intensity can now be scaled by the cluster jewel notable [[Intensity (passive skill)|Intensity]]. {{Undocumented}}\n}}\n{{Version history table row|3.6.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Game mechanics]]",
+  "sha256": "9e9ac9598afefc519e163a9b8b0292e72298c063340820f51767b72463bcc7a1"
+}

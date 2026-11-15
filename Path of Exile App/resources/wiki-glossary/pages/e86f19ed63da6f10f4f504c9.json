@@ -1,0 +1,33 @@
+{
+  "title": "Overkill damage",
+  "pageId": 12110,
+  "revision": 1697807,
+  "timestamp": "2026-07-31T21:59:52Z",
+  "retrieved": "2026-11-14T10:11:17.301092+00:00",
+  "requested": [
+    "Swords",
+    "Maces",
+    "Sceptres",
+    "hits",
+    "endurance charges",
+    "defences",
+    "inventory",
+    "overkill damage",
+    "frozen",
+    "Unique Jewel",
+    "Aspect",
+    "Guard Skills",
+    "Combat Rush",
+    "Phantasm",
+    "Flame-Touched",
+    "Approaching Flames",
+    "Trauma",
+    "Pact skill",
+    "Drenched",
+    "Mania"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "\nThe term '''overkill damage''' refers to a [[killing blow]]'s [[damage]] in excess of the target's remaining [[life]].<ref name=\"OverkillCalc\"/><ref name=\"OverkillCulling\"/> \n\n==Mechanics==\n===Damage===\nOverkill damage is calculated by subtracting the target's remaining health from the amount of damage done. For example, if a target has 10 life and 10 [[energy shield]], and an attacker deals a hit of 100 damage, the target dies and the overkill damage is 80. If overkill damage is not greater than 0, it is ignored.\n\nThe term does not apply to [[damage over time]] because a hit is required; damage over time can never overkill.<ref>https://www.reddit.com/r/pathofexile/comments/vhcdn9/ggg_can_we_get_some_clarification_on_gravebind/id95xsl/?context=3</ref>\n\n===Interactions with culling strike===\nOverkill and culling can fundamentally never interact.<ref name=\"OverkillCulling\"/> [[Culling strike]] and [[Headsman]] kill the target directly, without inflicting damage to them. This means that, if a hit fails to kill a target, but triggers a culling effect, the enemy will be killed without any additional damage being dealt, and the overkill damage, as calculated, will not be greater than 0, and will be ignored. Notably, culling effects do not prevent overkill effects from occurring—if a hit deals enough damage to bypass the culling range entirely, the culling effects are skipped, and overkill damage will function as normal.\n\n==Related skills==\nThe following skills utilize the overkill mechanic:\n* {{il|Herald of Ash}}\n* [[Endless Hunger]]\n\n==References==\n{{reflist|refs=\n<ref name=\"OverkillCalc\">{{cite web|author=Mark_GGG|date=August 21, 2014|title=Herald of Ash|url=http://www.pathofexile.com/forum/view-thread/999135#p8492959|publisher=Official Path of Exile Forums|accessdate=June 20, 2016}}</ref>\n<ref name=\"OverkillCulling\">{{cite web|author=Mark_GGG|date=November 1, 2016|title=Mechanical Questions Thread|url=https://www.pathofexile.com/forum/post-reply/1676002/quote/13842615|publisher=Official Path of Exile Forums|accessdate=December 7, 2023}}</ref>\n}}\n\n[[Category: Game mechanics]]",
+  "sha256": "fa137c7826c8faf854265311c9a8fe8e423a3541516e166725c895e0f6e64351"
+}

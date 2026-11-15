@@ -1,0 +1,33 @@
+{
+  "title": "Ursa",
+  "pageId": 18441,
+  "revision": 1360633,
+  "timestamp": "2023-06-27T03:33:37Z",
+  "retrieved": "2026-11-14T10:11:19.063668+00:00",
+  "requested": [
+    "Ursa",
+    "Ground Slam",
+    "Warcries",
+    "Retaliation",
+    "Daggers",
+    "Claws",
+    "Divinity",
+    "ranger",
+    "Shepherd of Souls",
+    "Fanaticism",
+    "Enchantments",
+    "Vaal skill gem",
+    "Gluttony of Elements",
+    "Harbinger",
+    "Dominus",
+    "Silence",
+    "smoke cloud",
+    "Vaal Gem",
+    "Sextant",
+    "conquered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Ursae''' is a monster group (akin to [[wikipedia:Subfamily|subfamily]] of real world biology). According to the in-game [[Bestiary]], it has two [[wikipedia:Genus|genera]] in-game: [[gargantuan]] and [[Plummeting ursa (monster type)|plummeting ursa]]. Ursae belongs to The Wilds [[wikipedia:family (biology)|family]].\n\nUrsa in Latin means (female) bear.<ref>https://en.wiktionary.org/wiki/ursa</ref> The male form is ursus.<ref>https://en.wiktionary.org/wiki/ursus</ref> The in-game monster [[Tyrannursus Maximus]] is an undead gargantuan.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.2.0|\n* Lore linkage of plummeting ursa and [[gargantuan]] is released as part of [[Bestiary league]].\n}}\n{{Version history table row|1.2.3|\n* Plummeting Ursa is introduced to the game.\n}}\n{{Version history table row|0.10.0|rel=before|\n* [[gargantuan]] monster type is introduced to the game. {{Undocumented}}\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n\n{{Navbox Bestiary}}\n\n[[Category:Monster types]]",
+  "sha256": "e46cc949f6fe48e61780dfd0dc82343032c1a48682e195135c70f45ba7ef1f15"
+}

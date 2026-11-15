@@ -1,0 +1,33 @@
+{
+  "title": "Amethyst Flask",
+  "pageId": 477,
+  "revision": 1488335,
+  "timestamp": "2024-10-13T03:30:30Z",
+  "retrieved": "2026-11-14T10:57:09.419653+00:00",
+  "requested": [
+    "Ahuana's Leadership",
+    "Akoya's Leadership",
+    "Alchemist's Genius",
+    "Alchemist's Mark",
+    "Alivia's Grace",
+    "Allflame Infused Coral",
+    "Alva's Gift",
+    "Always Crit Aura",
+    "Ambu's Charge",
+    "Ambush",
+    "Amethyst Flask",
+    "Ancestral Cry",
+    "Ancestral Earthbreaker",
+    "Ancestral Protector",
+    "Ancestral Warchief",
+    "Ancient Wisdom",
+    "Anger Aura",
+    "Anger's Intensity",
+    "Annihilating Light",
+    "Aquamarine Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Amethyst Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 18\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility7\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 18\n|flask_duration                          = 6.5\n|buff_id                                 = flask_utility_resist_chaos\n|buff_value1                             = 35\n|buff_stat_text                          = +35% to [[Chaos Resistance]]\n|charges_max                             = 65\n|charges_per_use                         = 35\n|release_version                         = 0.10.0\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Key to Freedom\n|quest_reward1_quest_id                  = a5q2\n|quest_reward1_act                       = 5\n}}\n{{status\n| name                   = Amethyst Flask\n| type                   = Flask Effect\n| description = {{c|normal|You have additional Chaos Resistance}}\n}}\n\n'''Amethyst Flask''' is a [[utility flask]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.50 seconds instead.\n\n==Gallery==\n<gallery>\nAmethyst Flask effect.jpg|Amethyst Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''6.5''' seconds (previously 4.5).\n}}\n{{Version history table row|3.15.0|\n* '''Amethyst Flask''' now lasts 4.5 seconds (previously 3.5). Now consumes 35 of 65 Charges on use (previously 30 of 60).\n* Upon completing {{ql|The Key to Freedom}}, you are now offered a choice of the following rewards: {{il|Ruby Flask}}, {{il|Sapphire Flask}}, {{il|Topaz Flask}}, '''Amethyst Flask''', {{il|Diamond Flask}}, {{il|Granite Flask}}, or {{il|Jade Flask}}.\n}}\n{{Version history table row|0.10.0|\n*Added to game\n}}\n{{Version history table end}}",
+  "sha256": "ce751fdd841a871857abf85c827f0a3bd82ef67db5df83b5a4e05bbe49de8c1d"
+}

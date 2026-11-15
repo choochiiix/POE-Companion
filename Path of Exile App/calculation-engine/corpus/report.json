@@ -1,0 +1,1961 @@
+{
+  "schemaVersion": 1,
+  "archiveSha256": "6ea36e73649da26741fd0c1c3bd57a99e589db84191f0e0578f320b1921cc34b",
+  "allMatch": true,
+  "fixtureCount": 16,
+  "comparisonCount": 288,
+  "results": [
+    {
+      "id": "spell-baseline",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.3333333333333333,
+          "expected": 1.3333333333333,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 18.45,
+          "expected": 18.45,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 24.599999999999998,
+          "expected": 24.6,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        },
+        {
+          "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+          "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "spell-level20",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.3333333333333333,
+          "expected": 1.3333333333333,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 3705.8875,
+          "expected": 3705.8875,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 4941.1833333333325,
+          "expected": 4941.1833333333,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        },
+        {
+          "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+          "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "spell-resistant-enemy",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.3333333333333333,
+          "expected": 1.3333333333333,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 926.471875,
+          "expected": 926.471875,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 1235.2958333333331,
+          "expected": 1235.2958333333,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        },
+        {
+          "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+          "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "spell-negative-resistance",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.3333333333333333,
+          "expected": 1.3333333333333,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 27.674999999999997,
+          "expected": 27.675,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 36.89999999999999,
+          "expected": 36.9,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        },
+        {
+          "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+          "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "spell-speed-critical",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.7333333333333334,
+          "expected": 1.7333333333333,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 10,
+          "expected": 10,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 4389.525000000001,
+          "expected": 4389.525,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 7608.510000000001,
+          "expected": 7608.51,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        },
+        {
+          "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+          "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "defensive-pools",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 462,
+          "expected": 462,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 260,
+          "expected": 260,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 46,
+          "expected": 46,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.3333333333333333,
+          "expected": 1.3333333333333,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 18.45,
+          "expected": 18.45,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 24.599999999999998,
+          "expected": 24.6,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        },
+        {
+          "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+          "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "resistance-overcap",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 75,
+          "expected": 75,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 30,
+          "expected": 30,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": -30,
+          "expected": -30,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": -40,
+          "expected": -40,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.3333333333333333,
+          "expected": 1.3333333333333,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 18.45,
+          "expected": 18.45,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 24.599999999999998,
+          "expected": 24.6,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        },
+        {
+          "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+          "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attributes",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 64,
+          "expected": 64,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 64,
+          "expected": 64,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 82,
+          "expected": 82,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 310,
+          "expected": 310,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 211,
+          "expected": 211,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 17,
+          "expected": 17,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.3333333333333333,
+          "expected": 1.3333333333333,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 18.45,
+          "expected": 18.45,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 24.599999999999998,
+          "expected": 24.6,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        },
+        {
+          "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+          "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attack-baseline",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.55,
+          "expected": 1.55,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 6.6625,
+          "expected": 6.6625,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 10.326875,
+          "expected": 10.326875,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attack-evasion",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.55,
+          "expected": 1.55,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 3.7,
+          "expected": 3.7,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 74,
+          "expected": 74,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 4.898985,
+          "expected": 4.898985,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 7.59342675,
+          "expected": 7.59342675,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attack-speed-crit",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 2.015,
+          "expected": 2.015,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 10,
+          "expected": 10,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 10.5,
+          "expected": 10.5,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 21.157500000000002,
+          "expected": 21.1575,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attack-armour",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.55,
+          "expected": 1.55,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 1.703518907563025,
+          "expected": 1.703518907563,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 2.640454306722689,
+          "expected": 2.6404543067227,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attack-conversion",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.55,
+          "expected": 1.55,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 6.918749999999999,
+          "expected": 6.91875,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 10.724062499999999,
+          "expected": 10.7240625,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attack-gain",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.55,
+          "expected": 1.55,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 8.2,
+          "expected": 8.2,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 12.709999999999999,
+          "expected": 12.71,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attack-conversion-scaling",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.55,
+          "expected": 1.55,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 11.274999999999999,
+          "expected": 11.275,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 17.476249999999997,
+          "expected": 17.47625,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        }
+      ]
+    },
+    {
+      "id": "attack-conversion-chain",
+      "allMatch": true,
+      "comparisons": [
+        {
+          "stat": "Str",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Dex",
+          "actual": 14,
+          "expected": 14,
+          "matches": true
+        },
+        {
+          "stat": "Int",
+          "actual": 32,
+          "expected": 32,
+          "matches": true
+        },
+        {
+          "stat": "Life",
+          "actual": 285,
+          "expected": 285,
+          "matches": true
+        },
+        {
+          "stat": "Mana",
+          "actual": 186,
+          "expected": 186,
+          "matches": true
+        },
+        {
+          "stat": "Armour",
+          "actual": 23,
+          "expected": 23,
+          "matches": true
+        },
+        {
+          "stat": "Evasion",
+          "actual": 15,
+          "expected": 15,
+          "matches": true
+        },
+        {
+          "stat": "EnergyShield",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "FireResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ColdResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "LightningResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "ChaosResist",
+          "actual": 0,
+          "expected": 0,
+          "matches": true
+        },
+        {
+          "stat": "Speed",
+          "actual": 1.55,
+          "expected": 1.55,
+          "matches": true
+        },
+        {
+          "stat": "CritChance",
+          "actual": 5,
+          "expected": 5,
+          "matches": true
+        },
+        {
+          "stat": "CritMultiplier",
+          "actual": 1.5,
+          "expected": 1.5,
+          "matches": true
+        },
+        {
+          "stat": "HitChance",
+          "actual": 100,
+          "expected": 100,
+          "matches": true
+        },
+        {
+          "stat": "AverageDamage",
+          "actual": 7.175,
+          "expected": 7.175,
+          "matches": true
+        },
+        {
+          "stat": "TotalDPS",
+          "actual": 11.12125,
+          "expected": 11.12125,
+          "matches": true
+        }
+      ],
+      "diagnostics": [
+        {
+          "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+          "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+        }
+      ]
+    }
+  ]
+}

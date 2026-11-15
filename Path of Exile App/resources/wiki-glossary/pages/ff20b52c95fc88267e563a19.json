@@ -1,0 +1,33 @@
+{
+  "title": "Smothered",
+  "pageId": 129989,
+  "revision": 1596893,
+  "timestamp": "2025-11-26T14:47:46Z",
+  "retrieved": "2026-11-14T10:57:44.401354+00:00",
+  "requested": [
+    "Siphoning Charges",
+    "Siphoning Ring",
+    "Siphoning Trap",
+    "Skeletal Shrine",
+    "Skitterbots",
+    "Slipstream",
+    "Slow",
+    "Slow Aura",
+    "Smite Aura",
+    "Smothered",
+    "Snared",
+    "Snipe",
+    "Sniper's Mark",
+    "Snow Bolt",
+    "Snow Cloak",
+    "Snowstorm",
+    "Soaked to the Bone",
+    "Solaris Shrine",
+    "Somatic Shell",
+    "Soothing Salve"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Smothered\n| type                   = Debuff\n| description            = You recover Life, Mana and Energy Shield more slowly.\n}}\n\n'''Smothered''' is a [[debuff]] that applies less [[recovery]] rate of [[life]], [[mana]], and [[energy shield]]. \n\n==Mechanics and sources==\nAs a debuff to recovery ''rate'', Smothered only modifies over-time recovery. \n\nSmothered is applied on [[hit]] by [[Embezzler's Offer]] (a variant of [[Aurate Warrior]]s) and [[Embezzler's Own]] (a variant of [[Aurate Archer]]s), summoned by {{c|torment|[[Tormented Embezzler]]}} and by monsters affected by its {{c|torment|Touch}}. Embezzler's Offers apply the debuff with a value of 50% less, while Embezzler's Owns apply 100% less. \n\n[[Category:Debuffs]]",
+  "sha256": "836d8c88ed178d19132c730c977eae5fe392e24cf5497e6c6e0f674476e12143"
+}

@@ -1,0 +1,72 @@
+/* Shared presentation extracted from the approved Character reference. */
+:root {--ui-panel-padding:16px;--ui-control-height:30px;--ui-row-height:34px;--ui-section-gap:24px}
+body {font-weight:400;letter-spacing:-.01em;font-feature-settings:'cv01' on,'ss03' on,'zero' on}
+body::before {display:none}
+.app-sidebar {background:var(--bg-secondary);border-right:1px solid var(--line);padding:24px 12px;box-shadow:none;backdrop-filter:none}
+.app-sidebar header {padding:0 8px;margin-bottom:24px}
+.app-sidebar .eyebrow {font-size:10px;letter-spacing:.06em;color:var(--text-muted)}
+.app-sidebar header h1 {font-size:13px;font-weight:510;letter-spacing:-.01em;text-transform:none;color:var(--text);margin-top:6px}
+.workspace-tabs {gap:4px}
+.workspace-tabs button {min-height:34px;padding:8px 12px;border:0;border-radius:6px;background:transparent;color:var(--text-muted);font-size:13px;font-weight:400;box-shadow:none;text-align:left}
+.workspace-tabs button[aria-pressed=true],.workspace-tabs button[aria-pressed=true]:hover {background:var(--selection-bg);color:var(--text);border:0;box-shadow:inset 2px 0 var(--accent)}
+.workspace-tabs button[aria-pressed=true]::before {display:none}
+.workspace-tabs button:hover {background:var(--surface);color:var(--text)}
+.app-sidebar #settingsButton {min-height:32px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--text-secondary);box-shadow:none;font-size:12px;padding:6px 12px}
+.sidebar-note {color:var(--text-muted);font-size:11px}
+.sidebar-note .connection-dot {background:var(--text-muted)}
+.workspace-bar {color:var(--text-muted);border-color:var(--line);font-size:12px}
+.workspace-bar b {color:var(--text-secondary);font-weight:400}
+.ui-panel {padding:var(--ui-panel-padding);background:var(--bg-secondary);border:1px solid var(--line);border-radius:6px;box-shadow:none;min-width:0}
+.ui-section-header {display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0;margin:0 0 12px}
+.ui-section-header h2,.ui-section-header h3 {margin:0;font-size:14px;font-weight:510}
+.ui-button,.ui-dialog button:not(.definition-term) {min-height:30px;border:1px solid var(--line);border-radius:6px;padding:6px 10px;background:transparent;color:var(--text-secondary);box-shadow:none;font:400 13px/1.4 var(--font-ui);letter-spacing:-.01em}
+.ui-button:hover:enabled,.ui-dialog button:hover:enabled {background:var(--selection-bg);border-color:var(--control-border)}
+.ui-button-primary {background:var(--accent);color:var(--bg);border-color:transparent;font-weight:510}
+.ui-button-primary:hover:enabled {background:var(--accent-hover)}
+.ui-field,.ui-dialog :is(input,select) {min-width:0;border:1px solid var(--line);border-radius:6px;padding:8px 12px;background:var(--surface);color:var(--text-secondary);font:400 13px/1.4 var(--font-ui);box-shadow:none}
+.ui-dialog {max-width:calc(100vw - 32px);max-height:calc(100dvh - 32px);padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--bg-secondary);color:var(--text-secondary);box-shadow:none;font-family:var(--font-ui)}
+.ui-dialog h2 {font-size:22px;font-weight:510;margin:0 0 16px}
+.ui-dialog label {font-size:13px;color:var(--text-secondary)}
+.ui-dialog::backdrop {background:#0009}
+.ui-dialog :is(button,input,select,summary):focus-visible,.ui-button:focus-visible,.ui-field:focus-visible {outline:2px solid var(--text-secondary);outline-offset:3px}
+.plan-switch {--spring-lead:620 36;--spring-trail:190 19;position:relative;isolation:isolate;display:flex;width:fit-content;max-width:100%;gap:0;padding:3px;background:var(--bg-secondary);border:1px solid var(--line);border-radius:10px}
+.plan-switch .plan-switch-highlight {position:absolute;left:0;top:3px;bottom:3px;width:100px;border-radius:7px;background:var(--surface);pointer-events:none;z-index:0;transform-origin:0 50%;will-change:transform}
+.plan-switch button {position:relative;z-index:1;min-height:30px;padding:6px 12px;border:0;border-radius:7px;background:transparent;color:var(--text-muted);font:400 12px/1.4 var(--font-ui);white-space:nowrap}
+.plan-switch button[aria-pressed=true] {color:var(--text);background:transparent}
+.plan-switch button:hover:enabled {background:transparent}
+@media(max-width:800px){.app-sidebar{padding:16px}.app-sidebar header{margin-bottom:12px}.workspace-tabs button{min-height:32px;padding:6px 10px}}
+@media(forced-colors:active){.ui-panel,.ui-dialog,.ui-button,.ui-field{border-color:CanvasText}.plan-switch button[aria-pressed=true]{outline:1px solid Highlight}}
+.spring-dropdown{position:relative;display:block;min-width:0;width:100%}
+.spring-dropdown select{width:100%;color:transparent;caret-color:transparent;appearance:none;padding-right:32px;cursor:pointer}
+.spring-dropdown select option{color:var(--text-secondary);background:var(--surface)}
+.spring-dropdown-value{position:absolute;left:12px;right:32px;top:0;bottom:0;display:flex;align-items:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;pointer-events:none;font:13px var(--font-ui);color:var(--text-secondary)}
+.spring-dropdown-chevron{position:absolute;right:12px;top:10px;pointer-events:none;color:var(--text-muted);font:16px/1 var(--font-ui)}
+.spring-dropdown-menu{position:fixed;inset:auto;margin:0;padding:4px;background:var(--surface);color:var(--text-secondary);border:1px solid var(--control-border);border-radius:8px;overflow:hidden;transform-origin:50% 0;font:13px/1.4 var(--font-ui);box-sizing:border-box}
+.spring-dropdown-menu>input{width:100%;height:36px;margin:0 0 4px;padding:6px 8px;font-size:12px}
+.spring-dropdown-options{position:relative;overflow:auto;max-height:calc(100% - 40px);overscroll-behavior:contain}
+.spring-dropdown-menu:has(>input[hidden]) .spring-dropdown-options{max-height:100%}
+.spring-dropdown-option{position:relative;z-index:1;height:32px;padding:7px 24px 7px 8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;box-sizing:border-box}
+.spring-dropdown-option[aria-selected=true]::after{content:'✓';position:absolute;right:8px;color:var(--accent)}
+.spring-dropdown-option[aria-disabled=true]{opacity:.45!important;cursor:not-allowed}
+.spring-dropdown-highlight{position:absolute;left:0;right:0;background:#ffffff0d;border-radius:5px;pointer-events:none}
+@media(forced-colors:active){.spring-dropdown-option[aria-selected=true]{outline:1px solid Highlight}.spring-dropdown-highlight{border:1px solid Highlight}}
+
+/* Source-like paired lift and two rolling value slots. */
+.spring-dropdown select {background:var(--surface);border-color:transparent;box-shadow:none}
+.spring-dropdown-value {overflow:hidden}
+.spring-dropdown-value>span {position:absolute;left:0;right:0;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.spring-dropdown-menu {padding:6px;border:0;background:var(--surface);border-radius:8px}
+.spring-dropdown-option {border-radius:6px}
+.spring-dropdown-highlight {border-radius:6px}
+.spring-dropdown-chevron {width:18px;height:18px;top:10px}
+.spring-dropdown-chevron svg {width:100%;height:100%;display:block}
+.spring-dropdown-option {display:flex;align-items:center;gap:10px;padding:0 10px}
+.spring-dropdown-option>span {flex:1;overflow:hidden;text-overflow:ellipsis}
+.spring-dropdown-option>svg {flex:none;width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.spring-dropdown-option>svg path {stroke-dasharray:22;stroke-dashoffset:22}
+.spring-dropdown-option[aria-selected=true]::after {display:none}
+
+/* Keep option lists scrollable without visible scrollbar chrome. */
+.spring-dropdown-options {scrollbar-width:none;-ms-overflow-style:none}
+.spring-dropdown-options::-webkit-scrollbar {display:none;width:0;height:0}
+

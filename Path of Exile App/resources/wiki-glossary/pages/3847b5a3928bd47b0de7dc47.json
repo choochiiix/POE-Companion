@@ -1,0 +1,33 @@
+{
+  "title": "Lightning Damage Aura",
+  "pageId": 129823,
+  "revision": 1484223,
+  "timestamp": "2024-09-28T10:46:44Z",
+  "retrieved": "2026-11-14T10:57:32.576090+00:00",
+  "requested": [
+    "Life Regeneration Aura",
+    "Lifetap",
+    "Light",
+    "Lightning Aegis",
+    "Lightning Beam",
+    "Lightning Bomb",
+    "Lightning Bond",
+    "Lightning Clone Retaliation",
+    "Lightning Damage Aura",
+    "Lightning Damage and Shock",
+    "Lightning Empowered",
+    "Lightning Empowerment",
+    "Lightning Exposure",
+    "Lightning Golem",
+    "Lightning Golem Wrath",
+    "Lightning Reprisal",
+    "Lightning Resistance Loss",
+    "Lightning Shrine",
+    "Lightning Swarm",
+    "Lion's Roar"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Lightning Damage Aura\n|icon=Wrath skill icon.png\n|type=Buff\n|description=Allies deal additional lightning damage\n|bonuses= Allies gain #% of Physical Damage as Extra Lightning Damage\n}}\n\n'''Lightning Damage Aura''' is a [[monster aura]]. It is granted by [[Shocking Totem]] and several other monsters.\n\n==Gallery==\n<gallery>\nFile:Lightning Damage Aura.png|A Shocking Totem with the Lightning Damage Aura and a monster affected by it\n</gallery>\n\n[[Category:Monster auras]]",
+  "sha256": "7d38d55e8af2a7876d8728bab3cea2b3d973f6077b47b424395d747c0b7b0827"
+}

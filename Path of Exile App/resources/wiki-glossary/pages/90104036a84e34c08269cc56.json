@@ -1,0 +1,35 @@
+{
+  "title": "Bloodsoaked Blade",
+  "pageId": 129175,
+  "revision": 1618357,
+  "timestamp": "2026-02-24T15:42:35Z",
+  "retrieved": "2026-11-14T10:11:15.603056+00:00",
+  "requested": [
+    "Ersi",
+    "Eldritch",
+    "the Eater of Worlds",
+    "Fractured",
+    "The Eater of Worlds",
+    "Pact",
+    "Vaal gem",
+    "Light radius",
+    "explosion",
+    "tinctures",
+    "Weeping Wounds",
+    "belts",
+    "The Viridian Wildwood",
+    "Master",
+    "Abyss",
+    "Breach",
+    "Grasping Vines",
+    "Shrine",
+    "Debilitate",
+    "Wither"
+  ],
+  "aliases": [
+    "Weeping Wounds"
+  ],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Bloodsoaked Blade}}\n\n'''Bloodsoaked Blade''' is a [[keystone passive skill]] that replaces Mana Burn and all related mechanics on [[tincture]]s with Weeping Wounds, draining [[life]] instead.\n\n==Mechanics==\nWeeping Wounds does the following: {{c|help|Weeping Wounds cause you to lose 1% of your Life per second per stack. Tinctures deactivate when you have 1 life remaining.}}\n\nIt is possible to use this keystone in synergy with {{psl|id=eternal_youth_keytone2692}} to greatly increase amount of Weeping Wounds, if you're able to avoid taking damage to your life pool.\n\n==Location==\nBloodsoaked Blade lies on the bottom right side of the tree, between the Duelist and Ranger locations.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Shadow||18\n|-\n|Ranger||8\n|-\n|Duelist||8\n|-\n|Scion||12\n|-\n|Witch||22\n|-\n|Templar||22\n|-\n|Marauder||17\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Bloodsoaked Blade%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "54c38746f8ce97a4b504760f34e1b2458b7cd709cba38e8f5eb3a9e262ccc627"
+}

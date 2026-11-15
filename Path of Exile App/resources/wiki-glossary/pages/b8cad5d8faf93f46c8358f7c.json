@@ -1,0 +1,33 @@
+{
+  "title": "The Feast",
+  "pageId": 16878,
+  "revision": 1682423,
+  "timestamp": "2026-07-26T23:26:11Z",
+  "retrieved": "2026-11-14T10:57:48.401691+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Feast\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Shame what happened to my husband. He had such good taste.\n|drop_level                              = 56\n|tags                                    = unique_divination, unique_jewellery_divination, unique_corrupted_divination, corrupted_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheFeast\n|stack_size                              = 5\n|description                             = {{c|unique|{{iil|Romira's Banquet}}}}<br>{{c|corrupted|Corrupted}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 2_8_2_1, 2_8_2_2\n|release_version                         = 2.0.0\n}}\n\n'''The Feast''' is a [[divination card]]. A set of five can be exchanged for a [[corrupted]] {{il|Romira's Banquet}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThe Feast was created by supporter [https://www.pathofexile.com/account/view-profile/retruber retruber].{{Citation needed}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Lair of the Hydra|Toxic Sewer|Waste Pool}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Infested Valley|Lair of the Hydra|Toxic Sewer}}\n* Drop level changed from 45 to 56. {{Undocumented}}\n}}\n{{Version history table row|3.22.0|\n* The Feast now also drops from Doedre's Cesspool. {{Divcord}}\n}}\n{{Version history table row|?|\n* Due to drop level requirements, no longer drops in the The Sewers. {{Undocumented}}\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "e15cb63ecfe86561282ed309852df0c41286b1dadff0dc1164e818bd188e2288"
+}

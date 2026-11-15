@@ -1,0 +1,47 @@
+.unique-card,.gem-card {
+  min-width:0;
+  position:relative;
+  text-align:center;
+  background:var(--reference-bg);
+  border-radius:var(--radius-card);
+  box-shadow:0 8px 24px var(--shadow-card-color);
+}
+/* In-game unique identity is independent of the surrounding application theme. */
+.unique-card:not(.equipped-gear-card) {
+  --reference-bg:var(--item-card-bg);
+  --reference-value:var(--item-card-normal);
+  --reference-mod:var(--item-card-mod);
+  --unique-color:var(--item-card-unique);
+  --text:var(--item-card-normal);
+  --text-secondary:var(--item-card-property);
+  --text-muted:var(--item-card-muted);
+  --line:var(--item-card-rule);
+  --font-display:Georgia,'Times New Roman',serif;
+  --font-reference:'Segoe UI',sans-serif;
+  color:var(--item-card-normal);
+  font-family:var(--font-reference);
+}
+.unique-card:focus-within,.unique-card:hover,.gem-card:focus-within,.gem-card:hover {
+  z-index:3;
+}
+.unique-card-body,.gem-card-body {
+  font-family:var(--font-reference);
+  font-size:var(--text-base);
+}
+.unique-card-art,.gem-card-art {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.unique-card-art img,.gem-card-art img {
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%;
+  object-fit:contain;
+}
+.unique-card-footer,.gem-card-footer {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}

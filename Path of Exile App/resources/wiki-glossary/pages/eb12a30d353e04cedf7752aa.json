@@ -1,0 +1,33 @@
+{
+  "title": "Summon Greater Harbinger of Storms",
+  "pageId": 16021,
+  "revision": 1649384,
+  "timestamp": "2026-05-22T23:39:57Z",
+  "retrieved": "2026-11-14T10:10:04.220324+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfStormsUber}}\n\n'''Summon Greater Harbinger of Storms''' is a [[skill]] granted by {{il|The Tempest's Liberation}}. \n==See also==\n* {{sl|Summon Harbinger of Storms}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.12.0|\n* The skill used by the Greater Harbinger of Storms will no longer try to chain to targets it has already affected.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game as a skill granted by {{il|The Tempest's Liberation}}.  {{Undocumented}}\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "d02e04f343acb5546919e557e00f3d4ab0a3dff7bffa753fe63d07c2221b3bac"
+}

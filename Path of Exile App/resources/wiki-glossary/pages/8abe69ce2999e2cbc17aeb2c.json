@@ -1,0 +1,33 @@
+{
+  "title": "Cinders",
+  "pageId": 138089,
+  "revision": 1700377,
+  "timestamp": "2026-08-09T15:11:09Z",
+  "retrieved": "2026-11-14T10:57:15.865495+00:00",
+  "requested": [
+    "Chill Prevention",
+    "Chilling Aura",
+    "Chilling Barrier",
+    "Chilling Bond",
+    "Chilling Conflux",
+    "Chilling Vision",
+    "Chiropteran Procession",
+    "Choking Miasma",
+    "Chronos Statue Life Regen",
+    "Cinderflame",
+    "Cinders",
+    "Cinderswallow Urn",
+    "Clarity Aura",
+    "Coated in Azurite",
+    "Cogs of Disruption",
+    "Cold Aegis",
+    "Cold Beam",
+    "Cold Damage Aura",
+    "Cold Damage and Freeze",
+    "Cold Empowered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=ResentmentUniqueSkill}}\n\n'''Cinders''' is a [[trigger]]ed [[spell]] granted by {{il|The Flame of Hope}}. \n\n__TOC__\n\n==Skill functions and interactions==\nWhile active, [[bow]] attacks inflict Cinderflame, a stackable [[fire]] [[damage over time]] debuff that deals 333.3 base fire damage per second for 3 seconds, and can stack up to 10 times.\n\n==Skill level progression==\n{{Skill progression\n|skill_id=ResentmentUniqueSkill\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n[[Category:Active Skill]]",
+  "sha256": "ec65f2e957903e0c6b8187d68fd78cb0b240207c67f096eecc56fe575097d604"
+}

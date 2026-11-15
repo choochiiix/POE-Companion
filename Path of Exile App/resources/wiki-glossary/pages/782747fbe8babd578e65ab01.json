@@ -1,0 +1,33 @@
+{
+  "title": "Summon Greater Harbinger of Brutality",
+  "pageId": 16018,
+  "revision": 1649381,
+  "timestamp": "2026-05-22T23:39:53Z",
+  "retrieved": "2026-11-14T10:10:04.218815+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfBrutalityUber}}\n\n'''Summon Greater Harbinger of Brutality''' is a [[skill]] granted by {{il|The Yielding Mortality}}.\n\n==Skill Functions and Interactions==\nThe summoned Harbinger is immortal, and will occasionally apply the ''The Yielding Mortality'' [[buff]] on the player. ''The Yielding Mortality'' lasts 8 seconds, with a cooldown of 20 seconds, and grants the following benefits:\n* 50% increased Damage\n* 15% Damage Reduction\n* 30% increased Attack Speed\n* 30% increased Movement Speed\n* Bleeding Enemies you Kill Explode, dealing 10% of their maximum Life as Physical Damage\n\n==See also==\n* {{sl|Summon Harbinger of Brutality}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "6006156ec33163e11846dc66ab0a8a432819599c5ef454d6f9ac667310f60696"
+}

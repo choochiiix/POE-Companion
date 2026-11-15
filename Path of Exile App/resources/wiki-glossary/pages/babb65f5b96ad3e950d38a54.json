@@ -1,0 +1,33 @@
+{
+  "title": "Diluting Touch",
+  "pageId": 5073,
+  "revision": 1486304,
+  "timestamp": "2024-10-13T02:16:04Z",
+  "retrieved": "2026-11-14T10:57:19.960711+00:00",
+  "requested": [
+    "Digestive Acid",
+    "Diluting Touch",
+    "Discipline Aura",
+    "Disgorge",
+    "Divination Distillate",
+    "Divine Beam",
+    "Divine Blast of Radiance",
+    "Divine Charge",
+    "Divine Flare",
+    "Divine Ire",
+    "Divine Shrine",
+    "Divine Tempest",
+    "Doedre's Madness",
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering",
+    "Doomed",
+    "Doryani's Conflagration",
+    "Double Strike",
+    "Drained Essence"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Diluting Touch\n| type                   = Debuff\n| description = You are gaining less Flask Charges and your Flasks have reduced Effect. This debuff is removed when you stop being Delirious.\n| bonuses = {{c|mod|9% reduced Flask Charges gained}}<br>{{c|mod|9% reduced effect of Flasks on you}}\n}}\n\n'''Diluting Touch''' is a timed [[debuff]] caused by monsters with the [[Delirium league|Delirium]] modifier of [[Modifier:MonsterAfflictionMagicRewardDebuffFlaskEffect~|the same name]]. Players gain fewer flask charges and have reduced flask effect while affected by Diluting Touch. It can stack up to 10 times.\n\n==See also==\n* [[Beacon of Madness]] unique boots\n** {{sl|Embrace Madness}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0d|\n* Delirium modifiers are now applied on a per-pack basis. This means that a given pack of monsters will only have a single Delirium modifier, rather than potentially having a variety of different modifiers.\n* Significantly reduced the chance of Delirium modifiers appearing on monsters.\n}}\n{{Version history table row|3.10.0c|\n* Reduced the duration of the [[Wasting Touch]], [[Paralysing Touch]], [[Eroding Touch]] and '''Diluting Touch''' debuffs to three seconds.\n}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "391ac8ba3a977c0ab3aeb65a7b44827dae7e1de0a5061d8b49e6e83d4a8387cd"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Granite Flask",
+  "pageId": 7582,
+  "revision": 1488340,
+  "timestamp": "2024-10-13T03:30:42Z",
+  "retrieved": "2026-11-14T10:57:26.335266+00:00",
+  "requested": [
+    "Gathering Lightning",
+    "Ghastly Scythe",
+    "Ghorr's Magnificence",
+    "Ghostflame Graveyard",
+    "Glimpse of Infinity",
+    "Gloom Shrine",
+    "Glorious Madness",
+    "Glowing Orb",
+    "Gluttony",
+    "Goddess Beam",
+    "Gold Flask",
+    "Golden Descry",
+    "Golden Lantern's Glow",
+    "Grace Aura",
+    "Grace Period",
+    "Granite Flask",
+    "Grasping Chains",
+    "Grasping Hooks",
+    "Grasping Nightshade",
+    "Grasping Ornaments"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Granite Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility5\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 27\n|flask_duration                          = 6\n|buff_id                                 = flask_utility_ironskin\n|buff_value1                             = 1500\n|buff_stat_text                          = +1500 to [[Armour]]\n|charges_max                             = 60\n|charges_per_use                         = 30\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Key to Freedom\n|quest_reward1_quest_id                  = a5q2\n|quest_reward1_act                       = 5\n|quest_reward2_type                      = quest\n|quest_reward2_quest                     = The Silver Locket\n|quest_reward2_quest_id                  = a7q5\n|quest_reward2_act                       = 7\n|recipe1_part1_item_name                 = Ruby Flask\n|recipe1_part1_amount                    = 1\n|recipe1_part1_notes                     = {{ml|FlaskBuffArmourWhileHealing1}}\n|recipe1_part2_item_name                 = Sapphire Flask\n|recipe1_part2_amount                    = 1\n|recipe1_part2_notes                     = {{ml|FlaskBuffArmourWhileHealing1}}\n|recipe1_part3_item_name                 = Topaz Flask\n|recipe1_part3_amount                    = 1\n|recipe1_part3_notes                     = {{ml|FlaskBuffArmourWhileHealing1}}\n}}\n\n{{status\n| name                   = Granite Flask\n| type                   = Flask Effect\n| description = You have additional Armour\n}}\n\n'''Granite Flask''' is a [[utility flask]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\nThe effect of Granite Flask can be stacked with the effect from {{il|Basalt Flask}}.\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Gallery==\n<gallery>\nGranite Flask effect.jpg|Granite Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''6''' seconds (previously 4).\n}}\n{{Version history table row|3.15.0|\n* Now grants +1500 to Armour Rating (previously 3000).\n* Upon completing {{ql|The Key to Freedom}}, you are now offered a choice of the following rewards: Ruby Flask, Sapphire Flask, Topaz Flask, Amethyst Flask, Diamond Flask, Granite Flask, or Jade Flask.\n* Upon completing {{ql|The Silver Locket}}, you are now offered a choice of the following rewards: Diamond Flask, Granite Flask, Jade Flask, Sulphur Flask, Quartz Flask, Aquamarine Flask, or Corundum Flask.\n}}\n{{Version history table row|0.11.0|\n* Granite Flasks have been reduced to providing 3000 armour (down from 4000).\n}}\n{{Version history table row|0.10.0|\n* Granite Flasks now grant 4000 armour on use, not 10000.\n}}\n{{Version history table row|0.10.0|rel=before|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "9f0f04237b983c040d64cc76b4771f9e525c257044cdf1ad446352f0cd7e97e3"
+}

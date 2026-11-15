@@ -1,0 +1,33 @@
+{
+  "title": "Alchemist's Genius",
+  "pageId": 372,
+  "revision": 1347115,
+  "timestamp": "2023-04-09T15:25:45Z",
+  "retrieved": "2026-11-14T10:57:09.418483+00:00",
+  "requested": [
+    "Ahuana's Leadership",
+    "Akoya's Leadership",
+    "Alchemist's Genius",
+    "Alchemist's Mark",
+    "Alivia's Grace",
+    "Allflame Infused Coral",
+    "Alva's Gift",
+    "Always Crit Aura",
+    "Ambu's Charge",
+    "Ambush",
+    "Amethyst Flask",
+    "Ancestral Cry",
+    "Ancestral Earthbreaker",
+    "Ancestral Protector",
+    "Ancestral Warchief",
+    "Ancient Wisdom",
+    "Anger Aura",
+    "Anger's Intensity",
+    "Annihilating Light",
+    "Aquamarine Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Alchemist's Genius\n| type                   = Buff\n| description = Flasks have increased effect on you, and you gain an increased number of Flask Charges.\n}}\n'''Alchemist's Genius''' is a buff that increases Flask Charges gained by 20% and effect of Flasks by 10%, for 4 seconds.\n\n==Sources==\n===Unique Items===\n[[Brutal Restraint]] that adds the following modifier to an allocated notable passive skill in range :\n* 25% chance to gain Alchemist's Genius when you use a Flask\n\n===Cluster Jewels===\nThe [[Spiked Concoction]] notable passive skill grants Alchemist's Genius when you use a flask.\n\n===Modifiers===\n====Essence====\nThe {{il|Essence of Horror}} grants the following modifier on belts :\n{{Modifier table\n|q_tables=mod_stats, mod_spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where=\n  mods.generation_type IN (1, 2)\n  AND mods.domain = 1\n  AND mod_stats.id LIKE \"%alchemist%\"\n|stat_text=1\n|level=1\n|generation_type=1\n|group=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Now also granted from the belt mod of the {{il|Essence of Horror}} {{Undocumented}}\n}}\n{{Version history table row|3.15.0|\n* The Alchemist's Genius buff from the Spiked Concoction Notable now grants 10% Increased Flask Effect (previously 20%).\n}}\n{{Version history table row|3.11.1b|\n* Fixed a bug where the Alchemist's Genius buff didn't apply to various Flask effects, including the Vaal Skill stats from the {{il|Soul Catcher}} unique {{il|Quartz Flask}}.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Buffs]]",
+  "sha256": "bcce7c62dc497aa28ab09c2e259a3f5e79b4a0914edd4662abb9b5abfa6079f3"
+}

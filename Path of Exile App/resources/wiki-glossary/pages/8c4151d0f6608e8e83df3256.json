@@ -1,0 +1,33 @@
+{
+  "title": "Arrogance of the Vaal",
+  "pageId": 1087,
+  "revision": 1682632,
+  "timestamp": "2026-07-26T23:31:25Z",
+  "retrieved": "2026-11-14T10:57:10.190515+00:00",
+  "requested": [
+    "Arakaali Shrine",
+    "Arc Trap",
+    "Arcane Cloak",
+    "Arcane Tempest",
+    "Arcanist Brand",
+    "Arctic Armour",
+    "Arena Master's Presence",
+    "Armageddon Brand",
+    "Arohongui's Blessing",
+    "Arohongui's Moonlight",
+    "Arrogance of the Vaal",
+    "Ascendancy Effect",
+    "Ascendancy Effect (Invisible)",
+    "Ascendancy Effect (invisible)",
+    "Ashbark Tincture",
+    "Aspect of Arakaali",
+    "Aspect of Lunaris",
+    "Aspect of Solaris",
+    "Aspect of the Brine King",
+    "Assassin's Blade"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Arrogance of the Vaal\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Discovery can lead to beauty, or it can lead to ruin.\n|drop_level                              = 54\n|tags                                    = unique_divination, corrupted_divination, unique_corrupted_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardArroganceOfTheVaal\n|stack_size                              = 8\n|description                             = {{c|unique|Item}}<br> {{c|corrupted|Two-Implicit}}<br> {{c|corrupted|Corrupted}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.6.0\n}}\n\n'''Arrogance of the Vaal''' is a [[divination card]]. A set of eight can be exchanged for a random [[corrupted]] [[unique item]] with two [[corruption implicit modifier]]s.\n\n==Rewards==\n'''Arrogance of the Vaal''' will reward an item with item level corresponding to the redeeming character's [[character level]], up to a maximum of ilvl 80. [[Drop level]] restrictions are ignored when choosing which [[unique item]] will be rewarded, however the generated corrupted implicits will respect their item level restrictions, thus redeeming these cards using a low level character can influence the set of possible implicits.\n\n{{Item acquisition}}\n\n==Design attribution==\nArrogance of the Vaal was created by supporter [https://www.pathofexile.com/account/view-profile/rel4us rel4us].<ref name=\"Supporter attribution\"/>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Maze}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Vaal Pyramid}}\n}}\n{{Version history table row|3.21.0|\n* Arrogance of the Vaal can now be found in the {{il|Vaal Pyramid Map}}.\n}}\n{{Version history table row|?|\n* The resulting Weapons and Armours now have 20% quality. {{Undocumented}}\n}}\n{{Version history table row|3.6.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Supporter attribution\">{{cite web|author=rel4us|date=March 4, 2019|title=Another proof that GGG is the best company - Not only in producing a game but also customer service|url=https://www.reddit.com/r/pathofexile/comments/ax5ke5/another_proof_that_ggg_is_the_best_company_not/|publisher=Path of Exile Subreddit|accessdate=March 4, 2019}}</ref>\n}}\n\n{{Navbox Items}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "f44380293413f90dca153105df74b80865a3bcd501620035b5b3aa74bb7ed350"
+}

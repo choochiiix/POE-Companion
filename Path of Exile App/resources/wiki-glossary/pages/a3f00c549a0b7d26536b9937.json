@@ -1,0 +1,33 @@
+{
+  "title": "Hallowing Flame",
+  "pageId": 137200,
+  "revision": 1674516,
+  "timestamp": "2026-07-19T00:16:00Z",
+  "retrieved": "2026-11-14T10:11:09.431340+00:00",
+  "requested": [
+    "maces",
+    "Templar",
+    "minions",
+    "Hallowing Flame",
+    "shrine",
+    "passive",
+    "Scion",
+    "Witch",
+    "Duelist",
+    "Marauder",
+    "Amulets",
+    "Rings",
+    "Jewels",
+    "belt",
+    "jewels",
+    "prefix",
+    "unique",
+    "Strike",
+    "Link skill",
+    "Channelling skill"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n|name                    = Hallowing Flame\n|type                    = Debuff\n|bonuses                 = Attack Hits against you gain 25% of Physical Damage as Extra Fire Damage\n|description             = The next attack hit against you will gain a portion of physical damage as extra fire.\n}}\n\n'''Hallowing Flame''' is a [[debuff]] that causes an [[attack]] [[hit]] against the affected target to gain 25% of [[physical]] damage [[damage conversion|as extra]] [[fire damage]]. Hallowing Flame cannot benefit the entity that inflicted it. \n\n==Mechanics==\n{{c|help|Attacks made against Enemies affected by Hallowing Flame gain 25% of Physical Damage as Extra Fire Damage.}}<br>\n{{c|help|Hallowing Flame is removed once an Attack that benefits from this Damage as Extra is successfully made.}}<br>\n{{c|help|Hallowing Flame lasts for six seconds and cannot benefit the one who inflicted it.}}\n\nHallowing Flame causes an incoming attack hit to gain extra fire damage, after which the debuff is removed. The hit cannot be from the debuff's source, requiring the involvement of [[minion]]s, [[proxies]], or other [[allies]]. The debuff lasts up to 6 seconds. Visually, affected targets are orbited by a fiery wisp (per stack). \n\nHallowing Flame cannot normally stack, but an additional stack may be applied with [[Guardian]]'s [[Marshal of Divinity]], for a total of two, or {{c|mod|50% of Physical Damage as Extra Fire Damage}}. \n\nHits that remove Hallowing Flame remove all existing stacks of the debuff. They can still inflict a new Hallowing Flame debuff afterward. \n\n[[Proxies]] can inflict Hallowing Flame, and can benefit from Hallowing Flame from other proxies. A proxy cannot benefit from its own Hallowing Flame.\n\n==Sources==\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%hallowing_flame%\n|stat_page=Hallowing Flame\n}}\n\n===Unique items===\nThe table below lists [[unique items]] that are related to Hallowing Flame:\n{{Item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.rarity = \"unique\" AND item_stats.id like \"%Hallowing Flame%\" OR items.stat_text LIKE \"%Hallowing Flame%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\nThe table below displays [[passive skills]] related to Hallowing Flame.\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] [[passive skill]]s are related to Hallowing Flame:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n AND passive_skills.stat_text LIKE \"%Hallowing Flame%\"\n|large=1\n|stat_text=1\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Hallowing Flame:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%Hallowing Flame%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "01fcbe55db1c190ca5a9861ff34b437c669efe81bc2004e7a99bbfbed1155706"
+}

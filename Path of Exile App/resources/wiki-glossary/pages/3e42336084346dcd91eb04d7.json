@@ -1,0 +1,33 @@
+{
+  "title": "Inspirational",
+  "pageId": 8773,
+  "revision": 1579449,
+  "timestamp": "2025-10-28T21:21:55Z",
+  "retrieved": "2026-11-14T10:57:30.258364+00:00",
+  "requested": [
+    "Increased Experience",
+    "Increased Life Leech",
+    "Increased Mana Leech",
+    "Increased Movement Speed",
+    "Increased Resistances",
+    "Increased Stun Recovery",
+    "Indifference of the Cosmos",
+    "Inescapable Doom",
+    "Infernal Blow",
+    "Infernal Cry",
+    "Inferno Bolt",
+    "Infested",
+    "Influence Mod (Invisible)",
+    "Inner Choking Miasma",
+    "Inner Deatomisation Storm",
+    "Innervate",
+    "Insanity",
+    "Inspirational",
+    "Inspired Learning",
+    "Instability"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the Inspirational buff from the Ascendant|Champion (Ascendant passive)}}\n{{Passive skill box|Inspirational}}\n{{status\n| name                   = Inspirational\n| type                   = Buff\n| description = \n}}\n'''Inspirational''' is a notable [[Ascendancy passive skill]] for the [[Champion]] that grants increased [[aura]] effect. It also causes [[Banner]] skills to recover a portion of the [[Valour]] used when it was placed, and grants life [[regeneration]] the scales with the amount of Valour used.\n\nThe effects of the aura does not stack with another instance of Inspirational from another nearby party member.<ref name=MarkGGG/>\n\nValour is ''gained'' when you leave your Banner's Area and the amount can be scaled by [[Banner Valour Gained]] small passive nodes and [[Perfidy]].\n\n==Ruthless mode==\n{{infocard\n|header    = Inspirational (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:Inpirational (Champion) passive skill icon.png]]</div>\n|2         = Having a placed Banner does not prevent you gaining Valour\n}}\n\nInspirational in [[Ruthless mode]] does not grant any of its original effect. It instead enables you to gain Valour even while a Banner has been placed.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* The Inspirational Ascendancy Passive Skill no longer provides \"Banner Skills have no Reservation\". It now grants \"When you leave your Banner's Area, recover 30% of the Valour consumed for that Banner\" instead of \"When you create a Banner, it gains 40% of the Stages of your placed Banner\".\n* {{Ruthless}} The Champion's Inspirational Ascendancy Passive Skill no longer has any of its old properties. It now has \"Having a placed Banner does not prevent you gaining Valour\".\n}}\n{{Version history table row|3.22.0|\n* No longer provides \"30% increased effect of Non-Curse Auras from your Skills\" or \"You and Allies affected by your placed Banners Regenerate 0.1% of Life per second for each Stage\" in Ruthless.\n}}\n{{Version history table row|3.14.2|\n* Fixed a bug with life regeneration on the \"Inspirational\" [[Champion]] Ascendancy passive skill not working.\n}}\n{{Version history table row|3.13.0|\n* Now grants 30% increased effect of non-curse auras (from 15%)\n* Removed {{c|mod|You and nearby Allies have 12% increased Movement Speed}}\n}}\n{{Version history table row|3.7.0|\n* Now causes banners you create to gain 40% of the stages of your placed banner (from 20%). You and allies affected by your placed banners now regenerate 0.1% of maximum life per second for each stage (from 0.5%).\n}}\n{{Version history table row|3.2.0|\n* Inspirational now also causes your Banner skills to reserve no mana, recover 20% of planted Banner Stages when you cast a banner while you have a banner planted, and causes you and nearby allies to recover 0.5% of maximum life per Banner stage when you plant a banner. It also grants 15% increased effect of Non-Curse Auras from your Skills.\n* No longer grants 30% increased damage to allies.\n}}\n{{Version history table row|3.2.0|\n* Movement speed bonus increased from 8% to 12%.\n}}\n{{Version history table row|2.3.0|\n* Increased Movement Speed decreased from 10% to 8%.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=<ref name=MarkGGG>{{cite web|url=https://www.reddit.com/r/pathofexile/comments/476p7e/will_ascendancy_class_bonuses_stack_on_enemies_in/|title=Re: Will Ascendancy class bonuses stack on enemies in the party?|author=bob1836|date=February 23, 2016|accessdate=November 19, 2020|publisher=Path of Exile subreddit}} I asked Mark specifically about this and he replied that it does not stack with other party members. His exact words were \"This follows default aura behaviour, only one is active at a time on any given entity.\"</ref>\n}}",
+  "sha256": "89925dac53e5146c16c401ec8f29b0ffb0ed55c3a9f20a4ab9cafba2804ee339"
+}

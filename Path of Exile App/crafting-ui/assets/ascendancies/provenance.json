@@ -1,0 +1,82 @@
+{
+  "archive": "references/path-of-building/PathOfBuilding-dev.zip",
+  "method": "Unmodified archived PNG files; visual framing is CSS only",
+  "files": {
+    "Ascendant": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesAscendant.png",
+      "sha256": "cb9bb76976b055c6550311aa19876d7537fd3fe0852b2375106ce5156931ddf2"
+    },
+    "Assassin": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesAssassin.png",
+      "sha256": "d8585759eee328be2260c8e71b32d8891c7fbe70a9f8456c2e3c20a428e24fc8"
+    },
+    "Berserker": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesBerserker.png",
+      "sha256": "3c333caa359dec4608754ef1249e592805fdb7bcae1ca10b546ca16c2296024f"
+    },
+    "Champion": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesChampion.png",
+      "sha256": "86461ed2d83b32ef541da24801b856755596389f7fc78b890d2548f96ee7faa7"
+    },
+    "Chieftain": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesChieftain.png",
+      "sha256": "0c6c157bb95fa0348ecc146cd979c34acc8c74144e29dfdf8e6c03d6f627a715"
+    },
+    "Deadeye": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesDeadeye.png",
+      "sha256": "80f133f8c99c211a7396a6e6ca3e0a416a7f249bc3171e45499aef857ca1651e"
+    },
+    "Elementalist": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesElementalist.png",
+      "sha256": "038f64996891c57b2bc877c71bf4930876aad8819052847d5b8b1796ef692cbd"
+    },
+    "Gladiator": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesGladiator.png",
+      "sha256": "8afd44bed0f02fccd81fb4025175913eff60f62e6b6ab9b45f2f872844ed4581"
+    },
+    "Guardian": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesGuardian.png",
+      "sha256": "4e789ec4f83acf7d1b2de379f84869059aaab081c07eef8d22e54710b53f1cbb"
+    },
+    "Hierophant": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesHierophant.png",
+      "sha256": "335688d29642b96e9a38e9c36f297059b49785f83fb175850c9b34a422dae748"
+    },
+    "Inquisitor": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesInquisitor.png",
+      "sha256": "16385714dc52676d0868dbf0bf8a7ef24ed13edda707e27a0fc2b91a32a7094d"
+    },
+    "Juggernaut": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesJuggernaut.png",
+      "sha256": "c5a1256bff8737ecd020c1a9e076f52840e252687f3db778b2bd2a9b3a43a58e"
+    },
+    "Necromancer": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesNecromancer.png",
+      "sha256": "85c82d9e88066354db287953cf9ba28d627b78ce0a3899c5f38d0bc744e9cea6"
+    },
+    "Occultist": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesOccultist.png",
+      "sha256": "d2dfdcb4a3b2d4541eeb62367893a527dae7a78e79dae7578016132a2d2f0169"
+    },
+    "Pathfinder": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesPathfinder.png",
+      "sha256": "fd74de7f0f21face2d55e0bb8db95ff510e64ab8d1cac70b68aa5e28deeb13e4"
+    },
+    "Saboteur": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesSaboteur.png",
+      "sha256": "6405fe14cef45ef6005ade674878a8f33d25e193ed034f110d86cbdc5aa536f4"
+    },
+    "Slayer": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesSlayer.png",
+      "sha256": "ad3140fa639833d0f0c99d4f7f5c500fdc7b61fe0b383b79a442d5c025adfb3d"
+    },
+    "Trickster": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesTrickster.png",
+      "sha256": "f94d335cd83355db5b235bc26b8cb25f669f22b6c98eb56bd7090b7af077a9d9"
+    },
+    "Warden": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/ClassesWarden.png",
+      "sha256": "8728aaf4ecd3cf5cf3ccb777eafe72e31e7a6f1c6081050fba46a8a325cb6369"
+    }
+  }
+}

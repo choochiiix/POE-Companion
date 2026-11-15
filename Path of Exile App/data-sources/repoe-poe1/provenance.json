@@ -1,0 +1,45 @@
+﻿{
+    "sourceArchive":  "repoe-fork.github.io-master.zip",
+    "archiveSha256":  "F16CD7B314DDEF42360410D331D62DC1048E357736AC5DBBCE433BA76CAEF463",
+    "declaredGame":  "Path of Exile 1 (archive README)",
+    "declaredExportVersion":  "3.29.3.6",
+    "currentLivePatchVerified":  false,
+    "archiveDataPrefix":  "repoe-fork.github.io-master/data/",
+    "files":  [
+                  {
+                      "file":  "base_items.json",
+                      "sha256":  "48AFB07A5F40EB51552F90C17D53186469DB282A2E759DAB7B46E7F9D2A0F58B",
+                      "bytes":  8025343
+                  },
+                  {
+                      "file":  "item_classes.json",
+                      "sha256":  "678FA3BA653C2750C38DDBA4EED2C0F7D6C5EC040B2BBC07BC502FED69C5E632",
+                      "bytes":  17659
+                  },
+                  {
+                      "file":  "mods.json",
+                      "sha256":  "8FFECC59131A5456F9D40316E81E527C560F055DA1EA85C32E8D300135B6A2C4",
+                      "bytes":  34279076
+                  },
+                  {
+                      "file":  "mod_types.json",
+                      "sha256":  "D93778B1B53F2AACA93355DEA0BF61A080BD2BB785A0E36F954231FD98EF44AD",
+                      "bytes":  1203551
+                  },
+                  {
+                      "file":  "stats.json",
+                      "sha256":  "FDE4195DA85D49D770BD51F6A6823200003D5BF29560E8A445C8D028276BDE52",
+                      "bytes":  4966725
+                  },
+                  {
+                      "file":  "stat_translations.json",
+                      "sha256":  "5D2A471D222694F4A315357EDFF91764349E7FF7E8066E97E010FB1A8DFEEF5E",
+                      "bytes":  12631803
+                  },
+                  {
+                      "file":  "tags.json",
+                      "sha256":  "25DF913ABD459BEDD3DC1B649E344B353E271ED0A32162F116D66034A3269B50",
+                      "bytes":  32003
+                  }
+              ]
+}

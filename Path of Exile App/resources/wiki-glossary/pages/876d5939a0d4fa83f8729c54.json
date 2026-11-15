@@ -1,0 +1,35 @@
+{
+  "title": "Two Handed",
+  "pageId": 18142,
+  "revision": 1634766,
+  "timestamp": "2026-03-18T16:35:59Z",
+  "retrieved": "2026-11-14T10:11:23.509530+00:00",
+  "requested": [
+    "Element",
+    "Cruel",
+    "Ghost Shroud",
+    "Reflect",
+    "unique jewel",
+    "caustic ground",
+    "Elemental Relic",
+    "Endurance",
+    "Ailments",
+    "recharge",
+    "One-Handed",
+    "Abyssal socket",
+    "amulets",
+    "rings",
+    "quivers",
+    "Two-Handed",
+    "Monsters",
+    "Spawn",
+    "influence",
+    "unique monster"
+  ],
+  "aliases": [
+    "Two-Handed"
+  ],
+  "missing": false,
+  "wikitext": "'''Two Handed''' is a keyword which applies to the use of weapons which take up both [[Main Hand]] and [[Off Hand]] equipment slots. \n\nWeapons which count as Two Handed:\n*[[Bow]]\n*[[Staff]]\n*[[List of two-handed axes|Two Handed Axes]]\n*[[List of two-handed maces|Two Handed Maces]]\n*[[List of two-handed swords|Two Handed Swords]]\n\nIn almost all cases, modifiers for Two Handed apply only to melee, for example using the phrase \"Two Handed Melee Weapons\" on a passive skill. See [[Two-handed melee weapon]].\n\n==Passive skills==\n===Base passives===\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%two_handed%\"\n  AND passive_skill_stats.id NOT LIKE \"%two_handed_melee%\"\n}}\n\n===Tattoos/Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%two%hand%\"\n|large=1\n|description=1\n}}\n\n{{sister|poe2wiki=Two-handed}}\n\n[[Category:Keywords]]",
+  "sha256": "8ba7f5b335f06685e510501add7d18708420d366781bdf570f28341c212bcd7a"
+}

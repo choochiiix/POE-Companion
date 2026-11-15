@@ -1,0 +1,33 @@
+{
+  "title": "Galvanic Flare",
+  "pageId": 7051,
+  "revision": 1194327,
+  "timestamp": "2022-07-25T05:37:19Z",
+  "retrieved": "2026-11-14T10:57:25.575050+00:00",
+  "requested": [
+    "Frenzied",
+    "Fright Mask",
+    "Frigid Beam",
+    "Frigid Roar",
+    "Frontal Proximity Shield",
+    "Frost Bomb",
+    "Frost Nova",
+    "Frost Shield",
+    "Frostbite",
+    "Frozen Damage Increase",
+    "Frozen Ground",
+    "Fulgurite Tincture",
+    "GREEN BUFF",
+    "Gale Force",
+    "Galvanic Field",
+    "Galvanic Flare",
+    "Galvanizing Tempest",
+    "Gambler's Greed",
+    "Garb of the Ephemeral",
+    "Garukhan's Sandstorm"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Galvanic Flare\n| type                   = Debuff\n| description = You are taking Lightning Damage from a Galvanic Flare\n}}\n'''Galvanic Flare''' is a [[debuff]] from the monster skill of the same name. It deals [[lightning]] [[damage over time]].\n\nIt is used by the boss and side-boss of {{il|The Vinktar Square}}: [[Avatar of Thunder]] and [[Guardian of the South]] (in boss room the side boss is known as [[Revived Guardian]]).\n\nGalvanic Flare also used by the storyline optional boss [[Nightbringer Lucius]] in [[The Lunaris Concourse]]. it is also used by its map variant: [[Nebria, the Last Light]] ({{il|The Twilight Temple}})\n\nGalvanic Flare was in fact coded as minion.<ref>[[Monster:Metadata/Monsters/InvisibleFire/InvisibleIonCannonVinktarBoss]]</ref> It is a not targetable, no nameplate monster. It uses a skill internally known as [[Skill:InvisibleIonCannonRighteousLightning|InvisibleIonCannonRighteousLightning]] (or [[Skill:InvisibleIonCannonRighteousLightningAxisBoss|InvisibleIonCannonRighteousLightningAxisBoss]]) which deals actual lightning damage to the player character and their allies.\n==Monsters==\nThe following [[monster]]s (or invisible mechanic that coded as monster) use summon Galvanic Flare skills:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, skill_ids\n|where=skill_ids HOLDS LIKE \"%SummonIonCannon%\" \n\n|limit=100\n|order by=name\n}}\n\nThe following \"[[monster]]s\" use the actual Galvanic Flare skill, that deals [[lightning]] [[damage over time]]:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, metadata_id, skill_ids\n|where=skill_ids HOLDS LIKE \"InvisibleIonCannonRighteousLightning%\" \n\n|limit=100\n|order by=name\n}}\n\n==See also==\n* {{stl|Divine Flare}}\n* {{stl|Heretical Flare}}\n==References==\n{{reflist}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]\n[[Category:Monster skills]]",
+  "sha256": "52ab508830bb5b1e38343bccfa3fffe3f68af8d775be38b6cacc2704c44e141b"
+}

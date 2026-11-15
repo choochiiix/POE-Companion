@@ -1,0 +1,33 @@
+{
+  "title": "Character size",
+  "pageId": 3280,
+  "revision": 1611539,
+  "timestamp": "2026-02-03T15:17:47Z",
+  "retrieved": "2026-11-14T10:10:05.032505+00:00",
+  "requested": [
+    "Of War",
+    "helmet",
+    "monster modifiers",
+    "attribute",
+    "area",
+    "Icestorm",
+    "Damage taken",
+    "Damage Taken",
+    "Legion",
+    "Spectral Corpse",
+    "skeleton",
+    "Raging Spirit",
+    "Animate Weapon",
+    "Desecrate",
+    "chaos",
+    "unique items",
+    "character size",
+    "radius",
+    "Tormented Spirit",
+    "damage taken"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Character size''' is a rare stat that alters the visual size of an actor's [[character]] model. This is a purely cosmetic function, and does not affect the character's collision radius or [[area of effect]].<ref name=\"Reference\"/>\n\nThe increased character size of [[golem]] skills does not affect the player character, rather, it affects the golem's character itself.\n\nIncreased character size is capped at 100%.\n\n==Sources==\n\n===Unique items===\n\n{{Item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%actor_scale%\" AND items.rarity=\"unique\" AND items.class_id != \"SentinelDrone\"\n|level=1\n|stat_column1_header=+%\n|stat_column1_stat_format=add\n|stat_column1_stat1_id=base_actor_scale_+%\n}}\n\n===Other===\n\n====Increases====\n*[[Soul Eater]]: 1% increased character size per stack\n*[[Divinity]] ({{il|Garb of the Ephemeral}}): {{c|mod|20% increased Character Size}}\n*[[Shrine|Massive Shrine]]: {{c|mod|30% increased Character Size}}\n*[[Tempest|Enlarging Tempest]]: {{c|mod|30% increased Character Size}}\n*{{il|Mon'tregul's Grasp}} ({{c|mod|25% increased [[Raise Zombie]] size}})\n\n====Reductions====\n*[[Tempest|Shrinking Tempest]]: {{c|mod|30% reduced Character Size}}\n*[[Jewel]]s with the {{c|mod|1% reduced Character Size}} [[legacy]] [[Vaal Orb|corrupted implicit]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Increased Character Size is now capped at 100%.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Reference\">{{cite web|author=Mark_GGG|date=July 14, 2014|title=character size and Rats nest|url=https://www.pathofexile.com/forum/view-thread/969990/page/1/1#p8232479|publisher=Official Path of Exile Forum|accessdate=May 12, 2016}}</ref>\n}}\n\n[[Category:Game mechanics]]",
+  "sha256": "96a870cfc3b59d6801066a281fb6dd054f039253fc90e8bbf18634a3b9127fe4"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Iron Will",
+  "pageId": 88714,
+  "revision": 1444411,
+  "timestamp": "2024-05-11T23:39:18Z",
+  "retrieved": "2026-11-14T10:08:30.591854+00:00",
+  "requested": [
+    "Elemental Overload",
+    "Point Blank",
+    "Iron Will",
+    "Iron Grip",
+    "Avatar of Fire",
+    "Zealot's Oath",
+    "Wicked Ward",
+    "Glancing Blows",
+    "Divine Flesh",
+    "Petrified Blood",
+    "Petrification",
+    "Aegis",
+    "Guard",
+    "Aura",
+    "Curse",
+    "Hex",
+    "Mark",
+    "Warcry",
+    "Totem",
+    "Trap"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the keystone passive skill|the support gem|Iron Will Support}}\n\n{{Passive skill box|Iron Will}}\n\n'''Iron Will''' is a [[keystone passive skill]] that causes the increased [[melee]] [[physical damage|physical]] [[attack]] damage bonus from [[strength]] to apply to [[spell]]s as well.\n\n==Mechanics==\nIron Will causes strength to grant 1% increased spell damage per 5 points of strength, alongside the melee physical damage bonus it already grants. Note that this bonus applies to all spell damage, not just physical.\n\n{{c|mod|Iron Will}} is a keyword and will not stack with other sources of {{c|mod|Iron Will}}, such as {{il|Iron Will Support}} and {{il|Repentance}}.\n\nEffects that modify strength's effect on melee physical damage will also affect the bonus to spell damage granted by Iron Will. For example, {{il|The Iron Fortress}} grants {{c|mod|Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength}}; this will also apply to the increase in spell damage granted by Iron Will. Another notable interaction is with {{il|Crown of Eyes}} which grants {{c|mod|Increases and Reductions to Spell Damage also apply to Attacks at 150% of their value}}, this in conjunction with Iron Will means that every 10 points of strength gives 3% increased attack damage, and if used alongside {{il|The Iron Fortress}} this becomes 4.5% increased attack damage per 10 strength. This increased attack damage does not stack with the original 2% increased Melee Physical Damage per 10 strength, only the higher modifier is applied.\n\n==Location==\nIron Will is located in the center of the passive skill tree, west of the [[Scion]] starting area.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Templar]]||10\n|-\n|[[Marauder]]||10\n|-\n|[[Witch]]||14\n|-\n|[[Scion]]||8\n|-\n|[[Duelist]]||14\n|-\n|[[Shadow]]||18\n|-\n|[[Ranger]]||18\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=(items.stat_text LIKE \"%Iron Will%\" AND items.stat_text NOT LIKE \"%Supported%\") OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Introduced to the game (as keystone).<ref name=\"IronWillkeystone\"/>\n}}\n{{Version history table row|2.1.0|\n* Introduced to the game (as keyword).\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=<ref name=\"IronWillkeystone\">{{cite web|url=https://www.reddit.com/r/pathofexile/comments/q6waoe/iron_will_is_now_a_keystone_passive_on_the/|title=Iron Will is now a Keystone Passive on the Passive Skill Tree|author=Community_Team|date=October 12, 2021|accessdate=January 22, 2022|publisher=Reddit}}</ref>\n}}",
+  "sha256": "42321ea8a65a01a4a5832ef48c388d8afbcf0d7d89131808dbe4e2345b58fd40"
+}

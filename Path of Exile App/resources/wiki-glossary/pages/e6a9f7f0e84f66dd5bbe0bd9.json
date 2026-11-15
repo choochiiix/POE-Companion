@@ -1,0 +1,33 @@
+{
+  "title": "Resolute Technique",
+  "pageId": 13761,
+  "revision": 1492423,
+  "timestamp": "2024-11-30T23:38:54Z",
+  "retrieved": "2026-11-14T10:08:29.722759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Resolute Technique}}\n\n'''Resolute Technique''' (often referred to as '''RT''') is a [[keystone passive skill]] that will raise your chance to hit to 100%, ignoring all [[accuracy]] and [[evasion]] stats of the attacker and defender respectively, at the cost of preventing you from dealing [[critical strike]]s.\n\n==Mechanics==\nBecause [[elemental damage]] will no longer critically strike, most elemental [[status ailments]] will not apply unless another source adds chance. Skills such as {{il|Glacial Hammer}} and {{il|Burning Arrow}} have a built-in chance to inflict elemental status ailments, and for example, targets cursed with {{il|Conductivity}} have a chance to be shocked when hit with any lightning damage.\n\nSources of guaranteed critical strikes, such as {{il|Trypanon}} and the Diamond [[Shrine]], have no effect on a character with the Resolute Technique.\n\n[[Spell]]s inherently can't be evaded, so they don't benefit from Resolute Technique, but it still takes away their ability to crit.\n\nAttack hits can still be [[block]]ed, even with Resolute Technique.\n\n==Location==\nResolute Technique is located on the west edge of the tree, across the [[Disemboweling]] passive cluster.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Marauder]]||10\n|-\n|[[Templar]]||10\n|-\n|[[Scion]]||14\n|-\n|[[Duelist]]||16\n|-\n|[[Witch]]||17\n|-\n|[[Ranger]]||23\n|-\n|[[Shadow]]||24\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Resolute%Technique%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.9.4|\n* Introduced to the game.\n}}\n{{Version history table end}}\n{{sister|poe2wiki}}",
+  "sha256": "1d8e3359280829cf0f0a5e386d15e3c39fed6fcb26360f3602bfeadf0b7a70c3"
+}

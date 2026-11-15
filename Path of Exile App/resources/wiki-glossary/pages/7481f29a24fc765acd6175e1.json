@@ -1,0 +1,33 @@
+{
+  "title": "Arcane Surge",
+  "pageId": 882,
+  "revision": 1699274,
+  "timestamp": "2026-08-06T19:48:43Z",
+  "retrieved": "2026-11-14T10:08:29.718759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Arcane Surge\n| type                   = Buff\n| description            = You have increased Cast Speed and Mana Regeneration rate.\n}}\n\n{{about|the buff|the support gem|Arcane Surge Support}}\n\n'''Arcane Surge''' is a [[buff]] that grants bonus [[cast speed]] and [[mana regeneration]].\n\n==Mechanics==\nArcane Surge lasts 4 seconds by default. Unless otherwise stated, Arcane Surge granted from [[equipment]], [[passive skills]], and [[Ascendancy passive skill]]s are identical to the buff granted by {{il|Arcane Surge Support}}:\n* {{c|mod|20% increased Cast Speed}}\n* {{c|mod|30% increased Mana Regeneration Rate}}\n\nThe buff does not stack. Gaining Arcane Surge while you already have the buff will refresh its duration.\n\nStats that state \"{{c|mod|Arcane Surge also grants...}}\", such as {{psl|Hypnotic Gaze of the Lich}} (20% mana [[recoup]] and 20% increased mana [[cost]] efficiency), [[Hierophant]]'s {{psl|Arcane Blessing}} (20% more [[spell damage]]), or {{il|Runegraft of Resurgence}} (15% increased life regeneration rate) modify the buff itself; accordingly, these effects are also scaled by modifiers to Arcane Surge effect.\n\n==Sources==\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%arcane_surge%\n|stat_page=Arcane Surge\n}}\n\n===Item skills===\n* {{sl|Summon Harbinger of the Arcane}} ({{il|The Rippling Thoughts}}) (Level 21)\n* {{sl|Summon Greater Harbinger of the Arcane}} ({{il|The Surging Thoughts}})\n\n===Tattoos===\n* {{il|Honoured Tattoo of the Flood}}\n\n===Unique items===\nSome unique items grants the buff upon fulfil some conditions:\n\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Gain%Arcane_Surge%\" OR items.stat_text LIKE \"%Grant%Arcane_Surge%\" OR items.stat_text LIKE \"%Supported%Arcane_Surge%\" OR items.name = \"Forbidden Shako\"\n|base_item=1\n|large=1\n|level=1\n|stat=1\n}}\n==Other related unique items==\nThe following [[unique item]]s are related to Arcane Surge but not directly granting the buff or the support gem:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Arcane_Surge%\" AND items.stat_text NOT LIKE \"%Supported%Arcane_Surge%\" AND items.stat_text NOT LIKE \"%Gain%Arcane_Surge%\" AND items.stat_text NOT LIKE \"%Grant%Arcane_Surge%\"\n|base_item=1\n|large=1\n|level=1\n|stat=1\n}}\n\n==Related item modifiers==\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Arcane_Surge%\" AND mods.domain = 1 AND mods.generation_type NOT IN (10)\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}\n===enchantment modifiers===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Arcane_Surge%\" AND mods.domain = 1 AND mods.generation_type = \"10\"\n|stat_text=1\n|spawn_weights=1\n|level=1\n|labyrinth=1\n}}\n\n==Related passive skills==\n===Base passive skills===\nThe following [[passive skill]]s are related to Arcane Surge:\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%arcane_surge%\"\n}}\n\n===Timeless Jewel passive skills===\nThe following {{il|Timeless Jewel}} [[passive skill]]s are related to Arcane Surge:\n{|class=\"wikitable\"\n! Jewel Type\n! Icon\n! Name\n! Effect\n|-\n| Templar\n| [[File:DevotionNotable passive skill icon.png|60px|link=]]\n| Zealot\n| {{c|mod|Gain Arcane Surge on Hit with Spells if you have at least 150 Devotion}}\n|}\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] [[passive skill]]s are related to Arcane Surge:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 0\n     AND passive_skills.stat_text LIKE \"%Arcane_Surge%\"\n|large=1\n|stat_text=1\n}}\n\n===Anointed passive skills===\nThe following [[Anointed]] [[passive skill]]s are related to Arcane Surge:\n{{Passive skill table\n|q_where=passive_skills.is_anointment_only\n     AND passive_skills.is_keystone = 0\n     AND passive_skills.stat_text LIKE \"%Arcane Surge%\"\n|large=1\n|stat_text=1\n}}\n\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Arcane Surge:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%Arcane_Surge%\"\n}}\n\n===Tattoos/Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%arcane surge%\"\n|large=1\n|description=1\n}}\n\n==Version history==\nPrior to [[version 3.26.0]], {{il|Arcane Surge Support}}'s Arcane Surge buff scaled with gem level and took priority over other sources of Arcane Surge.\n\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* The Arcane Surge Buff now provides 20% increased Cast Speed (previously 10%).\n}}\n{{Version history table row|3.21.0|\n* Arcane Surge buff now grants 10% increased Cast Speed instead of 10% more Spell Damage.\n}}\n{{Version history table row|3.15.0|\n* Arcane Surge buff no longer grants 10% increased Cast Speed.\n* Arcane Surge buff now grants 30% increased Mana Regeneration Rate (previously 0.5% of Mana Regenerated per second).\n}}\n{{Version history table row|3.4.0|\n* Added a new buff icon for Arcane Surge.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "edf70eba44e2df2887e5fdb2132d117bad007f91af946c4f81bc48fa40fa3d33"
+}

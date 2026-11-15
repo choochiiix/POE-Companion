@@ -1,0 +1,33 @@
+{
+  "title": "The Escape",
+  "pageId": 16853,
+  "revision": 1682677,
+  "timestamp": "2026-07-26T23:32:31Z",
+  "retrieved": "2026-11-14T10:57:48.400661+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Escape\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = In fleeing reality, you step into the realm of madness.\n|drop_level                              = 75\n|tags                                    = armour_divination, unique_divination, unique_armour_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheEscape\n|stack_size                              = 5\n|description                             = {{c|unique|{{iil|Seven-League Step}}}}\n|stack_size_currency_tab                 = 10000\n|drop_text                               = Drops from [[It That Was Tul]] and [[It That Was Esh]] in a [[Hive Colony]].\n|drop_monsters                           = Metadata/Monsters/BreachBossHandMage/HandMage, Metadata/Monsters/BreachBossFallenKnight/FallenKnight\n|release_version                         = 3.9.0\n}}\n\n'''The Escape''' is a [[divination card]]. A set of five can be exchanged for {{il|Seven-League Step}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThe Escape was created by supporter [https://www.pathofexile.com/account/view-profile/watafx WataFX].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* No longer available from original Breachlords.{{Divcord}}\n}}\n{{Version history table row|3.27.0|\n* Also drops from It That Was Esh and It That Was Tul.{{Divcord}}\n}}\n{{Version history table row|3.25.0|\n* Drop level changed from 56 to 75. {{Undocumented}}\n}}\n{{Version history table row|3.9.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "3401787288142c94cec176543725ee534c99135afc83169b3ed465572b988796"
+}

@@ -1,0 +1,285 @@
+[
+  {
+    "id": "term:burning-ground",
+    "name": "Burning Ground",
+    "aliases": [
+      "Burning Ground"
+    ],
+    "kind": "ground-effect",
+    "definition": "A damaging ground effect that deals fire damage over time. Burning ground is distinct from ignite; its damage depends on the source.",
+    "relatedTitles": [
+      "Ignite",
+      "Fire damage",
+      "Damage over time"
+    ],
+    "sourceTitle": "Burning ground"
+  },
+  {
+    "id": "term:unaffected",
+    "name": "Unaffected",
+    "aliases": [
+      "Unaffected by"
+    ],
+    "kind": "modifier-phrase",
+    "definition": "The specified effect can still be present on you, but has no effect on you. This differs from immunity, which prevents or removes the specified effect.",
+    "relatedTitles": [
+      "Immunity"
+    ],
+    "sourceTitle": "Immunity"
+  },
+  {
+    "id": "term:movement-speed",
+    "name": "Movement Speed",
+    "aliases": [
+      "Movement Speed"
+    ],
+    "kind": "stat",
+    "definition": "Determines how fast an entity moves by running. Action speed is a separate modifier that also affects movement animations.",
+    "relatedTitles": [
+      "Action speed"
+    ],
+    "sourceTitle": "Movement speed"
+  },
+  {
+    "id": "term:fire-resistance",
+    "name": "Fire Resistance",
+    "aliases": [
+      "Fire Resistance"
+    ],
+    "kind": "stat",
+    "definition": "Resistance applied to incoming fire damage, including hits and damage over time. The maximum resistance limits the benefit; resistance is distinct from damage reduction.",
+    "relatedTitles": [
+      "Resistance",
+      "Fire damage"
+    ],
+    "sourceTitle": "Resistance"
+  },
+  {
+    "id": "term:cold-resistance",
+    "name": "Cold Resistance",
+    "aliases": [
+      "Cold Resistance"
+    ],
+    "kind": "stat",
+    "definition": "Resistance applied to incoming cold damage, including hits and damage over time. Its benefit is limited by maximum resistance.",
+    "relatedTitles": [
+      "Resistance",
+      "Cold damage"
+    ],
+    "sourceTitle": "Resistance"
+  },
+  {
+    "id": "term:lightning-resistance",
+    "name": "Lightning Resistance",
+    "aliases": [
+      "Lightning Resistance"
+    ],
+    "kind": "stat",
+    "definition": "Resistance applied to incoming lightning damage, including hits and damage over time. Its benefit is limited by maximum resistance.",
+    "relatedTitles": [
+      "Resistance",
+      "Lightning damage"
+    ],
+    "sourceTitle": "Resistance"
+  },
+  {
+    "id": "term:chaos-resistance",
+    "name": "Chaos Resistance",
+    "aliases": [
+      "Chaos Resistance"
+    ],
+    "kind": "stat",
+    "definition": "Resistance applied to incoming chaos damage. Elemental resistance modifiers do not grant chaos resistance; modifiers to all resistances include it.",
+    "relatedTitles": [
+      "Resistance",
+      "Chaos damage"
+    ],
+    "sourceTitle": "Resistance"
+  },
+  {
+    "id": "term:elemental-resistance",
+    "name": "Elemental Resistance",
+    "aliases": [
+      "Elemental Resistance",
+      "Elemental Resistances"
+    ],
+    "kind": "stat",
+    "definition": "A modifier to elemental resistances affects fire, cold and lightning resistance. It does not affect chaos resistance.",
+    "relatedTitles": [
+      "Resistance"
+    ],
+    "sourceTitle": "Resistance"
+  },
+  {
+    "id": "term:recently",
+    "name": "Recently",
+    "aliases": [
+      "Recently"
+    ],
+    "kind": "keyword",
+    "definition": "Refers to the past four seconds.",
+    "relatedTitles": [],
+    "sourceTitle": "Recently"
+  },
+  {
+    "id": "term:critical-strike",
+    "name": "Critical Strike",
+    "aliases": [
+      "Critical Strike",
+      "Critical Strikes"
+    ],
+    "kind": "mechanic",
+    "definition": "A hit whose damage is multiplied by the critical strike multiplier. Damage over time does not hit and cannot critically strike.",
+    "relatedTitles": [
+      "Critical strike multiplier",
+      "Hit"
+    ],
+    "sourceTitle": "Critical strike"
+  },
+  {
+    "id": "term:armour",
+    "name": "Armour",
+    "aliases": [
+      "Armour"
+    ],
+    "kind": "mechanic",
+    "definition": "A defence that reduces physical damage from hits. Its effectiveness depends on the size of the physical hit relative to your armour; it does not reduce physical damage over time.",
+    "relatedTitles": [],
+    "sourceTitle": "Armour"
+  },
+  {
+    "id": "term:life",
+    "name": "Life",
+    "aliases": [
+      "Life"
+    ],
+    "kind": "mechanic",
+    "definition": "The health resource of a character or monster. Reaching zero life normally causes death.",
+    "relatedTitles": [],
+    "sourceTitle": "Life"
+  },
+  {
+    "id": "term:maximum-life",
+    "name": "Maximum Life",
+    "aliases": [
+      "Maximum Life"
+    ],
+    "kind": "mechanic",
+    "definition": "The upper limit of the life resource before effects such as reservation. This is distinct from your current amount of life.",
+    "relatedTitles": [],
+    "sourceTitle": "Life"
+  },
+  {
+    "id": "term:stun",
+    "name": "Stun",
+    "aliases": [
+      "Stun",
+      "Stunned"
+    ],
+    "kind": "mechanic",
+    "definition": "An interruption caused by a hit that briefly stops an entity from acting. Stun chance depends on the hit damage relative to the target’s stun threshold.",
+    "relatedTitles": [],
+    "sourceTitle": "Stun"
+  },
+  {
+    "id": "term:stun-threshold",
+    "name": "Stun Threshold",
+    "aliases": [
+      "Stun Threshold"
+    ],
+    "kind": "mechanic",
+    "definition": "The effective life value against which hit damage is compared when determining stun chance. Reducing an enemy’s stun threshold makes a given hit more likely to stun.",
+    "relatedTitles": [],
+    "sourceTitle": "Stun"
+  },
+  {
+    "id": "term:physical-damage",
+    "name": "Physical Damage",
+    "aliases": [
+      "Physical Damage"
+    ],
+    "kind": "mechanic",
+    "definition": "One of the five damage types. Armour mitigates physical damage from hits; it does not mitigate physical damage over time such as bleeding.",
+    "relatedTitles": [],
+    "sourceTitle": "Physical damage"
+  },
+  {
+    "id": "term:attack-speed",
+    "name": "Attack Speed",
+    "aliases": [
+      "Attack Speed"
+    ],
+    "kind": "mechanic",
+    "definition": "Affects how quickly attack skills are performed. Most attacks derive their base attack time from the equipped weapon; action speed is a separate factor.",
+    "relatedTitles": [],
+    "sourceTitle": "Attack speed"
+  },
+  {
+    "id": "term:cast-speed",
+    "name": "Cast Speed",
+    "aliases": [
+      "Cast Speed"
+    ],
+    "kind": "mechanic",
+    "definition": "Affects how quickly spells are cast. Increasing cast speed reduces cast time; this does not by itself reduce a skill’s cooldown.",
+    "relatedTitles": [],
+    "sourceTitle": "Cast speed"
+  },
+  {
+    "id": "term:energy-shield",
+    "name": "Energy Shield",
+    "aliases": [
+      "Energy Shield"
+    ],
+    "kind": "mechanic",
+    "definition": "A defence that generally absorbs damage before life and can recharge after a period without taking damage. Special mechanics can bypass or change how it protects life.",
+    "relatedTitles": [],
+    "sourceTitle": "Energy shield"
+  },
+  {
+    "id": "term:evasion",
+    "name": "Evasion",
+    "aliases": [
+      "Evasion",
+      "Evasion Rating"
+    ],
+    "kind": "mechanic",
+    "definition": "A defence checked against an attacker’s accuracy to determine whether an attack hit is evaded. It does not evade spell hits.",
+    "relatedTitles": [],
+    "sourceTitle": "Evasion"
+  },
+  {
+    "id": "phrase:buff-effect",
+    "name": "Buff Effect",
+    "aliases": [
+      "Buff Effect"
+    ],
+    "sourceTitle": "Buff",
+    "definition": "Changes the strength of the applicable buff’s effects. The modifier must specify which buff or buffs it affects.",
+    "kind": "mechanic",
+    "relatedTitles": []
+  },
+  {
+    "id": "phrase:no-reservation",
+    "name": "No Reservation",
+    "aliases": [
+      "has no Reservation",
+      "have no Reservation"
+    ],
+    "sourceTitle": "Reservation",
+    "definition": "The specified skill reserves none of its usual resource. This does not by itself change other costs of the skill.",
+    "kind": "mechanic",
+    "relatedTitles": []
+  },
+  {
+    "id": "term:reservation",
+    "name": "Reservation",
+    "aliases": [
+      "Reservation"
+    ],
+    "sourceTitle": "Reservation",
+    "definition": "Sets aside part of a resource, usually mana or life, while an ongoing skill is active. The reserved portion is unavailable for other uses; reservation does not lower the resource’s maximum.",
+    "kind": "mechanic",
+    "relatedTitles": []
+  }
+]

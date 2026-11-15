@@ -1,0 +1,33 @@
+{
+  "title": "Tidal Wave",
+  "pageId": 17650,
+  "revision": 1437793,
+  "timestamp": "2024-04-20T15:37:47Z",
+  "retrieved": "2026-11-14T10:57:49.218663+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Tidal Wave\n| type                   = Debuff\n| description = You are caught in the tide, which slows you and deals cold damage over time.\n}}\n'''Tidal Wave''' is an environmental [[debuff]] in the boss room of [[Tsoagoth, The Brine King]], as well as its map version [[Nassar, Lion of the Seas]]. Touching the boundaries of the circular arena, which are made of tidal waves, will apply this debuff.\n\nThe debuff deals cold [[damage over time]] as well as [[Action speed|slows]] the player character.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "7d62e8d9bc7588dcc100d9ead66c9b789cdab052d09965155aa672b9737ae498"
+}

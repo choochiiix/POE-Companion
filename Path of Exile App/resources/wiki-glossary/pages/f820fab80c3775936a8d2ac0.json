@@ -1,0 +1,37 @@
+{
+  "title": "Doedre, Darksoul",
+  "pageId": 5266,
+  "revision": 1648869,
+  "timestamp": "2026-05-20T03:22:37Z",
+  "retrieved": "2026-11-14T10:57:19.962712+00:00",
+  "requested": [
+    "Digestive Acid",
+    "Diluting Touch",
+    "Discipline Aura",
+    "Disgorge",
+    "Divination Distillate",
+    "Divine Beam",
+    "Divine Blast of Radiance",
+    "Divine Charge",
+    "Divine Flare",
+    "Divine Ire",
+    "Divine Shrine",
+    "Divine Tempest",
+    "Doedre's Madness",
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering",
+    "Doomed",
+    "Doryani's Conflagration",
+    "Double Strike",
+    "Drained Essence"
+  ],
+  "aliases": [
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering"
+  ],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Doedre, Darksoul\n| rarity = Boss\n| image = Doedre, Darksoul.png\n| imagealt =\n| type = \n| diff1 = 64\n| location = [[The Rotting Core]]\n| quest = [[Recurring Nightmare]]\n| resistance = Resists [[Elemental Damage]] <br> Resists [[Chaos Damage]]\n| resistance_group = ActBoss\n| weakness = \n| damage = [[Physical Damage]] <br> [[Chaos Damage]]\n| skill = \n| aura = \n| metadata_id = Metadata/Monsters/Doedre/DoedreSoul\n}}\n\n'''Doedre, Darksoul''' is a [[List of unique monsters|unique monster]] located in [[The Rotting Core]] in [[Act 9]]. She is the Spirit form of [[Doedre Stamatis|Doedre]].\n\nThis is the last time she is fought during the storyline, if not counting [[The Depraved Trinity]] encounter.\n\n==Quests==\n* {{ql|Recurring Nightmare}}\n\n==Abilities==\nShe casts projectile spells in both of her forms which deal physical damage. She can also use an arena-wide screech spell which can be avoided by standing behind Accursed Monoliths.\n\nThe Accursed Monoliths in the boss room will cast 3 different debuffs:\n{| class= \"wikitable\"\n|-\n! Debuff name\n! Colour\n! Description\n|-\n| Doedre's Torment \n| Red\n| You are taking 6% increased damage for each stack of Doedre's Torment.\n|-\n| Doedre's Withering\n| Green \n| You and your Minions are dealing 5% less damage for each stack of Doedre's Withering.\n|-\n|Doedre's Suffering\n|Purple \n| Your action speed is 5% slower for each stack of Doedre's Suffering.\n|-\n|}\n\nThe debuffs are alternative versions of {{stl|Temporal Chains}}, {{stl|Enfeeble}} and {{stl|Vulnerability}}, as well as [[Effluent]] debuffs. Destroying monoliths will remove corresponding debuffs.\n\nNote that [[Doedre's Torment (monster)|Doedre's Torment]] and [[Doedre's Suffering (monster)|Doedre's Suffering]] are also the names of the monsters found in Doedre's Despair subarea of [[The Rotting Core]].\n{{clear}}\n\n{{status\n| name                   = Doedre's Torment\n| type                   = Debuff\n}}\n{{status\n| name                   = Doedre's Withering\t\n| type                   = Debuff\n}}\n{{status\n| name                   = Doedre's Suffering\t\n| type                   = Debuff\n}}\n\n====Video====\n{{#ev:youtube|BZDlS7E_A_c|||||start=131}}\n\n{{Monster item drops|metadata_id=Metadata/Monsters/Doedre/DoedreSoul}}\n\n==Map variant==\n* [[Doedre the Defiler]], map boss of {{il|Sepulchre Map}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Bestiary}}\n[[Category:Bosses]]\n[[Category:Act 9 unique monsters]]",
+  "sha256": "439df5598d22fb4c77cd0b5a0efd81ca4eda69a79e263e04c8e2436d11d5531c"
+}

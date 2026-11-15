@@ -1,0 +1,33 @@
+{
+  "title": "Debilitate",
+  "pageId": 4698,
+  "revision": 1673505,
+  "timestamp": "2026-07-13T20:21:42Z",
+  "retrieved": "2026-11-14T10:11:15.574872+00:00",
+  "requested": [
+    "Ersi",
+    "Eldritch",
+    "the Eater of Worlds",
+    "Fractured",
+    "The Eater of Worlds",
+    "Pact",
+    "Vaal gem",
+    "Light radius",
+    "explosion",
+    "tinctures",
+    "Weeping Wounds",
+    "belts",
+    "The Viridian Wildwood",
+    "Master",
+    "Abyss",
+    "Breach",
+    "Grasping Vines",
+    "Shrine",
+    "Debilitate",
+    "Wither"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Debilitate\n| type                   = Debuff\n| icon                   = Debilitate_status_icon.png\n| description            = You are slowed and deal less Damage.\n| bonuses                = affected targets to deal 10% less damage and have 20% less movement speed.\n}}\n\n'''Debilitate''' is a [[debuff]] that causes affected targets to deal 10% less [[damage]] and have 20% less [[movement speed]].\n\n==Sources==\n===Skill gems===\n{{Query stat related skill gems\n|type=active\n|where = skill.description LIKE \"%debilitate%\" OR skill.stat_text LIKE \"%debilitate%\"\n|stat_page=Debilitate \n}}\n\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|where = skill.description LIKE \"%debilitate%\" OR skill.stat_text LIKE \"%debilitate%\"\n|stat_page=Debilitate \n}}\n\n===Unique items===\n{{Drop enabled unique item table\n|where = items.stat_text LIKE \"%Debilitate%\"\n|level=1\n|stat=1\n|large=1\n}}\n\n===Passive skills===\n{{Passive skill table\n|q_where=passive_skills.stat_text LIKE \"%debilitate%\"\n|stat_text=1\n|large=1\n|ascendancy=1\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to Debilitate:\n{{Query masteries}}\n\n===Miscellaneous===\n* \"Ghorr's Magnificence\" buff (from [[Demonic Power]])\n* {{c|torment|Deserter's Touch}} & {{c|torment|Deserter's Grip}} (from [[Tormented spirit#Deserter|Tormented Deserters]])\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.12.5|\n* Fixed an issue where the Debilitate debuff was using the wrong art and was missing a description.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game. (Initially from [[Natural Authority]] notable passive only)\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "77a9cc65e7c0d024cb21a1afe56d8d0e99228086eb100b8185994f063c3dffb5"
+}

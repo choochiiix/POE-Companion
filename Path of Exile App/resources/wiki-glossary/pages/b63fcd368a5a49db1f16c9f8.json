@@ -1,0 +1,33 @@
+{
+  "title": "Union of Souls",
+  "pageId": 139203,
+  "revision": 1648829,
+  "timestamp": "2026-05-19T13:52:39Z",
+  "retrieved": "2026-11-14T10:57:50.753933+00:00",
+  "requested": [
+    "Tsoagoth Shrine",
+    "Tsoatha's Fodder",
+    "Tsoatha's Fury",
+    "Unbound",
+    "Unbound Fury",
+    "Undying Rage",
+    "Unholy Damage",
+    "Unholy Scalding",
+    "Unholy Urn",
+    "Union of Souls",
+    "Unrighteous Fire",
+    "Unstoppable Hero",
+    "Untuned Lute",
+    "Unwavering Crusade",
+    "Upheaval Buff",
+    "Ursine Procession",
+    "Utula's Leadership",
+    "Vaal Arctic Armour",
+    "Vaal Arctic Armour Buff",
+    "Vaal Blade Flurry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Union of Souls''' is a type of [[monster modifier]]. Originally a {{c|bloodline|[[Bloodline modifier|Bloodline]]}} modifier, it has been rework and ported to the [[Archnemesis modifier|new monster modifier pool]] in 3.18 and then the current mod pool in 3.20.0.\n\nAll variants of this modifier grants stat {{c|mod|Grants #% increased [[Character Size]] and #% increased Maximum Life to Pack Members on death}} (to remaining monsters for the map mod variant).\n==Sources==\n* {{il|Valdo Map}} mod {{ml|MapSupporterUnionOfSouls}}\n** {{C|mod|Grants #% increased Character Size and #% increased Maximum Life to remaining normal and rarity monsters on death}}\n* Monster mod {{ml|MonsterModUnionOfSouls|display=verbose}} (known as {{c|normal|Empowers Allies}} under the monster nameplate)\n** Despite it is the same \"Empowers Allies\" wording as [[Host Chieftain]], [[Power Totem]]'s [[Modifier:MonsterUsesMassPowerText|legacy monster reminder text]], it is does not grants allies {{stl|Power Charge}}\n\n==Version history==\nThe following are legacy monster mods that related to Union of Souls: \n* {{c|bloodline|Bloodlines}}\n**{{ml|MonsterBloodlinesUnionOfSouls|display=verbose}}\n* Archnemesis\n**{{ml|MonsterArchnemesisUnionOfSouls}}: {{c|mod|Monster's minions are empowered. Minions empower the Monster with additional modifiers on death}} (as \"Empowering Minions\", Archnemesis league only mod)\n***{{ml|MonsterArchnemesisMinionUnionofSouls|display=verbose}}\n**{{ml|MonsterArchnemesisUnionOfSoulsMagic|display=verbose}} (as <span style=\"color:olive\">[[Union of Souls]]</span>)\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Monster mods now only do one specific thing.\n* Monster mods now say exactly what they do.\n}}\n{{Version history table row|3.19.0|\n* We have toned down the modifiers that can spawn on magic monsters so that more of them are stat-based bonuses that aren't too spammy. All monsters in an instance that are the same or very similar will have the same magic monster modifier, rather than rolling a different Archnemesis modifier for each monster.\n* Some of the more powerful Monster modifiers now use a special reward conversion system. \n}}\n{{Version history table row|3.18.0|\n* Archnemesis modifiers have been rebalanced and added to the core game. Existing Magic and Rare monster modifiers have been replaced with Archnemesis modifiers.\n* Bloodlines and Nemesis have been removed from the core game. Some of their modifiers have been incorporated into the new monster modifier system:\n** Union of Souls can be found on Magic monsters.\n}}\n{{Version history table row|3.17.0|\n* Archnemesis monster modifiers are introduced to the game for [[Archnemesis league]]. Some mods incorporated some elements of bloodline modifiers. e.g. \"Empowering Minions\"\n}}\n{{Version history table row|2.0.0|\n* Bloodlines Mods have been added to the core game.\n}}\n{{Version history table row|1.3.0|\n* Introduced to the game in [[Bloodlines league]].\n}}\n{{Version history table end}}\n\n[[Category:Monster mechanics]]",
+  "sha256": "32c5bab39c46a5f3fb57baea84d365cca45c03eb4de2798ab40ed6855ca5614b"
+}

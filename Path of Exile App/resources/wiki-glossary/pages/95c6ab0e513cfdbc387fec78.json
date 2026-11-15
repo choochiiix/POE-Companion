@@ -1,0 +1,33 @@
+{
+  "title": "Prismatic",
+  "pageId": 12955,
+  "revision": 1701308,
+  "timestamp": "2026-08-24T22:27:30Z",
+  "retrieved": "2026-11-14T10:11:08.554610+00:00",
+  "requested": [
+    "stunned",
+    "player",
+    "physical",
+    "damage reduction",
+    "Shadow",
+    "Ranger",
+    "quantity",
+    "abyss jewel",
+    "attacks",
+    "melee",
+    "strike",
+    "Wands",
+    "Fishing rod",
+    "Sceptre",
+    "elemental",
+    "lightning",
+    "explode",
+    "death",
+    "Prismatic",
+    "Melee"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Prismatic''' is a [[gem tag]]. This tag applies to skills which choose a random element between [[Fire]], [[Cold]], and [[Lightning]] to deal damage with. This behaviour can be modified through [[Combat Focus]] jewels. \n\n==Mechanics==\nPrismatic skills without the Fire, Cold, or Lightning gem tags, such as {{il|Summon Skeletons of Mages}}, are not considered Elemental skills for the purpose of stats like {{psl|Disorienting Display}}'s {{c|mod|#% chance to Blind nearby Enemies when you use an Elemental Skill}}, but can be considered Elemental in the context of modifiers like {{il|Svalinn}} or {{il|Mjölner}}'s {{c|mod|Trigger a Socketed Elemental/Lightning Spell...}} due to [[minion]] properties.\n\n==Skills==\n===Skill gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Active Skill Gem\" AND skill_gems.gem_tags HOLDS \"Prismatic\"}} [[skill gems]] with the [[:Category:Prismatic (gem tag)|Prismatic]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Active Skill Gem\" AND skill_gems.gem_tags HOLDS \"Prismatic\"\n}}\n\n===Non-gem skills===\nThe following player-usable skills have the internal\n<code>RandomElement</code> active skill type, but are not granted by\nactive skill gems. They can be adjusted by effects such as [[Combat Focus]]:\n\n{| class=\"wikitable\"\n! Skill\n! Source\n|-\n| {{sl|id=PrismaticBurst}}\n| Granted by {{il|Prismatic Burst Support}}\n|-\n| {{sl|id=SummonElementalRelic}}\n| Granted by [[Unwavering Crusade]]\n|}\n\n===Support gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Support Skill Gem\" AND skill_gems.gem_tags HOLDS \"Prismatic\"}} [[support gems]] with the [[:Category:Prismatic (gem tag)|Prismatic]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Support Skill Gem\"\n   AND skill_gems.gem_tags HOLDS \"Prismatic\"\n}}\n\n==Unique items==\nThe following [[unique items]] are related to Prismatic skills:\n\n{{Item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where= items.stat_text LIKE \"%Prismatic%\"\nAND items.name NOT LIKE \"%Megalomaniac%\"\nAND items.rarity_id = \"Unique\"\nAND items.name != \"The Hungry Loop\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* Introduced to the game as a gem tag.\n}}\n{{Version history table end}}\n\n[[Category:Gem tag mechanics]]\n[[Category:Gem tags]]",
+  "sha256": "3a08deeca8b3fbf5727aec44a30f03eb810f6bfcb5a92d794a08ca0238d0d77e"
+}

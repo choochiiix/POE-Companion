@@ -1,0 +1,33 @@
+{
+  "title": "Faster Run",
+  "pageId": 98359,
+  "revision": 1419620,
+  "timestamp": "2024-02-28T11:29:18Z",
+  "retrieved": "2026-11-14T10:57:23.118138+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Faster Run\n| type                   = Buff\n| description = You have increased Movement Speed\n}}\n'''Faster Run''' is a buff.\n==First version==\nThe first version of this buff is granted by using the {{il|Smoke Mine}} skill. \n\nThis version grants increased [[movement speed]] (the stat id behind is \"base_movement_velocity_+%\"). \n\nPlayers can also gain this buff indirectly via stealing (via [[HH]], etc.) the monster mod [[Modifier:MonsterModShroudWalker|{{c|mod|Shroud Walking}}]] (also known as \"{{c|normal|Ambushes}}\" the textbox that under monster nameplate), which is a rare monster-only mod. The mod automatically and periodically use Smoke Mine skill (monster version; internal id: [[Skill:NemesisDaemonSmokeMine|NemesisDaemonSmokeMine]])\n\nUnique monsters may also having this buff by using their own version of Smoke Mine skill, such as [[Wiraqucha, Ancient Guardian]]'s [[Skill:MonsterSmokeMineSideArea|MonsterSmokeMineSideArea]], or [[Orcus the Reaver]]/[[The Broken Prince]]'s [[Skill:MonsterSmokeMine|MonsterSmokeMine]]. Note that [[Warband]] monsters' [[Skill:WbSmokeMine|WbSmokeMine]], does not grant this buff.\n\n==Second version==\n{{status\n| name                   = Faster Run\n| icon = Faster Run status icon 2.png\n| type                   = Buff\n| description = Increased movement velocity\n}}\n\nThere is a second version of this buff but have different status icon.<ref>Based on the datamined data from the buff with the internal id \"sprinting\" (numeric id: 4) in the \"BuffDefinations.dat\" of the game</ref> The source of this version is not yet confirmed. That status icon is also similar to {{stl|Tarred Ground}} or the flask effect icon from the suffix mod {{C|mod|#% increased Movement Speed during Flask effect}}, or the skill icon of {{il|Phase Run}}, or the buff from {{il|Victario's Flight}}.\n\nDespite it has different graphical icon and descriptive text on the stat, this version also grants the same stat id: \"base_movement_velocity_+%\".\n\n==Version history==\nBefore the removal of [[archnemesis mod]] and [[nemesis mod]] from spawning on the monsters, players can also gain this buff indirectly via stealing {{c|nemesis|[[Modifier:MonsterNemesisSmokeDaemon|Shroud Walker]]}} [[nemesis mod]] from the monsters. However, that mod is a legacy mod and partially reworked as \"[[Modifier:MonsterArchnemesisAssassin|<span style=\"color:olive\">Assassin</span>]]\" [[archnemesis mod]] in [[version 3.17.0]] (went core and replaced old monster mod in [[version 3.18.0]] as a prefix known as \"{{c|mod|Deadly}}\", but still displayed under the monster nameplate as <span style=\"color:olive\">Assassin</span>) which also became legacy in [[version 3.20.0]].\n\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Archnemesis version is removed from the game. Monster mod now only have one function per mod, which this buff is granted to monster from new mod \"{{c|normal|Ambushes}}\"\n}}\n{{Version history table row|3.18.0|\n* Nemesis version is removed from spawning and replaced by archnemesis version.\n}}\n{{Version history table row|3.11.0|\n* Faster Run buff from alternative quality {{il|Smoke Mine}} also grant {{c|mod|increased Attack and Cast Speed}}.\n}}\n{{Version history table row|1.0.0|\n* Monster version (Nemesis) is added to the game.\n}}\n{{Version history table row|0.11.6|\n* Added to the game? (wiki editor note: the actual date is not known, but assume to be the same as {{il|Smoke Mine}} gem)\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n[[Category:Buffs]]",
+  "sha256": "e84a068f8a162fceb157155bbc3d857bdee627b83a54ee3752d493c76368b25d"
+}

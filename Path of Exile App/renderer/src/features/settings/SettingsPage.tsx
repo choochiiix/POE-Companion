@@ -1,0 +1,22 @@
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { Select } from '@/components/ui/select';
+import { Panel } from '@/components/ui/panel';
+import { getAppearanceController } from '@/adapters/appearance';
+import { readSave, writeSave } from '@/adapters/storage';
+import { themePresets, presetFontStyles, identifyPreset, identifyFontStyle, choosePreset } from '@legacy/features/settings/theme-presets.js';
+import { defaultSettings, settingsStorageKey, validateSettings } from '@legacy/features/settings/settings-model.js';
+import type { SettingsSave } from './types';
+export default function SettingsPage(){
+ const [controller]=useState(getAppearanceController);
+ const [initial]=useState(()=>{let error='';try{localStorage.getItem(settingsStorageKey);}catch{error='Storage unavailable. Preferences may not persist after reload.';}return {value:readSave(settingsStorageKey,validateSettings) as SettingsSave,error};});
+ const [settings,setSettings]=useState(initial.value),[status,setStatus]=useState(initial.error||controller.getError()),[theme,setTheme]=useState(controller.getTheme());
+ const palette=identifyPreset(theme),font=identifyFontStyle(theme);
+ function save(next:SettingsSave){setSettings(next);document.documentElement.dataset.density=next.density;document.documentElement.dataset.textSize=next.textSize;document.documentElement.dataset.motion=next.motion;setStatus(writeSave(settingsStorageKey,next)?'Storage unavailable. Preferences apply until this page is reloaded.':'Preferences saved on this device.');}
+ function saveTheme(next:ReturnType<typeof controller.getTheme>){const result=controller.save(next);setTheme(result.theme);setStatus(result.persisted?'Theme saved on this device.':result.error);window.dispatchEvent(new Event('appearance:change'));}
+ return <div id="settingsPanel"><div className="page-heading"><div><h1>Settings</h1><p className="muted">Preferences for this browser. Changes apply immediately; character and build saves are kept separately.</p></div></div><Panel title="Appearance"><div className="form-grid"><label>Color theme<Select id="colorTheme" value={palette} onChange={e=>saveTheme(choosePreset(e.target.value,font,theme))}><option value="custom" disabled>Custom theme</option>{themePresets.map(p=><option key={p.id} value={p.id}>{p.label}</option>)}</Select></label><label>Font style<Select id="themeFont" value={font} onChange={e=>saveTheme(palette==='custom'?{...theme,fonts:presetFontStyles[e.target.value as keyof typeof presetFontStyles]?.fonts||theme.fonts}:choosePreset(palette,e.target.value,theme))}><option value="theme">Theme default</option>{Object.entries(presetFontStyles).map(([id,style])=><option key={id} value={id}>{style.label}</option>)}<option value="custom" disabled>Custom fonts</option></Select></label></div><p className="source-note">Themes change colors and fonts only. Equipped and unique item cards keep their game-reference colors and typography. Fonts use local installations with system fallbacks; nothing is downloaded.</p><Button variant="outline" onClick={()=>{const result=controller.reset();setTheme(result.theme);setStatus(result.persisted?'Original theme restored.':result.error);window.dispatchEvent(new Event('appearance:change'));}}>Restore original theme</Button></Panel><Panel title="Display preferences" className="mt-4"><div className="form-grid">{([
+ ['Display density','density',[['standard','Standard'],['compact','Compact']],'Compact reduces gaps in library panels and glossary rows.'],
+ ['Text size','textSize',[['standard','Standard'],['large','Large']],'Larger text for controls and reference cards. Browser zoom is also supported.'],
+ ['Motion','motion',[['system','Follow system'],['reduced','Reduce motion']],'Your operating system’s reduced-motion preference is always respected.']
+ ] as const).map(([label,key,choices,hint])=><label key={key}>{label}<Select value={settings[key]} aria-describedby={`settings-${key}-hint`} onChange={e=>save({...settings,[key]:e.target.value})}>{choices.map(([value,text])=><option key={value} value={value}>{text}</option>)}</Select><small id={`settings-${key}-hint`}>{hint}</small></label>)}</div><div className="actions"><Button variant="outline" onClick={()=>save({...defaultSettings} as SettingsSave)}>Reset preferences</Button></div><p className="source-note">Resets only these preferences. Your saved characters, equipment, skill groups and tree are preserved.</p></Panel><p className="source-note" role="status">{status}</p></div>;
+}

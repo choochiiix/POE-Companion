@@ -1,0 +1,33 @@
+{
+  "title": "Thorned Vines",
+  "pageId": 96049,
+  "revision": 1200812,
+  "timestamp": "2022-07-26T06:00:04Z",
+  "retrieved": "2026-11-14T10:57:49.220240+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Thorned Vines\n| type                   = Debuff\n| description = {{c|normal|You are slowed by thorned vines as well as taking Chaos Damage over time. Move to break the vines}}\n}}\n\n'''Thorned Vines''' is a debuff that is applied by monsters with the [[List of archnemesis mods|Entangler]] [[Archnemesis]] modifier.\n\nThis debuff applies a movement impairing effect as well as a continuous Chaos DOT and stacks. \n\nIn order to remove the debuff, the player must move around for how many stacks of Thorned Vines that still persist.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.18.1|\n* The Thorned Vines debuff applied by monsters with the Entangler modifier no longer causes you to take 10% of your Maximum Life and Energy Shield as Chaos Damage if you use a travel skill while vined.\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\n* {{stl|Grasping Vines}}\n* {{stl|Toxic Vines}}\n* {{stl|Ethereal Tendrils}}\n\n[[Category:Debuffs]]",
+  "sha256": "ddda572f830d5fe6f7edf18c3b075bd3a47bcbdb6e027f8c57e2cb1aeb844957"
+}

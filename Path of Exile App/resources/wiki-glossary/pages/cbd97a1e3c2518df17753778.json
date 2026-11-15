@@ -1,0 +1,35 @@
+{
+  "title": "Frozen ground",
+  "pageId": 6992,
+  "revision": 1486400,
+  "timestamp": "2024-10-13T02:20:50Z",
+  "retrieved": "2026-11-14T10:57:25.575050+00:00",
+  "requested": [
+    "Frenzied",
+    "Fright Mask",
+    "Frigid Beam",
+    "Frigid Roar",
+    "Frontal Proximity Shield",
+    "Frost Bomb",
+    "Frost Nova",
+    "Frost Shield",
+    "Frostbite",
+    "Frozen Damage Increase",
+    "Frozen Ground",
+    "Fulgurite Tincture",
+    "GREEN BUFF",
+    "Gale Force",
+    "Galvanic Field",
+    "Galvanic Flare",
+    "Galvanizing Tempest",
+    "Gambler's Greed",
+    "Garb of the Ephemeral",
+    "Garukhan's Sandstorm"
+  ],
+  "aliases": [
+    "Frozen Ground"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Frozen Ground\n| type                   = Debuff\n| description = You are taking Cold Damage over Time\n}}\n{{status\n| name                   = Frozen Ground\n| type                   = Debuff\n| icon                   = Vortex skill icon.png\n| description = You are taking cold damage from Frozen Ground\n}}\n[[File:Frozen ground in game 3.11.png|thumb|right|The visual of Delirium's Frozen ground as of version 3.11. Using Vulkan.]]\n[[File:Frozen ground in game.png|thumb|right|A [[Witch]] and her minions on the frozen ground and under [[Delirium]] fog. Taken during Delirium league.]]\n'''Frozen ground''' is a detrimental [[ground effect]] that deals [[cold damage]] [[damage over time|over time]]. It is a type of [[Cold Snap ground]].\n\n==Trivia==\nDelirium's Frozen ground shared with the same status icon graphic with [[Veritania, the Redeemer]]'s environmental debuff [[Creeping Ice]].\n\nHowever, the version from the orb summoned by [[the Maven]], is the same as {{il|Vortex}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0?}}\n* Introduced to the game.\n{{Version history table end}}\n[[Category:Ground effects]]",
+  "sha256": "fe30775a3aeddf45a916b8e3572eb4fd587b9a17052f1457541e2c10bfb03abc"
+}

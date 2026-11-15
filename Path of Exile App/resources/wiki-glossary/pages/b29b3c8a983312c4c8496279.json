@@ -1,0 +1,35 @@
+{
+  "title": "Arc trap",
+  "pageId": 821,
+  "revision": 1486297,
+  "timestamp": "2024-10-13T02:15:47Z",
+  "retrieved": "2026-11-14T10:57:10.188512+00:00",
+  "requested": [
+    "Arakaali Shrine",
+    "Arc Trap",
+    "Arcane Cloak",
+    "Arcane Tempest",
+    "Arcanist Brand",
+    "Arctic Armour",
+    "Arena Master's Presence",
+    "Armageddon Brand",
+    "Arohongui's Blessing",
+    "Arohongui's Moonlight",
+    "Arrogance of the Vaal",
+    "Ascendancy Effect",
+    "Ascendancy Effect (Invisible)",
+    "Ascendancy Effect (invisible)",
+    "Ashbark Tincture",
+    "Aspect of Arakaali",
+    "Aspect of Lunaris",
+    "Aspect of Solaris",
+    "Aspect of the Brine King",
+    "Assassin's Blade"
+  ],
+  "aliases": [
+    "Arc Trap"
+  ],
+  "missing": false,
+  "wikitext": "{{About|the environmental hazard|the skill|Arc|the support gem|Trap Support}}\n\n{{status\n| name                   = Arc Trap\n| type                   = Debuff\n| description            = You are slowed\n}}\n\n[[File:Arc Traps in action.png|thumb|right|Two poles casting a beam that causing the Arc Trap debuff]]\nAn '''arc trap''' is an environmental hazard that appears as a beam of electricity arcing between two poles. When a character touches the beam, they are [[shock]]ed and inflicted with the \"Arc Trap\" [[debuff]], which reduces their [[action speed]]. The beam also rapidly inflicts [[hit]]s of [[lightning damage]] to the character based on a percentage of their maximum life. These hits can be [[block]]ed if the character has a chance to block spell damage.\n\n==Appearances==\n* [[The Refinery]]\n* Vault of Venarius sub-area of [[The Haunted Reliquary]]\n* {{il|Factory Map}}\n* [[Pesquin, the Mad Baron]] (standalone version - [[Maven]])\n* [[The Eradicator]]'s arena\n* [[Guardian of the Minotaur]]'s arena\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|?|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "df47fb0c18e3005e8e6392e5701252b889076640fb112a5e7860e6f040141983"
+}

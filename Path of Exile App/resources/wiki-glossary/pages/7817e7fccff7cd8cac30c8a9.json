@@ -1,0 +1,33 @@
+{
+  "title": "Eye of Malice",
+  "pageId": 6264,
+  "revision": 1578021,
+  "timestamp": "2025-10-18T05:11:43Z",
+  "retrieved": "2026-11-14T10:57:23.116635+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Eye of Malice\n|class_id                                = Helmet\n|base_item                               = Callous Mask\n|drop_level                              = 73\n|explicit1                               = LocalIncreasedEvasionAndEnergyShieldUnique__25\n|explicit2                               = FireResistUnique__23_\n|explicit3                               = ColdResistUnique__31_\n|explicit4                               = ColdExposureOnHitUnique__1\n|explicit5                               = FireExposureOnHitUnique__1\n|explicit6                               = NearbyEnemiesIncreasedFireColdResistUnique__1_\n|flavour_text                            = Through vision coloured by burning rage and icy hate peers a visitor from a realm of ill intent...\n|release_version                         = 3.9.0\n|help_text = (Cold Exposure applies -10% to Cold Resistance for 4 seconds)<br/>(Fire Exposure applies -10% to Fire Resistance for 4 seconds)\n}}\n\n'''Eye of Malice''' is a [[unique]] {{il|Callous Mask}}.\n\n== Mechanics ==\n{{status\n| name                   = Eye of Malice\n| type                   = Debuff\n| description = {{c|normal|You have increased Fire and Cold Resistances}}\n| bonuses = 50% increased Fire and Cold Resistances\n}}\n\nAt first glance the mod {{c|mod|Nearby Enemies have 50% increased Fire and Cold Resistances}} may sound unhelpful; however, it also multiplies negative [[resistance]]s.<ref>[[:File:Eye_of_Mallice_Resistance_Test_in_PvP.png|Data gathered by user:13tayler13 in PVP.]]</ref>\n\nFor example, if a monster's Cold Resistance was lowered to -30% via sources such as [[Exposure]], [[Frostbite]], [[Void Beacon]], and other methods, Eye of Malice's effect would cause that monster to have -45% instead. Note that this modifier affects the actual resistance (or tooltip resistance) of the monster; it '''does not scale on player side''' by how many -#% to monster resistances with any given method (i.e. the scaling is calculated on monster side). Conversely, a monster with 30% Cold Resistance after applying any player's aura/curse/other #% res effect, will have 45% Cold Resistance instead. Therefore, it is important to stack lots of sources of Resistance stripping to get the monster negative.\n\nNote that Penetration applies after this step; the Penetration value itself will not increase. Read [[Receiving damage]] and [[Resistance penetration]] for details.\n\nAlternatively, you can use this item with effects that invert enemy resistances like {{il|Rakiata's Dance}} and {{il|Wild Strike of Extremes}}, though it has some slight anti-synergy with its exposure effect. For this, you need to avoid getting effects that give reduced resistances or increased exposure effect.\n\nThe [[Nearby]] radius is 3 metre.\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Several Simulacrum, Legion, Shaper Guardian, Elder Guardian, and Conqueror Drop-Restricted Uniques have been changed to be core Uniques instead. These no longer drop deterministically from their original sources.<ref name=Elderslayerunique314/>\n}}\n{{Version history table row|3.9.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n\n<ref name=Elderslayerunique314>{{cite web|url=https://www.youtube.com/watch?v=PO8MJnnexnw&t=5896s|title=Baeclast #68 Lead Designer Rory Rackham on PoE2 & Ultimatum League|date=April 9, 2021|accessdate=April 9, 2021|author=Tarke Cat (interviewer), Rory Rackham (interviewee) |publisher=Youtube}}</ref>\n\n\n}}\n{{Navbox Unique Items}}",
+  "sha256": "3df918d1f5be4b9aa9033ee75174cc32cdb887d2d7b8286883f92a2942d8a0c4"
+}

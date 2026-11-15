@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {makeServer} from '../crafting-ui/server.mjs';
+const {chromium}=createRequire(import.meta.url)(process.env.PLAYWRIGHT_MODULE||'playwright');const server=makeServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));let browser;
+try{browser=await chromium.launch({channel:'msedge',headless:true});const page=await browser.newPage({viewport:{width:1102,height:929}});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.addInitScript(()=>localStorage.setItem('poe-companion.equipment.v1',JSON.stringify({'main-hand':'Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword1'})));await page.goto(`http://127.0.0.1:${server.address().port}`);
+ const views=page.locator('.plan-switch');await views.waitFor();
+ for(let i=0;i<8;i++)await views.getByRole('button',{name:i%2?'Character overview':'Equipment comparison',exact:true}).click();
+ await page.waitForFunction(()=>{const h=document.querySelector('.plan-switch-highlight').getBoundingClientRect(),b=document.querySelector('.plan-switch button[aria-pressed=true]').getBoundingClientRect();return Math.abs(h.left-b.left)<.1&&Math.abs(h.width-b.width)<.1;});
+ assert.equal(await views.locator('.plan-switch-highlight').evaluate(n=>getComputedStyle(n).width),'100px');
+ const detail=page.locator('.gear-slot.main-hand .character-item-detail'),summary=detail.locator('summary'),card=detail.locator('article');await summary.waitFor();const content=await card.textContent();
+ await summary.click();await page.waitForFunction(()=>!document.querySelector('.gear-slot.main-hand article').classList.contains('is-springing'));assert.ok(await card.isVisible());assert.equal(await card.textContent(),content);assert.match(content,/Physical Damage/);assert.match(content,/Base requires/);assert.match(content,/quality 0/);
+ await summary.click();await summary.click();await page.waitForFunction(()=>!document.querySelector('.gear-slot.main-hand article').classList.contains('is-springing'));assert.equal(await detail.getAttribute('open'),'');
+ await page.screenshot({path:'docs/previews/character-item-refined.png',fullPage:true});
+ await summary.click();await page.waitForFunction(()=>!document.querySelector('.gear-slot.main-hand details').open);await page.emulateMedia({reducedMotion:'reduce'});await summary.click();assert.ok(await card.isVisible());assert.equal(await card.evaluate(n=>n.classList.contains('is-springing')),false);
+ await page.setViewportSize({width:390,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));assert.deepEqual(errors,[]);
+ const throttled=await browser.newPage({viewport:{width:1102,height:929}});
+ await throttled.addInitScript(()=>{window.requestAnimationFrame=()=>0;});
+ await throttled.goto(`http://127.0.0.1:${server.address().port}`);
+ await throttled.getByRole('button',{name:'Equipment comparison',exact:true}).click();
+ await throttled.waitForFunction(()=>{const h=document.querySelector('.plan-switch-highlight').getBoundingClientRect(),b=document.querySelector('.plan-switch button[aria-pressed=true]').getBoundingClientRect();return Math.abs(h.left-b.left)<.1&&Math.abs(h.width-b.width)<.1;},null,{polling:100});
+ await throttled.getByRole('button',{name:'Character overview',exact:true}).click();
+ await throttled.waitForFunction(()=>{const h=document.querySelector('.plan-switch-highlight').getBoundingClientRect(),b=document.querySelector('.plan-switch button[aria-pressed=true]').getBoundingClientRect();return Math.abs(h.left-b.left)<.1&&Math.abs(h.width-b.width)<.1;},null,{polling:100});
+ console.log('Motion polish passed: view switch settles even with requestAnimationFrame stopped, rapid reversals, transform-only motion, spring item disclosures, preserved information, reduced motion and mobile bounds.');
+}finally{await browser?.close();await new Promise(r=>server.close(r));}

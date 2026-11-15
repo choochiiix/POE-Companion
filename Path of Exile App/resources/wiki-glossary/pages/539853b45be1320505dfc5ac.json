@@ -1,0 +1,33 @@
+{
+  "title": "Blood Purge",
+  "pageId": 2174,
+  "revision": 1341043,
+  "timestamp": "2023-01-28T02:58:09Z",
+  "retrieved": "2026-11-14T10:57:12.678712+00:00",
+  "requested": [
+    "Black Smoke",
+    "Blackflame Aura",
+    "Blackflame Ignite",
+    "Blackflame Wall",
+    "Blade Flurry",
+    "Blade Vortex",
+    "Bladefall of Trarthus",
+    "Bleeding Immunity",
+    "Blessing of the Storm",
+    "Blightreach",
+    "Blitz Charge",
+    "Block Test",
+    "Blood Barrier",
+    "Blood Bladestorm",
+    "Blood Charges",
+    "Blood Cheat",
+    "Blood Drained",
+    "Blood Offering",
+    "Blood Purge",
+    "Blood Rage"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Blood Purge\n| type                   = Debuff\n| description = Your are taking physical damage over time from a Blood Purge\n}}\n'''Blood Purge''' is a ground effect that is cast by [[Kadaris, Crimson Mayor]]. It is circular in shape and in red.\n\n==Version history==\n{{Version history table header }}\n{{Version history table row |3.13.0}}\n* Introduced to the game.\n{{Version history table end}}\n==See also==\n* {{stl|Blood Ritual}}, another debuff from the same boss, which is stackable\n[[Category:Ground effects]]",
+  "sha256": "e77e104095065cdc5c1ddf04e896cd421a3919dbbe9a5527e0128f93ba05090d"
+}

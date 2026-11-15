@@ -1,0 +1,24 @@
+{
+  "title": "Of Flames",
+  "pageId": 11784,
+  "revision": 1241930,
+  "timestamp": "2022-10-21T16:12:29Z",
+  "retrieved": "2026-11-14T10:11:25.232327+00:00",
+  "requested": [
+    "Elemental proliferation",
+    "chilling area",
+    "Explosive Toad",
+    "Enfeeble",
+    "Corpse Walk",
+    "level requirement",
+    "Lingering Blade",
+    "Detonate Mines",
+    "of Flames",
+    "projectiles",
+    "Charge Duration"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''of flames''' is the name of the following mods:\n{{Modifier table\n|q_tables=mod_stats, mod_spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where=\n  mods.name = \"of flames\" \n|stat_text=1\n|level=1\n|spawn_weights=1\n|domain=1\n|generation_type =1\n}}\n==Enchantment==\n{{Glove Enchantment Disambiguation|name=of Flames}}",
+  "sha256": "bc4207155926db4d7a5771c733b0d1042d5e9d14ae360f738264844f313f734b"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Runesmithing",
+  "pageId": 127206,
+  "revision": 1579237,
+  "timestamp": "2025-10-28T11:59:57Z",
+  "retrieved": "2026-11-14T10:10:02.543510+00:00",
+  "requested": [
+    "Kill",
+    "Exerted",
+    "Mirage Warriors",
+    "effect",
+    "enemies",
+    "Cost",
+    "Monster modifiers",
+    "curse limit",
+    "Blessing skill",
+    "Elder item",
+    "Runesmithing",
+    "Cassia",
+    "ring",
+    "amulet",
+    "Ring",
+    "Amulet",
+    "notable passive skill",
+    "passive skill tree",
+    "Corrupt",
+    "Talisman"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{historical content|This mechanic was not added to the core. Only existing items that have enchantments obtained from this mechanic are retained in the permanent leagues.}}\n\n'''Runesmithing''' was a method of [[crafting]] that involves spending [[rune]]s to add [[enchantment]]s to your [[weapon]]s at the Runesmithing Table in [[Kingsmarch]] or your [[hideout]] during [[Settlers league]].\n\n__TOC__\n\n==Mechanics==\nRunesmithing enchantments can only be applied to non-[[Unique]] weapons. Normal, magic, and rare items with runesmithing enchantments on them also cannot be upgraded into a unique item (e.g. via an {{il|Orb of Chance}} or {{il|Tainted Mythic Orb}}). Applying a runesmithing enchantment will replace any existing enchantments, such as from [[Horticrafting|Harvest]] or a {{il|Tempering Orb}}/[[grand heist]].\n\nEach runesmithing enchantment is specific to certain weapon types.\n\nLike other enchantments, runesmithing enchantments can be removed at the [[Crafting Bench]] for an {{il|Orb of Scouring}}.\n\n==List of runesmithing enchantments==\n{{main|List of runesmithing enchantments}}\n<div class=\"responsive-table-container\">\n{{:List of runesmithing enchantments}}\n</div>\n\n==Related unique items==\nThe following [[unique item]]s are related to runesmithing:\n{{Item table\n|where = items.stat_text LIKE \"%Runesmithing%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* After almost a year of building, Johan is finally satisfied with the upgrades made to Kingsmarch, and now its services can be used to their full effect. Settlers of Kalguur has been added to the core game, but there will be no more town-building.\n* Runesmithing is no longer offered in Kingsmarch, and [[Rune]]s can no longer be obtained. \n}}\n{{Version history table row|3.25.3g|\n* All existing Runes will be deleted. Runecrafts on existing items will remain.<ref>https://www.pathofexile.com/forum/view-thread/3787069</ref>\n}}\n{{Version history table row|3.25.3d|\n* The \"Socketed Vaal Skills have 100% reduced Soul Gain Prevention\" Runesmithing Enchantment has been updated to \"Socketed Vaal Skills do not apply Soul Gain Prevention\", this is not a functional change.\n}}\n{{Version history table row|3.25.0|\n* Introduced to the game in [[Settlers league]].\n}}\n{{Version history table end}}\n\n{{Navbox Settlers}}",
+  "sha256": "6adb34b0e00cb2ba3d990cec7d282d83ff6e5356095481377c8d7bf96ae548a2"
+}

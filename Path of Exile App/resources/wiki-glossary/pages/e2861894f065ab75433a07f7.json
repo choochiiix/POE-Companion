@@ -1,0 +1,33 @@
+{
+  "title": "Instant",
+  "pageId": 8777,
+  "revision": 1550135,
+  "timestamp": "2025-07-17T01:14:14Z",
+  "retrieved": "2026-11-14T10:09:59.978758+00:00",
+  "requested": [
+    "burning damage",
+    "damage type",
+    "Conflux",
+    "skill effect duration",
+    "monster",
+    "flee",
+    "3.16.0",
+    "luck",
+    "buff",
+    "reflected damage",
+    "Temporal Chains",
+    "damage",
+    "critical strike chance",
+    "range",
+    "Flask",
+    "Instant",
+    "channelling",
+    "Repeat",
+    "Guard Skill",
+    "Focus"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Instant''' is a keyword that refers to skills with no use time, allowing them to be used without playing an animation or interrupting ongoing actions.\n\n==Mechanics==\nInstant skills can be used while using a non-instant skill or while moving, and do not interrupt or cancel the action. They cannot be used when skills cannot be used, e.g. when the character has 0% [[action speed]] due to [[Freeze]], or while [[Stun|stunned]].<ref name=\"InstantSkills\"/> Instant skills cannot be bound to the Left-Click button.\n\n[[Guard Skill|Guard skills]], some movement skills, and the toggling of [[aura]]s and other [[reservation]] skills are a few examples of instant skills. Some instant skills, like {{il|Frostblink}}, will be used repeatedly as long as their bound key is held down, while others, like most [[reservation]] skills, will activate only once.\n\nAll instant skills have a [[cooldown]].<ref name=\"Cooldown\"/>\n\n==Related items==\nThe list below displays skill gems that are instantly cast.\n{{Drop enabled gem table\n|where = items.class_id=\"Active Skill Gem\"\n  AND skill.cast_time = 0\n|level=yes\n|int=yes\n|dex=yes\n|str=yes\n|mana=yes\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* Instant Skills can no longer be bound to Left-Click.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name = \"InstantSkills\">{{cite web\n| author = Mark_GGG\n| date = Aug 24, 2018\n| title = Instant Skills\n| url = https://www.reddit.com/r/pathofexile/comments/99t0a9/introducing_instant_skills/e4qahwj/\n| publisher = Reddit\n| accessdate = January 05, 2022\n}}</ref>\n<ref name = \"Cooldown\">{{cite web\n| author = Mark_GGG\n| date = Aug 24, 2018\n| title = Cooldown\n| url = https://www.reddit.com/r/pathofexile/comments/99t0a9/introducing_instant_skills/e4qhkyb/\n| publisher = Reddit\n| accessdate = January 05, 2022\n}}</ref>\n}}\n\n[[Category:Keywords]]",
+  "sha256": "82bd31235fd2e740255f442088a9678c9226ef9a8da13af8a138294ffd7f968b"
+}

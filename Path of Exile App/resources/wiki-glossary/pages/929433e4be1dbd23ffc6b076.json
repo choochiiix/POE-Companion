@@ -1,0 +1,33 @@
+{
+  "title": "Boots",
+  "pageId": 2408,
+  "revision": 1487718,
+  "timestamp": "2024-10-13T03:08:29Z",
+  "retrieved": "2026-11-14T10:09:59.080474+00:00",
+  "requested": [
+    "Low Mana",
+    "loss",
+    "modifiers",
+    "mana cost",
+    "support gems",
+    "mana reservation",
+    "buffs",
+    "auras",
+    "curses",
+    "Mana Burn",
+    "Mana Flask",
+    "Mana Gained on Kill",
+    "Portal",
+    "town",
+    "Body Armour",
+    "Helmets",
+    "Gloves",
+    "Boots",
+    "Mana reservation",
+    "fire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Boots''' is an [[item class]] of armour pieces that can contain up to four [[socket]]s. \n\n==Types of boots==\nThere are 6 main sub-types of boots: \n* 3 '''pure''' sub-types which require single [[attribute]] and provide associated defense type.\n* 3 '''hybrid''' sub-types which require two [[attributes]] and provide both of the associated defense types; at the cost of having both attributes required and defenses provided sightly lower then the ''pure'' counterpart\n\n[[Version 3.15.0]] introduced a 7th sub-type of boots that utilizes a new Defence known as [[Ward]]. These new basetypes require an equal amount of each Attribute to equip.\n\n==List of Boots==\n{{main|List of boots}}\n{{:List of boots}}\n===Unique boots===\nMain page: [[List of unique boots]]\n==Other Boots==\n[[Demigod's Stride]] is a unique {{il|Golden Caligae}}. The basetype cannot be obtained normally.\n\n<noinclude>\n==Version history==\n{{Version history table header }}\n{{Version history table row|3.16.0|\n* Base Types are now generated with a random 0-15% (on average) higher base defence, as an inbuilt property. This means that all base types can be better than they currently are, and armour base types are not homogeneous any more.\n}}\n{{Version history table row |0.9.10}}\n* Improved the 3d art for many of the boots in the game.\n{{Version history table row|0.5.12|\n* Fixed a boots icon.\n}}\n{{Version history table row|0.5.8|\n* Fixed bugged armour values on BootsDex2 (Plated Leather Boots).\n}}\n{{Version history table row|0.5.5|\n* Altered levels of boots.\n}}\n{{Version history table row|0.5.4|\n* Added [[movement speed]] mod to boots.\n}}\n{{Version history table row |0.5.4|rel=before}}\n* Introduced to the game. (Note that the game enter closed beta in 0.9.0, open beta in 0.10.0 so that boots certainly exist before the betas, and exist in very early stage of alpha)\n{{Version history table end}}\n{{Navbox Armours}}\n\n[[Category:Boots| ]]\n[[Category:Item classes]]\n</noinclude>",
+  "sha256": "6ff86814273309fe9468219ef69833b07967bccbf2528f1d42599e5591f289a3"
+}

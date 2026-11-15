@@ -1,0 +1,33 @@
+{
+  "title": "Penance Mark",
+  "pageId": 119755,
+  "revision": 1677749,
+  "timestamp": "2026-07-23T22:26:08Z",
+  "retrieved": "2026-11-14T10:11:22.609183+00:00",
+  "requested": [
+    "one-handed sword",
+    "Death Aura",
+    "Mirage Archer",
+    "Penance Mark",
+    "Aura Skill",
+    "Conduit",
+    "Presence",
+    "tattoo",
+    "taking damage",
+    "channelling skill",
+    "Diamond Shrine",
+    "Minions",
+    "Determination",
+    "Bows",
+    "utility flask",
+    "Mana Flasks",
+    "Life Flasks",
+    "life regen",
+    "Everlasting Sacrifice",
+    "resistances"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=PenanceMark}}\n\n'''Penance Mark''' is a [[mark]] [[curse]] skill that causes hits against the marked target to summon hostile [[phantasm]]s. These phantasms can be killed by you.\n\nThis skill is granted by {{il|The Hateful Accuser}}.\n\n==Mechanics==\nPenance Mark is a [[mark]] [[curse]] that targets a single enemy, causing them to spawn normal rarity enemy phantasms, 2 by default, no more than once per second. As a mark, it shares the 1 mark limit with other mark skills, does not expire due to duration, and scales with {{c|mod|Mark Effect/Effect of your Curses}}. Modifying the curse's effect scales the number of enemy Phantasms spawned, rounded down.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/3452002#40|title=Path of Exile 2 and Path of Exile: Affliction Recently Asked Questions|date=December 6, 2023|accessdate=December 6, 2023}}</ref> At 67% reduced/less curse effect or greater, no Phantasms will be spawned.\n\n===Phantasms=== \nSpawned phantasms are regular enemies and will cast a [[physical]] [[projectile]] [[spell]] to fight you while they live. Their level and therefore their maximum [[life]] depends on the [[monster level]] of the Penance Marked monster; when spawned from a level 83 monster, phantasms will have around 20,000 life. Phantasms are immune to curses, [[knockback]], and pulling effects such as {{il|Void Sphere}}. They expire after a base 3 second [[duration]], if not killed first. \n\nPhantasms can be used to proc on-hit, when-hit, and on-kill effects in situations with few or no additional enemies, such as [[pinnacle boss]] encounters. Phantasms grant [[flask charge]]s and [[Vaal skill|vaal soul]]s when slain but do not drop items or leave [[corpse]]s.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/3452002#37|title=Path of Exile 2 and Path of Exile: Affliction Recently Asked Questions|date=December 6, 2023|accessdate=December 6, 2023}}</ref> \n\nPhantasms spawn a variable distance away from the marked target, typically ~2.8 to 4m in open areas. This may complicate taking advantage of effects with a limited range, such as {{il|Melee Splash Support}}, or {{psl|Master Toxicist}}'s on-kill [[poison]]ing of nearby enemies. Phantasms can be forced to spawn slightly closer than the minimum distance of 2.8m with careful character placement in relation to a map boundary, e.g. a wall. However, standing right next to a wall will force all phantasms to always spawn directly on the opposite side of the boundary in a cone at the aforementioned range.\n\n==Version history==\nPenance Mark was originally introduced as part of [[Choir of the Damned]] notable Ascendancy passive skill, of [[Warlock of the Mists]] Ascendancy class. It was an [[Affliction league]] mechanic, and the Ascendancy class is not added to the core game after the league end.\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Penance Mark, granted by The Hateful Accuser Unique Ring: Now has Cursed Enemies spawn 2 Shackled Phantasms when Hit, no more than once per second (previously 3 Shackled Phantasms).\n}}\n{{Version history table row|3.25.0|\n*Re-introduced to the game. Now granted from {{il|The Hateful Accuser}}.\n}}\n{{Version history table row|3.23.0|\n* Introduced to the game as part of [[Affliction league]] mechanic.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Spell (gem tag)]]\n[[Category:Hex (gem tag)]]",
+  "sha256": "dbd7a739c0695abb4451d9d66967c9b4bff391c3701e18aa0ac7629465038e16"
+}

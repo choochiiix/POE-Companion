@@ -1,0 +1,33 @@
+{
+  "title": "Baited Expectations",
+  "pageId": 1590,
+  "revision": 1682674,
+  "timestamp": "2026-07-26T23:32:27Z",
+  "retrieved": "2026-11-14T10:57:11.013901+00:00",
+  "requested": [
+    "Assassin's Mark",
+    "Asset Lock Buff",
+    "Asset Lock Inactive",
+    "Astral Chains",
+    "Astral Protection",
+    "Astrally Empowered",
+    "Attack Impale Chance",
+    "Attack and Cast Speed",
+    "Atziri's Promise",
+    "Augury of Penitence",
+    "Aukuna's Hunt",
+    "Aukuna's Lasso",
+    "Aul's Uprising",
+    "Aura of Death",
+    "Autoexertion",
+    "Automation",
+    "Avian's Flight",
+    "Avian's Might",
+    "Baited Expectations",
+    "Balance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Baited Expectations\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = The line between having not enough to do and too much to do is unusually fine.\n|drop_level                              = 23\n|tags                                    = unique_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardBaitedExpectations\n|stack_size                              = 8\n|description                             = {{c|unique|Fishing Item}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.9.0\n}}\n\n'''Baited Expectations''' is a [[divination card]]. A set of eight can be exchanged for a random [[unique]] [[fishing]] item.\n\n{{Item acquisition}}\n\n{{il|Angler's Plait}} is an extremely rare outcome from this card, circumventing reward pool restrictions of other cards granting unique items.<ref name=\"Angler's Plait\" />\n\n===Reward statistics===\nHere is the summary of experimental data and estimated probability\n{| class=\"wikitable sortable\"\n|-\n!Fishing item!! mbXtreme (n=60) <ref name=\"video\" /> !! %1 !! Slipperyjim8, 2025 (n=50) <ref name=\"Slipperyjim25\" /> !! %2 || Slipperyjim8, 2020 (n=50) <ref name=\"Slipperyjim20\" /> !! %3 !! poorFishwife (n≈400)<ref name=reddit /> !! %4 !! LuckyDLuck (n=2000)<ref name=\"Angler's Plait\" /> !!  %5\n|-\n| {{il|Fairgraves' Tricorne}} || || || 37/100 || 37% || 16/50 || 32% || || 32.0% || ||\n|-\n| {{il|Slitherpinch}}  || || || 37/100 || 37% || 14/50 || 28% || || 36.6% || ||\n|-\n| {{il|The Writhing Jar}}  || || || 12/100 || 12% || 10/50 || 20% || || 12.2% || ||\n|-\n| {{il|Rainbowstride}}  || || || 8/100 || 8% || 4/50 || 8% || || 11.6% || ||\n|-\n| {{il|Song of the Sirens}} || 4/60 || 6.67% || 5/100 || 5% || 6/50 || 12% || || 7.6% || 19 || 0.95%\n|-\n| {{il|Reefbane}} || 0/60 || 0% || 1/100 || 1% || 0/50 || 0% || || 0% || 1 || 0.05%\n|-\n| {{il|Angler's Plait}} || 0/60 || 0% || 0/100 || 0% || 0/50 || 0% || || 0% || 1 || 0.05%\n|-\n|}\n\nNote that due to smaller sampling size, streamers' outcome may not truly reflect the real probability. LuckyDLuck's data may be better in term of confidence interval, but done 3 years later after poorFishwife and streamers' initial experiments.\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n{{Atlas div card|Dunes|Untainted Paradise}}\n}}\n{{Version history table row|3.27.0|\n{{Atlas div card|Desert|Pillars of Arun}}\n}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Desert Spring|Dunes}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Desert Spring|Dry Sea}}\n}}\n{{Version history table row|3.18.0|\n* Baited Expectations now also drops from Desert. {{Divcord}}\n}}\n{{Version history table row|3.17.0|\n* Many divination cards that drop in maps now drop in additional map areas. In most cases their existing drop locations have not changed, and those cases have not been patch noted individually. Atlas reshuffles will mean that some of these locations will not be available in any given league, but checks are in place to ensure that every divination card available in maps always has at least one map present on the Atlas.\n** Baited Expectations now also drops from Desert Spring (again). {{Divcord}}\n}}\n{{Version history table row|3.16.0|\n* Many Divination Cards have found new homes as a result of the Atlas Changes:\n: Baited Expectations can now drop in the Dry Sea Map.\n}}\n{{Version history table row|3.9.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=<ref name=video>{{cite web|url=https://www.youtube.com/watch?v=ychiUe4cNak|title=&#91;PATH OF EXILE&#93; – 60x “BAITED EXPECTATION” – WAIT… WHAT?|date=February 15, 2020|accessdate=February 16, 2020|author=mbXtreme|publisher=Youtube}}</ref>\n<ref name=Slipperyjim25>{{cite web|url=https://www.youtube.com/watch?v=mzURa0HShU8|title=100 Sets of Baited Expectations|date=December 12, 2025|accessdate=December 13, 2025|author=Slipperyjim8|publisher=Youtube}}</ref>\n<ref name=Slipperyjim20>{{cite web|url=https://www.youtube.com/watch?v=jurNW8sqp08|title=Loot from 50 Baited Expectations|date=February 24, 2020|accessdate=February 24, 2020|author=Slipperyjim8|publisher=Youtube}}</ref>\n<ref name=reddit>{{cite web|url=https://www.reddit.com/r/pathofexile/comments/f8vzvo/serious_videos_of_loot_from_baited_expectations/|title=&#91;Serious&#93; Videos of loot from Baited Expectations divination cards (unique fishing items)|date=February 24, 2020|author=poorFishwife|publisher=Official Path of Exile subreddit|accessdate=February 24, 2020}}</ref>\n<ref name=\"Angler's Plait\">{{cite web\n| author = LuckyDLuck\n| date = September 25, 2023\n| title = I opened 2000 Baited Expectations this league. Angler's Plait confirmed!\n| url = https://www.reddit.com/r/pathofexile/comments/16sa2ws/i_opened_2000_baited_expectations_this_league/\n| publisher = Reddit\n| accessdate = September 26, 2023\n}}</ref>\n}}\n\n{{Navbox Items}}",
+  "sha256": "b58156abf2da106c83ee9aa250c96573415404c1fcb1f5c7579880ddd53774c1"
+}

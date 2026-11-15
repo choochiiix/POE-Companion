@@ -1,0 +1,35 @@
+{
+  "title": "Unhinge",
+  "pageId": 18327,
+  "revision": 1199534,
+  "timestamp": "2022-07-26T01:14:09Z",
+  "retrieved": "2026-11-14T10:57:30.259364+00:00",
+  "requested": [
+    "Increased Experience",
+    "Increased Life Leech",
+    "Increased Mana Leech",
+    "Increased Movement Speed",
+    "Increased Resistances",
+    "Increased Stun Recovery",
+    "Indifference of the Cosmos",
+    "Inescapable Doom",
+    "Infernal Blow",
+    "Infernal Cry",
+    "Inferno Bolt",
+    "Infested",
+    "Influence Mod (Invisible)",
+    "Inner Choking Miasma",
+    "Inner Deatomisation Storm",
+    "Innervate",
+    "Insanity",
+    "Inspirational",
+    "Inspired Learning",
+    "Instability"
+  ],
+  "aliases": [
+    "Insanity"
+  ],
+  "missing": false,
+  "wikitext": "{{Redirect|Insanity|the essence|Essence of Insanity|the unique item modifier|Innsbury Edge}}\n<!-- {{Query skill infobox|id= }}-->\n{| class=\"wikitable\" align=right\n|- style=\"font-size: 85%;\"\n! Name\n| {{c|value|Unhinge}}\n|- style=\"font-size: 85%;\" \n! Icon\n| [[File:Unhinge skill icon.png]]\n|- style=\"font-size: 85%;\" \n! scope=\"col\" width=\"50\" | Cast Time\n| {{c|value|0s}}\n|- style=\"font-size: 85%;\" \n! Cooldown\n| {{c|value|5s}}\n|-\n| colspan=\"2\" | {{c|gemdesc|Relinquish your grip on reality.}}\n|-\n| colspan=\"2\" | {{c|mod|Grants Insanity}}\n|}\n{{status\n| name                   = Insanity\n| type                   = Buff\n| description            = You are no longer Sane.\n}}\n\n'''Unhinge''' is a [[active skill|skill]] granted by {{il|Doppelgänger Guise}}. The skill does nothing but add Insanity buff to the player.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "9718b3ced23e6e0f623c4bdf1339b7b214c2daa04644a39571de72a0551dff97"
+}

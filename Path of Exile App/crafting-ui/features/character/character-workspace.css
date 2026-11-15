@@ -1,0 +1,326 @@
+/* DESIGN.md reference tokens are local to the Character pilot. */
+#characterPanel,.character-design-dialog {
+ --bg:#08090a;--bg-secondary:#0f1011;--surface:#161718;--text:#ffffff;--text-secondary:#d0d6e0;--text-muted:#8a8f98;
+ --line:#23252a;--control-border:#383b3f;--accent:#e4f222;--accent-gold:#e4f222;--selection-bg:#ffffff0d;
+ --font-ui:'Inter Variable','Inter',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+ --radius-sm:6px;--radius-md:12px;--radius-lg:12px;--shadow-panel:none;
+ font-family:var(--font-ui);font-size:16px;line-height:1.5;font-weight:400;letter-spacing:-.01em;
+ font-feature-settings:'cv01' on,'ss03' on,'zero' on;color:var(--text-secondary);color-scheme:dark;
+}
+#characterPanel {max-width:1200px;margin-inline:auto;background:var(--bg);border-radius:12px}
+#characterPanel .character-workspace {margin:0;padding:20px;background:var(--bg);border:0;border-radius:12px;box-shadow:none}
+#characterPanel :is(h2,h3,h4,strong) {font-weight:510;color:var(--text)}
+#characterPanel .calculation-header {padding:0;margin:0 0 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+#characterPanel .calculation-header small {font-size:11px;letter-spacing:.06em;color:var(--text-muted)}
+#characterPanel .calculation-header h2 {font-size:24px;font-weight:510;letter-spacing:-.022em;line-height:1.13;margin:8px 0 0}
+#characterPanel :where(button:not(.definition-term)),.character-design-dialog :where(button:not(.definition-term)) {min-height:30px;border:1px solid var(--line);border-radius:6px;padding:6px 10px;background:transparent;color:var(--text-secondary);box-shadow:none;font:400 13px/1.4 var(--font-ui);letter-spacing:-.01em}
+#characterPanel :where(button:not(.definition-term)):hover,.character-design-dialog :where(button:not(.definition-term)):hover {background:#ffffff0d;border-color:var(--control-border)}
+#characterPanel :is(button,summary):focus-visible,.character-design-dialog :is(button,input,select,summary):focus-visible {outline:2px solid var(--text-secondary);outline-offset:3px}
+#characterPanel .calculation-header>button {background:var(--accent);color:var(--bg);border:0;font-size:14px;font-weight:510;padding:8px 12px}
+#characterPanel .calculation-header>button:hover {background:#effa65}
+#characterPanel .calculation-identity {padding:0 0 16px;margin:0 0 12px;background:none;border:0;border-radius:0;box-shadow:none;display:flex;align-items:center;gap:16px}
+#characterPanel .calculation-portrait {width:36px;height:36px;flex-shrink:0;background:var(--surface);border:1px solid var(--line);border-radius:6px;color:var(--text-secondary);font:400 20px var(--font-ui)}
+#characterPanel .calculation-identity h3 {font-size:18px;line-height:1.33;letter-spacing:-.012em;margin:0;font-weight:400}
+#characterPanel .calculation-identity p {margin:4px 0 0;color:var(--text-muted);font-size:13px}
+#characterPanel .calculation-identity-skill {margin-left:auto;font:400 12px/1.4 ui-monospace,Consolas,monospace;max-width:200px;color:var(--text-muted)}
+#characterPanel .calculation-view-tabs {display:flex;gap:16px;margin:0 0 20px;padding:0;border-bottom:1px solid var(--line)}
+#characterPanel .calculation-view-tabs button {border:0;border-radius:0;padding:6px 0 8px;font-size:13px;position:relative;color:var(--text-muted);background:transparent}
+#characterPanel .calculation-view-tabs button[aria-pressed=true] {color:var(--text);background:transparent}
+#characterPanel .calculation-view-tabs button[aria-pressed=true]::after {content:'';position:absolute;bottom:-1px;height:2px;background:var(--accent);left:0;right:0}
+#characterPanel .calculation-main-grid {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+#characterPanel .character-stat-column {display:grid;gap:16px;min-width:0}
+#characterPanel :is(.character-panel,.loadout-panel,.calculation-detail,.calculation-bottom-grid>section,.calculation-comparison-view) {margin:0;padding:16px;background:var(--bg-secondary);border:0;border-radius:6px;box-shadow:inset 0 0 0 1px var(--line);min-width:0}
+#characterPanel :is(.character-panel>h3,.loadout-panel>h2,.calculation-bottom-grid h3) {font-size:14px;line-height:1.5;letter-spacing:-.01em;font-weight:510;margin:0 0 12px}
+#characterPanel .calculation-summary {display:flex;flex-direction:column;margin:0;gap:0;background:none;border:0;border-radius:0}
+#characterPanel .calculation-stat {display:flex;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;gap:12px;width:100%;min-height:34px;padding:6px 8px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}
+#characterPanel .calculation-stat:last-child {border-bottom:0}
+#characterPanel .calculation-stat span {font-size:13px;color:var(--text-secondary)}
+#characterPanel .calculation-stat strong {font:400 14px/1.5 var(--font-ui);font-variant-numeric:tabular-nums;letter-spacing:-.01em;color:var(--text)}
+#characterPanel .calculation-stat[aria-pressed=true] {background:#ffffff05;box-shadow:inset 2px 0 var(--accent);border-color:var(--line)}
+#characterPanel .character-attribute-values {display:grid;grid-template-columns:1fr auto;margin:0;font-size:13px;gap:0}
+#characterPanel .character-attribute-values dt,#characterPanel .character-attribute-values dd {padding:6px 0;border-bottom:1px solid var(--line);text-transform:capitalize}
+#characterPanel .character-attribute-values dd {margin:0;font-variant-numeric:tabular-nums;color:var(--text)}
+#characterPanel .character-attribute-values :nth-last-child(-n+2) {border-bottom:0}
+#characterPanel #equipmentStatus {font-size:12px;color:var(--text-muted);line-height:1.5;margin:0 0 16px}
+#characterPanel .equipment-body {display:flex;flex-direction:column;gap:0;margin:0;max-width:none}
+#characterPanel .body-outline {display:none}
+#characterPanel .equipment-body>.gear-slot {display:grid;grid-template-columns:100px minmax(0,1fr);width:100%;text-align:left;align-items:start;justify-content:stretch;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;padding:4px 0;gap:8px;overflow:visible;min-height:36px}
+#characterPanel .equipment-body>.gear-slot:last-child {border:0}
+#characterPanel .gear-slot>strong,#characterPanel .gear-slot.has-base>strong {font-size:13px;font-weight:400;line-height:28px;color:var(--text-muted);margin:0;text-align:left}
+#characterPanel .gear-slot .gear-card-content {display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:4px;text-align:right;min-width:0}
+#characterPanel .gear-slot .character-item-detail {width:auto;text-align:left;font-size:13px;min-width:0}
+#characterPanel .character-item-detail>summary {cursor:pointer;color:var(--text-secondary);line-height:1.5;overflow-wrap:anywhere;padding:4px 0;list-style:revert}
+#characterPanel .character-item-detail>summary::marker {color:var(--text-muted);font-size:10px}
+#characterPanel .gear-slot .equipped-gear-card {margin:8px 0;width:100%;max-width:320px;box-shadow:none}
+#characterPanel .gear-card-content>button {min-height:28px;padding:4px 8px;font-size:12px;margin:0;border-color:transparent;color:var(--text-muted)}
+#characterPanel .gear-slot.has-base .gear-card-content>button {font-size:11px}
+#characterPanel .calculation-flasks {margin-top:16px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--text-muted)}
+#characterPanel .calculation-detail>summary {font-size:14px;text-transform:none;letter-spacing:0;list-style:revert;color:var(--text-secondary);margin:0;cursor:pointer}
+#characterPanel .calculation-detail>summary::marker {font-size:10px;color:var(--text-muted)}
+#characterPanel .calculation-detail[open]>summary {margin-bottom:12px}
+#characterPanel .calculation-detail h3 {font-size:16px;font-weight:510;margin:0}
+#characterPanel .calculation-selected-total {font-size:24px;letter-spacing:-.022em;padding:8px 0 12px;color:var(--text);font-weight:400}
+#characterPanel .calculation-detail dl {font-size:13px;margin:0 0 24px;gap:0}
+#characterPanel .calculation-detail dt,#characterPanel .calculation-detail dd {padding:8px 0;line-height:1.5;border-bottom:1px solid var(--line)}
+#characterPanel .calculation-detail dd {padding-left:12px}
+#characterPanel .calculation-detail h4 {font-size:13px;margin:0;font-weight:510}
+#characterPanel .calculation-breakdown-list {font-size:13px;line-height:1.6;color:var(--text-muted);padding-left:20px}
+#characterPanel .calculation-detail details {font-size:12px;border-top:1px solid var(--line);padding-top:16px;color:var(--text-muted)}
+#characterPanel .calculation-bottom-grid {display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+#characterPanel .calculation-resist-values {gap:12px;grid-template-columns:repeat(4,minmax(0,1fr))}
+#characterPanel .calculation-resist-values span {color:var(--text-muted);font-size:12px}
+#characterPanel .calculation-resist-values strong {font-weight:400;font-size:20px;color:var(--text)}
+#characterPanel .calculation-bottom-grid p {font-size:15px;line-height:1.6;color:var(--text-secondary)}
+#characterPanel .calculation-bottom-grid button {color:var(--text-secondary)}
+#characterPanel .calculation-notice {margin:24px 0 0;padding:0;border:0;border-radius:0;background:none;font-size:12px;line-height:1.6;color:var(--text-muted)}
+#characterPanel .calculation-comparison-view {margin-top:32px}
+#characterPanel .calculation-comparison-view h3 {font-size:24px;font-weight:400;letter-spacing:-.012em;margin:0 0 16px}
+#characterPanel .calculation-comparison-view p {font-size:16px;line-height:1.5;color:var(--text-secondary)}
+.character-design-dialog {padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--bg-secondary);box-shadow:none}
+.character-design-dialog h2 {font-size:24px;font-weight:400;letter-spacing:-.012em;margin:0 0 16px}
+.character-design-dialog :is(input,select) {border:1px solid #ffffff14;border-radius:6px;padding:8px 12px;background:#ffffff05;color:var(--text-secondary);font:400 14px/1.4 var(--font-ui);box-shadow:none}
+.character-design-dialog :is(input,select):focus {border-color:var(--text-secondary)}
+.character-design-dialog .calculation-controls {gap:16px}
+.character-design-dialog label {font-size:13px;color:var(--text-secondary)}
+.character-design-dialog p {font-size:15px;line-height:1.6;color:var(--text-muted)}
+.character-design-dialog section,.character-design-dialog .character-creator {border:1px solid var(--line);border-radius:6px;background:var(--surface);box-shadow:none}
+.character-design-dialog :is(button:disabled,input:disabled,select:disabled),#characterPanel button:disabled {opacity:.5;cursor:not-allowed}
+@media(max-width:1050px) {#characterPanel .calculation-main-grid {grid-template-columns:1fr}#characterPanel .calculation-identity-skill {display:none}}
+@media(max-width:600px) {
+ #characterPanel .character-workspace {padding:16px}
+ #characterPanel .calculation-header {align-items:flex-start;flex-direction:column;gap:12px}
+ #characterPanel .calculation-identity {padding:0 0 12px;flex-wrap:wrap}
+ #characterPanel .calculation-identity h3 {font-size:20px}
+ #characterPanel .calculation-identity button {margin-left:48px}
+ #characterPanel .calculation-bottom-grid {grid-template-columns:1fr}
+ #characterPanel .calculation-view-tabs {gap:16px}
+ #characterPanel :is(.character-panel,.loadout-panel,.calculation-detail,.calculation-bottom-grid>section) {padding:16px}
+ #characterPanel .equipment-body>.gear-slot {grid-template-columns:80px minmax(0,1fr);gap:8px}
+ .character-design-dialog {padding:16px}
+}
+@media(prefers-reduced-motion:reduce) {#characterPanel *, .character-design-dialog * {animation:none!important;transition:none!important}}
+@media(forced-colors:active) {#characterPanel .calculation-stat[aria-pressed=true] {outline:2px solid Highlight;outline-offset:-2px}#characterPanel .calculation-header>button {border:1px solid ButtonText}}
+
+/* Density refinement requested after reference review. */
+#characterPanel .character-item-detail[open] {grid-column:1/-1}
+#characterPanel .gear-slot:not(.has-base) .gear-card-content>button {grid-column:2/-1;justify-self:end}
+#characterPanel .calculation-identity {border-bottom:1px solid var(--line)}
+#characterPanel section.character-attributes {background:transparent;box-shadow:none;border-top:1px solid var(--line);border-radius:0;padding-top:12px}
+#characterPanel .calculation-bottom-grid>section {background:transparent;box-shadow:none;border-top:1px solid var(--line);border-radius:0;padding-top:12px}
+#characterPanel .calculation-bottom-grid p {font-size:13px}
+#characterPanel .calculation-notice {margin-top:16px}
+@media(max-width:600px){
+ #characterPanel .equipment-body>.gear-slot {grid-template-columns:80px minmax(0,1fr)}
+ #characterPanel .gear-slot .gear-card-content {grid-template-columns:minmax(0,1fr) auto}
+ #characterPanel .character-item-detail {grid-column:1/-1}
+ #characterPanel .gear-card-content>button {justify-self:end}
+ #characterPanel .calculation-identity h3 {font-size:18px}
+}
+/* Plan Switch: original edge springs, Character colors/type/corners. */
+#characterPanel .calculation-view-tabs.plan-switch {--spring-lead:620 36;--spring-trail:190 19;position:relative;isolation:isolate;display:flex;width:fit-content;max-width:100%;gap:0;padding:3px;margin-bottom:20px;background:var(--bg-secondary);border:1px solid var(--line);border-radius:6px}
+#characterPanel .plan-switch .plan-switch-highlight {position:absolute;left:0;top:3px;bottom:3px;border-radius:4px;background:var(--surface);pointer-events:none;z-index:0}
+#characterPanel .calculation-view-tabs.plan-switch button {z-index:1;padding:6px 12px;min-height:30px;border-radius:4px;white-space:nowrap;font-size:12px}
+#characterPanel .calculation-view-tabs.plan-switch button[aria-pressed=true] {color:var(--text)}
+#characterPanel .calculation-view-tabs.plan-switch button[aria-pressed=true]::after {display:none}
+@media(max-width:380px){#characterPanel .calculation-view-tabs.plan-switch button{padding-inline:8px;font-size:11px}}
+
+/* Character's surrounding navigation follows its design pilot while visible. */
+body:has(#characterPanel:not([hidden])) .app-sidebar {
+ background:#0f1011;border-right:1px solid #23252a;padding:24px 12px;
+ font-family:'Inter Variable','Inter',ui-sans-serif,system-ui,'Segoe UI',sans-serif;
+ color:#d0d6e0;box-shadow:none;backdrop-filter:none;
+}
+body:has(#characterPanel:not([hidden])) .app-sidebar header {padding:0 8px;margin-bottom:24px}
+body:has(#characterPanel:not([hidden])) .app-sidebar .eyebrow {font-size:10px;letter-spacing:.06em;color:#8a8f98}
+body:has(#characterPanel:not([hidden])) .app-sidebar header h1 {font-size:13px;font-weight:510;letter-spacing:-.01em;text-transform:none;color:#fff;margin-top:6px}
+body:has(#characterPanel:not([hidden])) .workspace-tabs {gap:4px}
+body:has(#characterPanel:not([hidden])) .workspace-tabs button {
+ min-height:34px;padding:8px 12px;border:0;border-radius:6px;background:transparent;
+ color:#8a8f98;font-size:13px;font-weight:400;box-shadow:none;text-align:left;
+}
+body:has(#characterPanel:not([hidden])) .workspace-tabs button[aria-pressed=true] {background:#ffffff0d;color:#fff;border:0;box-shadow:inset 2px 0 #e4f222}
+body:has(#characterPanel:not([hidden])) .workspace-tabs button[aria-pressed=true]::before {display:none}
+body:has(#characterPanel:not([hidden])) .workspace-tabs button:hover {background:#161718;color:#fff}
+body:has(#characterPanel:not([hidden])) .app-sidebar #settingsButton {min-height:32px;border:1px solid #23252a;border-radius:6px;background:transparent;color:#d0d6e0;box-shadow:none;font-size:12px;padding:6px 12px}
+body:has(#characterPanel:not([hidden])) .sidebar-note {color:#8a8f98;font-size:11px}
+body:has(#characterPanel:not([hidden])) .sidebar-note .connection-dot {background:#8a8f98}
+body:has(#characterPanel:not([hidden])) .workspace-bar {color:#8a8f98;border-color:#23252a;font-size:12px}
+body:has(#characterPanel:not([hidden])) .workspace-bar b {color:#d0d6e0;font-weight:400}
+#characterPanel .calculation-view-tabs.plan-switch {border-radius:10px}
+#characterPanel .plan-switch .plan-switch-highlight,
+#characterPanel .calculation-view-tabs.plan-switch button {border-radius:7px}
+@media(max-width:800px){
+ body:has(#characterPanel:not([hidden])) .app-sidebar {padding:16px}
+ body:has(#characterPanel:not([hidden])) .app-sidebar header {margin-bottom:12px}
+ body:has(#characterPanel:not([hidden])) .workspace-tabs button {min-height:32px;padding:6px 10px}
+}
+
+/* Compositor-only switch movement; stable targets avoid spring retuning on resize. */
+#characterPanel .plan-switch .plan-switch-highlight {width:100px;transform-origin:0 50%;will-change:transform}
+#characterPanel .calculation-view-tabs.plan-switch button:hover {background:transparent}
+html:has(#characterPanel:not([hidden])) {scrollbar-gutter:stable}
+/* Compact UI cards retain the noneditable rarity/property/modifier palette. */
+#characterPanel .gear-slot .equipped-gear-card {background:var(--item-card-bg);border:1px solid var(--item-card-rule);border-radius:6px;text-align:left;box-shadow:none}
+#characterPanel .equipped-gear-header {padding:10px 12px;border:0;border-left:2px solid var(--gear-rarity);background:var(--item-card-header)}
+#characterPanel .equipped-gear-header::before,#characterPanel .equipped-gear-header::after {display:none}
+#characterPanel .equipped-gear-header h4,#characterPanel .equipped-gear-header p {font-family:'Segoe UI',sans-serif;font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;text-align:left;color:var(--gear-rarity)}
+#characterPanel .equipped-gear-header p {font-size:11px;margin-top:3px}
+#characterPanel .equipped-gear-card .equipped-gear-body {padding:10px 12px;text-align:left;font-family:'Segoe UI',sans-serif}
+#characterPanel .equipped-gear-body p {font-size:12px;line-height:1.5;margin:3px 0}
+#characterPanel .gear-source-note {font-size:10px;line-height:1.5;margin-top:10px;padding-top:8px}
+#characterPanel .gear-mod-block {padding-top:8px;margin-top:8px}
+#characterPanel .equipped-gear-card.is-springing {overflow:hidden;box-sizing:border-box}
+#characterPanel .character-item-detail>summary {list-style:none;display:flex;align-items:center;gap:6px}
+#characterPanel .character-item-detail>summary::-webkit-details-marker {display:none}
+#characterPanel .character-item-detail>summary::before {content:'›';font-size:16px;color:var(--text-muted);transform:rotate(0deg);transition:transform .18s}
+#characterPanel .character-item-detail>summary[aria-expanded=true]::before {transform:rotate(90deg)}
+
+/* Ascendancy identity: archived game art, softly masked behind readable content. */
+#characterPanel .character-banner {position:relative;isolation:isolate;margin:-20px -20px 12px;padding:20px 20px 0;overflow:hidden;border-radius:12px 12px 0 0;background:var(--bg)}
+#characterPanel .character-banner-art {position:absolute;right:0;top:0;width:65%;height:100%;object-fit:cover;object-position:66% 42%;opacity:.38;z-index:-2;pointer-events:none;mask-image:linear-gradient(90deg,transparent 0%,#000 70%,#000 100%);}
+#characterPanel .character-banner::after {content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,var(--bg) 10%,transparent 75%),linear-gradient(0deg,var(--bg),transparent 40%)}
+#characterPanel .character-banner .calculation-header {position:relative}
+#characterPanel .character-banner .calculation-identity {position:relative;margin-bottom:0}
+#characterPanel .calculation-portrait.has-art {width:44px;height:44px;border:1px solid var(--line);overflow:hidden;background:var(--surface);border-radius:8px}
+#characterPanel .calculation-portrait img {width:100%;height:100%;display:block;object-fit:cover;transform:scale(1.08)}
+#characterPanel .character-banner .calculation-identity-skill {color:var(--text-secondary)}
+@media(max-width:600px){
+ #characterPanel .character-banner {margin:-16px -16px 12px;padding:16px 16px 0}
+ #characterPanel .character-banner-art {width:100%;opacity:.22;object-position:60% 36%}
+}
+@media(forced-colors:active){#characterPanel .character-banner-art,#characterPanel .character-banner::after {display:none}}
+#characterPanel .character-banner[data-ascendancy=Necromancer] .character-banner-art {object-position:66% 12%}
+
+/* Frame the subject, rather than squeezing a circular atlas portrait into a tile. */
+#characterPanel .calculation-portrait.has-art {position:relative;display:block;flex:0 0 44px;aspect-ratio:1;overflow:hidden}
+#characterPanel .calculation-portrait img {position:absolute;left:50%;top:50%;width:260%;height:260%;max-width:none;object-fit:contain;transform:translate(-50%,-42%)}
+#characterPanel .character-banner[data-ascendancy=Trickster] .calculation-portrait img {transform:translate(-68%,-44%)}
+#characterPanel .character-banner[data-ascendancy=Necromancer] .calculation-portrait img {transform:translate(-50%,-24%)}
+.character-identity-editor {width:min(520px,calc(100vw - 32px));padding:24px;overflow-x:hidden}
+.character-identity-editor .character-creator {display:block;margin:0;padding:0;border:0;background:none;box-shadow:none;min-height:0}
+.character-identity-editor h2 {font-size:22px;margin:0 0 8px}
+.character-identity-editor .section-description {font-size:13px;color:var(--text-muted);margin:0 0 20px;line-height:1.5}
+.character-identity-editor .character-summary {display:grid;grid-template-columns:auto 1fr;column-gap:12px;align-items:center;padding:12px;margin:0 0 20px;background:var(--surface);border-radius:8px;border:1px solid var(--line)}
+.character-identity-editor .character-summary h3 {font-size:15px;font-weight:510;margin:0;grid-column:2}
+.character-identity-editor .character-summary p {font-size:12px;margin:2px 0 0;grid-column:2}
+.character-identity-editor .character-editor-portrait {width:48px;height:48px;object-fit:cover;border-radius:6px;grid-column:1;grid-row:1/3}
+.character-identity-editor .character-controls {display:block}
+.character-identity-editor #classChoices {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.character-identity-editor #classChoices button {min-height:38px;border:1px solid var(--line);background:var(--surface);color:var(--text-secondary);font-size:13px;font-weight:400;padding:8px 10px;border-radius:6px;text-align:left;box-shadow:none}
+.character-identity-editor #classChoices button[aria-pressed=true] {background:#ffffff0d;border-color:var(--text-muted);color:var(--text);box-shadow:inset 2px 0 var(--accent)}
+.character-identity-editor #classChoices button[aria-pressed=true]::after {color:var(--accent)}
+.character-identity-editor #classChoices button:hover {background:#23252a;color:var(--text)}
+.character-identity-editor .field-caption {font-size:12px;margin-bottom:8px;color:var(--text-muted)}
+.character-identity-editor .class-picker {margin-bottom:20px}
+.character-identity-editor .ascendancy-picker {margin:0 0 12px;font-size:12px;gap:8px}
+.character-identity-editor #characterSaveStatus {font-size:12px;margin:8px 0;color:var(--text-muted)}
+.character-identity-editor .character-creator>small {display:block;margin-top:12px;font-size:10px;color:var(--text-muted)}
+.character-identity-editor .character-editor-footer {display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+.character-identity-editor .character-editor-footer>span {font-size:11px;color:var(--text-muted)}
+.character-identity-editor .character-editor-footer>button {margin:0;background:var(--accent);color:var(--bg);border:0}
+@media(max-width:480px){.character-identity-editor{padding:16px}.character-identity-editor #classChoices{grid-template-columns:repeat(2,minmax(0,1fr))}.character-identity-editor .character-editor-footer>span{display:none}.character-identity-editor .character-editor-footer{justify-content:flex-end}}
+.character-identity-editor #classChoices button {margin:0}
+
+/* Class and ascendancy pickers share the same spring menu and real local art. */
+.spring-dropdown-value>span {display:flex;align-items:center;gap:8px;min-width:0}
+.spring-dropdown-value>span>span {overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.spring-dropdown-portrait {flex:0 0 24px;width:24px;height:24px;object-fit:contain;border-radius:4px;pointer-events:none}
+.spring-dropdown-option>.spring-dropdown-portrait {width:24px;height:24px}
+.character-identity-editor .class-picker>label {font-size:12px;color:var(--text-secondary);margin:0}
+.character-identity-editor .character-progression {display:grid;grid-template-columns:90px minmax(0,1fr);gap:16px;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.character-identity-editor .character-progression label {margin:0;font-size:12px;min-width:0}
+.character-identity-editor .character-progression input {width:100%}
+.character-identity-editor .character-editor-hint {font-size:11px;line-height:1.6;color:var(--text-muted);margin:12px 0 0}
+.character-identity-editor #characterContextStatus {font-size:12px;color:var(--text-muted);margin:8px 0 0}
+.character-identity-editor #characterContextStatus:empty {display:none}
+@media(max-width:480px){.character-identity-editor .character-progression {grid-template-columns:1fr;gap:12px}}
+
+/* Reviewed portrait framing: expose the subject, not the surrounding skill-tree disc. */
+#characterPanel .calculation-portrait.has-art {width:44px;height:44px;flex-basis:44px}
+.spring-dropdown-icon-frame {position:relative;display:block;flex:0 0 24px;width:24px;height:24px;border-radius:4px;overflow:hidden;background:#0f1011}
+.spring-dropdown-option>.spring-dropdown-icon-frame {flex:0 0 24px}
+.character-identity-editor .character-editor-portrait {position:relative;overflow:hidden;width:48px;height:48px;display:block;background:var(--surface);border-radius:6px}
+#characterPanel .calculation-portrait img,
+.character-identity-editor .character-editor-portrait img,
+.spring-dropdown-icon-frame .spring-dropdown-portrait {position:absolute;left:50%;top:50%;width:210%;height:210%;max-width:none;object-fit:contain;transform:translate(calc(-1 * var(--portrait-x,50%)),calc(-1 * var(--portrait-y,45%)))}
+.spring-dropdown-icon-frame .spring-dropdown-portrait {width:260%;height:260%}
+#characterPanel .calculation-portrait img[src*='/classes/'],
+.character-identity-editor .character-editor-portrait img[src*='/classes/'],
+.spring-dropdown-icon-frame .spring-dropdown-portrait[src*='/classes/'] {inset:0;width:100%;height:100%;object-fit:cover;transform:none}
+.spring-dropdown-portrait[src$='/pathfinder.png'],.character-editor-art[src$='/pathfinder.png'],#characterPanel .calculation-portrait img[src$='/pathfinder.png'] {--portrait-x:66%;--portrait-y:35%}
+#characterPanel .character-banner[data-ascendancy='pathfinder' i] .character-banner-art {object-position:66% 32%}
+
+.spring-dropdown-portrait[src$='/hierophant.png'],.character-editor-art[src$='/hierophant.png'],#characterPanel .calculation-portrait img[src$='/hierophant.png'] {--portrait-x:44%;--portrait-y:38%}
+#characterPanel .character-banner[data-ascendancy='hierophant' i] .character-banner-art {object-position:66% 36%}
+
+.spring-dropdown-portrait[src$='/assassin.png'],.character-editor-art[src$='/assassin.png'],#characterPanel .calculation-portrait img[src$='/assassin.png'] {--portrait-x:55%;--portrait-y:39%}
+#characterPanel .character-banner[data-ascendancy='assassin' i] .character-banner-art {object-position:66% 38%}
+
+.spring-dropdown-portrait[src$='/juggernaut.png'],.character-editor-art[src$='/juggernaut.png'],#characterPanel .calculation-portrait img[src$='/juggernaut.png'] {--portrait-x:43%;--portrait-y:38%}
+#characterPanel .character-banner[data-ascendancy='juggernaut' i] .character-banner-art {object-position:66% 36%}
+
+.spring-dropdown-portrait[src$='/necromancer.png'],.character-editor-art[src$='/necromancer.png'],#characterPanel .calculation-portrait img[src$='/necromancer.png'] {--portrait-x:43%;--portrait-y:21%}
+#characterPanel .character-banner[data-ascendancy='necromancer' i] .character-banner-art {object-position:66% 12%}
+
+.spring-dropdown-portrait[src$='/champion.png'],.character-editor-art[src$='/champion.png'],#characterPanel .calculation-portrait img[src$='/champion.png'] {--portrait-x:56%;--portrait-y:62%}
+#characterPanel .character-banner[data-ascendancy='champion' i] .character-banner-art {object-position:66% 62%}
+
+.spring-dropdown-portrait[src$='/ascendant.png'],.character-editor-art[src$='/ascendant.png'],#characterPanel .calculation-portrait img[src$='/ascendant.png'] {--portrait-x:52%;--portrait-y:37%}
+#characterPanel .character-banner[data-ascendancy='ascendant' i] .character-banner-art {object-position:66% 35%}
+
+.spring-dropdown-portrait[src$='/occultist.png'],.character-editor-art[src$='/occultist.png'],#characterPanel .calculation-portrait img[src$='/occultist.png'] {--portrait-x:51%;--portrait-y:34%}
+#characterPanel .character-banner[data-ascendancy='occultist' i] .character-banner-art {object-position:66% 30%}
+
+.spring-dropdown-portrait[src$='/slayer.png'],.character-editor-art[src$='/slayer.png'],#characterPanel .calculation-portrait img[src$='/slayer.png'] {--portrait-x:49%;--portrait-y:61%}
+#characterPanel .character-banner[data-ascendancy='slayer' i] .character-banner-art {object-position:66% 64%}
+
+.spring-dropdown-portrait[src$='/inquisitor.png'],.character-editor-art[src$='/inquisitor.png'],#characterPanel .calculation-portrait img[src$='/inquisitor.png'] {--portrait-x:32%;--portrait-y:28%}
+#characterPanel .character-banner[data-ascendancy='inquisitor' i] .character-banner-art {object-position:66% 24%}
+
+.spring-dropdown-portrait[src$='/gladiator.png'],.character-editor-art[src$='/gladiator.png'],#characterPanel .calculation-portrait img[src$='/gladiator.png'] {--portrait-x:53%;--portrait-y:62%}
+#characterPanel .character-banner[data-ascendancy='gladiator' i] .character-banner-art {object-position:66% 64%}
+
+.spring-dropdown-portrait[src$='/chieftain.png'],.character-editor-art[src$='/chieftain.png'],#characterPanel .calculation-portrait img[src$='/chieftain.png'] {--portrait-x:36%;--portrait-y:40%}
+#characterPanel .character-banner[data-ascendancy='chieftain' i] .character-banner-art {object-position:66% 40%}
+
+.spring-dropdown-portrait[src$='/guardian.png'],.character-editor-art[src$='/guardian.png'],#characterPanel .calculation-portrait img[src$='/guardian.png'] {--portrait-x:50%;--portrait-y:40%}
+#characterPanel .character-banner[data-ascendancy='guardian' i] .character-banner-art {object-position:66% 38%}
+
+.spring-dropdown-portrait[src$='/warden.png'],.character-editor-art[src$='/warden.png'],#characterPanel .calculation-portrait img[src$='/warden.png'] {--portrait-x:50%;--portrait-y:40%}
+#characterPanel .character-banner[data-ascendancy='warden' i] .character-banner-art {object-position:66% 38%}
+
+.spring-dropdown-portrait[src$='/deadeye.png'],.character-editor-art[src$='/deadeye.png'],#characterPanel .calculation-portrait img[src$='/deadeye.png'] {--portrait-x:69%;--portrait-y:35%}
+#characterPanel .character-banner[data-ascendancy='deadeye' i] .character-banner-art {object-position:66% 32%}
+
+.spring-dropdown-portrait[src$='/trickster.png'],.character-editor-art[src$='/trickster.png'],#characterPanel .calculation-portrait img[src$='/trickster.png'] {--portrait-x:68%;--portrait-y:44%}
+#characterPanel .character-banner[data-ascendancy='trickster' i] .character-banner-art {object-position:66% 42%}
+
+.spring-dropdown-portrait[src$='/saboteur.png'],.character-editor-art[src$='/saboteur.png'],#characterPanel .calculation-portrait img[src$='/saboteur.png'] {--portrait-x:62%;--portrait-y:26%}
+#characterPanel .character-banner[data-ascendancy='saboteur' i] .character-banner-art {object-position:66% 20%}
+
+.spring-dropdown-portrait[src$='/elementalist.png'],.character-editor-art[src$='/elementalist.png'],#characterPanel .calculation-portrait img[src$='/elementalist.png'] {--portrait-x:54%;--portrait-y:28%}
+#characterPanel .character-banner[data-ascendancy='elementalist' i] .character-banner-art {object-position:66% 25%}
+
+.spring-dropdown-portrait[src$='/berserker.png'],.character-editor-art[src$='/berserker.png'],#characterPanel .calculation-portrait img[src$='/berserker.png'] {--portrait-x:49%;--portrait-y:44%}
+#characterPanel .character-banner[data-ascendancy='berserker' i] .character-banner-art {object-position:66% 46%}
+
+#characterPanel .character-banner[data-ascendancy] .calculation-portrait img[src*='/ascendancies/'] {transform:translate(calc(-1 * var(--portrait-x,50%)),calc(-1 * var(--portrait-y,45%)))}
+
+/* Dedicated small portraits from the supplied reference need no aggressive zoom. */
+#characterPanel .character-banner[data-ascendancy] .calculation-portrait img[src*='/portrait'],
+.character-identity-editor .character-editor-portrait img[src*='/portrait'],
+.spring-dropdown-icon-frame .spring-dropdown-portrait[src*='/portrait'] {inset:0;left:0;top:0;width:100%;height:100%;max-width:100%;object-fit:cover;transform:none}
+#characterPanel .character-banner[data-ascendancy=Ascendant] .character-banner-art {object-position:66% 38%;opacity:.26}
+#characterPanel .calculation-portrait img[src*='/portrait'] {inset:0;width:100%;height:100%;object-fit:cover;transform:none}
+#characterPanel .character-banner[data-ascendancy=Berserker] .character-banner-art {mask-image:linear-gradient(90deg,transparent,#000 40%);opacity:.42}
+/* Final banner focal points after reviewing every header at desktop width. */
+#characterPanel .character-banner[data-ascendancy=Guardian] .character-banner-art {object-position:66% 18%}
+#characterPanel .character-banner[data-ascendancy=Hierophant] .character-banner-art {object-position:66% 8%}
+#characterPanel .character-banner[data-ascendancy=Inquisitor] .character-banner-art {object-position:66% 16%}
+#characterPanel .character-banner[data-ascendancy=Assassin] .character-banner-art {object-position:66% 12%}
+#characterPanel .character-banner[data-ascendancy=Occultist] .character-banner-art {object-position:66% 10%}
+#characterPanel .character-banner[data-ascendancy=Elementalist] .character-banner-art {object-position:66% 14%}
+#characterPanel .character-banner[data-ascendancy=Warden] .character-banner-art {object-position:66% 18%}
+#characterPanel .character-banner[data-ascendancy=Champion] .character-banner-art {object-position:66% 68%}
+#characterPanel .character-banner[data-ascendancy=Gladiator] .character-banner-art {object-position:66% 70%}
+#characterPanel .character-banner[data-ascendancy=Ascendant] .character-banner-art {object-position:66% 48%}

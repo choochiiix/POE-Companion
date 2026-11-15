@@ -1,0 +1,33 @@
+{
+  "title": "Doomed",
+  "pageId": 119389,
+  "revision": 1389175,
+  "timestamp": "2023-10-10T08:56:47Z",
+  "retrieved": "2026-11-14T10:57:19.970796+00:00",
+  "requested": [
+    "Digestive Acid",
+    "Diluting Touch",
+    "Discipline Aura",
+    "Disgorge",
+    "Divination Distillate",
+    "Divine Beam",
+    "Divine Blast of Radiance",
+    "Divine Charge",
+    "Divine Flare",
+    "Divine Ire",
+    "Divine Shrine",
+    "Divine Tempest",
+    "Doedre's Madness",
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering",
+    "Doomed",
+    "Doryani's Conflagration",
+    "Double Strike",
+    "Drained Essence"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Doomed\n| type                   = Debuff\n| description            = You are about to die.\n}}\n\n'''Impedance''' is a [[debuff]] which applies a flaming horned skull effect to the player's head. It is applied during the countdown in {{il|Oba's Cursed Trove}}. After the countdown in chat reaches 0, the player's head visually explodes and kills the player. The debuff itself does not provide any negative effects otherwise.\n\n[[Category:Debuffs]]",
+  "sha256": "18f7ed822d93a64be4d2eabe8594404b13cc812e7c7099b5bb0075b591fcb93d"
+}

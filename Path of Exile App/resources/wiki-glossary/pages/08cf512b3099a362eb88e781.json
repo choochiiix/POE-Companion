@@ -1,0 +1,33 @@
+{
+  "title": "Impedance",
+  "pageId": 119382,
+  "revision": 1389112,
+  "timestamp": "2023-10-08T09:56:12Z",
+  "retrieved": "2026-11-14T10:57:29.464871+00:00",
+  "requested": [
+    "Ignited Damage Increase",
+    "Igniting Conflux",
+    "Ikiaho's Leadership",
+    "Immobilised",
+    "Immortal Call",
+    "Impale Effect",
+    "Impaled",
+    "Impedance",
+    "Impenetrable Bastion",
+    "Impenetrable Shell",
+    "Impenetrable Shrine",
+    "Impotence",
+    "Imprisoned",
+    "Impurity of Fire",
+    "Impurity of Ice",
+    "Impurity of Lightning",
+    "Incinerate",
+    "Increased Armour",
+    "Increased Energy Shield",
+    "Increased Evasion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Impedance\n| type                   = Debuff\n| description            = You have reduced Action Speed.\n}}\n\n'''Impedance''' is a [[debuff]] which applies a 15% reduced [[action speed]] and can stack up to 4 times. It is applied by skills from [[Xenathar, Templar Reaper]].\n\n[[Category:Debuffs]]",
+  "sha256": "bc16f0f78b9cddaf7639ededc5f8d873dda1db1204d214135358c58bbaa5ad1d"
+}

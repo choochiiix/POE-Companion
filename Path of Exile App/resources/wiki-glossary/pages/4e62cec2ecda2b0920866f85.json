@@ -1,0 +1,35 @@
+{
+  "title": "Degeneration aura",
+  "pageId": 4776,
+  "revision": 1486303,
+  "timestamp": "2024-10-13T02:16:02Z",
+  "retrieved": "2026-11-14T10:57:19.162651+00:00",
+  "requested": [
+    "Death Geas",
+    "Death Prevention",
+    "Death Rhoomba",
+    "Death Wish",
+    "Death's Oath",
+    "Deathly Chill",
+    "Decaying Memory",
+    "Deep One's Presence",
+    "Defiance",
+    "Defiance Banner",
+    "Degeneration Aura",
+    "Demigod's Authority",
+    "Demon's Power",
+    "Demonic Skull",
+    "Desolation of the Awakener",
+    "Destructive Link",
+    "Determination Aura",
+    "Devouring Darkness",
+    "Devouring Tempest",
+    "Diamond Flask"
+  ],
+  "aliases": [
+    "Degeneration Aura"
+  ],
+  "missing": false,
+  "wikitext": "{{about|monster aura|degeneration in general|damage over time}}\n{{status\n| name                   = Degeneration Aura\n| type                   = Debuff\n| description = {{c|normal|Enemies take Chaos Damage over time}}\n}}\n{{status\n| name                   = Degeneration Aura\n| type                   = Debuff\n| icon= Degeneration Aura (physical damage) status icon.png\n| description = {{c|normal|Enemies take Physical Damage over time}}\n}}\n{{status\n| name                   = Degeneration Aura\n| type                   = Debuff\n| icon= LightningSearingBond.png\n| description = {{c|normal|Enemies take Lightning Damage over time}}\n}}\n[[File:Oozeback Bloom monster screenshot.jpg|thumb|right|280px|Oozeback Bloom and its Degeneration Aura effect]]\n'''Degeneration Aura''' is a [[monster aura]] that deals [[chaos]] [[damage over time]] to nearby enemies. It can be found on monsters with the mod {{c|normal|Enemies take Chaos Damage over time}} that displayed under their nameplate, or monster that use the skill id [[Skill:ChaosDegenAura|ChaosDegenAura]] (it will not display in the nameplate). Monster with any one variant, will have a visual aura-effect under it.\n\nThe Degeneration aura also has physical damage and lightning damage variants, but they are more rarely found.\n==Sources==\n===Chaos===\nThere are two variants of Chaos Degeneration Aura:\n\n* Any unique monster with the modifier [[Modifier:MonsterAuraEnemyLifeDegen1|MonsterAuraEnemyLifeDegen1]] (#% of player's Maximum Life taken as Chaos DOT):\n** [[Oozeback Bloom]] and its map variants: [[Drought-Maddened Rhoa]], [[Skullbeak]] (6%)\n** [[Plague Retch]] (4%)\n** [[Rancor]] (4%)\n** [[Abaxoth, the End of All That Is]] (4%, no longer encounterable in-game)\n\n* Any monster that use the skill [[Skill:ChaosDegenAura|ChaosDegenAura]] (deals a fixed base Chaos DOT), for example:\n** [[Shaggy Monstrosity]] (can be a [[Raise Spectre|raised spectre]]) \n** [[Kalria, The Risen]] (a [[Warband]] member and the second form of [[Kalria, The Fallen]])\n** [[Unthinking]] (no longer encounterable in-game)\n\nSee also: {{sl|Death Aura}}\n\n===Physical===\n[[Tormented Spirit|Tormented Charlatan]]  (#% of player's Maximum Life taken as Physical DOT)\n\nSee also: {{stl|Remnant of Corruption}}\n\n===Lightning===\nThe laser beam found in [[The Eradicator]]'s arenas applies a debuff known as \"Degeneration Aura\" (deals a fixed base Lightning DOT).\n\nSee also: {{stl|Scientist's Beam}}, {{stl|Piety Beam}}, {{stl|Lightning Beam}}\n\n==See also==\nThere are other monster auras that also deal damage over time:\n* [[Modifier:MonsterAuraEnemyLifeDegenCold]] - from [[Locust Swarm]], a monster possessed by Talisman. (Cold damage over time)\n* [[Modifier:MonsterAuraEnemyLifeDegenFire]] - from [[Locust Swarm]], a monster possessed by Talisman (Fire damage over time)\n* [[Modifier:MonsterAuraEnemyLifeDegenLightning]]  - from [[Locust Swarm]], a monster possessed by Talisman. (Lightning damage over time)\n* [[Modifier:MonsterAuraEssenceEnemyLifeDegen1]] - from monster possessed by Essence (Chaos damage over time)\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|1.0.0|\n* Rare degeneration bears that generate with an aura from a mod now cast their '''degeneration aura''' properly as well.\n}}\n{{Version history table row|0.11.1e|\n* The monster life '''degeneration aura''' now shows on affected targets.\n}}\n{{Version history table row|0.9.9|\n* The unique [[Rhoa]] in [[the Mud Flats (Act 1)|the Mud Flats]], [[Oozeback Bloom]], now has a life '''degeneration aura''' and can charge at you again.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]\n[[Category:Monster auras]]",
+  "sha256": "6e7b7197c76c01a27997a475e2c6bc7415f496e903c0fde04482674ae0462aa4"
+}

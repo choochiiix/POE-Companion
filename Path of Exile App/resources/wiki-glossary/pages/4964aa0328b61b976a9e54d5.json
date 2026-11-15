@@ -1,0 +1,33 @@
+{
+  "title": "Piety Beam",
+  "pageId": 12460,
+  "revision": 1362072,
+  "timestamp": "2023-07-08T23:15:49Z",
+  "retrieved": "2026-11-14T10:57:36.432160+00:00",
+  "requested": [
+    "Pestilent Strike Damage",
+    "Phantasmal Might",
+    "Phase Run",
+    "Phase Run Damage",
+    "Phase Running",
+    "Phasing Buff",
+    "Phoenix Fire Bomb",
+    "Phylactery",
+    "Physical Aegis",
+    "Physical Damage Immunity",
+    "Physical Damage Taken Increase",
+    "Physical Damage and Bleed",
+    "Physical Empowered",
+    "Physical Empowerment",
+    "Physical Projectile Retaliation",
+    "Physical Reflection",
+    "Physical Reflection Aura",
+    "Physical Thorns",
+    "Piercing Screech",
+    "Piety Beam"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Piety Beam\n| type                   = Debuff\n| icon= LightningSearingBond.png\n| description = {{c|normal|You are taking Lightning Damage from a Lightning Beam skill}}\n}}\n'''Piety Beam''' is a [[debuff]] from [[Piety]] when she use a skill to disable [[Malachai, The Nightmare]]'s invulnerable shield during [[Act 4]]. Although this skill is aimed at Malachai, players and allies crossing through the beam will take Lightning Damage over Time and will be [[Shocked]].\n\nThe icon is the same as [[Degeneration Aura]] (lightning damage variant), [[Scientist's Beam]] and [[Lightning Beam]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "0a49361b12384e2151f4176cd0791a05ad40c83264f8e3df9e5ad45c8159e906"
+}

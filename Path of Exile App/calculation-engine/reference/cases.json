@@ -1,0 +1,12 @@
+[
+  {"id":"accuracy-zero","function":"hitChance","args":[0,0]},
+  {"id":"accuracy-no-evasion","function":"hitChance","args":[0,100]},
+  {"id":"accuracy-low","function":"hitChance","args":[10000,100]},
+  {"id":"accuracy-high","function":"hitChance","args":[10000,10000]},
+  {"id":"accuracy-floor","function":"hitChance","args":[1000000,1]},
+  {"id":"armour-zero","function":"armourReductionF","args":[0,0]},
+  {"id":"armour-half","function":"armourReductionF","args":[5000,1000]},
+  {"id":"armour-small-hit","function":"armourReductionF","args":[5000,100]},
+  {"id":"armour-large-hit","function":"armourReductionF","args":[5000,10000]},
+  {"id":"armour-rounded","function":"armourReduction","args":[5000,100]}
+]

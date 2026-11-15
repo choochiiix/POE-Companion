@@ -1,0 +1,33 @@
+{
+  "title": "Replica Kalisa's Grace",
+  "pageId": 13673,
+  "revision": 1395958,
+  "timestamp": "2023-12-02T00:30:49Z",
+  "retrieved": "2026-11-14T10:57:39.619714+00:00",
+  "requested": [
+    "Ravenous - Eldritch",
+    "Ravenous - Humanoid",
+    "Ravenous - Undead",
+    "Reap",
+    "Reave",
+    "Red Effluent",
+    "Red Team",
+    "Redeemer Shrine Monster",
+    "Redeemer's Shrine",
+    "Redeemer's Storm",
+    "Refining Tempest",
+    "Reflection",
+    "Regenerating Mana",
+    "Rejuvenation",
+    "Rejuvenation Totem Aura",
+    "Remembrance",
+    "Remnant of Corruption",
+    "Replenishing Shrine",
+    "Replica Headhunter",
+    "Replica Kalisa's Grace"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|is_replica                              = true\n|rarity_id                               = unique\n|name                                    = Replica Kalisa's Grace\n|class_id                                = Gloves\n|base_item                               = Samite Gloves\n|explicit1                               = DisplaySupportedByUnleashUnique__1\n|explicit2                               = IntelligenceUnique__7\n|explicit3                               = LocalIncreasedEnergyShieldUnique__14\n|explicit4                               = IncreasedLifeUnique__62\n|explicit5                               = GainAreaOfEffectPluspercentOnManaSpentUnique__1\n|flavour_text                            = \"Our superiors were getting anxious for results, and lowered security standards.<br>A single attempt of a spell with this unexpected power destroyed an entire floor.\"\n|release_version                         = 3.12.0\n|drop_text                               = Replicas can be obtained from [[Curio Display]]s in the final reward rooms of any [[Grand Heist]].\n}}\n\n'''Replica Kalisa's Grace''' is a pair of [[unique]] {{il|Samite Gloves}}. It is the [[replica]] version of {{il|Kalisa's Grace}}.\n\n==Modifiers==\nApplicable [[skill gem]]s socketed in this item are [[Support Skill Gems|support]]ed by level 18 {{il|Unleash Support}}. All support stats are accounted for, including the cost and reservation multiplier.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.12.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "fddb404428f3d926d89c79e2d19cb839620d9811b7bcb4830c85175392e67af5"
+}

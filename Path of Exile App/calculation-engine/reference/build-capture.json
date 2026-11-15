@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "archiveSha256": "6ea36e73649da26741fd0c1c3bd57a99e589db84191f0e0578f320b1921cc34b",
+  "trialScriptSha256": "6b1c874977c57cb680ae02c27089ba2e6e2b1236d663e4fb46c0aba5f29cb0e2",
+  "runnerSha256": "5cf419fea72f4be83d34e97dc25454d1c2d87d2704ce162fd34af773206b9151",
+  "localSourceHashes": {
+    "data-sources/pob-tree-3_29/tree.json": "6a7e1e957e1c82eef6bf4f6b3bc114fadbcdc3b5f3055f5d7900e42f2448072b",
+    "data-sources/repoe-poe1/base_items.json": "48afb07a5f40eb51552f90c17d53186469db282a2e759dab7b46e7f9d2a0f58b",
+    "data-sources/repoe-poe1/mods.json": "8ffecc59131a5456f9d40316e81e527c560f055da1ea85c32e8d300135b6a2c4",
+    "crafting-ui/skills-data.json": "72a36b6418a50280bc8049ec1a28879e29b3ea309e9be4430957558bd5b83789"
+  },
+  "kind": "executed-pob-headless-build",
+  "result": {
+    "allocated": [
+      {
+        "id": 33296,
+        "name": "Spell Damage",
+        "stats": [
+          "12% increased Spell Damage"
+        ]
+      },
+      {
+        "id": 54447,
+        "name": "WITCH",
+        "stats": []
+      },
+      {
+        "id": 57264,
+        "name": "Spell Damage and Mana",
+        "stats": [
+          "16% increased Spell Damage",
+          "+16 to maximum Mana"
+        ]
+      }
+    ],
+    "constants": {
+      "accuracy_rating_per_level": 2,
+      "base_evasion_rating": 15,
+      "life_per_level": 12,
+      "mana_per_level": 6
+    },
+    "enemy": {
+      "Accuracy": 37,
+      "Armour": 182,
+      "ChaosResist": 0,
+      "ColdResist": 0,
+      "Evasion": 563,
+      "FireResist": 0,
+      "LightningResist": 0
+    },
+    "hit": {
+      "FireCritAverage": 27,
+      "FireHitAverage": 18
+    },
+    "items": {
+      "Body Armour": {
+        "armourData": {
+          "Armour": 23,
+          "ArmourBase": 23,
+          "ArmourBasePercentile": 0.5,
+          "EnergyShield": 0,
+          "EnergyShieldBase": 0,
+          "Evasion": 0,
+          "EvasionBase": 0,
+          "Ward": 0,
+          "WardBase": 0
+        },
+        "name": "Plate Vest"
+      },
+      "Weapon 1": {
+        "name": "Rusted Sword"
+      }
+    },
+    "modifiers": {
+      "elementalMore": 1.2,
+      "spellIncreased": 28
+    },
+    "output": {
+      "Armour": 23,
+      "AverageDamage": 18.45,
+      "AverageHit": 18.45,
+      "ChaosResist": 0,
+      "ColdResist": 0,
+      "CritChance": 5,
+      "CritMultiplier": 1.5,
+      "Dex": 14,
+      "EnergyShield": 0,
+      "Evasion": 15,
+      "FireMaxBase": 14,
+      "FireMinBase": 9,
+      "FireResist": 0,
+      "HitChance": 100,
+      "Int": 32,
+      "Life": 285,
+      "LightningResist": 0,
+      "Mana": 186,
+      "Speed": 1.3333333333333,
+      "Str": 14,
+      "TotalDPS": 24.6
+    },
+    "skill": {
+      "castTime": 0.75,
+      "level": {
+        "1": 0.80000001192093,
+        "2": 1.2000000476837,
+        "3": 10,
+        "PvPDamageMultiplier": -30,
+        "cost": {
+          "Mana": 5
+        },
+        "critChance": 5,
+        "damageEffectiveness": 3,
+        "levelRequirement": 1,
+        "statInterpolation": [
+          3,
+          3,
+          1
+        ]
+      },
+      "name": "Fireball",
+      "stats": [
+        "spell_minimum_base_fire_damage",
+        "spell_maximum_base_fire_damage",
+        "active_skill_base_area_of_effect_radius",
+        "base_is_projectile",
+        "quality_display_active_skill_ignite_damage_is_gem"
+      ]
+    },
+    "support": {
+      "level": {
+        "1": 20,
+        "levelRequirement": 18,
+        "manaMultiplier": 30,
+        "statInterpolation": [
+          1
+        ]
+      },
+      "name": "Elemental Focus",
+      "stats": [
+        "support_gem_elemental_damage_+%_final",
+        "cannot_inflict_status_ailments"
+      ]
+    },
+    "weapon": {
+      "AttackRate": 1.55,
+      "AttackSpeedInc": 0,
+      "CritChance": 5,
+      "PhysicalDPS": 10.075,
+      "PhysicalMax": 9,
+      "PhysicalMin": 4,
+      "TotalDPS": 10.075,
+      "name": "Rusted Sword",
+      "range": 11,
+      "rangeBonus": 0,
+      "type": "One Handed Sword"
+    }
+  }
+}

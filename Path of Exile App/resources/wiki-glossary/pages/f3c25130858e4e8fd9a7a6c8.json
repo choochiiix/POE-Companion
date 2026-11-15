@@ -1,0 +1,33 @@
+{
+  "title": "Unencumbered",
+  "pageId": 18318,
+  "revision": 1535703,
+  "timestamp": "2025-04-01T15:45:14Z",
+  "retrieved": "2026-11-14T10:11:13.886154+00:00",
+  "requested": [
+    "Rune",
+    "Torment",
+    "Mercenary",
+    "Relic",
+    "sextant",
+    "veiled modifier",
+    "Implicit modifier",
+    "the Searing Exarch",
+    "Crucible passive skill tree",
+    "enchantments",
+    "items",
+    "Lightning",
+    "Physical",
+    "Rare",
+    "element",
+    "stun duration",
+    "Unencumbered",
+    "glove",
+    "Kitava",
+    "taken as"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "A character or {{il|Animate Guardian}} is considered '''unencumbered''' if their main hand, off-hand, and glove slots are all either empty or [[equipment|disabled]]. The unencumbered state is considered a stricter version of the [[unarmed]] state. \n\nThe unencumbered state does not grant any inherent stats and is not considered a [[buff]]. It is a pre-requisite to benefit from certain stats.\n\nUnarmed attacks normally count as using the main hand. While Unencumbered does not ''inherently'' change this, {{psl|Hollow Palm Technique}}'s {{c|mod|You count as Dual Wielding while Unencumbered}} will cause unarmed attacks to alternate hands.<ref>https://www.reddit.com/r/pathofexile/comments/fcflyy/with_the_new_hollow_palm_technique_how_would/fjbbeyy/?context=1</ref> Note this is not necessarily accurately reflected by the character's visual animation.<ref>https://www.reddit.com/r/pathofexile/comments/fnygra/comment/flcdq5l/</ref>\n\nPlayers may wish to disable auto-pickup in the options menu to prevent accidentally equipping a weapon, shield, or gloves, disabling the unencumbered state.\n\n==Related passive skills==\n{{Passive skill table\n|q_where=\n  passive_skills.stat_text LIKE \"%unencumbered%\"\n|large=1\n|stat_text=1\n}}\n\n==References==\n{{reflist}}\n[[Category:keywords]]",
+  "sha256": "8dd79fd6d0ced17a3e09160eda90ad9d49bca654b2c38c92ff8246a272d597ea"
+}

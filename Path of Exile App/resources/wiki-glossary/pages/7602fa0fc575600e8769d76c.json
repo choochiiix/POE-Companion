@@ -1,0 +1,24 @@
+{
+  "title": "Corpse Walk",
+  "pageId": 3874,
+  "revision": 1649300,
+  "timestamp": "2026-05-22T23:37:16Z",
+  "retrieved": "2026-11-14T10:11:25.220652+00:00",
+  "requested": [
+    "Elemental proliferation",
+    "chilling area",
+    "Explosive Toad",
+    "Enfeeble",
+    "Corpse Walk",
+    "level requirement",
+    "Lingering Blade",
+    "Detonate Mines",
+    "of Flames",
+    "projectiles",
+    "Charge Duration"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=CorpseWalk}}\n\n'''Corpse Walk''' is a [[skill]] granted by {{il|Corpsewalker}}.\n\n==Mechanics==\n{{main|Desecrate#Skill functions and interactions}}\n\nCorpse Walk spawns [[corpse]]s and/or [[Spectral Corpse]]s while [[moving]], one by one, on a time-based interval. It has a maximum of 12 corpses independent of other corpse generation skills. It spawns corpses with the same level as the area. \n\nIt otherwise uses the same corpse mechanics as {{il|Desecrate}}. \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* [[Corpse]]s spawned by the {{il|Desecrate}} and {{sl|Corpse Walk}} skills now have a flat 15% chance to match your spectres (or 100% in [[Hideout]] areas), rather than a 15% chance on top of being added to the main pool of corpse varieties that can be picked from. These [[Spectral Corpse]]s are now unusable for most purposes, and can only be used by [[Minion]] Skills such as {{il|Raise Spectre}} or {{il|Bone Offering}}.\n** Spectral Corpses have a visual effect applied to them to help differentiate them from other corpses.\n** Spectral Corpses can only spawn if you have the Raise Spectre Skill.\n}}\n{{Version history table row|3.17.0|\n* Desecrate and Corpse Walk now have a static 15% chance to spawn a Spectre Corpse, rather than a 2x relative weighting compared to all other possible corpse types.\n}}\n{{Version history table row|3.12.4|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "114f07116c4d36ceeff61becb157ab459574de594084a611001c087df6008833"
+}

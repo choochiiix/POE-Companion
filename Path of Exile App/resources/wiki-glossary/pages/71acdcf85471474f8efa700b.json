@@ -1,0 +1,35 @@
+{
+  "title": "Ice Prison",
+  "pageId": 95547,
+  "revision": 1462771,
+  "timestamp": "2024-07-16T22:44:45Z",
+  "retrieved": "2026-11-14T10:57:29.464871+00:00",
+  "requested": [
+    "Ignited Damage Increase",
+    "Igniting Conflux",
+    "Ikiaho's Leadership",
+    "Immobilised",
+    "Immortal Call",
+    "Impale Effect",
+    "Impaled",
+    "Impedance",
+    "Impenetrable Bastion",
+    "Impenetrable Shell",
+    "Impenetrable Shrine",
+    "Impotence",
+    "Imprisoned",
+    "Impurity of Fire",
+    "Impurity of Ice",
+    "Impurity of Lightning",
+    "Incinerate",
+    "Increased Armour",
+    "Increased Energy Shield",
+    "Increased Evasion"
+  ],
+  "aliases": [
+    "Imprisoned"
+  ],
+  "missing": false,
+  "wikitext": "__NOTOC__\n'''Ice Prison''' is a monster modifier. Monsters with this mod will occasionally cast a {{il|Frost Wall}} Nova to trap players. However unlike bosses that use similar circular wall skills, such as [[Winterfang]] and [[Burtok, Conjurer of Bones]], the Frost Wall from the Ice Prison will have an opening instead of completely surrounding the target, similar to [[Sirus]]' Maze skill. The opening may still be blocked by terrain. \n\nPlayers and monsters can not pass through Ice Prison. There are some exceptions: teleporting and leaping skills, and [[phasing]] allow traversing past them.\n\n==Gallery==\n<gallery>\nFile:Ice Prison 3.18.png|Encounter with Ice Prison monster in Azurite Mine.\nFile:Ice Prison 3.18 monster visual aura.png|Monster with this mod will have a special visual aura effect.\nFile:Imprisoned status icon.png|The icon of the Imprisoned debuff from legacy variant.\n</gallery>\n\n==Legacy variant==\nThe legacy [[archnemesis]] version (prefix form {{ml|MonsterArchnemesisGlacialCage}}) also grants the monster the following (as of 3.19.1c patch):\n\n: {{c|mod|50% of Physical Damage Converted to Cold Damage}}\n:{{c|mod|Gain 25% of Physical Damage as Extra Cold Damage}}\n:{{c|mod|30% increased Cold Damage}}\n:{{c|mod|+40% to Cold Resistance}}\n:{{c|mod|50% reduced effect of Cold Ailments}}\n:{{c|mod|20% additional Physical Damage Reduction}}\n\n==See also==\n* [[Modifier:MonsterModIcePrison]] The actual modifier datacard\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Monster mods now only do one specific thing.\n}}\n{{Version history table row|3.19.1c|\n* Increased the cooldown of the '''Ice Prison''' Archnemesis modifier from 5 seconds to 10 seconds, and the duration of the '''Ice Prison''' has been increased from 3 seconds to 5 seconds. This results in 50% prison uptime rather than 60%, and fewer overall prisons.\n}}\n{{Version history table row|3.19.0f|\n* Now has 20% additional Physical Damage Reduction (previously 25%).\n}}\n{{Version history table row|3.19.0|\n* The Corpse Detonator, '''Ice Prison''', and Mirror Image Monster modifiers can no longer appear on Magic Monsters.\n}}\n{{Version history table row|3.18.0d|\n* No longer grants immunity to Cold Ailments. It now grants 50% reduced effect of Cold Ailments.\n}}\n{{Version history table row|3.18.0|\n* Archnemesis modifiers have been rebalanced and added to the core game. Existing Magic and Rare monster modifiers have been replaced with Archnemesis modifiers.\n* No longer applies '''Imprisoned''' debuff that disable [[:Category:Travel (gem tag)|Travel]] skill. Now grants the monster a special visual aura {{Undocumented}}\n* Now grants {{c|mod|50% of Physical Damage Converted to Cold Damage}}<ref name=mod>{{cite web|url=https://www.pathofexile.com/forum/view-thread/3267228|title=What's Next for Archnemesis Modifiers - Part 3 (and list of modifiers)|date=May 15, 2022|accessdate=May 15, 2022|publisher=Official Path of Exile Forums|author=Chris}}</ref><ref>Based on historical data at [[Modifier:MonsterArchnemesisGlacialCage]]</ref> (up from 25%) {{Undocumented}}\n:{{c|mod|Gain 25% of Physical Damage as Extra Cold Damage}} (down from 50%)\n:{{c|mod|30% increased Cold Damage}} (down from 50%)\n:{{c|mod|+40% to Cold Resistance}} (down from 60%)\n:{{c|mod|Immune to Cold Ailments}} (unchanged)\n:{{c|mod|25% additional Physical Damage Reduction}} (unchanged)\n: {{c|mod|Periodically creates a barrier of Ice around the player for 3 seconds (5 second cooldown, 5 second global cooldown)}}.  (unchanged?)\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n[[Category:Monster skills]]",
+  "sha256": "556f2e1eb3c7fb8aec0946b68d248dd0de38ebe5b3abf7155962ed0fdecdd5b2"
+}

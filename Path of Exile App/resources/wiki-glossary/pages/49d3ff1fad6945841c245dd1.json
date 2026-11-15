@@ -1,0 +1,33 @@
+{
+  "title": "Perquil's Toe",
+  "pageId": 12346,
+  "revision": 1548957,
+  "timestamp": "2025-07-06T14:14:06Z",
+  "retrieved": "2026-11-14T10:57:35.686043+00:00",
+  "requested": [
+    "Omnitect's Thruster",
+    "One Step Ahead",
+    "Oppression",
+    "Orb Fire",
+    "Orb of Elemental Essence",
+    "Ornate Dagger",
+    "Otherworldly Pressure",
+    "Outer Deatomisation Storm",
+    "Overflowing Chalice",
+    "Overloaded Intensity",
+    "Overpowered",
+    "PC Bang Entitlements",
+    "PURPLE BUFF",
+    "Pacified",
+    "Pacify",
+    "Paralysing Touch",
+    "Penance",
+    "Penance Brand",
+    "Perquil's Toe",
+    "Pestilent Strike"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Perquil's Toe\n|class_id                                = Amulet\n|base_item                               = Gold Amulet\n|drop_level                               = 50\n|explicit1                               = DexterityUnique__7 <!-- DexterityUnique__8, DexterityUnique__11 -->\n|explicit2                               = MovementVelocityUnique__36_\n|explicit3                               = EnemyExtraDamageRollsWithLightningDamageUnique__1\n|explicit4                               = UniqueNearbyAlliesAreLuckyDisplay\n|flavour_text                            = He was a lot luckier before he lost this.\n|release_version                         = 3.4.0\n}}\n{{status\n| name                   = Perquil's Toe\n| type                   = Buff\n| description            = You are Lucky when Damaging Enemies.\n}}\n\n'''Perquil's Toe''' is a [[unique]] {{il|Gold Amulet}}. This item is named after [[Perquil the Lucky]], a vaal side area boss. The item modifiers may be a pun to the name of the boss, \"the Lucky\".\n\n==Mechanics==\n[[Luck]]\n\n{{c|mod|Nearby Allies' Damage with Hits is Lucky}}: [[Perquil's Toe (debuff)|This buff]] is only granted to [[nearby]] [[allies]] within a radius of 5 metres. The buff is not granted to the wearer.\n\n{{Item acquisition}}\n\n==Design attribution==\nPerquil's Toe was created by supporter [https://www.reddit.com/user/theshadowmoose theshadowmoose].<ref name=\"Supporter attribution\"/>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Supporter attribution\">{{cite web|author=theshadowmoose|date=August 30, 2018|title=I'm toetally excited for my supporter unique releasing in Delve!|url=https://www.reddit.com/r/pathofexile/comments/9bgbrj/im_toetally_excited_for_my_supporter_unique/|publisher=Path of Exile Subreddit|accessdate=August 30, 2018}}</ref>\n}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique items created by supporters]]",
+  "sha256": "8437956e0060eddad9417bc29677cfcad1ed8b1b9c4ff177c46e469ac89f2eab"
+}

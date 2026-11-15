@@ -1,0 +1,33 @@
+{
+  "title": "Avatar of Fire",
+  "pageId": 1451,
+  "revision": 1625575,
+  "timestamp": "2026-03-03T20:32:45Z",
+  "retrieved": "2026-11-14T10:08:30.585105+00:00",
+  "requested": [
+    "Elemental Overload",
+    "Point Blank",
+    "Iron Will",
+    "Iron Grip",
+    "Avatar of Fire",
+    "Zealot's Oath",
+    "Wicked Ward",
+    "Glancing Blows",
+    "Divine Flesh",
+    "Petrified Blood",
+    "Petrification",
+    "Aegis",
+    "Guard",
+    "Aura",
+    "Curse",
+    "Hex",
+    "Mark",
+    "Warcry",
+    "Totem",
+    "Trap"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Avatar of Fire}}\n\n'''Avatar of Fire''' is a [[keystone passive skill]] that [[damage conversion|converts]] 50% of [[physical damage]], [[lightning damage]] and [[cold damage]] to [[fire damage]]. However, the character cannot deal damage with any damage types except fire. \n\nLike other offensive stats, Avatar of Fire's conversion and {{c|mod|Deal no Non-Fire Damage}} do not affect self-damage such as {{il|Blood Rage}} or {{il|Forbidden Rite}}.\n\nIn most situations, {{c|mod|Avatar of Fire}} will not synergize with {{psl|Elemental Equilibrium}}, since Elemental Equilibrium will add fire resistance to the enemy, while the player is unable to utilize the cold and lightning weakness.  One notable use case is when the player summons minions that primarily deal cold and lightning damage.  Since minions do not inherit Elemental Equilibrium, the player's fire damage will permanently weaken the enemy to cold and lightning.\n\n==Location==\nAvatar of Fire is located on the left side of the skill tree between the [[Templar]] and [[Marauder]] starting areas.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Templar]]||10\n|-\n|[[Marauder]]||7\n|-\n|[[Witch]]||18\n|-\n|[[Scion]]||13\n|-\n|[[Duelist]]||15\n|-\n|[[Shadow]]||23\n|-\n|[[Ranger]]||23\n|}\n\n==Related unique items==\nThese [[unique item]]s have the {{c|mod|Avatar of Fire}} modifier, which provides the same effect as this keystone. Taking the keystone in addition to equipping one of these items will impart no additional benefit.\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Avatar%of%Fire%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|1.0.0|\n* Added a rebalanced Keystone Passive Skill - Avatar of Fire\n}}\n{{Version history table row|0.9.9|\n* Removed. It will return in a later patch in a form that doesn't cause problems for so many other game systems.\n}}\n{{Version history table row|0.9.5g|\n* Avatar of Fire now has \"Cannot Resist Cold Damage\". Rather than reducing its fire damage, we felt it more appropriate to accentuate the glass-cannon aspects of builds based around this keystone.\n}}\n{{Version history table row|0.9.4|\n* Introduced to the game. Converts all physical damage to fire damage.\n}}\n{{Version history table end}}\n{{sister|poe2wiki}}",
+  "sha256": "6f192431900a3c8dd4922e959c6abef24f79c584baa760e36b29a922d1b241c4"
+}

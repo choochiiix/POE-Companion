@@ -1,0 +1,33 @@
+{
+  "title": "Bone Roil",
+  "pageId": 2339,
+  "revision": 1446177,
+  "timestamp": "2024-05-25T01:30:28Z",
+  "retrieved": "2026-11-14T10:57:13.544156+00:00",
+  "requested": [
+    "Blood Ritual",
+    "Blood Sap Tincture",
+    "Blood Shrine of Bats",
+    "Blood Shrine of Crows",
+    "Blood Shrine of Locusts",
+    "Blood Shrine of Rats",
+    "Blood Shrine of Toads",
+    "Blood Stance",
+    "Blood of the Karui",
+    "Blue Team",
+    "Boiling Blood",
+    "Bone Armour",
+    "Bone Offering",
+    "Bone Roil",
+    "Boon of Justice",
+    "Boon of the First Ones",
+    "Borealwood Tincture",
+    "Borrowed Power",
+    "Bottled Purity",
+    "Boulderdash Angry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Bone Roil\n| type                   = Debuff\n| description            = ?\n}}\n\n'''Bone Roil''' is a Physical [[Damage over time]] [[debuff]].\n\n==Sources==\n* [[Burtok, Conjurer of Bones]]\n\n[[Category:Debuffs]]",
+  "sha256": "902d8a5836e2f405fb79b7b9997afd70cb134ed03d9d7fcc17b5f9345b7798ed"
+}

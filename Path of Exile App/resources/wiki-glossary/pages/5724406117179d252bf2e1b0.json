@@ -1,0 +1,33 @@
+{
+  "title": "Replica Rumi's Concoction",
+  "pageId": 13699,
+  "revision": 1481045,
+  "timestamp": "2024-08-14T13:26:54Z",
+  "retrieved": "2026-11-14T10:57:40.388076+00:00",
+  "requested": [
+    "Replica Rumi's Concoction",
+    "Resistance Shrine",
+    "Resisting Tempest",
+    "Resists Aura",
+    "Resolve Weakness",
+    "Resonating Shrine",
+    "Resplendence",
+    "Resplendent Tempest",
+    "Restless Ground",
+    "Restorative Tempest",
+    "Restore",
+    "Revealing Tempest",
+    "Reviving Carrion",
+    "Reviving Chaos",
+    "Reviving Flame",
+    "Reviving Ice",
+    "Reviving Lightning",
+    "Reviving Spectre",
+    "Reviving Stone",
+    "Rhoa Boss Enrage"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|is_replica                              = true\n|rarity_id                               = unique\n|name                                    = Replica Rumi's Concoction\n|class_id                                = UtilityFlask\n|base_item                               = Granite Flask\n|explicit1                               = FlaskGainEnduranceChargeUnique__1_\n|explicit2                               = BlockIncreasedDuringFlaskEffectUnique__1\n|explicit3                               = SpellBlockIncreasedDuringFlaskEffectUnique__1_\n|explicit4                               = LocalFlaskPetrifiedUnique__1\n|explicit5                               = FlaskIncreasedDurationUnique__2\n|flavour_text                            = \"The most terrifying split second of my life.\"<br/>- Researcher Graven\n|release_version                         = 3.12.0\n|drop_text                               = Replicas can be obtained from [[Curio Display]]s in the final reward rooms of any [[Grand Heist]].\n}}\n{{status\n| name                   = Replica Rumi's Concoction\n| type                   = Flask Effect\n| description = You are Petrified\n}}\n\n'''Replica Rumi's Concoction''' is a [[unique]] {{il|Granite Flask}}. It is the [[replica]] version of {{il|Rumi's Concoction}}.\n\n==Modifiers==\nBy default, using this flask creates three Flask Buff icons:\n# {{stl|Granite Flask}} (additional Armour)\n# {{stl|Rumi's Concoction}} (chance to Block Attacks and Spells)\n# {{stl|Replica Rumi's Concoction}} (Petrified) \n\nSimilarly to being [[frozen]], [[petrified]] modifies the player's [[action speed]] by reducing it by 100%. Effects that prevent or minimize lowering of [[action speed]], like Trickster's {{psl|One Step Ahead}}, [[Juggernaut]]'s {{psl|Unstoppable}}, {{il|Kaom's Roots}}, or some [[Scourge modifier]]s, will prevent the player from being stuck in place and unable to use any skills during this flask's effect.\n\nReplica Rumi's Concoction has an incredibly short duration; by default, with 0% [[quality]], the flask effect duration is 0.6 seconds. In order to improve its uptime, players will likely want to apply an {{il|Enkindling Orb}} for {{c|enchanted|(80-100)% increased Duration}}, or [[corrupted]] the flask to gain -10% to +10% quality on top of the quality from {{il|Glassblower's Bauble}}, to counteract the {{c|mod|90% reduced Duration}} modifier (stacks additively to the enchantment and multiplicative to flask quality). However, the enchantment will make the flask be unable to gain charges while active, making it primarily used as a burst of block-based defences.\n\n{{item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 0.40 seconds instead.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|?|\n* Replica Rumi's Concoction's Petrified debuff icon no longer states that it grants physical reduction. {{Undocumented}}\n}}\n{{Version history table row|3.12.3|\n* Fixed a bug where Replica Rumi's Concoction unique flask didn't display its buff name while active.\n}}\n{{Version history table row|3.12.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n\n{{Navbox Unique Items}}",
+  "sha256": "794802f6f2ba998aea8924fc204597553dcfeac18d14f22f8bd3a3231ce94e44"
+}

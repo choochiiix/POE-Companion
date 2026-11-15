@@ -1,0 +1,33 @@
+{
+  "title": "Tears of Rot",
+  "pageId": 138088,
+  "revision": 1700366,
+  "timestamp": "2026-08-09T15:07:31Z",
+  "retrieved": "2026-11-14T10:57:47.573326+00:00",
+  "requested": [
+    "Tainted Power Charges",
+    "Tarred Ground",
+    "Tasalio's Blessing",
+    "Taste of Blood",
+    "Taste of Hate",
+    "Taunted",
+    "Tawhanuku's Leadership",
+    "Tawhoa's Remedies",
+    "Tears of Rot",
+    "Tempest Shield",
+    "Temporal Anomaly",
+    "Temporal Bubble",
+    "Temporal Interference",
+    "Tenacious Vigor",
+    "Tender Embrace",
+    "Test",
+    "The Basics",
+    "The Battle Within",
+    "The Beast",
+    "The Betrayal"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=AnimosityUniqueSkill}}\n\n'''Tears of Rot''' is a [[trigger]]ed [[spell]] granted by {{il|The Bane of Hope}}. \n\n__TOC__\n\n==Skill functions and interactions==\nWhile active, [[bow]] attacks against {{stl|Impale}}d enemies inflict Weeping Black, a stackable [[physical]] [[damage over time]] debuff that deals 625 base physical damage per second for 3 seconds, and can stack up to 5 times.\n\n==Skill level progression==\n{{Skill progression\n|skill_id=AnimosityUniqueSkill\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n[[Category:Active Skill]]",
+  "sha256": "7a406f291756e7728b84bf0fd937490ac441218b596634c14ef18af31deb530e"
+}

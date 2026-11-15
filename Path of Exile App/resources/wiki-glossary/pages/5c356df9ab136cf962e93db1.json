@@ -1,0 +1,33 @@
+{
+  "title": "Harmony of Purpose",
+  "pageId": 7944,
+  "revision": 1702678,
+  "timestamp": "2026-09-23T05:20:44Z",
+  "retrieved": "2026-11-14T10:57:27.136500+00:00",
+  "requested": [
+    "Grasping Pincers",
+    "Grasping Tentacles",
+    "Gravekeeper's Boon",
+    "Gravity Well",
+    "Greater Freezing Shrine",
+    "Greater Lightning Shrine",
+    "Greater Skeletal Shrine",
+    "Green Effluent",
+    "Ground Spores",
+    "Gruesome Grafts",
+    "Gruthkul's Despair",
+    "Haemolytic Aura",
+    "Hallucination",
+    "Hare Foot",
+    "Harmony of Purpose",
+    "Haste Aura",
+    "Hatred Aura",
+    "Headhunter",
+    "Healing",
+    "Heart of the Gargoyle"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Harmony of Purpose}}\n\n'''Harmony of Purpose''' is a notable [[Ascendancy passive skill]] for the [[Guardian]] that passively grants you a random [[shrine]] buff every 10 seconds.\n\n==Mechanics==\nThe shrine buff has a base duration of 20 seconds. It chooses a Shrine at random and can pick same Shrine multiple times in a row. Having another source of Shrine, like [[Screams of the Desiccated]] does not prevent this type of Shrine to be chosen. Increasing the duration of shrine buffs allows several shrine buffs acquired this way to be active simultaneously. Note that some of the shrine buffs might not apply in all areas, such as low-level campaign areas.\n\nShrines that are not applied in low-level areas:\nResistance, Resonating, Echoing, Shrouded, Gloom, Divine.\n\nThe shrine buff is removed if the source granting it is removed. Shrine buffs do not interact with shrine atlas passives in any way. Shrines persist from zone to zone in acts. In maps, they persist between separate zones like Vaal Side Areas or Mirage Areas. \n\nIncreasing the duration through applicable modifiers allows several shrine buffs acquired this way to be active simultaneously. Increased Shrine effect of [[The Gull]] and [[Blunderbore]] applies.\n\nIf this grants the effects of a Freezing, Lightning, or Skeletal Shrine, it will grant their Greater versions instead, which also grants 30% of physical damage as extra cold, lightning, or chaos damage respectively.\n\nIn maps, small-sample testing<ref>https://www.reddit.com/r/pathofexile/comments/1eg6pxp/comment/lfrv81j/</ref> suggests the following rough tentative distribution of weights for the different buffs:\n{| class=\"wikitable\"\n|+ Shrine distribution\n|- \n! Shrines !! Joint weight \n|- \n| Divine, Gloom || 2\n|- \n| Brutal, Resonating, Echoing || 10 \n|-\n| Acceleration, Diamond, Replenishing, Greater Skeletal || 30\n|- \n| Greater Freezing, Impenetrable, Greater Lightning, Massive, Resistance, Shrouded || 90\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Fixed a bug where the random Shrine buff gained from the Guardian's Harmony of Purpose Passive Skill could sometimes pick the same Shrine twice in a row.\n}}\n{{Version history table row|3.28.0|\n* Effects that grant random Shrine buffs such as Guardian's Harmony of Purpose Notable or The Golden Charlatan Unique Sword instead now grant Greater Shocking, Freezing and Skeletal Shrine (instead of the regular versions of these Shrines).\n}}\n{{Version history table row|3.27.0|\n* Shrine Buffs granted by the Harmony of Purpose Ascendancy Passive Skill now have a base Duration of 20 seconds (previously 10).\n* Fixed a bug where modifiers to shrine effect from items were applying twice to shrines granted by the Harmony of Purpose Guardian Ascendancy Passive Skill.\n}}\n{{Version history table row|3.26.0|\n* The Harmony of Purpose Ascendancy Passive Skill has been reworked. It now causes you to gain a random shrine buff every 10 seconds.\n* Old mods listed below:\n** {{c|mod|Linked Targets and Allies in your Link Beams have +5% to all Maximum Elemental Resistances}}\n** {{c|mod|Enemies in your Link Beams cannot apply Elemental Ailments.}}\n** {{c|mod|Enemies in your Link Beams have -20% to all Elemental Resistances}}\n}}\n{{Version history table row|3.22.0|\n* Reworked. Old mods listed below:\n** {{c|mod|Nearby Enemies cannot gain Power, Frenzy or Endurance Charges}}\n** {{c|mod|You and nearby Party Members Share Power, Frenzy and Endurance Charges with each other}}\n** {{c|mod|20% chance to gain a Power, Frenzy or Endurance Charge on Hit}}\n* {{Ruthless}} Provides \"Enemies in your Link Beams have -10% to all Elemental Resistances\" in Ruthless (-20% in non-Ruthless).\n}}\n{{Version history table row|3.13.0|\n* Now grants 20% chance to gain a Power, Frenzy or Endurance Charge on Hit (from 10%).\n}}\n{{Version history table row|3.2.0|\n* Added {{c|mod|10% chance to gain a Power, Frenzy, or Endurance Charge on Hit}}.\n}}\n{{Version history table row|2.3.0|\n* Changed {{c|mod|Nearby Party Members have Conduit}} to {{c|mod|You and Nearby Party Members Share Power, Frenzy, and Endurance Charges with each other}}.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "8bd95a003fbde2f09fa9f1f017ee77ef0a9addd95a7b01d19815aa69224c3a1f"
+}

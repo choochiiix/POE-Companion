@@ -1,0 +1,33 @@
+{
+  "title": "Spider",
+  "pageId": 15498,
+  "revision": 1642694,
+  "timestamp": "2026-04-08T13:18:07Z",
+  "retrieved": "2026-11-14T10:11:12.096836+00:00",
+  "requested": [
+    "Ghost",
+    "Rhoa",
+    "Snake",
+    "Spider",
+    "Statue",
+    "Zombie",
+    "magic",
+    "explicit",
+    "Abyss jewel",
+    "Rarity",
+    "rarity",
+    "fishing",
+    "ailments",
+    "Crushed",
+    "Call of Steel",
+    "class",
+    "Buff Effect",
+    "event",
+    "race",
+    "ranged"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Spiders''' are a [[monster]] type.\n\n==Abilities==\n* Resist lightning\n\n==Variations==\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! style=\"width:180px\" | Name !! style=\"width:100px\" |Colour !! style=\"width:300px\" | Location !! style=\"width:300px\" |Special Attributes \n|-style=\"height:40px\"\n| [[Cave Arach]] || || [[The Submerged Passage]] || N/A\n|-style=\"height:40px\"\n| [[Ink Spinner]] || Yellow, large || [[The Lower Prison]], [[The Chamber of Sins Level 2]], [[The Northern Forest]], [[The Crypt Level 1]], [[The Crypt Level 2]], [[The Catacombs]] || N/A\n|-style=\"height:40px\"\n| [[Spindle Spider]] || Red, small || [[The Chamber of Sins Level 1]] || N/A\n|-style=\"height:40px\"\n| [[Mutant Arach]] || Red, large || [[The Chamber of Sins Level 1]], [[The Chamber of Sins Level 2]] || {{c|mod|Uses {{il|Viper Strike}}}}\n|-style=\"height:40px\"\n| [[Crypt Weaver]] || Red, large || [[The Crypt Level 1]] || {{c|mod|Uses {{il|Viper Strike}}}}\n|-style=\"height:40px\"\n| [[Hatchling]] || Grey, small || [[The Weaver's Chambers]] || N/A\n|-style=\"height:40px\"\n| [[Leaping Spider]] || Maroon, medium || [[The Weaver's Chambers]] || {{c|mod|Uses {{il|Flicker Strike}}}}\n|-style=\"height:40px\"\n| [[Noxious Tarantula]] || Grey, medium || [[The Weaver's Chambers]] || {{c|mod|Uses {{il|Viper Strike}}}}\n|-style=\"height:40px\"\n| [[Lurking Venom]] || Grey, medium || [[The Weaver's Chambers]] || {{c|mod|Uses {{il|Viper Strike}}}}, drops from ceiling\n|-style=\"height:40px\"\n| [[Nesting Spider]] || Black, large || [[The Weaver's Chambers]] || {{c|mod|Corpse turns into 3 hatchlings}}\n|-style=\"height:40px\"\n| [[Vaal Recluse]] || White, medium || [[The Vaal Ruins]] || N/A\n|-style=\"height:40px\"\n| [[Corrupted Arach]] || Red, large || [[The Northern Forest]] || {{c|mod|Uses {{il|Viper Strike}}}}\n|-style=\"height:40px\"\n| [[Cave Skitterer]] || Green, small || [[The Slums]], [[The Archives]] || N/A\n|- style=\"height:40px\"\n| [[Crypt Arachnid]] || || [[The Catacombs]] || {{c|mod|Uses {{il|Viper Strike}}}}\n|-style=\"height:40px\"\n| [[Brooding Tarantula]] || White, large || [[The Sceptre of God]], [[The Upper Sceptre of God]] || N/A\n|-style=\"height:40px\"\n| [[Enraptured Arachnid]] || || [[The Western Forest (Act 6)]], [[The Fellshrine Ruins (Act 7)]] || Spawns a [[Spitting Parasite]] on death.\n|-style=\"height:40px\"\n| [[Unholy Aberration]] || || [[The Rotting Core]] ||\n|-style=\"height:40px\"\n| [[Augmented Hatchling]] || || [[The Temple of Atzoatl]] ||\n\n|}\n\n==Uniques==\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! Name !! Location !! Special Attributes \n|-\n| [[Black Death]] || [[The Chamber of Sins Level 1]] || {{il|Viper Strike}}, Resists Lightning, Cold, Chaos\n|-\n| [[The Weaver]] || [[The Weaver's Chambers]] || {{il|Viper Strike}}, {{il|Ethereal Knives}}, Resists Lightning, Cold, Chaos\n|-\n| [[Cintiq, the Inescapable]] || [[Covered-up Hollow]] || {{il|Flicker Strike}}, {{il|Ethereal Knives}}, Faster Attacks\n|-\n| [[Queen of the Great Tangle]] || [[Jungle Valley Map]], [[The Arachnid Tomb]] || {{il|Ethereal Knives}}, Spawns spiders\n|-\n| [[Dav'nalleous]] || [[Strange Barrel]] || {{il|Flicker Strike}}, Chaos projectile, Resists Elemental Damage\n|-\n| [[Pewterfang]] || [[Invasion Boss]] || {{il|Viper Strike}}, {{il|Flicker Strike}}, [[Shroud Walker]]\n|}\n\n==Removed==\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! Name !! Location !! Special Attributes \n|-\n| [[Rotting Weaver]] || [[Catarina's mission]]s\n|-\n|}\n{{Navbox Bestiary}}\n\n[[Category:Monster types]]\n[[Category:Spiders| ]]",
+  "sha256": "7182528e7e61cb033292caa903e7d7239cf9790b886ecdb7dbc2f49002387b65"
+}

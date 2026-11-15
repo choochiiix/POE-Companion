@@ -1,0 +1,35 @@
+{
+  "title": "Carrion insect",
+  "pageId": 2877,
+  "revision": 1577649,
+  "timestamp": "2025-09-19T15:40:00Z",
+  "retrieved": "2026-11-14T10:11:11.201662+00:00",
+  "requested": [
+    "Discipline",
+    "flasks",
+    "Abyss Jewel",
+    "Unwavering Stance",
+    "Hits can't be evaded",
+    "party",
+    "cast spee",
+    "Monster resistances",
+    "monster category",
+    "Ravenous",
+    "physical damage reduction",
+    "item rarity",
+    "Unique Monsters",
+    "Endurance Charges",
+    "Frenzy Charges",
+    "Power Charges",
+    "Damage reduction",
+    "Unique monsters",
+    "Beast",
+    "Carrion"
+  ],
+  "aliases": [
+    "Carrion"
+  ],
+  "missing": false,
+  "wikitext": "{{for|the notable passive skill|Carrion (passive skill)}}\nA '''carrion insect''' is a type of [[beast]] [[monster]] found in and around [[Sarn]] and [[the Wetlands]]. Carrion insects have a distinct bulbous abdomen and swarm prey in large packs.\n\nA '''carrion queen''' is a large species of carrion insect capable of spawning more carrion insects and firing projectiles.\n\n__TOC__\n\n==Variations==\n===Carrion insects===\n{| class=\"wikitable\" \n|-\n!  Name !!  Location !!  Special Attributes\n|-\n| [[Carrion Swarmer]] || [[The Southern Forest (Act 2)]], [[The City of Sarn]], [[The Marketplace]], [[The Sarn Ramparts]], [[The Imperial Fields]] || {{n/a}}\n|-\n| [[Carrion Minion]] || [[The Slums]], spawned from carrion queens || Explodes\n|-\n| [[Carrion Burrower]] || [[The Sarn Ramparts]], [[The Imperial Fields]] || Burrows\n|-\n| [[Carrion Raider]] || Maps (Carrion Burrower elite) || {{n/a}}\n|-\n| [[Scum Crawler]] || [[The Toxic Conduits]], [[The Grain Gate]] || {{n/a}}\n|-\n| [[Wild Hatchling]] || [[Harvest]] || Burrows, Explodes \n|-\n| [[Wild Hatchling]] (minion) || [[Harvest]] (spawned by [[Wild Infestation Queen]]) || Burrows\n|-\n| [[Explosive Crawler]] || ? || Explodes\n|-\n| [[Explosive Horror]] || ? || Explodes\n|-\n| [[Flesh of Bameth]] || [[Beyond (original)|Beyond Demon]] || {{c|mod|Spreads {{stl|Caustic Ground}} on Death}}, {{c|mod|Spreads [[Tar]] on Death}}\n|-\n| [[Nightmarish Crawler]] || [[Prophecy]] (removed) ||  {{n/a}}\n|-\n| [[Corrupted Crawler]] || [[Tora]] mission (removed) ||  {{n/a}}\n|-\n| [[Corrupted Swarmer]] || [[Tora]] mission (removed) ||  {{n/a}}\n|-\n| [[Rabid Minion]] || [[Tora]] mission (removed) ||  {{n/a}}\n|}\n\n===Carrion queens===\n{| class=\"wikitable\"\n|-\n!  Name !! Location !!  Special Attributes\n|-\n| [[Carrion Queen]] || [[The Slums]], [[The Sarn Ramparts]], [[The Imperial Fields]] || Spit Projectile, {{c|mod|50% of Physical Damage Converted to Fire Damage}}, spawn [[Carrion Minion]]\n|-\n| [[Carrion Queen]] (parasite) ||  [[The Wetlands]], [[The Slums]], [[The Warehouse District]], [[The Marketplace]] || Spit Projectile, {{c|mod|Gain 50% of Physical Damage as Extra Chaos Damage}}, spawn [[Parasite]]\n|-\n| [[Fenumal Mother]] || [[Einhar]] missions || Spit Projectile, {{c|mod|50% of Physical Damage Converted to Fire Damage}}, spawn [[Carrion Minion]]\n|-\n| [[Fenumal Strider]] || [[Einhar]] missions || Spit Projectile, {{c|mod|50% of Physical Damage Converted to Fire Damage}}, spawn [[Carrion Minion]]\n|-\n| [[Fenumal Queen]] || [[Einhar]] missions || {{il|Rolling Magma}}, Spit Projectile, {{c|mod|50% of Physical Damage Converted to Fire Damage}}, spawn [[Carrion Minion]]\n|-\n| [[Wild Infestation Queen]] || [[Harvest]] || Spore Barrage Mortar, Vomit, spawn [[Wild Hatchling]]\n|-\n| [[Rabid Broodqueen]] || [[Tora]] mission (removed) || Spit Projectile, {{c|mod|50% of Physical Damage Converted to Fire Damage}}, spawn [[Rabid Minion]]\n|-\n| [[Nighmarish Carrion]] || [[Prophecy]] (removed) || Spit Projectile, {{c|mod|50% of Physical Damage Converted to Fire Damage}}\n|}\n\n==Uniques==\nAll unique carrion insects are carrion queen-type monsters.\n\n{| class=\"wikitable\" \n|-\n!  Name !! Location !!  Special Attributes\n|-\n| [[Ryslatha, the Puppet Mistress]] || [[The Wetlands (Act 6)]] || Spit Projectile (30% Chaos conversion), {{stl|Caustic Ground}} mortar, create exploding egg (inflicts {{stl|Infested}} and poisons), Slide (creates exploding eggs),  {{c|mod|50% of Physical Damage Converted to Chaos Damage}}, spawn [[Parasite]]\n|-\n| [[Gorulis, Will-Thief]] || {{il|Infested Valley Map}} boss || Spit Projectile (30% Chaos conversion), {{stl|Caustic Ground}} mortar, create exploding egg (inflicts {{stl|Infested}} and poisons), Slide (creates exploding eggs),  {{c|mod|50% of Physical Damage Converted to Chaos Damage}}, spawn [[Parasite]]\n|-\n| [[The Sunburst Queen]] || [[Quarantined Quarters]] ([[Vaal side area]] boss) || Spit Projectiles (+2 proj), Devourer projectiles (exploding), full circle {{il|Incinerate}}, {{c|mod|50% of Physical Damage Converted to Fire Damage}}, spawn [[Carrion Minion]]\n|-\n| [[Mother of the Swarm]] || [[Invasion boss]] || Spit Projectiles, {{il|Detonate Dead}}, {{stl|Soul Eater}}, {{c|mod|50% of Physical Damage Converted to Fire Damage}}, spawn Carrion Minion\n|-\n| [[Mutated Broodqueen]] || [[Tora]] mission (removed) || Spit Projectile, {{c|mod|50% of Physical Damage Converted to Fire Damage}}, spawn [[Rabid Minion]]\n|}\n\n{{Navbox Bestiary}}\n\n[[Category:Monster types]]\n[[Category:Carrion insects]]\n[[Category:Carrion queens]]",
+  "sha256": "3d17dd078b238dd1e8a07cc02fc3460ae3160c52c7c69e1e7dc9047e7f22bd35"
+}

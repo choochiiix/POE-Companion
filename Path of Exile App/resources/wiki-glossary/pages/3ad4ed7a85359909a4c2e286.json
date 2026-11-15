@@ -1,0 +1,33 @@
+{
+  "title": "One-handed sword",
+  "pageId": 11867,
+  "revision": 1491566,
+  "timestamp": "2024-11-03T13:46:00Z",
+  "retrieved": "2026-11-14T10:11:22.586667+00:00",
+  "requested": [
+    "one-handed sword",
+    "Death Aura",
+    "Mirage Archer",
+    "Penance Mark",
+    "Aura Skill",
+    "Conduit",
+    "Presence",
+    "tattoo",
+    "taking damage",
+    "channelling skill",
+    "Diamond Shrine",
+    "Minions",
+    "Determination",
+    "Bows",
+    "utility flask",
+    "Mana Flasks",
+    "Life Flasks",
+    "life regen",
+    "Everlasting Sacrifice",
+    "resistances"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''One Hand Swords''' is an [[item class]] of one-handed [[melee]] [[weapons]] that require [[strength]] and [[dexterity]] and have a {{c|mod|x% increased increased Accuracy Rating}} or {{c|mod|+x to Accuracy Rating}} [[implicit]] [[modifier]].\n\n[[Maraketh weapon]]s with this item class have a {{c|mod|x% chance to Maim on Hit}} [[implicit]] instead. [[Experimented base type]] items with this item class have a {{c|mod|100% of Physical Damage from Hits with this Weapon is Converted to a random Element}} implicit instead.\n\n__TOC__\n\n==List of one-handed sword base types==\n\n===One-handed swords (generic)===\n{{main|List of generic one-handed sword base types}}\n\nThere are {{Drop enabled base item count|where=items.class_id=\"One Hand Sword\"}} one-handed sword base types that can drop.\n\n{{Drop enabled base item table\n|where = items.class_id=\"One Hand Sword\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|str=1\n|dex=1\n|stat=1\n}}\n\n===Thrusting one-handed swords===\n{{main|List of thrusting one-handed sword base types}}\n\nThere are {{Drop enabled base item count|where=items.class_id=\"Thrusting One Hand Sword\"}} thrusting one-handed sword base types that can drop.\n\n{{Drop enabled base item table\n|where = items.class_id=\"Thrusting One Hand Sword\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|dex=1\n|stat=1\n}}\n\n==List of unique one-handed swords==\n\n===One-handed swords (generic)===\n{{main|List of unique generic one-handed swords}}\n\nThere are {{Drop enabled unique item count|where=items.class_id=\"One Hand Sword\"}} unique one-handed swords that can drop.\n\n{{Drop enabled unique item table\n|where = items.class_id=\"One Hand Sword\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|str=1\n|dex=1\n|stat=1\n}}\n\n===Thrusting one-handed swords===\n{{main|List of unique thrusting one-handed swords}}\n\nThere are {{Drop enabled unique item count|where=items.class_id=\"Thrusting One Hand Sword\"}} unique thrusting one-handed swords that can drop.\n\n{{Drop enabled unique item table\n|where = items.class_id=\"Thrusting One Hand Sword\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|dex=1\n|stat=1\n}}\n\n==List of skill gems usable with one hand swords==\n{{main|List of skill gems usable with one hand swords}}\n{{:List of skill gems usable with one hand swords}}\n\n==See also==\n* [[Two-handed sword]]\n\n{{Navbox Weapons}}\n\n[[Category:One-handed swords| ]]\n[[Category:Item classes]]",
+  "sha256": "000599356548a1a48ccb1c44d00159d0cafb4a4d471d8ad7d33dfc48446a0d0e"
+}

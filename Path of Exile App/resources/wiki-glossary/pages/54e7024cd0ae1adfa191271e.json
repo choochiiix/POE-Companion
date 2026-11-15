@@ -1,0 +1,33 @@
+{
+  "title": "Staff Mastery",
+  "pageId": 86971,
+  "revision": 1673926,
+  "timestamp": "2026-07-17T12:50:43Z",
+  "retrieved": "2026-11-14T10:57:46.017711+00:00",
+  "requested": [
+    "Spirit Infusion",
+    "Spirit Offering",
+    "Spirit's Blessing",
+    "Spiritual Thirst",
+    "Sporebloom Tincture",
+    "Sprouting Madness",
+    "Staff Mastery",
+    "Static Shrine",
+    "Static Strike",
+    "Static Tether",
+    "Steel Flask",
+    "Steel Shard",
+    "Steel Ward",
+    "Steelskin",
+    "Stibnite Flask",
+    "Stinging Tempest",
+    "Stolen Power",
+    "Stolen modifiers",
+    "Stone",
+    "Stone Gaze"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Mastery infobox|Staff Mastery}}\n\n'''Staff Mastery''' is a [[mastery]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* The Staff Passive Mastery that provided 3% increased Maximum Life per Red Socket on Equipped Staff and 5% increased Maximum Mana per Blue Socket on equipped Staff has been replaced with 12% increased Maximum Life and Mana if your equipped Staff has a Red and Blue Socket.\n}}\n{{Version history table row|3.26.0|\n* The Staff Passive Mastery that provided 20% chance for Double Stun Duration has been replaced with a new Mastery that provides 5% increased maximum Mana per Blue Socket on equipped Staff, and 3% increased maximum Life per Red Socket on equipped Staff.\n}}\n{{Version history table row|3.16.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "b48e77af29071151d5383709d35945f462835bf34886f2f6faa8e04fb0722171"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Glancing Blows",
+  "pageId": 7314,
+  "revision": 1618363,
+  "timestamp": "2026-02-24T15:50:13Z",
+  "retrieved": "2026-11-14T10:08:30.588740+00:00",
+  "requested": [
+    "Elemental Overload",
+    "Point Blank",
+    "Iron Will",
+    "Iron Grip",
+    "Avatar of Fire",
+    "Zealot's Oath",
+    "Wicked Ward",
+    "Glancing Blows",
+    "Divine Flesh",
+    "Petrified Blood",
+    "Petrification",
+    "Aegis",
+    "Guard",
+    "Aura",
+    "Curse",
+    "Hex",
+    "Mark",
+    "Warcry",
+    "Totem",
+    "Trap"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|q_where = id=\"glancing_blows_keystone2693\"}}\n\n'''Glancing Blows''' is a [[keystone passive skill]] which grants doubles both Attack and Spell [[Block]] chance while causing you to take 65% of the blocked hit's damage.\n\n==Mechanics==\n{{Main|Blocking#Taking damage from blocked hits}}\n\n==Location==\nThe keystone is located on the middle layer of the west part of the tree, between the Marauder and Templar starting areas.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Templar||8\n|-\n|Marauder||10\n|-\n|Scion||14\n|-\n|Witch||16\n|-\n|Duelist||19\n|-\n|Ranger||24\n|-\n|Shadow||24\n|}\n\nThis keystone can also be obtained from the tree by using a [[legacy variant|legacy]] {{il|Lethal Pride}} jewel with modifier {{c|mod|Commanded leadership over (10000–18000) warriors under '''Kiloava'''}}.\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Glancing%Blows%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.12.0|\n* Now causes you to take 65% of Damage from Blocked Hits (from 50%). It has been moved so as to make it more difficult to acquire via a [[Thread of Hope]] jewel.\n}}\n{{Version history table row|3.11.0|\n* Timeless Jewel Keystone passives have become a popular feature for many builds, but are prohibitively difficult to acquire (especially without trade). We've moved some of the most build-defining Keystones out of the Timeless Jewels and into the tree itself. These Keystones have been added to the tree: [[The Agnostic]], Glancing Blows, [[Supreme Ego]], [[Wind Dancer]] and [[Eternal Youth]].\n* Timeless Jewels -- New keystones have been added to replace the five that are now available on the passive skill tree. The new ones are: [[The Traitor (keystone passive)|The Traitor]], [[Supreme Ostentation]], [[Chainbreaker]], [[Transcendence (keystone passive)|Transcendence]], [[Immortal Ambition]]. Existing Timeless Jewels will retain the old keystones, but if you reroll them with a Divine Orb they will be able to reveal these new keystones.\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game (grants from {{il|Lethal Pride}}'s {{c|mod|Commanded leadership over (10000–18000) warriors under Kiloava}} mod).\n}}\n{{Version history table end}}\n\n[[Category:Keystone passive skills]]\n{{sister|poe2wiki}}",
+  "sha256": "a512322cab4d966b4bad96985041d743d6ff1f90a7a0ea62bb6813e9677ef869"
+}

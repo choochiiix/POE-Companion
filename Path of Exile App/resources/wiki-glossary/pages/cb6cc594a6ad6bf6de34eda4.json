@@ -1,0 +1,33 @@
+{
+  "title": "Phasing",
+  "pageId": 12396,
+  "revision": 1673495,
+  "timestamp": "2026-07-13T19:26:40Z",
+  "retrieved": "2026-11-14T10:08:29.722759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Phasing Buff\n| type                   = Buff\n| icon                   = Phasing status icon.png\n| description            = You have Phasing, allowing you to move through enemies.\n}}\n\n'''Phasing''' is a boolean [[stat]]. Phasing entities can move through enemies, but still obstruct the movement of enemies without phasing.<ref>https://www.reddit.com/r/pathofexile/comments/e7hg0u/ggg_can_we_have_skitterbots_count_as_minioms_for/fa105xk/?context=999</ref> \n\nPhasing is not inherently a [[buff]],<ref>https://www.reddit.com/r/pathofexile/comments/5gzfwo/allies_cannot_die_aura_should_be_removed_from/daxfkgz/</ref> and accordingly has no buff icon when granted by non-buff sources (e.g. {{il|Quartz Flask}}). It does not have a visual effect,<ref>https://www.pathofexile.com/forum/view-thread/1669519/filter-account-type/staff</ref><ref>[[Version 3.13.1c]] patch notes</ref> though some sources can grant it one.\n\n==Gems==\n{{Query stat related skill gems\n|type=active\n|stat_id_query=%phase%\n|stat_page=phasing\n}}\n\n==Base items==\n{{Drop enabled base item table\n|tables=item_buffs\n|join=items._pageID=item_buffs._pageID\n|where=\n  items.stat_text LIKE \"%phasing%\"\n  OR item_buffs.stat_text LIKE \"%phasing%\"\n}}\n==Unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%phasing%\"\n|large=1\n|stat=1\n}}\n\n==Modifiers==\n===Abyss jewels===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%phasing%\"\n  AND mod_spawn_weights.tag LIKE \"%abyss_jewel%\"\n|spawn_weights=1\n}}\n\n===Influence mod===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%phasing%\"\n  AND \n(mod_spawn_weights.tag LIKE \"%elder%\" OR \nmod_spawn_weights.tag LIKE \"%adjudicator%\" )\n\n|spawn_weights=1\n}}\n===Synthesis mod===\n{{modifier table\n|q_tables=spawn_weights\n|q_join=mods._pageID=spawn_weights._pageID\n|q_where =mods.stat_text LIKE \"%phasing%\" AND mods.id LIKE \"%SynthesisImplicit%\"\n|stat_text=1\n|level=1\n}}\n===Other===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%phasing%\"\n  AND mod_spawn_weights.tag NOT LIKE \"%abyss_jewel%\"\n  AND mod_spawn_weights.tag NOT LIKE \"%elder%\"\n  AND mod_spawn_weights.tag NOT LIKE \"%adjudicator%\"\n|spawn_weights=1\n|generation_type= 1\n}}\n\n==Passive Skills==\nThese [[passive skill]]s are related to Phasing:\n\n===Base passives===\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%phasing%\"\n}}\n\n===Ascendancy passives===\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%phasing%\"\n}}\n\n==References==\n{{reflist}}\n\n[[Category:Buffs]]",
+  "sha256": "69d1436333db0c27101bae3e143cf02840b2366b51978b3e2debcb7897ef84a1"
+}

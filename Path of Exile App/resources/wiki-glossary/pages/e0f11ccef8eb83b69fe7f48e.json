@@ -1,0 +1,33 @@
+{
+  "title": "Speed Gale",
+  "pageId": 15465,
+  "revision": 1243421,
+  "timestamp": "2022-11-09T09:16:18Z",
+  "retrieved": "2026-11-14T10:57:45.183551+00:00",
+  "requested": [
+    "Soul Catcher",
+    "Soul Link",
+    "Soul Ripper",
+    "Soulchill",
+    "Soulfire",
+    "Soulrend",
+    "Spectral",
+    "Spectral Pack",
+    "Spectral Swiftness",
+    "Speed Aura",
+    "Speed Gale",
+    "Speed Randomisation",
+    "Spellslinger",
+    "Spider Aspect",
+    "Spider's Web",
+    "Spike Pinned",
+    "Spinning Blades",
+    "Spiral Test Cheat",
+    "Spirit Charges",
+    "Spirit Containment"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{redirect|Gale}}\n{{status\n| name                   = Speed Gale\n| type                   = Buff\n| description = {{c|white|You are faster}}\n}}\n'''Speed Gale''' or known as '''Gales''', is a stackable [[buff]]. As of [[version 3.13.0]], the buff is granted solely from an '''Invigorating [[Ritual]] Altar''', which buffs both monsters and allies. Each stack grants [[action speed]].\n==Invigorating Ritual==\nThe Invigorating [[Ritual]] has two modifiers:\n* {{c|mod|Monsters are fast}}\n* {{c|mod|'''Gales''' further accelerate you and monsters}}\n==Gallery==\n<gallery>\nFile:Invigorating Ritual Altar.png|Invigorating Ritual Altar and its aura visual effect\n</gallery>\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* {{stl|Slipstream}}, another speed related buff that affects both player and monster\n* {{stl|The Flow Untethered}}, another speed related buff that affects both player and monster\n* {{Stl|Speed Aura}}\n[[Category:Buffs]]",
+  "sha256": "598168255fe0a6307ab9cd37fbd46727f98e391ca682aff4830ba788d8313d27"
+}

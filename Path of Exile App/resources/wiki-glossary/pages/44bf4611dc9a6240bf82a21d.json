@@ -1,0 +1,35 @@
+{
+  "title": "Two Handed Melee Weapon",
+  "pageId": 18160,
+  "revision": 1488664,
+  "timestamp": "2024-10-13T03:42:28Z",
+  "retrieved": "2026-11-14T10:09:58.221159+00:00",
+  "requested": [
+    "spell damage",
+    "Eater of Worlds",
+    "Searing Exarch",
+    "weapon",
+    "character",
+    "stat",
+    "unique item",
+    "shield",
+    "melee weapon",
+    "two-handed melee weapon",
+    "claw",
+    "dagger",
+    "mace",
+    "staff",
+    "sword",
+    "wand",
+    "keystone passive skill",
+    "item",
+    "skill",
+    "cost"
+  ],
+  "aliases": [
+    "Two-handed melee weapon"
+  ],
+  "missing": false,
+  "wikitext": "'''Two handed melee weapon''' is a keyword which applies to the use of melee weapons which take up both [[Main Hand]] and [[Off Hand]] equipment slots. \n\nWeapons which count as Two Handed Melee Weapon:\n*[[Staff]]\n*[[List of Two Handed Axes|Two Handed Axes]]\n*[[List of Two Handed Maces|Two Handed Maces]]\n*[[List of Two Handed Swords|Two Handed Swords]]\n\n==Passive skills==\nThere are [[passive skill]]s that grant two handed melee weapon bonuses.\n\n===Physical damage with two handed melee weapons===\nThese passive skills grant increased [[physical damage]] with two handed melee weapons.\n{{Query base passive skills\n|where=passive_skill_stats.id = \"two_handed_melee_physical_damage_+%\"\n}}\n\n===Accuracy rating with two handed melee weapons===\nThese passive skills grant increased [[accuracy]] rating with two handed melee weapons.\n\n{{Query base passive skills\n|where=passive_skill_stats.id = \"two_handed_melee_accuracy_rating_+%\"\n}}\n===Attack speed with two handed melee weapons===\nThese passive skills grant increased [[attack speed]] with two handed melee weapons.\n{{Query base passive skills\n|where=passive_skill_stats.id = \"two_handed_melee_attack_speed_+%\"\n}}\n===Stun with two handed melee weapons===\nThese passive skills grant increased [[stun duration]] with two handed melee weapons.\n{{Query base passive skills\n|where=passive_skill_stats.id = \"two_handed_melee_stun_duration_+%\"\n}}\n===Other===\n<!-- currently empty, but future passives not captured above will appear here - do not remove -->\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%two_handed_melee%\"\n  AND passive_skill_stats.id NOT IN (\"two_handed_melee_physical_damage_+%\", \"two_handed_melee_accuracy_rating_+%\", \"two_handed_melee_attack_speed_+%\", \"two_handed_melee_stun_duration_+%\")\n}}\n\n===Cluster Jewel notable passive skills===\nThe following Cluster Jewel notable passives are related to two handed weapons: \n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skills.stat_text LIKE \"%two_handed_melee%\"\n|large=1\n|stat_text=1\n}}\n\n\n===Ascendancy passive skills===\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%two_handed_melee%\"\n}}\n\n[[Category:Weapons]]",
+  "sha256": "67983ff9a4faea8edc891e62c1953a35a23296cf63862311794fe97aab8fb2a2"
+}

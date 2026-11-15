@@ -1,0 +1,25 @@
+{
+  "name": "poe1-crafting-project",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "start": "node crafting-ui/server.mjs",
+    "tags:build": "node scripts/build-tags.mjs",
+    "data:build": "node --experimental-strip-types scripts/build-data.mjs",
+    "test": "node --experimental-strip-types --test crafting-engine/test/*.test.ts crafting-data/test/*.test.ts crafting-ui/test/*.test.mjs calculation-engine/test/*.test.ts",
+    "test:calculations": "node --experimental-strip-types --test calculation-engine/test/*.test.ts",
+    "calculations:compare": "node --experimental-strip-types calculation-engine/reference/compare.ts",
+    "calculations:trial": "node --experimental-strip-types calculation-engine/trial/run.ts",
+    "calculations:corpus": "node --experimental-strip-types calculation-engine/corpus/run.ts",
+    "calculations:data": "node scripts/build-calculation-ui.mjs",
+    "typecheck": "tsc --project crafting-engine/tsconfig.json && tsc --project crafting-data/tsconfig.json && tsc --project calculation-engine/tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "@types/node": "^22.0.0"
+  }
+}

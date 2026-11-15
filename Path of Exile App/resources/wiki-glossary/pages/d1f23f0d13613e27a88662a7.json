@@ -1,0 +1,33 @@
+{
+  "title": "Impact",
+  "pageId": 8510,
+  "revision": 1417689,
+  "timestamp": "2024-01-25T02:37:52Z",
+  "retrieved": "2026-11-14T10:11:24.398821+00:00",
+  "requested": [
+    "corrupted item",
+    "unique monsters",
+    "Impact",
+    "Overwhelm",
+    "savage hit",
+    "Will of the Lords",
+    "jewel socket",
+    "Skeleton archer",
+    "marauder",
+    "one-handed",
+    "flask charge",
+    "shatter",
+    "Rain of Arrows",
+    "Frozen",
+    "ignited",
+    "shocked",
+    "scorched",
+    "sapped",
+    "burn",
+    "Assassin"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Impact}}\n\n'''Impact''' is a notable [[Ascendancy passive skill]] for the [[Slayer]] that grants increased global [[accuracy]] rating, additional melee attack range, and increased [[area of effect]] per enemy killed recently. It also grants your melee attacks more damage the closer you are to an enemy.\n\n==Skill functions and interactions==\nThe \"up to x% more damage\" stat on Impact (and the matching stat on {{il|Close Combat support}}) applies the full damage bonus to targets up to a [[distance]] of 15 units from you, then linearly scales down the bonus to 0 at a distance of 40 units.<ref name=\"Oh Hi Mark\" />\n{| class=\"wikitable mw-collapsible\"\n|+\n!Distance\n!Melee Damage\n|-\n|15\n|15%\n|-\n|20\n|12%\n|-\n|25\n|9%\n|-\n|30\n|6%\n|-\n|35\n|3%\n|-\n|40\n|0%\n|}\n\n==Ruthless mode==\n{{infocard\n|header    = Impact (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:Impact (Slayer) passive skill icon.png]]</div>\n|2         = Deal up to 15% more Melee Damage to Enemies, based on proximity\n}}\n\nImpact in [[Ruthless mode]] does not grant increased accuracy, melee strike range, or area per enemy killed recently.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} No longer provides \"50% increased Global Accuracy Rating\", \"+4 to Melee Strike Range\" or \"5% increased Area of Effect per Enemy killed recently, up to 50%\" in Ruthless.\n}}\n{{Version history table row|3.13.0|\n* Melee Strike Range is now +4 (from +2)\n}}\n{{Version history table row|3.7.0|\n* No longer grants melee splash to single-target melee attacks (because they aren't a thing anymore), or 20% increased area of effect. Now grants 50% increased global accuracy rating, +2 to melee weapon and unarmed attack range, and 5% increased area of effect per enemy killed recently, up to 50%. Also grants 15% more melee damage based on proximity.\n}}\n{{Version history table row|3.2.0|\n* Removed {{c|mod|50% less Damage to surrounding targets}}. (Splash damage now deals full damage)\n}}\n{{Version history table row|2.6.0|\n* Impact ([[Slayer]]) now grants 20% increased area of effect.\n}}\n{{Version history table row|2.4.0|\n* Impact now grants 10% increased area of effect (down from 15%). \n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Oh Hi Mark\">{{cite web\n| author = Mark_GGG\n| date = Jun 11, 2019\n| title = General Support Discussion\n| url = https://www.pathofexile.com/forum/view-thread/13751/page/20#p22039210\n| publisher = Official Path of Exile Forums\n| accessdate = Jun 12, 2019\n}}</ref>\n}}",
+  "sha256": "91c6dd8b04e5bea4ced06a740d9c79b5f19653cffb6bc4b060f1b385ab1f6b81"
+}

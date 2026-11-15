@@ -1,0 +1,33 @@
+{
+  "title": "Skeleton archer",
+  "pageId": 15167,
+  "revision": 1649875,
+  "timestamp": "2026-06-01T08:02:05Z",
+  "retrieved": "2026-11-14T10:11:24.426365+00:00",
+  "requested": [
+    "corrupted item",
+    "unique monsters",
+    "Impact",
+    "Overwhelm",
+    "savage hit",
+    "Will of the Lords",
+    "jewel socket",
+    "Skeleton archer",
+    "marauder",
+    "one-handed",
+    "flask charge",
+    "shatter",
+    "Rain of Arrows",
+    "Frozen",
+    "ignited",
+    "shocked",
+    "scorched",
+    "sapped",
+    "burn",
+    "Assassin"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "A '''skeleton archer''' is a type of [[undead]] [[monster]] ([[skeleton]]) found throughout [[Wraeclast]] that attacks with a [[bow]].\n\n==Abilities==\n*Undead\n*Ranged Attack\n\n==Variations==\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! Name !! Location !! Special Attributes\n|-style=\"height:40px\"\n| style=\"width:200px\" | [[Ancient Archer]]  || style=\"width:300px\" | [[The Coast (Act 1)]], [[The Ledge]], [[The Fellshrine Ruins (Act 2)]] || style=\"width:300px\" |  N/A\n|-style=\"height:40px\"\n|[[Burning Bowman]]  ||[[The Climb]], [[Prisoner's Gate (Act 6)]]||   {{c|mod| Uses {{il|Burning Arrow}}}}\n|-style=\"height:40px\"\n| '''[[Ironpoint the Forsaken]]'''  ||[[The Climb]]||   {{c|mod| Uses {{il|Rain of Arrows}} - Accurate - Fast Attacks - Uses {{il|Split Arrow}}}}\n|-style=\"height:40px\"\n|[[Brittle Poacher]]  ||[[The Lower Prison]], [[The Prison]], [[The Refinery]] || {{c|mod|  Uses {{il|Lightning Arrow}}}}\n|-style=\"height:40px\"\n| [[Brittle Bleeder]]  ||[[The Upper Prison]]|| {{c|mod| Uses {{il|Puncture}}}}\n|-style=\"height:40px\"\n| [[Sin Archer]] ||[[The Chamber of Sins Level 1 (Act 2)]], [[The Chamber of Sins Level 2 (Act 2)]], [[The Chamber of Sins Level 1 (Act 7)]]|| {{c|mod| Uses {{il|Lightning Arrow}}}}\n|-style=\"height:40px\"\n| [[Plagued Bowman]] ||[[The Chamber of Sins Level 2 (Act 2)]] || {{c|mod| Uses {{il|Caustic Arrow}}}}\n|-style=\"height:40px\"\n| [[Brittle Archer]] ||[[The Crypt Level 1]] || {{c|mod| Uses {{il|Split Arrow}}}}\n|-style=\"height:40px\"\n| [[Vault Hunter]] ||[[The Crypt Level 2]] || {{c|mod| Uses {{il|Frenzy}}}}\n|-style=\"height:40px\"\n|[[Vexing Archer]]  ||[[The Caverns Level 1]]||   {{c|mod| Casts {{il|Sniper's Mark}}{{confirm|3.12 change}} }}\n|-style=\"height:40px\"\n|[[Restless Archer]]  ||[[The City of Sarn]]||  {{c|mod| Uses {{il|Lightning Arrow}}}}\n|-style=\"height:40px\"\n|[[Flayed Archer]]  ||[[The Warehouse District]] (formerly) ||  {{c|mod| Uses {{il|Lightning Arrow}}}}\n|-style=\"height:40px\"\n|[[Brittle Longshoreman]]  || [[The Docks]]||  N/A\n|-style=\"height:40px\"\n|[[Ancient Contender]]  || [[The Eternal Labyrinth]], Lab Trials||  N/A\n|-style=\"height:40px\"\n|[[Impure Archer]]  || [[The Aqueduct]]||  Uses {{il|Barrage}}\n|-style=\"height:40px\"\n|[[Voll's Vanguard]]  || [[The Dried Lake]], [[The Foothills]]||  N/A\n|-style=\"height:40px\"\n|[[Sun Bleached Vanguard]]  || ||\n|-style=\"height:40px\"\n|[[Timeless Hunter]]  || [[The Ridge]]||  N/A\n|-style=\"height:40px\"\n|[[Thunder Thrall]]  || [[Shavronne's Tower]]||  {{c|mod| Uses {{il|Lightning Arrow}}}}\n|-style=\"height:40px\"\n|[[Weathered Watchman]]  || [[The Beacon]]||  N/A\n|-style=\"height:40px\"\n|[[Disbanded Dead]]  || [[The Broken Bridge (Act 7)]]||  N/A\n|-style=\"height:40px\"\n|[[Brittle Born-again]]  || [[The Fellshrine Ruins (Act 7)]]||  N/A\n|-style=\"height:40px\"\n|[[Brittle Lookout]]  || [[The Quay]], [[The Grain Gate]]||  N/A\n|-style=\"height:40px\"\n|[[Bloodstained Vanguard]]  || [[The Blood Aqueduct]]||  {{il|Tornado Shot}}\n|-style=\"height:40px\"\n|[[Bloodstained Archer]]  || [[The Blood Aqueduct]], [[The Belly of the Beast (Act 9)]], [[The Rotting Core]]||  N/A\n|-style=\"height:40px\"\n|[[Sandy Lookout]]  || [[The Oasis]]||  N/A\n|-style=\"Sunbleached Vanguard]]  || [[The Boiling Lake]]||  N/A\n|-style=\"height:40px\"\n|[[Crystallised Sentry]]  || [[The Tunnel]], [[The Quarry]]||  Crystallised {{il|Tornado Shot}} dealing chaos damage\n|-style=\"height:40px\"\n|[[Flayed Lookout]]  || [[Syndicate Hideout]], [[Mastermind's Lair]]||  \n|-\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.8.0|\n* Added bow-wielding Skeletons to some areas.\n}}\n{{Version history table row|0.5.10|\n* Removed ranged skeletons until bows work.\n}}\n{{Version history table end}}\n\n[[Category:Monster types]]\n[[Category:Skeletons| ]]\n{{Navbox Bestiary}}",
+  "sha256": "73a102b33f2b299583d00acb0caed0c9fca6369835c8976c26ef68c68cb504d8"
+}

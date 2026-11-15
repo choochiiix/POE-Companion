@@ -1,0 +1,33 @@
+{
+  "title": "Level",
+  "pageId": 9524,
+  "revision": 1490472,
+  "timestamp": "2024-10-13T05:02:40Z",
+  "retrieved": "2026-11-14T10:11:12.971739+00:00",
+  "requested": [
+    "weapons",
+    "dual wield",
+    "sceptre",
+    "implicit",
+    "Crucible Passive Skill Tree",
+    "Flying",
+    "Summon Raging Spirit",
+    "Caustic ground",
+    "Scorched ground",
+    "Profane ground",
+    "Fungal ground",
+    "Brine ground",
+    "Smoke cloud",
+    "normal",
+    "Foulborn unique item",
+    "level",
+    "Evasion Rating",
+    "Battlemage",
+    "Quivers",
+    "Shields"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Level''' may refer to:\n* [[Character#Character level|Character level]] ([[experience]])\n* [[Gem#Gem level|Skill gem level]] ([[Skill gem#Gem experience|gem experience]])\n* [[Monster level]]\n* [[Item level]]\n* [[Drop level]]\n* [[Master level]]\n* [[Area level]]\n\n{{Disambiguation}}",
+  "sha256": "03f214e1ee18af53e99179807005d4321bb74337f3d9970ec7a4db8fc0f14bb7"
+}

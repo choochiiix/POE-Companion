@@ -1,0 +1,33 @@
+{
+  "title": "Kineticism",
+  "pageId": 9158,
+  "revision": 1490229,
+  "timestamp": "2024-10-13T04:54:11Z",
+  "retrieved": "2026-11-14T10:11:20.813089+00:00",
+  "requested": [
+    "Ballista Totem",
+    "fortification",
+    "petrified",
+    "of Lightning",
+    "avoid",
+    "Crimson Dance",
+    "Acrobatics",
+    "Sacrifice of Blood",
+    "rune",
+    "Energy Blade",
+    "Temporal Rift",
+    "Tornado",
+    "Runic",
+    "Alva",
+    "Port",
+    "Flasks",
+    "Far Shot",
+    "Race",
+    "pierces",
+    "Kineticism"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Kineticism}}\n\n'''Kineticism''' is a cluster jewel-only [[keystone passive skill]] that causes [[attack]] [[projectile]]s to always inflict [[Bleed]]ing and [[Maim]], as well as [[Knockback|Knocking Back]] enemies, at the cost of being unable to [[pierce]], [[fork]], or [[chain]].\n\n==Mechanics==\n\nWhile this skill makes attack projectiles always apply a knockback effect, it will not override the [[modifier:ImmuneToKnockback|Immune to Knockback modifier]] found on some enemies such as [[The Shaper]] or [[Sirus, Awakener of Worlds]].\n\n==Related unique items==\nThe following [[unique item]]s are related to Kineticism:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Kineticism%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Fixed an instance crash related to [[projectile]]s and '''Kineticism'''.\n}}\n{{Version history table row|3.10.1f|\n* Fixed a bug where {{il|Spectral Throw}} and {{il|Vaal Spectral Throw}} still pierced while you had the '''Kineticism''' cluster jewel keystone allocated.\n}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "3ddb5d604a69ab43f524f11600f60c772c1d7fd8014bdb597a384bb8ddc97a0a"
+}

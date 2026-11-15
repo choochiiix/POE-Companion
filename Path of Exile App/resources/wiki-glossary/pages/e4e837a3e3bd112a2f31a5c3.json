@@ -1,0 +1,33 @@
+{
+  "title": "The Conduit",
+  "pageId": 16721,
+  "revision": 1682475,
+  "timestamp": "2026-07-26T23:27:31Z",
+  "retrieved": "2026-11-14T10:57:48.399663+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Conduit\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = The path to godhood is guided by the hand of sacrifice.\n|drop_level                              = 69\n|tags                                    = armour_divination, unique_divination, unique_armour_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheConduit\n|stack_size                              = 9\n|description                             = {{c|unique|{{iil|Doryani's Fist}}}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 2.0.3\n}}\n\n'''The Conduit''' is a [[divination card]]. A set of nine can be exchanged for {{il|Doryani's Fist}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous. \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Ivory Temple|Villa}} (Tier 1+)\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Residence}} (Tier 1+)\n* Drop level changed from 52 to 69. {{Undocumented}}\n}}\n{{Version history table row|3.21.0|\n* The Conduit, {{il|The Dapper Prodigy}}, and {{il|The Sephirot}} can now be found in the {{il|Residence Map}}.\n* Confirmed to be a boss drop from [[Excellis Aurafix]], not an area drop.{{Divcord}}\n}}\n{{Version history table row|2.0.4b|\n* Changed to drop from either specific Bosses or Strongboxes.\n}}\n{{Version history table row|2.0.3|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "eb492a7b5c111ead7981c7a0d42e695b61ad6f6e53ab286b356a3c4229e6dd68"
+}

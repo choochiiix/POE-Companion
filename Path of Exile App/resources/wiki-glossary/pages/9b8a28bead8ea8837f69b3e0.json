@@ -1,0 +1,33 @@
+{
+  "title": "Aura of Death",
+  "pageId": 121678,
+  "revision": 1462762,
+  "timestamp": "2024-07-16T22:26:21Z",
+  "retrieved": "2026-11-14T10:57:11.014904+00:00",
+  "requested": [
+    "Assassin's Mark",
+    "Asset Lock Buff",
+    "Asset Lock Inactive",
+    "Astral Chains",
+    "Astral Protection",
+    "Astrally Empowered",
+    "Attack Impale Chance",
+    "Attack and Cast Speed",
+    "Atziri's Promise",
+    "Augury of Penitence",
+    "Aukuna's Hunt",
+    "Aukuna's Lasso",
+    "Aul's Uprising",
+    "Aura of Death",
+    "Autoexertion",
+    "Automation",
+    "Avian's Flight",
+    "Avian's Might",
+    "Baited Expectations",
+    "Balance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Aura of Death\n| type                   = Debuff\n| description            = You cannot recover Life or Energy Shield, and are taking every damage type over time. Run away!\n}}\n\n'''Aura of Death''' is a [[debuff]] caused by [[The Incarnation of Agony]]. Being near this enemy inflicts stacks of Aura of Death, dealing [[damage over time]] of every damage type and preventing recovery.\n\n[[Category:Debuffs]]",
+  "sha256": "5f640c809bd2a7e254759a82c3a45b519f150e722e386995088857a6f610fb52"
+}

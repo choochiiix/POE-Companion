@@ -1,0 +1,33 @@
+{
+  "title": "Corrosive Hunger",
+  "pageId": 89086,
+  "revision": 1245594,
+  "timestamp": "2022-12-02T12:02:15Z",
+  "retrieved": "2026-11-14T10:57:16.676754+00:00",
+  "requested": [
+    "Cold Empowerment",
+    "Cold Resistance Loss",
+    "Cold Snap",
+    "Cold Swarm",
+    "Cold Thorns",
+    "Combat-Ready",
+    "Conductivity",
+    "Conflagration Debuff",
+    "Consuming Tempest",
+    "Contagion",
+    "Controlled Blaze Support",
+    "Convergence",
+    "Converted",
+    "Coralito's Signature",
+    "Corrosive Hunger",
+    "Corrupted Blood Immunity",
+    "Corrupting Fever",
+    "Corrupting Smoke",
+    "Corrupting Tempest",
+    "Corruption of the Awakener"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Corrosive Hunger\n| type                   = Debuff\n| description            = You have -1% Physical Damage Reduction and -1% to Chance to Evade per Corrosive Hunger.\n}}\n\n'''Corrosive Hunger''' is a stacking, permanent [[debuff]] that reduces the physical damage reduction as well as chance to evade attack of players in the underground area of [[Seething Chyme]] (The boss arena of [[The Infinite Hunger]]). This debuff does not appear to have a cap and will continue to stack until your physical damage reduction and chance to evade attack are 0.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Reduced the rate at which players gain stacks of Corrosive Hunger in The Infinite Hunger boss fight.\n}}\n{{Version history table row|3.17.2|\n* The '''Corrosive Hunger''' debuff in The Infinite Hunger boss fight now provides -1% Physical Damage Reduction and -1% Chance to Evade per stack (previously -400 to Armour and Evasion Rating per stack).\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "ad75073e1a94adecc210f08fa4f4fa26102de7d772598d8ff211a4f93aecad16"
+}

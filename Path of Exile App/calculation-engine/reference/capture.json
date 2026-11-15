@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "executed-pob-lua-helpers",
+  "archiveSha256": "6ea36e73649da26741fd0c1c3bd57a99e589db84191f0e0578f320b1921cc34b",
+  "manifestVersion": "2.67.2",
+  "fullBuildParity": false,
+  "results": [
+    {
+      "id": "accuracy-zero",
+      "function": "hitChance",
+      "args": [
+        0,
+        0
+      ],
+      "value": 100.0
+    },
+    {
+      "id": "accuracy-no-evasion",
+      "function": "hitChance",
+      "args": [
+        0,
+        100
+      ],
+      "value": 100.0
+    },
+    {
+      "id": "accuracy-low",
+      "function": "hitChance",
+      "args": [
+        10000,
+        100
+      ],
+      "value": 12.0
+    },
+    {
+      "id": "accuracy-high",
+      "function": "hitChance",
+      "args": [
+        10000,
+        10000
+      ],
+      "value": 100.0
+    },
+    {
+      "id": "accuracy-floor",
+      "function": "hitChance",
+      "args": [
+        1000000,
+        1
+      ],
+      "value": 5.0
+    },
+    {
+      "id": "armour-zero",
+      "function": "armourReductionF",
+      "args": [
+        0,
+        0
+      ],
+      "value": 0.0
+    },
+    {
+      "id": "armour-half",
+      "function": "armourReductionF",
+      "args": [
+        5000,
+        1000
+      ],
+      "value": 50.0
+    },
+    {
+      "id": "armour-small-hit",
+      "function": "armourReductionF",
+      "args": [
+        5000,
+        100
+      ],
+      "value": 90.9090909090909
+    },
+    {
+      "id": "armour-large-hit",
+      "function": "armourReductionF",
+      "args": [
+        5000,
+        10000
+      ],
+      "value": 9.090909090909092
+    },
+    {
+      "id": "armour-rounded",
+      "function": "armourReduction",
+      "args": [
+        5000,
+        100
+      ],
+      "value": 91.0
+    }
+  ]
+}

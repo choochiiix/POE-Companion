@@ -1,0 +1,33 @@
+{
+  "title": "Her Mask",
+  "pageId": 8138,
+  "revision": 1705464,
+  "timestamp": "2026-11-13T04:52:42Z",
+  "retrieved": "2026-11-14T10:57:27.907620+00:00",
+  "requested": [
+    "Heartstopper",
+    "Heat",
+    "Her Blessing",
+    "Her Embrace",
+    "Her Mask",
+    "Herald Of Agony",
+    "Herald Of Ash",
+    "Herald Of Ice",
+    "Herald Of The Hive",
+    "Herald Of Thunder",
+    "Herald of Purity",
+    "Heretic's Ire",
+    "Heretical Flare",
+    "Hexing Shrine",
+    "High-Impact Mines",
+    "Hinder Immunity",
+    "Hinekora's Aid",
+    "Hit by Explosive Arrow",
+    "Hit by Infernal Blow",
+    "Hit by Lightning Arrow"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Her Mask\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = To her beauty you submit,<br>lest your neck the great Queen slit.\n|drop_level                              = 23\n|tags                                    = divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardHerMask\n|stack_size                              = 4\n|description                             = Disabled\n|stack_size_currency_tab                 = 10000\n<!--|drop_areas                              = 2_7_12_1, 2_7_12_2, 1_2_14_3-->\n|release_version                         = 2.1.2\n|drop_enabled                            = false\n}}\n\n'''Her Mask''' is a [[divination card]]. The ability to exchange a complete set is currently disabled due to the removal of [[Sacrifice Fragment]]s in [[version 3.30.0]].\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous.\n\n==Version history==\nBefore it was disabled in [[version 3.30.0]], a set of this card could be exchanged for a random [[Sacrifice fragment]].\n\n{{Version history table header}}\n{{Version history table row|3.30.0|\n* The following Divination Cards has been temporarily disabled: Her Mask, Last Hope, and Sambodhi's Vow.\n}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Maze|Vaal Temple}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Vaal Pyramid|Vaal Temple}}\n* Now also drops in The Temple of Decay. {{Divcord}}\n}}\n{{Version history table row|2.1.2|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "b63d41650f6686390468424ad7ae2c92378dd06deb9d88c6bf465bdc1a6e8ad7"
+}

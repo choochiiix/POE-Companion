@@ -1,0 +1,33 @@
+{
+  "title": "The Battle Within",
+  "pageId": 127463,
+  "revision": 1493619,
+  "timestamp": "2025-01-26T15:07:48Z",
+  "retrieved": "2026-11-14T10:57:47.572158+00:00",
+  "requested": [
+    "Tainted Power Charges",
+    "Tarred Ground",
+    "Tasalio's Blessing",
+    "Taste of Blood",
+    "Taste of Hate",
+    "Taunted",
+    "Tawhanuku's Leadership",
+    "Tawhoa's Remedies",
+    "Tears of Rot",
+    "Tempest Shield",
+    "Temporal Anomaly",
+    "Temporal Bubble",
+    "Temporal Interference",
+    "Tenacious Vigor",
+    "Tender Embrace",
+    "Test",
+    "The Basics",
+    "The Battle Within",
+    "The Beast",
+    "The Betrayal"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Battle Within\n|class_id                                = Tincture\n|base_item                               = Oakbranch Tincture\n|explicit1                               = TinctureToxicityOnHitUnique__1 \n|explicit2                               = TinctureRarityPerToxicityUnique__1\n|explicit3                               = TinctureCullingStrikeUnique__1\n|flavour_text                            = The struggle for balance never ends.\n|release_version                         = 3.25.0\n|is_drop_restricted                      = false\n|drop_text                               = \n}}\n\n'''The Battle Within''' is a [[unique]] {{il|Oakbranch Tincture}}.\n\n==Mechanics==\n\n{{Item acquisition}} <ref>https://www.youtube.com/watch?v=OUnXmMqDs-0</ref>\n\n==Version history==\n\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "7e4c135a2ba4b9d17e23a520b819245b53388c8fe61a50a6f6c3eabcdf99d8a4"
+}

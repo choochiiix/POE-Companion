@@ -1,0 +1,33 @@
+{
+  "title": "Fire Aegis",
+  "pageId": 6543,
+  "revision": 1698265,
+  "timestamp": "2026-08-01T10:51:17Z",
+  "retrieved": "2026-11-14T10:57:23.918540+00:00",
+  "requested": [
+    "Feeding Frenzy",
+    "Feline Procession",
+    "Fenumal Presence",
+    "Fertile Presence",
+    "Fins of Brine",
+    "Fire Aegis",
+    "Fire Damage Aura",
+    "Fire Damage and Ignite",
+    "Fire Empowered",
+    "Fire Empowerment",
+    "Fire Exposure",
+    "Fire Resistance Loss",
+    "Fire Swarm",
+    "Fire Weapon",
+    "Firebreather Mead",
+    "Flame Golem",
+    "Flame Link",
+    "Flame Wall",
+    "Flame of the Well",
+    "Flameblast"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=FireAegis}}\n{{distinguish|Flame Aegis}}\n\n'''Fire Aegis''' is a [[skill]] that applies a protective [[buff]] on the character and absorbs [[fire damage]] from [[hit]]s up to a certain amount before it temporarily dissipates.\n\n[[File:Fire Aegis skill animation.gif|thumb|200px|skill animation]]\n==Acquisition==\nFire Aegis can only be obtained by equipping {{il|Invictus Solaris}}, having a capacity of 1000.\n\n==See also==\n* {{sl|id=ColdAegis}}\n* {{sl|id=ElementalAegis}}\n* {{sl|id=LightningAegis}}\n* {{sl|id=PhysicalAegis}}\n* {{sl|Primal Aegis}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* Version used by [[Mercenaries]] was added to the game. {{Undocumented}}\n}}\n{{Version history table row|3.13.0|\n* No longer has its recharge timer interrupted by damage if the buff is depleted\n}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Buffs]]",
+  "sha256": "175e7cba8d1ed2fbb7e57a5e06b3403bed51d75726fff7241e2761951aa8febf"
+}

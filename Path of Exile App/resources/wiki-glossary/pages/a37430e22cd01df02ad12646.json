@@ -1,0 +1,33 @@
+{
+  "title": "Blink",
+  "pageId": 2108,
+  "revision": 1550483,
+  "timestamp": "2025-07-20T01:38:10Z",
+  "retrieved": "2026-11-14T10:10:00.821597+00:00",
+  "requested": [
+    "Doom Blast",
+    "Shockwave",
+    "Guard skill",
+    "Blink",
+    "skills",
+    "repeat",
+    "Acceleration Shrine",
+    "monster modifier",
+    "Critical Strike Chance",
+    "Passive Skills",
+    "Historic",
+    "mana regen",
+    "cold",
+    "attack damage",
+    "Unleash",
+    "Corpse",
+    "Mana before Life",
+    "flask",
+    "Eternal Youth",
+    "talisman"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Distinguish|Travel}}\n\n'''Blink''' is a [[gem tag]]. Blink skills have a shared [[cooldown]]; when one is used, all go on cooldown. All Blink skills are also [[Travel]] skills.\n\n==Gems==\n===Skill gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Active Skill Gem\" AND skill_gems.gem_tags HOLDS \"Blink\"}} [[skill gems]] with the [[:Category:Blink (gem tag)|Blink]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Active Skill Gem\" AND skill_gems.gem_tags HOLDS \"Blink\"\n}}\n\n===Support gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Support Skill Gem\" AND skill_gems.gem_tags HOLDS \"Blink\"}} [[support gems]] with the [[:Category:Blink (gem tag)|Blink]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Support Skill Gem\"\n   AND skill_gems.gem_tags HOLDS \"Blink\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.7.0|\n* Introduced to the game as a gem tag.\n}}\n{{Version history table end}}\n\n[[Category:Gem tag mechanics]]\n[[Category:Gem tags]]",
+  "sha256": "4acecc59e66596601302a894ae3e7504f7ff368245094b23cd0454e71b7d7361"
+}

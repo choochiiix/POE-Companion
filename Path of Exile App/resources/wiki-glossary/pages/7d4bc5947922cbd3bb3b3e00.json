@@ -1,0 +1,33 @@
+{
+  "title": "Elemental Equilibrium",
+  "pageId": 5763,
+  "revision": 1605611,
+  "timestamp": "2026-01-14T23:16:34Z",
+  "retrieved": "2026-11-14T10:08:29.720760+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Elemental Equilibrium}}\n\n'''Elemental Equilibrium''' (often referred to as '''EE''') is a [[keystone]] [[passive skill]]. Whenever you deal any [[elemental damage]] with a [[hit]], it applies [[fire damage|fire]], [[cold damage|cold]], or [[lightning damage|lightning]] [[exposure]] of the element(s) that the hit didn't deal the element of, and removes the exposure type of the element(s) that did.\n\n==Mechanics==\nOnly a [[hit]] that deals [[damage]] will apply the respective exposure. [[Block]]ed hits or [[damage over time]] will not trigger Elemental Equilibrium.\n\nIf you hit an enemy with two different elements at the same time it will apply exposure to the third element and remove the other two element exposure. A hit carrying all three elements types will not apply exposure and will remove all of them.<ref>{{cite web|author=Chris|date=January 23, 2013 2:31 AM|title=0.10.0 Patch Notes|url=https://www.pathofexile.com/forum/view-thread/70479#p856586|publisher=Official Path of Exile Forum|accessdate=July 27, 2013}}</ref>\n\n[[Trap]], [[Mine]], and [[Totem]] skills trigger EE as they use your skills with your offensive stats, which includes keystones and passives. Minions do not trigger EE as they do not use your skills or stats, and are only affected by keystones and passives that explicitly mention minions.<ref>{{cite web|author=Mark_GGG|date=July 16, 2012 3:30 AM|title=Elemental Equilibrium|url=https://www.pathofexile.com/forum/view-thread/19803/page/4#p528448|publisher= Official Path of Exile Forum|accessdate=April 2, 2013‎}}</ref> One way to trigger EE via minions is socketing the minion gem into a [[Malachai's Artifice]].\n\nMultiple attacks that hit simultaneously are still processed independently, so the first hit that is processed will trigger EE that affects the other hits.<ref>{{cite web|author=Mark_GGG|date=July 10, 2014 5:45 PM|title=Mechanics Question: Elemental Equilibrium and Remote Mines|url=https://www.pathofexile.com/forum/view-thread/965701#p8205123|publisher=Official Path of Exile Forum|accessdate=August 24, 2014}}</ref>\n\nElemental Equilibrium as a whole applies before regular on-hit exposure. A hit that deals fire damage and therefore removes fire exposure can still inflict fire exposure with e.g. {{il|Eye of Malice}} or an [[Eldritch implicit modifier|eldritch]] glove implicit.\n\n==Example uses==\nAs long as you are careful to not use the same element twice in a row, EE can greatly boost damage. Try to use a combination of skills that alternate between two elements, or cycles through all three:\n\n* Use a [[damage over time]] or [[minion]] skill as your primary source of damage and use a secondary skill with a different element to proc EE. (Ex. {{il|Righteous Fire}} + {{il|Ball Lightning}})\n* Prismatic skills ({{il|Elemental Hit}}, {{il|Wild Strike}}) alternate elements with each attack, increasing the overall damage in most cases. This is more easily achieved with Elemental Hit, since it blocks all added damage of the elements it didn't choose.\n* Simply alternate between two skills of different elements to deal damage.\n\n[[File:Elemental Equilibrium Visual Effect.png|thumb|Elemental Equilibrium visual effect on a Siren.]]\n\n==Location==\nElemental Equilibrium is located on the bottom right side of the tree, on the intersection between the Scion, Duelist, and Ranger paths.\n\n{| class=\"wikitable sortable\" style=\"text-align: centre;\"\n!Class\n!Distance from start\n|-\n|[[Duelist]]||7\n|-\n|[[Ranger]]||7\n|-\n|[[Scion]]||11\n|-\n|[[Marauder]]||17\n|-\n|[[Shadow]]||17\n|-\n|[[Templar]]||21\n|-\n|[[Witch]]||21\n|}\n\n==Related items==\n===Base items===\nThe following base items are related to Elemental Equilibrium:\n{{Drop enabled base item table\n|where=items.stat_text LIKE \"%Elemental%Equilibrium%\"\n|large=1\n|level=1\n|stat=1\n}}\n\n===Unique items===\nThe following [[unique item]]s are related to Elemental Equilibrium:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Elemental%Equilibrium%\"\n    OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* The Elemental Equilibrium Keystone Passive Skill now applies 25% Exposure of the Elements not Hit with, removing Exposure of the Elements you Hit with. It's now an easy way to apply a strong Exposure effect rather than a huge damage boost that we balanced Elemental Damage over Time Skills around.\n* Moved the Elemental Equilibrium Keystone Passive to the Ranger section of the Passive Skill Tree, where there is much less existing access to Exposure for Elemental builds and access to Skills that rotate Elements, such as Wild Strike.\n}}\n{{Version history table row|1.3.1|\n* Added a visual effect to players or monsters that are under the effect of Elemental Equilibrium.\n}}\n{{Version history table row|1.3.0d|\n* An informational icon has been added to indicate whether you are under the effect of Elemental Equilibrium\n}}\n{{Version history table row|0.10.0|\n* Now grants a flat amount (+25%) of resistance to each element you hit with and a resistance penalty (-50%) to each element not present in the hit.\n}}\n{{Version history table row|0.9.9|\n* Now provides -25% resistance (was -20%) to the element not used and 25% resistance (was 30%) to the element used.\n}}\n{{Version history table row|0.9.6|\n* Added new keystone passive - Elemental Equilibrium: When you hit enemies with an element, they get +30% resistance to that element and -20% resistance to other elements.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n{{sister|poe2wiki}}",
+  "sha256": "4e5f220ffae1baee44835f0721928422b4ac906d79ea875ed5c94fca731b0874"
+}

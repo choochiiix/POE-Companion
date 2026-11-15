@@ -1,0 +1,33 @@
+{
+  "title": "Corrupted Soul",
+  "pageId": 3917,
+  "revision": 1490218,
+  "timestamp": "2024-10-13T04:53:49Z",
+  "retrieved": "2026-11-14T10:09:57.335585+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Corrupted Soul}}\n\n'''Corrupted Soul''' is a [[keystone passive skill]] which causes 50% Non-[[Chaos Damage]] taken to bypass [[Energy Shield]] and grants 15% of Maximum [[Life]] as Extra Maximum [[Energy Shield]].\n\n==Mechanics==\n'''{{c|mod|50% of Non-Chaos Damage taken bypasses Energy Shield}}''': \n\nThis is especially useful if you have a source of both Life and Energy Shield [[regeneration]] or [[recovery]], e.g. the [[Inquisitor]]'s Ascendancy Notable {{psl|Pious Path}} which allows you to regenerate Life and Energy Shield simultaneously.\n\nExample of a character with 3000 maximum Life and 3000 maximum Energy Shield:\n*'''Without Corrupted Soul''':\n**A monster hitting you for 1000 damage of any Non-Chaos Damage will reduce your Energy Shield by 1000. \n**Giving you the chance of recovering Energy Shield through any form of recovery but not Life because it is still [[full life|full]].\n*'''With Corrupted Soul''':\n**A monster hitting you for 1000 damage of any Non-Chaos Damage will reduce your Energy Shield by 500 and Life by 500. \n**Giving you the chance of recovering both Life and Energy Shield.\n\n'''{{c|mod|Gain 15% of Maximum Life as Extra Maximum Energy Shield}}''': \n\nExample of how much Energy Shield this modifier grants a character with 1000 base maximum Life, 200% increased maximum Life, and 120% increased maximum Energy Shield:\n\n*{{math|formula=\n1000 \\times \\left (\\frac {15}{100} \\right) \\times \\left (1 + \\frac {200}{100} + \\frac {120}{100} \\right) = 630 \\text { maximum Energy Shield}\n}}\n\n==Location==\nThis keystone (via the unique jewel) will conquer (i.e. convert) any keystones within the jewel radius of {{il|Glorious Vanity}} (the variant {{c|mod|Bathed in the blood of (100–8000) sacrificed in the name of '''Doryani'''}} only) unique timeless jewel. Thus, this keystone can be acquired via any keystone of the skill tree that is near to a [[jewel]] socket. Note that the unique jewel cannot be placed in a jewel slot from a [[cluster jewel]].\n\n==Related unique items==\nThe following [[unique item]]s are related to Corrupted Soul:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Corrupted Soul%\"\n    OR items.stat_text LIKE \"%Conquered%by%the%Vaal%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Videos==\n<youtube description=\"Corrupted Soul mechanics and interactions\">Xsz0yaQ4TP4</youtube>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n*Now causes you to {{c|mod|Gain 15% of Maximum Life as Extra Maximum Energy Shield}} (down from 20%).\n*It allowed life base characters to get large amounts of Energy Shield very easily, while the Non-Chaos Damage taken bypasses Energy Shield stat didn't prove to be a significant downside for most builds taking the Keystone.\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\n* [[Divine Flesh]] another keystone from Glorious Vanity\n* [[Immortal Ambition]] another keystone from Glorious Vanity, or from Soul Tether unique belt",
+  "sha256": "61909412054e460aab3e35c845f89521e2bf938ae86711195f2f66bcc701d6a0"
+}

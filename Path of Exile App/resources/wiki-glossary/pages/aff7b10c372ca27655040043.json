@@ -1,0 +1,33 @@
+{
+  "title": "Herald",
+  "pageId": 8139,
+  "revision": 1592646,
+  "timestamp": "2025-11-10T02:54:53Z",
+  "retrieved": "2026-11-14T10:08:31.484134+00:00",
+  "requested": [
+    "Mine",
+    "Minion",
+    "Golem",
+    "Spectre",
+    "Sentinel",
+    "Brand",
+    "Banner",
+    "Herald",
+    "Offering",
+    "Trigger",
+    "Channelled skill",
+    "Projectile",
+    "Chain",
+    "Fork",
+    "Pierce",
+    "Split",
+    "Return",
+    "Area of effect",
+    "Duration",
+    "Damage over time"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the type of skill|the ascendancy class|Herald (ascendancy class)}}\n\n'''Herald''' is a [[gem tag]] associated with active [[skill]]s which grant the user both a damage [[buff]] and a special effect upon hitting or killing an enemy under certain conditions. Each Herald has a base [[mana reservation]] of 25%. \n\n==List of herald skills==\n{{Drop enabled gem table\n|where=items.name LIKE \"%Herald%\"\n}}\n\n===Other===\n* {{sl|Herald of the Hive}} (from {{il|Lost Unity}})\n\n==Unique Items==\nThis is a list of [[unique item]]s that are related to Herald skills.\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%herald%\"\n|large=1\n|level=1\n|base_item=1\n|stat=1\n}}\n\n==Passive skills==\n===Base passive skills===\nThe following [[passive skill]]s affect Herald skills:\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%herald%\"\n}}\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] [[passive skill]]s affect Herald skills:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 0\n     AND passive_skills.stat_text LIKE \"%herald%\"\n|large=1\n|stat_text=1\n}}\n\n===Cluster Jewel keystone passive skills===\nThe following [[Cluster Jewel]] [[keystone passive skill]]s affect Herald skills:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 1\n     AND passive_skills.stat_text LIKE \"%herald%\"\n|large=1\n|stat_text=1\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s affect Herald skills:\n{{Query ascendancy passive skills\n|where=passive_skill_stats.id LIKE \"%herald%\"\n}}\n\n===Tattoos===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%herald%\"\n|large=1\n|description=1\n}}\n\n==History==\nDuring an interview in Episode 15 of the [[State of Exile]] podcast, GGG-Developers  [[Carl]] and [[Rory]] mentioned that three more Heralds other than the then-released Herald of Ash and Ice were in the works. The names given were Herald of Thunder (Lightning), Herald of Stone (likely Physical) and Herald of Anarchy (likely Chaos).\n\nUpon release of the next major patch after this interview, which introduced the Herald of Thunder as seen above, GGG stated that the other two Heralds were not ready and were put on an indefinite hold, as they were either not interesting enough or did not fit into the game for another reason.\n\nIn [[Version 3.4.0]], more than three years later, two new physical and chaos-themed Herald skills added: Herald of Purity and Herald of Agony.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* We wanted to add support for mechanics that have been added in the past few years that as of yet do not have adequate support on the [[Passive Skill|passive tree]]. Some of these mechanics include [[Rage]], [[Unleash]], [[Corpse|Corpse manipulation]], [[Warcry|Warcries]], Heralds and [[Aura#Banners|Banners]].\n}}\n{{Version history table row|3.0.0|\n* {{il|Herald of Ash}}, {{il|Herald of Ice}} and {{il|Herald of Thunder}} now each have the Herald gem tag.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]\n[[Category:Gem tags]]\n{{sister|poe2wiki}}",
+  "sha256": "7dabe071ad30a497f06066d68be5268300e34b0cd1a1d5edbda8b0887dbfc113"
+}

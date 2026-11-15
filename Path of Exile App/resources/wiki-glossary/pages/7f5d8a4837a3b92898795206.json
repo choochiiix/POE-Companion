@@ -1,0 +1,33 @@
+{
+  "title": "Unwavering Stance",
+  "pageId": 18425,
+  "revision": 1492424,
+  "timestamp": "2024-11-30T23:38:59Z",
+  "retrieved": "2026-11-14T10:11:11.217023+00:00",
+  "requested": [
+    "Discipline",
+    "flasks",
+    "Abyss Jewel",
+    "Unwavering Stance",
+    "Hits can't be evaded",
+    "party",
+    "cast spee",
+    "Monster resistances",
+    "monster category",
+    "Ravenous",
+    "physical damage reduction",
+    "item rarity",
+    "Unique Monsters",
+    "Endurance Charges",
+    "Frenzy Charges",
+    "Power Charges",
+    "Damage reduction",
+    "Unique monsters",
+    "Beast",
+    "Carrion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Unwavering Stance}}\n{{Distinguish|Unwavering}}\n'''Unwavering Stance''' is a [[keystone passive skill]] that grants guaranteed [[stun]] avoidance, but prevents the character from [[evasion|evading attacks]].\n\n==Mechanics==\nUnwavering Stance sets chance to avoid being [[stun]]ned to 100% and sets [[evasion]] chance to 0%, which means enemies will ''always'' hit regardless of their [[accuracy]] rating or chance to hit.\n\nUnwavering Stance does ''not'' modify evasion ''rating''. This is significant mainly because of the [[Iron Reflexes]] keystone, which converts evasion rating to [[armour]]. It is therefore possible to utilize the effects of both keystones simultaneously. ([[Ghost Dance]] is also technically not affected.)\n\n==Location==\nUnwavering Stance is located on the bottom left side of the tree, on the intersection between the Marauder, Duelist, and Scion paths.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Marauder||7\n|-\n|Duelist||7\n|-\n|Scion||11\n|-\n|Ranger||17\n|-\n|Templar||17\n|-\n|Shadow||21\n|-\n|Witch||21\n|}\n\n==Related unique items==\nThese [[unique item]]s have the {{c|mod|Unwavering Stance}} modifier, which provides the same effect as this keystone. Taking the keystone in addition to equipping one of these items will impart no additional benefit.\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Unwavering%Stance%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.9.4|\n* Introduced to the game.\n}}\n{{Version history table end}}\n{{sister|poe2wiki}}",
+  "sha256": "2c72be72140ea5c598007f0fbfbb70d42cebef7ae5ba39be57430c2839ae4a16"
+}

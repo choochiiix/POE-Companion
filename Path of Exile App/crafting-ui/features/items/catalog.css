@@ -1,0 +1,194 @@
+/* Tooltip-inspired item content; the surrounding workbench keeps Ayu Aurora. */
+.catalog-filters {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:var(--space-card) var(--space-2);
+  padding:var(--space-2);
+  background:var(--bg-secondary);
+  border:1px solid var(--line);
+  border-radius:var(--radius-sm);
+}
+.catalog-filters label {
+  min-width:0;
+  margin:0;
+}
+.catalog-filters input,.catalog-filters select {
+  width:100%;
+  min-width:0;
+  height:38px;
+}
+.catalog-search {
+  grid-column:span 2;
+}
+.catalog-reset {
+  align-self:end;
+  height:38px;
+}
+#catalogPanel > [role=status] {
+  margin:var(--space-2) 0;
+  font-size:var(--text-xs);
+}
+#catalogPanel .unique-results {
+  padding:0;
+  border:0;
+  background:transparent;
+  box-shadow:none;
+}
+.unique-group-heading {
+  font:600 13px var(--font-reference);
+  color:var(--text-secondary);
+  margin:var(--space-3) 0 var(--space-2);
+}
+.unique-card-list {
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(min(100%,285px),1fr));
+  gap:20px;
+  align-items:start;
+}
+.unique-card {
+  overflow:visible;
+  border:1px solid var(--unique-border);
+}
+.unique-card-header {
+  padding:var(--space-1) 20px;
+  border-block:2px solid var(--unique-header-rule);
+  background:linear-gradient(90deg,var(--unique-header-edge),var(--unique-header-center) 50%,var(--unique-header-edge));
+  position:relative;
+}
+.unique-card-header::before,.unique-card-header::after {
+  content:'◆';
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  color:var(--unique-ornament);
+  font-size:var(--text-base);
+}
+.unique-card-header::before {
+  left:8px;
+}
+.unique-card-header::after {
+  right:8px;
+}
+.unique-card-header h4,.unique-card-header p {
+  font-family:var(--font-display);
+  font-weight:400;
+  color:var(--unique-color);
+  font-size:17px;
+  line-height:1.3;
+  margin:0;
+}
+.unique-card-body {
+  padding:var(--space-card) var(--space-2) var(--space-half);
+}
+.unique-card-body p {
+  margin:7px 0;
+  line-height:1.65;
+  overflow-wrap:break-word;
+}
+.unique-card-body .item-properties {
+  color:var(--text-secondary);
+}
+.unique-card-body .item-requirements {
+  color:var(--reference-requirement);
+  border-top:1px solid var(--unique-rule);
+  margin-top:var(--space-1);
+  padding-top:var(--space-dense);
+}
+.item-mod-block {
+  border-top:1px solid var(--unique-rule);
+  margin-top:var(--space-1);
+  padding-top:var(--space-dense);
+}
+.unique-card-body .item-mod-normal {
+  color:var(--reference-mod);
+}
+.unique-card-body .item-mod-crafted {
+  color:var(--mod-crafted);
+}
+.unique-card-body .item-mod-enchanted {
+  color:var(--mod-enchanted);
+}
+.unique-card-body .item-mod-fractured {
+  color:var(--mod-fractured);
+}
+.unique-card-body .item-flavor {
+  color:var(--unique-color);
+  font-style:italic;
+  white-space:pre-line;
+  border-top:1px solid var(--unique-rule);
+  margin-top:var(--space-1);
+  padding:var(--space-1) 0;
+}
+.unique-card-footer {
+  border-top:1px solid var(--unique-rule);
+  padding:var(--space-1);
+  flex-wrap:wrap;
+  gap:var(--space-1);
+  font-size:var(--text-xs);
+  color:var(--text-secondary);
+}
+.unique-card-footer span {
+  flex-basis:100%;
+}
+.unique-card-footer button {
+  font-size:var(--text-xs);
+}
+.unique-card-art {
+  height:160px;
+  padding:var(--space-2);
+  background:radial-gradient(ellipse at center,var(--unique-art-glow),transparent 72%);
+  border-bottom:1px solid var(--unique-rule);
+}
+.unique-card-art img {
+  max-height:128px;
+}
+.unique-card-art span {
+  color:var(--text-muted);
+  font-size:var(--text-xs);
+}
+.unique-card-header {
+  min-height:80px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.unique-card-footer label {
+  width:100%;
+  margin:var(--space-half) 0;
+  text-align:left;
+}
+.unique-card-footer select {
+  width:100%;
+  min-width:0;
+}
+.unique-card-header {
+  padding-block:var(--space-card);
+}
+.unique-card-header h4 {
+  font-size:var(--text-xl);
+}
+.unique-card-header p {
+  font-size:var(--text-lg);
+  margin-top:var(--space-half);
+}
+@media(max-width:720px) {
+  .catalog-filters {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+@media(max-width:420px) {
+  .catalog-filters {
+    grid-template-columns:minmax(0,1fr);
+  }
+  .catalog-search {
+    grid-column:auto;
+  }
+}
+@media(forced-colors:active) {
+  .unique-card,.unique-card-header,.item-mod-block,.unique-card-footer {
+    border-color:CanvasText;
+  }
+  .unique-card-body p,.unique-card-header h4,.unique-card-header p {
+    color:CanvasText;
+  }
+}

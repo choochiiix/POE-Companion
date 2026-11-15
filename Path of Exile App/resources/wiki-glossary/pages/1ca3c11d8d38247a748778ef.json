@@ -1,0 +1,33 @@
+{
+  "title": "Infested",
+  "pageId": 8666,
+  "revision": 1438003,
+  "timestamp": "2024-04-21T01:18:58Z",
+  "retrieved": "2026-11-14T10:57:30.257364+00:00",
+  "requested": [
+    "Increased Experience",
+    "Increased Life Leech",
+    "Increased Mana Leech",
+    "Increased Movement Speed",
+    "Increased Resistances",
+    "Increased Stun Recovery",
+    "Indifference of the Cosmos",
+    "Inescapable Doom",
+    "Infernal Blow",
+    "Infernal Cry",
+    "Inferno Bolt",
+    "Infested",
+    "Influence Mod (Invisible)",
+    "Inner Choking Miasma",
+    "Inner Deatomisation Storm",
+    "Innervate",
+    "Insanity",
+    "Inspirational",
+    "Inspired Learning",
+    "Instability"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Infested\n| type                   = Debuff\n| description = Parasites burst from your body and drain your flask charges.\n}}\n'''Infested ''' is a [[debuff]] caused by certain attacks by [[Ryslatha, the Puppet Mistress]] and its map variant [[Gorulis, Will-Thief]]. \n\nIt drains [[flask charges]] and spawns a [[Parasite|parasite]].\n\n==Version History==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "b0dcf05120ce3e31540362d6e731f06aa3fae2cf940f400d22f406a3ca4b9e24"
+}

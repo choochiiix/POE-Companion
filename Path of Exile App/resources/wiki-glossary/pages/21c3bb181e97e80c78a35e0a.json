@@ -1,0 +1,33 @@
+{
+  "title": "Shade Form",
+  "pageId": 14567,
+  "revision": 1649367,
+  "timestamp": "2026-05-22T23:39:35Z",
+  "retrieved": "2026-11-14T10:57:42.761634+00:00",
+  "requested": [
+    "Scientist's Beam",
+    "Scorching Conflux",
+    "Scorching Ray",
+    "Scourge Arrow",
+    "Screech",
+    "Sea Hag's Blessing",
+    "Searing Beam",
+    "Searing Rune",
+    "Seething Tempest",
+    "Seismic Cry",
+    "Sentinel Chaos Resistance",
+    "Sentinel Curse Protection",
+    "Sentinel Fire Damage",
+    "Sentinel Life Regeneration",
+    "Sentinel Lightning Damage",
+    "Sentinel Mana Regeneration",
+    "Sentinel Shield",
+    "Serpent Extract",
+    "Sewage Toxins",
+    "Shade Form"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{| style=\"float: right;\"\n|-\n|\n{{Skill infobox|id=ShadeForm}}\n|-\n|\n{{Skill infobox|id=ShadeFormWhenHit}}\n|}\n\n'''Shade Form''' is a [[skill]] that grants a [[buff]] that provides immunity to [[physical damage]] and increased [[stealth]] when triggered.\n\n==Sources==\n[[Shroud of the Lightless]] has grants the skill with the internal id \"ShadeForm\".\n\n{{il|Replica Eternity Shroud}} and the {{psl|Formless}} from the [[Blind Prophet]] Ascendancy class in [[Legacy of Phrecia]] leagues grants the skill with the internal id \"ShadeFormWhenHit\". \n\nThe buff from this skill can also be granted via {{il|Omen of Death's Door}}.\n\n==Mechanics==\nShade Form increases [[stealth]] by 100%, effectively reducing enemy aggro radius by 50%. It also grants immunity to [[physical damage]], negating it completely.\n\nBy default, the skill has a [[cooldown]] of 40 seconds and is affected by modifiers to [[cooldown recovery rate]]. This skill begins on cooldown when entering a new area.\n\nThe buff has a duration of 3 seconds by default. Modifiers to [[duration]] like {{il|More Duration Support}} and {{il|Efficacy Support}} affect the uptime of the buff, as well as [[self-curse|cursing yourself]] with {{il|Temporal Chains}}. However, it is not possible to maintain permanent uptime of this buff as the cooldown will not begin until the buff expires.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.17.0|\n* Changed Shade Form's cooldown to pause while the skill is active. Reduced the cooldown from 45 seconds to 40 seconds.\n}}\n{{Version history table row|3.12.0|\n* The variant from {{il|Replica Eternity Shroud}} is introduced.\n}}\n{{Version history table row|3.1.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "c391edc00f5548b22c1648c62c5e4d9766b2aec4ad082d3428999492669ab7a5"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Aegis",
+  "pageId": 297,
+  "revision": 1596376,
+  "timestamp": "2025-11-23T18:04:28Z",
+  "retrieved": "2026-11-14T10:08:30.585105+00:00",
+  "requested": [
+    "Elemental Overload",
+    "Point Blank",
+    "Iron Will",
+    "Iron Grip",
+    "Avatar of Fire",
+    "Zealot's Oath",
+    "Wicked Ward",
+    "Glancing Blows",
+    "Divine Flesh",
+    "Petrified Blood",
+    "Petrification",
+    "Aegis",
+    "Guard",
+    "Aura",
+    "Curse",
+    "Hex",
+    "Mark",
+    "Warcry",
+    "Totem",
+    "Trap"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "An '''aegis''' is a type of [[active skill|skill]] and associated [[buff]] granted by certain [[item]]s and [[Ascendancy class|Ascendancy passive skills]]. While active, the buff takes a specified amount of damage from [[hit]]s (typically of specific [[damage type]]s) before it is dealt to [[life]] or [[energy shield]] until it is fully depleted. The aegis will automatically restore to full after a skill-specific duration after either fully depleting the buff or not taking hit damage of the aegis' type for the same duration. Aegis skills' mitigation takes priority before [[Guard Skill]]s<ref>https://www.pathofexile.com/forum/view-thread/3123794</ref>.\n\n==Skills==\n* {{sl|id=PhysicalAegis}} (from {{il|The Ghastly Theatre}})\n* {{sl|Elemental Aegis}} (from {{il|Magna Eclipsis}})\n* {{sl|Cold Aegis}} (from {{il|Vix Lunaris}})\n* {{sl|id=FireAegis}} (from {{il|Invictus Solaris}})\n* {{sl|Lightning Aegis}} (from {{il|page=Perepiteia (Synthesised)|Perepiteia}} and its [[Perepiteia (Fractured)|fractured variant]])\n* {{sl|Primal Aegis}} (from [[Bastion of Elements]] ascendancy passive skill)\n\n==Related unique items==\nThe following [[unique item]]s are related to Aegis:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Aegis%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n==Ascendancy passives==\n{{Query ascendancy passive skills\n|where=  passive_skill_stats.id LIKE \"%Aegis%\"\n}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* '''Aegis''' effects, such as {{sl|Elemental Aegis}} from {{il|Magna Eclipsis}}, no longer have their recharge timer interrupted by damage if the buff is depleted.\n}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\n* [[Ward]]\n* [[Sacrifice of Blood|Blood Barrier]]\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "e8b3427250e9b66729770898391be0ec32f7a63e4820b6dfeb3d9894ac774fa2"
+}

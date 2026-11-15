@@ -1,0 +1,33 @@
+{
+  "title": "Pacify",
+  "pageId": 119753,
+  "revision": 1659637,
+  "timestamp": "2026-07-02T02:37:37Z",
+  "retrieved": "2026-11-14T10:57:35.693335+00:00",
+  "requested": [
+    "Omnitect's Thruster",
+    "One Step Ahead",
+    "Oppression",
+    "Orb Fire",
+    "Orb of Elemental Essence",
+    "Ornate Dagger",
+    "Otherworldly Pressure",
+    "Outer Deatomisation Storm",
+    "Overflowing Chalice",
+    "Overloaded Intensity",
+    "Overpowered",
+    "PC Bang Entitlements",
+    "PURPLE BUFF",
+    "Pacified",
+    "Pacify",
+    "Paralysing Touch",
+    "Penance",
+    "Penance Brand",
+    "Perquil's Toe",
+    "Pestilent Strike"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=Pacify}}\n\n'''Pacify''' is a [[hex]] [[curse]] skill.\n\nThis skill is granted by {{il|The Queller of Minds}}, and by [[Bog Shaman]]'s {{psl|id=AscendancyCustomNecromancer8}}.\n\n==Mechanics==\n\nPacify targets enemies in an area, having no effect initially but causes affected enemies to deal no [[damage]] after 60% of the curse's duration has expired. Pacify does not prevent on-hit effects, and has no effect on mechanics that instantly [[kill]] the player or arena hazards like the [[Drowning]] orbs in [[Absence of Symmetry and Harmony]], or [[Sirus]]' Deatomization Storm. Casting Pacify on a target already affected by Pacify will reset the curse's duration.\n\nIncreasing curse [[duration]] will lengthen the period of damage nullification, but also increases the time required to reach that effect; conversely, reducing curse duration will make the effect apply faster but have a smaller window of nullification. Pacify does not directly scale with curse effect, but 100% reduced curse effect will prevent the damage nullification.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.23.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Spell (gem tag)]]\n[[Category:Hex (gem tag)]]",
+  "sha256": "3e62ba644469d05be9b34c7e0a7361dabfad6d62027481b173fcecb4da8b5c74"
+}

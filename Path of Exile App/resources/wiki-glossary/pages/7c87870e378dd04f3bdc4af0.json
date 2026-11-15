@@ -1,0 +1,33 @@
+{
+  "title": "Endless Pain",
+  "pageId": 5895,
+  "revision": 1243179,
+  "timestamp": "2022-11-06T03:10:03Z",
+  "retrieved": "2026-11-14T10:57:21.492902+00:00",
+  "requested": [
+    "Elemental Conflux",
+    "Elemental Damage Aura",
+    "Elemental Damage Taken Increase",
+    "Elemental Reflection",
+    "Elemental Reflection Aura",
+    "Elemental Thorns",
+    "Elemental Warding",
+    "Elemental Weakness",
+    "Emberstorm",
+    "Empowering Howl",
+    "Encased in Jade",
+    "Encompassing Tentacles",
+    "Endless Hazard",
+    "Endless Pain",
+    "Energy Shield Aura",
+    "Energy Shield Leech",
+    "Energy Shield Regeneration",
+    "Enervation",
+    "Engraved Orb",
+    "Engulfed by Ghostfire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Endless Pain\n| rarity = Normal\n| image = \n| level = \n| location = [[The Lord's Labyrinth]]\n| quest = \n| health = \n| damage = \n| aps = \n| resistance = 0/0/0/0\n| modifier = \n| skill = \"Revive After Duration\"\n| aura = Increased Damage Taken Aura<br/>[[Proximity Shield]]\n}}\n'''Endless Pain''' is a kind of Sentinel trap that can be found in [[The Lord's Labyrinth|The Eternal Labyrinth]] and end-game [[trial]], The monster apply a [[debuff]] of the same name to the player character, from its [[monster aura]] skill. Some [[Monster:Metadata/Monsters/Totems/LabyrinthPopUpTotemIncreasedDamageTakenProximityShield|variant]] also came with [[Proximity Shield]]. The trap cannot be destroyed entirely; the damaged trap will temporarily deactivated, but will re-emerge from the ground and re-activate the aura after a while.\n\n==Abilities==\n{{status\n| name                   = Endless Pain\n| type                   = Debuff\n| description = You are taking increased damage from all sources\n| bonuses = 50% increased Damage taken\n}}\n* Monster aura skill known for its internal name \"[[Skill:AuraIncreasedDamageTaken|Increased Damage Taken Aura]]\", while apply the debuff Endless Pain: {{c|mod|50% increased Damage taken}}.\n* \"Revive After Duration\" \n==Version history==\n{{Version history table header}}\n{{Version history table row|2.3.0|\n* The Endgame Trials and Labyrinth include a new trap type - Sentinel Traps: These traps apply one of many effects to an area and can be temporarily deactivated by dealing damage to them.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]\n[[Category:Monster auras]]",
+  "sha256": "52c15b476312950a7e0b29725369c403686086ebd1c9e16f3d3e893950d020e7"
+}

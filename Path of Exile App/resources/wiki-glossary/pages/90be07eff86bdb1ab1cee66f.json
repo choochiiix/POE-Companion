@@ -1,0 +1,35 @@
+{
+  "title": "Ranged skill",
+  "pageId": 13381,
+  "revision": 1598028,
+  "timestamp": "2025-12-07T12:24:39Z",
+  "retrieved": "2026-11-14T10:11:12.089769+00:00",
+  "requested": [
+    "Ghost",
+    "Rhoa",
+    "Snake",
+    "Spider",
+    "Statue",
+    "Zombie",
+    "magic",
+    "explicit",
+    "Abyss jewel",
+    "Rarity",
+    "rarity",
+    "fishing",
+    "ailments",
+    "Crushed",
+    "Call of Steel",
+    "class",
+    "Buff Effect",
+    "event",
+    "race",
+    "ranged"
+  ],
+  "aliases": [
+    "Ranged"
+  ],
+  "missing": false,
+  "wikitext": "{{For|melee skill information|Melee Skill}}\n{{Cargo rework needed}}\n\n'''Ranged skills''' use ranged weapons ([[bow]]s and [[wand]]s), to perform [[attack]]s. The damage of these attacks is based on the weapons equipped.\n\n==Weapon restrictions==\nNot all skills are usable with all types of weapons. Use the following table to help you design your ranged character's skills.\n \n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n! Skill\n! Bow (2H)\n! Wand (1H)\n|-\n! align=\"left\"| {{il|Barrage}}\n| {{Yes}} || {{Yes}}\n|-\n! align=\"left\"| {{il|Blast Rain}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Blink Arrow}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Burning Arrow}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Caustic Arrow}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Explosive Arrow}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Frenzy}}\n| {{Yes}} || {{Yes}}\n|-\n! align=\"left\"| {{il|Ice Shot}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Kinetic Blast}}\n| {{No}} || {{Yes}}\n|-\n! align=\"left\"| {{il|Lightning Arrow}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Mirror Arrow}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Power Siphon}}\n| {{No}} || {{Yes}}\n|-\n! align=\"left\"| {{il|Puncture}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Rain of Arrows}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Scourge Arrow}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Shrapnel Shot}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Siege Ballista}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Split Arrow}}\n| {{Yes}} || {{No}}\n|-\n! align=\"left\"| {{il|Tornado Shot}}\n| {{Yes}} || {{No}}\n|-\n|}\n\nAll [[Vaal skill]]s have the same weapon restrictions as their non-Vaal parent.\n\n==Support gems==\nAll ranged attack skills listed here can use any of the following [[support gem]]s:\n{| class=\"wikitable\" \n! Strength\n! Dexterity\n! Intelligence\n|-\n|\n*{{il|Added Fire Damage Support}}\n*{{il|Lifetap Support}}\n*{{il|Cold to Fire Support}}\n*{{il|Fire Penetration Support}}\n*{{il|Increased Burning Damage Support}}\n*{{il|Iron Grip Support}}\n*{{il|Item Quantity Support}}\n*{{il|Knockback Support}}\n*{{il|Life Gain on Hit Support}}\n*{{il|Life Leech Support}}\n*{{il|Ranged Attack Totem Support}}\n*{{il|Reduced Mana Support}}\n*{{il|Stun Support}}\n*{{il|Weapon Elemental Damage Support}}\n||\n*{{il|Added Cold Damage Support}}\n*{{il|Additional Accuracy Support}}\n*{{il|Blind Support}}\n*{{il|Chain Support}}\n*{{il|Chance to Flee Support}}\n*{{il|Cold Penetration Support}}\n*{{il|Culling Strike Support}}\n*{{il|Faster Attacks Support}}\n*{{il|Faster Projectiles Support}}\n*{{il|Fork Support}}\n*{{il|Greater Multiple Projectiles Support}}\n*{{il|Lesser Multiple Projectiles Support}}\n*{{il|Mana Leech Support}}\n*{{il|Physical Projectile Attack Damage Support}}\n*{{il|Pierce Support}}\n*{{il|Point Blank Support}}\n*{{il|Slower Projectiles Support}}\n||\n*{{il|Added Chaos Damage Support}}\n*{{il|Added Lightning Damage Support}}\n*{{il|Chance to Ignite Support}}'\n*{{il|Elemental Penetration Support}}\n*{{il|Elemental Proliferation Support}}\n*{{il|Increased Critical Damage Support}}\n*{{il|Increased Critical Strikes Support}}\n*{{il|Item Rarity Support}}\n*{{il|Lightning Penetration Support}}\n*{{il|Power Charge On Critical Support}}\n|-\n|}\n\nIn addition, the following categories of skill can benefit from additional support gems: \n{| class=\"wikitable\" \n! Category\n! Ranged Skills\n! Supports\n|-\n|\n[[:Category:Area of effect support gems|Area of Effect]]\n|| {{il|Explosive Arrow}} <br/> {{il|Ice Shot}} <br/> {{il|Poison Arrow}} <br/> {{il|Rain of Arrows}}\n|| {{il|Concentrated Effect}} <br/> {{il|Increased Area of Effect}}\n|-\n| [[:Category:Duration support gems|Duration support gems]]\n|| {{il|Explosive Arrow}} <br/> {{il|Poison Arrow}} <br/> {{il|Puncture}}\n|| {{il|Increased Duration}} <br/> {{il|Less Duration}}\n|-\n|}\n\n[[Category:Skills]]",
+  "sha256": "24d4c35541ac93b2b056ca1b6b2e546808f1bd5bfc7b99897cdb46efed8bd91d"
+}

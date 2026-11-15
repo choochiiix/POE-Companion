@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "checkJs": false,
+    "allowImportingTsExtensions": true,
+    "types": [
+      "vite/client"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@legacy/*": [
+        "../crafting-ui/*"
+      ],
+      "@legacy/features/calculations/source-adapter.js": [
+        "src/adapters/legacy-types/source-adapter.d.ts"
+      ],
+      "@legacy/features/character/gear-model.js": [
+        "src/adapters/legacy-types/gear-model.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "vite.config.ts"
+  ]
+}

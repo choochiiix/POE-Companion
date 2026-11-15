@@ -1,0 +1,33 @@
+{
+  "title": "Summon Sentinel of Radiance",
+  "pageId": 116264,
+  "revision": 1704842,
+  "timestamp": "2026-11-11T20:18:35Z",
+  "retrieved": "2026-11-14T10:10:04.222832+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonSentinelOfRadiance}}\n\n'''Summon Sentinel of Radiance''' is a [[minion]] [[skill]] granted by [[Radiant Crusade]], a Notable [[Ascendancy]] passive skill for the [[Guardian]]. It summons a Sentinel of Radiance that [[taunt]]s on hit and deals [[fire damage|fire]] [[damage over time]] to nearby enemies that scale with its maximum life. A portion of the damage you take is redirected to the Sentinel of Radiance's life pool while it's summoned. Only one Sentinel of Radiance may be active at a time.\n\n==Mechanics==\nSentinel of Radiance has a cap of 1. It is a permanent minion and does not have a [[duration]].\n\nIts fire DOT is somewhat similar to that of {{il|Righteous Fire}}, except that it is entirely scaled off of life, and does not damage the minion itself.\n\nIt does have an auto-attack, but it has an extremely low attack speed.\n\nIf for some reason the player wants to have [[Elemental Relic]]s but not Sentinel of Radiance, Sentinel of Radiance can be forcibly unsummoned by allocating the passive skill, disabling its minion type (e.g. {{il|The Dark Monarch}}), or by killing it using {{il|Summon Reaper}} or {{sl|Death Wish}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* Summoned Sentinels of Radiance, granted by the Guardian's Radiant Crusade Ascendancy Passive Skill, now deals Fire Damage equal to 20% of its maximum Life per Second to Enemies in a Base Radius of 4 metres (previously 30% of it maximum Life and a Base Radius of 4.5 metres). This change does not affect Ruthless.\n}}\n{{Version history table row|3.23.0|\n* {{Ruthless}} Summoned Sentinels of Radiance, granted by the Guardian's Radiant Crusade Ascendancy Passive Skill, now have a maximum level of 80 (previously 85). Its melee damage has been reduced by roughly 50%, and the damage and area of their burn has been reduced by roughly 50%.\n}}\n{{Version history table row|3.22.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "50e40e5d816004570103fc482bc8816d666b273a339fe6b5a079ae3d7c1be2ad"
+}

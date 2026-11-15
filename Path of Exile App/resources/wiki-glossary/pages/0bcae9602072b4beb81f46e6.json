@@ -1,0 +1,33 @@
+{
+  "title": "Creeping Ice",
+  "pageId": 4120,
+  "revision": 1486298,
+  "timestamp": "2024-10-13T02:15:48Z",
+  "retrieved": "2026-11-14T10:57:17.465333+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Creeping Ice\n| type                   = Debuff\n| description = You are taking Cold Damage from Creeping Ice\n}}\n\n[[File:Creeping Frost in game.png|thumb|right|'''Creeping Ice''' in a [[Crater Map]] that's affected by both the Redeemer and \n\n[[Metamorph]] mechanics ]]\n'''Creeping Ice''' is a [[tempest]]-like environmental [[debuff]] in [[Veritania, the Redeemer|The Redeemer]]-influenced map. It is a type of [[Cold Snap ground]].\n\nIt can also be found in the boss arena of {{il|Dark Forest Map}}, or {{il|Wereclaw Talisman}} possessed monster.\n\nThe area effect move around and then disappear after a while for The Redeemer and Dark Forest Map versions.\n\n==Trivia==\nCreeping Ice shared the same status icon with [[frozen ground]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Renamed from Creeping Frost to '''Creeping Ice''' {{Undocumented}}\n}}\n{{Version history table row|?|\n* Renamed from Galvanic Frost to Creeping Frost {{Undocumented}}\n}}\n{{Version history table row|2.1.0|\n* Introduced to the game. Originally known as Galvanic Frost\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "a95e95cea3af0550bbac10059a66a68ffb443485f8e917b8dc3cf320207c06ef"
+}

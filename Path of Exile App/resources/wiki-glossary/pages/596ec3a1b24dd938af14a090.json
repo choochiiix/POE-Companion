@@ -1,0 +1,33 @@
+{
+  "title": "Executioner",
+  "pageId": 6186,
+  "revision": 1493649,
+  "timestamp": "2025-02-03T19:20:17Z",
+  "retrieved": "2026-11-14T10:57:23.115635+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the passive skill|the monster modifier|Executioner's Presence}}\n{{Passive skill box|Executioner}}\n\n'''Executioner''' is a [[notable passive skill]] that grants increased damage with [[Hit|hits]] against enemies that are on [[low life]], as well as increased [[Area of effect|Area of Effect]] if you have killed [[recently]].\n\n==Anointment==\n[[Blight (game mechanic)|Blight]] [[anointment]] to unlock the passive:\n\n{{Blight crafting table\n|id=0\n|type=0\n|no_html=1\n|q_where=passive_skills.id = \"reaver605\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*''Make clusters more unique compared to each other as well as having a more clear identity. Remove niche or unneeded stats entirely, or shift them to Masteries. Improve many notables that have had secondary stats removed.''\n* {{Undocumented}}\n**Now grants {{c|mod|60% increased Damage with Hits against Enemies that are on Low Life}} (up from 50%).\n**Now grants {{c|mod|15% increased Area of Effect if you've Killed Recently}} (up from 12%).\n**No longer grants {{c|mod|24% increased Physical Damage with Two Handed Melee Weapons}}.\n**No longer grants {{c|mod|Attacks with Two Handed Melee Weapons deal 24% increased Damage with Ailments}}.\n\n}}\n{{Version history table row|3.11.0|\n*''Many passive skill clusters offered the same thing as other clusters, with the only differences being the location on the tree and the number of passive skills in the cluster. We also wanted to reduce the power of some clusters that were overly efficient, and increase the power of clusters that were inefficient.''\n* {{Undocumented}}<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/2873767|title=All Notables and Keystones in Path of Exile: Harvest|author=Bex_GGG|date=June 17, 2020|accessdate=November 2, 2021|publisher=Official Path of Exile forums}}</ref>\n**Now grants {{c|mod|12% increased Area of Effect if you've Killed Recently}} (up from 8%).\n\n}}\n{{Version history table row|3.10.0|\n* {{Undocumented}}\n**No longer grants {{c|mod|24% increased Damage with Ailments from Attack Skills while wielding a Two Handed Weapon}}.\n***Instead, it now grants {{c|mod|Attacks with Two Handed Melee Weapons deal 24% increased Damage with Ailments}}.\n\n}}\n{{Version history table row|3.7.0|\n*''We've changed virtually every weapon cluster to some degree.''\n* {{Undocumented}}\n**Now grants {{c|mod|50% increased Damage with Hits against Enemies that are on Low Life}} (up from 20%).\n**Now grants {{c|mod|8% increased Area of Effect if you've Killed Recently}}.\n**No longer grants {{c|mod|20% increased Stun Duration with Two Handed melee Weapons on Enemies}}.\n\n}}\n{{Version history table row|3.0.0|\n*''All weapon passive skill clusters except those for wands and staves now grant some increased Damage with ailments from Attacks.''\n**Now grants {{c|mod|24% increased Damage with Ailments from Attack Skills while wielding a Two Handed Weapon}}.\n\n}}\n{{Version history table row|1.3.0|\n* Executioner no longer grants accuracy. It now grants stun duration and damage against enemies on low life.\n* The Templar, Marauder, and Duelist starting areas have been reworked significantly.\n* Large elemental, staff, mace, axe, sword, two-handed weapon, weapon and shield, and dual wielding wheels of passive skills have been placed on the exterior of the tree, out from the Templar, Marauder and Duelist. Special bonuses have been added to some notable passives in those areas.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}",
+  "sha256": "8093ca5820b26f2ea0434ab13d3af0883ea5d15d329924c2f5dcce588f705ad4"
+}

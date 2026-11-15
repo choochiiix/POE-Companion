@@ -1,0 +1,33 @@
+{
+  "title": "Coruscating Elixir",
+  "pageId": 3961,
+  "revision": 1701136,
+  "timestamp": "2026-08-19T15:29:45Z",
+  "retrieved": "2026-11-14T10:57:17.463330+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Coruscating Elixir\n|class_id                                = UtilityFlask\n|base_item                               = Ruby Flask\n|explicit1                               = ChaosDamageDoesNotBypassESDuringFlaskEffectUnique__1\n|explicit2                               = RemoveLifeAndAddThatMuchEnergyShieldOnFlaskUseUnique__1\n|explicit3                               = FlaskEffectDurationUnique__4\n|flavour_text                            = Let blood sear in your veins,<br>Let the pain push outwards and turn away your enemy's blows.\n|release_version                         = 2.1.0\n|recipe1_part1_item_name                 = The Dragon\n|recipe1_part1_amount                    = 4\n|recipe1_description                     = {{c|unique|Coruscating Elixir}}\n|is_drop_restricted                      = true\n}}\n\n'''Coruscating Elixir''' is a [[unique]] {{il|Ruby Flask}}.\n\n==Mechanics and interactions==\nThis flask's ability to prevent [[chaos damage]] from bypassing the character's [[energy shield]] is similar to {{il|Shavronne's Wrappings}}, {{il|Esh's Visage}} and {{il|Solaris Lorica}}. \n\nAny life lost by setting life to 1 is not considered damage, and accordingly does not cause a [[hit]]. \n\nWhile {{il|Righteous Fire}} normally ends when the user has 1 life remaining, using this flask will not end Righteous Fire if life is immediately recovered, for example by positive over-time life [[recovery]] from e.g. [[regeneration]]<ref>https://www.youtube.com/watch?v=ts5vutcuLMU</ref> or {{psl|id=Eternal_youth_keytone2692}}'s [[recharge]],<ref>https://www.youtube.com/watch?v=eLNXw6VAbGI</ref> or a source of {{c|mod|Recover #% of Life when you use a Flask}}.\n\n{{Item acquisition}}\n\nThis item does not drop and can only be obtained via divination cards.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/1477864/page/10#p12186778|author=Zahndethus|title=Re: Unique Item List — Old Thread, New One Linked Inside|date= December 12, 2015|accessdate=March 9, 2020|publisher=Official Path of Exile Forums}}</ref>\n\n==Ruthless mode==\nCoruscating Elixir can drop anywhere in [[Ruthless mode]] (as a replacement for its [[divination card]] being disabled). It can be chanced.\n\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 6.86 seconds instead.\n\n==Legacy variants==\nCoruscating Elixir has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.16.0|\n* Chaos Damage does not bypass Energy Shield during effect\n* Removes all but one Life on use\n* Removed life is Regenerated as Energy Shield over 2 seconds\n* {{c|mod|100% increased Duration}}\n}}\n{{legacy variant table row|2.6.0|\n* Chaos Damage does not bypass Energy Shield during effect\n* Removes all but one Life on use\n* Removed life is regenerated as Energy Shield over 2 seconds}}\n{{Legacy variant table end}}\n\n==Design attribution==\nCoruscating Elixir and {{il|The Dragon}} were created by supporter [https://www.pathofexile.com/account/view-profile/Zahndethus-0617 Zahndethus]. He also created the unique {{il|Lifesprig}}, {{il|Moonsorrow}}, {{il|Zahndethus' Cassock}} and {{il|Lightbane Raiment}}.<ref name=\"supporter attribution\"/>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* The basetype, {{il|Ruby Flask}}, now last 8 seconds (previously 5).\n* Now has {{c|mod|25% increased Duration}} (previously 100%).\n}}\n{{Version history table row|3.15.0|\n* The basetype, Ruby Flask, now last 5 seconds (previously 4). They now consume 20 of 50 Charges on use (previously 30 of 60).\n}}\n{{Version history table row|3.5.0|\n* The basetype, Ruby Flask, no longer grant added maximum resistances. Instead, reduce the damage taken of the elements by 20%.\n}}\n{{Version history table row|2.6.0|\n'''The following changes cannot be obtained by rerolling the item's mods with a [[Divine Orb]]''':\n* Now has 100% Increased Duration.\n}}\n{{Version history table row|2.2.0|\n* The basetype, Ruby Flask, now has duration increased from 3.5 to 4 seconds. Maximum resistance reduced from 10% to 6%.\n}}\n{{Version history table row|2.1.2|\n* Fixed a bug where using the '''Coruscating Elixir''' unique flask while taking chaos damage over time could make it appear as though you died on party members' clients.\n}}\n{{Version history table row|2.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"supporter attribution\">{{cite web|url=https://www.pathofexile.com/forum/view-thread/475284||title=Unique Item List - 300 of 419|date=July 24, 2013 (Last edited on July 16, 2015)|accessdate=October 2, 2021|author=ignarsoll|publisher=Official Path of Exile Forums}}</ref>}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique items created by supporters]]",
+  "sha256": "fba5268d59194543b9306762f6eebf1a963ea265b81312ac15a08b1abb4d5865"
+}

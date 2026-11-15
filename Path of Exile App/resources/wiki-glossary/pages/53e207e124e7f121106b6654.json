@@ -1,0 +1,35 @@
+{
+  "title": "Paralysing touch",
+  "pageId": 12196,
+  "revision": 1493808,
+  "timestamp": "2025-02-06T20:47:51Z",
+  "retrieved": "2026-11-14T10:57:35.685043+00:00",
+  "requested": [
+    "Omnitect's Thruster",
+    "One Step Ahead",
+    "Oppression",
+    "Orb Fire",
+    "Orb of Elemental Essence",
+    "Ornate Dagger",
+    "Otherworldly Pressure",
+    "Outer Deatomisation Storm",
+    "Overflowing Chalice",
+    "Overloaded Intensity",
+    "Overpowered",
+    "PC Bang Entitlements",
+    "PURPLE BUFF",
+    "Pacified",
+    "Pacify",
+    "Paralysing Touch",
+    "Penance",
+    "Penance Brand",
+    "Perquil's Toe",
+    "Pestilent Strike"
+  ],
+  "aliases": [
+    "Paralysing Touch"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Paralysing Touch\n| type                   = Debuff\n| description = You are slowed. This debuff is removed when you stop being Delirious.\n| bonuses = {{c|mod|-6% action speed}}\n}}\n\n'''Paralysing Touch''' is a timed [[debuff]] caused by monsters with [[Delirium]] modifier of [[Modifier:MonsterAfflictionMagicRewardDebuffActionSpeed|the same name]]. It reduces the player character's [[action speed]]. It can stack up to 10 times. \n\nIt can be circumvented through minimum action speed stats such as {{psl|Unstoppable}} or {{psl|One Step Ahead}}.\n\n==See also==\n* [[Beacon of Madness]] unique boots\n** {{sl|Embrace Madness}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0d|\n* Delirium modifiers are now applied on a per-pack basis. This means that a given pack of monsters will only have a single Delirium modifier, rather than potentially having a variety of different modifiers.\n* Significantly reduced the chance of Delirium modifiers appearing on monsters.\n}}\n{{Version history table row|3.10.0c|\n* Reduced the duration of the [[Wasting Touch]], '''Paralysing Touch''', [[Eroding Touch]] and [[Diluting Touch]] debuffs to three seconds.\n}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "6795f295c5e902b574fe64ee53890c0323b205bb783c763e47d7def364af984d"
+}

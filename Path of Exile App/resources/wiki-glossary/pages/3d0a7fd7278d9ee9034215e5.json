@@ -1,0 +1,33 @@
+{
+  "title": "Webbed",
+  "pageId": 19993,
+  "revision": 1200021,
+  "timestamp": "2022-07-26T03:07:31Z",
+  "retrieved": "2026-11-14T10:57:53.143912+00:00",
+  "requested": [
+    "Void Beacon",
+    "Void Gaze",
+    "Void Lens",
+    "Void Snare",
+    "Voltaxic Burst",
+    "Vomitous Ooze",
+    "Vortex",
+    "Vortex Mine",
+    "Vulnerability",
+    "WIP",
+    "War Banner",
+    "War Bringer",
+    "Warcry Damage to Mana",
+    "Warlord Shrine Monster",
+    "Warlord's Mark",
+    "Warlord's Shrine",
+    "Warm Campfire",
+    "Wasting Touch",
+    "Webbed",
+    "Weeping Black"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Webbed\n| type                   = Debuff\n| description            = You are slowed by Spider Web. Move away from the webs to break the webbing.\n}}\n'''Webbed''' is a [[debuff]] from the [[Trials of Chaos]] monster. {{stl|Webbed}}, {{stl|Spider's Web}} and {{stl|Covered in Webs}} are not the same debuff.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "226e757ac776a3fee86e4fd06e974e52bdb493caa900cf942671e61f9c3fac3e"
+}

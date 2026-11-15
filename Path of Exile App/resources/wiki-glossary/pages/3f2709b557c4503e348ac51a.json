@@ -1,0 +1,33 @@
+{
+  "title": "Summon Harbinger of Focus",
+  "pageId": 16026,
+  "revision": 1704273,
+  "timestamp": "2026-11-08T14:58:02Z",
+  "retrieved": "2026-11-14T10:10:04.221328+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfFocus}}\n{{status\n| name                   = The Unshattered Will\n| type                   = Buff\n| icon = Summon Harbinger of Focus skill icon.png\n| description = You cannot be stunned or have ailments applied to you, and take less damage.\n}}\n'''Summon Harbinger of Focus''' is a [[spell]] that summons an allied Harbinger [[minion]]. The skill is only available through {{il|The Unshattered Will}}.\n\n==Skill Functions and Interactions==\nThe Harbinger is immortal and will occasionally apply \"The Unshattered Will\" on the player character while the player character is [[channelling]]. \"The Unshattered Will\" is a [[buff]] that lasts 4 seconds, with a cooldown of 8 seconds, and grants the following benefits:\n* Immunity to elemental [[ailment]]s\n* Stun immunity\n* 20% less damage taken (the stat {{c|mod|harbinger_channel_buff_damage_taken_+%_final}})\n\n==Drop restrictions==\nHarbinger of Focus can only be obtained by equipping {{il|The Unshattered Will}}.\n==See also==\n* {{sl|Summon Greater Harbinger of Focus}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Uniques can no longer be obtained: The Beachhead, Infused Beachhead, The Enmity Divine, The Flow Untethered, The Fracturing Spinner, The Rippling Thoughts, The Tempest's Binding, and The Unshattered Will.\n}}\n{{Version history table row|3.9.0|\n* Damage reduction from the '''Harbinger of Focus'''' effect is now multiplicative with other similar effects.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]] [[Category:Spell (gem tag)]]",
+  "sha256": "b0c71cb4226d7dd1e9f2baf290fad7476412f57154c5fbd23047cbf8e02399e1"
+}

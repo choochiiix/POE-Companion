@@ -1,0 +1,33 @@
+{
+  "title": "Unarmed",
+  "pageId": 18220,
+  "revision": 1547488,
+  "timestamp": "2025-06-24T08:30:35Z",
+  "retrieved": "2026-11-14T10:08:34.802776+00:00",
+  "requested": [
+    "Double damage",
+    "Triple damage",
+    "Increased and reduced",
+    "More and less",
+    "Unarmed",
+    "Dual wielding",
+    "Wielding",
+    "Main hand",
+    "Off hand",
+    "Weapon range",
+    "Melee strike range",
+    "Intelligence stacking",
+    "Anoint",
+    "Catalyst",
+    "Cluster jewel",
+    "Mastery",
+    "Keystone",
+    "Notable",
+    "Passive skill",
+    "The Agnostic"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Unarmed''' damage is a form of [[attack damage]] dealt by a character that does not have a [[weapon]] equipped. While it is unusual for most characters to ever use an unarmed attack, character builds based on unarmed damage can be made viable by using {{il|Facebreaker}}, {{il|Doryani's Fist}}, or [[Hollow Palm Technique]]. Though traditionally melee builds, ranged unarmed builds are possible with {{il|Explosive Concoction}} or {{il|Poisonous Concoction}}.\n\n==Mechanics==\nEvery character's unarmed attack has a base attack speed of about 1.2 attacks per second (0.83 second attack time) and a base [[critical strike]] chance of 0%.\n\nThe base [[range]] of unarmed melee attacks is 0.6 [[distance|metres]], which is shorter than the range of any melee weapon.<ref name=\"BaseRadius\" /><ref name=\"Version 3.7.0 patch notes\" />\n\nThe base physical damage of an unarmed attack varies by class:\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Base unarmed<br>physical damage\n|-\n|[[Witch]] || 2&ndash;5\n|-\n|[[Shadow]] || 2&ndash;5\n|-\n|[[Scion]] || 2&ndash;6\n|-\n|[[Templar]] || 2&ndash;6\n|-\n|[[Ranger]] || 2&ndash;5\n|-\n|[[Marauder]] || 2&ndash;8\n|-\n|[[Duelist]] || 2&ndash;6\n|}\n\nUnarmed damage is counted under the [[attack]] keyword, but not the [[weapon]] keyword.\n\nA character with a [[shield]] equipped can still use an unarmed attack. However, skills that use offhand equipment, like [[Spectral Shield Throw]], are not considered unarmed attacks. If a character doesn't have any main or offhand equipment ''and'' is not wearing any [[gloves]], then that character is also considered [[Unencumbered]].\n\nRegular unarmed attacks (while not Unencumbered) always count as using the main hand, even if the offhand is empty. The skill animations may appear to alternate hands; this is purely visual and does not affect skill calculations. While Unencumbered, however, attacks will alternate hands.<ref name = \"unarmed\" /><ref>https://www.pathofexile.com/forum/post-reply/3798722/quote/26225616</ref>\n\nPlayers may wish to disable auto-pickup in the options menu to prevent accidentally equipping a weapon or shield, disabling the unarmed state.\n\n==Skill gems==\n{{main|List of skill gems usable when unarmed}}\n{{:List of skill gems usable when unarmed}}\n\n== Unique items ==\nThe following items specifically mention the Unarmed keyword:\n\n{{Drop enabled unique item table\n|where = items.stat_text LIKE \"%unarmed%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\nAdditionally, {{il|One With Nothing}} grant the keystone passive [[Hollow Palm Technique]], which references the [[Unencumbered]] keyword. This is a stricter version of Unarmed, prohibiting you from equipping gloves or any item (including shields) in your weapon slots. {{il|Replica Perfect Form}} also granted this prior to 3.23.\n\n== Passives ==\nThere are currently no [[Passive Skills|passive skill]] nodes that provide Unarmed bonuses.\n\n{{Query base passive skills\n|where=\n  passive_skills.stat_text LIKE \"%unarmed%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Disable Quivers while no Bow is equipped to prevent benefiting from them while Unarmed.\n: It is no longer possible to equip a Quiver unless you have a Bow equipped. Unequipping a Bow will now cause equipped Quivers to be disabled.\n}}\n{{Version history table row|3.7.0|\n* Unarmed attack range of player characters has increased by 2.\n}}\n{{Version history table row|?|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\n* [[Unencumbered]]\n\n==References==\n{{reflist|refs=\n<ref name=\"BaseRadius\">{{cite web\n|author = Mark_GGG\n|date = October 30, 2013\n|title = Mechanics thread\n|url = http://www.pathofexile.com/forum/view-thread/11707/page/226#p5041495\n|publisher = Official Path of Exile Forums\n|accessdate = May 23, 2022\n}}</ref>\n<ref name=\"Version 3.7.0 patch notes\">{{cite web\n|author = Bex_GGG\n|date = June 5, 2019\n|title = Path of Exile: Legion Patch Notes\n|url = https://www.pathofexile.com/forum/view-thread/2513456\n|publisher = Official Path of Exile Forums\n|accessdate = May 23, 2022\n}}</ref>\n<ref name = \"unarmed\">{{cite web\n| author = Mark_GGG\n| date = Mar 24, 2020\n| title = Bug? 'Off hand' mods don't count with Hollow Palm Technique\n| url = https://www.reddit.com/r/pathofexile/comments/fnygra/comment/flcdq5l/\n| publisher = Path of Exile Subreddit\n| accessdate = Oct 29, 2022\n}}</ref>\n}}\n\n[[Category:Damage]]",
+  "sha256": "9feccc58aab98d31b632290d7002401c6b095b50e30b6ddb1f4f6137cc622add"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Vomitous Ooze",
+  "pageId": 89085,
+  "revision": 1459562,
+  "timestamp": "2024-06-01T19:48:14Z",
+  "retrieved": "2026-11-14T10:57:53.144912+00:00",
+  "requested": [
+    "Void Beacon",
+    "Void Gaze",
+    "Void Lens",
+    "Void Snare",
+    "Voltaxic Burst",
+    "Vomitous Ooze",
+    "Vortex",
+    "Vortex Mine",
+    "Vulnerability",
+    "WIP",
+    "War Banner",
+    "War Bringer",
+    "Warcry Damage to Mana",
+    "Warlord Shrine Monster",
+    "Warlord's Mark",
+    "Warlord's Shrine",
+    "Warm Campfire",
+    "Wasting Touch",
+    "Webbed",
+    "Weeping Black"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Vomitous Ooze\n| type                   = Debuff\n| description            = You are taking Physical and Chaos damage over time, and have reduced Movement Speed.\n}}\n\n'''Vomitous Ooze''' is a [[debuff]] that reduces the [[movement speed]] of the character by 40% and deals [[Physical damage|physical]] and [[chaos]] [[damage over time]].\n\nApplied by vomit pools of [[The Infinite Hunger]].\n\n\n[[Category:Debuffs]]",
+  "sha256": "ef0565f86a29f552400c09d774a60fa3e39d033e7e3ed80beeae4fd531a9bc49"
+}

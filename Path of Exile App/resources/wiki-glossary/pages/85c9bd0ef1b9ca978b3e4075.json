@@ -1,0 +1,33 @@
+{
+  "title": "Energy Shield Leech",
+  "pageId": 97260,
+  "revision": 1357415,
+  "timestamp": "2023-05-29T03:32:12Z",
+  "retrieved": "2026-11-14T10:57:21.493901+00:00",
+  "requested": [
+    "Elemental Conflux",
+    "Elemental Damage Aura",
+    "Elemental Damage Taken Increase",
+    "Elemental Reflection",
+    "Elemental Reflection Aura",
+    "Elemental Thorns",
+    "Elemental Warding",
+    "Elemental Weakness",
+    "Emberstorm",
+    "Empowering Howl",
+    "Encased in Jade",
+    "Encompassing Tentacles",
+    "Endless Hazard",
+    "Endless Pain",
+    "Energy Shield Aura",
+    "Energy Shield Leech",
+    "Energy Shield Regeneration",
+    "Enervation",
+    "Engraved Orb",
+    "Engulfed by Ghostfire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Energy Shield Leech}}\n\n'''Energy Shield Leech''' is a [[small passive skill]].",
+  "sha256": "608f40793c920960f0275c1b0f763f5ff9504fd4ab99ecd9a9454fdc1b129522"
+}

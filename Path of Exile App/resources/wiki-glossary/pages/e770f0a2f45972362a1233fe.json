@@ -1,0 +1,33 @@
+{
+  "title": "Corruption of the Awakener",
+  "pageId": 3937,
+  "revision": 1192841,
+  "timestamp": "2022-07-25T00:10:58Z",
+  "retrieved": "2026-11-14T10:57:16.669742+00:00",
+  "requested": [
+    "Cold Empowerment",
+    "Cold Resistance Loss",
+    "Cold Snap",
+    "Cold Swarm",
+    "Cold Thorns",
+    "Combat-Ready",
+    "Conductivity",
+    "Conflagration Debuff",
+    "Consuming Tempest",
+    "Contagion",
+    "Controlled Blaze Support",
+    "Convergence",
+    "Converted",
+    "Coralito's Signature",
+    "Corrosive Hunger",
+    "Corrupted Blood Immunity",
+    "Corrupting Fever",
+    "Corrupting Smoke",
+    "Corrupting Tempest",
+    "Corruption of the Awakener"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Corruption of the Awakener\n| type                   = Debuff\n| description = You take 10% increased Damage and are 6% slower for each stack.\n}}\n'''Corruption of the Awakener''' is a stackable [[debuff]] that is applied by the [[Sirus, Awakener of Worlds#Attacks|Spinning Beams]] during the final phase of [[Sirus, Awakener of Worlds]] boss fight.\n==Trivia==\nThe status icon uses the same graphic with the debuff from monsters that are possessed by the {{il|Remnant of Corruption}}.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "9a32a551c706f5c27538abad670ea14ceb3dd732f56e2338da5eb88da6c209b6"
+}

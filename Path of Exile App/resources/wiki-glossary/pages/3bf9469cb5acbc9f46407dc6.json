@@ -1,0 +1,33 @@
+{
+  "title": "Triple damage",
+  "pageId": 88785,
+  "revision": 1704934,
+  "timestamp": "2026-11-12T00:01:32Z",
+  "retrieved": "2026-11-14T10:08:34.803801+00:00",
+  "requested": [
+    "Double damage",
+    "Triple damage",
+    "Increased and reduced",
+    "More and less",
+    "Unarmed",
+    "Dual wielding",
+    "Wielding",
+    "Main hand",
+    "Off hand",
+    "Weapon range",
+    "Melee strike range",
+    "Intelligence stacking",
+    "Anoint",
+    "Catalyst",
+    "Cluster jewel",
+    "Mastery",
+    "Keystone",
+    "Notable",
+    "Passive skill",
+    "The Agnostic"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Triple damage''' is an effect that causes a [[hit]] to deal triple its damage. Triple damage overrides and does not stack with [[double damage]].\n\n==Mechanics==\n* Chance to deal triple damage is additive.\n* Additional % chance exceeding 100% has no effect. For example, {{il|The Annihilating Light}} with any additional source of triple damage will have no further effect.\n* The damage increase is applied after all other modifiers.<ref name=\"works with critical strikes\" />\n* Triple damage is currently hit-only and '''does not''' apply to [[Ailment]] damage or [[Damage over time]].\n* Triple damage overrides double damage<ref>https://www.reddit.com/r/pathofexile/comments/iu4b8m/heres_a_new_unique_item_available_in_the_heist/g5isq2d/?context=3</ref>; a hit that does triple damage will never also do double damage.\n\n==Related items==\nThe following [[unique item]]s are related to triple damage:\n\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%triple%damage%\" \n  OR items.name IN (\"Arn's Anguish\", \"The Covetous Dark\")\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passives skills==\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to triple damage:\n{{Query masteries}}\n\n==Related modifiers==\nThe following [[modifier]]s are related to triple damage:\n\n{{modifier table\n|q_tables=spawn_weights\n|q_join=mods._pageID=spawn_weights._pageID\n|q_where = mods.stat_text LIKE \"%Triple_Damage%\"\n       AND mods.id NOT LIKE \"%Unique%\"\n       AND mods.id NOT LIKE \"%Threshold%\"\n|generation_type=1\n|level=1\n|stat_text=1\n|spawn_weights=1\n|responsive=1\n}}\n\n==See also==\n* [[Double damage]]\n\n==References==\n{{reflist|refs=\n<ref name = \"works with critical strikes\">{{cite web\n| title = Item Development - Threshold Jewels\n| url = https://www.pathofexile.com/forum/view-thread/1480913/\n| author = NickK_GGG\n| date = November 18, 2015\n| publisher = Official Path of Exile Forums\n| accessdate =\n}}</ref>\n}}\n\n[[Category:Game mechanics]]",
+  "sha256": "36057d13fc00dbef61f4c59464146f2368f5ffcc71fb50f794ae695c5e3bef87"
+}

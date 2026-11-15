@@ -1,0 +1,33 @@
+{
+  "title": "Blood Ritual",
+  "pageId": 2179,
+  "revision": 1180276,
+  "timestamp": "2022-07-16T09:15:54Z",
+  "retrieved": "2026-11-14T10:57:13.542098+00:00",
+  "requested": [
+    "Blood Ritual",
+    "Blood Sap Tincture",
+    "Blood Shrine of Bats",
+    "Blood Shrine of Crows",
+    "Blood Shrine of Locusts",
+    "Blood Shrine of Rats",
+    "Blood Shrine of Toads",
+    "Blood Stance",
+    "Blood of the Karui",
+    "Blue Team",
+    "Boiling Blood",
+    "Bone Armour",
+    "Bone Offering",
+    "Bone Roil",
+    "Boon of Justice",
+    "Boon of the First Ones",
+    "Borealwood Tincture",
+    "Borrowed Power",
+    "Bottled Purity",
+    "Boulderdash Angry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Blood Ritual\n| type                   = Debuff\n| description = Your are taking physical damage over time from a Blood Ritual\n}}\n'''Blood Ritual''' is a debuff from the clone of [[Kadaris, Crimson Mayor]].\n\nThe debuff use a generic skull icon that shared with a lots of debuffs. Blood Ritual itself deals physical damage over time. Since it is NOT {{stl|Bleed}} or {{stl|Corrupted Blood}}, the debuff cannot be removed by flask mod or mod that prevent corrupted blood. Player need to kill the boss and the clone quickly and /or not step on the ground effect to prevent take too much DOT. Alternatively, life recovery and physical [[damage taken as]], may able to migrate the DOT from this debuff. \n\n==See also==\n* {{stl|Blood Purge}} another debuff from the same boss\n* {{stl|Boiling Blood}}\n* {{stl|Inner Deatomization Storm}} (also has \"Outer\" variant)\n* {{stl|Omnitect's Thruster}}\n* {{stl|Weight of Despair}}\n\n==Version history==\n{{Version history table header }}\n{{Version history table row |3.13.0}}\n* Introduced to the game.\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "c95de4bb79a877d2f9e4286103f0673144c8b07c28ea596869a7fd2d94fe8796"
+}

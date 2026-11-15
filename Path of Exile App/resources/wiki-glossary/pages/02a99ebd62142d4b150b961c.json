@@ -1,0 +1,33 @@
+{
+  "title": "Melee weapon",
+  "pageId": 11025,
+  "revision": 1461873,
+  "timestamp": "2024-07-07T00:26:23Z",
+  "retrieved": "2026-11-14T10:09:58.220155+00:00",
+  "requested": [
+    "spell damage",
+    "Eater of Worlds",
+    "Searing Exarch",
+    "weapon",
+    "character",
+    "stat",
+    "unique item",
+    "shield",
+    "melee weapon",
+    "two-handed melee weapon",
+    "claw",
+    "dagger",
+    "mace",
+    "staff",
+    "sword",
+    "wand",
+    "keystone passive skill",
+    "item",
+    "skill",
+    "cost"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Melee weapons''' are all [[weapon]]s that don't launch a projectile with their basic attack. Melee weapons include [[sword]]s, [[dagger]]s, [[axe]]s, [[claw]]s, [[staves]], [[mace]]s and [[fishing rod]]s. These weapons can be wielded to use [[melee skill]]s. \n\n==List of swords{{anchor|swords}}==\n{{main|List of swords}}\n==List of daggers{{anchor|daggers}}==\n{{main|List of daggers}}\n==List of axes{{anchor|axes}}==\n{{main|List of axes}}\n==List of claws{{anchor|claws}}==\n{{main|List of claws}}\n==List of staves{{anchor|staves}}==\n{{main|List of staves}}\n==List of maces{{anchor|maces}}==\n{{main|List of maces}}\n==List of fishing rods{{anchor|fishing rods}}==\n{{main|List of fishing rods}}\n\n[[Category:Weapons]]",
+  "sha256": "d2c57b5460641735c79ef84442f808b27303c64b6684ea09b350d90c61fe1bc4"
+}

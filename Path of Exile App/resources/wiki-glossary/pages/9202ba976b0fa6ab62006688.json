@@ -1,0 +1,33 @@
+{
+  "title": "Endless Hazard",
+  "pageId": 94280,
+  "revision": 1200703,
+  "timestamp": "2022-07-26T05:37:27Z",
+  "retrieved": "2026-11-14T10:57:21.492902+00:00",
+  "requested": [
+    "Elemental Conflux",
+    "Elemental Damage Aura",
+    "Elemental Damage Taken Increase",
+    "Elemental Reflection",
+    "Elemental Reflection Aura",
+    "Elemental Thorns",
+    "Elemental Warding",
+    "Elemental Weakness",
+    "Emberstorm",
+    "Empowering Howl",
+    "Encased in Jade",
+    "Encompassing Tentacles",
+    "Endless Hazard",
+    "Endless Pain",
+    "Energy Shield Aura",
+    "Energy Shield Leech",
+    "Energy Shield Regeneration",
+    "Enervation",
+    "Engraved Orb",
+    "Engulfed by Ghostfire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Endless Hazard\n| rarity = Normal\n| image = \n| level = \n| location = [[The Lord's Labyrinth]]\n| quest = \n| health = \n| damage = \n| aps = \n| resistance = 0/0/0/0\n| modifier = [[Proximity Shield]]\n| skill = \n| aura = \n}}\n'''Endless Hazard''' is a kind of Sentinel trap that can be found in [[The Lord's Labyrinth|The Eternal Labyrinth]] and end-game [[trial]], The monster apply a [[debuff]] of the same name to the player character, from its monster skill. Some [[Monster:Metadata/Monsters/Totems/LabyrinthPopUpTotemDamageTakenOnMovementSkillUseProximityShield|variant]] also came with [[Proximity Shield]]. The trap cannot be destroyed entirely; the damaged trap will temporarily deactivated, but will re-emerge from the ground and re-activate the aura after a while.\n\nThe debuff icon is the same as other debuff such as {{stl|Grasping Vines}} and {{stl|Ethereal Tendrils}}\n==Abilities==\n{{status\n| name                   = Endless Hazard\n| type                   = Debuff\n| description = You take Physical Damage whatever you use a movement skill\n}}\n* A skill known as [[Skill:SummonDaemonAtLocators|SummonDaemonAtLocators]] which summon hidden monsters that deals physical damage when the player uses movement skill. This hidden monster will shown as a circle on the screen\n* \"Revive After Duration\"\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.3.0|\n* The Endgame Trials and Labyrinth include a new trap type - Sentinel Traps: These traps apply one of many effects to an area and can be temporarily deactivated by dealing damage to them.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "67c9550256184e8e857266b4554e7c09a1c4a4b787d718b269de77a32359175c"
+}

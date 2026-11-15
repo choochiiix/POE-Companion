@@ -1,0 +1,33 @@
+{
+  "title": "Scientist's Beam",
+  "pageId": 14293,
+  "revision": 1389251,
+  "timestamp": "2023-10-10T21:43:41Z",
+  "retrieved": "2026-11-14T10:57:42.759631+00:00",
+  "requested": [
+    "Scientist's Beam",
+    "Scorching Conflux",
+    "Scorching Ray",
+    "Scourge Arrow",
+    "Screech",
+    "Sea Hag's Blessing",
+    "Searing Beam",
+    "Searing Rune",
+    "Seething Tempest",
+    "Seismic Cry",
+    "Sentinel Chaos Resistance",
+    "Sentinel Curse Protection",
+    "Sentinel Fire Damage",
+    "Sentinel Life Regeneration",
+    "Sentinel Lightning Damage",
+    "Sentinel Mana Regeneration",
+    "Sentinel Shield",
+    "Serpent Extract",
+    "Sewage Toxins",
+    "Shade Form"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Scientist's Beam\n| type                   = Debuff\n| icon= LightningSearingBond.png\n| description = You are taking Lightning Damage over Time\n}}\n'''Scientist's Beam''' is a [[debuff]] that appears in Research encounters and Research safehouses of the [[Immortal Syndicate]]. It uses the same status icon as [[Degeneration Aura]] (lightning damage variant), [[Piety Beam]] and [[Lightning Beam]].\n\nAs \"LightningSearingBond\", the internal file name of the status icon suggested, it is a monster version {{il|Searing Bond}} that deals lightning damage between the two totems. The totems are not targetable, however.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.5.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]\n[[Category:Monster skills]]",
+  "sha256": "f8607e65766c1d2aaa2fe4ec2cfbb5a78a407528610282f8ac81a82bceaa5a35"
+}

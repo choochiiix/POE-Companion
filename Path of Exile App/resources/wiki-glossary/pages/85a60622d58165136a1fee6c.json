@@ -1,0 +1,33 @@
+{
+  "title": "Ruby Flask",
+  "pageId": 13995,
+  "revision": 1451730,
+  "timestamp": "2024-05-29T19:56:10Z",
+  "retrieved": "2026-11-14T10:57:41.165224+00:00",
+  "requested": [
+    "Righteous Fire",
+    "Righteous Lightning",
+    "Rigid Shell",
+    "Rigwald Wolf Barrage",
+    "Ritual Rune",
+    "Ritual of Dance",
+    "Ritual of Meditation",
+    "Ritual of Undeath",
+    "Rod of Detonation",
+    "Rolling Magma Emissions",
+    "Rongokurai's Boon",
+    "Rose Petals",
+    "Rosethorn Tincture",
+    "Rotten Bulwark",
+    "Ruby Flask",
+    "Ruin",
+    "Ruinous Burning Bond",
+    "Ruinous Chaotic Bond",
+    "Ruinous Chilling Bond",
+    "Ruinous Electrifying Bond"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Ruby Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 18\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility2\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 18\n|flask_duration                          = 8\n|buff_id                                 = flask_utility_resist_fire\n|buff_value1                             = 40\n|buff_value2                             = 5\n|buff_stat_text                          = +40% to [[Fire Resistance]]<br>+5% to maximum [[Fire Resistance]]\n|charges_max                             = 50\n|charges_per_use                         = 20\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Key to Freedom\n|quest_reward1_quest_id                  = a5q2\n|quest_reward1_act                       = 5\n}}\n{{status\n| name                   = Ruby Flask\n| type                   = Flask Effect\n| description            = You have additional Fire Resistance and maximum Fire Resistance\n}}\n\n'''Ruby Flask''' is a [[utility flask]] base type. __NOTOC__\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.50 seconds instead.\n\n==Gallery==\n<gallery>\nRuby Flask effect.jpg|Ruby Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* No longer grants {{c|mod|20% less Fire Damage taken}}.\n* Now grants {{c|mod|+5% to maximum Fire Resistance}}\n* Now grants {{c|mod|+40% to Fire Resistance}} (from 50%).\n}}\n{{Version history table row|3.16.0|\n*Now last '''8''' seconds (previously 5).\n}}\n{{Version history table row|3.15.0|\n* The '''Ruby''', {{il|Sapphire Flask|Sapphire}}, and {{il|Topaz Flask|Topaz Flasks}} now last 5 seconds (previously 4). They now consume 20 of 50 Charges on use (previously 30 of 60).\n* Upon completing {{ql|The Key to Freedom}}, you are now offered a choice of the following rewards: '''Ruby Flask''', {{il|Sapphire Flask}}, {{il|Topaz Flask}}, {{il|Amethyst Flask}}, {{il|Diamond Flask}}, {{il|Granite Flask}}, or {{il|Jade Flask}}.\n}}\n{{Version history table row|3.5.0|\n* No longer grant added maximum resistances. Instead, reduce the damage taken of fire damage by 20%.\n** (wiki editors notes: The exact mod wording is {{c|mod|20% less Fire Damage taken}})\n}}\n{{Version history table row|2.2.0|\n* Duration increased from 3.5 to 4 seconds. Maximum resistance reduced from 10% to 6%.\n}}\n{{Version history table row|0.9.13b|\n* now display an effect on your character when being used.\n}}\n{{Version history table row|0.9.13b|rel=before|\n* Introduced to the game. (The flask exists since open beta (0.10.0) and probably also existed since closed beta (0.9.X). The exact version that introduced this flask is not known.)\n}}\n{{Version history table end}}",
+  "sha256": "1eed7f7ee215bee9bb3a7beda1ac2e7c26a4448a7fbc750ae655596afb7c1bb8"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Brutal charge",
+  "pageId": 2595,
+  "revision": 1481683,
+  "timestamp": "2024-08-21T08:28:45Z",
+  "retrieved": "2026-11-14T10:08:33.951112+00:00",
+  "requested": [
+    "Siphoning charge",
+    "Brutal charge",
+    "Absorption charge",
+    "Affliction charge",
+    "Corrupted blood",
+    "Corrupted",
+    "Unmodifiable",
+    "Mirrored",
+    "Split (item modifier)",
+    "Fractured item",
+    "Synthesised item",
+    "Influenced item",
+    "Quality",
+    "Gem quality",
+    "Transfigured gem",
+    "Vaal skill",
+    "Socket",
+    "Link",
+    "Support gem",
+    "Skill gem"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Brutal Charge\n| type                   = Charge\n|description= Players gain a chance to deal Triple Damage and increased Stun Threshold for each Brutal Charge they have.\n|bonuses = {{c|help|Players have 3% chance to deal Triple Damage and 10% increased Stun Threshold per Brutal Charge}}\n}}\n'''Brutal Charge''' is an alternative [[charge]] of {{stl|Endurance Charge}}. It's currently only granted from {{il|Arn's Anguish}}'s mod {{c|mod|Gain Brutal Charges instead of Endurance Charges}}. Players can accumulate them the same way they generate endurance charges.\n\n==Related unique items==\nThe following [[unique item]]s are related to brutal charge:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%brutal_charge%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==See also==\n* {{stl|Absorption Charge}} - alternative charge of power charge\n* {{stl|Affliction Charge}} - alternative charge of frenzy charge\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.18.1c|\n* Updated the description on the Map modifier that causes Monsters to have a chance to remove Power, Frenzy and Endurance Charges on Hit, as it can also remove any type of Charge on Hit (such as Inspiration or Void Charges).\n}}\n{{Version history table row|3.17.0|\n* Introduced new modifiers that can roll on [[Map]]s, Expedition [[Logbook]]s, Heist [[Contract]]s, [[Blueprint]]s and [[Delve]] areas.\n** This includes {{ml|MapMonstersStealChargesOnHitMapWorlds}} {{Undocumented}}\n}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Charges]]",
+  "sha256": "c452655bb6ee4413f19fde1534ed1f91c89e1978d49ef0ae5072349584ea214e"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Recently",
+  "pageId": 13463,
+  "revision": 1397426,
+  "timestamp": "2023-12-06T18:36:39Z",
+  "retrieved": "2026-11-14T10:08:33.126687+00:00",
+  "requested": [
+    "Regeneration",
+    "Recovery",
+    "Reservation",
+    "Reservation efficiency",
+    "Low life",
+    "Full life",
+    "Recently",
+    "Nearby",
+    "Unaffected",
+    "Immunity",
+    "Avoidance",
+    "Lucky",
+    "Unlucky",
+    "Culling strike",
+    "Slayer",
+    "Berserk",
+    "Frenzy charge",
+    "Power charge",
+    "Endurance charge",
+    "Charge"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Recently''' is a [[keyword]] used in the description of various [[unique item]]s, [[ascendancy skill]]s, [[passive skill]]s and [[enchantment]]s. It refers to the past four seconds.<ref name=\"220Patch\"/>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.2.0|\n* Added a new Keyword - Recently\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"220Patch\">{{cite web|author=GGG|date=March 3, 2016|title=Path of Exile 2.2.0: Ascendancy Patch Notes|url=https://www.pathofexile.com/forum/view-thread/1596094|publisher=Official Path of Exile website|accessdate=March 3, 2016}}</ref>\n}}\n\n[[Category:Keywords]]",
+  "sha256": "999d59586807bfbe0088b735ae310dde9dc43ea5c731bcecb7583ac77fa267f1"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Annihilation's Approach",
+  "pageId": 108124,
+  "revision": 1640640,
+  "timestamp": "2026-03-29T19:20:55Z",
+  "retrieved": "2026-11-14T10:11:17.307596+00:00",
+  "requested": [
+    "Swords",
+    "Maces",
+    "Sceptres",
+    "hits",
+    "endurance charges",
+    "defences",
+    "inventory",
+    "overkill damage",
+    "frozen",
+    "Unique Jewel",
+    "Aspect",
+    "Guard Skills",
+    "Combat Rush",
+    "Phantasm",
+    "Flame-Touched",
+    "Approaching Flames",
+    "Trauma",
+    "Pact skill",
+    "Drenched",
+    "Mania"
+  ],
+  "aliases": [
+    "Flame-Touched"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Annihilation's Approach\n|class_id                                = Boots\n|base_item                               = Dragonscale Boots\n|explicit1                             = GrantsTouchOfFireUnique__1\n|explicit2                             = LocalIncreasedArmourAndEvasionUnique__21\n|explicit3                             = MovementVelocityUnique__50 <!--MovementVelocityUnique__49 -->\n|explicit4                              = CannotBeFrozenOrChilledUnique__2 \n|explicit5                               = FireDamageTakenFireTouchedUnique__1\n|explicit6                               = GainAdrenalineFireTouchedGainUnique__1\n|explicit7                               = LoseAdrenalineFireTouchedLossUnique__1 \n|flavour_text                            = Pray that the flames find fascination,<br>for the true end follows when the great eye closes.\n|release_version                         = 3.20.0\n|is_drop_restricted = true\n|drop_text = Drops from [[Uber Exarch]].\n}}\n\n'''Annihilation's Approach''' is a pair of [[unique]] {{il|Dragonscale Boots}}.\n\n==Modifiers==\n{{c|mod|Grants Level 20 Approaching Flames Skill}}: {{sl|Approaching Flames}} is a skill granted by this unique. It is an [[instant]] [[spell]] and [[buff]] with a 5 second cooldown; using this skill will toggle the {{c|mod|Flame-Touched}} buff on you. The buff can also be turned off by {{c|mod|Removes all Burning when used}} flasks. \n\n{{stl|Adrenaline (buff)|Adrenaline}} is not lost when reduced to 1 life, only on losing the \"flame-touched\" status, i.e. toggling the Approaching Flames skill off.\n\nHowever, while allocating the [[Champion]] Ascendancy Notable [[First to Strike, Last to Fall]], Approaching Flames will turn off automatically after turning it on with the skill going on cool down. It will however heal you for 25% of maximum life.\n\nDespite being an instant spell with a cooldown, Approaching Flames can not be supported by [[Automation Support]].\n\n{{Item acquisition}}\n\n==Legacy variants==\nAnnihilation's Approach has a [[legacy variant]].\n\n{{legacy variant table header}}\n{{legacy variant table row|3.23.0|\n* Grants Level 20 Approaching Flames Skill\n* (60-100)% increased Armour and Evasion\n* 30% increased Movement Speed\n* Cannot be Chilled\n* Cannot be Frozen\n* {{c|mod|Take 10000 Fire Damage per Second while Flame-Touched}}\n* Gain Adrenaline when you become Flame-Touched\n* Lose Adrenaline when you cease to be Flame-Touched\n}}\n{{Legacy variant table end}}\n\n==Design attribution==\nAnnihilation's Approach was created in a collaboration with [https://www.pathofexile.com/account/view-profile/nickexile11-5507/ nickexile11 (imexile)] as a reward for taking a prize place in the 3.18 boss kill event.<ref name=\"Sentinel Boss Kill Event Winners\"/><ref>https://twitter.com/imexilepoe/status/1601285976726249472</ref>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.23.0|\n* The Fire Damage taken per Second while Flame-Touched on the Annihilation's Approach Unique Boots was a bit too high for a Unique obtained through killing an Uber Pinnacle Boss. As such, we have updated these Boots to have \"Take 6000 Fire Damage per Second while Flame-Touched\" (previously 10000). A Divine Orb can be used on existing items to obtain this new value.\n}}\n{{Version history table row|3.20.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Sentinel Boss Kill Event Winners\">{{cite web\n|author=Community_Team\n|date=May 23, 2022\n|title=Sentinel Boss Kill Event Announcement\n|url=https://www.pathofexile.com/forum/view-thread/3273445\n|publisher=Official Path of Exile Forums\n|accessdate=August 8, 2022\n}}</ref>\n}}\n\n{{Navbox Unique Items}}",
+  "sha256": "57b07cac6f4a27641319db5f2574c5ecc370ab37e7c3f7bd9d663ec45072f1d8"
+}

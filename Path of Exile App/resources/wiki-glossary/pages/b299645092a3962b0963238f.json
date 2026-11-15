@@ -1,0 +1,35 @@
+{
+  "title": "Tarred ground",
+  "pageId": 16356,
+  "revision": 1444324,
+  "timestamp": "2024-05-11T23:36:34Z",
+  "retrieved": "2026-11-14T10:57:47.570158+00:00",
+  "requested": [
+    "Tainted Power Charges",
+    "Tarred Ground",
+    "Tasalio's Blessing",
+    "Taste of Blood",
+    "Taste of Hate",
+    "Taunted",
+    "Tawhanuku's Leadership",
+    "Tawhoa's Remedies",
+    "Tears of Rot",
+    "Tempest Shield",
+    "Temporal Anomaly",
+    "Temporal Bubble",
+    "Temporal Interference",
+    "Tenacious Vigor",
+    "Tender Embrace",
+    "Test",
+    "The Basics",
+    "The Battle Within",
+    "The Beast",
+    "The Betrayal"
+  ],
+  "aliases": [
+    "Tarred Ground"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n|name = Tarred Ground\n|type = Debuff\n|icon = Speed status icon.png\n| description = Your movement speed is reduced while standing in tar\n}}\n[[File:Tarred ground.jpg|thumb|Tarred ground]]\n'''Tarred ground''' is a detrimental [[ground effect]] that applies the Tarred Ground [[debuff]] (or colloquially known as '''Tar''' debuff). Tarred ground stacks with [[chill]]ing the monster via [[cold damage]]. It does not affect the speed the monsters perform actions at, only their [[movement speed]].<ref name=\"TarredGround\"/>\n\n==Sources==\n* Certain [[zombie]]s, as well as [[Brine Vassal]], which spread tar when destroyed\n* Projectiles fired by [[Noisome Ophidian]]\n* [[Heist]] monster (in [[Contract:_Prohibited_Library|Prohibited Library]] tileset for example) use skills that spread tarred grounds\n\n==Unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%\\_tar\\_%\"\n|level=1\n|large=1\n|stat=1\n}}\n==Gallery==\n<gallery>\nFile:Heist library tarred ground.png|The variant found in a heist\n</gallery>\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.1.0|\n* We've made performance improvements to ground effects. They now use considerably less bandwidth and server resources. Disconnections or lockstep stuttering near ground effects should occur far less often.\n}}\n{{Version history table row|0.10.2|\n* Improved the performance of Ground Ice and Ground Tar.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"TarredGround\">{{cite web|author=Mark_GGG|date=November 18, 2015|title=Item Development - Threshold Jewels|url=https://www.pathofexile.com/forum/view-thread/1480913/page/5#p12067930|publisher=Official Path of Exile Forums|accessdate=November 18, 2015}}</ref>\n}}\n\n[[Category:Ground effects]]\n[[Category:Debuffs]]",
+  "sha256": "8162aed81d552071b3a28226e0f93a1193e03d4efc61e65f0b92358dc92fbc0c"
+}

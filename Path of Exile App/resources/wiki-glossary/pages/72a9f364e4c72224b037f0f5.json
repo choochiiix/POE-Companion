@@ -1,0 +1,33 @@
+{
+  "title": "Fungal ground",
+  "pageId": 7027,
+  "revision": 1486401,
+  "timestamp": "2024-10-13T02:20:52Z",
+  "retrieved": "2026-11-14T10:11:12.971739+00:00",
+  "requested": [
+    "weapons",
+    "dual wield",
+    "sceptre",
+    "implicit",
+    "Crucible Passive Skill Tree",
+    "Flying",
+    "Summon Raging Spirit",
+    "Caustic ground",
+    "Scorched ground",
+    "Profane ground",
+    "Fungal ground",
+    "Brine ground",
+    "Smoke cloud",
+    "normal",
+    "Foulborn unique item",
+    "level",
+    "Evasion Rating",
+    "Battlemage",
+    "Quivers",
+    "Shields"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Fungal Ground\n| type                   = Buff\n| description            = You gain Chaos Resistance while on Fungal Ground.\n}}\n{{status\n| name                   = Fungal Ground\n| type                   = Debuff\n| description            = You have lowered Resistances while on Fungal Ground.\n}}\n\n'''Fungal Ground''' is a [[ground effect]] that buffs allies and debuffs enemies. Allies gain 25% [[chaos]] [[resistance]] while on Fungal Ground, while enemies have all resistances lowered by 10%.\n\n==Stats==\n* {{c|mod|Allies on your Fungal Ground gain +25% to Chaos Resistance}}\n* {{c|mod|Enemies on your Fungal Ground have -10% to all Resistances}}\n\n==Sources==\n===Unique items===\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Fungal%Ground%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n===Passive skills===\n{{Passive skill table\n|q_where=\n  passive_skills.stat_text LIKE \"%Fungal%Ground%\"\n|large=1\n|stat_text=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Fungal Ground now causes Allies on your Fungal Ground to have +25% Chaos Resistance, while Enemies on your Fungal Ground have -10% Chaos Resistance (previously Allies gained 10% of Non-Chaos Damage as extra Chaos Damage, while Enemies on your Fungal Ground dealt 10% less Damage).\n}}\n{{Version history table row|3.8.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Ground effects]]",
+  "sha256": "463a58c0582e8647c6959d1702f901f00493c5e56dbf8a00d219c26071318d03"
+}

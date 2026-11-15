@@ -1,0 +1,33 @@
+{
+  "title": "Fading Flesh",
+  "pageId": 6318,
+  "revision": 1339238,
+  "timestamp": "2023-01-18T04:31:05Z",
+  "retrieved": "2026-11-14T10:57:23.116635+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Fading Flesh\n|type=Debuff\n|description=You are taking Physical Damage over time.}}\n\n'''Fading Flesh''' is an AoE spell that applies a Physical DoT debuff and is cast in pulses by Pain Totems during a Sanguine [[Ritual]] Altar encounter.\n\nAs this debuff is not a [[bleed]], a flask equipped with the Staunching mod will not remove the debuff.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "d142bdeba9b8e342dae4c4b4a81549c89b5b770c71073e02e0e94ace39a23b23"
+}

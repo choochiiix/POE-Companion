@@ -1,0 +1,33 @@
+{
+  "title": "Mania",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:11:17.278395+00:00",
+  "requested": [
+    "Swords",
+    "Maces",
+    "Sceptres",
+    "hits",
+    "endurance charges",
+    "defences",
+    "inventory",
+    "overkill damage",
+    "frozen",
+    "Unique Jewel",
+    "Aspect",
+    "Guard Skills",
+    "Combat Rush",
+    "Phantasm",
+    "Flame-Touched",
+    "Approaching Flames",
+    "Trauma",
+    "Pact skill",
+    "Drenched",
+    "Mania"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

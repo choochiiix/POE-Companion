@@ -1,0 +1,33 @@
+{
+  "title": "Aspect of the Spider",
+  "pageId": 1184,
+  "revision": 1659301,
+  "timestamp": "2026-06-21T13:57:44Z",
+  "retrieved": "2026-11-14T10:09:57.334584+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=AspectOfTheSpider}}\n\n'''Aspect of the Spider''' is an [[aspect]] skill that applies a stack of {{stl|Spider's Web}} on nearby enemies every second, increasing the damage they take by 5% per stack, and inflicts {{stl|Hinder}}. Only one aspect skill can be active at a time.\n\nAspect of the Spider is found on {{il|Fenumus' Weave}} or [[beastcrafted]] onto gear as a [[Item affix|suffix]] with the \"{{c|unique|[[Fenumus, First of the Night]]}}\" [[Beastcrafting#List of beast recipes|beastcraft recipe]]. The skill can be further modified by equipping {{il|Fenumus' Toxins}}, {{il|Fenumus' Shroud}} and {{il|Fenumus' Spinnerets}}. The Level 30 version of the skill is acquired from beastcrafting with the addition of [[The Black Mórrígan]].\n\n__TOC__\n\n==Mechanics==\nAspect of the Spider can be linked to support gems like {{il|More Duration Support}} or {{il|Increased Area of Effect Support}} to modify the Aspect's effects. Notably, Aspect of the Spider can also be linked to {{il|Inspiration Support}}, increasing its reservation, but will not cause any (useful) changes to the skill.\n\n{{il|Fenumus' Spinnerets}} increases the maximum number of Spider's Web stacks by 1.\n\n==Skill level progression==\n{{Skill progression\n|skill_id=AspectOfTheSpider\n|c1_abbr              = Max<br>Spider's Web\n  |c1_header          = Can inflict up to x Spider's Webs on an Enemy\n  |c1_pattern_extract = Can inflict up to (%d+) Spider's Webs on an Enemy\n  |c1_pattern_value   = %d\n}}\n\n==Aspect of the Spider Gear Set==\n{{Drop enabled unique item table\n|where=\n  items.name LIKE \"%Fenumus'%\"\n|base_item=1\n|large=1\n|level=1\n|stat=1\n}}\n\n==Version history==\nIt was temporarily available through the [[Threadspinner]] notable for the [[Servant of Arakaali]] [[Legacy of Phrecia ascendancy class|ascendancy]] in the [[Legacy of Phrecia]] event.\n\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* Added Level 30 versions of Aspect skills, acquired from beastcrafting recipes using [[The Black Mórrígan]]. {{Undocumented}}\n}}\n{{Version history table row|3.4.0|\n* Now instant by default and can therefore be used while moving.\n* All instant skills now have cooldown 1 second or less.\n* Instant skills cannot be supported by Spell Echo and will not be cast a second time by similar effects (such as from the Echoing Shrine).\n}}\n{{Version history table row|3.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Bestiary League}}\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "7ce98d0a5ce384ba48d14571225421e99444245e2e564d1d6b1526f4615a5a52"
+}

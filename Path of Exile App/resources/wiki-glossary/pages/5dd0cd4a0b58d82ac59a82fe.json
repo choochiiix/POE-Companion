@@ -1,0 +1,33 @@
+{
+  "title": "Retaliation",
+  "pageId": 126928,
+  "revision": 1704995,
+  "timestamp": "2026-11-12T10:35:36Z",
+  "retrieved": "2026-11-14T10:11:19.070828+00:00",
+  "requested": [
+    "Ursa",
+    "Ground Slam",
+    "Warcries",
+    "Retaliation",
+    "Daggers",
+    "Claws",
+    "Divinity",
+    "ranger",
+    "Shepherd of Souls",
+    "Fanaticism",
+    "Enchantments",
+    "Vaal skill gem",
+    "Gluttony of Elements",
+    "Harbinger",
+    "Dominus",
+    "Silence",
+    "smoke cloud",
+    "Vaal Gem",
+    "Sextant",
+    "conquered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the passive skill|Retaliation (passive skill)}}\n'''Retaliation''' is a [[gem tag]] associated with skills that become Usable when a certain condition is met, primarily [[block]]ing or taking damage. Retaliation skills can't be used until they become Usable, and have a [[cooldown]] once used. Because of their restrictive nature, Retaliation skills tend to have significantly higher damage stats.\n\n==Mechanics==\nWhile a Retaliation skill is Usable, an icon will appear over your character's head to show that skill can be used. The condition for a Retaliation skill to become Usable is tracked individually for each skill; for example, {{il|Crushing Fist}} and {{il|Eviscerate}} both have a condition that requires blocking. After blocking a single hit, using Crushing Fist will not cause Eviscerate to not become Usable, and vice versa. Copies of the ''same'' skill will share their usability (and cooldown), however. \n\n\"Usable\" refers to the period of time when the skill is allowed to be activated. The skill must be both Usable and off [[cooldown]] to use. Skills cannot become usable while on cooldown from their own conditions, but ''can'' become usable while on cooldown through {{c|mod|#% chance when you use a Retaliation Skill for a different Retaliation Skill to become Usable}}. This does not remove an ongoing cooldown. \n\nOnce a Retaliation skill is used, it loses its Usable state. Modifiers which cause Retaliation skills to \"remain Usable\" (e.g. {{psl|Measured Retaliation}}, [[No Forgiveness]]) will prevent the skill from losing its Usable state and going on cooldown, but will not refresh the Usable duration.\n\nRetaliation skills cannot be [[exert]]ed, or used by [[Proxy|proxies]]. Even when proxies are summoned, e.g. through {{il|General's Cry}} or {{il|The Saviour}}, they will be unable to use their skill.<ref>https://www.youtube.com/watch?v=jdQKjjI2XFY</ref> Most [[trigger]]s cannot be granted to Retaliation skills, though exceptions exist (e.g. {{il|The Eternal Apple}}).\n\nRetaliation skills cannot be supported by {{il|Multistrike}} and will not [[repeat]] with {{psl|Fatal Flourish}} or while affected by an [[Echoing Shrine]].\n\n==Gems==\n===Skill gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Active Skill Gem\" AND skill_gems.gem_tags HOLDS \"Retaliation\"}} [[skill gem]]s with the [[:Category:Retaliation (gem tag)|Retaliation]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Active Skill Gem\"\n   AND skill_gems.gem_tags HOLDS \"Retaliation\"\n}}\n\n===Support gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Support Skill Gem\" AND skill_gems.gem_tags HOLDS \"Retaliation\"}} [[support gem]]s with the [[:Category:Retaliation (gem tag)|Retaliation]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Support Skill Gem\"\n   AND skill_gems.gem_tags HOLDS \"Retaliation\"\n}}\n\n==Related items==\n===Related unique items===\nThe following [[unique item]]s are related to Retaliation skills:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Retaliation %\" \n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\nThe following [[unique item]]s benefit retaliation skills:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Count as Blocking%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\nThe following [[Foulborn]] unique items benefit retaliation skills:\n\n{| class=\"wikitable sortable\"\n|+\n|-\n! Unique item !! Original modifier !! {{c|foulborn|Foulborn modifier}}\n|-\n| {{il|Ylfeban's Trickery}} || {{c|mod|[[Modifier:ShockedGroundWhenHitUnique~~1|Trigger Level 10 Shock Ground when Hit]]}} || {{c|foulborn|[[Modifier:MutatedUniqueHelmetInt10AdditiveSpellModifiersApplyToRetaliationAttackDamage|Increases and Reductions to Spell Damage also apply to Attack Damage with Retaliation Skills at 200% of their value]]}}\n|-\n| {{il|Crown of the Pale King}} || {{c|mod|[[Modifier:LifeLeechPermyriadUniqueHelmetDexInt6|(0.4-0.8)% of Physical Attack Damage Leeched as Life]]}} || {{c|foulborn|[[Modifier:MutatedUniqueHelmetDexInt6RetaliationSkillCooldownRecoveryRate|Retaliation Skills have (25-35)% increased Cooldown Recovery Rate]]}}\n|}\n\n==Related passive skills==\n===Passive skills===\nThe following [[passive skill]]s are related to Retaliation:\n{{Query base passive skills\n|where=\n   passive_skill_stats.id LIKE \"%Retaliation%\"\n   AND passive_skills.id NOT LIKE \"%AlternateAscendancy%\"\n}}\n\n===Keystone passive skills===\n{{Query keystone passive skills\n|where=passive_skill_stats.id LIKE \"%Retaliation%\"\n  AND passive_skills.id NOT LIKE \"%Affliction%\"\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Retaliation:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%Retaliation%\"\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to Retaliation:\n{{Query masteries}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.1|\n* Fixed a bug when '''Retaliation''' Skills tried to repeat, like from an [[Echoing Shrine]], it could stop you from being able to move. They're no longer repeatable.\n}}\n{{Version history table row|3.25.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Gem tag mechanics]]\n[[Category:Gem tags]]",
+  "sha256": "0dd896735d30ea31a0124cc1f87e391db95ccde962aa35b5176f2ee45c6b2d62"
+}

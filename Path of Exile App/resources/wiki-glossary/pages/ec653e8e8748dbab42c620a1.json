@@ -1,0 +1,33 @@
+{
+  "title": "Nova",
+  "pageId": 85187,
+  "revision": 1550746,
+  "timestamp": "2025-07-23T19:57:36Z",
+  "retrieved": "2026-11-14T10:57:34.915571+00:00",
+  "requested": [
+    "Minion Test",
+    "Molten Shell",
+    "Momentum",
+    "Monster Consume",
+    "Moon's Presence",
+    "Murine Procession",
+    "Musty Wine",
+    "Mystic Miasma",
+    "Necrovigil",
+    "Net Throw",
+    "No Chaos Resistance",
+    "Nova",
+    "Noxious Fumes",
+    "Oakbranch Tincture",
+    "Oasis Ground",
+    "Obscuring Tempest",
+    "Offering Of Judgement",
+    "Oiled Ground",
+    "Omen of Brilliance",
+    "Omnitect's Paralysis"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the gem tag|the projectile behaviour|Nova (projectile behaviour)}}\n\n'''Nova''' skills are a specific type of [[area]] skill which when used is centred in a circle around the player or [[proxy]] instead of at a targeted location. {{il|Astral Projector}} is able to modify this behaviour to allow it to cast at a targeted location.\n\n==Gems==\n===Skill gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Active Skill Gem\" AND skill_gems.gem_tags HOLDS \"Nova\"}} [[skill gem]]s with the [[:Category:Nova (gem tag)|Nova]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Active Skill Gem\"\n   AND skill_gems.gem_tags HOLDS \"Nova\"\n}}\n===Support gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Support Skill Gem\" AND skill_gems.gem_tags HOLDS \"Nova\"}} [[support gem]]s with the [[:Category:Nova (gem tag)|Nova]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Support Skill Gem\"\n   AND skill_gems.gem_tags HOLDS \"Nova\"\n}}\n\nNote that {{il|Arrow Nova Support}} does not have Nova gem tag as it is a [[Nova (projectile behaviour)|projectile nova]].\n\n===Item skills===\n* {{sl|id=FireBurstOnHit}}\n* {{sl|Shield Shatter}} ({{il|Shattershard}})\n* {{sl|Blood Sacrament}} ({{il|Relic of the Pact}})\n\n==Related unique items==\nThe following [[unique item]]s are related to Nova skills:\n\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%nova_spell%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\n===Tattoos/Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%nova%\"\n|large=1\n|description=1\n}}\n\n==Modifiers==\n* {{ml|WeaponTreeSkillVoltaxicBurstDischarge}} ([[Crucible passive tree|Crucible passive skill]])\n\n[[Category:Gem tag mechanics]]\n[[Category:Gem tags]]\n{{sister|poe2wiki}}",
+  "sha256": "1d21312e8e433c7288ad073262b7f8e68d475517a8e9ca46d37a2f2b680f5367"
+}

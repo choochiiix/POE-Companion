@@ -1,0 +1,33 @@
+{
+  "title": "Chaos Sandstorm",
+  "pageId": 3258,
+  "revision": 1445122,
+  "timestamp": "2024-05-18T12:10:29Z",
+  "retrieved": "2026-11-14T10:57:15.107018+00:00",
+  "requested": [
+    "Cat's Stealth",
+    "Caustic Strike",
+    "Caustic Webbing",
+    "Cauterised Flesh",
+    "Cervine Procession",
+    "Chained",
+    "Challenger Charges",
+    "Chaos Empowerment",
+    "Chaos Golem",
+    "Chaos Resistance Loss",
+    "Chaos Sandstorm",
+    "Chaotic Bond",
+    "Chaotic Disposition",
+    "Charged Dash",
+    "Charged Net",
+    "Charged Phylactery",
+    "Charged Up",
+    "Cheat",
+    "Chieftain's Wrath",
+    "Chill Immunity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Chaos Sandstorm\n| type                   = Debuff\n| description = {{c|normal|You are taking chaos damage over time.}}\n}}\n\n'''Chaos Sandstorm''' is a debuff from the monster skill of the same name\n==Monsters==\n* [[Chaos Sentinel]]\n* [[Chaos Guardian]]\n* [[Chaos Golem (monster)]]\n** including golem from {{il|Summon Chaos Golem}}\n* [[Void Anomaly]] ({{il|Grotto Map}})\n* [[Avatar of Undoing]]  ({{il|Geode Map}}, uses [[Skill:SummonInvisibleChaosstorm|SummonInvisibleChaosstorm]] which summon [[Monster:Metadata/Monsters/InvisibleFire/InvisibleChaosstorm~|Invisible]] not targetable monster, in turn summons the actual Chaos Sandstorm)\n===List of monsters===\nThe following [[monster]]s use Chaos Sandstorm (or similar) skills. The list is auto-generated:\n{{#cargo_query:\n|tables=monsters\n|fields=name=Monster names, CONCAT(\"[[\", _pageName, \"|\", metadata_id, \"]]\")=internal id, skill_ids\n|where=(skill_ids HOLDS LIKE \"%SandstormChaos%\" OR skill_ids HOLDS LIKE \"%SummonInvisibleChaosstorm%\" ) AND metadata_id NOT IN (\"Metadata/Monsters/ChaosElemental/ChaosElementalSummonedClockwork\", \"Metadata/Monsters/ChaosElemental/ChaosElementalSummonedDarkshard_\", \"Metadata/Monsters/ChaosElemental/ChaosElementalSummonedLightbringer\", \"Metadata/Monsters/ChaosElemental/ChaosElementalSummonedMiracle\") AND metadata_id NOT LIKE \"%Hellscape%\"\n|limit=100\n|order by=name\n}}\n\n==Related debuff==\n* [[Sandstorm]]: a debuff that has similar status icon but different colour and name\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "2a2c3e09e622e24dace9ce04357d0d951b8189cb8a9140afa0d81d5695fa3d16"
+}

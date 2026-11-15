@@ -1,0 +1,33 @@
+{
+  "title": "Historic",
+  "pageId": 8222,
+  "revision": 1705440,
+  "timestamp": "2026-11-13T00:34:10Z",
+  "retrieved": "2026-11-14T10:10:00.823804+00:00",
+  "requested": [
+    "Doom Blast",
+    "Shockwave",
+    "Guard skill",
+    "Blink",
+    "skills",
+    "repeat",
+    "Acceleration Shrine",
+    "monster modifier",
+    "Critical Strike Chance",
+    "Passive Skills",
+    "Historic",
+    "mana regen",
+    "cold",
+    "attack damage",
+    "Unleash",
+    "Corpse",
+    "Mana before Life",
+    "flask",
+    "Eternal Youth",
+    "talisman"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Historic''' is a keyword found on several [[unique jewel]]s that have the ability to modify the [[passive]]s found on the passive skill tree.\n\n==Mechanics==\n* Characters have a global limit of 1 {{c|mod|Historic}} jewel.\n* Each Historic jewel lists a historical figure's name and a numerical value (known as a \"seed\") in one of its modifiers. This combination determines the pseudo-randomized layout of the passives that are modified by the jewel; jewels with the same name and seed will have the same layout. Using a {{il|Divine Orb}} wil reroll both the name (if possible) and the numerical seed.\n** The seed and name values are independent on how they affect passives. If a Historic jewel were to have the same seed but different names, the changes they would make to non-keystone passives would be identical.\n* {{c|mod|Passives affected are Conquered}}: The specific effect of Conquering depends on the specific jewel; for example, {{il|Lethal Pride}} adds stats to all affected attribute, small, and notable passives, while {{il|Militant Faith}} replaces all attribute passives and replaces some notables at random. Transformed passive skills cannot be further modified by other radius jewels such as {{il|Lioneye's Fall}}. Transformed passives will override any [[tattoo]]s placed on the passive. Jewels cannot conquer any passives added via [[cluster jewel]]s, nor can their conquering effects work while socketed in a cluster jewel's jewel socket.\n* All Historic Timeless and Abyss Jewels (with the exception of {{il|Reclaimed Malevolence}}) replace all [[Keystone]]s within its radius or connections with an exclusive Keystone.\n** For unique [[Timeless Jewel]]s, including {{il|Heroic Tragedy}}, the name of the historic figure determines the Keystone variant.\n** For unique [[Abyss Jewel]]s, the name of the Lich is fixed, and therefore the Keystone is fixed per jewel. Instead of a radius, a number of random connected passives and keystones branching out from the jewel socket are transformed.\n** For {{il|Reclaimed Malevolence}}, it does not replace a Keystone; instead, it replaces one random non-multiple choice notable [[ascendancy passive skill]] with one of four exclusive notables. The specific passive replaced and the notable that replaces it is determined by the seed. It also transforms all connected passives and keystones along the shortest path from the jewel socket to the character's starting location on the passive tree.\n\n==List of Historic jewels==\n{{Item table\n|where = items.stat_text LIKE \"%Historic%\" \n|large=1\n|drop_level=1\n|base_item=1\n|stat=1\n|flavout_text=1\n|drop_text=1\n|orderBy = items.drop_text ASC\n}}\n\n[[Category:Item mechanics]]",
+  "sha256": "6212b6c99f89a9806d9b44dfa85fe9b8d7b694dc695264950a2921b30a7f2088"
+}

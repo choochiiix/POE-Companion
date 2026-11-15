@@ -1,0 +1,35 @@
+{
+  "title": "Crucible Forge",
+  "pageId": 111553,
+  "revision": 1463222,
+  "timestamp": "2024-07-19T02:40:51Z",
+  "retrieved": "2026-11-14T10:10:01.722820+00:00",
+  "requested": [
+    "veiled mod",
+    "defence",
+    "Monster modifier",
+    "quiver",
+    "Foulborn",
+    "Weapon",
+    "Tincture",
+    "enchantment",
+    "skill gems",
+    "modifier",
+    "Enduring Cry",
+    "allies",
+    "exerting",
+    "exert",
+    "Ally",
+    "corpse",
+    "support skill gem",
+    "Crucible",
+    "Keystone passive skill",
+    "Call to Arms"
+  ],
+  "aliases": [
+    "Crucible"
+  ],
+  "missing": false,
+  "wikitext": "{{redirect|Crucible|the league|Crucible league|the expansion|Path of Exile: Crucible}}\n\n{{historical content}}\n\n[[File:Crucible Forge.png|thumb|right|A Crucible Forge]]\nThe '''Crucible Forge''' is a mechanic that was accessible in areas in [[Crucible league]] that allows you to unlock and level up [[Crucible passive tree]]s on a weapon or shield (or {{il|El'Abin's Visage}}).\n\n[[File:Crucible Forge ui.png|thumb|right|Charging the Crucible Forge]]\nTo use it, you must select an weapon or shield in either weapon swap set, or the top-left-most identified weapon or shield in your inventory. Unique items cannot be selected unless they already have a Crucible passive tree unlocked from the [[Forge of the Titans]]. Once selected, the player can hold the button to begin channelling the Crucible Forge. The length of channelling increases the number and rarity of enemies that spawn and additionally increases monster damage and damage reduction. A bar near the circle will fill up, indicating the amount of experience points that will be contributed towards unlocking the selected node in the item's Crucible passive tree. A charge percentage and difficulty will also be displayed at the bottom.\n\nEnemies will spawn when the player leaves the circle around the Crucible Forge or when the charge reaches 100%. Once most of the enemies are defeated (all Rare/Unique monsters and most normal/magic monsters), the item will receive experience toward its Crucible passive tree.\n\nCrucible monsters have a chance to drop an {{il|Igneous Geode}}. At higher levels, a {{il|Crystalline Geode}} has a chance to drop from unique Crucible monsters at 100% charge. Both item drop chances are affected by modifiers to [[Item Quantity]]. They can be used to reveal a {{il|Primeval Remnant}} or a {{il|Primordial Remnant}} respectively, which opens a portal to the Crucible endgame encounter - the [[Forge of the Titans]] - when used in a [[Map Device]].\n\nIt is possible to deallocate a Crucible passive skill by using an {{il|Orb of Scouring}} on the node while at the Crucible Forge's Crucible passive tree menu. This removes all experience allocated towards the passive. The item's Crucible passive tree itself does not change even if all passives are deallocated.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.21.0c|\n* Added an indicator to the Crucible Forge user interface which displays the relative difficulty for the amount of channelling you have done, and how close you are to fully-channelling the encounter.\n* Disabled most of the lower-tier Crucible Passives that have downsides on the initial skill from rolling. Initial skills with downsides are far less common and can generally only roll in the endgame. When an initial skill does come with a downside, the upside should outweigh the downside.\n* The Crucible Passive that granted Weapon Elemental Damage and cannot Inflict Elemental Ailments can no longer roll.\n* Unique Items obtained by selling an item with a Crucible Passive Tree now come with their own Crucible Passive Tree, with the first skill allocated.\n* Crucible Passive Tree Skills that cause the item to sell for an additional Unique Item can no longer be transferred onto other unrelated Base Types by combining Crucible Passive Trees.\n* Updated the explode visuals for the Crucible Passive Tree skill that causes Totems to Explode on Death to be more appropriate.\n* Combining Crucible Passive Trees when both trees have depth-two skills at matching positions can no longer result in a tree with only one skill.\n}}\n{{Version history table row|3.21.0b|\n* [[Crucible]] monsters now have much less damage reduction, except when channeled to maximum difficulty.\n* Crucible monsters now have less life at all levels, most notably in Part 2 of the campaign, and in low-tier Maps. In addition, Crucible Bosses have had their life further reduced by roughly 20%.\n* Increased the amount of [[Crucible Passive Skill Tree]] experience gained from encounters, particularly for encounters that are not fully-channelled. This should result in smoother progression on the experience bar while channelling.\n* Increased the drop rate of {{il|Igneous Geode|Igneous Geodes}}. Lower-tier Crucible monsters are now more likely to drop these. Note Geodes have a higher chance to drop in high-tier Maps, and their drop chance is affected by item quantity.\n}}\n{{Version history table row|3.21.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Crucible}}",
+  "sha256": "b6f3344ef23bd495abc41579328b07e01c43fb9fbddb4d0d033e4f640e909d6e"
+}

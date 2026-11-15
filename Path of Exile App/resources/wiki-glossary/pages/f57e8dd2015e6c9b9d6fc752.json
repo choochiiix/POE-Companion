@@ -1,0 +1,33 @@
+{
+  "title": "The Yielding Mortality",
+  "pageId": 17538,
+  "revision": 1635619,
+  "timestamp": "2026-03-22T01:28:30Z",
+  "retrieved": "2026-11-14T10:57:49.218663+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Yielding Mortality\n|class_id                                = Staff\n|base_item                               = Imperial Staff\n|explicit1                               = SupportedByChanceToBleedUnique__1\n|explicit2                               = HarbingerSkillOnEquipUnique2_6\n|explicit3                               = StaffBlockPercentUnique__4_\n|explicit4                               = CriticalBleedDotMultiplierUnique__1_\n|explicit5                               = LocalAddedPhysicalDamageUnique__28\n|explicit6                               = LocalCriticalStrikeChanceUnique__10\n|flavour_text                            = {{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGC04}}{{glyph|HBG02}}{{glyph|HBGC06}}<br>{{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGAs}}{{glyph|HBG02}}{{glyph|HBGC06}}<br>{{glyph|HBGC011}}{{glyph|HBGAa}}{{glyph|HBG04}}{{glyph|HBGC08}}{{glyph|HBGAa}}\n|release_version                         = 3.11.0\n|acquisition_tags                        = Harbinger\n|recipe1_description                     = Only available in permanent leagues\n|recipe1_part1_item_name                 = The Enmity Divine\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Haemocombustion Scroll\n|recipe1_part2_amount                    = 1\n}}\n\n'''The Yielding Mortality''' is a [[unique]] {{il|Imperial Staff}}.\n\n==Mechanics==\n{{sl|Summon Greater Harbinger of Brutality}}\n\nThis skill improves over the regular Harbinger of Brutality by causing Bleeding Enemies that you Kill to Explode, dealing 10% of their maximum Life as Physical Damage, similar to [[Gladiator]]'s {{psl|Gratuitous Violence}}.\n\nSocketed gems are [[support gem|supported]] by level 1 {{il|Chance to Bleed Support}}. All support stats are accounted for, including the cost and reservation multiplier.\n\n{{Item acquisition}}\n\n==Legacy variants==\nThe Yielding Mortality has [[legacy variant]]s.\n\n{{Legacy variant table header}}\n{{Legacy variant table row|3.26.0\n|implicit =\n* +25% Chance to Block Spell Damage while wielding a Staff\n|explicit =\n* Socketed Gems are supported by Level 1 Chance to Bleed\n* Grants Summon Greater Harbinger of Brutality Skill\n* +5% Chance to Block Attack Damage while wielding a Staff\n* {{c|mod|+(30-40)% to Damage over Time Multiplier for Bleeding from Critical Strikes}}\n* {{c|mod|Adds (160-185) to (200-225) Physical Damage}}\n* (30-40)% increased Critical Strike Chance\n}}\n{{Legacy variant table row|3.25.0\n|implicit =\n* {{c|mod|+18(20)% Chance to Block Attack Damage while wielding a Staff}}{{efn|name=Reroll legacy implicit}}\n|explicit =\n* Socketed Gems are supported by Level 1 Chance to Bleed\n* Grants Summon Greater Harbinger of Brutality Skill\n* +5% Chance to Block Attack Damage while wielding a Staff\n* {{c|mod|+(30-40)% to Damage over Time Multiplier for Bleeding from Critical Strikes}}\n* {{c|mod|Adds (160-185) to (200-225) Physical Damage}}\n* (30-40)% increased Critical Strike Chance\n}}\n{{Legacy variant table end}}\n\n==Version history==\nUntil version 3.28.0, the item can only be acquired by applying {{il|Haemocombustion Scroll}} on {{il|The Enmity Divine}}. After that patch, '''The Yielding Mortality''' is in the core drop pool.\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Currency can no longer be obtained: Deregulation Scroll, Electroshock Scroll, Fragmentation Scroll, Haemocombustion Scroll, Specularity Scroll, and Time-light Scroll.\n* The following Uniques have been added to the core drop pool: The Immortal Will, The Shattered Divinity, The Surging Thoughts, The Tempest's Liberation, The Torrent's Reclamation, and The Yielding Mortality.\n* Harbinger uniques now provide an additonal {{il|Fracturing Shard}} when [[vendor]]ed.{{Undocumented}}\n}}\n{{Version history table row|3.26.0|\n* {{il|The Enmity Divine}} and Yielding Mortality Unique Staves now have 225-265 to 315-385 added Physical Damage (previously 160-185 to 200-225) and +60-80% to Damage Over Time Multiplier for Bleeding from Critical Strikes (previously 30-40%). Existing items can be updated using a Divine Orb.\n}}\n{{Version history table row|3.25.0|\n* This item's basetype's implicit modifier was changed.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==Notes==\n{{Notelist|notes=\n{{efn|name=Reroll legacy implicit|Using a {{il|Blessed Orb}} on a legacy Yielding Mortality with the implicit modifier {{c|mod|+18% Chance to Block Attack Damage while wielding a Staff}} will increase the value of that modifier to 20%. It cannot change to block spell.}}\n}}\n\n{{Navbox Unique Items}}",
+  "sha256": "972d320d3dd59c0d5d6e989dfec55c79e8a0b48c6d67ad8931e432c32c61590a"
+}

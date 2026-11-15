@@ -1,0 +1,33 @@
+{
+  "title": "Beauty Through Death",
+  "pageId": 1834,
+  "revision": 1682617,
+  "timestamp": "2026-07-26T23:31:04Z",
+  "retrieved": "2026-11-14T10:57:11.808494+00:00",
+  "requested": [
+    "Balek's Gift",
+    "Bane",
+    "Bane of the Loyal",
+    "Baranite Cleric's Aura",
+    "Bark",
+    "Barnacles",
+    "Baryatic Tension",
+    "Basalt Flask",
+    "Bastion of Hope",
+    "Batrachian Procession",
+    "Battlemage's Cry",
+    "Beauty Through Death",
+    "Behead",
+    "Beidat's Magnificence",
+    "Beidat's Wrath",
+    "Berserk Fury",
+    "Bestial Roar",
+    "Binding Chains",
+    "Bino's Life Regeneration",
+    "Bismuth Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Beauty Through Death\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Her beauty did not fade <br>her humanity did not survive.\n|drop_level                              = 80\n|tags                                    = unique_divination, unique_armour_divination, boss_drop_card, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardBeautyThroughDeath\n|stack_size                              = 5\n|description                             = {{c|unique|{{iil|Atziri's Reflection}}}}\n|stack_size_currency_tab                 = 10000\n|drop_monsters                           = Metadata/Monsters/DemonBosses/DemonBoss1/DemonBoss1Map, Metadata/Monsters/DemonBosses/DemonBoss2/DemonBoss2Map, Metadata/Monsters/DemonBosses/DemonBoss3/DemonBoss3Map\n|release_version                         = 3.4.0\n}}\n\n'''Beauty Through Death''' is a [[divination card]]. A set of five can be exchanged for {{il|Atziri's Reflection}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nBeauty Through Death was created by supporter [https://www.pathofexile.com/account/view-profile/Noshei-0307 Noshei].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Drop level changed from 56 to 80. {{Undocumented}}\n}}\n{{Version history table row|3.17.0|\n* We have updated some [[Divination Card]]s that previously awarded Sealed [[Prophecies]], and temporarily disabled others that did not have a relevant update that could be made.\n* Turning in a full stack of Beauty Through Death now awards Atziri's Reflection. (previously {{il|The Queen's Sacrifice}})\n** Beauty Through Death now also drops from any of the Vaal Temple bosses.<ref>https://clips.twitch.tv/DaintyKathishPuppySwiftRage-ouKQf6dZMVsB5hJR</ref> {{Divcord}}\n}}\n{{Version history table row|3.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}\n==References==\n{{reflist}]\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "9377649a368b1c2f2886a8f732595c7ec73da495bbe46a5fecab2cffe325ee26"
+}

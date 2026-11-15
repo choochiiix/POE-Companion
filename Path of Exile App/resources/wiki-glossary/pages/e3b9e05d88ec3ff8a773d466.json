@@ -1,0 +1,33 @@
+{
+  "title": "Aul's Uprising",
+  "pageId": 1380,
+  "revision": 1488412,
+  "timestamp": "2024-10-13T03:33:17Z",
+  "retrieved": "2026-11-14T10:57:11.013387+00:00",
+  "requested": [
+    "Assassin's Mark",
+    "Asset Lock Buff",
+    "Asset Lock Inactive",
+    "Astral Chains",
+    "Astral Protection",
+    "Astrally Empowered",
+    "Attack Impale Chance",
+    "Attack and Cast Speed",
+    "Atziri's Promise",
+    "Augury of Penitence",
+    "Aukuna's Hunt",
+    "Aukuna's Lasso",
+    "Aul's Uprising",
+    "Aura of Death",
+    "Autoexertion",
+    "Automation",
+    "Avian's Flight",
+    "Avian's Might",
+    "Baited Expectations",
+    "Balance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Aul's Uprising''' is a [[unique]] {{il|Onyx Amulet}} with four attainable variants.\n\n==Item versions==\n\n\n[[File:3.20 - Aul's Uprising (Crit Strike version) -- Enemy smoke effect.png|thumb|Enemies affected by the {{c|mod|Hits against Nearby Enemies have 50% increased Critical Strike Chance}} effect.]]\n\n{{Drop enabled unique item table\n|where=items.name=\"Aul's Uprising\"\n|large=1\n|level=1\n|stat=1\n}}\n\nThe {{c|mod|Hits against Nearby Enemies have 50% increased Critical Strike Chance}} version of Aul's Uprising has a dark red/blue/black smoke visual effect on nearby enemies which trails when they move.\n\n{{Item acquisition|page=Aul's Uprising (All Attributes)}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.6.0|\n* Now grants 'Hits against nearby enemies have 50% increased chance to critically strike' (previously caused nearby enemies to have an additional 2% chance to receive a critical strike). This affects existing versions of this item.\n* New versions of Aul's Uprising can now appear with mods that cause the new Aura skills (Zealotry and Malevolence) to reserve no mana.\n}}\n{{Version history table row|3.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}\n\n{{Disambiguation}}\n\n[[Category:Unique amulets]]",
+  "sha256": "461dde315ee786895f0465909186f1ffb5f5ad874c8beea6cbc9bb35c779f096"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Atziri's Promise",
+  "pageId": 1331,
+  "revision": 1570971,
+  "timestamp": "2025-08-21T14:05:28Z",
+  "retrieved": "2026-11-14T10:57:11.011884+00:00",
+  "requested": [
+    "Assassin's Mark",
+    "Asset Lock Buff",
+    "Asset Lock Inactive",
+    "Astral Chains",
+    "Astral Protection",
+    "Astrally Empowered",
+    "Attack Impale Chance",
+    "Attack and Cast Speed",
+    "Atziri's Promise",
+    "Augury of Penitence",
+    "Aukuna's Hunt",
+    "Aukuna's Lasso",
+    "Aul's Uprising",
+    "Aura of Death",
+    "Autoexertion",
+    "Automation",
+    "Avian's Flight",
+    "Avian's Might",
+    "Baited Expectations",
+    "Balance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Atziri's Promise\n|class_id                                = UtilityFlask\n|base_item                               = Amethyst Flask\n|flavour_text                            = \"Death needs not your understanding. It needs only your loyalty.\" <br>- Atziri, Queen of the Vaal\n|explicit1                               = AddedChaosDamageAsPercentOfElementalWhileUsingFlaskUniqueFlask5\n|explicit2                               = ChaosDamageLifeLeechPermyriadWhileUsingFlaskUniqueFlask5New\n|explicit3                               = AddedChaosDamageAsPercentOfPhysicalWhileUsingFlaskUniqueFlask5\n|release_version                         = 1.1.0\n|drop_monsters                           = Metadata/Monsters/Atziri/Atziri, Metadata/Monsters/Atziri/AtziriIncursion\n|drop_text                               = Only drops from regular [[Atziri]] in [[the Apex of Sacrifice]] or Incursion Atziri in the [[Throne of Atziri]] (in [[the Temple of Atzoatl]])\n}}\n\n'''Atziri's Promise''' is a [[unique]] {{il|Amethyst Flask}}.\n\n__TOC__\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.50 seconds instead.\n\n==Legacy variants==\nAtziri's Promise has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0|\n* {{c|mod|Gain (10-15)% of Elemental Damage as Extra Chaos Damage during effect}}\n* 2% of Chaos Damage Leeched as Life during Effect\n* {{c|mod|Gain (15-20)% of Physical Damage as Extra Chaos Damage during effect}}\n}}\n{{legacy variant table row|3.0.0|\n* {{c|mod|Gain (13-15)% of Elemental Damage as Extra Chaos Damage during effect}}\n* 2% of Chaos Damage Leeched as Life during Effect\n* {{c|mod|Gain (22-25)% of Physical Damage as Extra Chaos Damage during effect}}\n}}\n{{legacy variant table row|2.0.0|\n* {{c|mod|Gain (13-15)% of Elemental Damage as Extra Chaos Damage during effect}}\n* 2% of Chaos Damage Leeched as Life during Effect{{efn|name=Pre-2.0.0 legacy variant}}\n* {{c|mod|Gain (22-25)% of Physical Damage as Extra Chaos Damage during effect}}\n}}\n{{Legacy variant table end}}\n\n==Alternate artwork==\n{|\n| [[File:Atziri's Promise Relic inventory icon.png|78px]] || [[Foil]] version from [[Vaal Reliquary (area)|Vaal Reliquary]]\n|-\n|}\n\n==Build of the Week==\nAtziri's Promise was featured in [http://www.youtube.com/watch?v=LrFWBgcI9Go Season 2 Episode 13] of the ''Build of the Week'' series released by [[Grinding Gear Games]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* Now has 'Gain 5-8% Physical Damage as Extra Chaos Damage during effect' (previously 15-20%), and 'Gain 5-8% Elemental Damage as Extra Chaos Damage during effect' (previously 10-15%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n}}\n{{Version history table row|3.0.0|\n* Physical Damage added as extra Chaos Damage lowered to 15-20%, Elemental Damage added as extra Chaos Damage lowered to 10-15%.\n}}\n{{Version history table row|2.0.0|\n* Multiple leech effects now stack. A single hit against multiple targets grants multiple effects, as do multiple hits against a single target.{{efn|name=Pre-2.0.0 legacy variant}}\n* All existing values of leech have been substantially reduced, including values on existing items.\n}}\n{{Version history table row|1.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==Notes==\n{{Notelist|notes=\n{{efn|name=Pre-2.0.0 legacy variant|The [[Version 2.0.0#Changes to Leech|changes to leech in version 2.0.0]] necessitated new leech modifiers. The legacy variant from before version 2.0.0 has the modifier {{ml|id=ChaosDamageLifeLeechPerMyriadWhileUsingFlaskUniqueFlask5|display=id}}, rather than {{ml|id=ChaosDamageLifeLeechPermyriadWhileUsingFlaskUniqueFlask5New|display=id}}.}}\n}}\n\n{{Navbox Unique Items}}",
+  "sha256": "cdd5350a8a216cddd869857fb8b29a58e96cf2fae7c4eedd5fbc027ee3a9d44d"
+}

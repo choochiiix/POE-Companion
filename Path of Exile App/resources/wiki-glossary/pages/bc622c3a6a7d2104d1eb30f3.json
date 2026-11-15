@@ -1,0 +1,33 @@
+{
+  "title": "Chainbreaker",
+  "pageId": 3145,
+  "revision": 1547678,
+  "timestamp": "2025-06-26T20:25:31Z",
+  "retrieved": "2026-11-14T10:09:57.334584+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Chainbreaker}}\n'''Chainbreaker''' is a {{il|Timeless Jewel}}-only [[keystone passive skill]]. It grants [[rage]] regeneration based on [[mana regeneration]], prevents mana recovery from regeneration, and adds a base [[cost]] of 3 rage to skills. Rage gained from this keystone does not delay inherent rage loss. \n\n==Mechanics==\nThe rage cost is affected by cost modifiers, such as multipliers on support gems, but also global modifiers such as {{psl|Tireless}}, {{stl|Fanaticism}}, or {{il|Indigon}}. Note that the vast majority of skill cost modifiers are specific for [[mana]], which do not apply to rage costs. \n\nNote that this passive's rage regeneration {{c|mod|Does not delay Inherent Loss of Rage}}, meaning that for rage to be gained, rage regeneration must either exceed the inherent loss per second (10 by default), or rage loss must first be delayed in another way (e.g. with {{psl|Vengeance}}). \n\n==Location==\nThis keystone will [[conquered|conquer]] any keystones within the jewel radius of a {{il|Lethal Pride}} that has modifier {{c|mod|Commanded leadership over (10000–18000) warriors under '''Akoya'''}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n*The Chainbreaker Timeless Keystone Passive has been updated to state its Rage regeneration stats do not delay the inherent Loss of Rage.\n}}\n{{Version history table row|3.19.0|\n* Chainbreaker has been reworked. It now grants 1 Rage regenerated for every 25 Mana Regeneration per second, Mana Recovery from regeneration is not applied, and Skills cost +3 Rage.\n}}\n{{Version history table row|3.14.0|\n*This Keystone no longer causes you to {{c|mod|Lose 5 Rage when you Hit an Enemy}}, but now instead has {{c|mod|Skills cost +3 Rage}}.\n*The Keystone allowed certain skills that either didn't hit such as Bane, or skills that didn't count as you such as Totems and Mines to completely bypass the downside.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Keystone passive skills]]",
+  "sha256": "35368ec2911d77dd0652ea8e62fcc048237ccecbdb7d4275d87539fff1fc312d"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Catalyst",
+  "pageId": 2959,
+  "revision": 1675910,
+  "timestamp": "2026-07-21T09:30:10Z",
+  "retrieved": "2026-11-14T10:08:34.800270+00:00",
+  "requested": [
+    "Double damage",
+    "Triple damage",
+    "Increased and reduced",
+    "More and less",
+    "Unarmed",
+    "Dual wielding",
+    "Wielding",
+    "Main hand",
+    "Off hand",
+    "Weapon range",
+    "Melee strike range",
+    "Intelligence stacking",
+    "Anoint",
+    "Catalyst",
+    "Cluster jewel",
+    "Mastery",
+    "Keystone",
+    "Notable",
+    "Passive skill",
+    "The Agnostic"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the group of currency items|the divination card|The Catalyst}}\n\n'''Catalysts''' are [[currency item]]s that add [[quality]] to [[jewellery]]. Catalyst quality on jewellery improves the effect of the implicit and explicit modifiers of the specified type, depending on the [[Modifiers#Tags|modifier tags]]. Modifier tags can be viewed by enabling Advanced Mod Descriptions in the UI options, and then holding the Alt key (default, it matches the item highlight keybind) while mousing over the item.\n\nA catalyst will increase the quality based on the [[item level]] of the item, giving a larger bonus to lower item levels, up to a maximum of 20%. See [[Quality#Amount|this table]] for the amount of quality added by a catalyst based on item level. Using a different type of catalyst on an item that already has quality will replace the quality type, starting again from 0%.\n\nCatalysts are acquired as rewards from [[Ultimatum]] encounters in maps and scale with area [[item quantity]]. {{il|Sinistral Catalyst}} and {{il|Dextral Catalyst}} are only obtainable from Ultimatum encounters in [[Mirage]] areas.\n\n==List of catalysts==\n{{main|List of catalysts}}\n{{:List of catalysts}}\n\n==Vendor recipe==\n\n{| class=\"wikitable\" style=\"width: 50%\"\n! scope=\"col\" style=\"width:50%\" |Result\n! scope=\"col\" |Recipes\n! scope=\"col\" |Notes\n|-\n|1x random Catalyst\n|\n* 3x Catalysts, all of same type\n|Cannot return a {{il|Tainted Catalyst}}, {{il|Sinistral Catalyst}}, or {{il|Dextral Catalyst}}.\n|-\n|1x Catalyst\n|\n* 20% [[quality]] {{c|normal|normal}} jewellery\n| The returned catalyst will match the quality type.\n|-\n|1x Catalyst\n|\n* Jewellery with a total of at least 40% of the same quality type\n|\n|}\n\n==Related divination cards==\nThe following [[divination card]]s can be exchanged for Catalysts:\n{{Drop enabled base item table\n|where=items.class_id=\"DivinationCard\"\n   AND items.description LIKE \"%Catalyst%\"\n|stack_size=1\n|description=1\n}}\n\n==Related scarabs==\nThe following [[scarab]]s are related to Catalysts:\n{{Drop enabled base item table\n|where = items.class_id=\"MapFragment\"\n     AND items.tags HOLDS \"scarab\"\n     AND items.description LIKE \"%Catalyst%\"\n|map_fragment_limit=1\n|large=1\n|description=1\n}}\n\n==Related Atlas passive skills==\nThe following [[Atlas passive skill]]s are related to Catalysts:\n{{Query base passive skills\n|q_where=passive_skills.stat_text LIKE \"%Catalyst%\"\n}}\n\n==Version history==\nCatalysts were introduced in [[Metamorph league]]. When the [[Metamorph]] mechanic was removed from the game, [[Ultimatum]] became its primary source.\n\nPrior to [[version 3.15.0]], catalyst quality on jewellery also increased the chances of hitting a modifier with matching tags when using an {{il|Orb of Augmentation}}, a {{il|Regal Orb}}, an {{il|Exalted Orb}}, or an [[Elderslayer's Exalted Orb]] on the item. Each time one of these currency items was used on the item, its quality percentage would be reduced.\n\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Catalysts now have a maximum stack size of 20 (previously 10).\n}}\n{{Version history table row|3.25.0|\n* Item Quality has been reworked. The rarity of the item is no longer relevant when applying Cartographer's Chisels, Blacksmith's Whetstones, Armourer's Scraps, Glassblower's Baubles, and Catalysts to non-Unique items. Instead, the amount of Quality they provide is now based on the item level. These currencies now apply 20% Quality to very low-level equipment, with this amount reducing as the item level increases.\n}}\n{{Version history table row|3.23.0|\n* Added a new {{il|Tainted Catalyst}} that can be obtained from the Trialmaster. It applies a random quality type and amount of quality to a Corrupted Ring, Amulet or Belt, and replaces other quality types.\n* [[Catalyst]]s are now rewards from Ultimatum, and are affected by Map [[Item Quantity]].\n* Metamorph rewards (Catalysts) from Heist, Expedition, Betrayal, Delirium, Legion, and Eldritch Altars have been replaced with Ultimatum rewards (Catalysts or Inscribed Ultimatums).\n* Catalysts are no longer offered as Ritual or Delirium.\n* Mysterious Incubators can no longer drop catalysts.\n* Existing Amorphous Delirium Orbs will be replaced with Challenging Delirium Orbs, which add layers of Delirium with the Ultimatum Item rewards type to Maps. This is the only source of Challenging Delirium Orbs, these are unobtainable as item drops or from any other source.\n* Existing Morphing Incubators will be replaced with Challenging Incubators, which can be added to an equippable item, dropping an Ultimatum Item after killing a certain amount of Monsters. This is the only source of Challenging Incubators, these are unobtainable as item drops or from any other source.\n* Expedition Remnant modifiers in Expedition sites that grant Runic Monsters and Chests a chance to drop Catalysts have been replaced with modifiers that drop Heist Contracts instead.\n* Reduced the amount of Catalysts obtained from Heist Chests, Expedition Chests, Betrayal Chests, and Vaal Unique Strongboxes, as well as the amount of Catalysts offered by Tujen.\n}}\n{{Version history table row|3.15.0|\n* Catalysts no longer affect the chances of rolling related modifiers on jewellery through crafting, and Quality on jewellery is no longer removed when crafting with specific Currency.\n}}\n{{Version history table row|3.14.0|\n* Added an {{il|Accelerating Catalyst}}, which adds quality that enhances Speed modifiers on a Ring, Amulet or Belt.\n* Added a {{il|Noxious Catalyst}}, which adds quality that enhances Physical and Chaos Damage modifiers on a Ring, Amulet or Belt.\n* Added an {{il|Unstable Catalyst}}, which adds quality that enhances Critical modifiers on a Ring, Amulet or Belt.\n}}\n{{Version history table row|3.9.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n{{Navbox Ultimatum}}\n{{Navbox Items}}\n{{sister|poe2wiki}}\n\n[[Category:Catalysts| ]]",
+  "sha256": "b7d26a26e25b8966b6f80f2dd1a3dca66cadd6e2ac913bbbdd3bb230c13b8fc4"
+}

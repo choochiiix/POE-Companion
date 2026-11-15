@@ -1,0 +1,24 @@
+{
+  "title": "Detonate Mines",
+  "pageId": 5015,
+  "revision": 1700807,
+  "timestamp": "2026-08-16T04:40:31Z",
+  "retrieved": "2026-11-14T10:11:25.220652+00:00",
+  "requested": [
+    "Elemental proliferation",
+    "chilling area",
+    "Explosive Toad",
+    "Enfeeble",
+    "Corpse Walk",
+    "level requirement",
+    "Lingering Blade",
+    "Detonate Mines",
+    "of Flames",
+    "projectiles",
+    "Charge Duration"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Detonate Mines\n|class_id                                = Active Skill Gem\n|size_x                                  = 1\n|size_y                                  = 1\n|drop_level                              = 8\n|tags                                    = level_capped_gem, gem, default\n|metadata_id                             = Metadata/Items/Gems/SkillGemDetonateMines\n|help_text                               = Place into an item socket to gain this skill. Right click to remove from a socket.\n|gem_tags                                = Mine, Spell\n|skill_id                                = GemDetonateMines\n|required_level                          = 8\n|level1_level_requirement                = 8\n|level2_level_requirement                = 8\n|level3_level_requirement                = 8\n|level4_level_requirement                = 8\n|level5_level_requirement                = 8\n|level6_level_requirement                = 8\n|level7_level_requirement                = 8\n|level8_level_requirement                = 8\n|level9_level_requirement                = 8\n|level10_level_requirement               = 8\n|level1_experience                       = 0\n|release_version                         = 2.0.0\n|quest_reward1_type                      = vendor\n|quest_reward1_quest                     = A Fixture of Fate\n|quest_reward1_quest_id                  = a3q12\n|quest_reward1_act                       = 3\n|quest_reward1_npc                       = Siosa\n|quest_reward2_type                      = vendor\n|quest_reward2_quest                     = Fallen from Grace\n|quest_reward2_quest_id                  = a6q4\n|quest_reward2_act                       = 6\n|quest_reward2_npc                       = Lilly Roth\n}}\n\n'''Detonate Mines''' is a [[skill gem]] that performs the same function as the gem-less detonate skill that is automatically made available when a player has used a [[mine]]. Unlike detonating mines using the hotkey, the Detonate Mines skill gem can take advantage of mechanics afforded by being linked to support gems.\n\n==Skill functions and interactions==\n* Detonate Mines is a colourless gem and can be placed into any item socket.\n\n* '''Trigger Gems''': Detonate Mines can be linked to trigger gems like {{il|Automation}}, {{il|Cast when Damage Taken Support}} or {{il|Spell Totem Support}} to allow the player to detonate mines without need to manually use a key.\n\n==Gem level progression==\n\n{{Skill progression\n}}\n\n{{Item acquisition}}\n\n==Ruthless mode==\nDetonate Mines cannot be obtained from [[quest]]s or traded for using an {{il|Uncarved Gemstone}} through [[Siosa]] in [[Ruthless mode]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.2|\n* Fixed a bug where the Triggered Detonate Mines Skill granted by the \"Detonate Mines is Triggered while you are moving\" Passive Skill Mastery would override skill bindings. This Triggered version can no longer be bound to the skill bar.\n}}\n{{Version history table row|3.8.0|\n* Added stat: {{c|mod|First Mine Detonates Instantly}} {{Undocumented}}\n* Added stat: {{c|mod|Mines get 10% more Detonation Speed for each prior Mine in Detonation Sequence}} {{Undocumented}}\n* Now grants {{c|mod|Mines have 1% increased Detonation Speed}} per 1% quality (previously {{c|mod|5% increased Cast Speed}} per 1% quality). {{Undocumented}}\n}}\n{{Version history table row|2.0.0|\n* Detonate Mines has been added to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Drop only gems]]",
+  "sha256": "5650f7b13d196aab99ad4ab2e21dbee78fa9afee6438a62ed72698c84e6872e4"
+}

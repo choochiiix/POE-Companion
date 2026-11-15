@@ -1,0 +1,35 @@
+{
+  "title": "Leer Cast",
+  "pageId": 9454,
+  "revision": 1492798,
+  "timestamp": "2024-12-18T20:47:36Z",
+  "retrieved": "2026-11-14T10:57:18.316379+00:00",
+  "requested": [
+    "Cruelty",
+    "Crusader Shrine Monster",
+    "Crusader's Shrine",
+    "Crushing Darkness",
+    "Crystalised Fear",
+    "Cube of Absorbtion",
+    "Curse Immunity",
+    "Cursed Flesh",
+    "Cyclone",
+    "Damage Aura",
+    "Damage Reduction Aura",
+    "Dancing Dervish",
+    "Dark Gift",
+    "Dark Pit",
+    "Dark Temptation",
+    "Dark Vortex",
+    "Darkness",
+    "Darktongue's Kiss",
+    "Dead Spectre",
+    "Death Draw"
+  ],
+  "aliases": [
+    "Damage Aura"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Leer Cast\n|class_id                                = Helmet\n|base_item                               = Festival Mask\n|explicit1                               = DexterityUniqueHelmetDexInt2\n|explicit2                              = AllDamageUniqueHelmetDexInt2 \n|explicit3                              = IncreasedLifeUniqueHelmetDexInt2\n|explicit4                            = IncreasedManaUniqueHelmetDexInt2\n|explicit5                               = DisplayDamageAuraUniqueHelmetDexInt2 \n|flavour_text                            = For none of us are as cruel as all of us.\n|release_version                         = 0.11.2\n}}\n\n'''Leer Cast''' is a [[unique]] {{il|Festival Mask}}.\n\n==Mechanics==\nEquipping Leer Cast applies a special [[aura]] buff \"{{stl|Damage Aura}}\" that affects the player character and nearby [[Ally|allies]]. This bonus applies to ''all'' damage, including that of [[spell]]s, [[trap]]s, and [[totem]]s.\n\nLike other similar effects (aura granted by item but not an aura ''skill'' granted by item), the aura buff won't be affected by any of the player character's aura bonuses, however, the effects will stack with other party members also equipped with Leer Cast.<ref name=stack/>\n\nHowever, since the item also has another mod {{c|mod|25% reduced Damage}} the net effect would be 25% increased Damage for the player character and 50% increased damage for the nearby allies. increase/reduce mods are additive to each other.\n\n{{status\n| name                   = Damage Aura\n| type                   = Buff\n| description            = You deal increased Damage\n}}\n\n{{Item acquisition}}\n\n==See also==\n* {{il|Replica Leer Cast}}\n\n==Legacy variants==\nLeer Cast has a [[legacy variant]].\n{{legacy variant table header}}\n{{legacy variant table row|3.19.0|\n*+(20-30) to Dexterity\n*{{c|mod|30% reduced Damage}}\n*{{c|mod|+(20-30) to maximum Life}}\n*{{c|mod|+(20-30) to maximum Mana}}\n*{{c|mod|You and nearby allies gain 15% increased Damage}}\n}}\n{{Legacy variant table end}}\n\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.0|\n* Now has {{c|mod|25% reduced Damage}} (previously 30%)\n* Now has {{c|mod|+60-100 to maximum Life}} (previously +20-30)\n* Now has {{c|mod|+60-100 to maximum Mana}} (previously +20-30)\n* Now has {{c|mod|you and nearby allies gain 50% increased Damage}} (previously 15%). \n* Existing versions of this unique can be updated to these new values using a {{il|Divine Orb}}.\n}}\n{{Version history table row|0.11.5d|\n* The Leer Cast Unique Helmet now has 25% reduced Damage (previously 30%), +60-100 to maximum Life (previously +20-30), +60-100 to maximum Mana (previously +20-30), and you and nearby allies gain 50% increased Damage (previously 15%). Existing versions of this unique can be updated to these new values using a Divine Orb.\n}}\n{{Version history table row|0.11.5d|\n* Fixed a problem with the Leer Cast aura animation.\n}}\n{{Version history table row|0.11.2|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=<ref name=stack>{{cite web|author=qarldev|date=July 15, 2013|title=Re: New Unique #3|url=https://www.reddit.com/r/pathofexile/comments/1idz8f/new_unique_3/cb3jvp3?context=3|publisher=Path of Exile Subreddit|accessdate=July 16, 2013}}</ref>}}\n\n{{Navbox Unique Items}}\n{{sister|poe2wiki}}",
+  "sha256": "d6868eb13e9b852a379d7eecdf1367a1ff12ec5a550bb90b7e3b0750b5226162"
+}

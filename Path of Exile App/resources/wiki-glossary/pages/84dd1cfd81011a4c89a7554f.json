@@ -1,0 +1,33 @@
+{
+  "title": "Bone Armour",
+  "pageId": 2310,
+  "revision": 1496468,
+  "timestamp": "2025-02-22T03:28:09Z",
+  "retrieved": "2026-11-14T10:57:13.543098+00:00",
+  "requested": [
+    "Blood Ritual",
+    "Blood Sap Tincture",
+    "Blood Shrine of Bats",
+    "Blood Shrine of Crows",
+    "Blood Shrine of Locusts",
+    "Blood Shrine of Rats",
+    "Blood Shrine of Toads",
+    "Blood Stance",
+    "Blood of the Karui",
+    "Blue Team",
+    "Boiling Blood",
+    "Bone Armour",
+    "Bone Offering",
+    "Bone Roil",
+    "Boon of Justice",
+    "Boon of the First Ones",
+    "Borealwood Tincture",
+    "Borrowed Power",
+    "Bottled Purity",
+    "Boulderdash Angry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Bone Armour\n|class_id                                = Body Armour\n|size_x                                  = 2\n|size_y                                  = 3\n|drop_level                              = 35\n|drop_rarities_ids                       = normal, magic, rare, unique\n|tags                                    = dex_int_armour, body_armour, armour, default\n|metadata_id                             = Metadata/Items/Armours/BodyArmours/BodyDexInt7\n|required_level                          = 35\n|required_dexterity                      = 53\n|required_intelligence                   = 53\n|evasion_min                             = 194\n|evasion_max                             = 233\n|energy_shield_min                       = 41\n|energy_shield_max                       = 49\n|movement_speed                          = -3\n|release_version                         = 0.10.0\n}}\n\n{{about|the body armour|the skill|Bone Armour (skill)}}\n\n'''Bone Armour''' is a [[body armour]] base type. \n\n==Modifiers==\n{{Main|List of modifiers for body armours (dexterity/intelligence)}}\n\nIt is one of the four basetypes that share the same 2D art. The other three are {{il|Crypt Armour}}, {{il|Carnal Armour}} and {{il|Necrotic Armour}}.\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Gallery==\n<gallery>\nFile:scioncarnalarmour0.png\nFile:scioncarnalarmour1.png\nFile:Scion Bone Crypt Carnal Armor 1.png\nFile:Scion Bone Crypt Carnal Armor 2.png\nFile:Scion Bone Crypt Carnal Armor 3.png\nFile:Scion Bone Crypt Carnal Armor 4.png\n</gallery>\n\n{{Navbox Items}}",
+  "sha256": "d53f5b7c51f5017a3400f4571315a583a5244b8257871ec2933a90b232cbe12d"
+}

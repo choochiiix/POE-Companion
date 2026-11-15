@@ -1,0 +1,33 @@
+{
+  "title": "Gambler's Greed",
+  "pageId": 7055,
+  "revision": 1437612,
+  "timestamp": "2024-04-19T01:11:53Z",
+  "retrieved": "2026-11-14T10:57:25.575050+00:00",
+  "requested": [
+    "Frenzied",
+    "Fright Mask",
+    "Frigid Beam",
+    "Frigid Roar",
+    "Frontal Proximity Shield",
+    "Frost Bomb",
+    "Frost Nova",
+    "Frost Shield",
+    "Frostbite",
+    "Frozen Damage Increase",
+    "Frozen Ground",
+    "Fulgurite Tincture",
+    "GREEN BUFF",
+    "Gale Force",
+    "Galvanic Field",
+    "Galvanic Flare",
+    "Galvanizing Tempest",
+    "Gambler's Greed",
+    "Garb of the Ephemeral",
+    "Garukhan's Sandstorm"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Gambler's Greed\n|type=Debuff\n|description=Items dropped by slain enemies have vastly increased quantity and rarity. You also take increased damage. ''(Ritual ver.)''<br/>You take increased damage and are slower as punishment for your greed  ''(Archnemesis ver.)''}}\n\n'''Gambler's Greed''' is a debuff that is created by an Opulent [[Ritual]].\n\nThroughout the ritual, golden showers of coins will fall from the sky, forming [[area of effect]] circles on the ground. Any player standing within will be debuffed and take extra damage from all enemies and also receives increased [[item quantity]] and [[item rarity]] from slain enemies. This debuff cannot be removed by any means except by leaving the debuffing area or completing the Ritual.\n\nSimilar debuff could also be gained by breaking Cursed Urns spawned by monsters (or players if using {{il|Headhunter}}) with \"Opulent\" [[Archnemesis modifier]]. This does not grant increased item quantity and rarity, but decreases [[action speed]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "bdd906fc24e7f48ffdde6ad77262b4b7ced4119be05f0a0854e2556ac392e906"
+}

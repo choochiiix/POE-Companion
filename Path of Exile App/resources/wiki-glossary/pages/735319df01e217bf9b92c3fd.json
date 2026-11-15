@@ -1,0 +1,33 @@
+{
+  "title": "Bismuth Flask",
+  "pageId": 1932,
+  "revision": 1488338,
+  "timestamp": "2024-10-13T03:30:36Z",
+  "retrieved": "2026-11-14T10:57:11.808494+00:00",
+  "requested": [
+    "Balek's Gift",
+    "Bane",
+    "Bane of the Loyal",
+    "Baranite Cleric's Aura",
+    "Bark",
+    "Barnacles",
+    "Baryatic Tension",
+    "Basalt Flask",
+    "Bastion of Hope",
+    "Batrachian Procession",
+    "Battlemage's Cry",
+    "Beauty Through Death",
+    "Behead",
+    "Beidat's Magnificence",
+    "Beidat's Wrath",
+    "Berserk Fury",
+    "Bestial Roar",
+    "Binding Chains",
+    "Bino's Life Regeneration",
+    "Bismuth Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Bismuth Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 8\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility15\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 8\n|flask_duration                          = 8.5\n|buff_id                                 = flask_utility_prismatic\n|buff_value1                             = 35\n|buff_stat_text                          = +35% to all [[Elemental Resistance|Elemental Resistances]]\n|charges_max                             = 40\n|charges_per_use                         = 15\n|release_version                         = 2.2.0\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Great White Beast\n|quest_reward1_quest_id                  = a2q10\n|quest_reward1_act                       = 2\n}}\n{{status\n| name                   = Bismuth Flask\n| type                   = Flask Effect\n|description             = You have additional Elemental Resistances\n}}\n\n'''Bismuth Flask''' is a [[utility flask]] base type. __NOTOC__\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.50 seconds instead.\n\n==Gallery==\n<gallery>\nBismuth Flask effect.jpg|Bismuth Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''8.5''' seconds (previously 5.5).\n}}\n{{Version history table row|3.15.0|\n* Upon completing {{ql|The Great White Beast}}, you are now also offered the choice of a {{c|magic|Magic}} '''Bismuth Flask''' as a reward.\n}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "524fa0ac86beacc5ca2ecb8adb595337c3cb9d4e857d4a340c5afc7fc855f2eb"
+}

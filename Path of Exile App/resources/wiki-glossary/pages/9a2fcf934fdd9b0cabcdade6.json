@@ -1,0 +1,33 @@
+{
+  "title": "Essence Glutton",
+  "pageId": 6018,
+  "revision": 1418997,
+  "timestamp": "2024-02-08T13:49:16Z",
+  "retrieved": "2026-11-14T10:57:22.323354+00:00",
+  "requested": [
+    "Enlarging Tempest",
+    "Enrage",
+    "Envy Aura",
+    "Eroding Touch",
+    "Escalating Ruin",
+    "Escalating Vulnerability",
+    "Essence Drain",
+    "Essence Drain Regeneration",
+    "Essence Glutton",
+    "Essence of Anger",
+    "Essence of Hatred",
+    "Essence of Misery",
+    "Essence of Wrath",
+    "Eternal Empire Aura",
+    "Eternal Scourge",
+    "Ethereal Tempest",
+    "Ethereal Tendrils",
+    "Evasion Aura",
+    "Evolving Shrine",
+    "Evolving Shrine Monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Essence Glutton}}\n\n'''Essence Glutton''' is a Notable [[Ascendancy passive skill]] for the [[Necromancer]] that grants [[energy shield]] and [[mana]] [[regeneration]] per nearby corpse to you and nearby allies, plus additional energy shield and mana regeneration to you if you've consumed a corpse in the past 2 seconds.\n\n==Ruthless mode==\n{{infocard\n|header    = Essence Glutton (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:EssenceGlutton (Necromancer) passive skill icon.png]]</div>\n|2         = Regenerate 4% of Mana over 2 seconds when you Consume a corpse<br>Regenerate 8% of Energy Shield over 2 seconds when you Consume a corpse\n}}\n\nEssence Glutton in [[Ruthless mode]] does not grant energy shield and mana regeneration for you and allies based on the number of nearby corpses.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} No longer provides \"For each nearby corpse, you and nearby Allies Regenerate 0.2% of Energy Shield per second, up to 2.0% per second\" or \"For each nearby corpse, you and nearby Allies Regenerate 5 Mana per second, up to 50 per second\" in Ruthless.\n}}\n{{Version history table row|3.14.0|\n* Now causes you to Regenerate 4% of Mana over 2 seconds when you Consume a corpse (previously 8%).\n}}\n{{Version history table row|3.13.0|\n* Removed {{c|mod|20% increased maximum Mana}}\n}}\n{{Version history table row|3.8.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "1911a38a9cdbc8eb67670144e2ef74a143deb0529177e3d09b932a6729c244fd"
+}

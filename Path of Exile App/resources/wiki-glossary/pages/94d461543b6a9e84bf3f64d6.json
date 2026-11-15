@@ -1,0 +1,33 @@
+{
+  "title": "Ashbark Tincture",
+  "pageId": 119650,
+  "revision": 1549532,
+  "timestamp": "2025-07-10T20:58:57Z",
+  "retrieved": "2026-11-14T10:57:10.190515+00:00",
+  "requested": [
+    "Arakaali Shrine",
+    "Arc Trap",
+    "Arcane Cloak",
+    "Arcane Tempest",
+    "Arcanist Brand",
+    "Arctic Armour",
+    "Arena Master's Presence",
+    "Armageddon Brand",
+    "Arohongui's Blessing",
+    "Arohongui's Moonlight",
+    "Arrogance of the Vaal",
+    "Ascendancy Effect",
+    "Ascendancy Effect (Invisible)",
+    "Ascendancy Effect (invisible)",
+    "Ashbark Tincture",
+    "Aspect of Arakaali",
+    "Aspect of Lunaris",
+    "Aspect of Solaris",
+    "Aspect of the Brine King",
+    "Assassin's Blade"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Ashbark Tincture\n|class_id                                = Tincture\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 32\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = tincture, default\n|metadata_id                             = Metadata/Items/Tinctures/Tincture4\n|help_text                               = Right click to activate. Only one Tincture in your belt can be active at a time. Mana Burn causes you to lose 1% of your maximum Mana per stack per second. Can be deactivated manually, or will automatically deactivate when you reach 0 Mana.\n|implicit1                               = TinctureChanceToIgniteImplicit1\n|required_level                          = 32\n|tincture_mana_burn                      = 0.6\n|tincture_cooldown                       = 7\n|release_version                         = 3.23.0\n}}\n\n'''Ashbark Tincture''' is a [[tincture]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for tinctures}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n\n==Version history==\nDuring [[Affliction league]], Ashbark Tincture could be purchased from [[the Warden of Eaves]] for {{il|Vivid Wisps}}. Ashbark Tincture allowed to [[ignite]] with any type of damage and was {{c|mod|unmodifiable}}.\n\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* [[Tincture]]s have been added to the core game, with adjusted mechanics.\n}}\n{{Version history table row|3.23.2c|\n* [[Affliction league]] content was not added to the core game.<ref name=\"Affliction league end\" />\n* [[Charm]]s and [[Tincture]]s will be deleted upon logging in.\n}}\n{{Version history table row|3.23.0|\n* Introduced to the game in Affliction league.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Affliction league end\">{{cite web\n| author = Community_Team\n| date = March 13, 2024\n| title = What Will Happen When Affliction League Ends\n| url = https://www.pathofexile.com/forum/view-thread/3495841\n| publisher = Official Path of Exile Forums\n| accessdate = April 20, 2024\n}}</ref>\n}}\n\n{{Navbox Items}}\n[[Category:Affliction]]",
+  "sha256": "39bb06000577f9ed935a8e0ffaf0f6de293499b9fafeed94e8a34098d099fe34"
+}

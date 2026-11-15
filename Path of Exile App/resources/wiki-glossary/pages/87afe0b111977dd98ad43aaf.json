@@ -1,0 +1,35 @@
+{
+  "title": "Eroding touch",
+  "pageId": 5989,
+  "revision": 1493807,
+  "timestamp": "2025-02-06T20:46:53Z",
+  "retrieved": "2026-11-14T10:57:22.323354+00:00",
+  "requested": [
+    "Enlarging Tempest",
+    "Enrage",
+    "Envy Aura",
+    "Eroding Touch",
+    "Escalating Ruin",
+    "Escalating Vulnerability",
+    "Essence Drain",
+    "Essence Drain Regeneration",
+    "Essence Glutton",
+    "Essence of Anger",
+    "Essence of Hatred",
+    "Essence of Misery",
+    "Essence of Wrath",
+    "Eternal Empire Aura",
+    "Eternal Scourge",
+    "Ethereal Tempest",
+    "Ethereal Tendrils",
+    "Evasion Aura",
+    "Evolving Shrine",
+    "Evolving Shrine Monster"
+  ],
+  "aliases": [
+    "Eroding Touch"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Eroding Touch\n| type                   = Debuff\n| description = You are taking increased Damage. This debuff is removed when you stop being Delirious.\n| bonuses = {{c|mod|6% increased damage taken}}\n}}\n\n'''Eroding Touch''' is a timed [[debuff]] caused by monsters with [[Delirium]] modifier of [[Modifier:MonsterAfflictionMagicRewardDebuffDamageTaken|the same name]]. The player character takes increased damage. It can stack up to 10 times.\n\n==See also==\n* [[Beacon of Madness]] unique boots\n** {{sl|Embrace Madness}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0d|\n* Delirium modifiers are now applied on a per-pack basis. This means that a given pack of monsters will only have a single Delirium modifier, rather than potentially having a variety of different modifiers.\n* Significantly reduced the chance of Delirium modifiers appearing on monsters.\n}}\n{{Version history table row|3.10.0c|\n* Reduced the duration of the [[Wasting Touch]], [[Paralysing Touch]], '''Eroding Touch''' and [[Diluting Touch]] debuffs to three seconds.\n}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "d4b8a9133cb5f8b47cc31f9cd686f2aa82d10aec007ca90b961b6bb1a7144f78"
+}

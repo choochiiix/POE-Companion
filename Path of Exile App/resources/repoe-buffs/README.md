@@ -1,0 +1,9 @@
+# RePoE buff sources
+
+Source index: https://repoe-fork.github.io/poe1.html (label 3.29.3.6). Imported November 14, 2026. Raw `buffs.json`, `buff_visuals.json`, and `buff_visuals.html` are preserved here. The HTML is reference only; its scripts are never loaded into the companion. Buff records reference visual IDs, whose `icon` paths identify the corresponding PNG in the same RePoE artwork repository. All 839 distinct icon paths were cached successfully; shared icons are stored once, keyed by SHA-256 of the original path. Paths containing spaces are URL-encoded during download.
+
+`scripts/build-buffs.py` rebuilds entirely offline unless `--download` is passed. It generates `crafting-ui/buff-data.json` and `resources/buff-import-report.json`; the report retains source file hashes, source icon URLs, output hashes and failures. Missing names/descriptions/icons are not fabricated. Buffs, debuffs, flask effects and hidden/internal records all occur in this source; category labels retain that distinction. Some status descriptions are conditional or parameterized and are not a full simulation.
+
+Data and artwork are Grinding Gear Games material. Retain existing RePoE provenance/license notices in `data-sources/repoe-poe1/` and project resources. These are explicitly downloaded development snapshots, not runtime internet dependencies. Existing unique/gem artwork and reference archives are untouched.
+
+Mechanical effect enrichment: `scripts/buff-effects.py` preserves exact template/source variants and stat IDs, with an unresolved audit in `resources/buff-effects-report.json`. Related wiki excerpts are cached under `resources/wiki-glossary/pages/`, carry revision/hash provenance and CC BY-NC-SA 3.0 attribution, and are explicitly unreviewed context. Run with `--download` only for an intentional network refresh; default builds are offline. Values from one source variant are never assigned universally to a buff name.

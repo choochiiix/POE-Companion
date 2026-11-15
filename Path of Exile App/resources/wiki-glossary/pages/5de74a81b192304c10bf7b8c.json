@@ -1,0 +1,33 @@
+{
+  "title": "Range",
+  "pageId": 13375,
+  "revision": 1658905,
+  "timestamp": "2026-06-17T07:22:59Z",
+  "retrieved": "2026-11-14T10:09:59.980260+00:00",
+  "requested": [
+    "burning damage",
+    "damage type",
+    "Conflux",
+    "skill effect duration",
+    "monster",
+    "flee",
+    "3.16.0",
+    "luck",
+    "buff",
+    "reflected damage",
+    "Temporal Chains",
+    "damage",
+    "critical strike chance",
+    "range",
+    "Flask",
+    "Instant",
+    "channelling",
+    "Repeat",
+    "Guard Skill",
+    "Focus"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "[[File:Range visualized.jpeg|thumbnail|right|Range visualized with an image overlay.]]\n{{For|area of effect of skills |Area of Effect}}\nThe '''range''' of a [[skill]] or effect is the maximum [[Distance]] it can influence anything from its point of origin.\n\n==Mechanics==\n[[Melee]] [[attack]]s have a relatively short range determined by adding weapon range to the radius of a character's hitbox (which is 2), though it can be greatly extended by utilizing certain passives and items. Maximum travel [[distance]] for projectiles is 15 metres<ref>https://www.pathofexile.com/forum/view-thread/1676002/page/81#p13504526</ref> for each instance of movement <ref>https://www.reddit.com/r/pathofexile/comments/lvfk8k/comment/gpd63ub/?utm_source=share&utm_medium=web2x&context=3</ref>, although many projectiles in the game dissipate before reaching it, which limits their effective range. Effects such as fork, chain, or split, would count as new instances of movement, allowing projectiles to travel further than 15 total metres.\n\nRange of melee attacks can be improved with various [[passive skill]]s and items. Range bonuses provided by passive tree, jewels and non-weapon equipment are global, meaning they will apply to both weapons if dual-wielding. However, range bonuses on weapons, including corrupted implicits, crafted bonuses or ones on uniques like {{il|Wideswing}} or {{il|Atziri's Disfavour}} are local and will extend the range only for the weapon they are located on, with the notable exception of {{il|Prismatic Eclipse}}, which offers a global bonus.\n\n===Dual Wielding===\nWhen dual-wielding weapons with different range, the range used is dependent on the skill.<ref>https://www.youtube.com/watch?v=3LMcPPPeetM</ref>\n* For skills that alternate hands, the hand used uses its respective weapon range.\n* {{il|Viper Strike}} alternates weapon ranges.\n* {{il|Dual Strike}} always uses the longer weapon range.\n\n===Attack Range and Area of Effect Radius===\nAttack skills that create an AoE anchored on your character, like {{il|Cleave}}, {{il|Sweep}} or {{il|Ground Slam}} are completely unaffected by attack range. {{il|Cyclone}} receives increased area of effect from additional Melee Strike Range and additional Weapon Range (none from base Weapon Range). Radius of skills that create an area of effect on the point of impact, like {{il|Molten Strike}} or single target skills supported by {{il|Melee Splash}} is also unaffected by attack range, however it does allow you to attack from a greater distance, pushing the AoE further from you, potentially affecting more enemies.\n\n==Weapon range==\nWeapons have the following base ranges:\n<section begin=weapon_range />\n{{#cargo_query:\n|tables = items, weapons\n|join on = items._pageID=weapons._pageID\n|fields = items.class=Item class, weapons.weapon_range=Range\n|where = items.rarity_id = \"normal\"\n  AND weapons.weapon_range IS NOT NULL\n  AND items._pageNamespace = 0\n|group by = items.class\n|order by = weapons.weapon_range\n}}<section end=weapon_range />\n===Related unique items===\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%metres%weapon%Range%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\nSee also {{section link|Strike|Related unique items}} for unique that alter melee strike range\n\n==Passives==\n===Melee strike range===\n{{Query passive skills\n|where=\n  passive_skill_stats.id LIKE \"%melee_range%\"\n}}\n\n===Brand attachment range===\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%sigil_target_search_range%\"\n}}\n\n===Chaining range===\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%chaining_range%\"\n}}\n\n==References==\n{{reflist|refs=\n<!--\n<ref name=\"WeaponRange\">{{cite web|author=Mark_GGG|date=October 31, 2013|title=Mechanics thread|url=http://www.pathofexile.com/forum/view-thread/11707/page/226#p5041495|publisher=Path of Exile Forums|accessdate=February 20, 2016}}</ref>\n-->\n}}\n\n[[Category:Game mechanics]]",
+  "sha256": "52bdcc72a878dfcd7c7e6dbd36f9b957cdafd56f00ea5ac94af1ea1002ac608d"
+}

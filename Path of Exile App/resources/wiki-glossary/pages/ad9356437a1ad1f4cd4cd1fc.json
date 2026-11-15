@@ -1,0 +1,33 @@
+{
+  "title": "Greater Skeletal Shrine",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:57:27.133501+00:00",
+  "requested": [
+    "Grasping Pincers",
+    "Grasping Tentacles",
+    "Gravekeeper's Boon",
+    "Gravity Well",
+    "Greater Freezing Shrine",
+    "Greater Lightning Shrine",
+    "Greater Skeletal Shrine",
+    "Green Effluent",
+    "Ground Spores",
+    "Gruesome Grafts",
+    "Gruthkul's Despair",
+    "Haemolytic Aura",
+    "Hallucination",
+    "Hare Foot",
+    "Harmony of Purpose",
+    "Haste Aura",
+    "Hatred Aura",
+    "Headhunter",
+    "Healing",
+    "Heart of the Gargoyle"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

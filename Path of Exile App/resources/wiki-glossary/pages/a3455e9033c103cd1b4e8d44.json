@@ -1,0 +1,33 @@
+{
+  "title": "Fanaticism",
+  "pageId": 6371,
+  "revision": 1699114,
+  "timestamp": "2026-08-05T16:16:03Z",
+  "retrieved": "2026-11-14T10:11:19.036282+00:00",
+  "requested": [
+    "Ursa",
+    "Ground Slam",
+    "Warcries",
+    "Retaliation",
+    "Daggers",
+    "Claws",
+    "Divinity",
+    "ranger",
+    "Shepherd of Souls",
+    "Fanaticism",
+    "Enchantments",
+    "Vaal skill gem",
+    "Gluttony of Elements",
+    "Harbinger",
+    "Dominus",
+    "Silence",
+    "smoke cloud",
+    "Vaal Gem",
+    "Sextant",
+    "conquered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Fanaticism\n| type                   = Buff\n| description = Spells you cast yourself have more Cast Speed, less Cost, and increased Area of Effect\n| bonuses = 75% more Cast Speed<br/>75% Less Cost<br/>75% increased Area of Effect\n}}\n'''Fanaticism''' is a [[buff]] that grants more [[cast]] speed, less [[cost]], and increased [[area of effect]] for [[skill]]s you cast yourself. It is exclusive to the {{psl|Instruments of Zeal}} [[ascendancy passive skill]].\n\n==Mechanics==\nFanaticism is granted to the [[character]] for 5 seconds upon reaching maximum {{stl|Fanatic Charge}}s. With {{psl|Instruments of Zeal}} allocated, the [[character]] gains 1 Fanatic Charge each second if they had [[attack|attacked]] in the past second, up to a base maximum of 3. All Fanatic Charges are lost upon reaching Maximum Fanatic Charges.\n\nThe \"75% less cost\" does not apply to soul cost of [[Vaal skill]]s.\n\nThe duration cannot be extended by any means like {{il|Runegraft of the Warp}}, {{stl|Shaper's Presence}} or self curse {{il|Temporal Chains}}.\n\n{{il|Ichimonji}} increases the buff effect.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* The Instruments of Zeal Notable Passive Skill now grants +3 to Maximum Fanatic Charges (previously +4). The Fanaticism Buff now lasts for 5 seconds (previously 4), and now grants 75% less Cost of Spells you cast yourself (previously 75% reduced).\n}}\n{{Version history table row|3.14.1|\n* Clarified that Fanaticism grants reduction of all costs (not only mana costs). This is purely a description change.\n}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Buffs]]",
+  "sha256": "5f148818b2228ba7f973fc7fc344b3df0d8eb370099cb85d646b694919e07a9b"
+}

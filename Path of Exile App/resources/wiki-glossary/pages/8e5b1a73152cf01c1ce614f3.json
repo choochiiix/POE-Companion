@@ -1,0 +1,33 @@
+{
+  "title": "Fork",
+  "pageId": 6824,
+  "revision": 1702252,
+  "timestamp": "2026-09-02T19:40:51Z",
+  "retrieved": "2026-11-14T10:08:31.483135+00:00",
+  "requested": [
+    "Mine",
+    "Minion",
+    "Golem",
+    "Spectre",
+    "Sentinel",
+    "Brand",
+    "Banner",
+    "Herald",
+    "Offering",
+    "Trigger",
+    "Channelled skill",
+    "Projectile",
+    "Chain",
+    "Fork",
+    "Pierce",
+    "Split",
+    "Return",
+    "Area of effect",
+    "Duration",
+    "Damage over time"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the projectile behaviour|the support gem|Fork Support}}\n\n'''Fork''' is a behaviour of [[projectile]]s that causes them to split into two identical projectiles when they [[hit]] a target.\n\n==Mechanics==\nA projectile can '''Fork''' after it collides with an enemy for the first time and does not [[split]] or [[pierce]]. By default, forked projectiles are divided into two new projectiles which continue travelling at 60 and -60 degree angles from the projectile's original trajectory. This angle can be modified by modifiers to \"Projectile Fork angle\", and it is possible to create up to 1 additional projectile while forking with certain stats; this will create a third projectile continuining the original projectile trajectory (i.e. firing at -60, 0, and +60 degrees).\n\nA projectile can only fork once unless a source of {{c|mod|Projectiles from Supported Skills can Fork an additional Time}} is available. Fork can make projectiles travel further than the projectile maximum travel distance of 15 meters since the forked projectiles count as new instances of movement. <ref>https://www.reddit.com/r/pathofexile/comments/lvfk8k/comment/gpd63ub/?utm_source=share&utm_medium=web2x&context=3</ref>. \n\nOnly one projectile behaviour can be applied each time a projectile hits a target. Fork has third priority for projectile behaviours, preceded by #1 [[Split]], #2 [[pierce]], and followed by #4 [[chain]] and #5 [[return]]. This means that if you had split, pierce, chain, and fork supporting the same skill, it would first split from the monster, then pierce to it's maximum number of pierces, then fork, then chain to its maximum number of chains.\n\nProjectiles apply their on-hit effects to each target they fork on or otherwise hit. For example, {{il|Essence Drain}} will apply its debuff to each target a projectile hits. Skills such as {{il|Ice Shot}} and {{il|Kinetic Blast}} apply their on-hit [[area damage]] effects each time a projectile hits a target. The [[Projectile#Explosions|explosion]] behaviour of some projectiles, such as {{il|Fireball}} and {{il|Arctic Breath}}, is not an on-hit effect and occurs only when a projectile ceases to exist.\n\n==Skill gems==\n===Skill gems===\n{{Query stat related skill gems\n|type=active\n|stat_id_query=%fork%\n|stat_page=fork\n}}\n\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%fork%\n|stat_page=fork\n}}\n\n==Unique items==\nThe following [[unique item]]s are related to fork:\n{{Drop enabled unique item table\n|tables = item_stats\n|join = item_stats._pageName=items._pageName\n|where = \n     item_stats.id LIKE \"%fork%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Passive skills==\n===Base passive skills===\nThe following [[passive skill]]s are related to fork:\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%fork%\"\n}}\n\n===Cluster Jewel keystone passive skills===\nThe following [[Cluster Jewel]] [[keystone passive skill]]s are related to fork:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 1\n     AND passive_skills.stat_text LIKE \"%fork%\"\n|large=1\n|stat_text=1\n}}\n\n===Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%fork%\"\n|large=1\n|description=1\n}}\n\n==References==\n{{reflist}}\n\n{{sister|poe2wiki}}\n\n[[Category:Projectile behaviors]]",
+  "sha256": "a0bfab1635a581c6b347dfff0fc7cf604529f55414db78a78e9b06c3c7e36ef3"
+}

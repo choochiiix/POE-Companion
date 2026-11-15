@@ -1,0 +1,33 @@
+{
+  "title": "Jade Flask",
+  "pageId": 8948,
+  "revision": 1648593,
+  "timestamp": "2026-05-11T12:25:18Z",
+  "retrieved": "2026-11-14T10:57:31.007163+00:00",
+  "requested": [
+    "Intensity",
+    "Intervention",
+    "Intimidating Cry",
+    "Intuitive Link",
+    "Invulnerability",
+    "Invulnerable",
+    "Iron Flask",
+    "Iron Manacles",
+    "Ironwood Tincture",
+    "Izaro Damage",
+    "Izaro Damage Taken",
+    "Izaro Speed",
+    "Jade Flask",
+    "Jewel Mod Thief",
+    "Jolt",
+    "K'Tash's Anger",
+    "K'Tash's Magnificence",
+    "Kahuturoa's Leadership",
+    "Kalisa's Grace",
+    "Kalisa's Joy"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Jade Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility9\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 27\n|flask_duration                          = 6\n|buff_id                                 = flask_utility_evasion\n|buff_value1                             = 1500\n|buff_stat_text                          = +1500 to [[Evasion Rating]]\n|charges_max                             = 60\n|charges_per_use                         = 30\n|release_version                         = 1.0.0\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Key to Freedom\n|quest_reward1_quest_id                  = a5q2\n|quest_reward1_act                       = 5\n|quest_reward2_type                      = quest\n|quest_reward2_quest                     = The Silver Locket\n|quest_reward2_quest_id                  = a7q5\n|quest_reward2_act                       = 7\n|recipe1_part1_item_name                 = Ruby Flask\n|recipe1_part1_amount                    = 1\n|recipe1_part1_notes                     = {{ml|FlaskBuffEvasionWhileHealing}}\n|recipe1_part2_item_name                 = Sapphire Flask\n|recipe1_part2_amount                    = 1\n|recipe1_part2_notes                     = {{ml|FlaskBuffEvasionWhileHealing}}\n|recipe1_part3_item_name                 = Topaz Flask\n|recipe1_part3_amount                    = 1\n|recipe1_part3_notes                     = {{ml|FlaskBuffEvasionWhileHealing}}\n|recipe1_description                     = Flasks must have {{c|mod|of Reflexes}} modifier\n}}\n{{status\n| name                   = Jade Flask\n| type                   = Flask Effect\n| description = You have additional Evasion Rating\n}}\n\n'''Jade Flask''' is a [[utility flask]] base type. __NOTOC__\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\nIt can also be purchased from town NPC by random. E.g. [[Bestel]] (Act 6), [[Yeena]] (Act 7), [[Clarissa]] (Act 8), [[Petarus and Vanja]] (Act 9)\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Gallery==\n<gallery>\nJade Flask effect.jpg|Jade Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''6''' seconds (previously 4).\n}}\n{{Version history table row|3.15.0|\n* Jade Flask now grants +1500 to Evasion Rating (previously 3000).\n* Upon completing {{ql|The Key to Freedom}}, you are now offered a choice of the following rewards: {{il|Ruby Flask}}, {{il|Sapphire Flask}}, {{il|Topaz Flask}}, {{il|Amethyst Flask}}, {{il|Diamond Flask}}, {{il|Granite Flask}}, or '''Jade Flask'''.\n}}\n{{Version history table row|3.0.0|\n* Now a quest reward of {{ql|The Silver Locket}}\n}}\n{{Version history table row|2.2.0|\n* Jade Flasks now lasts 4 seconds (down from 5 seconds) and consume 30 of 60 charges (down from 40 of 60).\n}}\n{{Version history table row|1.1.0|\n* {{il|Sanctified Life Flask}}, {{il|Sanctified Mana Flask}}, '''Jade Flask''', and {{il|Quartz Flask}} can now drop in all leagues.\n}}\n{{Version history table row|1.0.0|\n* Introduced to the game as Domination and Nemesis leagues specific item.\n}}\n{{Version history table end}}",
+  "sha256": "eed3d619eb7828c0eee89af7c7585807acd9eedacae24bf5d9058e33573a8afc"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Summon Bestial Rhoa",
+  "pageId": 16010,
+  "revision": 1649377,
+  "timestamp": "2026-05-22T23:39:48Z",
+  "retrieved": "2026-11-14T10:10:03.371936+00:00",
+  "requested": [
+    "Jewel",
+    "Modifiers",
+    "item quantity",
+    "Mirage",
+    "Item Quantity",
+    "Support gems",
+    "Buff",
+    "Experience",
+    "Helmet",
+    "gems",
+    "Life Flask",
+    "Animate Guardian's Weapon",
+    "Bestial Rhoa",
+    "Bestial Snake",
+    "Bestial Ursa",
+    "Manifest Dancing Dervish",
+    "Spectral Wolf",
+    "Spectral Tiger",
+    "Raise Spiders",
+    "Summon Harbinger of Brutality"
+  ],
+  "aliases": [
+    "Bestial Rhoa"
+  ],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonBeastialRhoa}}\n'''Summon Bestial Rhoa''' is a [[spell]] that summons an allied [[Rhoa]] [[minion]]. The skill is solely available through {{il|page=Yriel's Fostering (Rhoa)}} (Bestial Rhoa variant). \n\n==Skill Functions and Interactions==\nThe summoned Rhoa can use a charge attack, and has an [[aura]] that [[intimidate]]s nearby enemies. Like the other [[bestial minion]]s, the Rhoa's hits cannot be evaded.\n\n==Acquisition==\nSummon Bestial Rhoa can only be obtained by equipping {{il|page=Yriel's Fostering (Rhoa)}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.9.0|\n* Now immune to damage and cannot be targeted by enemies.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "b25c647627f2b49f399d96edd0ce85986690c8cce04d726f7f330f096a297113"
+}

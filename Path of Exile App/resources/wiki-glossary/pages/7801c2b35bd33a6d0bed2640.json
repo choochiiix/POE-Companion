@@ -1,0 +1,33 @@
+{
+  "title": "Golem",
+  "pageId": 7473,
+  "revision": 1702428,
+  "timestamp": "2026-09-16T21:05:03Z",
+  "retrieved": "2026-11-14T10:08:31.483135+00:00",
+  "requested": [
+    "Mine",
+    "Minion",
+    "Golem",
+    "Spectre",
+    "Sentinel",
+    "Brand",
+    "Banner",
+    "Herald",
+    "Offering",
+    "Trigger",
+    "Channelled skill",
+    "Projectile",
+    "Chain",
+    "Fork",
+    "Pierce",
+    "Split",
+    "Return",
+    "Area of effect",
+    "Duration",
+    "Damage over time"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{For|the creature type|Golem (monster type)}}\n\n'''Golems''' are a type of [[minion]]. [[Transfigured gem|Non-transfigured]] versions of golems provide a [[buff]] to its owner while alive (exception: Summon Carrion Golem); multiple copies of the same golem will not stack the buffs. A player can have a maximum of one active Golem by default.\n\n==List of golem skill gems==\n{{Drop enabled gem table\n|where=items.name LIKE \"%Golem%\"\n}}\n\n==Golem limit==\nThe maximum number of active golems can be increased with the following:\n{| class=\"wikitable\"\n! Name\n! Additional Golems\n|-\n| \"of Hordes\" [[transfigured gem]]s\n| +2\n|-\n| Notable passive {{psl|Golem Commander}}\n| +1\n|-\n| [[Ascendant]] notable passive {{psl|id=AscendancyAscendant38}}\n| +1\n|-\n| [[Elementalist]] notable passive {{psl|Liege of the Primordial}}\n| +2\n|-\n| {{il|Clayshaper}}\n| +1, or +2 if dual-wielded\n|-\n| [[Foulborn unique item|Foulborn]] {{il|Midnight Bargain}}\n| +2, or +4 if dual-wielded\n|-\n| {{il|The Anima Stone}}\n| +1 if equipping or socketing three or more Primordial items\n|-\n| {{il|The Primordial Chain}}\n| +3, or +4 if corrupted with {{il|Volatile Vaal Orb}}\n|-\n| {{il|Congregation Support}}\n| +48% for gem level 7 for an [[Elementalist]] or +50% for gem level 8 for an [[Ascendant]]/other classes (e.g. socketed into corrupted {{il|Dialla's Malefaction}})\n|-\n| {{il|The Dark Monarch}} with {{c|mod|Maximum number of Golems is Doubled}}\n| x2\n|}\nThis allows for a theoretical maximum of 44 golems as an [[Elementalist]], 42 golems as an [[Ascendant]] and 38 golems as every other remaining class.\n\nWhen the player has multiple of the same golems, their buffs don't stack.\n\n==Unique items==\nThe table below lists [[unique items]] that are related to Golems:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%golem%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\n===Passive skills===\nThe following [[passive skill]]s are dedicated to Golems:\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%Golem%\"\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are dedicated to Golems:\n\nPlease note that Ascension passives that buff [[Minion|minions]] in general aren't listed here.{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%Golem%\"\n}}\n\n===Cluster jewel passives===\nThe following [[cluster jewel]]-only passives are related to Golems:\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skills.stat_text LIKE \"%golem%\"\n|large=1\n|stat_text=1\n}}\n\n==Item Modifiers==\n\nThe following item modifiers are related to Golems:\n<div class=\"responsive-table-container\">\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%golem%\" AND mods.domain = 1 AND mods.generation_type NOT IN (\"10\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}</div>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Stone Golems now regenerate 2% of their Life per second (previously 1%).\n* Carrion, Chaos, Flame, Ice and Lightning Golems now regenerate 1% of their Life per second\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Allies]]\n[[Category:Buffs]]\n[[Category:Gem tags]]",
+  "sha256": "2a5c7ff1e0b7c090d94847f4ed7c1ae4490f93a48f577319604a4e5cb8d639ce"
+}

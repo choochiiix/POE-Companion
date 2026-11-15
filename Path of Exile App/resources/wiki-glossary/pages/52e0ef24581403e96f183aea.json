@@ -1,0 +1,33 @@
+{
+  "title": "Violent Desire",
+  "pageId": 135759,
+  "revision": 1649471,
+  "timestamp": "2026-05-22T23:41:54Z",
+  "retrieved": "2026-11-14T10:57:52.315847+00:00",
+  "requested": [
+    "Valdo's Brilliance",
+    "Vampiric Link",
+    "Veiling Tempest",
+    "Vengeful Cry",
+    "Venom Gyre Blades",
+    "Venomous Web",
+    "Verdant Spores",
+    "Verisium Energy",
+    "Vessel of Vinktar",
+    "Victario's Flight",
+    "Vile Bastion",
+    "Vilenta's Beam",
+    "VinktarLightningBond",
+    "Violent Desire",
+    "Violent Retaliation",
+    "Virulence",
+    "Viscous Swamp",
+    "Vitality Aura",
+    "Vivid Malady",
+    "Void Arrows"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Historical content}}\n{{Skill infobox|id=GraftSkillUulNetolImpaleBuff}}\n\n'''Violent Desire''' is a [[graft skill]] used by {{il|Impaling Uulgraft|Impaling Uulgrafts}}.\n\n__TOC__\n\n==Skill functions and interactions==\n\n==Skill level progression==\n{{Skill progression\n|skill_id=GraftSkillUulNetolImpaleBuff\n|c1_abbr              = Impale<br>effect\n  |c1_header          = Buff grants x% increased effect of Impale\n  |c1_pattern_extract = Buff grants (%d+)%% increased effect of Impale\n  |c1_pattern_value   = %d%%\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* Introduced to the game in Keepers league.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Graft skills]]",
+  "sha256": "263ecbfc0806a663a41a7f44de6d8f194e787c7ffc5c8b634a93176f8a74fc95"
+}

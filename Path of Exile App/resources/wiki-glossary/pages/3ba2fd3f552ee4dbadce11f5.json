@@ -1,0 +1,33 @@
+{
+  "title": "Portal Shredder",
+  "pageId": 12736,
+  "revision": 1489414,
+  "timestamp": "2024-10-13T04:10:12Z",
+  "retrieved": "2026-11-14T10:57:37.224612+00:00",
+  "requested": [
+    "Piety's Rage",
+    "Pinned",
+    "Plague",
+    "Plague Bearer",
+    "Plaguebringer",
+    "Players Increased",
+    "Poacher's Mark",
+    "Poison Immunity",
+    "Poisonberry Tincture",
+    "Poisoned Faith",
+    "Poisoned Water",
+    "Polymorphed",
+    "Portal Shredder",
+    "Portent Vapors",
+    "Possession",
+    "Precision Aura",
+    "Preserving Stillness",
+    "Pride",
+    "Primal Aegis",
+    "Primal Malady"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Portal Shredder\n|class_id                                = LabyrinthTrinket\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = The best way to keep out an unwanted guest<br>Is to simply close the door.\n|drop_level                              = 1\n|tags                                    = default\n|metadata_id                             = Metadata/Items/QuestItems/Labyrinth/Trinkets/PortalShredder\n|description                             = The next Portal you hit will be killed instantly\n|release_version                         = 2.2.0\n}}\n{{status\n| name                   = Portal Shredder\n| type                   = Buff\n}}\n'''Portal Shredder''' is a [[Labyrinth trinket]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "5a7be915225dccff505ffd1a0f102caf4d2acbcced08105038f635a5b449c3a6"
+}

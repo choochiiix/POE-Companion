@@ -1,0 +1,33 @@
+{
+  "title": "Endurance",
+  "pageId": 5898,
+  "revision": 1193737,
+  "timestamp": "2022-07-25T03:25:25Z",
+  "retrieved": "2026-11-14T10:11:23.478596+00:00",
+  "requested": [
+    "Element",
+    "Cruel",
+    "Ghost Shroud",
+    "Reflect",
+    "unique jewel",
+    "caustic ground",
+    "Elemental Relic",
+    "Endurance",
+    "Ailments",
+    "recharge",
+    "One-Handed",
+    "Abyssal socket",
+    "amulets",
+    "rings",
+    "quivers",
+    "Two-Handed",
+    "Monsters",
+    "Spawn",
+    "influence",
+    "unique monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the divination card|The Endurance}}\n\n{{Passive skill box|Endurance}}\n\n'''Endurance''' is a [[notable passive skill]] that grants an additional maximum [[endurance charge]].\n\n==Anointment==\n[[Blight (game mechanic)|Blight]] [[anointment]] to unlock the passive:\n\n{{Blight crafting table\n|id=0\n|type=0\n|no_html=1\n|q_where=passive_skills.id = \"maximum_endurance_charges132\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|?|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "6cdf51c119229c2355979e67dcf51437daf15c390bc5d74f23fef0367c95a166"
+}

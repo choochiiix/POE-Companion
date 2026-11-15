@@ -1,0 +1,35 @@
+{
+  "title": "Uhtred, Covetous Traitor",
+  "pageId": 76674,
+  "revision": 1648531,
+  "timestamp": "2026-05-09T22:28:31Z",
+  "retrieved": "2026-11-14T10:11:14.753900+00:00",
+  "requested": [
+    "support",
+    "spells",
+    "increased",
+    "more",
+    "Unique",
+    "Wrath",
+    "Hatred",
+    "Anger",
+    "Chaotic Might",
+    "Shaper item",
+    "Soul Gain Prevention",
+    "Fortification",
+    "Utility flask",
+    "Inspiration Charge",
+    "Cooldown Recovery Rate",
+    "enemy",
+    "movement",
+    "chest",
+    "Uhtred",
+    "Vorana"
+  ],
+  "aliases": [
+    "Uhtred"
+  ],
+  "missing": false,
+  "wikitext": "{{for|the Nightmare map boss|Citadel Map}}\n{{MonsterBox\n| name = Uhtred, Covetous Traitor\n| rarity = Boss\n| image = \n| level = \n| location = [[Precursor Shrine]] ([[Expedition Logbook]])\n| quest = \n| health = \n| damage = Cold\n| aps = \n| resistance = 50% [[Fire]] <br> 50% [[Cold]] <br> 50% [[Lightning]] <br> 30% [[Chaos]]\n| modifier = [[Modifier:MonsterGainLifeAsWardBoss|Gain base Ward equal to 5% of Maximum Life; no Energy Shield]] <br> [[Modifier:CannotBeSlowedBelowValueBosses|Cannot Be Fully Slowed]] <br> [[Modifier:ImmuneToKnockback|Immune To Knockback]]\n| skill = \n| aura = \n| metadata_id = Metadata/Monsters/LeagueExpedition/ApparitionBoss/ApparitionExpedition\n}}\n'''Uhtred, Covetous Traitor'''  is a boss that can only appear inside [[Expedition Logbook]] areas with zone level 75+ marked with Order of the Chalice. In addition, it is guaranteed to spawn if the logbook has the implicit {{c|mod|Area contains Uhtred, Covetous Traitor}} for that area marked with Order of the Chalice.\n\n==Arena==\nThe arena is a wide rectangular shape with a large mirror along the northeastern wall. Uhtred shatters the mirror to hide inside and spawns adds from it during intermission phases. Wide groups of lasers will also fire in random directions from the mirror after the first intermission phase until the end of the fight, increasing in width the lower Uhtred's health becomes.\n\nThe arena is based on [[primeval civilization]] tilesets, including a mural of [[the Clayshaper]] and stone and [[azurite]] architecture.\n\n==Skills==\n* '''Mirror Lasers''': Fires several rows of lasers across the arena either straight or diagonally. Continues to fire after first add phase and width increases each phase. Applies [[Glimpse of Infinity]] debuff (reduces [[action speed]]).\n* '''Rotating Cold Beam''' - {{c|quest|No escape!}} - Spins around in a circle ~3.5 times while channelling a black beam. Applies Glimpse of Infinity debuff.\n* '''Stygian Fireball''' - {{c|quest|Futile!}} - Fires blueish-black projectiles that apply [[Indifference of the Cosmos]] debuff (maximum cold resistance is reduced).\n* '''Ball Lightning'''  - {{c|quest|Give in!}}/{{c|quest|Defiant whelp!}} - Fires a wave of small monochrome ball lightning which apply Indifference of the Cosmos debuff.\n* '''Seeking Stars''': Summons a circular white orb that follows the player for up to 10 seconds before exploding and creates a pool of black hands that persist for a duration that apply {{stl|Chill}}.\n\n{{Monster item drops|metadata_id=Metadata/Monsters/LeagueExpedition/ApparitionBoss/ApparitionExpedition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* {{Ruthless}} Fixed a bug where Uhtred, Covetous Traitor could drop a divination card in Ruthless.\n}}\n{{Version history table row|3.20.0|\n* Pinnacle bosses, Map bosses, Incursion architects, Betrayal targets, Breachlords and others no longer have 33% or 66% less effect of curses on them respectively.\n}}\n{{Version history table row|3.15.0d|\n* Increased the chance for Expedition Bosses to appear in level 68 and above Logbooks.\n}}\n{{Version history table row|3.15.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Expedition}}\n{{sister|poe2wiki=Uhtred, the Stardrinker}}",
+  "sha256": "f7c4b0dcff056557b5819af372681454464670160e9218bc9e46be00675a41fc"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Impotence",
+  "pageId": 8553,
+  "revision": 1547554,
+  "timestamp": "2025-06-24T16:18:32Z",
+  "retrieved": "2026-11-14T10:57:29.459152+00:00",
+  "requested": [
+    "Ignited Damage Increase",
+    "Igniting Conflux",
+    "Ikiaho's Leadership",
+    "Immobilised",
+    "Immortal Call",
+    "Impale Effect",
+    "Impaled",
+    "Impedance",
+    "Impenetrable Bastion",
+    "Impenetrable Shell",
+    "Impenetrable Shrine",
+    "Impotence",
+    "Imprisoned",
+    "Impurity of Fire",
+    "Impurity of Ice",
+    "Impurity of Lightning",
+    "Incinerate",
+    "Increased Armour",
+    "Increased Energy Shield",
+    "Increased Evasion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Impotence\n| type= Debuff\n| description = {{c|normal|You and your Minions are dealing no damage.}}\n}}\n'''Impotence''' is a [[debuff]] from the [[Trials of Chaos]] modifier \"Occasional Impotence\", which \"You and your Minions deal no damage for 2 seconds every 8 seconds\". It is also used by the similar {{c|mod|Players and their Minions deal no damage for 3 out of every 10 seconds}} [[map modifier]]. \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "b04bd731bfffa41bf6e1915ae7e2d4f4bce724338285333caba81bdc634d6523"
+}

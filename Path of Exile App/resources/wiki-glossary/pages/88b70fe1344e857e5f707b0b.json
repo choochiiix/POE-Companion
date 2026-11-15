@@ -1,0 +1,33 @@
+{
+  "title": "Link skill",
+  "pageId": 88696,
+  "revision": 1704930,
+  "timestamp": "2026-11-11T23:53:58Z",
+  "retrieved": "2026-11-14T10:11:09.431340+00:00",
+  "requested": [
+    "maces",
+    "Templar",
+    "minions",
+    "Hallowing Flame",
+    "shrine",
+    "passive",
+    "Scion",
+    "Witch",
+    "Duelist",
+    "Marauder",
+    "Amulets",
+    "Rings",
+    "Jewels",
+    "belt",
+    "jewels",
+    "prefix",
+    "unique",
+    "Strike",
+    "Link skill",
+    "Channelling skill"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Links''' are [[active skill]]s that create a bond between your character and a specific [[party]] member, providing a benefit to them while they stay in range. If the target dies while linked, you will also die. Link skills cannot be [[trigger]]ed or used by [[Totem]]s, [[Trap]]s, or [[Mine]]s.\n\n==Skill functions and interactions==\n*'''Multiple Links''': It is possible for a character to link to multiple targets.<ref name=\"MultipleTargets\"/> Two characters cannot both simultaneously be linked to each other.<ref name=\"SingleLink\"/> Casting a new link on a target will replace your previous links on that target. Link skills will attempt to target non-linked targets before refreshing existing links.\n*'''[[Duration]]''': Modifiers to duration will affect the duration of the link. Links will break prematurely if the target leaves their [[range]] or line of sight for 4 seconds; this can occur often with extremely slow [[minion]]s.\n*'''[[Cost]]''': Link skills have a [[mana]] cost per second for their [[duration]], which can be affected by cost modifiers. Effects that specify ''upfront'' costs do not work with per-second costs. The cost must be paid for each active link to another target. If the character is unable to pay the cost, all links will break. \n*'''[[Minion]]s''': The [[Minion Defence Mastery]] allows the character to link to damageable minions. Minions linked this way expiring naturally by running out of duration or if being resummoned count as them dying and thus '''will''' cause the caster to die. An exception however are [[Manifest Dancing Dervishes|Dancing Dervishes]] summoned by {{il|The Dancing Dervish}}. The player running out of [[rampage]] causes the Dancing Dervishes to vanish which does not count as them dying.\n\nDue to the limited methods to scale the buff effect of link skills, they benefit greatly from gem levels, such as via {{il|Pragmatism}} or {{il|Voideye}}. The [[Luminary]] ascendancy's {{psl|Golden Glory}} also enables link buff effect to be scaled by [[light radius]], an otherwise mostly useless stat.\n\n==Skill gems==\nThere are {{Drop enabled gem count||where=skill_gems.gem_tags HOLDS \"Link\"}} skill gems with the [[:Category:Link (gem tag)|Link]] [[gem tag]]:\n{{Drop enabled gem table\n|where=skill_gems.gem_tags HOLDS \"Link\"\n}}\n\n==Unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%link skill%\" OR items.stat_text LIKE \"%linked target%\"\n|level=1\n|stat=1\n|large=1\n}}\n\n==Related passive skills==\n===Passive skills===\nThe following [[passive skill]]s are related to Link skills:\n{{Query base passive skills\n|where=passive_skills.stat_text LIKE \"%link%\"\nAND passive_skill_stats.id NOT LIKE \"%brequel%\"\n}}\n\n===Keystone passive skills===\nThe following [[keystone passive skill]]s are related to Link skills:\n\n{{Query keystone passive skills\n|q_where=passive_skills.stat_text LIKE \"%Link%\"\n     AND passive_skills.is_keystone = 1\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to Link skills:\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%link%\" AND mastery_effects.stat_text_raw NOT LIKE \"%blink%\"}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Link skills:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%Link%\"\n}}\n\n===Tattoos/Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%link skill%\"\n|large=1\n|description=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.21.0|\n* There are changes in [[Link Masteries]] as well as Link-related notable and small passive skills. Read {{section link|version 3.21.0|Link Clusters}} and {{section link|version 3.21.0|Passive Skill Tree Mastery Changes}} for details.\n}}\n{{Version history table row|3.20.0|\n* Fixed a bug where it was possible to die in your hideout by being linked to a Minion when the Minion expired.\n}}\n{{Version history table row|3.16.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name = \"MultipleTargets\">{{cite web\n| author = Mark_GGG\n| date = Oct 15, 2021\n| title = Multiple Targets\n| url = https://reddit.com/r/pathofexile/comments/q884dx/path_of_exile_scourge_patch_notes/hgoxix7/\n| publisher = Reddit\n| accessdate = January 18, 2022\n}}</ref>\n<ref name = \"SingleLink\">{{cite web\n| author = Mark_GGG\n| date = Oct 15, 2021\n| title = Single Link\n| url = https://reddit.com/r/pathofexile/comments/q884dx/path_of_exile_scourge_patch_notes/hgotwy9/\n| publisher = Reddit\n| accessdate = January 18, 2022\n}}</ref>\n}}\n\n[[Category:Gem tag mechanics]]\n[[Category:Gem tags]]",
+  "sha256": "b0b2df2cf9788439c725542bd1699502d2fc99b5398f4dd692c412d265fe5a2c"
+}

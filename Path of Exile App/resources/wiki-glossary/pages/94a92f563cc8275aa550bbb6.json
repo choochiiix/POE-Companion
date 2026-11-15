@@ -1,0 +1,33 @@
+{
+  "title": "Evasion Aura",
+  "pageId": 129825,
+  "revision": 1493663,
+  "timestamp": "2025-02-04T17:55:58Z",
+  "retrieved": "2026-11-14T10:57:22.331438+00:00",
+  "requested": [
+    "Enlarging Tempest",
+    "Enrage",
+    "Envy Aura",
+    "Eroding Touch",
+    "Escalating Ruin",
+    "Escalating Vulnerability",
+    "Essence Drain",
+    "Essence Drain Regeneration",
+    "Essence Glutton",
+    "Essence of Anger",
+    "Essence of Hatred",
+    "Essence of Misery",
+    "Essence of Wrath",
+    "Eternal Empire Aura",
+    "Eternal Scourge",
+    "Ethereal Tempest",
+    "Ethereal Tendrils",
+    "Evasion Aura",
+    "Evolving Shrine",
+    "Evolving Shrine Monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Evasion Aura\n|icon=Grace skill icon.png\n|type=Buff\n|description=Allies have additional Evasion\n|bonuses= # to Evasion Rating\n}}\n\n'''Evasion Aura''' is a [[monster aura]]. It is granted by [[Grinning Totem]] and several other monsters.\n\n==Gallery==\n<gallery>\nFile:Evasion Aura.png|A Grinning Totem with the Evasion Aura and a monster affected by it\n</gallery>\n\n[[Category:Monster auras]]\n[[Category:Buffs]]",
+  "sha256": "677aeb9b2e1f06c9ffede31804eb187e7141e3215f988e252134b2d6be3f892e"
+}

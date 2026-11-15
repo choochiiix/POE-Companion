@@ -1,0 +1,33 @@
+{
+  "title": "The Flow Untethered",
+  "pageId": 16901,
+  "revision": 1635585,
+  "timestamp": "2026-03-21T23:55:38Z",
+  "retrieved": "2026-11-14T10:57:48.401691+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Flow Untethered\n|class_id                                = Belt\n|base_item                               = Cloth Belt\n|explicit1                               = HarbingerSkillOnEquipUnique__2\n|explicit2                               = AttackAndCastSpeedUnique__1\n|explicit3                               = LifeAndEnergyShieldRecoveryRateUnique_1\n|explicit4                               = GlobalCooldownRecoveryUnique__1\n|explicit5                               = DebuffTimePassedUnique__1\n|flavour_text                            = {{glyph|HBGAa}}{{glyph|HBG02}}{{glyph|HBGAb}}{{glyph|HBG03}}{{glyph|HBG02}}{{glyph|HBGAc}}{{glyph|HBG03}}{{glyph|HBGAd}}<br>{{glyph|HBGAa}}{{glyph|HBG02}}{{glyph|HBGAb}}{{glyph|HBG03}}{{glyph|HBG02}}{{glyph|HBGAc}}{{glyph|HBG03}}{{glyph|HBGAe}}<br>{{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGAf}}{{glyph|HBG02}}{{glyph|HBGAg}}{{glyph|HBG03}}{{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGAb}}\n|release_version                         = 3.0.0\n|is_drop_restricted                      = true\n|recipe1_part1_item_name                 = First Piece of Time\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Second Piece of Time\n|recipe1_part2_amount                    = 1\n}}\n\n'''The Flow Untethered''' is a [[unique]] {{il|Cloth Belt}}.\n\n==Modifiers==\n{{status\n| name                   = The Flow Untethered\n| type                   = Buff\n| description = Time moves more swiftly for you and those around you.\n}}\n{{c|mod|Grants Summon Harbinger of Time Skill}}: Summons an immortal [[Harbinger]] minion. The minion will occasionally create a {{stl|The Flow Untethered}} [[aura]] on you that increases the [[action speed]] of you, and all [[Ally|allies]] and [[enemies]] near you. See {{sl|Summon Harbinger of Time}} for more information.\n\nThe Flow Untethered is a [[buff]] that lasts 8 seconds, with a cooldown of 20 seconds, and grants the following benefit:\n\n* +10% Action Speed\n\nAction Speed is a modifier affecting animation speed. This effect stacks additively with other modifiers like {{il|Temporal Chains}} and [[chill]].\n\nThe effect can be increased by {{il|Ichimonji}} (despite being from the Harbinger), but getting aura effect onto the Harbinger (eg through {{il|Matua Tupuna}} + [[Necromantic Aegis]]) does nothing.\n\n{{Item acquisition}}\n\nWhen the unique pieces are placed correctly in the inventory or stash, they will all vanish, and the player will be left with the forged unique item.\n\n{| class=\"wikitable\"\n|+ Arrangement\n| {{il|First Piece of Time|large=1|name=}}\n| {{il|Second Piece of Time|large=1|name=}}\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Uniques can no longer be obtained: The Beachhead, Infused Beachhead, The Enmity Divine, The Flow Untethered, The Fracturing Spinner, The Rippling Thoughts, The Tempest's Binding, and The Unshattered Will.\n* Harbinger uniques now provide an additonal {{il|Fracturing Shard}} when [[vendor]]ed.{{Undocumented}}\n}}\n{{Version history table row|3.16.0|\n*Now grants {{c|mod|+(10-15)% increased Life and Energy Shield Recovery Rate}} (previously 15-20%).\n}}\n{{Version history table row|3.15.0|\n* Aura from Harbinger of Time minion now provides 10% increased Action Speed (previously 20%).\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "7f538e66edc592404ec43901492b433903c6e10297ab8898ec2e9b8c898ab8bb"
+}

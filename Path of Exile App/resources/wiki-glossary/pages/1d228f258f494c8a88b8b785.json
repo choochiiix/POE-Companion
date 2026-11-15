@@ -1,0 +1,33 @@
+{
+  "title": "Guardian",
+  "pageId": 7729,
+  "revision": 1675200,
+  "timestamp": "2026-07-19T16:31:16Z",
+  "retrieved": "2026-11-14T10:10:04.216784+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Ascendancy Class\n|name = Guardian\n|flavour_text = ''When bound by faith and respect, the flock will overwhelm the wolf.''\n}}\n{{about|the Ascendancy class|the Ascendant passive|Guardian (Ascendant passive)|other uses|Guardian (disambiguation)}}\n\nThe '''Guardian''' is an [[Ascendancy class]] for [[Templar]]s.\n\n==Overview==\n[[Image:Ascendancy skill tree Guardian.png|290px|thumb|right|Guardian skill tree]]\n\nThe Guardian possesses many defensive skills that affect his [[Ally|allies]], making him suitable for builds dedicated to [[partying]] with other players, or [[minions]]. They can specialise in [[aura]]s to give them bonuses to defences and recovery, provide party-wide bonus [[block]] chance, or apply powerful [[Hallowing Flame]]s. The Guardian also has the ability to summon holy minions exclusive to them: a [[Summon Sentinel of Radiance|Sentinel of Radiance]] that protects the Guardian by taunting enemies and redirecting damage towards it while burning enemies around it, and [[Summon Elemental Relic|Elemental Relics]] that provide the effect of elemental damage auras and explode on death. The Guardian is also able to gain bursts of healing and debuff removal with [[Time of Need]] and gain random [[shrine]] buffs with [[Harmony of Purpose]].\n\n==Passive skills==\n\n===Notable skills===\nGuardian has the following notable passive skills:\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n! Skill !! class=\"unsortable\" | Modifiers !! Prerequisite !! Preceding Passive\n|-\n{{psl|id=AscendancyGuardian3|format=tablerow}}\n| \n| [[Armour and Energy Shield, Aura Effect]]\n|-\n{{psl|id=AscendancyGuardian12|format=tablerow}}\n| [[Radiant Faith]]\n| [[Armour and Energy Shield, Aura Effect]]\n|-\n{{psl|id=AscendancyGuardian11|format=tablerow}}\n| \n| [[Armour and Energy Shield, Shrine Buff Effect]]\n|-\n{{psl|id=AscendancyGuardian18|format=tablerow}}\n|\n| [[Hallowing Flame Effect]]\n|-\n{{psl|id=AscendancyGuardian14|format=tablerow}}\n|\n| [[Armour and Energy Shield, Minion Damage]]\n|-\n{{psl|id=AscendancyGuardian16|format=tablerow}}\n| [[Radiant Crusade]]\n| [[Armour and Energy Shield, Minion Damage]]\n|-\n{{psl|id=AscendancyGuardian2|format=tablerow}}\n|\n| [[Armour and Energy Shield, Life Regeneration]]\n|-\n{{psl|id=AscendancyGuardian4|format=tablerow}}\n|\n| [[Armour and Energy Shield, Block Recovery]]\n|}\n\n===Minor skills===\nGuardian has the following minor passive skills:\n{{Query ascendancy passive skills\n|ascendancy=0\n|where=\n  passive_skills.ascendancy_class = \"Guardian\"\n  AND passive_skills.is_notable=0\n  AND passive_skills.name NOT LIKE \"%Guardian%\"\n  AND passive_skills.id NOT LIKE \"%Eldritch%\"\n  AND passive_skills.id NOT LIKE \"AscendancyCustom%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The Guardian's [[Summon Sentinel of Radiance|Sentinel of Radiance]] Minion no longer has duration (it is a permanent minion) and has approximately 36% more Movement Speed. Note the Sentinel still doesn't persist between areas.\n* Effects that grant random Shrine buffs such as Guardian's {{psl|Harmony of Purpose}} Notable or {{il|The Golden Charlatan}} Unique Sword instead now grant Greater Shocking, Freezing and Skeletal Shrine (instead of the regular versions of these Shrines).\n* The {{psl|Time of Need}} Notable now has Every 4 seconds, remove Curses and Ailments from you (previously removed Curses and Elemental Ailments).\n* The Guardian now has an additional 2-point Ascendancy Notable: [[Marshal of Divinity]]. This Notable grants Inflict [[Hallowing Flame]] on Melee Hit, You can inflict +1 Hallowing Flame on Enemies, and Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80%.\n}}\n{{Version history table row|3.27.0|\n* Shrine Buffs granted by the {{psl|Harmony of Purpose}} Ascendancy Passive Skill now have a base Duration of 20 seconds (previously 10)\n}}\n{{Version history table row|3.22.0|\n* The Guardian Ascendancy has been reworked.\n** The minor passive preceding [[Harmony of Purpose]] now grants increased link skill effect and increased armour and energy shield.\n** The minor passive preceding [[Bastion of Hope]] no longer grants additional attack block chance. It now grants increased block recovery.\n}}\n{{Version history table row|3.10.0|\n* Radiant Faith now grants maximum Energy Shield equal to 10% of your Reserved Mana to you and nearby Allies (from 15%).\n}}\n{{Version history table row|3.9.0|\n* Unwavering Faith now grants the Physical Damage Reduction and Life Regeneration aura as a single combined aura rather than a separate aura for each other aura skill you had. This matters for effects that care how many buffs you have, such as [[Mantra of Flames]].\n}}\n{{Version history table row|3.8.0|\n* Radiant Crusade: Has been reworked. It now grants +20% to all Elemental Resistances. While there are at least five nearby allies, you and nearby allies have [[Onslaught]]. While there is at least one nearby ally, you and nearby allies deal 10% more damage.\n* Unwavering Crusade: Has been reworked: Now grants nearby allies 30% increased damage, 15% increased attack, cast and movement speed, 30% increased area of effect, and causes nearby allies to [[Intimidate]] and [[Unnerve]] Enemies for 4 seconds on hit.\n}}\n{{Version history table row|3.4.0|\n* Removed [[Prayer of Glory]].\n* Added [[Radiant Crusade]] and [[Unwavering Crusade]].\n}}\n{{Version history table end}}\n\n{{Navbox Characters}}",
+  "sha256": "d0595e4aec84951186763e1f440d46dcb0828070983db68ecacbbabc091f9ec8"
+}

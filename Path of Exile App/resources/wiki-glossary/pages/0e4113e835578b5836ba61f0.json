@@ -1,0 +1,33 @@
+{
+  "title": "Gluttony of Elements",
+  "pageId": 7371,
+  "revision": 1649352,
+  "timestamp": "2026-05-22T23:39:14Z",
+  "retrieved": "2026-11-14T10:11:19.036282+00:00",
+  "requested": [
+    "Ursa",
+    "Ground Slam",
+    "Warcries",
+    "Retaliation",
+    "Daggers",
+    "Claws",
+    "Divinity",
+    "ranger",
+    "Shepherd of Souls",
+    "Fanaticism",
+    "Enchantments",
+    "Vaal skill gem",
+    "Gluttony of Elements",
+    "Harbinger",
+    "Dominus",
+    "Silence",
+    "smoke cloud",
+    "Vaal Gem",
+    "Sextant",
+    "conquered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=GluttonyOfElements}}\n\n'''Gluttony of Elements''' is a temporary [[aura]] that causes taking [[elemental damage]] to instead [[recovery|recover]] life for the caster and nearby [[Ally|allies]]. It can be obtained by equipping {{il|Blood of Corruption}}, which grants the level 10 version of this skill. (The skill level has no known effect.)\n\nThe skill functions as a [[Vaal skill]], and is affected by passive skills and items that specifically affect Vaal skills.\n\n==Mechanics==\n* Like other [[Vaal skill|Vaal auras]], Gluttony of Elements is affected by [[duration]] [[modifier]]s such as {{c|mod|#% increased Skill Effect Duration}}. \n* Gluttony of Elements prevents all players affected by the aura from gaining Vaal souls.\n* 'Healing' recovers [[life]], even when damage could have been taken by other resources.\n* Damage taken from hits that is transformed into healing still counts as ''damage taken'' for effects like {{il|Bloodnotch}}, [[recoup]], or {{il|Cast when Damage Taken Support}}.<ref>[https://www.reddit.com/r/pathofexile/comments/9o1b4m/comment/e7qnjf5/ will CWDT work with gluttony of elements?]</ref>\n** Over-time healing does ''not'' count as having taken damage for conditions like {{psl|Lethe Shade}}'s {{c|mod|if you've started taking Damage over Time in the past second}} or [[Pantheon|Soul of Arakaali]]'s {{c|mod|if you've stopped taking Damage Over Time Recently}}. \n* Gluttony of Elements is a rare case where recovery and loss can be simultaneous rather than independent. Losing 4000 life to physical damage in the same hit elemental damage raises life by 4000 could be survived by a player with 3000 life.<ref>https://www.reddit.com/r/pathofexile/comments/qaerbj/it_will_be_extremely_easy_to_become_immune_to/hh2sl0s/?context=1</ref>\n\n==Interactions==\n* If Gluttony of Elements is used with {{il|Righteous Fire}} the damage over time will heal instead. \n* {{il|Veil of the Night}} multiplies the heal by 4, granted that the elemental [[Resistances#Damage reduction|resistances]] ordinarily is 75%.\n* Items that shift physical damage taken as elemental damage, such as {{il|page=Lightning Coil}}, {{il|Cloak of Flame}}, synergize well with Gluttony of Elements.\n\n==Trivia==\nLead developer Chris Wilson has stated that the original name for the skill was '''Vaal Purity of Elements''', but that it was changed to avoid suggesting that it could be obtained by corrupting the skill gem itself.<ref>{{cite web|author=chris_wilson|date=April 29, 2015|title=Blood of Corruption (corrupted version of Tear of Purity)|url=https://www.reddit.com/r/pathofexile/comments/34d97z/closed_beta_blood_of_corruption_corrupted_version/cqtol5a|publisher=Path of Exile Subreddit|accessdate=May 7, 2015}}</ref> This was before the game added Vaal skills for the Purity auras, which are called \"''Im''purity of [Element]\".\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.6.0|\n* Gluttony of Elements skill now grants Curse Immunity while active.\n}}\n{{Version history table row|3.5.0|\n* Blood of Corruption's Gluttony of Elements skill now prevents those affected by the aura from gaining Vaal souls. This affects all versions of the item.\n}}\n{{Version history table row|3.4.0|\n* Gluttony of Elements skill now has a Soul Gain Prevention duration of 14 seconds (down from 16).\n}}\n{{Version history table row|3.3.0|\n* Now has a base duration of 5 seconds (down from 6).\n* Now has a cast time of 0.5 seconds (down from 1 second).\n* Now requires 100 souls per use (up from 48).\n* Now prevents you from gaining Vaal souls for 16 seconds after use.\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\n* {{il|Purity of Elements}}\n\n==References==\n{{reflist}}\n\n{{Navbox Vaal Skill Gems}}\n\n[[Category:Active Skill]]",
+  "sha256": "5b7ae6fdb7182786e74b9526fdf5b90bf17a896e7bf07de3280890f600b9acb9"
+}

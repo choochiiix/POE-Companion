@@ -1,0 +1,33 @@
+{
+  "title": "Summon Greater Harbinger of the Arcane",
+  "pageId": 16023,
+  "revision": 1700544,
+  "timestamp": "2026-08-10T17:44:49Z",
+  "retrieved": "2026-11-14T10:10:04.220324+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfTheArcaneUber}}\n\n'''Summon Greater Harbinger of the Arcane''' is a [[skill]] granted by {{il|The Surging Thoughts}}.\n\n==Skill functions and interactions==\nThe summoned Harbinger is immortal, and occasionally casts [[Arcane Surge]] on the player. Arcane Surge is a [[buff]] that lasts 4 seconds, with a cooldown of 8 seconds, and grants the following benefits:\n* 20% increased Cast Speed\n* 30% increased Mana Regeneration Rate\n\nIt also simultaneously grants a buff called \"The Surging Thoughts\" that grants the following benefits for 4 seconds, also with a cooldown of 8 seconds:\n\n* 15% chance to Shock\n* Damage Penetrates 10% Lightning Resistance\n\nAll \"Summon Harbinger\" skills share a maximum of 1 Summoned Harbinger.\n\n==See also==\n* {{sl|Summon Harbinger of the Arcane}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "59c5fd911efbc39ad8c35ee61d477208430ba82bd060e3d037acb4c447f75f0c"
+}

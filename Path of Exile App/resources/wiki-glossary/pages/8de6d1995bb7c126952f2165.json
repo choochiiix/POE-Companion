@@ -1,0 +1,33 @@
+{
+  "title": "Relic",
+  "pageId": 108081,
+  "revision": 1537003,
+  "timestamp": "2025-06-07T02:25:25Z",
+  "retrieved": "2026-11-14T10:11:13.891670+00:00",
+  "requested": [
+    "Rune",
+    "Torment",
+    "Mercenary",
+    "Relic",
+    "sextant",
+    "veiled modifier",
+    "Implicit modifier",
+    "the Searing Exarch",
+    "Crucible passive skill tree",
+    "enchantments",
+    "items",
+    "Lightning",
+    "Physical",
+    "Rare",
+    "element",
+    "stun duration",
+    "Unencumbered",
+    "glove",
+    "Kitava",
+    "taken as"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{For|items with special 2D artwork formerly known as \"relics\"|Foil item}}\n{{For|relics that affected character stats that were obtainable in [[Sanctum league]]|sanctified relic}}\n\n'''Relics''' are a type of item that is exclusive to the [[Sanctum league]]. They can be placed in the [[Relic Altar]] to provide buffs to various mechanics related to the [[Forbidden Sanctum]].\n\n==Mechanics==\n* Relics can be found in the Sanctum as rewards from guards, minibosses or bosses, or purchased from [[Divinia]] for 300 Aureus.\n* They can be stored in a special separate stash, which can also be placed as a hideout decoration.\n* To equip a Relic, they must be placed in the [[Relic Altar]] on a 5x4 grid with two of the corner slots blocked off. Additional grid slots can be unlocked as you progress, up to a total of 18 slots.\n* Relics are [[unmodifiable]] and always drops as {{c|magic|Magic}} or {{c|unique|Unique}}. They cannot be {{c|rare|Rare}}.\n* Relics of the same base can be vendor 5 to 1 to obtain a new one with random modifiers.\n* The pool of modifiers Relics can roll depends on the total number of inventory slots it takes up, ranging from 2/3/4 or small/medium/large respectively.\n\n==List of relics==\n{{Main|List of relics}}\n\n===Base types===\n{{:List of relics}}\n\n===Unique===\n{{main|List of unique relics}}\n{{:List of unique relics}}\n\n==List of modifiers==\n{{main|List of modifiers for small relics}}\n{{main|List of modifiers for medium relics}}\n{{main|List of modifiers for large relics}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* Relics have returned and are now tradeable.\n* Unique Relics have been rebalanced and reworked.\n}}\n{{Version history table row|3.20.1|\n* Introduced 7 new [[List of unique relics|Unique Relics]] that drop from the [[Lycia|final form of the Sanctum Boss]]. These Relics challenge you to complete an entire run of [[The Forbidden Sanctum]] at [[area level]] 80+ under special rules. If you're able to complete such a run, you'll be rewarded in new and special ways. However, the Unique Relic will be destroyed regardless of the outcome of your run, so if you fail to complete it, you'll forfeit your potential rewards.\n* Some of these Unique Relics cause the [[Herald of the Scourge]] to drop additional or specific items, while others causes Aureus Coins to be converted to certain outcomes upon defeating the Herald of the Scourge.\n* We've also introduced a new {{il|Original Sin|Unique Ring}} that can be earned by defeating the [[Herald of the Scourge]] with {{il|The Original Scripture|one of the new Unique Relics}} active.\n}}\n{{Version history table row|3.20.0b|\n* Relics are now able to be dropped onto the ground by players, though these still remain Account-bound to the player that dropped them.\n}}\n{{Version history table row|3.20.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Sanctum}}\n{{Template:Navbox Items}}\n\n[[Category:Relics| ]]\n[[Category:Item classes]]\n[[Category:Sanctum]]\n\n{{sister|poe2wiki}}",
+  "sha256": "f72173d6b310a8764b866a1d94888ea6a31a91e18a1a52b87a022a661f5c55c8"
+}

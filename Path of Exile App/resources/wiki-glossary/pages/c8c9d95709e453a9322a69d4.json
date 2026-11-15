@@ -1,0 +1,33 @@
+{
+  "title": "Three Faces in the Dark",
+  "pageId": 17611,
+  "revision": 1682390,
+  "timestamp": "2026-07-26T23:25:19Z",
+  "retrieved": "2026-11-14T10:57:49.218663+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Three Faces in the Dark\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = For every threat you spy in the shadows, there are two others you don't.\n|drop_level                              = 23\n|tags                                    = currency_divination, currency_basic_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardThreeFacesInTheDark\n|stack_size                              = 7\n|description                             = {{c|currency|3x {{iil|Chaos Orb}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 2_8_9, 2_9_9\n|release_version                         = 2.0.0\n}}\n\n'''Three Faces in the Dark''' is a [[divination card]]. A set of seven can be exchanged for a stack of three {{il|Chaos Orb|Chaos Orbs}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThree Faces in the Dark was created by supporter [https://www.pathofexile.com/account/view-profile/Noshei-0307 Noshei].<ref name=\"Supporter attribution\" /> Noshei also created {{il|Beauty Through Death}} and {{il|Lucky Deck}}.{{Citation needed}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Armoury|Arsenal}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Armoury|Port}}\n}}\n{{Version history table row|3.23.0|\n* {{il|Azure Rage}}, {{il|Rats}}, {{il|The Tireless Extractor}}, {{il|The Return of the Rat}}, and Three Faces in the Dark can now be found in the {{il|Port Map}}.\n}}\n{{Version history table row|3.0.0|\n* [[The Warehouse District]] is removed from the game so that this card is no longer able to acquire there. (By player testing)\n* Now drops from [[The Grain Gate]] and [[The Refinery]] (By player testing)\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Supporter attribution\">{{cite web\n| author = Noshei\n| date = June 2, 2015\n| title = Re: Divination Card Update\n| url = https://www.pathofexile.com/forum/view-thread/1284891/page/2#p10749132\n| publisher = Official Path of Exile Forums\n| accessdate = November 6, 2023\n}}</ref>\n}}\n[[Category:Divination cards created by supporters]]",
+  "sha256": "5a2186400db2b6872863701b4993c1042cbbd9dc7e8a9a7b4f3400368db5d22b"
+}

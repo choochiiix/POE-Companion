@@ -1,0 +1,33 @@
+{
+  "title": "Preserving Stillness",
+  "pageId": 135771,
+  "revision": 1649483,
+  "timestamp": "2026-05-22T23:42:10Z",
+  "retrieved": "2026-11-14T10:57:37.227117+00:00",
+  "requested": [
+    "Piety's Rage",
+    "Pinned",
+    "Plague",
+    "Plague Bearer",
+    "Plaguebringer",
+    "Players Increased",
+    "Poacher's Mark",
+    "Poison Immunity",
+    "Poisonberry Tincture",
+    "Poisoned Faith",
+    "Poisoned Water",
+    "Polymorphed",
+    "Portal Shredder",
+    "Portent Vapors",
+    "Possession",
+    "Precision Aura",
+    "Preserving Stillness",
+    "Pride",
+    "Primal Aegis",
+    "Primal Malady"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Historical content}}\n{{Skill infobox|id=GraftSkillTulAegis}}\n\n'''Preserving Stillness''' is a [[graft skill]] used by {{il|Aegis Tulgraft|Aegis Tulgrafts}}.\n\n__TOC__\n\n==Skill functions and interactions==\n\n==Skill level progression==\n{{Skill progression\n|skill_id=GraftSkillTulAegis\n|c1_abbr              = Aegis<br>buff\n  |c1_header          = Buff can take x Damage\n  |c1_pattern_extract = Buff can take (%d+) Damage\n  |c1_pattern_value   = %d\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* Introduced to the game in Keepers league.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Graft skills]]",
+  "sha256": "b40580ec715b25ea35587ee8b07c298c8913d5128503bd4076ca022ca5241237"
+}

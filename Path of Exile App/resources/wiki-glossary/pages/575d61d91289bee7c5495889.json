@@ -1,0 +1,33 @@
+{
+  "title": "Summon Greater Harbinger of Directions",
+  "pageId": 16019,
+  "revision": 1702228,
+  "timestamp": "2026-09-01T15:14:40Z",
+  "retrieved": "2026-11-14T10:10:04.218815+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfDirectionsUber}}\n\n'''Summon Greater Harbinger of Directions''' is a [[skill]] granted by {{il|The Shattered Divinity}}. \n\n==Skill Functions and Interactions==\nThe summoned Harbinger is immortal, and occasionally casts ''The Shattered Divinity'' on the player. ''The Shattered Divinity'' is a [[buff]] that lasts 4 seconds, with a cooldown of 4 seconds, and grants one or all of the following benefits:\n* 2 additional Projectiles\n* +2 [[Chain]]s\n* [[Pierce]] 2 additional Targets\n* Projectiles Fork then Fork an additional time\n\n==See also==\n* {{sl|Summon Harbinger of Directions}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Introduced to the game as a skill granted by {{il|The Shattered Divinity}}.  {{Undocumented}}\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "489d34196004ecacd4cfed6e414e5ab5e4ea27ab1259899f8091f2cb4f3c2838"
+}

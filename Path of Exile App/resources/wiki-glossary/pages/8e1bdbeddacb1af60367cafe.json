@@ -1,0 +1,33 @@
+{
+  "title": "Unrighteous Fire",
+  "pageId": 18395,
+  "revision": 1490150,
+  "timestamp": "2024-10-13T04:51:14Z",
+  "retrieved": "2026-11-14T10:57:50.751934+00:00",
+  "requested": [
+    "Tsoagoth Shrine",
+    "Tsoatha's Fodder",
+    "Tsoatha's Fury",
+    "Unbound",
+    "Unbound Fury",
+    "Undying Rage",
+    "Unholy Damage",
+    "Unholy Scalding",
+    "Unholy Urn",
+    "Union of Souls",
+    "Unrighteous Fire",
+    "Unstoppable Hero",
+    "Untuned Lute",
+    "Unwavering Crusade",
+    "Upheaval Buff",
+    "Ursine Procession",
+    "Utula's Leadership",
+    "Vaal Arctic Armour",
+    "Vaal Arctic Armour Buff",
+    "Vaal Blade Flurry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Unrighteous Fire\n| type                   = Debuff\n| icon                   = Ignite status icon.png\n| description            = You are taking burning damage from being near an enemy using Unrighteous Fire\n}}\n[[File:Burned Miscreation spectre.png|thumb|A Burned Miscreation spectre. The square looking Unrighteous Fire visual effect is under its foot.]]\n\n'''Unrighteous fire''' (internal id: [[Skill:MonsterRighteousFire|MonsterRighteousFire]], [[Skill:MonsterAsylumRighteousFire|MonsterAsylumRighteousFire]] and [[Skill:MonsterRighteousFireDemonBoss|MonsterRighteousFireDemonBoss]]) is a monster skill. It is a monster version of {{il|Righteous Fire}}. \n==Monsters==\nThe monster skill are used by [[Burned Miscreation]]s (Act 3 and {{il|Poorjoy's Asylum}} variant), [[Fated Miscreation]], and [[Atziri's Pride]]. In the past, the text \"Casts Unrighteous Fire\" would also show under the monster nameplate, since the aforementioned monsters have the mod {{ml|MonsterCastsUnholyFireText}}. However, this monster nameplate text mod is removed from the game. This probably a fix to inconsistency that some monsters such as [[Eye of Tzteosh]] also uses Unrighteous Fire but did not have that text mod.\n\nThe above monsters use skills internally known as \"MonsterRighteousFire\", \"MonsterAsylumRighteousFire\" and \"MonsterRighteousFireDemonBoss\", and can be recognized by the alternate skill effect, internally known as \"skill_art_variation = 1\".\n\nThere are other monster that use their version of {{il|Righteous Fire}}, but not all of them has the same alternate skill effect. [[Wicker Man]] use the same alternate skill effect as well as the same Unrighteous Fire status icon but it use the skill \"WickerManRighteousFire\" and \"MonsterRighteousFireWhileSpectred\" instead, and well as did not have the aforementioned \"text mod\".\n\n'''Other monster that use Righteous Fire-like skill but not Unrighteous Fire:'''\n\nOther monster likes [[The Burning Man]] (and its map variant [[Messenger of the Hollows]]) use the skill \"LanternBossRighteousFire\", which has the value \"skill_art_variation = 2\".\n\n===List of monsters===\n[[File:Wicker Man spectre.png|thumb|A Wicker Man spectre]]\nThe following [[monster]]s use Unrighteous Fire (or similar) skills:\n{{#cargo_query:\n|tables=monsters\n|fields=name=Monster names, CONCAT(\"[[\", _pageName, \"|\", metadata_id, \"]]\")=internal id, skill_ids\n|where=skill_ids HOLDS LIKE \"MonsterRighteousFire\" \nOR skill_ids HOLDS LIKE \"MonsterAsylumRighteousFire\"\nOR skill_ids HOLDS LIKE \"MonsterRighteousFireDemonBoss\"\nOR skill_ids HOLDS LIKE \"WickerManRighteousFire\"\nOR skill_ids HOLDS LIKE \"MonsterRighteousFireWhileSpectred\"\n|limit=100\n|order by=name\n}}\n\n==Damage==\nIt deals [[burning damage]] ([[fire]] [[damage over time]]) to nearby enemies. Unlike {{il|Righteous Fire}} skill gem, monster version has a fixed damage and does not depend on the monster's maximum life, so Magic and Rare monsters using this skill will not deal more burning damage due to their life values (this does not take into account on more monster mods due to monster rarity). Also, the monster version seem did not deal damage to itself, unlike the player character version.\n\nEach version, [[Skill:MonsterRighteousFire|MonsterRighteousFire]], MonsterAsylumRighteousFire, MonsterRighteousFireDemonBoss, WickerManRighteousFire and [[Skill:MonsterRighteousFireWhileSpectred|MonsterRighteousFireWhileSpectred]] has its own damage over time per minute. According to the datamined result, \"MonsterRighteousFire\" deals 107 fire damage per minute, while \"MonsterRighteousFireWhileSpectred\" deals 95 fire damage per minute. These values does not take into accounts other factors such as map mod, other monster mod and other mechanics in the game that scale monster damage, such as scaling with monster level.\n\nHowever, since [[Atziri's Pride]] is a unique monster, [[Fated Miscreation]] is a prophecy monster and tagged for \"unusable_corpse\", while [[Eye of Tzteosh]] leave no corpse (and removed from the game, replaced by Scourge monsters), player can [[spectre]]d [[Burned Miscreation]] and [[Wicker Man]] only. And while they are spectred, they use \"MonsterRighteousFireWhileSpectred\" variant.\n\n==See also==\n* [[Blighted Assemblage]], use similar 3D model as Wicker Man, use its own version of Righteous Fire \"WickerManRighteousFireBlight\"\n* [[Entity of the Void]], use its own version of Righteous Fire \"CelestialRighteousFireShaperInfluence\"\n* [[Levioc, the Volcano]], use its own version of Righteous Fire \"MonsterRighteousFireLegends\"\n* [[Void Construct]], use its own version of Righteous Fire \"ClockworkGolemRighteousFire\"\n==References==\n{{reflist}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|1.1.0|\n* Monster '''Unrighteous Fire''' now deals a controlled value of fire damage, rather than being based on maximum life.\n}}\n{{Version history table row|0.11.0|\n* '''Unrighteous Fire''' has been reduced to reflect the different relationship between Life and Damage in monsters.\n}}\n{{Version history table row|0.10.0|rel=before|\n*Introduced to the game. (The monster skill probably existed before 0.10.0 (open beta) but lack of external document to verify the exact release date)\n}}\n{{Version history table end}}\n\n[[Category:Monster skills]]",
+  "sha256": "d0abea6380afda9057f0bb311e584a9b1940fcbbb3d890c75aa0ef14910d53dc"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Double damage",
+  "pageId": 5364,
+  "revision": 1673458,
+  "timestamp": "2026-07-13T07:15:06Z",
+  "retrieved": "2026-11-14T10:08:34.800270+00:00",
+  "requested": [
+    "Double damage",
+    "Triple damage",
+    "Increased and reduced",
+    "More and less",
+    "Unarmed",
+    "Dual wielding",
+    "Wielding",
+    "Main hand",
+    "Off hand",
+    "Weapon range",
+    "Melee strike range",
+    "Intelligence stacking",
+    "Anoint",
+    "Catalyst",
+    "Cluster jewel",
+    "Mastery",
+    "Keystone",
+    "Notable",
+    "Passive skill",
+    "The Agnostic"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Double damage''' is an effect that causes a [[hit]] to deal double its damage. Double damage does not stack with and is overridden by [[triple damage]].\n\n==Mechanics==\n* Chance to deal double damage is additive.\n* Additional % chance exceeding 100% has no effect. For example, {{il|Paradoxica}} with any additional source of double damage when attacking with the weapon will have no further effect.\n* The damage increase is applied after all other modifiers.<ref name=\"works with critical strikes\" />\n* Double damage is rolled per hit, not per skill use.\n* Double damage is currently hit-only and '''does not''' apply to [[Ailment]] damage or [[Damage over time]].<ref>https://www.pathofexile.com/forum/view-thread/3123794</ref>\n* Triple damage overrides double damage<ref>https://www.reddit.com/r/pathofexile/comments/iu4b8m/heres_a_new_unique_item_available_in_the_heist/g5isq2d/?context=3</ref>; a hit that does triple damage will never also do double damage.\n\n==Related skills==\n===Active skills===\n{{Query stat related skill gems\n|type=active\n|stat_id_query=%double_damage%\n|stat_page=double damage\n}}\n* {{sl|Aspect of the Avian}}\n\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%double_damage%\n|stat_page=double damage\n}}\n\n==Related base items==\nThe following basetypes are related to double damage:\n{{ Query base items\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=(item_stats.id like \"%Double_Damage%\")\n|large=1\n|level=1\n|stat=1\n}}\n\n==Related unique items==\nThe following [[unique item]]s are related to double damage:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=(item_stats.id like \"%Double_Damage%\") OR name like \"The Magnate\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n===Legacy item===\n{{Item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%Double_Damage%\" AND items.drop_enabled = \"false\" AND items.rarity_id = \"unique\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passives skills==\n===Passives===\nThe following [[passive skill]]s are related to double damage:\n{{Query base passive skills\n|where=\n  passive_skill_stats.id like \"%Double_Damage%\"\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to double damage:\n{{Query masteries}}\n\n===Timeless Jewel passives===\n{|class=\"wikitable\"\n! Jewel Type\n! Icon\n! Name\n! Effect\n|-\n| Vaal\n| [[File:VaalNotableOffensive passive skill icon.png|60px|link=]]\n| Ritual of Might\n| (25-35)% increased Physical Damage<br>(2-4)% chance to deal Double Damage\n|}\n\n==Related modifiers==\nThe following [[modifier]]s are related to double damage:\n\n{{modifier table\n|q_tables=spawn_weights\n|q_join=mods._pageID=spawn_weights._pageID\n|q_where = mods.stat_text LIKE \"%Double_Damage%\"\n       AND mods.id NOT LIKE \"%Unique%\"\n       AND mods.id NOT LIKE \"%Threshold%\"\n|generation_type=1\n|level=1\n|stat_text=1\n|spawn_weights=1\n|responsive=1\n}}\n\n==See also==\n* [[Triple damage]]\n\n==References==\n{{reflist|refs=\n<ref name = \"works with critical strikes\">{{cite web\n| title = Item Development - Threshold Jewels\n| url = https://www.pathofexile.com/forum/view-thread/1480913/\n| author = NickK_GGG\n| date = November 18, 2015\n| publisher = Official Path of Exile Forums\n| accessdate =\n}}</ref>\n}}\n\n[[Category:Game mechanics]]",
+  "sha256": "aedd911d2ddd51b60e58d29ddbfd6fd2ab336fbdf6541f726a8bec28196bae98"
+}

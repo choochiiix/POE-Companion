@@ -1,0 +1,33 @@
+{
+  "title": "Heartstopper",
+  "pageId": 94764,
+  "revision": 1592660,
+  "timestamp": "2025-11-10T05:05:52Z",
+  "retrieved": "2026-11-14T10:57:27.914812+00:00",
+  "requested": [
+    "Heartstopper",
+    "Heat",
+    "Her Blessing",
+    "Her Embrace",
+    "Her Mask",
+    "Herald Of Agony",
+    "Herald Of Ash",
+    "Herald Of Ice",
+    "Herald Of The Hive",
+    "Herald Of Thunder",
+    "Herald of Purity",
+    "Heretic's Ire",
+    "Heretical Flare",
+    "Hexing Shrine",
+    "High-Impact Mines",
+    "Hinder Immunity",
+    "Hinekora's Aid",
+    "Hit by Explosive Arrow",
+    "Hit by Infernal Blow",
+    "Hit by Lightning Arrow"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Heartstopper}}\n\n'''Heartstopper''' is a notable [[Ascendancy passive skill]] for the [[Trickster]] that grants less damage from hits for 5 seconds, and then from [[damage over time]] for 5 seconds, alternating between the two.\n\nThis does not apply to over-time loss effects such as {{il|Petrified Blood}} or {{il|Essence Drain of Desperation}}, which are not considered [[damage]].\n\n==Ruthless mode==\n{{infocard\n|header    = Heartstopper (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:ImmuneToDoT (Trickster) passive skill icon.png]]</div>\n|2         = Every 10 seconds:<br>Take 50% less Damage from Hits for 5 seconds<br>Take 50% less Damage over Time for 5 seconds\n}}\n\nHeartstopper in [[Ruthless mode]] is unchanged.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* The Heartstopper Notable Ascendancy Passive Skill now grants Every 10 seconds, Take 50% less Damage from Hits for 5 seconds (previously 40%), and Take 50% less Damage over Time for 5 seconds (previously 40%).\n}}\n{{Version history table row|3.19.0|\n* Reworked:\n** Old: {{c|mod|Every 10 seconds, take no Damage over Time for 5 seconds}}\n** New: {{c|mod|Every 10 seconds, Take 40% less Damage from Hits for 5 seconds and Take 40% less damage over Time for 5 seconds.}} These are consecutive, rather than simultaneous.\n}}\n{{Version history table row|3.16.0|\n* Added a new notable, which replaces Ghost Dance, that provides \"Every 10 seconds, take no Damage over Time for 5 seconds.\"\n}}\n{{Version history table end}}",
+  "sha256": "d2f23e9b22dff0c937a3419339d58c74a7a549437b22c966b6ceb6f10259b853"
+}

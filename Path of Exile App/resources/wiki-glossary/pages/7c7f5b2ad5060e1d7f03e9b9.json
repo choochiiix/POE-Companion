@@ -1,0 +1,33 @@
+{
+  "title": "Physical Aegis",
+  "pageId": 12410,
+  "revision": 1698268,
+  "timestamp": "2026-08-01T10:55:39Z",
+  "retrieved": "2026-11-14T10:57:36.431161+00:00",
+  "requested": [
+    "Pestilent Strike Damage",
+    "Phantasmal Might",
+    "Phase Run",
+    "Phase Run Damage",
+    "Phase Running",
+    "Phasing Buff",
+    "Phoenix Fire Bomb",
+    "Phylactery",
+    "Physical Aegis",
+    "Physical Damage Immunity",
+    "Physical Damage Taken Increase",
+    "Physical Damage and Bleed",
+    "Physical Empowered",
+    "Physical Empowerment",
+    "Physical Projectile Retaliation",
+    "Physical Reflection",
+    "Physical Reflection Aura",
+    "Physical Thorns",
+    "Piercing Screech",
+    "Piety Beam"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=PhysicalAegis}}\n\n'''Physical Aegis''' is a [[skill]] that applies a protective [[buff]] on the character and absorbs [[physical damage]] from [[hit]]s up to a certain amount before it temporarily dissipates. <br>\n\nAmount of damage absorbed: 1000\n\nCooldown after depletion: 10 seconds\n\n==Acquisition==\nPhysical Aegis can only be obtained by equipping {{il|The Ghastly Theatre}}.\n\n==See also==\n* {{sl|id=FireAegis}}\n* {{sl|Cold Aegis}}\n* {{sl|Elemental Aegis}}\n* {{sl|Lightning Aegis}}\n* {{sl|Primal Aegis}}\n* [[Physical Aegis (mercenary skill)]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* No longer has its recharge timer interrupted by damage if the buff is depleted\n}}\n{{Version history table row|3.12.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Buffs]]",
+  "sha256": "404e62dbd02b96e85a50f1a16006cd747c9c7fa44a4cc31d208f82da92c6142a"
+}

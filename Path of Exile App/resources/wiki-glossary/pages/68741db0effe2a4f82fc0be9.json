@@ -1,0 +1,33 @@
+{
+  "title": "Cast speed",
+  "pageId": 2920,
+  "revision": 1486093,
+  "timestamp": "2024-10-13T02:04:46Z",
+  "retrieved": "2026-11-14T10:08:28.092440+00:00",
+  "requested": [
+    "Fire resistance",
+    "Cold resistance",
+    "Lightning resistance",
+    "Chaos resistance",
+    "Maximum resistance",
+    "Exposure",
+    "Penetration",
+    "Movement speed",
+    "Action speed",
+    "Attack speed",
+    "Cast speed",
+    "Cooldown",
+    "Cooldown recovery",
+    "Critical strike",
+    "Critical strike multiplier",
+    "Accuracy",
+    "Evasion",
+    "Armour",
+    "Energy shield",
+    "Ward"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{redirect|Cast Speed|the passive skill|Cast Speed (passive skill)}}\n\n'''Cast speed''' is a [[keyword]] and refers to the speed of [[Use|using]] [[skill]]s which are [[spell]]s and is calculated as [[Use|uses]] per second. Casting a spell consists of [[cast time]] and other time mechanics and [[Effect|spell effect]]. '''Cast speed''' is calculated as 1 second/cast time of spell.\n\nCast speed can be found throughout the game, on [[passive skill]]s, [[equipment]], [[skill gem]]s, monster [[affix]]es, [[map]] affixes, and so on.\n\nThe base '''[[cast time]]''' is derived from the [[spell]] being used, it is the length of time required to cast a spell. '''Cast speed''' is a derived stat which is equal to 1 divided by '''Cast Time'''. Therefore if the cast speed is increased, the cast time is reduced. For example, if a player is using a skill with a base cast time of 0.8 seconds, and the player has a total of {{c|mod|50% increased Cast Speed}}, then the modified cast time can be calculated as follows:\n{{Math|formula=\n\\begin{align}\n1 / 0.8 &= 1.25 \\text{ casts per second }&\\text{base cast speed} \\\\\n1.25 * ( 1 + 0.5 ) &= 1.88 \\text{ casts per second }&\\text{modified cast speed} \\\\\n1 / 1.88 &= 0.53 \\text{ seconds }&\\text{modified cast time}\n\\end{align} }}\n\n[[Frenzy charge]]s increase cast speed by 4% per charge.\n\n==Skill gems==\n{{main|List of cast speed related gems}}\n{{#lst:List of cast speed related gems|active_skill_gems}}\n\n==Support gems==\n{{main|List of cast speed related gems}}\n{{#lst:List of cast speed related gems|support_skill_gems}}\n\n==Base items==\nSome base items increase or reduce cast speed by a percentage.\n\n{{Drop enabled base item table\n|tables = item_stats\n|join = item_stats._pageName=items._pageName\n|where = \n    item_stats.id LIKE \"%base_cast_speed_+%\"\n|level=1\n|stat_column1_header=% increased Cast Speed\n|stat_column1_format=%s%%\n|stat_column1_stat_format=add\n|stat_column1_stat1_id=base_cast_speed_+%\n}}\n\n==Unique items==\nSome [[unique item]]s increase or reduce cast speed by a percentage.\n\n{{Drop enabled unique item table\n|tables = item_stats\n|join = item_stats._pageName=items._pageName\n|where = \n    item_stats.id LIKE \"%base_cast_speed_+%\"\n|level=1\n|stat_column1_header=% increased Cast Speed\n|stat_column1_format=%s%%\n|stat_column1_stat_format=add\n|stat_column1_stat1_id=base_cast_speed_+%\n}}\n\n==Passive skills==\nThere are [[passive skill]]s that grant cast speed bonuses. \n\n===Cast speed===\nThese passive skills grant increased cast speed.\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"base_cast_speed_+%\"\n}}\n\n===Cast speed and attack speed===\nThese passive skills grant increased cast speed and attack speed\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"attack_and_cast_speed_+%\"\n}}\n\n===Cast speed with fire skills===\nThese passive skills grant increased cast speed with [[Fire damage#Skills|Fire skills]].\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"cast_speed_for_fire_skills_+%\"\n}}\n\n===Cast speed with Chaos skills===\nThese passive skills grant increased cast speed with [[Chaos damage#Skills|Chaos skills]].\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"cast_speed_for_chaos_skills_+%\"\n}}\n\n===Cast speed while dual wielding===\nThese passive skills grant increased cast speed while [[dual wielding]].\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"cast_speed_while_dual_wielding_+%\"\n}}\n\n===Cast speed for curses===\nThese passive skills grant increased cast speed for [[curse]]s.\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"curse_cast_speed_+%\"\n}}\n\n===Totem cast speed===\nThese passive skills grant increased cast speed for totems.\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"totem_skill_cast_speed_+%\"\n}}\n\n===Minion cast speed===\nThese passive skills grant increased cast speed for [[minion]]s.\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"minion_cast_speed_+%\"\n}}\n\n===Miscellaneous===\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%cast_speed%\" \n  AND passive_skill_stats.id NOT IN (\"base_cast_speed_+%\", \"attack_and_cast_speed_+%\", \"cast_speed_for_fire_skills_+%\", \"cast_speed_for_chaos_skills_+%\", \"cast_speed_while_dual_wielding_+%\", \"curse_cast_speed_+%\", \"summon_totem_cast_speed_+%\", \"totem_skill_cast_speed_+%\", \"minion_cast_speed_+%\")\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to cast speed:\n{{Query masteries}}\n\n===Timeless Jewel passive skills===\nThe following {{il|Timeless Jewel}} [[passive skill]]s are related to cast speed:\n{|class=\"wikitable\"\n! Jewel Type\n! Icon\n! Name\n! Effect\n|-\n| Eternal\n| [[File:EternalEmpireOffensiveNotable passive skill icon.png|60px|link=]]\n| Dialla's Wit\n| 15% increased Cast Speed \n|}\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] [[passive skill]]s are related to cast speed:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 0\n     AND passive_skills.stat_text LIKE \"%Cast_Speed%\"\n|large=1\n|stat_text=1\n}}\n\n===Ascendancy passive skills===\nThese passive skills from [[Ascendancy class|Ascendancy]] trees grant increased cast speed.\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%cast_speed%\" OR passive_skill_stats.id LIKE \"%fanaticism%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.8.2|\n* Improved all player cast speed by 20%.\n* Increased cast speed [[mod]]s on [[item]]s now have a variable range.\n}}\n{{Version history table row|0.8.1|\n* Bonuses to cast speed are now substantially smaller.\n}}\n{{Version history table end}}\n\n[[Category:Modifiers]]\n[[Category:Game mechanics]]\n[[Category:Keywords]]",
+  "sha256": "e003a0962d6708ede469969e16a69109b03f1338e6163910e5b4f01da5d62d07"
+}

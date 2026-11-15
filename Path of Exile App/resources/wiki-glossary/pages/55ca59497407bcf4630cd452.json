@@ -1,0 +1,35 @@
+{
+  "title": "Oath of Winter",
+  "pageId": 127128,
+  "revision": 1632609,
+  "timestamp": "2026-03-13T03:30:47Z",
+  "retrieved": "2026-11-14T10:57:28.673534+00:00",
+  "requested": [
+    "Hit by Power Siphon",
+    "Hit by Viper Strike",
+    "Hoarfrost",
+    "Holy Relic's Boon",
+    "Holy Water",
+    "Honed Claws",
+    "Horned Scarab of Glittering",
+    "House of Mirrors",
+    "Humility",
+    "Hunger of Ghorr",
+    "Hunter Shrine Monster",
+    "Hunter's Lesson",
+    "Hunter's Reward",
+    "Hunter's Shrine",
+    "Hunters' Cunning",
+    "Hyrri's Reward",
+    "Ice Golem",
+    "Icicle Mines",
+    "Ignite Immunity",
+    "Ignite Prevention"
+  ],
+  "aliases": [
+    "Hoarfrost"
+  ],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Oath of Winter}}\n\n'''Oath of Winter''' is a notable [[Ascendancy passive skill]] for the [[Warden]] that causes [[freeze]] applied to enemies to last a minimum of 2 seconds. In addition, if an enemy fails to become frozen due to insufficient freeze duration, it receives a stack of the Hoarfrost debuff, which increases freeze duration on the target per stack. All Hoarfrost is removed when the target becomes frozen.\n\n==Mechanics==\n{{c|mod|Enemies you Freeze remain Frozen for at least 2 seconds}}: If an enemy were to become afflicted with freeze and the duration of freeze would be less than 2 seconds, its duration is overridden to 2 seconds. Modifiers to freeze duration do not affect this minimum freeze duration.<ref>https://www.pathofexile.com/forum/view-thread/3532389/page/1#25</ref>\n\n'''Hoarfrost:''' {{c|help|Hoarfrost lasts 10 seconds and can be inflicted multiple times, each refreshing the duration of existing Hoarfrost on the target. Each Hoarfrost increases the Freeze Duration on the target by 20%. All Hoarfrost is removed if the target is Frozen.}}\n\n:Hoarfrost is a [[debuff]] and not an [[ailment]].<ref>https://www.pathofexile.com/forum/view-thread/3532389/page/1#26</ref> A hit must inflict a freeze of at least 1 millisecond (1/6000 of the monster's ailment threshold) to inflict Hoarfrost.<ref name=\"HoarfrostDuration\"/>\n\n==Ruthless mode==\n{{infocard\n|header    = Oath of Winter (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:WardenColdAilments (Warden) passive skill icon.png]]</div>\n|2         = Enemies you Freeze remain Frozen for at least 2 seconds<br>Hits that fail to Freeze due to insufficient Freeze Duration inflict Hoarfrost\n}}\nOath of Winter in [[Ruthless mode]] is unchanged.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* The [[Warden]] has replaced the Raider.\n* Avatar of the Slaughter replaced with Oath of Winter.\n}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} No longer provides \"10% increased Evasion Rating per Frenzy Charge\", \"4% increased Attack Speed per Frenzy Charge\" or \"10% increased Attack Damage per Frenzy Charge\" in Ruthless. It now provides \"+1 to Maximum Frenzy Charges.\"\n}}\n{{Version history table row|3.13.0|\n* Now grants:\n** 10% increased Attack Damage per Frenzy Charge (from 8%),\n** 4% increased Movement Speed per Frenzy Charge (from 3%),\n** 4% increased Attack Speed per Frenzy Charge (from 3%),\n** 10% increased Evasion Rating per Frenzy Charge (from 8%).\n}}\n{{Version history table row|3.8.0|\n* No longer grants +1 to maximum Frenzy Charges. Now grants 8% increased Evasion Rating per Frenzy Charge, 3% increased Movement Speed per Frenzy Charge (from 2%), and 8% increased Attack Damage per Frenzy Charge (from 3%).\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name = \"HoarfrostDuration\">{{cite web\n| author = Community_Team\n| date = July 21, 2024\n| title = Settles of Kalguur: Recently Asked Questions\n| url = https://www.pathofexile.com/forum/view-thread/3532389#10\n| publisher = Official Path of Exile Website\n| accessdate = March 12, 2026\n}}</ref>}}",
+  "sha256": "4819831e3fb534094601c0d069774ae484bd651e1c9e7bab6a8742003470b0d4"
+}

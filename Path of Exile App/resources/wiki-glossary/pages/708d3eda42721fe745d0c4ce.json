@@ -1,0 +1,33 @@
+{
+  "title": "Covered in Webs",
+  "pageId": 4032,
+  "revision": 1446248,
+  "timestamp": "2024-05-25T20:09:06Z",
+  "retrieved": "2026-11-14T10:57:17.465333+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Covered in Webs\n| type                   = Debuff\n| description            = You have reduced movement speed while covered in webs.\n}}\n'''Covered in Webs''' is a [[debuff]] from several [[spider]] bosses.\n\n==Sources==\n* [[The Weaver]] (last for 8s, max 10 stacks)\n* [[Arakaali, Spinner of Shadows]] (stacks, 8% penalty per stack for [[movement speed]])\n* [[Sunken City Map|Armala, the Widow]] ?\n\n==Other similar debuffs==\n* {{stl|Spider's Web}}\n* {{stl|Covered in Spiders}} - uses the same graphic as \"Covered in Webs\"\n* {{stl|Webbed}}\n* {{stl|Coated in Azurite}} - a debuff applied by spiders from [[Azurite Mine]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|?|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "a3a3242e18cdd10625583f7a93483ed9d0f7398aec75072cdfcf452664e48f88"
+}

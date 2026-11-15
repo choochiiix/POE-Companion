@@ -1,0 +1,33 @@
+{
+  "title": "Punisher",
+  "pageId": 13093,
+  "revision": 1486256,
+  "timestamp": "2024-10-13T02:13:15Z",
+  "retrieved": "2026-11-14T10:57:37.995410+00:00",
+  "requested": [
+    "Prismatic Tincture",
+    "Prismplate",
+    "Procyonic Procession",
+    "Projectile Test",
+    "ProphecyQuantity",
+    "Protection",
+    "Protective Link",
+    "Protective Shield",
+    "Proximity Shield",
+    "Punisher",
+    "Punishment",
+    "Purging Flame",
+    "Purity of Elements Aura",
+    "Purity of Fire Aura",
+    "Purity of Ice Aura",
+    "Purity of Lightning Aura",
+    "Purple Effluent",
+    "Pursuit of Faith",
+    "Putrefaction",
+    "Pyroclast Mines"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Punisher\n| type                   = Buff\n}}\n\n'''Punisher''' is a [[buff]] that grants more [[melee physical damage]] and increased [[attack speed]]. The base [[duration]] is 4 seconds.\n\n==Sources==\n* {{il|Punishment}}\n\n[[Category:Buffs]]",
+  "sha256": "698d0f82f4e991945ed245724532e24751dbf099f91b1d9c6cd577231943fa87"
+}

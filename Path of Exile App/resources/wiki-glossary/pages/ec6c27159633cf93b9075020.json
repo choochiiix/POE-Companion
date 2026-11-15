@@ -1,0 +1,35 @@
+{
+  "title": "Oasis ground",
+  "pageId": 137722,
+  "revision": 1627075,
+  "timestamp": "2026-03-07T07:47:32Z",
+  "retrieved": "2026-11-14T10:57:34.916571+00:00",
+  "requested": [
+    "Minion Test",
+    "Molten Shell",
+    "Momentum",
+    "Monster Consume",
+    "Moon's Presence",
+    "Murine Procession",
+    "Musty Wine",
+    "Mystic Miasma",
+    "Necrovigil",
+    "Net Throw",
+    "No Chaos Resistance",
+    "Nova",
+    "Noxious Fumes",
+    "Oakbranch Tincture",
+    "Oasis Ground",
+    "Obscuring Tempest",
+    "Offering Of Judgement",
+    "Oiled Ground",
+    "Omen of Brilliance",
+    "Omnitect's Paralysis"
+  ],
+  "aliases": [
+    "Oasis Ground"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Oasis Ground\n| type                   = Buff\n| icon = Oasis Ground status icon.png\n| description = You are regenerating Life and Mana\n}}\n[[File:Oasis ground.jpg|thumb|Overlapping patches of Oasis ground.]]\n'''Oasis Ground''' is a beneficial [[ground effect]] that grants a [[buff]] which [[regenerate]]s 10% of [[life]] and [[mana]] while standing on it. The buff does not stack even if multiple areas overlap.\n\n__TOC__\n\n==Sources==\nOasis Ground is exclusively found in [[Mirage]]s if the Wish for Oases is chosen.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Ground effects]]\n[[Category:Buffs]]",
+  "sha256": "bc1e76eee4ee054e9ff87c0b3872fa232af4c9c6ef8e3b6a72405c52c538cd6e"
+}

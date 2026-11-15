@@ -1,0 +1,33 @@
+{
+  "title": "Malignant Madness",
+  "pageId": 10660,
+  "revision": 1630980,
+  "timestamp": "2026-03-08T18:56:03Z",
+  "retrieved": "2026-11-14T10:57:34.125479+00:00",
+  "requested": [
+    "Malevolence Aura",
+    "Malignant Madness",
+    "Mana Regeneration Aura",
+    "Mana Rune",
+    "Mana Shield",
+    "Mana-Infused Staff",
+    "Mark of Dominus",
+    "Mark of the Synthete",
+    "Marked for Death",
+    "Massive Shrine",
+    "Master of Metal",
+    "Maven's Game",
+    "Maven's Grace",
+    "Maven's Punishment",
+    "Medium Physical Damage Aura",
+    "Metamorphosis",
+    "Might is Right",
+    "Mightblood Ire",
+    "Militarised Coral",
+    "Mine and Trap Test"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Malignant Madness\n| type                   = Debuff\n| description            = You are slower and deal reduced damage due to a nearby Tentacle Fiend.\n}}\n\n'''Malignant Madness''' is a [[debuff]] that reduces the [[action speed]] and [[damage]] of affected targets. It is applied by the monster [[Tentacle Fiend]] or applied by the player by using [[Impresence]] or [[The Eternal Struggle]] or {{il|Eldritch Blasphemy Support}}.\n\nThe debuff reduce affected targets' [[action speed]] and [[damage]] by 10%.\n\n==Sources==\n* [[File:Maddening Presence status icon.png|25px|link=Maddening Presence]] [[Maddening Presence]], a buff granted by the item Impresence\n* [[Tentacle Fiend]], a kind of monster in Elder-influenced map\n* {{il|The Eternal Struggle}}, Critical Strikes inflict Malignant Madness if The Eater of Worlds is dominant\n* {{il|Eldritch Blasphemy Support}}\n\n==See also==\n* [[Eldritch decay (ground effect)|Eldritch decay]], another debuff that can appear in Elder-influenced map\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "95516299a6c0ab1201c73c87cd42a3736290567dfeae1c31b44d15fd356f339a"
+}

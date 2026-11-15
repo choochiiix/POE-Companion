@@ -1,0 +1,33 @@
+{
+  "title": "Serpent Extract",
+  "pageId": 124224,
+  "revision": 1480870,
+  "timestamp": "2024-08-14T00:56:52Z",
+  "retrieved": "2026-11-14T10:57:42.762138+00:00",
+  "requested": [
+    "Scientist's Beam",
+    "Scorching Conflux",
+    "Scorching Ray",
+    "Scourge Arrow",
+    "Screech",
+    "Sea Hag's Blessing",
+    "Searing Beam",
+    "Searing Rune",
+    "Seething Tempest",
+    "Seismic Cry",
+    "Sentinel Chaos Resistance",
+    "Sentinel Curse Protection",
+    "Sentinel Fire Damage",
+    "Sentinel Life Regeneration",
+    "Sentinel Lightning Damage",
+    "Sentinel Mana Regeneration",
+    "Sentinel Shield",
+    "Serpent Extract",
+    "Sewage Toxins",
+    "Shade Form"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Serpent Extract\n|class_id                                = InstanceLocalItem\n|size_x                                  = 1\n|size_y                                  = 1\n|tags                                    = currency, default\n|metadata_id                             = Metadata/Items/Hideout/MTXSnakeOil\n|stack_size                              = 10\n|description                             = Exiles that consume Serpent Extract daily are sane exiles. \n|help_text                               = Right click on this item to use it. Cannot be removed from hideout.\n}}",
+  "sha256": "c995f047face3d9b7f06713249e77b5a5f14662e6b14575f1840dcb4fc8ea442"
+}

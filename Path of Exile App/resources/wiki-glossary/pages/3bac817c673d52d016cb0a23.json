@@ -1,0 +1,35 @@
+{
+  "title": "Fleeing",
+  "pageId": 6698,
+  "revision": 1675567,
+  "timestamp": "2026-07-20T13:31:19Z",
+  "retrieved": "2026-11-14T10:09:59.978758+00:00",
+  "requested": [
+    "burning damage",
+    "damage type",
+    "Conflux",
+    "skill effect duration",
+    "monster",
+    "flee",
+    "3.16.0",
+    "luck",
+    "buff",
+    "reflected damage",
+    "Temporal Chains",
+    "damage",
+    "critical strike chance",
+    "range",
+    "Flask",
+    "Instant",
+    "channelling",
+    "Repeat",
+    "Guard Skill",
+    "Focus"
+  ],
+  "aliases": [
+    "Flee"
+  ],
+  "missing": false,
+  "wikitext": "[[Fleeing]] is a status that causes enemies to attempt to run to a random point somewhere away from the player until they reach a certain point, are interrupted, or are unable to reach their selected point and give up. If a fleeing enemy becomes [[stun]]ned, their fleeing behaviour will be interrupted. There is no fixed duration for fleeing.<ref>[https://www.pathofexile.com/forum/view-thread/30778], Mark_GGG comments on fleeing mechanics.</ref>\n\n__TOC__\n\n==Mechanics==\n\n{{c|magic|Magic}} monsters have a 50% chance to avoid fleeing for any reason, and {{c|rare|rare}} and {{c|unique|unique}} monsters are unaffected by fleeing (though chance to flee can still be inflicted).\n\nFleeing monsters do not use any offensive skills while they are actively trying to flee. Certain triggered skills may still occur while fleeing.\n\nCertain types of monsters naturally flee when they are [[ignite]]d. This includes [[ape]]s, [[humanoid]]s, and [[Sea Witch|sea witches]].\n\n==Uses==\n* [[Bleeding]] deals extra damage to moving targets by default.\n* Since enemies can not perform actions while trying to flee from the player, chance to flee can sometimes be used as a form of crowd control.\n* Chance to flee has been associated with certain aspects of [[fishing]]; however, the status itself has been disproven as a requirement to drop an {{il|page=Angler's Plait}}, though a corrupted {{il|page=Slitherpinch}} being equipped is still required.\n\n==Sources==\n===Gems===\n{{Query stat related skill gems\n|type=active\n|stat_id_query=%flee%\n|stat_page=fleeing\n}}\n\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%flee%\n|stat_page=fleeing\n}}\n===Modifiers===\n[[Corrupted]] weapons could have the [[Legacy variant|legacy]] corrupted implicit modifier {{c|mod|5% Chance to Cause Monsters to Flee}}.\n\n===Unique Items===\n{{Drop enabled unique item table\n|tables = item_stats\n|join = item_stats._pageName=items._pageName\n|where = item_stats.id LIKE \"%flee%\"\n|large=1\n|stat=1\n|level=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Fixed a bug where Minions could break their AI when stealing the Fleeing Monster modifier.\n}}\n{{Version history table row|3.28.0|\n* Added reminder text for Fleeing, granted for example by Chance to Flee Support.\n}}\n{{Version history table row|0.9.3|\n* Modified the set of monsters that flee due to being ignited so that it is only humanoids, monkeys and Sea Witches.\n}}\n{{Version history table row|0.8.7|\n* Many [[monster]] types now flee when set on fire.\n}}\n{{Version history table end}}\n\n==References==\n<references />\n\n[[Category:Game mechanics]]",
+  "sha256": "f297612d354d50a9d9aec8bbe9350a2aa91ce76966649523a03ddfe5dfa6495c"
+}

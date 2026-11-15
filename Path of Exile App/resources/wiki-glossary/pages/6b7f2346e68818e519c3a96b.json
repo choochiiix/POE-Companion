@@ -1,0 +1,33 @@
+{
+  "title": "Death Walk",
+  "pageId": 4666,
+  "revision": 1649304,
+  "timestamp": "2026-05-22T23:37:21Z",
+  "retrieved": "2026-11-14T10:11:07.708444+00:00",
+  "requested": [
+    "master",
+    "staves",
+    "fishing rod",
+    "melee skill",
+    "area level",
+    "Death Walk",
+    "ballista",
+    "dual-wielding",
+    "killing blow",
+    "Secondary",
+    "Critical Strikes",
+    "reflect",
+    "Puncture",
+    "puncture",
+    "Mines",
+    "Resistances",
+    "global",
+    "shields",
+    "attributes",
+    "monsters"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=DeathWalk}}\n\n'''Death Walk''' is a [[skill]] granted by [[Bubonic Trail]].\n\n==Mechanics==\nDeath Walk is affected by [[socket]]ed support gems regardless of whether they are [[link]]ed. However, since Death Walk is not granted by a skill gem, it cannot be supported by {{il|Empower Support}}, {{il|Enhance Support}}, or {{il|Enlighten Support}}.\n\nUsing [[Cyclone]] does not count as \"walking\" for purposes of Death Walk.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.1.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "0feb245bd2376315b0791396d22905243ee394fe775820b72f6c473b9ceaea20"
+}

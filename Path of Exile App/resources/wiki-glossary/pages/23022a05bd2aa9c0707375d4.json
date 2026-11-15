@@ -1,0 +1,33 @@
+{
+  "title": "Rongokurai's Boon",
+  "pageId": 133912,
+  "revision": 1659200,
+  "timestamp": "2026-06-20T03:29:28Z",
+  "retrieved": "2026-11-14T10:57:41.166228+00:00",
+  "requested": [
+    "Righteous Fire",
+    "Righteous Lightning",
+    "Rigid Shell",
+    "Rigwald Wolf Barrage",
+    "Ritual Rune",
+    "Ritual of Dance",
+    "Ritual of Meditation",
+    "Ritual of Undeath",
+    "Rod of Detonation",
+    "Rolling Magma Emissions",
+    "Rongokurai's Boon",
+    "Rose Petals",
+    "Rosethorn Tincture",
+    "Rotten Bulwark",
+    "Ruby Flask",
+    "Ruin",
+    "Ruinous Burning Bond",
+    "Ruinous Chaotic Bond",
+    "Ruinous Chilling Bond",
+    "Ruinous Electrifying Bond"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Rongokurai's Boon\n| icon                   = Basalt Flask status icon.png\n| type                   = Buff\n| description = You cannot be Damaged\n}}\n'''Rongokurai's Boon''' is a [[buff]] that grants {{c|mod|You cannot be Damaged}} for 2 seconds, with a 30 second cooldown<ref name=\"Rongokurai's Boon Effect\" />. This buff can only be granted by a {{il|Imperfect Guardian Turtle}}, {{il|Guardian Turtle}}, or {{il|Perfect Guardian Turtle}} [[spectre]].\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0h|\n* The Rongokurai's Boon buff from Guardian Turtle Spectres is no longer affected by modifiers to Buff Expiry Rate, such as Temporal Chains.\n}}\n{{Version history table row|3.23.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Rongokurai's Boon Effect\">{{cite web\n| author = Doominated\n| date = Jan 20, 2024\n| title = POE Perfect Guardian Turtle Spectre\n| url = https://www.youtube.com/watch?v=8JK0panIC3w\n| publisher = Youtube\n| accessdate = July 7, 2025\n}}</ref>\n}}\n\n[[Category:Buffs]]",
+  "sha256": "50801c078394feddb97f2687b50d2dfc3f4a0c67fcbcbed62e79d83e9e221b53"
+}

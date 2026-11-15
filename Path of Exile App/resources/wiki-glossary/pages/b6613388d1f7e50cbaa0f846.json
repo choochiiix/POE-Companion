@@ -1,0 +1,33 @@
+{
+  "title": "Crushed",
+  "pageId": 4252,
+  "revision": 1486299,
+  "timestamp": "2024-10-13T02:15:51Z",
+  "retrieved": "2026-11-14T10:11:12.081050+00:00",
+  "requested": [
+    "Ghost",
+    "Rhoa",
+    "Snake",
+    "Spider",
+    "Statue",
+    "Zombie",
+    "magic",
+    "explicit",
+    "Abyss jewel",
+    "Rarity",
+    "rarity",
+    "fishing",
+    "ailments",
+    "Crushed",
+    "Call of Steel",
+    "class",
+    "Buff Effect",
+    "event",
+    "race",
+    "ranged"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Crushed\n| type                   = Debuff\n| description = You are Crushed, lowering Physical Damage Reduction by 15%\n| bonuses = {{c|mod|-15% additional Physical Damage Reduction}}\n}}\n\n'''Crushed''' is a [[debuff]] that lowers physical [[damage reduction]] by 15%. \n\n==Sources==\n===Mods===\n* {{il|Essence of Horror}}'s amulet mod {{ml|CrushOnHitChanceEssence1|display=verbose}}\n\n<!--\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Crush%\" AND mod_stats.id NOT LIKE \"%shield_crush%\"\n|stat_text=1\n|spawn_weights=1\n|level=1\n|tags=1\n}}\n\n-->\n===Gems===\nLevel 5 {{il|Awakened Brutality Support}} gives 10% chance to Crush Enemies for 4 seconds on Hit\n\n===Passive skills===\n{{Query base passive skills\n|where= passive_skill_stats.id LIKE \"%Crush%\"\n}}\n[[Mace Mastery]]: \"Crush Enemies on hit with Maces and Sceptres\" crushes on hit\n==Items==\n\n===Base Items===\n\n{{Drop enabled base item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n       item_stats.id LIKE \"%crush%\" OR items.stat_text LIKE \"%Crushed%\"\n|large=1\n|level=1\n|stat=1\n}}\n\n===Unique items===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n       item_stats.id LIKE \"%crush%\" OR items.name = \"Glimpse of Chaos\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* Crushed now has an icon. {{Undocumented}}\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "3a1e98510be34cd47d8ef3d5a52f2e15ddd9f8a99f501765c1b22b5cc81cfaf7"
+}

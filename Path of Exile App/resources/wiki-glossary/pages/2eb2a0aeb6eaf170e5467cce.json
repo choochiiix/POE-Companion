@@ -1,0 +1,33 @@
+{
+  "title": "Aspect of Solaris",
+  "pageId": 143265,
+  "revision": 1704282,
+  "timestamp": "2026-11-08T15:46:17Z",
+  "retrieved": "2026-11-14T10:57:10.191515+00:00",
+  "requested": [
+    "Arakaali Shrine",
+    "Arc Trap",
+    "Arcane Cloak",
+    "Arcane Tempest",
+    "Arcanist Brand",
+    "Arctic Armour",
+    "Arena Master's Presence",
+    "Armageddon Brand",
+    "Arohongui's Blessing",
+    "Arohongui's Moonlight",
+    "Arrogance of the Vaal",
+    "Ascendancy Effect",
+    "Ascendancy Effect (Invisible)",
+    "Ascendancy Effect (invisible)",
+    "Ashbark Tincture",
+    "Aspect of Arakaali",
+    "Aspect of Lunaris",
+    "Aspect of Solaris",
+    "Aspect of the Brine King",
+    "Assassin's Blade"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=AspectOfSolaris}}\n\n'''Aspect of Solaris''' is a Pantheon [[aspect]] skill that grants a [[buff]] which inflicts Fire [[exposure]] on enemies within its radius, and periodically inflicts the stackable Sunscald debuff which increases the effect of exposure on affected enemies. Only one aspect skill can be active at a time.\n\n==Mechanics==\nThis buff inflicts a base exposure effect of -10% to [[fire resistance]]. \n\nThe Sunscald debuff has a base duration of 4 seconds and stacks up to 5 times, with each stack increasing exposure effect by 15%, or a total of 75% increased exposure effect on affected enemies. It is inflicted once every second; the interval cannot be modified. It affects all types of exposure applied by any skill or effect, not just the fire exposure from the skill.\n\nSunscald affects exposure including from sources other than Aspect of Solaris; for example, {{il|Scorching Ray}}'s -25% Fire Resistance exposure, {{il|Pyroclast Mine of Sabotage}}, and {{psl|Mastermind of Discord}}. In the case of Pyroclast Mine, the increased exposure effect is additive with [[aura]] effect from [[mine]]s.<ref>https://www.reddit.com/r/PathOfExileBuilds/comments/1v6wku8/all_of_the_new_pantheon_aspects/</ref> These effects apply before {{il|Eye of Malice}}.\n\nExposure effect is additive with the aura effect when used with {{il|Pyroclast Mine}}.\n\nAspect of Solaris cannot be supported by {{il|Enlighten Support}}.\n\n==Acquisition==\nAspect of Solaris is obtained exclusively by using {{il|Brinehook's Ducat}} during [[Allflame crafting]], which adds {{ml|GrantsSolarisAspectCrafted}} to the item.\n\n==Videos==\n{{#ev:youtube|GwqA3iIG79Y|350}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Allflame}}\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "6f67b74a4dcbec6d687e89523f5e8eb6465413abf18260e59b5ee6a4bd3b3b6e"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Unnerve",
+  "pageId": 18389,
+  "revision": 1673508,
+  "timestamp": "2026-07-13T20:45:37Z",
+  "retrieved": "2026-11-14T10:08:28.929104+00:00",
+  "requested": [
+    "Life",
+    "Mana",
+    "Rage",
+    "Strength",
+    "Dexterity",
+    "Intelligence",
+    "Block",
+    "Spell suppression",
+    "Dodge",
+    "Stun",
+    "Stun threshold",
+    "Knockback",
+    "Blind",
+    "Maim",
+    "Hinder",
+    "Taunt",
+    "Intimidate",
+    "Unnerve",
+    "Withered",
+    "Impale"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Unnerve\n| type                   = Debuff\n| description            = You are Unnerved, increasing Spell Damage taken.\n}}\n'''Unnerve''' is a [[debuff]] that causes affected targets to take 10% increased [[spell damage]].\n\n__TOC__\n==Mechanics==\nUnnerve does not increase [[damage over time]] taken, even if the damage is from a [[spell]] which applies spell damage modifiers to its damage over time effect.<ref name=\"dot\" />\n==Gems==\n===Skill gems===\n<section begin=\"active_skill_gems\" />{{Query stat related skill gems\n|conditions=\n|type=active\n|stat_id_query=%unnerve%\n|stat_page=unnerve\n}}\n<section end=\"active_skill_gems\" />\n===Support gems===\n<section begin=\"support_skill_gems\" />{{Query stat related skill gems\n|conditions=\n|type=support\n|stat_id_query=%unnerve%\n|stat_page=unnerve\n}}\n<section end=\"support_skill_gems\" />\n\n==Passive skill tree==\n===Passive skills===\n{{Passive skill table\n|q_where=passive_skills.stat_text LIKE \"%unnerve%\" AND passive_skills.id NOT LIKE \"affliction%\"\n|stat_text=1\n|large=1\n|ascendancy=1\n}}\n\n===Passive Masteries===\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%unnerve%\"}}\n\n===Cluster Jewel Passives===\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skills.stat_text LIKE \"%unnerve%\"\n|large=1\n|stat_text=1\n}}\n\n==Modifiers==\nNormal modifier:<br/>\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  (mod_stats.id LIKE \"%unnerve%\" OR mod_stats.id LIKE \"%unnerve%\") AND spawn_weights.weight > 0 AND mods.generation_type NOT IN (10, 24, 28, 29) AND spawn_weights.tag NOT LIKE \"%elder%\" AND spawn_weights.tag NOT LIKE \"%shaper%\" AND spawn_weights.tag NOT LIKE \"%basilisk%\" AND spawn_weights.tag NOT LIKE \"%crusader%\" AND  spawn_weights.tag NOT LIKE \"%adjudicator%\" AND  spawn_weights.tag NOT LIKE \"%eyrie%\" AND mods.domain != 16\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type=1\n}}\n===Enchantments===\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  (mod_stats.id LIKE \"%unnerve%\" OR mod_stats.id LIKE \"%unnerve%\") AND spawn_weights.weight > 0 AND mods.generation_type = 10\n|stat_text=1\n|spawn_weights=1\n|level=1\n|labyrinth=1\n}}\n===Eater of Worlds implicit===\n[[Eater of Worlds]] implicit are craftable on [[Armour (equipment)|armour]] by using [[Eldritch Ichor]]s, or drops from map that is influenced by it. The T1 and T2 mods are only craftable by using {{il|Orb of Conflict}}.<br/>\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  (mod_stats.id LIKE \"%unnerve%\" OR mod_stats.id LIKE \"%unnerve%\") AND spawn_weights.weight > 0 AND mods.generation_type =29\n|stat_text=1\n|spawn_weights=1\n|level=1\n}}\n\n===Searing Exarch implicit===\n[[Searing Exarch]] implicit are craftable on armour by using [[Eldritch Ember]]s, or drops from map that is influenced by it. The T1 and T2 mods are only craftable by using {{il|Orb of Conflict}}.\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  (mod_stats.id LIKE \"%unnerve%\" OR mod_stats.id LIKE \"%unnerve%\")  AND mods.generation_type =28\n|q_orderBy=mods.id\n|stat_text=1\n|spawn_weights=1\n|level=1\n}}\n\n===Influenced mod===\nThese influence explicit mods are either drops from Shaper or Elder or the [[Conquerors]] (Elderslayers) (Read the spawn weight and mod name for details). Alternatively, [[harvest crafting]] or using an [[Elderslayer's Exalted Orb]].\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  (mod_stats.id LIKE \"%unnerve%\" OR mod_stats.id LIKE \"%unnerve%\") AND spawn_weights.weight > 0 AND mods.generation_type NOT IN (10, 24, 28, 29) AND (spawn_weights.tag LIKE \"%elder%\" OR spawn_weights.tag LIKE \"%shaper%\" OR spawn_weights.tag LIKE \"%basilisk%\" OR spawn_weights.tag LIKE \"%crusader%\" OR spawn_weights.tag LIKE \"%adjudicator%\" OR spawn_weights.tag LIKE \"%eyrie%\" )\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type=1\n}}\n\n===Scourge mods===\nScourge mods are currently unable to obtain in temporary leagues. It can only be found on existing items in the permanent leagues, that are originally drop or created during [[Scourge league]]\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  (mod_stats.id LIKE \"%unnerve%\" OR mod_stats.id LIKE \"%unnerve%\") AND mods.generation_type =24\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type=1\n}}\n===Fossil mods===\nFossil only mod are not craftable anymore since [[version 3.10.0]]:<br/>\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  (mod_stats.id LIKE \"%Unnerve%\" OR mod_stats.id LIKE \"%unnerve%\") AND mods.domain = 16\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type=1\n}}\n\n==Unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%unnerve%\" \n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.8.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name = \"dot\">{{cite web\n |title = Unnerve and DOT interaction\n |url = https://www.pathofexile.com/forum/view-thread/2784387#p22947950\n |author = Mark_GGG\n |date = Mar 11, 2020\n |accessdate = April 22, 2020\n |publisher = Official Path of Exile Website\n}}</ref>\n}}\n\n[[Category:Debuffs]]",
+  "sha256": "d42a7adc03253a1ce37134caf15e4ae4b5f53c934edda225411bff7c35950eb6"
+}

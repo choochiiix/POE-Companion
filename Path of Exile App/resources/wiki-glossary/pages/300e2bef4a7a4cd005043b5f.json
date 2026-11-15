@@ -1,0 +1,33 @@
+{
+  "title": "Offering",
+  "pageId": 11804,
+  "revision": 1699340,
+  "timestamp": "2026-08-07T08:26:48Z",
+  "retrieved": "2026-11-14T10:08:31.484134+00:00",
+  "requested": [
+    "Mine",
+    "Minion",
+    "Golem",
+    "Spectre",
+    "Sentinel",
+    "Brand",
+    "Banner",
+    "Herald",
+    "Offering",
+    "Trigger",
+    "Channelled skill",
+    "Projectile",
+    "Chain",
+    "Fork",
+    "Pierce",
+    "Split",
+    "Return",
+    "Area of effect",
+    "Duration",
+    "Damage over time"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the skill type|the divination card|The Offering|the Labyrinth item|Offering to the Goddess}}\n\n'''Offerings''' are [[skill]]s that consume [[corpse]]s to [[buff]] the player's [[minion]]s. Additional nearby corpses will also be consumed to extend the effect's [[duration]].\n\n==Mechanics==\nBy default, each player may only have one Offering active at any time. Casting an Offering skill while one is already active will remove the older one.\n\nOffering skill effects are separate objects that provide buffs to minions, and possibly the player with an effect like {{psl|Mistress of Sacrifice}}. While the object has a duration, the buffs do not; they cannot be affected by effect expiration modifiers such as {{il|Temporal Chains}} or {{il|Runegraft of the Warp}}.<ref>https://www.pathofexile.com/forum/view-thread/3877525/page/3#p26572936</ref> \n\nMinions created after an Offering was activated are still affected by it, similar to new entities entering an existing aura.<ref>https://www.youtube.com/watch?v=QqGnwLU6_PU</ref>\n\nOfferings can consume Spectral [[Corpse]]s due to their Minion [[gem tag]]; [[trigger]]ed Offerings may unintentionally consume [[corpse item]]s. \n\n==List of offering skills==\n===Active skills===\n{{Drop enabled gem table\n|where=items.name LIKE \"%Offering%\"\n}}\n* {{sl|Blood Offering}}\n\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%offering%\n|stat_page=offering\n}}\n\n==Related unique items==\nThe following [[unique item]]s are related to Offering skills:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%offering%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\nThe following [[passive skill]]s are related to Offering skills:\n===Main tree===\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%offering%\" AND passive_skills.id NOT LIKE \"%AlternateAscendancy%\"\n}}\n\n===Mastery Effects===\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%offering%\"}}\n\n===Ascendancy passive===\n{{Query ascendancy passive skills\n|where=passive_skill_stats.id LIKE \"%offering%\"\n}}\n\nBloodline ascendancy:\n\n{{Query passive skills\n|where=passive_skill_stats.id LIKE \"%offering%\" AND passive_skills.id LIKE \"%AlternateAscendancy%\"\n}}\n\n==Related modifiers==\nThe following [[modifier]]s are related to Offering skills:\n{{modifier table\n|q_where = mods.stat_text LIKE \"%Offering%\"\n      AND mods.generation_type NOT IN (\"3\", \"10\", \"28\", \"29\", \"31\")\n      AND domain NOT IN (\"35\", \"37\" )\n|level=1\n|stat_text=1\n|spawn_weights=1\n|domain=1\n}}\n===Eldritch implicit===\nThese mods can only be obtained from using [[Eldritch currency]] on certain basetype\n{{modifier table\n|q_where = mods.stat_text LIKE \"%Offering%\"\n      AND mods.generation_type IN (\"28\", \"29\")\n|level=1\n|stat_text=1\n|spawn_weights=1\n}}\n===Legacy mods===\n====Enchantments====\nEnchantments mechanic is removed from the [[Labyrinth]]. Theses mods can only be find on existing items in the permanent leagues.\n{{modifier table\n|q_where = mods.stat_text LIKE \"%Offering%\"\n      AND mods.generation_type = \"10\"\n|level=1\n|stat_text=1\n|spawn_weights=1\n}}\n\n====Crucible====\nCrucible mechanics are not added to the core game. Theses mods can only be find on existing items in the permanent leagues.\n{{modifier table\n|q_where = mods.stat_text LIKE \"%Offering%\"\n      AND mods.generation_type = \"31\"\n|level=1\n|stat_text=1\n|spawn_weights=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.5.0|\n* Added physics interactions.\n}}\n{{Version history table row|1.0.6|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}} \n\n{{sister|poe2wiki}}\n\n[[Category:Keywords]]\n[[Category:Buffs]]",
+  "sha256": "b9221c99b8c37b16d4542d51a1ddb391cb063c64e956b30913d37f10ebb6f450"
+}

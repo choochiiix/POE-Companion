@@ -1,0 +1,33 @@
+{
+  "title": "Ghastly Eye Jewel",
+  "pageId": 7179,
+  "revision": 1449717,
+  "timestamp": "2024-05-29T18:42:13Z",
+  "retrieved": "2026-11-14T10:11:21.694558+00:00",
+  "requested": [
+    "fireball",
+    "bleed",
+    "decay",
+    "Valour",
+    "Explosion",
+    "Travel",
+    "Attributes",
+    "traps",
+    "mines",
+    "totems",
+    "Spells",
+    "claws",
+    "flying",
+    "Skill Duration",
+    "Envy",
+    "Ghastly Eye Jewel",
+    "of Ice",
+    "Chilling Area",
+    "warcries",
+    "travel"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Ghastly Eye Jewel\n|class_id                                = AbyssJewel\n|size_x                                  = 1\n|size_y                                  = 1\n|drop_level                              = 1\n|drop_rarities_ids                       = magic, rare, unique\n|tags                                    = not_for_sale, abyss_jewel_summoner, abyss_jewel, default\n|metadata_id                             = Metadata/Items/Jewels/JewelAbyssSummoner\n|help_text                               = Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.\n|acquisition_tags                        = Abyss\n|drop_text                               = Ghastly Eye Jewel may drop from [[Abyssal Trove]]s. It may also be obtained in [[Abyss Jewel|other ways]].\n|is_drop_restricted                      = true\n|release_version                         = 3.1.0\n}}\n\n'''Ghastly Eye Jewel''' is an [[abyss jewel]] base type. It is known as the \"summoner\" abyss jewel as it internally has a focus on summoner-related [[modifier]]s.\n\n==Modifiers==\n{{Main|List of modifiers for Ghastly Eye Jewel}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.1.0|\n* Added to the game\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "9084450d3bb1b94700d8a88a8527d02f2be61ea08a567ba0558f1776afdc5ddd"
+}

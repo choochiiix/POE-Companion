@@ -1,0 +1,33 @@
+{
+  "title": "Doedre's Madness",
+  "pageId": 5258,
+  "revision": 1704658,
+  "timestamp": "2026-11-11T13:01:42Z",
+  "retrieved": "2026-11-14T10:57:19.962712+00:00",
+  "requested": [
+    "Digestive Acid",
+    "Diluting Touch",
+    "Discipline Aura",
+    "Disgorge",
+    "Divination Distillate",
+    "Divine Beam",
+    "Divine Blast of Radiance",
+    "Divine Charge",
+    "Divine Flare",
+    "Divine Ire",
+    "Divine Shrine",
+    "Divine Tempest",
+    "Doedre's Madness",
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering",
+    "Doomed",
+    "Doryani's Conflagration",
+    "Double Strike",
+    "Drained Essence"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Doedre's Madness\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = \"Hold your tongue before I claim it.\" - Doedre Darktongue\n|drop_level                              = 23\n|tags                                    = unique_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardDoedresMadness\n|stack_size                              = 9\n|description                             = {{c|unique|Doedre Item}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 2_8_2_2, 1_4_6_3, 2_9_10_2\n|release_version                         = 2.0.1b\n}}\n\n'''Doedre's Madness''' is a [[divination card]]. A set of nine can be exchanged for a random [[unique item]] thematically associated with [[Doedre Stamatis]].\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous. \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n{{Atlas div card|The Putrid Cloister|Phantasmagoria}}\n}}\n{{Version history table row|3.26.0|\n{{Atlas div card|The Putrid Cloister|Waste Pool}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Sulphur Vents|The Putrid Cloister}}\n* Now an area drop in [[The Harvest (area)|The Harvest]], [[Doedre's Cesspool]] and [[The Rotting Core]] instead of a boss drop.{{Divcord}}\n}}\n{{Version history table row|3.23.1|\n* Fixed a bug where Doedre's Tongue was not a possible reward outcome when turning in a stack of Doedre's Madness Divination Cards.\n}}\n{{Version history table row|3.0.0|\n* Cruel and Merciless difficulty and thus some former drop locations are removed.\n}}\n{{Version history table row|2.0.4b|\n* Changed to drop from specific Bosses.\n}}\n{{Version history table row|2.0.1b|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "5e4ca47d903bb4f55d394ddd8ca429db012a1ddb1bc9c5b41abbc8bf0b3a328b"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "The Annihilating Light",
+  "pageId": 88781,
+  "revision": 1466713,
+  "timestamp": "2024-07-24T12:50:25Z",
+  "retrieved": "2026-11-14T10:57:09.420652+00:00",
+  "requested": [
+    "Ahuana's Leadership",
+    "Akoya's Leadership",
+    "Alchemist's Genius",
+    "Alchemist's Mark",
+    "Alivia's Grace",
+    "Allflame Infused Coral",
+    "Alva's Gift",
+    "Always Crit Aura",
+    "Ambu's Charge",
+    "Ambush",
+    "Amethyst Flask",
+    "Ancestral Cry",
+    "Ancestral Earthbreaker",
+    "Ancestral Protector",
+    "Ancestral Warchief",
+    "Ancient Wisdom",
+    "Anger Aura",
+    "Anger's Intensity",
+    "Annihilating Light",
+    "Aquamarine Flask"
+  ],
+  "aliases": [
+    "Annihilating Light"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Annihilating Light\n|class_id                                = Staff\n|base_item                               = Quarterstaff\n|required_level = 68\n|flavour_text                            = There is no force more destructive in the heavens<br/>than the scintillating light of utter clarity.\n|explicit1                         = IncreasedElementalResistancesUnique__2_\n|explicit2                         = ElementalSkillsTripleDamageUnique__1 \n|inventory_icon                          = The Annihilating Light\n|release_version                         = 3.17.0\n|drop_text = Drops from [[Uber Exarch]].\n|is_drop_restricted = true\n}}\n\n'''The Annihilating Light''' is a [[unique]] {{il|Quarterstaff}}. \n\n==Mechanics==\n\n* \"[[Triple Damage]]\" only applies to damage dealt by hits. [[Damage over time]] effects, such as [[Ignite]] or [[Righteous Fire]] are not directly affected.\n* \"Elemental Skills\" refer to any skill with the Fire, Cold, or Lightning tags. This includes [[Spell]]s, [[Attack]]s, and [[Warcry|Warcries]]. This also includes other difficult-to-scale things such as [[Glove enchantment]]s and [[Herald]]s.\n** Minions skills do not inherently deal damage; they summon a minion which deals damage. Triple damage would not apply to Elemental Minions in this case.\n* #% [[reduced resistance]]s ('''NOT''' a {{c|mod|-#% to Resistances}}) is an additive modifier to other {{c|mod|increase/reduced Resistances}} mods. Similar mod can be found on [[Oil#List of Blight uniques|Blight unique helmets]] and other items such as {{il|Glimpse of Chaos}}; while [[Tempered by War]] has {{c|mod|50% less Cold/Lightning Resistance}}, which is multiplicative to {{c|mod|increase/reduce Resistances}} instead of being additive.\n* Negative Resists will become less negative, so it has anti-synergy with [[Doryani's Prototype]].\n*There is a cap of {{c|mod|100% reduced resistances}} in-game<ref>{{section link|Version 3.17.0|Reduced Resistances}}</ref> so that you can never invert positive resistances into negative, or vice versa. At 100% reduced Resistances, your Resists will permanently be at 0.\n** With a {{c|mod|60% reduced Elemental Resistances}} roll, starting from -60% baseline (post Act 10 Kitava), you would need a total of {{c|mod|+247.5% to Fire Resistance}} to reach 75% fire resistance. (same for cold/lightning)\n** With a {{c|mod|70% reduced Elemental Resistances}} roll, starting from -60% baseline (post Act 10 Kitava), you would need {{c|mod|+310% to Fire Resistance}} to reach 75% fire resistance. (same for cold/lightning)\n\n===Strategies===\n\n* Using this staff with any [[Cowl]] helmet (e.g. {{il|Cowl of the Thermophile}}; consequentially gaining >100% reduced Resistances) will cause your non-overridden resist to permanently be at 0, and will not invert them. Even with Thermophile + [[Divine Flesh]] or [[Tempered by War]], you would still be taking half of all Cold and Lightning damage to 0 Cold/Lightning Res.\n* {{il|Incandescent Heart}} + [[Divine Flesh]] is an option to take 75% of Elemental Hits and 50% of Elemental DOTs as Chaos damage (to avoid investing into elemental resists); this allows the use of {{il|Glimpse of Chaos}} as long as you remove the line {{c|mod|Chaos Resistance is Zero}} with a {{il|Vaal Orb}}.\n* [[Transcendence (keystone passive)|Transcendence]] is another option, stacking [[Armour]] and additional Physical Damage Reduction.\n* {{il|Crystallised Omniscience}} can provide large amounts of Elemental Resistances, as well as Elemental Penetration, making it a nice synergistic unique.\n\n{{Item acquisition}}\n\n==Legacy variants==\nThe Annihilating Light has a [[legacy variant]].\n\n{{legacy variant table header}}\n{{legacy variant table row|3.25.0|\n*{{c|mod|+18% Chance to Block Attack Damage while wielding a Staff}}\n|\n* (70-60)% reduced Elemental Resistances\n* Deal Triple Damage with Elemental Skills\n}}\n{{Legacy variant table end}}\n\n<!--{{Item skin list|item=Annihilating Light}}-->\n\n==Gallery==\n<gallery>\nFile:The Annihilating Light 3D.png|3D\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* This item's basetype's implicit modifier was changed.\n}}\n{{Version history table row|3.24.0|\n* The Annihilating Light is now an [[Uber Exarch]] boss drop. {{Undocumented}}\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\n* [[Double damage]]\n* [[Triple damage]]\n\n==References==\n{{reflist}}\n\n{{Navbox Unique Items}}\n[[Category:Unique staves with 3D art]]",
+  "sha256": "365be38e7d506bfcbb69e52ee4d9fd4f6447e7f84067ba54b3e64c9d599b8898"
+}

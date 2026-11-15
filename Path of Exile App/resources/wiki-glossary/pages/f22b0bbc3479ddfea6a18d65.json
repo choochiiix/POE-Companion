@@ -1,0 +1,33 @@
+{
+  "title": "Goddess Beam",
+  "pageId": 115689,
+  "revision": 1649427,
+  "timestamp": "2026-05-22T23:41:07Z",
+  "retrieved": "2026-11-14T10:57:26.336333+00:00",
+  "requested": [
+    "Gathering Lightning",
+    "Ghastly Scythe",
+    "Ghorr's Magnificence",
+    "Ghostflame Graveyard",
+    "Glimpse of Infinity",
+    "Gloom Shrine",
+    "Glorious Madness",
+    "Glowing Orb",
+    "Gluttony",
+    "Goddess Beam",
+    "Gold Flask",
+    "Golden Descry",
+    "Golden Lantern's Glow",
+    "Grace Aura",
+    "Grace Period",
+    "Granite Flask",
+    "Grasping Chains",
+    "Grasping Hooks",
+    "Grasping Nightshade",
+    "Grasping Ornaments"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=GoddessBeam}}\n{{status\n| name                   = Goddess Beam\n| type                   = Debuff\n| icon                   = Ignite status icon.png\n| description            = You are taking Burning Damage\n}}\n'''Goddess Beam''' is a [[debuff]] from the skill of the same name. It is applied by map bosses [[The Goddess]] or [[Vision of Justice]]. Similar to [[Shock and Horror]]'s [[Lightning Beam]], the beam is \"namelocked\" to the player's character so that the character need to hide behind the columns in the boss arena to break the \"namelock\". The datamined fire [[damage over time|DOT]] value is 2045.8 per second (and before reduced by fire resistance which normally all players are at least capped it at 75%), but monster use different scaling so that the damage may be even bigger when in red map and with certain map mod. Alternatively, {{il|Righteous Fire}} build or similar, may have high enough regen to counter the degen from this debuff.\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.3.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]\n[[Category:Monster skills]]",
+  "sha256": "64e9968e7504a0009cff05b6b540f7df05f05fa958c4c8a78553ad64b13220b2"
+}

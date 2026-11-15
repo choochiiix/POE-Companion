@@ -1,0 +1,33 @@
+{
+  "title": "Augury of Penitence",
+  "pageId": 1373,
+  "revision": 1703320,
+  "timestamp": "2026-10-26T19:14:24Z",
+  "retrieved": "2026-11-14T10:57:11.011884+00:00",
+  "requested": [
+    "Assassin's Mark",
+    "Asset Lock Buff",
+    "Asset Lock Inactive",
+    "Astral Chains",
+    "Astral Protection",
+    "Astrally Empowered",
+    "Attack Impale Chance",
+    "Attack and Cast Speed",
+    "Atziri's Promise",
+    "Augury of Penitence",
+    "Aukuna's Hunt",
+    "Aukuna's Lasso",
+    "Aul's Uprising",
+    "Aura of Death",
+    "Autoexertion",
+    "Automation",
+    "Avian's Flight",
+    "Avian's Might",
+    "Baited Expectations",
+    "Balance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Augury of Penitence}}\n\n'''Augury of Penitence''' is a notable [[Ascendancy passive skill]] for the [[Inquisitor]] that grants an [[aura]] that causes enemies to deal less [[elemental damage]] and [[damage taken|take increased elemental damage]]. The radius of the aura is 6.0m.<ref name=\"Radius\"/>\n\n==Ruthless mode==\n{{infocard\n|header    = Augury of Penitence (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:ElementalDomination (Inquistitor) passive skill icon.png]]</div>\n|2         = Nearby Enemies take 8% increased Elemental Damage<br>Nearby Enemies deal 8% less Elemental Damage\n}}\n\nAugury of Penitence in [[Ruthless mode]] has a weaker damage taken aura against enemies.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} Now provides \"Nearby Enemies take 8% increased Elemental Damage\" in Ruthless (16% in non-Ruthless).\n}}\n{{Version history table row|2.3.0|\n* Elemental damage dealt by nearby enemies is now 8% less (from 5% less).\n* Increased elemental damage dealt increased from 10% to 16%.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Radius\">{{cite web|author=Mark_GGG|date=December 13, 2016|title=Mechanical Questions Thread|url=https://www.pathofexile.com/forum/view-thread/1676002/page/198#p13977939|publisher=Path of Exile Forums|accessdate=December 18, 2016}}</ref>\n}}",
+  "sha256": "576e9f1ddf124d9963ab5158321f68af85e5fc943daf37cc7aadf27f492f4fd4"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Earth Drinker",
+  "pageId": 5605,
+  "revision": 1682517,
+  "timestamp": "2026-07-26T23:28:34Z",
+  "retrieved": "2026-11-14T10:57:20.721182+00:00",
+  "requested": [
+    "Draugurflame",
+    "Draugurflame Burn",
+    "Dread Banner",
+    "Drought",
+    "Drowning",
+    "Drowning Domain",
+    "Duration Test",
+    "Dying Breath",
+    "Dying Sun",
+    "Earth Drinker",
+    "Ebon Affliction",
+    "Echoing Tempest",
+    "Effigy",
+    "Eldritch Decay",
+    "Eldritch Empowerment",
+    "Electrified Ground Trap",
+    "Electrifying Bond",
+    "Electrifying Gaze",
+    "Electrifying Sight",
+    "Elemental Aegis"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Earth Drinker\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Taste and grow strong. Drink too much and be buried.\n|drop_level                              = 27\n|tags                                    = unique_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardEarthDrinker\n|stack_size                              = 5\n|description                             = {{c|unique|{{iil|Granite Flask}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 2_9_4, 2_9_5, 2_9_3\n|release_version                         = 2.1.2\n}}\n\n'''Earth Drinker''' is a [[divination card]]. A set of five can be exchanged for a random [[unique]] {{il|Granite Flask}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Pillars of Arun|Wasteland}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Desert Spring|Pillars of Arun}}\n* Drop level changed from 23 to 27. {{Undocumented}}\n}}\n{{Version history table row|3.21.0|\n* Earth Drinker now also drops from Pillars of Arun. {{Divcord}}\n}}\n{{Version history table row|3.18.0|\n* Earth Drinker now also drops from Dry Sea. {{Divcord}}\n}}\n{{Version history table row|2.1.2|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "b59b350aaf00662a2b5e7c076d4b2cceaefbb8b1bfec21ff7a18a3782c2f997a"
+}

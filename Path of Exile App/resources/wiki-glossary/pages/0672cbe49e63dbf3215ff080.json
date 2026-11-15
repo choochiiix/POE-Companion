@@ -1,0 +1,33 @@
+{
+  "title": "Pursuit of Faith",
+  "pageId": 13162,
+  "revision": 1490193,
+  "timestamp": "2024-10-13T04:52:59Z",
+  "retrieved": "2026-11-14T10:57:37.996408+00:00",
+  "requested": [
+    "Prismatic Tincture",
+    "Prismplate",
+    "Procyonic Procession",
+    "Projectile Test",
+    "ProphecyQuantity",
+    "Protection",
+    "Protective Link",
+    "Protective Shield",
+    "Proximity Shield",
+    "Punisher",
+    "Punishment",
+    "Purging Flame",
+    "Purity of Elements Aura",
+    "Purity of Fire Aura",
+    "Purity of Ice Aura",
+    "Purity of Lightning Aura",
+    "Purple Effluent",
+    "Pursuit of Faith",
+    "Putrefaction",
+    "Pyroclast Mines"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Pursuit of Faith}}\n\n'''Pursuit of Faith''' is a notable [[Ascendancy passive skill]] for the [[Hierophant]] that grants increased [[totem]] limit and totem duration. It also grants increased totem placement speed.\n\n==Ruthless mode==\n{{infocard\n|header    = Pursuit of Faith (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:SpiritualEmpowerment (Hierophant) passive skill icon.png]]</div>\n|2         = +1 to maximum number of Summoned Totems\n}}\n\nPursuit of Faith in [[Ruthless mode]] does not grant totem duration or placement speed.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} No longer provides 100% increased Totem Duration or 100% increased Totem Placement Speed in Ruthless.\n}}\n{{Version history table row|3.13.0|\n* No longer grants 6% increased Damage per Enemy Killed by you or your Totems Recently and 10% increased Attack and Cast Speed while you have a Totem.\n* Now grants 100% increased Totem Placement speed.\n}}\n{{Version history table row|3.2.0|\n* Added {{c|mod|100% increased Totem Duration}} and {{c|mod|Can have up to 1 additional Totem summoned at a time}}.\n}}\n{{Version history table row|3.0.0|\n* Now grants 6% increased Damage per Enemy Killed by you or your Totems Recently, and 10% increased Attack and Cast Speed while you have a Totem (up from 4% and 8% respectively).\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "1963e920ff6df84362b41f7a2a4652bf363832383eb93e3323b09f814d630736"
+}

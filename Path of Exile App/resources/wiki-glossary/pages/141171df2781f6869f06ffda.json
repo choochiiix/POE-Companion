@@ -1,0 +1,33 @@
+{
+  "title": "Strength of Blood",
+  "pageId": 15871,
+  "revision": 1604815,
+  "timestamp": "2025-12-30T15:49:18Z",
+  "retrieved": "2026-11-14T10:09:57.337087+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Strength of Blood}}\n'''Strength of Blood''' is a [[keystone passive skill]] which disables [[recovery]] from non-instant [[Life Leech]], while granting 2% additional [[physical]] [[damage reduction]] for every 3% recovery per second from [[life leech]].\n\n==Location==\nThis keystone will conquer any keystones within the radius of a {{il|Lethal Pride}} jewel with modifier {{c|mod|Commanded leadership over (10000–18000) warriors under '''Kaom'''}}.\n\n==Mechanics==\nThe physical damage reduction only applies while leeching, and is based on the life recovery of your current leech instances.<ref name=mechanics/> Without modifiers, per-second life recovery from leech is capped at 20%, allowing Strength of Blood to grant up to 12% additional physical damage reduction.  \n\nPreventing the removal of life leech (when unreserved life is filled) is typically required to reliably gain physical damage reduction. This can be accomplished through: \n* {{psl|Brutal Fervour}}, {{psl|q_where=passive_skills.name=\"Slayer\" AND ascendancy_class=\"Ascendant\"}} and {{il|Offering to the Serpent}} \n* {{psl|Immortal Ambition}}, provided the user is not on [[full life]] (as leech would recover energy shield instead) \n* {{sl|Petrified Blood}}, provided the user has some unreserved life above their [[low life]] threshold \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* No longer provides 1% less Damage taken for every 2% Life Recovery per second from Leech. Instead, it now provides 2% additional Physical Damage Reduction for every 3% Life Recovery per second from Leech.\n}}\n{{Version history table row|3.17.0|\n* Strength of Blood's damage reduction no longer scales with modifiers to life recovery rate.\n}}\n{{Version history table row|3.15.3|\n* Updated the Strength of Blood Keystone Passive description to clarify that it does not affect Life Recovery from Instant Leech.\n}}\n{{Version history table row|3.15.0|\n* Updated the Strength of Blood Keystone description to be more accurate. Now states 'Life Recovery from Leech is not applied' instead of 'Recovery from Life Leech is not applied'. This is purely a description change.\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"mechanics\">{{cite web|author=Jatin_GGG|date=Jun 18, 2019|title=Question regarding Strength of Blood|url=https://www.pathofexile.com/forum/view-thread/2526946/page/2#p22088625|publisher=Official Path of Exile Forums|accessdate=January 19, 2020}}</ref>\n}}\n\n[[Category:Keystone passive skills]]",
+  "sha256": "ce2c7d538bbcba86b3d1376a96021411e2e9462bea6f85b7675367c3ecb2c162"
+}

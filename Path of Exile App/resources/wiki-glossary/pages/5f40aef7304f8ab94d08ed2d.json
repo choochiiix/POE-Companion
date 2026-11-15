@@ -1,0 +1,33 @@
+{
+  "title": "Forbidden Taste",
+  "pageId": 6775,
+  "revision": 1478441,
+  "timestamp": "2024-08-02T03:14:37Z",
+  "retrieved": "2026-11-14T10:57:24.746805+00:00",
+  "requested": [
+    "Flammability",
+    "Flask Drain",
+    "Flesh",
+    "Flesh Offering",
+    "Fleshrend",
+    "Flicker Strike",
+    "Flying Death Rhoomba",
+    "Focused",
+    "Footsteps Cheat",
+    "Forbidden Taste",
+    "Forest's Blessing",
+    "Foulgrasp",
+    "Fountain of Youth",
+    "Fragile Regrowth",
+    "Fragment of Past Trauma",
+    "Fragment of Renewed Pain",
+    "Freeze Immunity",
+    "Freeze Mine",
+    "Freeze Prevention",
+    "Freezing Shrine"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Forbidden Taste\n|class_id                                = UtilityFlask\n|base_item                               = Quartz Flask\n|drop_level                              = 45\n|explicit1                               = LocalFlaskInstantRecoverPercentOfLifeUniqueFlask6\n|explicit2                               = LocalFlaskChaosDamageOfLifeTakenPerMinuteWhileHealingUniqueFlask6\n|flavour_text                            = Your reach exceeds your grasp.\n|release_version                         = 1.1.4\n}}\n\n'''Forbidden Taste''' is a [[unique]] {{il|Quartz Flask}}.\n\n==Mechanics==\n* The [[life]] [[recovery]] is applied instantly.\n** The recovery of this flask is affected by modifiers to Life Recovery (e.g. [[Supreme Decadence]], [[Field Medicine]]), but not from Recovery Rate (e.g. Herbalism) as the recovery is instant.\n* The [[chaos damage]] lasts the active [[duration]] of the [[flask]], which makes quality detrimental.\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Legacy variants==\nForbidden Taste has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0|\n* Recover (75-100)% of Life on use\n* {{c|mod|8% of maximum Life taken as Chaos Damage per second}}}}\n{{legacy variant table row|2.6.0|\n* {{c|mod|50% increased Charges per use}}\n* {{c|mod|Recover 75% of Life on use}}\n* {{c|mod|8% of maximum Life taken as Chaos Damage per second}}}}\n{{legacy variant table row|1.2.3|\n* {{c|mod|50% increased Charges per use}}\n* {{c|mod|Recover 50% of Life on use}}\n* {{c|mod|15% of maximum Life taken as Chaos Damage per second}}\n}}\n{{Legacy variant table end}}\n\nThe legacy mod {{c|mod|50% increased Charges per use}} on pre-2.6 item can be \"removed\" by using a {{il|Divine Orb}}, as a new default value of zero is set by the devs.<ref>[[Modifier:LocalFlaskChargesUsedUniqueFlask6]]</ref> However, on top of the price of Divine Orb itself, the orb would also reroll the two other mods on the flask, making it in difference with the readily available current variant.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.3b|\n* Fixed a bug where some modifier value ranges would sometimes not show on the Forbidden Taste and {{il|Doedre's Elixir}} Unique Flasks.\n}}\n{{Version history table row|3.15.0|\n* Now has {{c|mod|25% of maximum Life taken as Chaos Damage per second}} (previously 8%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n}}\n{{Version history table row|2.6.0|\n* No longer has Increased Flask Charges used. Increased recovery of Maximum Life mod increased to 75-100%.\n}}\n{{Version history table row|1.2.3|\n* Increased recovery of Maximum Life mod increased to 75%. Chaos Damage reduced to 8% of Maximum Life per second. {{Undocumented}}\n}}\n{{Version history table row|1.1.4b|\n* Added a buff icon for the new Forbidden Taste unique flask.\n}}\n{{Version history table row|1.1.4|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n{{Navbox Unique Items}}",
+  "sha256": "671955de87244bb248784933c5bfc4900066021230484280baacf193ec604a0c"
+}

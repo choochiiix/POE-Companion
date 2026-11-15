@@ -1,0 +1,33 @@
+{
+  "title": "Crystalised Fear",
+  "pageId": 4311,
+  "revision": 1482829,
+  "timestamp": "2024-09-04T03:31:00Z",
+  "retrieved": "2026-11-14T10:57:18.314379+00:00",
+  "requested": [
+    "Cruelty",
+    "Crusader Shrine Monster",
+    "Crusader's Shrine",
+    "Crushing Darkness",
+    "Crystalised Fear",
+    "Cube of Absorbtion",
+    "Curse Immunity",
+    "Cursed Flesh",
+    "Cyclone",
+    "Damage Aura",
+    "Damage Reduction Aura",
+    "Dancing Dervish",
+    "Dark Gift",
+    "Dark Pit",
+    "Dark Temptation",
+    "Dark Vortex",
+    "Darkness",
+    "Darktongue's Kiss",
+    "Dead Spectre",
+    "Death Draw"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Crystalised Fear\n| type                   = Debuff\n| description = You cannot move.\n}}\n[[File:Crystalised Fear in action.png|thumb|right|Elder casting Crystalised Fear. Note that Shaper was at the back.]]\n'''Crystalised Fear''' is a [[debuff]] related to [[The Elder]]'s super siphon skill. The skill is not used in the [[Uber Elder]] fight. The super siphon skill inflicts '''Crystalised Fear''' to players regardless of location, and applies [[Fed Upon]] to enemies in the siphon's cone area of effect.\n\nWhen inflicted with this debuff, the player is completed immobilised; this is not considered a [[movement speed]] or [[action speed]] slow and cannot be prevented. After a few seconds, [[The Shaper]] will attack the Elder, removing the Crystalised Fear debuff from player.\n\n==Trivia==\nThe status icon of '''Crystalised Fear''' is called \"ElderSuperSiphon.dds\" in the game file, while the two debuff icons from the normal Elder's siphon skill [[Sprouting Madness]] and [[Fed Upon]] are called  \"ElderSiphon.dds\".\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "61a9f9871154af2a4c98450ce2e54c8f8939444cf659dd55185f2a67da892db7"
+}

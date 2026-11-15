@@ -1,0 +1,10 @@
+{
+  "archiveSha256": "6ea36e73649da26741fd0c1c3bd57a99e589db84191f0e0578f320b1921cc34b",
+  "source": "data.characterConstants from pinned Modules/Data.lua",
+  "values": {
+    "life_per_level": 12,
+    "mana_per_level": 6,
+    "base_evasion_rating": 15,
+    "accuracy_rating_per_level": 2
+  }
+}

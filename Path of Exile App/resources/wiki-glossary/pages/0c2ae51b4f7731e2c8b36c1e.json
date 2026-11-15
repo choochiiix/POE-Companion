@@ -1,0 +1,33 @@
+{
+  "title": "Ironwood Tincture",
+  "pageId": 119639,
+  "revision": 1549530,
+  "timestamp": "2025-07-10T20:58:41Z",
+  "retrieved": "2026-11-14T10:57:31.008164+00:00",
+  "requested": [
+    "Intensity",
+    "Intervention",
+    "Intimidating Cry",
+    "Intuitive Link",
+    "Invulnerability",
+    "Invulnerable",
+    "Iron Flask",
+    "Iron Manacles",
+    "Ironwood Tincture",
+    "Izaro Damage",
+    "Izaro Damage Taken",
+    "Izaro Speed",
+    "Jade Flask",
+    "Jewel Mod Thief",
+    "Jolt",
+    "K'Tash's Anger",
+    "K'Tash's Magnificence",
+    "Kahuturoa's Leadership",
+    "Kalisa's Grace",
+    "Kalisa's Joy"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Ironwood Tincture\n|class_id                                = Tincture\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 18\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = tincture, default\n|metadata_id                             = Metadata/Items/Tinctures/Tincture3\n|help_text                               = Right click to activate. Only one Tincture in your belt can be active at a time. Mana Burn causes you to lose 1% of your maximum Mana per stack per second. Can be deactivated manually, or will automatically deactivate when you reach 0 Mana.\n|implicit1                               = TinctureStunThresholdImplicit1\n|required_level                          = 18\n|tincture_mana_burn                      = 0.9\n|tincture_cooldown                       = 10\n|release_version                         = 3.23.0\n}}\n\n'''Ironwood Tincture''' is a [[tincture]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for tinctures}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Version history==\nDuring [[Affliction league]], Ironwood Tinctures could be purchased from [[the Warden of Eaves]] for {{il|Vivid Wisps}}. Ironwood Tinctures was allowing to [[stun]] enemies at full life and was {{c|mod|unmodifiable}}.\n\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* [[Tincture]]s have been added to the core game, with adjusted mechanics.\n}}\n{{Version history table row|3.23.2c|\n* [[Affliction league]] content was not added to the core game.<ref name=\"Affliction league end\" />\n* [[Charm]]s and [[Tincture]]s will be deleted upon logging in.\n}}\n{{Version history table row|3.23.0|\n* Introduced to the game in Affliction league.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Affliction league end\">{{cite web\n| author = Community_Team\n| date = March 13, 2024\n| title = What Will Happen When Affliction League Ends\n| url = https://www.pathofexile.com/forum/view-thread/3495841\n| publisher = Official Path of Exile Forums\n| accessdate = April 20, 2024\n}}</ref>\n}}\n\n{{Navbox Items}}\n[[Category:Affliction]]",
+  "sha256": "6d39e3dcd916976078c12eabfcd5cef946ce28f02d448f2a408af0db2400568c"
+}

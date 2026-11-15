@@ -1,0 +1,35 @@
+{
+  "title": "Sister Cassia",
+  "pageId": 15163,
+  "revision": 1482735,
+  "timestamp": "2024-09-02T20:45:42Z",
+  "retrieved": "2026-11-14T10:10:02.543006+00:00",
+  "requested": [
+    "Kill",
+    "Exerted",
+    "Mirage Warriors",
+    "effect",
+    "enemies",
+    "Cost",
+    "Monster modifiers",
+    "curse limit",
+    "Blessing skill",
+    "Elder item",
+    "Runesmithing",
+    "Cassia",
+    "ring",
+    "amulet",
+    "Ring",
+    "Amulet",
+    "notable passive skill",
+    "passive skill tree",
+    "Corrupt",
+    "Talisman"
+  ],
+  "aliases": [
+    "Cassia"
+  ],
+  "missing": false,
+  "wikitext": "{{NPC\n|name          = Sister Cassia\n|fullname      = \n|image         = \n|function      = Offers [[Blight (game mechanic)|Blight]] encounters, [[Anoint]]s items\n|area1         = [[The Sewers]]\n|area2         = [[The Imperial Gardens]]\n|area3         = [[Karui Shores]]\n|area4         = [[Atlas of Worlds]]\n|quest1        = Strange Growths\n|quest2        = \n|quest3        = \n}}\n\n[[File:Annointing interface.png|thumb|right|290px|Sister Cassia's Anointing interface used to add the [[Command of Steel]] [[passive skill]] to an Amulet]]\n'''Sister Cassia''' is an [[NPC]] who introduces the player to [[Blight (game mechanic)|Blight]] encounters. She can be found in [[The Sewers]] and [[The Imperial Gardens]], as well as randomly in [[map]]s. After encountering her for the first time, she can be invited to your [[hideout]].\n\nSister Cassia provides the ability to Anoint any amulet or ring with an extra [[enchantment]], using [[Oil]]s.\n\n==Key Shortcuts==\n{{key press|Ctrl}}+Left Click: Anoint Items \n\n==Dialogue==\n===Introduction===\nHm? What do we have here? Yet another of Oriath's cast-offs? With the problems we're facing here, I do wish they'd send someone with a little more... utility. Alas, we have useless exiles blowing in like spores on the wind.\n\nCassia, by the by. Pleasure.\n\n===Exile===\nYes, it's true, I, like you, am an exile. I caught the High Templar's eye several years ago. I showed an interest in the mechanical arts, and he had need for someone like myself for some highly secret projects he had started. He sought ways to tap into the power contained within the virtue gems in ways that I'm not sure were in line with God's plan. I did not openly refuse his orders; I simply... interpreted them differently. The mechanisms I built were brilliant and powerful, and totally useless for his desires. I may have kept some of them.\n\nUnfortunately, as you know, little slips past Dominus. I was exiled as a matter of secrecy. Rapidly replaced by some little whore.\n\nWhat? She ''is'' a whore.\n\n===Replacement===\nYou likely know her by the name High Templar Dominus gave her -- Piety. A whore-turned-thaumaturgist-turned-inventor. Or at least, she wishes she were. I've seen some of her work. Unimpressive, considering the resources she has available to her.\n\nNot that I'm envious. I'm not. Really, good for her. But, you know, creators have a habit of getting caught in the teeth of their own creations, and Piety seems to favour creations with many, many teeth.\n\n===Devices===\nI've worked on many beautiful little machines in my time. Let's see... There was the one that was originally designed to rapidly peel and pith fruit. That one is now called the Descalper.\n\nThe portable oven turned out to be less of an oven and more of a red-hot ember dispenser. Still quite popular.\n\nAnd of course, the towers I have been assembling for use in protecting the portable-purifying-pumping unit. Those I am particularly proud of. Powered by the toxic fluid that runs through the fungal fibres. Surprisingly robust, and safe! Relatively safe. Almost no one has died yet who wasn't meant to.\n\n===Fungi===\nI've not seen anything like it before. The growths show no sign of intelligent thought, no clear ambition, yet the moment the pump's needle pierces the fungal flesh, creatures of all shapes and sizes begin to emerge from the mycelium -- and they never stray away from it.\n\nThe fluid within those growths may hold the key to controlling the minds of creatures... And hopefully, something to protect us from such a power. Too many already vie for control of our wills, but that is the domain of the divine.\n\n===The Templar===\nYou've no doubt heard me singing some of the Templar hymns. One of the many habits that stuck with me, other than the one I still wear. Though the Templar have their... 'issues', they are not without merit. They are, after all, doing God's work. And by Innocence, their hymns are truly catchy little earworms. Singing them helps me focus.\n\n===Piety and Dominus===\nStrange as it may sound, I'm somewhat sad. I know in my heart of hearts that they were not good people, but they were still people. I knew Dominus well. We worked together. Ate together. There was a time when I would have called him my friend. And Piety was fighting her own demons.\n\nI hope God sees fit to forgive their souls... And mine.\n\n===Innocence===\nThe Innocence you slew was not the God I know. My God is selfless. Humble. Yes, he is prone to burning sinners, but who among us isn't?\n\nYou just wait, Exile. Eternity will prove me right.\n\n===Blighted Maps===\nI'm starting to believe that these growths have some sort of central... well, brain isn't exactly the right word, but it isn't far off.\n\nThese larger growths, these \"blighted maps\" you've found, they may lead us to the original source of the Blight.\n\nNot long ago, I believed they were a symptom of Wraeclast's death. Fungal growths feeding on a rotting carcass. Now? I'm certain they're a parasite. Wraeclast isn't dead, but it is dying, weakened by its violent history, and being overpowered and smothered by the blight.\n\nGod has laid out all the puzzle pieces. All we need to do now is put them together. I hope you're good at puzzles.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Fixed a bug where Cassia could appear in the {{il|The Twilight Temple}} [[unique map]].\n}}\n{{Version history table row|3.8.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Blight}}\n{{Navbox NPCs}}\n\n[[Category:NPCs]]",
+  "sha256": "3963e919a1c415d7b0407a3046458e540a50190dea0e34f71f52f7136bcfb9df"
+}

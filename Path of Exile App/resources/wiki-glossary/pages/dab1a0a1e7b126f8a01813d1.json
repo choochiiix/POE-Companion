@@ -1,0 +1,33 @@
+{
+  "title": "The Throne",
+  "pageId": 17396,
+  "revision": 1682525,
+  "timestamp": "2026-07-26T23:28:45Z",
+  "retrieved": "2026-11-14T10:57:49.217160+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Throne\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = A king's movement is unwavering.\n|drop_level                              = 68\n|tags                                    = armour_divination, unique_divination, unique_armour_divination, unique_corrupted_divination, corrupted_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheThrone\n|stack_size                              = 2\n|description                             = {{c|unique|{{iil|Kaom's Roots}}}}<br>{{c|corrupted|Corrupted}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 2.2.2c\n}}\n\n'''The Throne''' is a [[divination card]]. A set of two can be exchanged for [[corrupted]] {{il|Kaom's Roots}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThe Throne was created by supporter [https://www.pathofexile.com/account/view-profile/ToiletOfGold-4289 ToiletOfGold].<ref name=\"Supporter attribution\" />\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Lair of the Hydra|Toxic Sewer|Waste Pool}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Lair of the Hydra|Toxic Sewer}}\n* Drop level changed from 51 to 68. {{Undocumented}}\n}}\n{{Version history table row|2.2.2c|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Supporter attribution\">{{cite web\n| author = SouthernIrishND\n| date = September 10, 2017\n| title = Path of Exile - Tips and Tricks for Idiots\n| url = https://www.youtube.com/watch?v=9Aha3md9o8U&t=200s\n| publisher = YouTube\n| accessdate = June 4, 2023\n}}</ref>\n}}\n\n{{Navbox Items}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "b12feadf073091a623b30ada0f01d753d07ba9be7433badbc00e8224f7972a37"
+}

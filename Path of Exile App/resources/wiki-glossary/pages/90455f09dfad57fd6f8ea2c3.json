@@ -1,0 +1,33 @@
+{
+  "title": "Cast time",
+  "pageId": 2921,
+  "revision": 1444654,
+  "timestamp": "2024-05-12T16:50:35Z",
+  "retrieved": "2026-11-14T10:11:18.134077+00:00",
+  "requested": [
+    "Frost",
+    "Corrosion",
+    "cast time",
+    "stationary",
+    "moving",
+    "Shaper's Presence",
+    "Regenerate",
+    "expire",
+    "debuffs",
+    "lingering blade",
+    "bestial minion",
+    "Critical strikes",
+    "Cold Exposure",
+    "Damage Types",
+    "damage types",
+    "Elemental Hit",
+    "Power",
+    "area damage",
+    "Anointed",
+    "The Searing Exarch"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Cast time''' is a [[keyword]] and refers to animated action of performing [[skill]] and is counted in seconds. If cast time ends, [[effect]] of skill is started. Usually during skill [[effect]] next cast could be started.\n[[Category:Keywords]]\n\n==Skill gems==\n{{Drop enabled gem table\n|tables=skill_levels\n|join=items._pageID=skill_levels._pageID\n|where=\n    skill_gems.gem_tags HOLDS \"Spell\"\n    AND skill.cast_time > \"\"\n|level=yes\n|int=yes\n|dex=yes\n|str=yes\n|cast_time=yes\n}}",
+  "sha256": "ac791abe6cf7a9a4062d95019e9d356fc19053d1141509a6b7b632e15f26667a"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Rosethorn Tincture",
+  "pageId": 119907,
+  "revision": 1549531,
+  "timestamp": "2025-07-10T20:58:48Z",
+  "retrieved": "2026-11-14T10:57:41.166228+00:00",
+  "requested": [
+    "Righteous Fire",
+    "Righteous Lightning",
+    "Rigid Shell",
+    "Rigwald Wolf Barrage",
+    "Ritual Rune",
+    "Ritual of Dance",
+    "Ritual of Meditation",
+    "Ritual of Undeath",
+    "Rod of Detonation",
+    "Rolling Magma Emissions",
+    "Rongokurai's Boon",
+    "Rose Petals",
+    "Rosethorn Tincture",
+    "Rotten Bulwark",
+    "Ruby Flask",
+    "Ruin",
+    "Ruinous Burning Bond",
+    "Ruinous Chaotic Bond",
+    "Ruinous Chilling Bond",
+    "Ruinous Electrifying Bond"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Rosethorn Tincture\n|class_id                                = Tincture\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 18\n|drop_rarities_ids                       = normal, magic\n|tags                                    = tincture, default\n|metadata_id                             = Metadata/Items/Tinctures/Tincture2\n|help_text                               = Right click to activate. Only one Tincture in your belt can be active at a time. Mana Burn causes you to lose 1% of your maximum Mana per stack per second. Can be deactivated manually, or will automatically deactivate when you reach 0 Mana.\n|implicit1                               = TinctureCriticalStrikeChanceImplicit1\n|required_level                          = 18\n|tincture_mana_burn                      = 0.7\n|tincture_cooldown                       = 8\n|release_version                         = 3.23.0\n}}\n\n'''Rosethorn Tincture''' is a [[tincture]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for tinctures}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Version history==\nDuring [[Affliction league]], Rosethorn Tincture could be purchased from [[the Warden of Eaves]] for {{il|Vivid Wisps}}. Rosethorn Tincture was increasing [[critical strike chance]] against enemies that were on full Life and was {{c|mod|unmodifiable}}.\n\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* [[Tincture]]s have been added to the core game, with adjusted mechanics.\n}}\n{{Version history table row|3.23.2c|\n* [[Affliction league]] content was not added to the core game.<ref name=\"Affliction league end\" />\n* [[Charm]]s and [[Tincture]]s will be deleted upon logging in.\n}}\n{{Version history table row|3.23.0|\n* Introduced to the game in Affliction league.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Affliction league end\">{{cite web\n| author = Community_Team\n| date = March 13, 2024\n| title = What Will Happen When Affliction League Ends\n| url = https://www.pathofexile.com/forum/view-thread/3495841\n| publisher = Official Path of Exile Forums\n| accessdate = April 20, 2024\n}}</ref>\n}}\n\n{{Navbox Items}}",
+  "sha256": "2901fd341e60e71c2065b9b44470a2f6c208df3c3b6a274123d24c4b84699104"
+}

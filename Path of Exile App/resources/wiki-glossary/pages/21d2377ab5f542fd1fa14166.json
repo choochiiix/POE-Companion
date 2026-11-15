@@ -1,0 +1,33 @@
+{
+  "title": "Abberath's Fury",
+  "pageId": 77,
+  "revision": 1659307,
+  "timestamp": "2026-06-21T14:01:35Z",
+  "retrieved": "2026-11-14T10:57:08.595476+00:00",
+  "requested": [
+    "A Chilling Wind",
+    "Abandoned Wealth",
+    "Abberath's Fury",
+    "Absorption Charges",
+    "Abyssal Cry",
+    "Abyssal Tempest",
+    "Abyssal Wasting",
+    "Accuracy and Crits Aura",
+    "Accursed Prism",
+    "Acid Pit",
+    "Active Offering",
+    "Added Knockback",
+    "Additional Impale",
+    "Additional Life Recovery",
+    "Additional Totems",
+    "Aegis of the Sea",
+    "Afarud Shrine",
+    "Afarud Shrine Monster",
+    "Affliction Charges",
+    "Affliction Regeneration"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=RepeatingShockwave}}\n\n'''Abberath's Fury''' is a [[trigger]]ed [[spell]] that deals [[fire damage]] in an area. Abberath's Fury is granted by {{il|Abberath's Hooves}}.\n\n==Mechanics==\nAbberath's Fury can be supported by applicable [[support gem]]s socketed in Abberath's Hooves; it is not necessary that the sockets be [[link]]ed. Abberath's Fury is not a skill gem, therefore it cannot be supported by {{il|Empower Support}}, {{il|Enhance Support}}, or {{il|Enlighten Support}}.\n\n==Skill Functions and Interactions==\n'''Triggering:''' Abberath's Fury's damage applies each time the character takes a step. Modifiers to [[movement speed]] will increase the frequency at which the damage occurs.\n\nThere is a limit to this effect at around +160% movement speed. If a player exceeds this limit, the damage frequency is dramatically reduced and the spell sometimes skips a cast. This is possibly due to how \"steps\" are implemented.\n\nThis spell is only triggered when the item granting it is equipped. Abberath's Fury does not trigger every time you take a step. This prevents Abberath's Fury from triggering around your Triggerbots since the spell is not triggering repeatedly. You do however still take the 35% less damage penalty from the Perfect Crime ascendancy point as Abberath's Fury is a triggered spell.\n\nBoth versions of Abberath's Fury can be used simultaneously from {{il|Abberath's Hooves}} and [[Polytheist]]'s [[Devout of Abberath]]. The support gems on the boots will not support the skill from the ascendancy passive.\n\n'''Cast Speed:''' Modifiers to [[cast speed]] have no effect on the spell's cast rate or frequency, despite changing the tooltip. Sometimes the spell will lag behind the player's movement after a negative cast speed modifier is applied. This usually disappears after entering a new area.\n\n'''Movement skills:''' The movement skills will not trigger explosions. The only exception is {{il|Shield Charge}}, as player is technically still walking but at a greatly increased speed.\n\n==Acquisition==\nThis skill can only be gained indirectly through certain items or modifiers:\n\n* {{il|Abberath's Hooves}}: {{c|mod|Triggers Level 7 Abberath's Fury when Equipped}}\n* [[Devout of Abberath]] ([[Legacy of Phrecia]]): {{c|mod|Triggers Level 20 Abberath's Fury}}\n\n==Skill progression==\n{{Skill progression\n|skill_id=RepeatingShockwave\n|c1_abbr              = Fire<br>Damage\n  |c1_header          = Deals x to y Fire Damage\n  |c1_pattern_extract = Deals (%d+) to (%d+) Fire Damage\n  |c1_pattern_value   = %d&nbsp;to&nbsp;%d\n|c2_abbr              = Ignite<br>Chance\n  |c2_header          = x% chance to Ignite enemies\n  |c2_pattern_extract = (%d+)%% chance to Ignite enemies\n  |c2_pattern_value   = %d%%\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0g|\n* Devout of Abberath now has \"Unaffected by Ignite\", \"Level 20 Abberath's Fury\" deals 100% more damage\n}}\n{{Version history table row|2.5.0|\n* Abberath's Fury has been added to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "92ccca443f2a4d21411abf7b9f44f3d512ff7860848129a4cc11e5894d847286"
+}

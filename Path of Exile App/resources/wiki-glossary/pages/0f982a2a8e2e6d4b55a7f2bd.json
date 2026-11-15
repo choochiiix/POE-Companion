@@ -1,0 +1,33 @@
+{
+  "title": "Blood of the Karui",
+  "pageId": 2202,
+  "revision": 1598331,
+  "timestamp": "2025-12-14T07:08:34Z",
+  "retrieved": "2026-11-14T10:57:13.543098+00:00",
+  "requested": [
+    "Blood Ritual",
+    "Blood Sap Tincture",
+    "Blood Shrine of Bats",
+    "Blood Shrine of Crows",
+    "Blood Shrine of Locusts",
+    "Blood Shrine of Rats",
+    "Blood Shrine of Toads",
+    "Blood Stance",
+    "Blood of the Karui",
+    "Blue Team",
+    "Boiling Blood",
+    "Bone Armour",
+    "Bone Offering",
+    "Bone Roil",
+    "Boon of Justice",
+    "Boon of the First Ones",
+    "Borealwood Tincture",
+    "Borrowed Power",
+    "Bottled Purity",
+    "Boulderdash Angry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Blood of the Karui\n|class_id                                = LifeFlask\n|base_item                               = Sanctified Life Flask\n|explicit1                               = FlaskExtraLifeUnique__1\n|explicit2                               = FlaskIncreasedRecoverySpeedUniqueFlask3\n|explicit3                               = LocalFlaskLifeOnFlaskDurationEndUniqueFlask3\n|flavour_text                            = \"Kaom fought and killed for his people.<br>Kaom bled for his people.<br>And so the people gave, the people bled,<br>So their King might go on.\"<br>- Lavianga, Advisor to Kaom\n|release_version                         = 1.0.0\n|acquisition_tags                        = league-specific, Domination, Nemesis\n}}\n\n'''Blood of the Karui''' is a [[unique]] {{il|Sanctified Life Flask}}. \n\n==Mechanics==\nIt first recovers the life as a regular flask would do, and at the end of the flask duration - if you are still missing life - it will recover your entire missing life pool (meaning that if the initial recovery heals you to your max life, the secondary effect will not take place at the end of the flask duration).\n\n{{Item acquisition}}\n\n==Legacy variants==\nBlood of the Karui has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.16.0\n|\n* 50% increased Life Recovered\n* {{c|mod|(5-20)% increased Recovery rate}}\n* Recover Full Life at the end of the Flask Effect\n}}\n{{legacy variant table row|3.15.0\n|\n* {{c|mod|100% increased Life Recovered}}\n* {{c|mod|(5-20)% increased Recovery rate}}\n* Recover Full Life at the end of the Flask Effect\n}}\n{{legacy variant table row|2.6.0\n|\n* {{c|mod|(5-20)% increased Recovery rate}}\n* Recover Full Life at the end of the Flask Effect\n* {{c|mod|Cannot gain Life during effect}}\n}}\n{{legacy variant table row|1.3.0\n|\n* {{c|mod|(20-30)% reduced Recovery rate}}\n* Recover Full Life at the end of the Flask Effect\n* {{c|mod|Cannot gain Life during effect}}\n}}\n{{Legacy variant table end}}\n\nMoreover, during version 3.13.X, {{il|Fateful Meeting}} can grant a random double-influenced league-specific unique item including flask. This bug has been fixed in version 3.14.0, so that influenced version of Blood of the Karui are legacy too. There is no actual in-game benefit to use influenced flask, however. Player cannot use [[Influenced Exalted Orb]] to create an influenced flask base either.\n\n==Alternate artwork==\n{|\n|-\n| [[File:Blood of the Karui Relic inventory icon.png|78px]] || Rainbow [[foil]] from [[Timeworn Reliquary]]\n|}\n\nThe flask also have [[Voidborn Reliquary|Voidborn]] foil variants.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Now has 35-50% reduced Recovery Rate (previously 5-20% increased).\n}}\n{{Version history table row|3.15.0|\n* Now has 50% increased Life Recovered (previously 100%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n}}\n{{Version history table row|3.14.0|\n* Many unique items that were league-specific have now also been added to the core drop pool.\n}}\n{{Version history table row|2.6.0|\n'''The following changes cannot be obtained by rerolling the item's mods with a [[Divine Orb]]''':\n* No longer has the property of preventing life recovery during flask effect.\n* Now has 100% Increased Life Recovery.\n}}\n{{Version history table row|1.3.0|\n* Given increased recovery speed, rather than reduced. This change is not documented in the official patch notes.\n}}\n{{Version history table row|1.0.0|\n* Introduced to the game as Domination and Nemesis leagues specific item.\n}}\n{{Version history table end}}\n==See also==\n* {{il|Lavianga's Spirit}} another flask of Domination/Nemesis leagues\n* [[Lavianga]]\n* [[Kaom]]\n* [[Karui]]\n\n{{Navbox Unique Items}}",
+  "sha256": "c0e5d338998098cd0e260bebae3a310b87639cc1f45dff6e8ca9fc68ee1fa4e1"
+}

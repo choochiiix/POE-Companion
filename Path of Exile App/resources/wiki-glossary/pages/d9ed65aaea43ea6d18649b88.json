@@ -1,0 +1,33 @@
+{
+  "title": "Iron Grip",
+  "pageId": 8844,
+  "revision": 1648562,
+  "timestamp": "2026-05-10T04:22:40Z",
+  "retrieved": "2026-11-14T10:08:30.589305+00:00",
+  "requested": [
+    "Elemental Overload",
+    "Point Blank",
+    "Iron Will",
+    "Iron Grip",
+    "Avatar of Fire",
+    "Zealot's Oath",
+    "Wicked Ward",
+    "Glancing Blows",
+    "Divine Flesh",
+    "Petrified Blood",
+    "Petrification",
+    "Aegis",
+    "Guard",
+    "Aura",
+    "Curse",
+    "Hex",
+    "Mark",
+    "Warcry",
+    "Totem",
+    "Trap"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the keystone passive skill|the support gem|Iron Grip Support}}\n\n{{Passive skill box|Iron Grip}}\n\n'''Iron Grip''' is a [[keystone passive skill]] that causes the [[physical damage]] bonus to [[melee]] [[attack]]s from [[strength]] to apply to [[projectile]] attacks as well.\n\nTaking Iron Grip causes strength to grant 1% increased physical projectile attack damage per 5 points of strength, alongside the melee physical damage bonus it already gives.\n\nEffects that modify strength's effect on melee physical damage will also affect the bonus to physical projectile attack damage granted by Iron Grip. For example, {{il|The Iron Fortress}} grants {{c|mod|Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength}} will also grant 3% increased physical projectile attack damage per 10 strength.\n\n==Location==\nIron Grip is a standalone keystone near the center of the skill tree, on the southwest side of the Scion's starting area.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Scion]]||8\n|-\n|[[Duelist]]||12\n|-\n|[[Marauder]]||13\n|-\n|[[Ranger]]||14\n|-\n|[[Templar]]||19\n|-\n|[[Shadow]]||21\n|-\n|[[Witch]]||26\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=(items.stat_text LIKE \"%Iron%Grip%\" OR items.stat_text LIKE \"%Random%Keystone%\" ) AND items.name != \"The Hungry Loop\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.9.6|\n* Introduced to the game. \n}}\n{{Version history table end}}",
+  "sha256": "bf46f002e7a9ab896facd30dbc83e81f94a25ae7e30c90c3f2a33ab8c516418a"
+}

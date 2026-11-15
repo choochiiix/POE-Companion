@@ -1,0 +1,35 @@
+{
+  "title": "Exerting",
+  "pageId": 126493,
+  "revision": 1660569,
+  "timestamp": "2026-07-07T14:11:31Z",
+  "retrieved": "2026-11-14T10:10:02.543510+00:00",
+  "requested": [
+    "Kill",
+    "Exerted",
+    "Mirage Warriors",
+    "effect",
+    "enemies",
+    "Cost",
+    "Monster modifiers",
+    "curse limit",
+    "Blessing skill",
+    "Elder item",
+    "Runesmithing",
+    "Cassia",
+    "ring",
+    "amulet",
+    "Ring",
+    "Amulet",
+    "notable passive skill",
+    "passive skill tree",
+    "Corrupt",
+    "Talisman"
+  ],
+  "aliases": [
+    "Exerted"
+  ],
+  "missing": false,
+  "wikitext": "'''Exerting''' is a mechanic that allows [[skill]]s to enhance subsequent [[attack]]s performed by the character. It is primarily associated with [[Warcries]], though not exclusive to them. \n\n==Mechanics== \n[[File:Warcry exert count screenshot.png|thumbnail|right|Skill bar icons showing the number of Exerted attacks]]\nSkills that exert other attacks cause the next attack(s) to be enhanced in certain ways, depending on the exerting skill. An exerting skill may be able to exert a number of attacks, and one attack can be exerted by multiple skills, if the type of attack is valid for each. The number of exerted attacks remaining is displayed on the [[Skill bar]] icons. Exerting has no [[duration]].<ref>https://www.reddit.com/r/pathofexile/comments/hb6f0r/generals_cry_support_intimidating_cry_5_seconds/fv77741/</ref> \n\nExerting applies to entire attacks, not to individual [[hit]]s: exerting a skill like {{il|Rage Vortex}} will enhance all hits from that attack for its entire duration.<ref>https://www.reddit.com/r/pathofexile/comments/hb56kp/path_of_exile_harvest_gem_information/fv7g8ka/?context=10</ref> \n\nThe following types of attacks cannot be exerted: \n* [[Channelling]] skills\n* [[Retaliation]] skills\n* [[Vaal skill]]s, except {{il|Vaal Ground Slam}} \n* Attacks that [[trigger]] such as {{sl|Shockwave}}\n* Attacks that [[repeat]] such as skills supported by {{il|Multistrike}} (including their first animation)<ref>https://www.reddit.com/r/pathofexile/comments/h0p0h5/new_and_changed_slam_skills_in_path_of_exile/ftntpj1/?context=5</ref>\n* Attacks used by [[proxies]] such as [[totem]]s, [[Mirage (proxy)|mirage]]s, or {{il|Frozen Legion}}<ref>https://www.reddit.com/r/pathofexile/comments/hb56kp/path_of_exile_harvest_gem_information/fv7e52r/?context=1</ref>\n\nNote that attacks by Mirage Warriors ''count'' as exerted by {{il|General's Cry}}, including skills that could not be exerted by the player, like {{il|Blade Flurry}}. \n\n==Skill gems==\n{{Drop enabled gem table\n|where = items.class_id=\"Active Skill Gem\"\n  AND skill.description LIKE \"%Exert%\"\n}}\n\n===Support gems===\n{{Drop enabled gem table\n|where = items.class_id=\"Support Skill Gem\"\n  AND skill.description LIKE \"%Exert%\"\n}}\n\n==Related items==\n===Related base items===\nThe following base items are related to Exerting:\n{{Drop enabled base item table\n|where=(items.stat_text LIKE \"%Exert%\")\n  AND items.class_id NOT IN (\"Active Skill Gem\", \"Support Skill Gem\")\n|large=1\n|level=1\n|stat=1\n}}\n\n===Related unique items===\nThe following [[unique item]]s are related to Exerting:\n{{Drop enabled unique item table\n|where=(items.stat_text LIKE \"%Exert%\")\n  AND items.stat_text NOT LIKE \"%Passive in Radius%without being connected to your tree%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related modifiers==\nThe following [[modifier]]s are related to Exerting:\n{{modifier table\n|q_tables=spawn_weights\n|q_join=mods._pageID=spawn_weights._pageID\n|q_where = mods.stat_text LIKE \"%Exert%\"\n       AND mods.id NOT LIKE \"%Unique%\"\n|generation_type=1\n|level=1\n|stat_text=1\n|spawn_weights=1\n}}\n\n==Related passive skills==\n===Passive skills===\nThe following [[passive skill]]s are related to Exerting:\n{{Query base passive skills\n|where=\n   (passive_skills.stat_text LIKE \"%exert%\")\n   AND passive_skills.id NOT LIKE \"%AlternateAscendancy%\"\n}}\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] passives are related to Exerting:\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND (passive_skills.stat_text LIKE \"%exert%\")\n|large=1\n|stat_text=1\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Exerting:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%exert%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n* Warcries all now cause a certain number of attacks to become [[Exerted]] after the Warcry is used (except {{il|Enduring Cry}} and {{il|General's Cry}}, however the attacks done by the {{il|General's Cry}} [[Mirage Warriors]] are [[Exerted]]). [[Exerted]] attacks are enhanced in different ways depending on the Warcry. Your [[Exerted]] Attacks can benefit from the effects of multiple Warcries, if the type of attack is valid.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Game mechanics]]",
+  "sha256": "c5d3c3a53924981833556a02d7ebbbae77ce2cc58d5cb7cf74b0b2ea9780fc11"
+}

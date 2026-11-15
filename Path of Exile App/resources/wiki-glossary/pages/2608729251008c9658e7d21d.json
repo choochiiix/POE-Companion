@@ -1,0 +1,33 @@
+{
+  "title": "Adrenaline",
+  "pageId": 290,
+  "revision": 1673488,
+  "timestamp": "2026-07-13T18:30:33Z",
+  "retrieved": "2026-11-14T10:08:29.718759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the buff|the passive skill|Adrenaline (passive skill)}}\n{{status\n| name                   = Adrenaline\n| type                   = Buff\n| description            = You deal increased Damage, and have increased Attack, Cast and Movement Speed and additional Physical Damage Reduction.\n}}\n\n'''Adrenaline''' is a [[buff]] that grants increased [[damage]], [[movement speed|movement]], [[attack speed|attack]] and [[cast speed]], and additional physical damage reduction. \n\n==Mechanics==\nAdrenaline grants the following:\n* {{c|mod|100% increased Damage}}\n* {{c|mod|25% increased Attack, Cast, and Movement Speed}}\n* {{c|mod|10% additional Physical Damage Reduction}}\n\nAdrenaline cannot be gained or refreshed while you already have Adrenaline.\n\n==Sources==\n===Support gems===\n{{Drop enabled gem table\n|tables=skill\n|join=skill._pageID=skill._pageID\n|where=items.class_id=\"Support Skill Gem\" AND (skill.stat_text LIKE \"%Adrenaline%\")\n}}\n\n===Ascendancy passive skills===\nThere are [[Ascendancy passive skill]]s related to Adrenaline:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%adrenaline%\"\n}}\n\n===Items===\n{{Drop enabled base item table\n|where = items.description LIKE \"%Adrenaline%\"\n|large=1\n|description = 1\n}}\n\n===Unique items===\nThe following [[unique item]]s are related to Adrenaline :\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Adrenaline%\" AND items.stat_text NOT LIKE \"%Passive%Skills%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Mastery Effects==\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%Adrenaline%\"}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.0|\n* Adrenaline now inherently cannot be gained while you already have Adrenaline.\n}}\n{{Version history table row|3.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "8c28a911a6dd1b5e5493df49f0a7c1d84e5062321ad5752820077b91f6d0f143"
+}

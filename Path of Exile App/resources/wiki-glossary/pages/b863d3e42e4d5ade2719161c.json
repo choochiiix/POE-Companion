@@ -1,0 +1,33 @@
+{
+  "title": "The Unshattered Will",
+  "pageId": 17446,
+  "revision": 1704270,
+  "timestamp": "2026-11-08T13:50:28Z",
+  "retrieved": "2026-11-14T10:57:49.217160+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Unshattered Will\n|class_id                                = Shield\n|base_item                               = Archon Kite Shield\n|explicit1                               = HarbingerSkillOnEquipUnique__3\n|explicit2                               = IncreasedLifeUnique__52 <!-- IncreasedLifeUnique__53, IncreasedLifeUnique__56 -->\n|explicit3                               = AllResistancesUnique__9 <!-- AllResistancesUnique__20 -->\n|explicit4                               = GainManaOnBlockUnique__1\n|explicit5                               = AdditionalBlockChanceUnique__5\n|explicit6                               = ChannelledSkillDamageUnique__1\n|flavour_text                            = {{glyph|HBGAh}}{{glyph|HBG01}}{{glyph|HBGAe}}{{glyph|HBG00}}{{glyph|HBGAp}}<br>{{glyph|HBGAa}}{{glyph|HBG02}}{{glyph|HBGAq}}{{glyph|HBGAr}}{{glyph|HBG03}}{{glyph|HBGAl}}<br>{{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGAs}}{{glyph|HBG00}}{{glyph|HBG04}}{{glyph|HBGAt}}\n|release_version                         = 3.0.0\n|is_drop_restricted                      = true\n|recipe1_part1_item_name                 = First Piece of Focus\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Second Piece of Focus\n|recipe1_part2_amount                    = 1\n|recipe1_part3_item_name                 = Third Piece of Focus\n|recipe1_part3_amount                    = 1\n|recipe1_part4_item_name                 = Fourth Piece of Focus\n|recipe1_part4_amount                    = 1\n|drop_text = Can only be acquired in permanent leagues by combining pieces.\n}}\n\n'''The Unshattered Will''' is a [[unique]] {{il|Archon Kite Shield}}.\n\n==Modifiers==\n{{c|mod|Grants Summon Harbinger of Focus Skill}}: Summons an immortal Harbinger [[minion]]. The minion will occasionally apply \"The Unshattered Will\" on the player character while the player character is channeling. \"The Unshattered Will\" is a buff that lasts 4 seconds, with a cooldown of 8 seconds, and grants the following benefits:\n\n*Immunity to elemental [[ailments]]\n*[[Stun]] immunity\n* 20% less damage taken\n\n==Mechanics==\n* {{sl|Summon Harbinger of Focus}}\n\n{{Item acquisition}}\n\nWhen the unique pieces are placed correctly in the inventory or stash, they will all vanish, and the player will be left with the forged unique item.\n\nSince item pieces are drop disabled. To acquire this unique, players are requires to acquire the individual pieces, or the shield directly.\n{| class=\"wikitable\"\n|+ Arrangement \n| {{il|First Piece of Focus|large=1|name=}}\n| {{il|Second Piece of Focus|large=1|name=}}\n|-\n| {{il|Third Piece of Focus|large=1|name=}}\n| {{il|Fourth Piece of Focus|large=1|name=}}\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Uniques can no longer be obtained: The Beachhead, Infused Beachhead, The Enmity Divine, The Flow Untethered, The Fracturing Spinner, The Rippling Thoughts, The Tempest's Binding, and The Unshattered Will.\n* Harbinger uniques now provide an additonal {{il|Fracturing Shard}} when [[vendor]]ed.{{Undocumented}}\n}}\n{{Version history table row|3.9.0|\n* The Unshattered Will's damage reduction from the Harbinger of Focus' effect is now multiplicative with other similar effects.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "d8215630950296c1da637750b582206a317148708085591630e2b10ae05af043"
+}

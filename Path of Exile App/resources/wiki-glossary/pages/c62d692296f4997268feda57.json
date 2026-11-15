@@ -1,0 +1,33 @@
+{
+  "title": "Costly Might",
+  "pageId": 3970,
+  "revision": 1192868,
+  "timestamp": "2022-07-25T00:16:15Z",
+  "retrieved": "2026-11-14T10:57:17.463330+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Costly Might\n| description = {{c|normal|You are faster, leech Life from Physical Damage and deal increased Physical Damage, but are taking Physical Damage over time}}\n| bonuses = {{c|mod|#% increased attack/cast/movement speed<br/>#% of Physical Damage Leeched as Life<br/>#% increased Physical Damage<br/>10% of maximum Life and Energy Shield as Physical Damage per second}}\n}}\n'''Costly Might''' is a hybrid [[buff]] and [[debuff]]. As of [[version 3.14.0]], it is granted from an invulnerable [[totem]] that itself spawns from a modifier of the [[Trials of Chaos]].\n\nThe status icon of this hybrid is placed in the top row of the screen, the same row as [[charge]], buffs, [[aura]]s, [[minion]]s, [[flask]] effects, {{stl|Rage}} and etc.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* [[Costly Potency]]\n\n[[Category:Buffs]]\n[[Category:Debuffs]]",
+  "sha256": "8402de3cbb6f32bbb0006cead7b540eeb74b3fe05203e9d1eca82287e6d6c163"
+}

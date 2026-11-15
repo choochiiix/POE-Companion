@@ -1,0 +1,33 @@
+{
+  "title": "Imbalanced Guard",
+  "pageId": 8490,
+  "revision": 1625652,
+  "timestamp": "2026-03-03T23:35:29Z",
+  "retrieved": "2026-11-14T10:11:16.435600+00:00",
+  "requested": [
+    "Item Rarity",
+    "Wildwood",
+    "Chest",
+    "Blight",
+    "Fishing Rod",
+    "Hiveborn",
+    "Gold",
+    "Tattoo",
+    "Imbalanced Guard",
+    "Moving",
+    "passives",
+    "Movement",
+    "Stationary",
+    "Life reservation",
+    "light radius",
+    "Distance",
+    "distance",
+    "Sapped",
+    "Weapons",
+    "Axes"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Imbalanced Guard}}\n\n'''Imbalanced Guard''' is a [[keystone passive skill]] that doubles [[armour]] when defending against [[hit]]s, but caps [[damage reduction]] to 50%.\n\n==Mechanics==\n{{c|mod|100% chance to Defend with 200% of Armour}}: Similar modifiers, such as the {{c|mod|20% chance to Defend with 200% of Armour}} [[Armour Mastery]], do not stack with Imbalanced Guard.\n\n{{c|mod|Maximum Damage Reduction for any Damage Type is 50%}}: This modifier lowers the cap on 'damage reduction' to 50%, from 90%. \n\nThis affects damage reduction granted by [[armour]] against [[physical]] damage hits, ''additional'' sources such as {{c|mod|#% additional Physical Damage Reduction}} on [[strength]] body armours and shields, and damage reduction for non-physical damage gained from effects like [[Endurance charge]]s, {{psl|Transcendence}}, {{il|Doryani's Prototype}}, {{psl|Unbreakable}}, {{il|The Fourth Vow}}, or {{il|Eternal Damnation}}. \n\nThe cap does not affect non-'damage reduction' mitigations such as [[immunity]], [[avoidance]], [[resistance]], [[damage taken]] modifiers (e.g. [[Fortification]]), [[spell suppression]], or [[block]].<ref>https://www.reddit.com/r/pathofexile/comments/h9rlc2/comment/fuykttl/</ref> \n\n==Strategy== \nImbalanced Guard can cause armour to grant higher damage reduction against bigger hits, but limits armour's effectiveness against smaller hits. This may be useful for builds that stack several types of mitigation, rather than primarily stacking [[armour]] or additional damage reduction. \n\n==Location==\nImbalanced Guard is located at the middle layer of the southwest part of the tree, to the left of the transition path between [[Duelist]] and [[Marauder]], next to the {{psl|Soul of Steel}} cluster.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n| Marauder || 9\n|-\n| Duelist || 10\n|-\n| Scion || 14\n|-\n| Templar || 16\n|-\n| Ranger || 18\n|-\n| Shadow || 24\n|-\n| Witch || 24\n|}\n\n==Related unique items==\nThe following [[unique item]]s are related to Imbalanced Guard:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Imbalanced%Guard%\"\n    OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Videos==\n<youtube description=\"Imbalanced Guard mechanics and interactions\">y6y90Ap46CU</youtube>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.1|\n* Fixed a bug where the {{il|Skin of the Lords}} unique Simple Robe granted a Keystone named \"'''Sacred Bastion'''\". This keystone is meant to be named '''Imbalanced Guard''' (as seen on the passive skill tree).\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}",
+  "sha256": "c2c9f9b83116416a7e3933320e4bcb9668fe69f5508bb16332ad08e3f52832b5"
+}

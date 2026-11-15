@@ -1,0 +1,33 @@
+{
+  "title": "Abyssal socket",
+  "pageId": 158,
+  "revision": 1699302,
+  "timestamp": "2026-08-07T03:02:56Z",
+  "retrieved": "2026-11-14T10:11:23.447002+00:00",
+  "requested": [
+    "Element",
+    "Cruel",
+    "Ghost Shroud",
+    "Reflect",
+    "unique jewel",
+    "caustic ground",
+    "Elemental Relic",
+    "Endurance",
+    "Ailments",
+    "recharge",
+    "One-Handed",
+    "Abyssal socket",
+    "amulets",
+    "rings",
+    "quivers",
+    "Two-Handed",
+    "Monsters",
+    "Spawn",
+    "influence",
+    "unique monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "An '''Abyssal Socket''' is a special [[socket]] found on League-specific [[unique]] items and rare {{il|Stygian Vise}} belt bases that can hold an [[abyss jewel]]. \n\n__TOC__\n\n==Mechanics==\nAbyssal sockets replace the listed number of [[gem socket]]s following socket order:\n\n{|style=\"text-align:center;\"\n|-\n  | 1\n  | ⇒\n  | 2\n|-\n  |\n  | \n  | ⇓ \n|-\n  | 4\n  | ⇐\n  | 3\n|-\n  | ⇓ \n  | \n  | \n|-\n  | 5\n  | ⇒\n  | 6\n|}\n\nAbyssal sockets typically require the {{c|mod|Has # Abyssal Socket(s)}} modifier. If this modifier is removed, such as through [[corrupted|corruption]] (for implicit modifiers) or by rerolling/scouring the item (for explicit modifiers), the Abyssal socket is also removed.\n\n==Acquisition==\n[[Abyss]]-related unique equipment always have one or more Abyssal sockets.\n\n{{il|Stygian Vise}} is a belt base type can be obtained from Abyss encounters that has an Abyssal socket as an implicit modifier. It is possible to lose this socket if the implicit is changed.\n\n{{psl|Rare Item Abyssal Socket Chance}} and {{psl|Votive Hoard}} on the [[Atlas passive tree]] can cause [[Abyssal Trove]]s and [[Stygian Spire]]s in your [[map]]s to drop rare weapon or armour items with the {{c|mod|Has 1 Abyssal Socket}} explicit modifier.\n\nA {{il|Hollow Fossil}} can be used to reroll a rare weapon or armour item, guaranteeing the {{c|mod|Has 1 Abyssal Socket}} explicit modifier.\n\n[[Vestigial unique item]]s can gain {{c|vestigial|Has (1-2) Abyssal Socket(s)}} as an implicit mod from enshrouded Abyss uniques. Unique items which normally have no sockets (i.e. {{il|Kaom's Heart}}, {{il|Kaom's Roots}}) are allowed to have abyss sockets.\n\n==List of Abyss Jewels==\n<onlyinclude>{{Drop enabled base item table\n|where = items.class_id = \"AbyssJewel\"\n|large=1\n}}</onlyinclude>\n\n==Unique items==\nThe list below shows unique items that are related to abyssal sockets.\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Abyssal%Socket%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\nBetween [[version 3.26.0]] and [[version 3.26.0c]] Hotfix 5, it was temporarily possible to use the \"Reroll the Rarity of a non-Unique item\" craft to create \"bugged\" items (including unique items) with an Abyssal socket without the {{c|mod|Has 1 Abyssal Socket}} modifier. It was also temporarily possible to rarely obtain similar \"bugged\" items with {{psl|Votive Hoard}} ({{il|Abyss Scarab of Emptiness}} did not work) if the item dropped with [[memory strand]]s; however community members believe that this bug has been fixed during an undocumented hotfix between [[version 3.26.0f]] and [[version 3.26.0g]].<ref name=\"Hotfix 0\" /><ref name=\"Bugged Abyss Socket\" /> These items were not deleted after the hotfix and are now [[legacy variant]] items that can only be obtained through [[trade]]. Due to their buggy nature, the Abyssal socket's position is fixed (rather than always being the final socket) and it is possible to have this Abyssal Socket link to other sockets. It can be removed through [[corruption]] outcomes that add white sockets (horticrafting a white socket does not remove it, but can never make the final socket position white) on that socket position or if the number of sockets is reduced to or below the abyssal socket's position.\n\n==References==\n{{reflist|refs=\n<ref name=\"Hotfix 0\">{{cite web\n| author     = Kieren_GGG\n| date       = August 7, 2025\n| title      = Server Maintenance\n| url        = https://www.pathofexile.com/forum/view-thread/3823559\n| publisher  = Official Path of Exile Forums\n| accessdate = August 21, 2025\n}}</ref>\n<ref name=\"Bugged Abyss Socket\">{{cite web\n| author     = Spicysushi PoE\n| date       = August 11, 2025\n| title      = CRAFTING THE BEST INT STACK WAND & EXPOSING THE TRUTH ABOUT THE \"BUGGED\" ABYSS SOCKET ITEMS\n| url        = https://www.youtube.com/watch?v=tJhnO9tgIx0\n| publisher  = YouTube\n| accessdate = August 21, 2025\n}}</ref>\n}}\n\n{{Navbox Abyss}}\n\n[[Category:Item mechanics]]",
+  "sha256": "cb6bbeeeea9595fb23cc3c9b592983521eab52f68093cff5dbddc1389ca4172d"
+}

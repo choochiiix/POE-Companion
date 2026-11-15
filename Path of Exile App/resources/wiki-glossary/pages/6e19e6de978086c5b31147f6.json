@@ -1,0 +1,33 @@
+{
+  "title": "Omen of Brilliance",
+  "pageId": 116479,
+  "revision": 1455449,
+  "timestamp": "2024-05-29T22:11:26Z",
+  "retrieved": "2026-11-14T10:57:34.915571+00:00",
+  "requested": [
+    "Minion Test",
+    "Molten Shell",
+    "Momentum",
+    "Monster Consume",
+    "Moon's Presence",
+    "Murine Procession",
+    "Musty Wine",
+    "Mystic Miasma",
+    "Necrovigil",
+    "Net Throw",
+    "No Chaos Resistance",
+    "Nova",
+    "Noxious Fumes",
+    "Oakbranch Tincture",
+    "Oasis Ground",
+    "Obscuring Tempest",
+    "Offering Of Judgement",
+    "Oiled Ground",
+    "Omen of Brilliance",
+    "Omnitect's Paralysis"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Omen of Brilliance\n|class_id                                = StackableCurrency\n|size_x                                  = 1\n|size_y                                  = 1\n|drop_level                              = 1\n|tags                                    = ui_enable_popup_inventory_total_display, enable_transfer_all_in_player_to_player_trade_window, currency, default\n|metadata_id                             = Metadata/Items/Currency/AncestralOmenOnLevelingUpGainExperienceBuff\n|stack_size                              = 1\n|description                             = Will be Consumed when you level up<br>to grant 100% increased Experience gained for 60 seconds\n|help_text                               = Each player can only consume one Omen in each combat area.\n|inventory_icon                          = Omen of Brilliance\n|acquisition_tags                        = Ancestor, Affliction\n|drop_text                               = Can appear as a reward in [[Ritual]].\n|is_drop_restricted                      = true\n|release_version                         = 3.22.0\n}}\n\n'''Omen of Brilliance''' is an [[Omen]] item. When consumed, it increases [[experience]] obtained by 100%, stacking additively with other sources of increased experience gain.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* Omens are now offered as Ritual Rewards.\n}}\n{{Version history table row|3.23.0|\n* Re-introduced as a league-exclusive item found in the [[Viridian Wildwood]].<ref name=\"ReturningItems\"/>\n}}\n{{Version history table row|3.22.0|\n* Introduced to the game in [[Ancestor league]].\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"ReturningItems\">{{cite web|author=Community_Team|date=December 06, 2023|title=POE Forum|url=https://www.pathofexile.com/forum/view-thread/3452297|publisher=PoE|accessdate=December 06, 2023}}</ref>\n}}\n\n{{Navbox Items}}\n[[Category:Trial of the Ancestors]]\n[[Category:Affliction]]",
+  "sha256": "0cc480fdb8bf68bcef6f0992ec1999308225b46028e25b25366bdde4e3d2baf8"
+}

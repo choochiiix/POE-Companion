@@ -1,0 +1,33 @@
+{
+  "title": "Taunt",
+  "pageId": 16367,
+  "revision": 1702419,
+  "timestamp": "2026-09-16T10:25:39Z",
+  "retrieved": "2026-11-14T10:08:28.929104+00:00",
+  "requested": [
+    "Life",
+    "Mana",
+    "Rage",
+    "Strength",
+    "Dexterity",
+    "Intelligence",
+    "Block",
+    "Spell suppression",
+    "Dodge",
+    "Stun",
+    "Stun threshold",
+    "Knockback",
+    "Blind",
+    "Maim",
+    "Hinder",
+    "Taunt",
+    "Intimidate",
+    "Unnerve",
+    "Withered",
+    "Impale"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Taunt\n| type                   = Debuff\n| description            = You deal less damage to enemies which have not taunted you.\n}}\n\n[[File:Taunt.jpg|thumbnail|right|Taunted [[Brittle Corsair]]s]]\n'''Taunt''' is a [[debuff]] that makes an affected enemy unable to consider any object as a potential target, except the source of the debuff. It also causes enemies to deal 10% less [[damage]] to other entities.<ref name=\"MechanicalQuestionsThread2.3.0\" /><ref name=\"DevManifesto2.3.0\" /> It lasts for 3 seconds. Taunt can be applied by players, minions, monsters, or [[proxies]] that are targetable (e.g. [[totem]]s, but not [[trap]]s, [[mine]]s, or [[Mirage (proxy)|mirage]]s). Taunt immediately expires when the character (or proxy) that applied it dies or expires. \n\nWhen multiple sources are taunting the same enemy, the first taunt applied determines the aggro. The targeted source can maintain aggro indefinitely as long as it maintains its taunt on the target.<ref name=\"DevManifesto2.3.0\"/>\n\nAll targets can be taunted unless made immune through a modifier; however, taunt will not cause [[The Shaper]], [[The Elder]], [[Guardian of the Void|Shaper Guardians]], [[Elder Guardians]], or various other unique bosses to retarget towards the source of the taunt.<ref name=\"patch3.2.0notes\"/>\n\n==Skills==\n===Skill gems===\n{{Query stat related skill gems\n|type=active\n|where=skill_stats_per_level.id LIKE \"%taunt%\"\n  OR skill.description LIKE \"%taunt%\"\n  OR skill_quality_stats.id LIKE \"%taunt%\"\n|stat_page=taunt\n}}\n\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|where=skill_stats_per_level.id LIKE \"%taunt%\"\n  OR skill.description LIKE \"%taunt%\"\n  OR skill_quality_stats.id LIKE \"%taunt%\"\n|stat_page=taunt\n}}\n\n===Item skills===\nThe following item [[skill]]s are related to Taunt:\n* {{sl|Summon Taunting Contraption}}\n* {{sl|Misty Reflection}}\n\n==Related items==\n===Base items===\nThe following base items are related to Taunt:\n{{Drop enabled base item table\n|where=items.stat_text LIKE \"%taunt%\"\n  AND items.class_id NOT IN (\"Active Skill Gem\", \"Support Skill Gem\")\n|large=1\n|level=1\n|stat=1\n}}\n\n===Unique items===\nThe following [[unique item]]s are related to Taunt:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%taunt%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\n===Passive skills===\nThe following [[passive skill]]s are related to Taunt:\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%taunt%\"\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to Taunt:\n{{Query masteries}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Taunt:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%taunt%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Fixed a bug where taunt would sometimes not work.\n}}\n{{Version history table row|3.28.0g|\n* Fixed a bug where Taunt would cause Enemies to deal 1% less Damage rather than 10% less Damage.\n}}\n{{Version history table row|3.22.0|\n* Fixed a bug where taunted Enemies were not receiving the 10% less damage penalty when dealing damage to a target other than the one that taunted them.<ref>This bugfix fixed a long-standing [https://www.pathofexile.com/forum/view-thread/3384511 issue] that caused Taunt to cause players to take 10% more damage instead of 10% less damage from taunted enemies.</ref>\n}}\n{{Version history table row|3.11.0|\n* Taunted enemies now have a more visible effect played on them.\n}}\n{{Version history table row|3.2.0|\n* [[The Shaper]], [[The Elder]], each [[Guardian of the Void]], and [[Elder Guardians]] are no longer Taunt immune. Taunt still does not cause them to retarget.<ref name=\"patch3.2.0notes\" />\n}}\n{{Version history table row|2.4.1|\n* [[The Shaper]] can no longer be Taunted.\n* Each [[Guardian of the Void]] can no longer be permanently taunted. They can only be taunted every so often.\n}}\n{{Version history table row|2.3.0|\n* Taunted enemies now have an effect to indicate they are taunted.\n* Enemies you Taunt deal 10% less damage to targets that aren't you (including in PVP).\n* Your Taunt effects can't be overwritten by other taunt effects. You can replace your own taunts. Where multiple players are taunting, the first person to taunt gets the effect.\n* Taunt effects no longer have a 9 second cooldown on act and map bosses.<ref name=\"MechanicalQuestionsThread2.3.0\" />\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"DevManifesto2.3.0\">{{cite web|author=Qarl|date=May 26, 2016|title=Development Manifesto: 2.3.0 Balance|url=https://www.pathofexile.com/forum/view-thread/1665252|publisher=Official Path of Exile Forums|accessdate=May 26, 2016}}</ref>\n<ref name=\"MechanicalQuestionsThread2.3.0\">{{cite web|author=Mark|date=June 9, 2016|title=Mechanical Questions Thread|url=https://www.pathofexile.com/forum/view-thread/1676002/filter-account-type/staff|publisher=Official Path of Exile Forums|accessdate=June 9, 2016}}</ref>\n<ref name=\"patch3.2.0notes\">{{cite web|author=Bex|date=February 28, 2018|title=Path of Exile 3.2.0: Bestiary League Patch Notes|url=https://www.pathofexile.com/forum/view-thread/2093500|publisher=Official Path of Exile Forums|accessdate=April 19, 2018}}</ref>\n}}\n\n[[Category:Game mechanics]]",
+  "sha256": "9a0755b6093ace7b2456cfed0ed50c05a3c91fc143e85c952c79ba2008431e10"
+}

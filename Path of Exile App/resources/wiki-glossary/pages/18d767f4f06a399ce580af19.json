@@ -1,0 +1,33 @@
+{
+  "title": "Scorched ground",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:11:12.963643+00:00",
+  "requested": [
+    "weapons",
+    "dual wield",
+    "sceptre",
+    "implicit",
+    "Crucible Passive Skill Tree",
+    "Flying",
+    "Summon Raging Spirit",
+    "Caustic ground",
+    "Scorched ground",
+    "Profane ground",
+    "Fungal ground",
+    "Brine ground",
+    "Smoke cloud",
+    "normal",
+    "Foulborn unique item",
+    "level",
+    "Evasion Rating",
+    "Battlemage",
+    "Quivers",
+    "Shields"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

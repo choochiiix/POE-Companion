@@ -1,0 +1,33 @@
+{
+  "title": "Withered",
+  "pageId": 20247,
+  "revision": 1702206,
+  "timestamp": "2026-08-31T12:42:20Z",
+  "retrieved": "2026-11-14T10:08:28.930108+00:00",
+  "requested": [
+    "Life",
+    "Mana",
+    "Rage",
+    "Strength",
+    "Dexterity",
+    "Intelligence",
+    "Block",
+    "Spell suppression",
+    "Dodge",
+    "Stun",
+    "Stun threshold",
+    "Knockback",
+    "Blind",
+    "Maim",
+    "Hinder",
+    "Taunt",
+    "Intimidate",
+    "Unnerve",
+    "Withered",
+    "Impale"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{distinguish|Wither}}\n{{status\n| name                   = Withered\n| type                   = Debuff\n| description            = You are taking increased Chaos Damage.\n}}\n\n'''Withered''' is a [[debuff]] which applies a 6% increased [[chaos damage]] taken on the affected target, stacking up to 15 times. Each stack has its own independent duration (base duration of 2s), which is not refreshed when applying new stacks.\n\n==Mechanics==\nDue to each stack applying its damage taken debuff independently, {{c|mod|x% increased Effect of Withered}} only reaches breakpoints in multiples of 16.67%, rounded up to the nearest integer. The following table contains an example of the first few breakpoints:\n\n{| class=\"wikitable\"\n|-\n! Wither<br/>effect !! Increased<br>damage taken<br>per stack \n|-\n| 0% || 6%\n|-\n| 17% || 7%\n|-\n| 34% || 8%\n|-\n| 50% || 9%\n|-\n| 67% || 10%\n|-\n| 84% || 11%\n|-\n| 100% || 12%\n|}\n\n==Sources==\n===Skill gems===\n{{Query stat related skill gems\n|type=active\n|stat_id_query=%withered%\n|stat_page=withered\n|quality=1\n}}\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|where=skill_stats_per_level.id LIKE \"%wither%\" OR skill.skill_id LIKE \"%Hextoad%\"\n|stat_page=Withered\n}}\n\n===Base items===\nThe following base items are related to Withered:\n{{Drop enabled base item table\n|tables = item_stats\n|join = item_stats._pageID=items._pageID\n|where = \n    item_stats.id LIKE \"%withered_effect_+%\"\n|stat=1\n|level=1\t\n}}\n\n===Unique items===\nThe table below lists [[unique items]] that are related to Withered:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%wither%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n===Helmet and belt enchantments===\n{{Modifier table\n|q_where = mods.generation_type=\"10\"\n AND (\n      mods.stat_text LIKE \"%Withered%\"\n)\n|stat_text=1\n|level=1\n}}\n\n===Miscellaneous===\n* {{stl|Unholy Might}} is a [[buff]] that grants 25% chance to inflict Withered on hit.\n* [[Perfect Spider Matriarch]] as a {{il|Raise Spectre}} minion grants the owner 10% increased effect of Withered.\n* The {{sl|id=AspectOfArakaali}} buff causes the character to inflict Withered on hit, and Withered stacks that the character inflicts are reflected back onto the character.\n\n==Passive Skills==\nThese [[passive skill]]s are related to Withered:\n\n===Base passive skills===\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%wither%\"\n  AND passive_skills.name NOT LIKE \"%Heart of the Grove%\"\n}}\n\n===Timeless Jewel passive skills===\nThe following {{il|Timeless Jewel}} [[passive skill]]s are related to Withered:\n{{Passive skill table\n|q_where=\n  passive_skills.stat_text LIKE \"%wither%\"\n  AND passive_skills.id LIKE \"%vaal_notable%\"\n|large=1\n|stat_text=1\n}}\n\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] passives are related to Withered:\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skills.stat_text LIKE \"%wither%\"\n|large=1\n|stat_text=1\n}}\n\n===Ascendancy passive skills===\nThere are [[Ascendancy passive skill]]s related to Withered:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%wither%\"\n}}\n\n==Trivia==\nThe look of Withered was changed in [[version 3.5.3]] from purple orbs (matching {{psl|Withering Presence}}) to the current purple line effect.\n\n[[File:Wither skill screenshot.jpg|thumb|200px|The original debuff visual effect for Withered.]]\n[[File:2nd Screenshot of Withered (from Withering Step) in version 3.20.png|thumb|200px|Debuff visual effect for Withered in [[version 3.20.0]].]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* The total effect of the Wither debuff is now displayed on the debuff bar of affected targets.\n}}\n{{Version history table row|3.21.0|\n* Added a series of new \"{{c|mod|Profane}}\" modifiers that can roll on [[Map]]s, [[Logbook]]s, [[Delve]] Biomes, and [[Heist]] Contracts. These modifiers cause Monsters to deal extra Physical Damage as Chaos and cause Monsters to Inflict [[Withered]] for 2 seconds on Hit.\n}}\n{{Version history table row|3.5.3|\n* Updated the Wither debuff effect. The rotating orbs have been removed in order to improve performance.\n}}\n{{Version history table row|3.4.0|\n* The debuff applied by the skill [[Wither]] has been assigned the name \"Withered\", and can be applied by the new support gem [[Withering Touch Support]].\n}}\n{{Version history table end}}\n\n{{sister|poe2wiki}}\n\n[[Category:Debuffs]]",
+  "sha256": "d47850a804150a85d409e3e0340e87bb23cb5471a8a273781b81889ad9965c3e"
+}

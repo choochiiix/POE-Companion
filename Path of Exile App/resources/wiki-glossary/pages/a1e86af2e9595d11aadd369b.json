@@ -1,0 +1,33 @@
+{
+  "title": "Fright Mask",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:57:25.573049+00:00",
+  "requested": [
+    "Frenzied",
+    "Fright Mask",
+    "Frigid Beam",
+    "Frigid Roar",
+    "Frontal Proximity Shield",
+    "Frost Bomb",
+    "Frost Nova",
+    "Frost Shield",
+    "Frostbite",
+    "Frozen Damage Increase",
+    "Frozen Ground",
+    "Fulgurite Tincture",
+    "GREEN BUFF",
+    "Gale Force",
+    "Galvanic Field",
+    "Galvanic Flare",
+    "Galvanizing Tempest",
+    "Gambler's Greed",
+    "Garb of the Ephemeral",
+    "Garukhan's Sandstorm"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

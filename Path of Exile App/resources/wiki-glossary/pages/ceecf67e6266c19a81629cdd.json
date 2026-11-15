@@ -1,0 +1,33 @@
+{
+  "title": "Lethe Shade",
+  "pageId": 79194,
+  "revision": 1548650,
+  "timestamp": "2025-07-03T20:28:46Z",
+  "retrieved": "2026-11-14T10:09:57.339093+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Lethe Shade}}\n\n'''Lethe Shade''' is a [[keystone passive skill]] which enables you to take 50% less [[Damage over Time]] if you've started taking Damage over Time in the past second, at the cost of having 100% more Duration of [[Ailments]] on you. \n\n==Mechanics==\nAilments that are reflected back onto the character such as through [[The Fulcrum]] or [[Maligaro's Restraint]] are unaffected by Lethe Shade's Ailment Duration modifier.<ref name=\"Reduced ailment duration and ailment reflection\">{{cite web|author=Jatin_GGG|date=April 26, 2023|title=\"Reduced Poison Duration on you\" jewel mod does not apply to poisons reflected using Golden Rule|url=https://www.pathofexile.com/forum/view-thread/3366418#p24974604|publisher=Official Path of Exile Forums|accessdate=May 6, 2023}}</ref>\n\n==Location==\nLethe Shade lies on the upper right area of the tree, next to the [[Growth and Decay]] Notable passive skill. \n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Ranger||15\n|-\n|Duelist||23\n|-\n|Scion||15\n|-\n|Shadow||7\n|-\n|Marauder||25\n|-\n|Templar||19\n|-\n|Witch||11\n|}\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Lethe%Shade%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Videos==\n<youtube description=\"Lethe Shade mechanics and interactions\">G6BqFrCI620</youtube>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}",
+  "sha256": "710256f6649af88316354edf92e299ffb2fe43ad6fdbbff0581b3d5d8458592f"
+}

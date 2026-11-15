@@ -1,0 +1,33 @@
+{
+  "title": "Searing Beam",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:57:42.753128+00:00",
+  "requested": [
+    "Scientist's Beam",
+    "Scorching Conflux",
+    "Scorching Ray",
+    "Scourge Arrow",
+    "Screech",
+    "Sea Hag's Blessing",
+    "Searing Beam",
+    "Searing Rune",
+    "Seething Tempest",
+    "Seismic Cry",
+    "Sentinel Chaos Resistance",
+    "Sentinel Curse Protection",
+    "Sentinel Fire Damage",
+    "Sentinel Life Regeneration",
+    "Sentinel Lightning Damage",
+    "Sentinel Mana Regeneration",
+    "Sentinel Shield",
+    "Serpent Extract",
+    "Sewage Toxins",
+    "Shade Form"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

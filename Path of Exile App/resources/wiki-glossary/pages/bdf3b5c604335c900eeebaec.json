@@ -1,0 +1,33 @@
+{
+  "title": "Heart of the Gargoyle",
+  "pageId": 8062,
+  "revision": 1489412,
+  "timestamp": "2024-10-13T04:10:08Z",
+  "retrieved": "2026-11-14T10:57:27.136500+00:00",
+  "requested": [
+    "Grasping Pincers",
+    "Grasping Tentacles",
+    "Gravekeeper's Boon",
+    "Gravity Well",
+    "Greater Freezing Shrine",
+    "Greater Lightning Shrine",
+    "Greater Skeletal Shrine",
+    "Green Effluent",
+    "Ground Spores",
+    "Gruesome Grafts",
+    "Gruthkul's Despair",
+    "Haemolytic Aura",
+    "Hallucination",
+    "Hare Foot",
+    "Harmony of Purpose",
+    "Haste Aura",
+    "Hatred Aura",
+    "Headhunter",
+    "Healing",
+    "Heart of the Gargoyle"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Heart of the Gargoyle\n|class_id                                = LabyrinthTrinket\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = All living things need a heart,<br>even those made of stone.<br>No heart, no life.\n|drop_level                              = 1\n|tags                                    = default\n|metadata_id                             = Metadata/Items/QuestItems/Labyrinth/Trinkets/HeartOfTheGargoyle\n|description                             = The next Gargoyle you hit will be killed instantly\n|release_version                         = 2.2.0\n}}\n{{status\n| name                   = Heart of the Gargoyle\n| type                   = Buff\n}}\n'''Heart of the Gargoyle''' is a [[Labyrinth trinket]].\n\n==Use==\nThis trinket enables players to oneshot a Gargoyle in a trial against Izaro. After the first Gargoyle is killed, the trinket is destroyed and cannot be used again.\nTo \"activate\" it, it has to be in the player's inventory. To save it, players can put it into your stash, right before the fight against Izaro.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "b5bdbbd94902c1d765f171515eb6541869710b5dccca013237283cc3de976311"
+}

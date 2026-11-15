@@ -1,0 +1,35 @@
+{
+  "title": "Gain on kill",
+  "pageId": 7042,
+  "revision": 1673463,
+  "timestamp": "2026-07-13T07:33:11Z",
+  "retrieved": "2026-11-14T10:09:59.081478+00:00",
+  "requested": [
+    "Low Mana",
+    "loss",
+    "modifiers",
+    "mana cost",
+    "support gems",
+    "mana reservation",
+    "buffs",
+    "auras",
+    "curses",
+    "Mana Burn",
+    "Mana Flask",
+    "Mana Gained on Kill",
+    "Portal",
+    "town",
+    "Body Armour",
+    "Helmets",
+    "Gloves",
+    "Boots",
+    "Mana reservation",
+    "fire"
+  ],
+  "aliases": [
+    "Mana Gained on Kill"
+  ],
+  "missing": false,
+  "wikitext": "'''Life gain on kill''', '''mana gain on kill''', and  '''energy shield gain on kill''' is a form of [[recovery]] that instantly restores an amount of [[life]], [[mana]], or [[energy shield]] respectively when the character [[kill]]s an enemy. Regular on-kill gain only affects the character, and is not applied to or checked on other entities, such as [[minions]], [[traps]], [[mines]], or [[totems]].\n\n==Unique items==\n===Life on kill===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%life%gain%on_kill%\"\n  OR item_stats.id LIKE \"%life%gain%on_enemy_death%\"\n  OR item_stats.id LIKE \"%recover%life_on_kill%\"\n|level=1\n|large=1\n|stat=1\n}}\n\n===Mana on kill===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%mana%gain%on_kill%\"\n  OR item_stats.id LIKE \"%mana%gain%on_enemy_death%\"\n  OR item_stats.id LIKE \"%recover%mana_on_kill%\"\n|level=1\n|large=1\n|stat=1\n}}\n\n===Energy shield on kill===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%energy%gain%on_kill%\"\n  OR item_stats.id LIKE \"%energy%gain%on_enemy_death%\"\n  OR item_stats.id LIKE \"%recover%energy_on_kill%\"\n|level=1\n|large=1\n|stat=1\n}}\n\n===Gain Benefit on Kill===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%trigger%on_kill%\"\n  OR item_stats.id LIKE \"%trigger%on_enemy_death%\"\n  OR item_stats.id LIKE \"%chance%on_enemy_death%\"\n  OR item_stats.id LIKE \"%chance%on_kill%\"\n  OR item_stats.id LIKE \"%chance%kill%\" AND item_stats.id NOT LIKE \"%bow%skill%\"\n  OR item_stats.id LIKE \"%chance%death%\" \n|level=1\n|large=1\n|stat=1\n}}\n\n==Passive skills==\nThere are [[passive skill]]s that grant life or mana gain on hit bonuses.\n\n===Life gain on kill===\nThese passive skills grant additional life gained when the character kills an enemy.\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"base_life_gained_on_enemy_death\"\n}}\t\n\n===Mana gain on kill===\nThese passive skills grant additional mana gained when the character kills an enemy.\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"base_mana_gained_on_enemy_death\"\n}}\n\n==Ascendancy Passive skills==\nThese [[Ascendancy class]] passive skill are related to gain on kill.\n\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%gained_on_enemy_death%\"\n  OR passive_skill_stats.id LIKE \"%recover%on_kill%\"\n}}\n\n[[Category:Game mechanics]]",
+  "sha256": "b2871d7e9e569f5a2691772772600c1d8e69ab8121c884cac4c7b38b781bf385"
+}

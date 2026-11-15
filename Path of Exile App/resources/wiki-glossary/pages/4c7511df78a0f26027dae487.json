@@ -1,0 +1,33 @@
+{
+  "title": "Spider's Web",
+  "pageId": 15499,
+  "revision": 1579865,
+  "timestamp": "2025-10-30T22:27:07Z",
+  "retrieved": "2026-11-14T10:57:45.183551+00:00",
+  "requested": [
+    "Soul Catcher",
+    "Soul Link",
+    "Soul Ripper",
+    "Soulchill",
+    "Soulfire",
+    "Soulrend",
+    "Spectral",
+    "Spectral Pack",
+    "Spectral Swiftness",
+    "Speed Aura",
+    "Speed Gale",
+    "Speed Randomisation",
+    "Spellslinger",
+    "Spider Aspect",
+    "Spider's Web",
+    "Spike Pinned",
+    "Spinning Blades",
+    "Spiral Test Cheat",
+    "Spirit Charges",
+    "Spirit Containment"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Spider's Web\n| type                   = Debuff\n| description            = Damage you take is increased.\n}}\n{{for|other debuffs caused by spider web|Webbed|Covered in Webs}}\n\n'''Spider's Web''' is a [[debuff]] inflicted by {{sl|id=AspectOfTheSpider}} that causes affected targets to take 5% increased damage per stack. \n\n==Mechanics==\nThe maximum number of stacks is 3 (Level 20) or 4 (Level 30).\n\n{{il|Fenumus' Spinnerets}} increases the maximum number of Spider's Web stacks by 1.\n\n{{il|Fenumus' Weave}}, {{il|Fenumus' Toxins}} and {{il|Fenumus' Shroud}} further modify the debuff or those affected by it.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "a9e623930ba6c770b937ae848f7b0f471aad2979e4357eb0e3c5453482068e73"
+}

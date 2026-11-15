@@ -1,0 +1,33 @@
+{
+  "title": "Fairgraves' Tricorne",
+  "pageId": 6321,
+  "revision": 1534816,
+  "timestamp": "2025-02-28T21:18:25Z",
+  "retrieved": "2026-11-14T10:57:23.116635+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Fairgraves' Tricorne\n|class_id                                = Helmet\n|base_item                               = Tricorne\n|drop_level                               = 10\n|explicit1                               = AddedColdDamageUniqueDexHelmet1\n|explicit2                               = LocalIncreasedEvasionPercentAndStunRecoveryUniqueDexHelmet1 \n|explicit3                               = LightningResistUniqueDexHelmet1\n|explicit4                               = CannotBeShocked\n|explicit5                               = TouchedByTormentedSpiritsUnique__1 \n|flavour_text                            = Fairgraves' trusty tricorne accompanied him far across<br>the seas, deep under the ground, and even beyond death.\n|release_version                         = 0.9.6\n|alternate_art_inventory_icons           = race season 5\n|acquisition_tags                        = fishing\n}}\n\n'''Fairgraves' Tricorne''' is a [[unique]] {{il|Tricorne}}. It is associated with [[Captain Fairgraves]] and, according to its flavour text, is the very hat that both his NPC model and the [[unique]] monster bearing his name wear.\n\n==Mechanics==\n{{c|unique|Unique}} monsters have a chance to drop a {{il|Fishing Rod}} while you have Fairgraves' Tricorne equipped.\n\n{{c|mod|Cannot be Shocked}}: This modifier prevents you from being {{stl|Shock}}ed, including shocks from {{stl|Shocked Ground}} and other non-hit source of shock, but does not remove shocks you already have on you. \n\n{{c|mod|You can be touched by [[Tormented Spirit]]s}}: This stat enables players to be Touched by a Tormented Spirit after moving near one, which grants two buffs typically exclusive to monsters. These buff do not stack and lasts indefinitely until you exit the area or remove the helmet. A wild Tormented Spirit cannot touch you if you are already touched (e.g. via [[Ghost of the Deep]]).<ref>https://www.reddit.com/r/pathofexile/comments/1iml3zi/comment/mdpc9vg/</ref>\n# ''Fairgraves' Tricorne'', a player version of the generic {{c|mod|Touched by a Tormented Spirit}} buff for monsters that provides 50% increased Damage, 50% increased Attack Speed, 50% increased Cast Speed, and 50% increased Movement Speed. \n# Additionally, it grants the corresponding \"{{c|torment|X's Touch}}\" buff listed below; note that certain stats may not be directly reflected on the character's stats or tooltip (e.g. Attacks cause Bleeding). A player can only have one Touch buff at once; making contact with a different Tormented Spirit will replace the existing buff, unless you are permanently touched (e.g. [[Ghost of the Deep]]).\n\nBoth buffs ''do'' stack with, and are independent from, the similar buffs from the {{psl|Speaker of the Dead}} keystone.\n\n===Tormented Spirit modifiers===\n{{main|Tormented spirit}}\n{{:Tormented Spirit}}\n\n{{Item acquisition}}\n\n==Alternate artwork==\n{|\n| [[File:Fairgraves' Tricorne 2.png|78px]] || Race [[Season Five]] prize for reaching 26 RP.\n|}\n==Legacy variants==\nFairgraves' Tricorne has a [[legacy variant]].\n{{legacy variant table header}}\n{{legacy variant table row|3.19.0|\n*{{c|mod|Adds 6 to 12 Cold Damage to Attacks}}\n* 70% increased Evasion Rating\n*{{c|mod|+(15-30) to maximum Mana}}\n* +(20-30)% to Lightning Resistance\n* Cannot be Shocked\n}}\n{{Legacy variant table end}}\n==Gallery==\n<gallery>\nFile:fairgraves tricorne.png\nFile:Fairgraves' tricorne front.png\nFile:Fairgraves' tricorne back.png\nFile:Fairgraves' tricorne AA front.png|Alt Art\nFile:Fairgraves' tricorne AA back.png|Alt Art\n</gallery>\n\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* Alternate-art Unique Items can now be converted to account-bound microtransactions using the new <kbd>/convertracereward</kbd> chat command. The item will be destroyed, and you will be granted an account-bound microtransaction that changes the appearance of an item of the same type to match that of the destroyed item.\n}}\n{{Version history table row|3.19.0|\n* '''A {{il|Divine Orb}} can be used to obtain the new values of modifiers, but cannot be used to gain new modifiers'''\n* No longer has {{c|mod|15% increased Stun and Block Recovery}}.\n* This mod is \"deleted\" from existing items in the permanent leagues by a change on [[Modifier:LocalIncreasedEvasionPercentAndStunRecoveryUniqueDexHelmet1|the unique mod]]. {{Undocumented}}\n* No longer has {{c|mod|+15-30 to maximum Mana}}. \n* Now has {{c|mod|You can be touched by Tormented Spirits}}.\n* Now has {{c|mod|Adds 15 to 25 Cold Damage to Attacks}} (previously 6 to 12).\n}}\n{{Version history table row|0.11.1|\n* The name of the base type has changed from Leather Cap to Tricorne. (NOT related to the current {{il|Leather Cap}}.)\n}}\n{{Version history table row|0.9.6|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{Reflist}}\n{{Navbox Unique Items}}\n\n[[Category:Unique helmets with 3D art]]",
+  "sha256": "901d59dbc3e6473479990b5e44e4628c78fca37ecdc1d933d7ce1d223281f9ab"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "The Betrayal",
+  "pageId": 16615,
+  "revision": 1682444,
+  "timestamp": "2026-07-26T23:26:44Z",
+  "retrieved": "2026-11-14T10:57:47.572158+00:00",
+  "requested": [
+    "Tainted Power Charges",
+    "Tarred Ground",
+    "Tasalio's Blessing",
+    "Taste of Blood",
+    "Taste of Hate",
+    "Taunted",
+    "Tawhanuku's Leadership",
+    "Tawhoa's Remedies",
+    "Tears of Rot",
+    "Tempest Shield",
+    "Temporal Anomaly",
+    "Temporal Bubble",
+    "Temporal Interference",
+    "Tenacious Vigor",
+    "Tender Embrace",
+    "Test",
+    "The Basics",
+    "The Battle Within",
+    "The Beast",
+    "The Betrayal"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the divination card||Betrayal (disambiguation)}}\n\n{{Item\n|rarity_id                               = normal\n|name                                    = The Betrayal\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = It's sad times we live in when a friendship has a price people are willing to pay.\n|drop_level                              = 75\n|tags                                    = armour_divination, unique_divination, unique_armour_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheBetrayal\n|stack_size                              = 9\n|description                             = {{c|unique|{{iil|Maligaro's Virtuosity}}}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 2.0.1b\n}}\n\n'''The Betrayal''' is a [[divination card]]. A set of nine can be exchanged for {{il|Maligaro's Virtuosity}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous. \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Mesa|Strand}} (Tier 7+)\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Spider Forest}} (Tier 7+)\n* Drop level changed from 23 to 75. {{Undocumented}}\n}}\n{{Version history table row|3.20.0|\n* The Betrayal also drops from The Ashen Fields. {{Divcord}}\n}}\n{{Version history table row|3.18.0|\n* The Betrayal also drops from Castle Ruins. {{Divcord}}\n}}\n{{Version history table row|2.0.1b|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "d0ad0aaeadd3fae1cea26d7013de18db85a9af366ffb1a782a2e4cfb690c13b5"
+}

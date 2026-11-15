@@ -1,0 +1,33 @@
+{
+  "title": "Council of Cats",
+  "pageId": 3983,
+  "revision": 1682694,
+  "timestamp": "2026-07-26T23:32:55Z",
+  "retrieved": "2026-11-14T10:57:17.464334+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Council of Cats\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = A King Loved By All,<br>A Shadow Awaiting Nightfall,<br>A Speaker Howling Away,<br>A Hunter Seeking Prey\n|drop_level                              = 80\n|tags                                    = unique_divination, boss_drop_card, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardCouncilOfCats\n|stack_size                              = 4\n|description                             = {{c|unique|Farrul Item}}\n|stack_size_currency_tab                 = 10000\n|drop_monsters                           = Metadata/Monsters/AtlasExiles/AtlasExile3ApparitionUber\n|release_version                         = 3.10.0\n}}\n\n'''Council of Cats''' is a [[divination card]]. A set of four can be exchanged for a random [[unique item]] that can drop only from [[Farrul, First of the Plains]].\n\n{{Item acquisition}}\n\n==Design attribution==\nCouncil of Cats was created by supporter [https://www.pathofexile.com/account/view-profile/Naluvera Naluvera] as a tribute to his cats.<ref name=\"Supporter attribution\"/>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Supporter attribution\">{{cite web|author=Naluvera|date=February 29, 2020|title=A Hunter Seeking Prey|url=https://www.reddit.com/r/pathofexile/comments/fb3f0p/comment/fj3wwzh/|publisher=Path of Exile Subreddit|accessdate=February 29, 2020}}</ref>\n}}\n\n{{Navbox Items}}\n[[Category:Divination cards created by supporters]]",
+  "sha256": "5ee246bec6101aeb61238e1a17fe8d6b2b185273ffdc8aa4b9c0db9bd8adb0c9"
+}

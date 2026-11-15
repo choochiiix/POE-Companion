@@ -1,0 +1,33 @@
+{
+  "title": "Screech",
+  "pageId": 14355,
+  "revision": 1486316,
+  "timestamp": "2024-10-13T02:16:36Z",
+  "retrieved": "2026-11-14T10:57:42.760634+00:00",
+  "requested": [
+    "Scientist's Beam",
+    "Scorching Conflux",
+    "Scorching Ray",
+    "Scourge Arrow",
+    "Screech",
+    "Sea Hag's Blessing",
+    "Searing Beam",
+    "Searing Rune",
+    "Seething Tempest",
+    "Seismic Cry",
+    "Sentinel Chaos Resistance",
+    "Sentinel Curse Protection",
+    "Sentinel Fire Damage",
+    "Sentinel Life Regeneration",
+    "Sentinel Lightning Damage",
+    "Sentinel Mana Regeneration",
+    "Sentinel Shield",
+    "Serpent Extract",
+    "Sewage Toxins",
+    "Shade Form"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the debuff|the monsters also use the screech skill but do not apply the debuff |Screech (disambiguation)}}\n{{status\n| name                   = Screech\n| type                   = Debuff\n| description = You have reduced movement speed\n}}\n\n'''Screech''' is a [[debuff]] that reduces [[movement speed]] by 20% per stack. This skill is used by most [[sea witch]]es. This debuff has a duration of 2 seconds, and can stack up to 10 times.\n\n==Trivia==\nThe graphic status icon of Screech was recycled and re-used as [[The Vaal Omnitect]]'s version of \"Lightning Exposure\" debuff. The debuff was renamed into \"Omnitect's Paralysis\" in [[version 3.17.3b]], as the effect of that debuff is somewhat similar to Screech but not similar to the real [[Exposure]] debuff.\n==See also==\n* [[Piercing Screech]] another not related debuff\n* [[Shrill Screech]] another not related debuff\n* [[Frigid Roar]] another debuff from monster's screech\n* [[Thunderous Roar]] another debuff from monster's screech\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|?|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "7c599115bf34f5f8ddf422410cc8850a74b1accd5ac12d85f2d1d5ffff873909"
+}

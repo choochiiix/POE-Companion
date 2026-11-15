@@ -1,0 +1,33 @@
+{
+  "title": "Livewire",
+  "pageId": 127119,
+  "revision": 1465757,
+  "timestamp": "2024-07-22T13:07:33Z",
+  "retrieved": "2026-11-14T10:57:33.345677+00:00",
+  "requested": [
+    "Lioneye's Arrows",
+    "Liquid Gold",
+    "Livewire",
+    "Living Crystals",
+    "Lonely Warrior",
+    "Loyalty",
+    "Lucky Arc",
+    "Lunar Protection",
+    "Lunar Resistance",
+    "Lunaris Shrine",
+    "Lustrous Lacquer",
+    "Maata's Leadership",
+    "Magmatic Strikes",
+    "Magnetic Storm",
+    "Maim Immunity",
+    "Malachai Spores",
+    "Malachai's Endurance",
+    "Malachai's Frenzy",
+    "Malachai's Power",
+    "Malediction"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Livewire\n|type=debuff\n|description=You are taking Lightning Damage over time, but your Action Speed is increased\n}}\n'''Livewire''' is a [[debuff]] inflicted by [[The Eater of Worlds]]' minion.\n==Version history==\n{{Version history table header}} \n{{Version history table row|3.17.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "ceaef17e7cf9931441d97cfcc313fa7cd10567c506fa28e2c7cce41c5dbeac3a"
+}

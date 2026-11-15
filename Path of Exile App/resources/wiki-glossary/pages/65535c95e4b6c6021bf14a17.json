@@ -1,0 +1,33 @@
+{
+  "title": "Envy",
+  "pageId": 5974,
+  "revision": 1667333,
+  "timestamp": "2026-07-11T02:58:28Z",
+  "retrieved": "2026-11-14T10:11:21.681708+00:00",
+  "requested": [
+    "fireball",
+    "bleed",
+    "decay",
+    "Valour",
+    "Explosion",
+    "Travel",
+    "Attributes",
+    "traps",
+    "mines",
+    "totems",
+    "Spells",
+    "claws",
+    "flying",
+    "Skill Duration",
+    "Envy",
+    "Ghastly Eye Jewel",
+    "of Ice",
+    "Chilling Area",
+    "warcries",
+    "travel"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=Envy}}\n\n'''Envy''' is a skill that grants an [[aura]] that grants added [[chaos damage]] for the [[attack]]s and [[spell]]s of the caster and their nearby [[ally|allies]]. Envy is not available as a [[skill gem]] - it can only be granted by [[modifier]]s on [[equipment]].\n\n==Skill mechanics and interactions==\nEnvy is affected by [[support gem]]s socketed into the item that grants the skill, regardless of whether the [[socket]]s are linked. As it is not an actual [[skill gem]], it cannot be supported by {{il|Empower Support}}, {{il|Enhance Support}}, and {{il|Enlighten Support}}.\n\nIf Envy is granted by an [[item]] with [[socket]]s, {{il|Generosity Support}} and {{il|Awakened Generosity Support}} can be socketed into the item to support Envy.\n\nEnvy is an aura and scales with aura modifiers.\n\n==Acquisition==\nThis skill can only be gained indirectly through certain items or modifiers:\n\n* [[Runesmithing]] [[enchantment]]: {{c|enchanted|Grants Level 1 Envy Skill}}\n*  {{il|page=Aul's Uprising (All Attributes)}}:  {{ml|GrantsEnvyUnique__2|display=stat_text}}\n* {{il|Grasping Mail}} drop-only modifier: {{ml|BreachBodyGrantsEnvy1|display=stat_text}}\n* [[Elder]]-influenced [[amulet]] modifier: {{ml|GrantsEnvyAuraUber1|display=stat_text}}\n*  {{il|Severed in Sleep}}: {{ml|GrantsEnvyUnique__1|display=stat_text}}\n*  {{il|United in Dream}}: {{ml|GrantsEnvyUnique__1|display=stat_text}}\n* [[Malevolent Strands]] ([[Legacy of Phrecia]]): {{c|mod|Grants Level 15 Envy Skill}}, {{c|mod|Envy has no Reservation}}\n\n==Skill level progression==\n\n{{Skill progression\n|id                   = Envy\n|c1_abbr              = Chaos damage<br>with attacks\n  |c1_header          = You and nearby allies deal x to y additional Chaos Damage with Attacks\n  |c1_pattern_extract = You and nearby allies deal (%d+) to (%d+) additional Chaos Damage with Attacks\n  |c1_pattern_value   = %d&nbsp;to&nbsp;%d\n|c2_abbr              = Chaos damage<br>with spells\n  |c2_header          = You and nearby allies deal x to y additional Chaos Damage with Spells\n  |c2_pattern_extract = You and nearby allies deal (%d+) to (%d+) additional Chaos Damage with Spells\n  |c2_pattern_value   = %d&nbsp;to&nbsp;%d\n|c3_abbr              = Radius\n  |c3_header          = +x metres to radius\n  |c3_pattern_extract = +(%d+%.*%d*) metres? to radius\n  |c3_pattern_value   = %.1fm\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Version from [[Runesmithing]] is added to the game. The mod that granted that version can only be acquired during [[Settlers league]]s. {{Undocumented}}\n}}\n{{Version history table row|3.22.1|\n* [[Weapon Range]] displayed on Melee Weapons and other descriptions that use ranges with values now instead use metres. The reminder text for \"Close Range\" and the description of [[Presence]] range in the Character panel also now use metres.\n}}\n{{Version history table row|3.16.0|\n* {{il|United in Dream}} Unique Sword now {{c|mod|grants Level 25 Envy Skill}} (previously 15), this change affects existing items, though you will need to use a {{il|Divine Orb}} to fix the description on the item. \n}}\n{{Version history table row|3.11.0|\n*Now grants 75% More Added Chaos Damage to Attacks and Spells. Its radius has been increased by 14 units, to match other similar Aura skills.\n}}\n{{Version history table row|3.4.0|\n* Now instant by default and can therefore be used while moving.\n* All instant skills now have cooldown 1 second or less.\n* Instant skills cannot be supported by Spell Echo and will not be cast a second time by similar effects (such as from the Echoing Shrine).\n}}\n{{Version history table row|2.5.0|\n* Envy has been added to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Spell (gem tag)]]\n[[Category:Buffs]]",
+  "sha256": "95f8ea120823bd6a042809cd4c47366ea520ff60e27fd699dc16dee9f30fa15d"
+}

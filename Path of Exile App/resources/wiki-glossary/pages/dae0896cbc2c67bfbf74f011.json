@@ -1,0 +1,33 @@
+{
+  "title": "Chain",
+  "pageId": 3137,
+  "revision": 1596628,
+  "timestamp": "2025-11-25T02:30:17Z",
+  "retrieved": "2026-11-14T10:08:31.482134+00:00",
+  "requested": [
+    "Mine",
+    "Minion",
+    "Golem",
+    "Spectre",
+    "Sentinel",
+    "Brand",
+    "Banner",
+    "Herald",
+    "Offering",
+    "Trigger",
+    "Channelled skill",
+    "Projectile",
+    "Chain",
+    "Fork",
+    "Pierce",
+    "Split",
+    "Return",
+    "Area of effect",
+    "Duration",
+    "Damage over time"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the projectile behaviour|the support gem|Chain Support}}\n\n'''Chaining''' is a behaviour of [[projectile]]s and [[:Category:Chaining (gem tag)|chaining skills]] that causes them to bounce off their initial target and seek out another nearby enemy.\n\n==Mechanics==\nChaining is primarily a way for projectiles to continue after colliding with an enemy, targeting a different enemy. Projectiles (that collide) are implicitly capable of chaining. Rain-type skills (e.g. {{il|Rain of Arrows}}) and non-colliding projectiles (e.g. {{il|Explosive Concoction}}) cannot chain. Skills capable of non-standard chaining or \"bouncing\" such as {{il|Arc}}, {{il|Rolling Magma}}, or {{il|Poisonous Concoction of Bouncing}} indicate this with the Chaining gem tag.<ref>https://www.reddit.com/r/pathofexile/comments/mrdfb9/there_is_no_duration_tag_on_vigilant_strike_while/gunwtkf/?context=1</ref> The number of times a projectile or chaining skill can chain is equal to the sum of all {{c|mod|Skills Chain +# times}} modifiers.\n\nAs a projectile behaviour, chain is fourth in priority, preceded by [[split]], [[pierce]], and [[fork]], and followed by [[return]]. Because only one projectile behaviour can occur per collision, a projectile will not chain if the projectile is also able to split, pierce, or fork. \n\nChaining does not allow [[Projectile#'Shotgunning|shotgunning]]: enemies that were already hit by a skill use firing simultaneous projectiles cannot be hit again by chaining projectiles from that skill use (by any projectile in that set). Chain will prioritize targets that the projectile can still collide with. If no targets are eligible, the projectile will target a nearby enemy but pass through without colliding or dealing damage, and is not considered hitting that enemy.<ref>https://www.reddit.com/r/pathofexile/comments/d399yc/cobra_lashs_chain_is_currently_bugged_so_it/f02m84r/?context=5</ref>\n\nAdditionally, if a projectile has remaining chains when hitting a target but no targets exist that it can chain to (as opposed to previously chained-to ineligible targets), that target is considered the final target. Even with {{c|mod|Projectiles have #% chance to be able to Chain when colliding with terrain}}, projectiles will never inherently attempt to chain to terrain.\n\nMost types of chaining require a target within range to occur. This range depends on the skill. Regular projectiles such as arrows have a chaining [[distance|range]] of approximately 6 metres. Non-projectile skills typically have less: the chaining range of {{il|Exsanguinate}} appears to be around 5 metres, while the chaining range of {{il|Arc}} is 3.5 metres. \n\nSimilar to other projectile behaviours, on-collision effects such as {{il|Ice Shot}} and {{il|Kinetic Blast}}'s [[area damage]] effects will occur when a projectile chains. Effects that require a projectile to collide with a final target (or terrain), such as {{il|Fireball}}'s explosion or snares from {{il|Ensnaring Arrow}}, will not.\n\n==Skill gems==\n===Skill gems===\n{{Query stat related skill gems\n|type=active\n|stat_id_query=%chains%\n|stat_page=chain\n|where=skill_gems.gem_tags HOLDS \"chaining\"\n    OR items.name=\"Cobra Lash\"\n    OR items.name=\"Lightning Trap of Sparking\"\n}}\n\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|stat_page=chain\n|where=skill_gems.gem_tags HOLDS \"chaining\"\n}}\n\n==Unique items==\nThe following [[unique item]]s are related to chain:\n{{Drop enabled unique item table\n|tables = item_stats\n|join = item_stats._pageName=items._pageName\n|where = \n     item_stats.id LIKE \"%chain%\"\n AND item_stats.id NOT LIKE \"%temporal%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Modifiers==\nThe following [[modifier]]s are related to chain:\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  mod_stats.id LIKE \"%chain%\" AND mod_stats.id NOT LIKE \"%temporal%\" AND spawn_weights.weight > 0 AND (mods.generation_type=\"1\" OR mods.generation_type=\"2\" OR mods.generation_type=\"5\") AND mods.domain=\"1\"\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type=1\n}}\n\n==Passive skills==\n===Base passive skills===\nThe following [[passive skill]]s are related to chain:\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%chain%\"\n   AND passive_skill_stats.id NOT LIKE \"%temporal%\"\n}}\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] [[passive skill]]s are related to chain:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 0\n     AND passive_skills.stat_text LIKE \"%chain%\"\n     AND passive_skills.stat_text NOT LIKE \"%temporal%\"\n|large=1\n|stat_text=1\n}}\n\n===Cluster Jewel keystone passive skills===\nThe following [[Cluster Jewel]] [[keystone passive skill]]s are related to chain:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 1\n     AND passive_skills.stat_text LIKE \"%chain%\"\n|large=1\n|stat_text=1\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to chain:\n{{Query ascendancy passive skills\n|where=passive_skill_stats.id LIKE \"%chain%\"\n   AND passive_skill_stats.id NOT LIKE \"%temporal%\"\n}}\n\n===Tattoos/Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%chain%\"\n|large=1\n|description=1\n}}\n\n==Pantheon==\n{{Pantheon|q_where=pantheon.id=\"Lunaris\"}}\n\n==References==\n{{reflist}}\n\n{{sister|poe2wiki}}\n\n[[Category:Game mechanics]]\n[[Category:Projectile behaviors]]",
+  "sha256": "c75b33d24f9b175eb1fc9905851ee2f41ecd7208033de5811b66b4806c2b53f7"
+}

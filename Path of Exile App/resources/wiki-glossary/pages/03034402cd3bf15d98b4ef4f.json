@@ -1,0 +1,33 @@
+{
+  "title": "Low Mana",
+  "pageId": 10423,
+  "revision": 1486126,
+  "timestamp": "2024-10-13T02:06:41Z",
+  "retrieved": "2026-11-14T10:09:59.082601+00:00",
+  "requested": [
+    "Low Mana",
+    "loss",
+    "modifiers",
+    "mana cost",
+    "support gems",
+    "mana reservation",
+    "buffs",
+    "auras",
+    "curses",
+    "Mana Burn",
+    "Mana Flask",
+    "Mana Gained on Kill",
+    "Portal",
+    "town",
+    "Body Armour",
+    "Helmets",
+    "Gloves",
+    "Boots",
+    "Mana reservation",
+    "fire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Low Mana''' is a condition that applies when the player's [[mana|mana pool]] falls below 50%. However, it does not apply if the maximum mana is set to 0 due to [[Blood Magic]].<ref name=Daniellowmana/>\n==Related Items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%low_mana%\"\n  OR item_stats.id LIKE \"%low_life_or_mana%\"\n|large=1\n|stat=1\n|level=1\n}}\n\n* {{il|Esh's Visage}} also had a conditional mod that related to Low Mana, but after a rework, the item no longer has mod related.\n\n==See also==\n* [[Low Life]]\n* [[Low Energy Shield]]\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* The Low threshold for Life, Mana and Energy Shield is now 50% or below (previously below 35%). This means that a single 50% reservation will now put you into a Low state. Light radius has been adjusted accordingly.\n}}\n{{Version history table row|0.11.1|rel=before|\n* Introduced to the game. {{Undocumented}}\n** Probably on or before the release of {{il|Infernal Mantle}}\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=<ref name=Daniellowmana>{{cite web|url=https://www.pathofexile.com/forum/view-thread/993539/page/4#p8427634|title=Re: New upcoming unique.|author=Daniel_GGG|publisher=Path of Exile Forum|date=August 13, 2014; |accessdate=August 13, 2014}}</ref>\n}}\n\n[[Category:Game mechanics]]",
+  "sha256": "cb78ce87c8c9c6d203eb78b29781f6fbac6e439d94dcc9c0370a18002d75e391"
+}

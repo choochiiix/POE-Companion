@@ -1,0 +1,33 @@
+{
+  "title": "Loyalty",
+  "pageId": 10431,
+  "revision": 1682469,
+  "timestamp": "2026-07-26T23:27:22Z",
+  "retrieved": "2026-11-14T10:57:33.343677+00:00",
+  "requested": [
+    "Lioneye's Arrows",
+    "Liquid Gold",
+    "Livewire",
+    "Living Crystals",
+    "Lonely Warrior",
+    "Loyalty",
+    "Lucky Arc",
+    "Lunar Protection",
+    "Lunar Resistance",
+    "Lunaris Shrine",
+    "Lustrous Lacquer",
+    "Maata's Leadership",
+    "Magmatic Strikes",
+    "Magnetic Storm",
+    "Maim Immunity",
+    "Malachai Spores",
+    "Malachai's Endurance",
+    "Malachai's Frenzy",
+    "Malachai's Power",
+    "Malediction"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Loyalty\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Bound by fate,<br>inseparable by choice.\n|drop_level                              = 23\n|tags                                    = currency_divination, currency_basic_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardLoyalty\n|stack_size                              = 5\n|description                             = {{c|currency|3x {{iil|Orb of Fusing}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 2_7_6\n|release_version                         = 2.0.4\n}}\n\n'''Loyalty''' is a [[divination card]]. A set of five can be exchanged for a stack of three {{il|Orb of Fusing|Orbs of Fusing}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nLoyalty was created by supporter [https://www.pathofexile.com/account/view-profile/Demerius Demerius].{{citation needed}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Caer Blaidd, Wolfpack's Den|Tropical Island}}\n}}\n{{Version history table row|3.18.0|\n* Loyalty now also drops from Caer Blaidd. {{Divcord}}\n}}\n{{Version history table row|2.0.4|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "1a26e7e1a25a29a7d3550c777113861d31ab0a745f55a186ff355c9fd6699812"
+}

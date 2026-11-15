@@ -1,0 +1,33 @@
+{
+  "title": "Corundum Flask",
+  "pageId": 76586,
+  "revision": 1647944,
+  "timestamp": "2026-04-19T19:15:14Z",
+  "retrieved": "2026-11-14T10:57:17.471345+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Corundum Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility17\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 27\n|flask_duration                          = 7.5\n|buff_id                                 = flask_utility_stun_protection\n|buff_value1                             = 30\n|buff_stat_text                          = 30% increased [[Stun Threshold]]<br>Cannot be [[Stun|Stunned]] if you've been [[Stun|Stunned]] during Effect\n|charges_max                             = 50\n|charges_per_use                         = 20\n|release_version                         = 3.15.0\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Silver Locket\n|quest_reward1_quest_id                  = a7q5\n|quest_reward1_act                       = 7\n|quest_reward2_type                      = quest\n|quest_reward2_quest                     = Safe Passage\n|quest_reward2_quest_id                  = a10q1\n|quest_reward2_act                       = 10\n}}\n{{status\n|name        = Corundum Flask\n|type        = Flask Effect\n|description = Your Stun Threshold is increased, and you cannot be stunned more than once during this flask effect.\n}}\n\n'''Corundum Flask''' is a [[utility flask]] base type.\n\n==Mechanics==\nCorrundum Flask grants increased [[stun threshold]]. Additionally, it prevents the character from being stunned more than once while the flask effect is active. The temporary stun prevention is lost once the flask effect ends or the flask is activated again. The character does not gain stun prevention when the effects of this flask are applied constantly, as with {{il|Mageblood}}.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.00 seconds instead.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''8''' seconds (previously 5).\n}}\n{{Version history table row|3.15.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "2aecf83b168c1bd2c3017a689fa6f506dce5f4f3d44ae8c54c635bc92109d2fc"
+}

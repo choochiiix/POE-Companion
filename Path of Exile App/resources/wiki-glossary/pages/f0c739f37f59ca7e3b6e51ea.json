@@ -1,0 +1,33 @@
+{
+  "title": "Plaguebringer",
+  "pageId": 12551,
+  "revision": 1419009,
+  "timestamp": "2024-02-08T14:09:44Z",
+  "retrieved": "2026-11-14T10:57:37.224612+00:00",
+  "requested": [
+    "Piety's Rage",
+    "Pinned",
+    "Plague",
+    "Plague Bearer",
+    "Plaguebringer",
+    "Players Increased",
+    "Poacher's Mark",
+    "Poison Immunity",
+    "Poisonberry Tincture",
+    "Poisoned Faith",
+    "Poisoned Water",
+    "Polymorphed",
+    "Portal Shredder",
+    "Portent Vapors",
+    "Possession",
+    "Precision Aura",
+    "Preserving Stillness",
+    "Pride",
+    "Primal Aegis",
+    "Primal Malady"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Plaguebringer}}\n{{status\n| name                   = Plaguebringer\n| type                   = Buff\n| icon = PlagueBringer (Necromancer) passive skill icon.png\n| description = You deal more Damage\n}}\n'''Plaguebringer''' is a Notable [[Ascendancy passive skill]] for the [[Necromancer]] that grants the you and your minions increased [[area of effect]] if you've consumed a corpse in the past 4 seconds. In addition, while near a corpse, you and nearby allies gain more damage while nearby enemies deal reduced damage.\n\nThe more damage and enemies deal reduced damage buff is coded as auras. The player character, the allies and the enemies would have visual aura effects on them. \n\n==Ruthless mode==\n{{infocard\n|header    = Plaguebringer (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:PlagueBringer (Necromancer) passive skill icon.png]]</div>\n|2         = For each nearby corpse, you and nearby Allies deal 1% more Damage, up to a maximum of 10%\n}}\n\nPlaguebringer in [[Ruthless mode]] does not grant any of its original bonuses and instead grants more damage to you and allies based on the number of nearby corpses.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} No longer provides \"If you've Consumed a corpse Recently, you and your Minions have 30% increased Area of Effect\", \"With at least one nearby corpse, you and nearby Allies deal 10% more Damage\" or \"With at least one nearby corpse, nearby Enemies deal 10% reduced Damage\" in Ruthless. Instead, it now provides \"For each nearby corpse, you and nearby Allies deal 1% more Damage, up to a maximum of 10%.\"\n}}\n{{Version history table row|3.8.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "47fd0828ee1dcc4644afb5b7e5ea0a340227d6d0455211c087ea4f2b17a92990"
+}

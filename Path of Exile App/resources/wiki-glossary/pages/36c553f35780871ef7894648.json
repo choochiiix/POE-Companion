@@ -1,0 +1,33 @@
+{
+  "title": "Call to Arms",
+  "pageId": 2743,
+  "revision": 1632488,
+  "timestamp": "2026-03-12T16:42:52Z",
+  "retrieved": "2026-11-14T10:10:01.718724+00:00",
+  "requested": [
+    "veiled mod",
+    "defence",
+    "Monster modifier",
+    "quiver",
+    "Foulborn",
+    "Weapon",
+    "Tincture",
+    "enchantment",
+    "skill gems",
+    "modifier",
+    "Enduring Cry",
+    "allies",
+    "exerting",
+    "exert",
+    "Ally",
+    "corpse",
+    "support skill gem",
+    "Crucible",
+    "Keystone passive skill",
+    "Call to Arms"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the keystone passive skill|the skill gem formerly named \"Call to Arms\"|Autoexertion}}\n\n{{Passive skill box|Call to Arms}}\n\n'''Call to Arms''' is a [[keystone passive skill]] which [[warcry]] skills to have more warcry duration, but causes them to no longer grant [[buff]]s or [[charge]]s to the user.\n\nThis keystone primarily focuses on the supportive aspects of warcries for your [[minion]]s or other [[allies]], including [[party]] members.\n\n==Location==\nCall to Arms is located on the southwest edge of the skill tree. \n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Duelist||11\n|-\n|Marauder||11\n|-\n|Scion||15\n|-\n|Templar||15\n|-\n|Ranger||18\n|-\n|Witch||22\n|-\n|Shadow||25\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Call to Arms%\"\n    OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* The Warlord's Call Keystone Passive Skill is once again known as Call to Arms. It no longer provides \"Warcries no longer Exert Attacks\" or \"Warcries also grant their buffs to nearby Allies\". Instead, it now provides 100% more Warcry Duration, and \"Warcries do not grant Buffs or Charges to you\".\n}}\n{{Version history table row|3.24.1|\n* Fixed a bug where items that granted the Warlord's Call Keystone Passive Skill still displayed as Call to Arms.\n}}\n{{Version history table row|3.24.0|\n* The Call To Arms Keystone Passive Skill has been renamed to Warlord's Call. It now provides \"Warcries no longer Exert Attacks\" and \"Warcries also grant their buff to nearby allies\" (previously \"Using Warcries is Instant\" and \"Warcries share their Cooldown\").\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "9bc184df0dc486afc961bc5e47aa32c3947497f50c63c55e6a795855342239d8"
+}

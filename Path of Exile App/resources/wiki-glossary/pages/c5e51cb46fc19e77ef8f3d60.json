@@ -1,0 +1,35 @@
+{
+  "title": "Net throw",
+  "pageId": 11624,
+  "revision": 1459788,
+  "timestamp": "2024-06-03T00:24:38Z",
+  "retrieved": "2026-11-14T10:57:34.914572+00:00",
+  "requested": [
+    "Minion Test",
+    "Molten Shell",
+    "Momentum",
+    "Monster Consume",
+    "Moon's Presence",
+    "Murine Procession",
+    "Musty Wine",
+    "Mystic Miasma",
+    "Necrovigil",
+    "Net Throw",
+    "No Chaos Resistance",
+    "Nova",
+    "Noxious Fumes",
+    "Oakbranch Tincture",
+    "Oasis Ground",
+    "Obscuring Tempest",
+    "Offering Of Judgement",
+    "Oiled Ground",
+    "Omen of Brilliance",
+    "Omnitect's Paralysis"
+  ],
+  "aliases": [
+    "Net Throw"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Net Throw\n| type                   = Debuff\n| description = Your movement speed is reduced while standing in a net\n}}\n'''Net Throw''' is a detrimental [[ground effect]] that reduces [[movement speed]].\n\n==Version History==\n{{Version history table header}}\n{{Version history table row|?|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Ground effects]]\n[[Category:Debuffs]]",
+  "sha256": "3e0de4754451b4dd5b6dfd563e349c63f942a3bff3ea5a9bd286e2d2f0cab1a7"
+}

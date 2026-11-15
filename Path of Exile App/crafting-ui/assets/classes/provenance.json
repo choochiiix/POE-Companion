@@ -1,0 +1,34 @@
+{
+  "archive": "references/path-of-building/PathOfBuilding-dev.zip",
+  "method": "Unmodified archived class portraits",
+  "files": {
+    "marauder": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/centermarauder.png",
+      "sha256": "1f059364b4b4c0c700571868ae6d0962a3fb98f388e33b0645bf9f148f6c0f0d"
+    },
+    "ranger": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/centerranger.png",
+      "sha256": "210e0ac315f5975ff42be992603025f90855be0fb2d224a9ce4fc39f3b40b9ce"
+    },
+    "witch": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/centerwitch.png",
+      "sha256": "a7797c7305f934037c066eb8cfa69f5478365734c359cc0a724b5db8364ee32e"
+    },
+    "duelist": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/centerduelist.png",
+      "sha256": "005a1c146712a3ba54b35a7a32f536e0656054395a23870adb36693436e5904a"
+    },
+    "templar": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/centertemplar.png",
+      "sha256": "d4de6035de01bf5b93d81d15a5cd93aa228299310df521f59b4abe1f2df890f8"
+    },
+    "shadow": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/centershadow.png",
+      "sha256": "0c5c686f9cea12e0a8d5c3948399b498bd0d9d2f555dff9fa872293e6eb885be"
+    },
+    "scion": {
+      "archivePath": "PathOfBuilding-dev/src/TreeData/centerscion.png",
+      "sha256": "fa0bcc561be8b849245c22c10f7299f84090f18248b60b2d579a754ea8222335"
+    }
+  }
+}

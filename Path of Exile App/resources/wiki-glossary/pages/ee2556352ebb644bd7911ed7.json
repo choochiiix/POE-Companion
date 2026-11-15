@@ -1,0 +1,33 @@
+{
+  "title": "Heat",
+  "pageId": 134030,
+  "revision": 1549996,
+  "timestamp": "2025-07-15T03:12:36Z",
+  "retrieved": "2026-11-14T10:57:27.914812+00:00",
+  "requested": [
+    "Heartstopper",
+    "Heat",
+    "Her Blessing",
+    "Her Embrace",
+    "Her Mask",
+    "Herald Of Agony",
+    "Herald Of Ash",
+    "Herald Of Ice",
+    "Herald Of The Hive",
+    "Herald Of Thunder",
+    "Herald of Purity",
+    "Heretic's Ire",
+    "Heretical Flare",
+    "Hexing Shrine",
+    "High-Impact Mines",
+    "Hinder Immunity",
+    "Hinekora's Aid",
+    "Hit by Explosive Arrow",
+    "Hit by Infernal Blow",
+    "Hit by Lightning Arrow"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Heat\n| type                   = Debuff\n| description            = You have reduced maximum Fire Resistance.\n}}\n'''Heat''' is a stackable debuff that reduces maximum fire resistance by 1% for every 10% health the boss is missing. \n\nIt is obtained during the fight against the boss [[Guardian of the Phoenix]] in the ({{il|Forge of the Phoenix Map}}).\n\n== Version History ==\n{{Version history table header}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "d684f1e018f551b6b3421b55634c403f5a1d6aa0d21d3c46ebd8eb664d904be2"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "The Lunaris Priestess",
+  "pageId": 17080,
+  "revision": 1682536,
+  "timestamp": "2026-07-26T23:29:03Z",
+  "retrieved": "2026-11-14T10:57:48.402692+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Lunaris Priestess\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Embrace the Light,<br>Await the Morrow,<br>No more Spite,<br>And no more Sorrow.\n|drop_level                              = 37\n|tags                                    = weapon_divination, unique_divination, unique_weapon_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheLunarisPriestess\n|stack_size                              = 5\n|description                             = {{c|unique|{{iil|Sire of Shards}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 2_8_7_1_, 2_8_7_2, 2_8_13\n|release_version                         = 2.3.0\n}}\n\n'''The Lunaris Priestess''' is a [[divination card]]. A set of five can be exchanged for {{il|Sire of Shards}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThe Lunaris Priestess was created by supporter [https://www.pathofexile.com/account/view-profile/CaptainWARLORD CaptainWARLORD].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Poorjoy's Asylum}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Moon Temple|The Twilight Temple}}\n}}\n{{Version history table row|3.18.0|\n* The Lunaris Priestess now also drops from Moon Temple, The Harbour Bridge (A8). No longer drops in Act 3 (due to drop level), or Shrine. {{Divcord}}\n}}\n{{Version history table row|2.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "3368f4218d3b935e39eb402d05408474b43a4871ac13698f64a87de93bcf6dff"
+}

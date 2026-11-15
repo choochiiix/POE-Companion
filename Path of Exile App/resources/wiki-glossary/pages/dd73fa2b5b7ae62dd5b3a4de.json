@@ -1,0 +1,33 @@
+{
+  "title": "Lethality",
+  "pageId": 9517,
+  "revision": 1343877,
+  "timestamp": "2023-03-12T01:33:49Z",
+  "retrieved": "2026-11-14T10:57:31.781976+00:00",
+  "requested": [
+    "Kaom's Leadership",
+    "Keystone Oasis",
+    "Kiara's Determination",
+    "Kiloava's Leadership",
+    "Kingmaker's Presence",
+    "Kirac's Boon",
+    "Kitava's Thirst",
+    "LabyrinthTrapDebuff",
+    "Large Physical Damage Aura",
+    "Last Breath",
+    "Lava",
+    "Lavianga's Cup",
+    "Layered Frost",
+    "Lemuroid Procession",
+    "Leporine Procession",
+    "Lethal Spines",
+    "Lethality",
+    "Lich's Beam",
+    "Life Leech Damage",
+    "Life Regen Aura"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Lethality}}\n\n'''Lethality''' is a [[notable passive skill]] that grants additional [[critical strike chance]] and additional [[critical strike multiplier]] to [[Projectile|projectile attack skills]].\n\n==Anointment==\n[[Blight (game mechanic)|Blight]] [[anointment]] to unlock the passive:\n\n{{Blight crafting table\n|id=0\n|type=0\n|no_html=1\n|q_where=passive_skills.id = \"heartpierce676\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n''Make clusters more unique compared to each other as well as having a more clear identity. Remove niche or unneeded stats entirely, or shift them to Masteries. Improve many notables that have had secondary stats removed.''\n* {{Undocumented}}\n**Now grants {{c|mod|Projectile Attack Skills have 50% increased Critical Strike Chance}}.\n**Now grants {{c|mod|Projectile Attack Skills have +30% to Critical Strike Multiplier}}.\n**No longer grants {{c|mod|+30% to Critical Strike Multiplier with Bows}}.\n**No longer grants {{c|mod|16% increased Damage with Bows}}.\n**No longer grants {{c|mod|50% increased Critical Strike Chance with Bows}}.\n**No longer grants {{c|mod|16% increased Damage Over Time with Bow Skills}}.\n\n}}\n{{Version history table row|3.7.0|\n''We've changed virtually every weapon cluster to some degree.''\n* {{Undocumented}}\n**No longer grants {{c|mod|16% increased Physical Damage with Bows}}.\n***Instead, it now grants {{c|mod|16% increased Damage with Bows}}.\n**No longer grants {{c|mod|+16% increased Damage with Ailments from Attack Skills while wielding a Bow}}.\n***Instead, it now grants {{c|mod|16% increased Damage Over Time with Bow Skills}}.\n\n}}\n{{Version history table row|3.0.0|\n''All weapon passive skill clusters except those for wands and staves now grant some increased Damage with ailments from Attacks.''\n*Now grants {{c|mod|+16% increased Damage with Ailments from Attack Skills while wielding a Bow}}.\n*Now grants {{c|mod|+30% to Critical Strike Multiplier with Bows}} (down from 40%).\n\n}}\n{{Version history table row|2.2.0|\n*Now grants {{c|mod|+40% to Critical Strike Multiplier with Bows}} (up from 25%).\n\n}}\n{{Version history table row|1.3.0|\n*Now grants {{c|mod|+25% to Critical Strike Multiplier with Bows}} (down from 30%).\n\n}}\n{{Version history table row|1.2.0|\n* Lethality also grants physical damage and critical strike multiplier.\n* The area surrounding the Witch, Shadow and Ranger has been redesigned. Many values have been adjusted.\n}}\n{{Version history table end}}",
+  "sha256": "1d4943aa77fa40cc1ee2d5f6130062a580648fb5ae5852c9d36648b6385d3775"
+}

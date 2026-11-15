@@ -1,0 +1,35 @@
+{
+  "title": "Timeless Jewel",
+  "pageId": 17674,
+  "revision": 1704776,
+  "timestamp": "2026-11-11T15:20:33Z",
+  "retrieved": "2026-11-14T10:11:19.063668+00:00",
+  "requested": [
+    "Ursa",
+    "Ground Slam",
+    "Warcries",
+    "Retaliation",
+    "Daggers",
+    "Claws",
+    "Divinity",
+    "ranger",
+    "Shepherd of Souls",
+    "Fanaticism",
+    "Enchantments",
+    "Vaal skill gem",
+    "Gluttony of Elements",
+    "Harbinger",
+    "Dominus",
+    "Silence",
+    "smoke cloud",
+    "Vaal Gem",
+    "Sextant",
+    "conquered"
+  ],
+  "aliases": [
+    "Conquered"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Timeless Jewel\n|class_id                                = Jewel\n|size_x                                  = 1\n|size_y                                  = 1\n|drop_level                              = 20\n|drop_rarities_ids                       = magic, rare, unique\n|tags                                    = jewel, intjewel, dexjewel, strjewel, not_for_sale, default\n|metadata_id                             = Metadata/Items/Jewels/JewelTimeless\n|help_text                               = Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.\n|is_drop_restricted                      = true\n|release_version                         = 3.7.0\n}}\n\n'''Timeless Jewel''' is the basetype of a set of six [[List of unique jewels|unique jewels]] that can alter the [[Passive skill|passive tree]] nodes.\n\n==Mechanics==\n{{main|Historic}}\n\nAll unique Timeless Jewel are {{c|mod|[[Historic]]}}, modifying passives and keystones in radius with an additional effect or transforming them into new ones based on the seed value and name on its modifier.\n\nWhen [[vendor recipe system|vendored]], [[Legion]] Timeless Jewels will sell for 10x of their corresponding faction's [[Timeless Splinter]]s.\n\n===Non-unique Timeless Jewel===\nPlayers can obtain a non-unique Timeless Jewel by [[corrupt]]ing unique Timeless Jewels into rares, then selling five corrupted rare Timeless Jewel to a [[vendor]] for an uncorrupted rare. Like the {{il|Prismatic Jewel}} base, a non-unique non-corrupted Timeless Jewel can roll any explicit modifiers from {{il|Cobalt Jewel|Cobalt}}, {{il|Crimson Jewel|Crimson}} and {{il|Viridian Jewel|Viridian Jewels}}.\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\nTimeless Jewels can only drop as unique items.\n\nNon-unique Timeless Jewels can only be obtained by [[Corrupted|corrupting]] a unique Timeless Jewel into a rare. A non-corrupted Timeless Jewel can be obtained by selling five corrupted rare Timeless Jewels to a [[vendor]].\n\n===Divination cards===\nThe following [[divination card]]s can be exchanged for Timeless Jewels:\n{{Drop enabled base item table\n|where=items.class_id=\"DivinationCard\"\n   AND items.description LIKE \"%Timeless_Jewel%\"\n|stack_size=1\n|description=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.30.0|\n* The {{il|Peaceful Moments}} and {{il|the Eternal War}} Divination Cards can now award Heroic Tragedy.\n}}\n{{Version history table row|3.16.0|\n* Timeless Passives that granted Spell Dodge now grant a chance to Suppress Spell Damage.\n* Timeless Passives that granted Attack Dodge now grant a chance to Avoid Elemental Ailments.\n}}\n{{Version history table row|3.14.0}} \n* Chainbreaker no longer causes you to Lose 5 Rage when you Hit an Enemy, no more than once every 0.3 seconds.  Now causes Skills to cost +3 Rage.\n* Corrupted Soul now causes you to Gain 15% of Maximum Life as Extra Maximum Energy Shield (previously 20%).\n{{Version history table row|3.11.0|\n* Timeless Jewel Keystone passives have become a popular feature for many builds, but are prohibitively difficult to acquire (especially without trade). We've moved some of the most build-defining Keystones out of the Timeless Jewels and into the tree itself. These Keystones have been added to the tree: [[The Agnostic]], [[Glancing Blows]], [[Supreme Ego]], [[Wind Dancer]] and [[Eternal Youth]].\n* New keystones have been added to replace the five that are now available on the passive skill tree. The new ones are: The Traitor, Supreme Ostentation, Chainbreaker, Transcendence, Immortal Ambition. Existing Timeless Jewels will retain the old keystones, but if you reroll them with a Divine Orb they will be able to reveal these new keystones.\n}}\n{{Version history table row|3.9.2f|\n* The following items now allocate to the Map Maker when they drop: Timeless Jewels, Ivory Watchstones, Awakened Gems, Awakener's Orbs, Conquerors Exalted Orbs and Uniques from Legion, Blight, Metamorph and Conquerors of the Atlas bosses.\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Legion}}\n{{Navbox Items}}\n{{sister|poe2wiki}}",
+  "sha256": "79d67acca6f747299cb88e4fc3b58f50e79d15b470800c8d20b25d571cc2b0ed"
+}

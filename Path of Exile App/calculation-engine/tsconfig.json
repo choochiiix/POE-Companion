@@ -1,0 +1,4 @@
+{
+  "extends": "../crafting-engine/tsconfig.json",
+  "include": ["src/**/*.ts", "test/**/*.ts", "trial/**/*.ts", "reference/**/*.ts", "corpus/**/*.ts"]
+}

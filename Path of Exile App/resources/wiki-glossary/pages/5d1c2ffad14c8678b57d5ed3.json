@@ -1,0 +1,33 @@
+{
+  "title": "Drought",
+  "pageId": 130217,
+  "revision": 1493652,
+  "timestamp": "2025-02-04T17:00:19Z",
+  "retrieved": "2026-11-14T10:57:20.722685+00:00",
+  "requested": [
+    "Draugurflame",
+    "Draugurflame Burn",
+    "Dread Banner",
+    "Drought",
+    "Drowning",
+    "Drowning Domain",
+    "Duration Test",
+    "Dying Breath",
+    "Dying Sun",
+    "Earth Drinker",
+    "Ebon Affliction",
+    "Echoing Tempest",
+    "Effigy",
+    "Eldritch Decay",
+    "Eldritch Empowerment",
+    "Electrified Ground Trap",
+    "Electrifying Bond",
+    "Electrifying Gaze",
+    "Electrifying Sight",
+    "Elemental Aegis"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Drought\n| type                   = Debuff\n| icon                   = Drought status icon.png\n| description            = Your flask charges are being drained over time and you cannot gain flask charges\n}}\n'''Drought''' is a [[monster aura]] [[debuff]] granted by the monster suffix mod {{c|mod|[[Modifier:MonsterModRemoveFlaskChargeAura|of Drought]]}}, which is displayed in the monster nameplate as: {{c|normal|Siphons Flask Charges}}. When inside the aura radius, [[flask]] charges are rapidly drained and you cannot generate more flask charges.\n\nNote that magic monsters cannot have this mod due to its spawn weight being zero. The mod name {{c|mod|[[Modifier:MonsterModRemoveFlaskChargeAura|of Drought]]}} is never displayed in game.\n\n==Version history==\nThe debuff was originally associated with an [[Archnemesis mod|Archnemesis]] monster suffix mod, \"{{c|nemesis|[[Modifier:MonsterArchnemesisFlaskDrain~~|Drought Bringer]]}}\", the text shown under the monster nameplate. It is also known as {{c|mod|of Drought}} since added to core (see above).\n\nOn top of inflicting this aura, which was {{c|mod|Nearby Enemies' Flasks lose 15 Charges every 3 seconds}} in version 3.18, the mod also granted the following to the monster: {{c|mod|Regenerate 1.5% of Life per second / Removes a Power, Frenzy or Endurance charges on Hit.}}<ref>https://www.pathofexile.com/forum/view-thread/3267228</ref> The mod became a legacy mod in version 3.20, its mod stats were split into multiple mods, such as the new {{c|mod|of Drought}} and {{ml|MonsterModRemoveChargesOnHit}} mods.\n\nThe new {{c|mod|of Drought}} mod is also ported to ''[[Path of Exile 2]]'' as part of their monster mod pool.\n\nDuring [[Archnemesis league]] \"{{c|nemesis|Drought Bringer}}\" instead granted: {{c|mod|Monster disables Flask effects on hit. Monster has an aura that drains Flask charges and prevents gaining Flask charges}}\n\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Problem: Archnemesis monster mods each added a number of stats and buffs to monsters, causing them to feel overwhelming and confusing (especially when multiple mods were present on the same monster).\n* Solution: Monster mods now only do one specific thing.\n* Problem: Keyworded, thematic monster mod names gave an impression of the overall effect of the mod on the monster but did not explain exactly what they granted, requiring players to memorise them.\n* Solution: Monster mods now say exactly what they do\n}}\n{{Version history table row|3.18.0b|\nThis patch contains balance changes to Archnemesis Modifiers that were foreshadowed in our recent news posts. Please note that this is not our final set of changes and we have further improvements planned. However, please feel free to share feedback with us in the meantime based on the below changes and we'll continue to keep it in mind as we go forward.\n* Drought Bringer: Nearby Enemies' Flasks now lose 6 Charges every 3 seconds (previously 15 Charges every 3 seconds).\n}}\n{{Version history table row|3.18.0|\n* [[Archnemesis modifiers]] are added to the core game.\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game as part of [[Archnemesis league]].\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Debuffs]]\n[[Category:Monster auras]]\n{{sister|poe2wiki}}",
+  "sha256": "a7943ff20db035b82423457d20f0438484599018b63258e460e4f2f366d71521"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Radiant Faith",
+  "pageId": 13307,
+  "revision": 1486261,
+  "timestamp": "2024-10-13T02:13:36Z",
+  "retrieved": "2026-11-14T10:57:38.769469+00:00",
+  "requested": [
+    "Quartz Flask",
+    "Quicksand",
+    "Quicksand ",
+    "Quicksilver Flask",
+    "RED BUFF",
+    "RENAME ME",
+    "Radiant Crusade",
+    "Radiant Crusade's Onslaught",
+    "Radiant Faith",
+    "Radiant Ground",
+    "Radiating Tempest",
+    "Raised Spider",
+    "Rakiata's Leadership",
+    "Rallied",
+    "Rallying Cry",
+    "Rat Tornado",
+    "Rats",
+    "Ravenous - Beast",
+    "Ravenous - Construct",
+    "Ravenous - Demon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Radiant Faith}}\n{{status\n| name                   = Radiant Faith\n| type                   = Buff\n| description            = Your are being granted Energy Shield by a Guardian\n}}\n'''Radiant Faith''' is a notable [[Ascendancy passive skill]] for the [[Guardian]] that grants the '''Radiant Faith''' buff, which grants increased [[energy shield]] and additional [[armour]] relative to the amount of [[mana]] you've [[reservation|reserved]] to you and nearby [[Ally|allies]].\n\n==Mechanics==\nBecause '''Radiant Faith''' is classified as an [[aura]] [[buff]] and not an aura [[active skill|skill]] / aura skill gem, mods such as {{c|mod|#% increased effect of Non-Curse Auras from your Skills}} does not increase the amount of [[Armour]] and [[Energy Shield]] granted from this ascendancy passive skill. However, those receiving the buff can increase the amounts received by their own {{c|mod|Increased Armour}} and {{c|mod|Increased Energy Shield}} stats. \n\nNote, that while the wording is similar to the Hierophant's [[Sanctuary of Thought]], the mechanics are quite different. Sanctuary of Thought functions as a conversion so {{c|mod|Increased Maximum Mana}} and {{c|mod|Increased Maximum Energy Shield}} mods stack with each other additively. '''Radiant Faith''' grants the percentage of your actual mana as base energy shield, so {{c|mod|Increased Maximum Mana}} and {{c|mod|Increased Maximum Energy Shield}} effectively stack multiplicatively with each other, which allows for extreme stacking of energy shield with proper gear.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* No longer grants Armour equal to 160% of your Reserved Life to you and nearby Allies. Instead, it now grants Armour equal to 25% of your Reserved Mana to you and nearby Allies.\n}}\n{{Version history table row|3.10.0|\n* Now grants maximum Energy Shield equal to 10% of your Reserved Mana to you and nearby Allies (from 15%).\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n\n[[Category:Buffs]]\n[[Category:Auras]]",
+  "sha256": "86f75e5c5611fa3eb62d4b870e61477bcc70153c4135508140c22d8cb1265c2e"
+}

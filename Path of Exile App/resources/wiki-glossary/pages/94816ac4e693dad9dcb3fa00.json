@@ -1,0 +1,33 @@
+{
+  "title": "War Bringer",
+  "pageId": 19765,
+  "revision": 1463235,
+  "timestamp": "2024-07-19T02:49:22Z",
+  "retrieved": "2026-11-14T10:57:53.142912+00:00",
+  "requested": [
+    "Void Beacon",
+    "Void Gaze",
+    "Void Lens",
+    "Void Snare",
+    "Voltaxic Burst",
+    "Vomitous Ooze",
+    "Vortex",
+    "Vortex Mine",
+    "Vulnerability",
+    "WIP",
+    "War Banner",
+    "War Bringer",
+    "Warcry Damage to Mana",
+    "Warlord Shrine Monster",
+    "Warlord's Mark",
+    "Warlord's Shrine",
+    "Warm Campfire",
+    "Wasting Touch",
+    "Webbed",
+    "Weeping Black"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|War Bringer}}\n\n'''War Bringer''' is a notable [[Ascendancy passive skill]] for the [[Berserker]]. It doubles the number of [[exert]]ed attacks granted by [[warcry|warcries]].\n\n==Ruthless mode==\n{{infocard\n|header    = War Bringer (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:WarBringer (Berserker) passive skill icon.png]]</div>\n|2         = Warcries Exert twice as many Attacks\n}}\n\nWar Bringer in [[Ruthless mode]] is unchanged.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* The War Bringer Ascendancy Passive Skill no longer provides \"Warcries grant 10 Rage per 5 power if you have less than 25 Rage\", \"Warcries Sacrifice 10 Rage if you have at least 25 Rage\", or \"Exerted Attacks deal 50% more Attack Damage if a Warcry Sacrificed Rage Recently\". It now provides \"Warcries Exert twice as many Attacks\".\n}}\n{{Version history table row|3.11.0|\n* War Bringer has been redesigned. It now causes Warcries to grant 10 Rage per 5 Power if you have less than 25 Rage, and causes them to sacrifice 10 Rage if you have at least 25 Rage. It also causes Exerted Attacks to deal 50% more Damage if a Warcry sacrificed Rage recently.\n*Old mods listed below:\n** {{c|mod|Recover 25% of Life and Mana when you use a Warcry}}\n** {{c|mod|100% increased Warcry Cooldown Recovery Speed}}\n** {{c|mod|100% increased Warcry Duration}}\n** {{c|mod|If you've Warcried Recently, you and nearby allies have 20% increased Attack Speed}}\n** {{c|mod|15% chance to deal Double Damage if you've Warcried in the past 8 seconds}}\n}}\n{{Version history table row|3.8.0|\n* Now grants you and nearby allies 20% increased attack speed if you've warcried recently (from 10%). Now grants 15% chance to deal double damage if you've warcried in the past 8 seconds. No longer causes you and nearby allies to deal increased damage if you've warcried recently.\n}}\n{{Version history table row|3.7.0|\n* No longer causes you to gain 5 rage when you use a warcry. Instead now grants you and nearby allies 10% increased attack speed and 30% increased damage if you've used a warcry recently.\n}}\n{{Version history table row|3.2.0|\n* Added {{c|mod|Gain 5 Rage when you use a Warcry}}.\n}}\n{{Version history table row|2.3.0|\n* Life and Mana recovery from using a Warcry increased from 10% to 25%.\n* Added {{c|mod|100% increased Warcry duration}}.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "8911e4204ae2f3714491838ed0709e6142ecbdf93646d377266a5f9eda1204cb"
+}

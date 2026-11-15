@@ -1,0 +1,33 @@
+{
+  "title": "Pierce",
+  "pageId": 12450,
+  "revision": 1493333,
+  "timestamp": "2024-12-28T00:49:50Z",
+  "retrieved": "2026-11-14T10:08:31.485136+00:00",
+  "requested": [
+    "Mine",
+    "Minion",
+    "Golem",
+    "Spectre",
+    "Sentinel",
+    "Brand",
+    "Banner",
+    "Herald",
+    "Offering",
+    "Trigger",
+    "Channelled skill",
+    "Projectile",
+    "Chain",
+    "Fork",
+    "Pierce",
+    "Split",
+    "Return",
+    "Area of effect",
+    "Duration",
+    "Damage over time"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the projectile behaviour|the support gem|Pierce Support}}\n\n'''Pierce''' is a behaviour of [[projectile]]s that enables them to pass through targets they [[hit]], continuing along their original trajectory.\n\n==Mechanics==\nOnly one projectile behaviour can be applied each time a projectile hits a target. Pierce has second priority for projectile behaviours, preceded by [[Split]], and followed by [[fork]], [[chain]], then [[return]]. This means that if you had split, pierce, fork, chain, and return supporting the same skill, it would first split from the first target toward other monsters, then pierce to its maximum number of pierces, then fork, and only then would it be able to chain to its maximum number of chains before finally returning.\n\nThe number of times a projectile can pierce is equal to the sum of all {{c|mod|Projectiles Pierce x additional Targets}} modifiers. If a projectile is an arrow, {{c|mod|Arrows Pierce x additional Targets}} modifiers are included in the sum. The {{c|mod|Projectiles Pierce all Targets}} modifier built in to {{il|Freezing Pulse}} and {{il|Soulrend}} allow projectiles to pierce an unlimited number of times. The {{c|mod|Arrows Pierce all Targets}} modifier found on {{il|Infractem}} functions the same way for arrow projectiles.\n\nIt is possible to disable \"{{c|mod|Projectiles Pierce all Targets}}\" behaviour on skills via {{il|Snakepit}}, allowing for modification with Fork/Chain/Return.\n\nProjectiles apply their on-hit effects to each target they pierce or otherwise hit. For example, {{il|Essence Drain}} will apply its debuff to each target a projectile hits. Skills such as {{il|Ice Shot}} and {{il|Kinetic Blast}} apply their on-hit [[area damage]] effects each time a projectile pierces or otherwise hits a target. The [[Projectile#Explosions|explosion]] behaviour of some projectiles, such as {{il|Fireball}} and {{il|Creeping Frost}}, is not an on-hit effect and occurs only when a projectile ceases to exist.\n\n==Skill gems==\n{{main|List of pierce related skill gems}}\n{{#lst:List of pierce related skill gems|active_skill_gems}}\n\n==Support gems==\n{{main|List of pierce related skill gems}}\n{{#lst:List of pierce related skill gems|support_skill_gems}}\n\n==Base items==\nThe following base items are related to pierce:\n{{Drop enabled base item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%pierce%\"\n|level=1\n|large=1\n|stat=1\n}}\n\n==Unique items==\nThe following [[unique item]]s are related to pierce:\n\n===Extra targets pierced===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%pierce%additional%\"\n  OR item_stats.id = \"arrow_base_number_of_targets_to_pierce\"\n  OR item_stats.id = \"base_arrows_always_pierce\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n===Other interactions===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%pierce%\"\n  AND item_stats.id NOT LIKE \"%pierce%additional%\"\n  AND item_stats.id != \"arrow_base_number_of_targets_to_pierce\"\n  AND item_stats.id != \"base_arrows_always_pierce\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Passive skills==\n===Small passive skills===\nThe following [[passive skill]]s are related to pierce:\n{{Query base passive skills\n|where=passive_skills.stat_text LIKE \"%pierc%\"\n}}\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] [[passive skill]]s are related to pierce:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 0\n     AND passive_skills.stat_text LIKE \"%pierc%\"\n|large=1\n|stat_text=1\n}}\n\n===Cluster Jewel keystone passive skills===\nThe following [[Cluster Jewel]] [[keystone passive skill]]s are related to pierce:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n     AND passive_skills.is_keystone = 1\n     AND passive_skills.stat_text LIKE \"%pierc%\"\n|large=1\n|stat_text=1\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to pierce:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%pierc%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Pierce has been reworked. Items and skills that used to use or provide pierce chance now instead use or provide a number of pierces. Once a projectile has reached its pierce limit, it will not pierce further.\n}}\n{{Version history table end}}\n\n{{sister|poe2wiki}}\n\n[[Category:Projectile behaviors]]",
+  "sha256": "5ecd95aef0b57dfa16b4c69f3b3ad60e0f469b9384f7a2a6086a65986b067ec2"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Crown of the Tyrant",
+  "pageId": 4202,
+  "revision": 1704502,
+  "timestamp": "2026-11-11T02:05:45Z",
+  "retrieved": "2026-11-14T10:57:17.466333+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Crown of the Tyrant\n|class_id                                = Helmet\n|base_item                               = Magistrate Crown\n|explicit1                               = HasOneSocketUnique__1\n|explicit2                               = IncreasedLifeUnique__88\n|explicit3                               = NearbyEnemiesHaveReducedAllResistancesUnique__1\n|explicit4                               = AuraAddedFireDamagePerRedSocketUnique__1\n|explicit5                               = AuraAddedColdDamagePerGreenSocketUnique__1\n|explicit6                               = AuraAddedLightningDamagePerBlueSocketUnique__1\n|explicit7                               = AuraAddedChaosDamagePerWhiteSocketUnique__1\n|flavour_text                            = You will know if your subjects follow you from fear or respect when you have your first moment of weakness.<br>If it's the former, they will tear you into pieces like rabid dogs.\n|release_version                         = 3.4.0\n|drop_monsters = Metadata/Monsters/LeagueDelve/ProtoVaalCityBoss\n|drop_text = [[Aul, the Crystal King]] is the rarest boss among the bosses in the [[Azurite Mine]]. Players reported that they found the boss in 200+ depths digging horizontally. \n}}\n\n'''Crown of the Tyrant''' is a [[unique]] {{il|Magistrate Crown}}.\n\n==Mechanics==\n{{c|mod|You and Nearby Allies have # to # added X Damage per Y Socket}}: Allies can be affected by a single instance of added damage of each damage type; multiple copies of the same aura effect do not stack.\n\n{{c|mod|Nearby Enemies have -10% to all Resistances}}: This aura does not stack; enemies can only be affected by one instance of the Crown of the Tyrant debuff. \n\n{{c|mod|Has 1 Socket}}: Once the socket colour on Crown of the Tyrant has been changed, the only way to change its socket colour back to white is to use the [[crafting bench]] recipe that sets all socket colours to white. All other crafting bench recipes and currencies that change colours guarantee a non-white socket.\n\n{{Item acquisition}}\n\n==Legacy variants==\nCrown of the Tyrant has a [[legacy variant]].\n\n{{Legacy variant table header}}\n{{Legacy variant table row|3.11.0|\n* Has 1 Socket\n* {{c|mod|+(50-100) to maximum Life}}\n* Nearby Enemies have -10% to all Resistances\n* You and Nearby Allies have 64 to 96 added Fire Damage per Red Socket\n* You and Nearby Allies have 56 to 88 added Cold Damage per Green Socket\n* You and Nearby Allies have 16 to 144 added Lightning Damage per Blue Socket\n* You and Nearby Allies have 47 to 61 added Chaos Damage per White Socket\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Now grants +50-175 to maximum Life (from 50-100).\n}}\n{{Version history table row|3.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Delve}}\n{{Navbox Unique Items}}",
+  "sha256": "17b4dc2993095a7bb4d451f2fe5341364b57dd11a5e1137c557ed432da3759c1"
+}

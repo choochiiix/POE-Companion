@@ -1,0 +1,33 @@
+{
+  "title": "Grasping Vines",
+  "pageId": 7589,
+  "revision": 1700755,
+  "timestamp": "2026-08-14T18:37:11Z",
+  "retrieved": "2026-11-14T10:11:15.581388+00:00",
+  "requested": [
+    "Ersi",
+    "Eldritch",
+    "the Eater of Worlds",
+    "Fractured",
+    "The Eater of Worlds",
+    "Pact",
+    "Vaal gem",
+    "Light radius",
+    "explosion",
+    "tinctures",
+    "Weeping Wounds",
+    "belts",
+    "The Viridian Wildwood",
+    "Master",
+    "Abyss",
+    "Breach",
+    "Grasping Vines",
+    "Shrine",
+    "Debilitate",
+    "Wither"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Grasping Vines\n| type                   = Debuff\n| description            = You are slowed by grasping vines. Move to break the vines.\n}}\n\n[[File:GraspingVines2.png|thumb|A player with 10 stacks of Grasping Vines from both {{il|Natural Affinity}} and {{il|Inextricable Fate}}.]]\n\n'''Grasping Vines''' is a [[debuff]] that reduces the [[movement speed]] of the character. Each stack is indicated by a vine that runs from the player to the floor, with the visuals changing based on the source of the debuff. Grasping Vines are elastic and will stretch while attached to the player. Each stack of Grasping Vines additively inflicts 8% less Movement Speed, up to a hard cap of 90% less Movement Speed.<ref>https://www.pathofexile.com/forum/view-thread/3357433</ref> Most sources of Grasping Vines are capped at 10 vines (80% less Movement Speed), though different sources can stack independently.\n\nTeleporting with any movement skill that instantly moves you (such as {{il|Flame Dash}} or {{il|Blink Arrow}}) instantly removes all stacks of the Grasping Vines debuff. Other movement skills like {{il|Leap Slam}} or {{il|Shield Charge}} will remove stacks based on the distance moved. {{il|The Stampede}} can bypass the penalty of the vines entirely.\n\nCertain applications of Grasping Vines, such as those inflicted by [[Namharim, Born of Night]] in Harvest maps, prevent the use of movement skills.\n\n\n==Unique items==\n{{Drop enabled unique item table\n|where= BINARY items.stat_text LIKE \"%Vine%\" OR items.name = \"Natural Affinity\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Passive skills==\nThe following [[passive skill]]s are related to Grasping Vines:\n\n===Anointment-only passive skills===\nThe following [[Oil#Passive_skills_only_available_from_anointments|Anointment-only passive skills]] are related to Grasping Vines:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"blight%\"\n     AND passive_skills.stat_text LIKE \"%grasping%vine%\"\n|large=1\n|stat_text=1\n}}\n\n===Keystone passive skills===\nThe following [[keystone passive skill]]s are related to Grasping Vines:\n{{Passive skill table\n|q_where=passive_skills.is_keystone = 1\n AND passive_skills.stat_text LIKE \"%Grasping%Vines%\"\n|large=1\n|stat_text=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.18.0|\n* Grasping Vines applied by the Bramble Valley Map Boss no longer take longer to break than other sources of Grasping Vines, and no longer disable Movement Skills.\n* Reduced the base Movement Speed reduction from almost all sources of the Grasping Vines debuff.\n}}\n{{Version history table row|3.6.0|\n\n* Fixed a bug which caused you to get two stacks of Grasping Vines on your first hit against an enemy with the Vine Snare Nemesis mod.\n}}\n{{Version history table row|3.3.0d|\n* Fixed a bug where players could sometimes get more than 10 stacks of Grasping Vines, causing them to be unable to move.\n}}\n{{Version history table row|3.3.0|\n* Introduced to the game. Initially triggered from Vine Snare, a new [[Nemesis mod]]. {{Undocumented}}\n}}\n{{Version history table end}}\n\n==See also==\n* {{stl|Toxic Vines}}\n* {{stl|Ethereal Tendrils}}\n* {{stl|Thorned Vines}}\n[[Category:Debuffs]]",
+  "sha256": "2d65c0795b564d568fd508bff0f764928125dc830b75c09769feff657edbef27"
+}

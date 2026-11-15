@@ -1,0 +1,35 @@
+{
+  "title": "Covered in Ash",
+  "pageId": 1143,
+  "revision": 1673503,
+  "timestamp": "2026-07-13T20:06:20Z",
+  "retrieved": "2026-11-14T10:57:17.463330+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [
+    "Covered In Ash"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Covered In Ash\n| type                   = Debuff\n| icon = Ash status icon.png\n| description = You are slowed and you take Increased Fire Damage.\n| bonuses                = {{c|mod|20% less Movement Speed}}<br>{{c|mod|20% increased Fire Damage Taken}}\n}}\n\n'''Covered In Ash''' is a [[debuff]] that causes the affected target to have less [[movement speed]] and increased [[fire]] [[damage taken]].<ref name=\"CommunityFAQ\"/> Covered in Ash has a default duration of 4 seconds.<ref name=\"help text\"/> \n\nThe default magnitude of less Movement Speed is 20% and the increased fire damage  taken is 20%. \n==Skill gems==\n{{Query stat related skill gems\n|type=active\n|where = skill.description LIKE \"%Cover%Ash%\" OR skill.stat_text LIKE \"%Cover%Ash%\"\n|stat_page=Covered in Ash\n}}\n\n{{Query stat related skill gems\n|type=support\n|where = skill.description LIKE \"%Cover%Ash%\" OR skill.stat_text LIKE \"%Cover%Ash%\" OR skill.skill_id LIKE \"%Pyre%\"\n|stat_page=Covered in Ash\n}}\n\n==Unique items==\n{{Drop enabled unique item table\n|where=BINARY items.stat_text LIKE \"%Ash%\"\n          AND items.stat_text NOT LIKE \"%Herald%of%Ash%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related modifiers==\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Cover%ash%\" AND domain NOT IN (\"35\", \"38\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n|domain=1\n}}\n\nvendor recipe only mod:\n\n* {{ml|BreachBodyCoverInAshWhenHit1__|display=verbose}} (see {{il|Grasping Mail}}'s article for details)\n\nLegacy mods:\n\n* {{ml|VillageCoverInAshOnHit|display=stat_text}} (Weapons enchanted during [[Settlers league]] ([[Runesmithing]]) and transferred to Standard HC and SC leagues)\n\n==Passives==\n{{Query passive skills\n|where=\n  passive_skill_stats.id LIKE \"%ash%\"\n  AND passive_skill_stats.id NOT LIKE \"%splash%\"\n  AND passive_skill_stats.id NOT LIKE \"%herald_of_ash%\"\n}}\n\n==Monsters==\nThe following [[monster]]s use \"[[Skill:CoverInAsh|Cover In Ash]]\" skills:\n{{#cargo_query:\n|tables=monsters\n|fields=name=Monster names, CONCAT(\"[[\", _pageName, \"|\", metadata_id, \"]]\")=internal ids, skill_ids\n|where=skill_ids HOLDS LIKE \"CoverInAsh\" and name != \"Xoph's Loyal\"\n|limit=100\n|order by=name\n}}\n\nIn additions, [[Xoph's Loyal]] also inflict this debuff. However, since original Breach monsters are replaced by new monsters that introduced during [[Keepers league]]s, this monster can only be found as a [[Raise Spectre|spectre]] raised before removal.\n\n==Version history==\nIn the past, {{psl|Hinekora, Death's Fury}} also granted the player to inflict this debuff. It is still retained in {{psl|id=AscendancyAscendant33_}} passive skill for [[Ascendant]].\n{{Version history table header}}\n{{Version history table row|2.5.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\n* [[Covered in Frost]]\n\n==References==\n{{reflist|refs=\n<ref name=\"CommunityFAQ\">{{cite web|author=Bex_GGG|date=November 20, 2016|title=Recently Asked Community Questions|url=https://www.pathofexile.com/forum/view-thread/1770220|publisher=Official Path of Exile Forums|accessdate=November 21, 2016}}</ref>\n<ref name=\"help text\">Based on the reminder text of {{il|Xoph's Blood}}, {{il|Earendel's Embrace}} and {{il|Infernal Cry}} when pressing Alt button in PC</ref>\n}}\n\n[[Category:Debuffs]]",
+  "sha256": "b8dcb55fe4d53c29a36ba8e63c21bb05d35c8260fe315819e5ae647c44c1075a"
+}

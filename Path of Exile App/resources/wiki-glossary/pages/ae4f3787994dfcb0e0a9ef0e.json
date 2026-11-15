@@ -1,0 +1,33 @@
+{
+  "title": "Excommunicated",
+  "pageId": 137196,
+  "revision": 1696925,
+  "timestamp": "2026-07-28T07:07:00Z",
+  "retrieved": "2026-11-14T10:57:23.119142+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n|name                    = Excommunicated\n|type                    = Debuff\n|bonuses                 = You cannot deal Chaos Damage\n|description = \n}}\n\n'''Excommunicated''' is a [[debuff]] that causes affected targets to be unable to deal [[chaos damage]].\n\n==Mechanics==\nThis only affects damage coming from the afflicted target. It does not prevent chaos damage coming from a [[damage taken as]] modifier even if they took damage from an Excommunicated enemy. {{il|Runegraft of Rotblood}} functions correctly as it grants conversion to the enemy, and is not a damage taken as effect.\n\n==Sources==\n===Support gems===\n{{Drop enabled gem table\n|tables=skill_gems\n|join=items._pageID=skill_gems._pageID\n|where=items.class_id=\"Support Skill Gem\" AND (items.stat_text LIKE \"%Excommunicate%\") OR items.name LIKE \"%Excommunicate Support%\"\n}}\n\n===Unique items===\nThe table below lists [[unique items]] that are related to Excommunicated:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%Excommunicate%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "66e52491f9a9a0588c21f358f9ffc8a987ea4734d1f5dcb84d0e294edac4a398"
+}

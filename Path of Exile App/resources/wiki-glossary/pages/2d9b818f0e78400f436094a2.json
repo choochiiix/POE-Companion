@@ -1,0 +1,33 @@
+{
+  "title": "Soul Eater",
+  "pageId": 15373,
+  "revision": 1674508,
+  "timestamp": "2026-07-18T23:59:30Z",
+  "retrieved": "2026-11-14T10:08:29.724244+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the buff|the map boss|Eater of Souls}}\n\n{{status\n| name                   = Soul Eater\n| type                   = Buff\n| description            = You have increased Attack speed, Cast speed and Character Size\n}}\n[[File:Headhunter soul eater.png|thumb|right|300px|A player with a [[Headhunter]] equipped to steal the Soul Eater buff displaying how stacks increase character size.]]\n\n'''Soul Eater''' is a [[buff]] that causes affected [[character]]s and [[monster]]s to '''Eat a Soul''' when they kill an enemy, gaining an '''Eaten Soul'''. Each eaten soul grants increased [[attack speed]], [[cast speed]], and [[character size]]. Enemy monsters and [[minion]]s also gain less damage taken per soul.\n\n==Mechanics==\n===Soul Eater===\nThe Soul Eater buff will cause the target to eat a soul of a nearby enemy when it dies. This buff will persist until the source of it expires. The effect does not stack or refresh, and Soul Eater cannot be gained while an entity already has Soul Eater. \n\nSoul Eater has a [[radius]] of 6 metres.<ref>{{cite web|url=https://www.youtube.com/watch?v=ovzG1UorA4Y|title=Soulthirst Juggernaut Build Guide\n|author=wwwaldo333|date=Aug 19, 2018|accessdate=December 9, 2020|publisher=Youtube}}</ref> Killing enemies farther away than this will not give stacks.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/2475063|title=<nowiki>[3.6] The Broken Build | 40s Soul Eater & 80s Headhunter Buffs | Guaranteed to Crash Your Game |30ex </nowiki>|author=sodapop9|accessdate=14 January 2021|date=Narch 27, 2019}}</ref> Monsters which have Soul Eater still gain souls while invulnerable; however, monsters that burrow (e.g. Devourers) are often out of the range to gain souls.<ref>https://www.pathofexile.com/forum/view-thread/3284453</ref>\n\n===Eaten Souls===\nCertain stats, items, or passives may grant the ability to {{c|mod|Eat # Soul(s)...}}; this grants the listed number of eaten souls and the equivalent bonuses, but does not grant the Soul Eater buff itself. The stacks are shared, however.\n\nEach eaten soul grants 5% increased [[attack speed]], 5% increased [[cast speed]], and 1% increased [[character size]]. Note that the attack and cast speed bonuses are separate, which causes the {{c|mod|Increases and Reductions to Cast Speed apply to Attack Speed}} modifier from {{il|Wilma's Requital}} to gain double the attack speed from eaten souls. On monsters and [[minion]]s, each eaten soul also grants 2% less damage taken. \n\nMaximum number of eaten souls is capped at 45. The less damage taken effect from eaten souls is capped at 90%.\n\nFor players, an eaten soul is lost every 0.5 seconds if a soul has not been gained in the last 4 seconds. On non-player entities, a soul is lost every 0.2 seconds if a soul has not been gained in the last 2 seconds.\n\nThe number of eaten souls resets to 0 if a monster becomes possessed by a [[Tormented Spirit]].<ref>https://youtu.be/QNOCgoMZKBw?t=3025</ref>\n\n==Sources==\nCharacter or minions can use various items to gain a Soul Eater buff, or steal it from non-unique monsters using {{il|Headhunter}} or similar items.\n\n===Unique items===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%Soul%Eater%\"\nOR item_stats.id LIKE \"%Eaten%Soul%\"\nOR items.stat_text LIKE \"%Eat%Soul%\"\n|large=1\n|level=1\n|stat=1\n}}\n\n===Gems===\n{{Drop enabled gem table\n|where=skill.stat_text LIKE \"%Soul%\"\nAND skill_gems.gem_tags HOLDS NOT \"Vaal\"\n}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Soul Eater now expires faster on non-Players. An eaten Soul is lost every 0.2 seconds if a Soul has not been gained in the last 2 seconds (previously every 0.5 seconds, in the last 4 seconds).\n}}\n{{Version history table row|3.28.0d|\n* The Damage Reduction from Soul Eater stacks is now capped at 90% less damage taken on Monsters and Player Minions.\n}}\n{{Version history table row|3.24.0|\n* The Soul Eater buff has been reworked. There is now a maximum number of 45 souls that can be consumed, with each soul providing 5% increased Attack and Cast Speed. For monsters, this buff also provides 2% less Damage Taken per soul consumed. 1 soul is lost every 0.5 seconds if you have not gained any souls recently.\n}}\n{{Version history table row|3.18.0|\n* Archnemesis modifiers have been rebalanced and added to the core game. Existing Magic and Rare monster modifiers have been replaced with Archnemesis modifiers.\n}}\n{{Version history table row|3.17.0|\n* Archnemesis version of the Soul Eater mod is added to the game. {{Undocumented}}\n}}\n{{Version history table row|3.0.0|\n* Soul Eater will no longer grant reduced physical damage taken or elemental resistances for players who have it. Monsters and minions will still benefit from both reduced physical damage taken and elemental resistances per eaten soul.\n}}\n{{Version history table row|1.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{Reflist}}\n\n[[Category:Buffs]]\n[[Category:Monster auras]]",
+  "sha256": "57a91780a6f5c173d52fc9a22f6cfb45eb84efb0eae93d0a04d0c93ab3260ad3"
+}

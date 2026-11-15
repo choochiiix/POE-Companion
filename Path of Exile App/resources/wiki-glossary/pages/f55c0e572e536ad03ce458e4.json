@@ -1,0 +1,33 @@
+{
+  "title": "Topaz Flask",
+  "pageId": 17746,
+  "revision": 1648598,
+  "timestamp": "2026-05-11T13:25:23Z",
+  "retrieved": "2026-11-14T10:57:49.967907+00:00",
+  "requested": [
+    "Tincture Life Thirst",
+    "Tincture Mana Thievery",
+    "Tincture Mana Thirst",
+    "Tincture Sadism",
+    "Tincture Swiftness",
+    "Topaz Flask",
+    "Torment Touched",
+    "Totem Test",
+    "Tower Imbuement",
+    "Toxic Rain Spore Pod",
+    "Toxic Spines",
+    "Toxic Vines",
+    "Tranquility",
+    "Transmogrifying Tempest",
+    "Trap Test",
+    "Trap, Mine, Totem Damage",
+    "Trapped in cocoon",
+    "Treasure Pile",
+    "Treasure!",
+    "Trialmaster's Tether"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Topaz Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 18\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility4\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 18\n|flask_duration                          = 8\n|buff_id                                 = flask_utility_resist_lightning\n|buff_value1                             = 40\n|buff_value2                             = 5\n|buff_stat_text                          = +40% to [[Lightning Resistance]]<br>+5% to maximum [[Lightning Resistance]]\n|charges_max                             = 50\n|charges_per_use                         = 20\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Key to Freedom\n|quest_reward1_quest_id                  = a5q2\n|quest_reward1_act                       = 5\n}}\n{{status\n| name                   = Topaz Flask\n| type                   = Flask Effect\n| description = You have additional Lightning Resistance and maximum Lightning Resistance\n}}\n\n'''Topaz Flask''' is a [[utility flask]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\nIt can also be purchased from town NPC by random. E.g. [[Bestel]] (Act 6), [[Yeena]] (Act 7), [[Clarissa]] (Act 8), [[Petarus and Vanja]] (Act 9)\n\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.50 seconds instead.\n\n==Gallery==\n<gallery>\nTopaz Flask effect.jpg|Topaz Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* No longer grants {{c|mod|20% less Lightning Damage taken}}.\n* Now grants {{c|mod|+5% to maximum Lightning Resistance}}\n* Now grants {{c|mod|+40% to Lightning Resistance}} (from 50%).\n}}\n{{Version history table row|3.16.0|\n*Now last '''8''' seconds (previously 5).\n* There are changes on utility flask mod pools. Read {{section link|Version 3.16.0|Flask}} for details.\n}}\n{{Version history table row|3.15.0|\n* The {{il|Ruby Flask|Ruby}}, {{il|Sapphire Flask|Sapphire}}, and '''Topaz Flasks''' now last 5 seconds (previously 4). They now consume 20 of 50 Charges on use (previously 30 of 60).\n* Upon completing {{ql|The Key to Freedom}}, you are now offered a choice of the following rewards: {{il|Ruby Flask}}, {{il|Sapphire Flask}}, '''Topaz Flask''', {{il|Amethyst Flask}}, {{il|Diamond Flask}}, {{il|Granite Flask}}, or {{il|Jade Flask}}.\n}}\n{{Version history table row|3.5.0|\n* No longer grant added maximum resistances. Instead, reduce the damage taken of the elements by 20%.\n}}\n{{Version history table row|2.2.0|\n* Duration increased from 3.5 to 4 seconds. Maximum resistance reduced from 10% to 6%.\n}}\n{{Version history table row|0.9.13b|\n* Now display an effect on your character when being used.\n}}\n{{Version history table row|0.9.13b|rel=before|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "ed5d38133eb7076d91ab8aa9793e7b579cd9e5f3fac911be9465f4e26bb0a01b"
+}

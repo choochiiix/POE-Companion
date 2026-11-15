@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "scope": "One level-20 Witch, Fireball 1 / Elemental Focus 1, ordinary sword/vest, two passives; hit calculations only",
+  "archiveSha256": "6ea36e73649da26741fd0c1c3bd57a99e589db84191f0e0578f320b1921cc34b",
+  "allMatch": true,
+  "comparisons": [
+    {
+      "stat": "strength",
+      "actual": 14,
+      "expected": 14,
+      "matches": true
+    },
+    {
+      "stat": "dexterity",
+      "actual": 14,
+      "expected": 14,
+      "matches": true
+    },
+    {
+      "stat": "intelligence",
+      "actual": 32,
+      "expected": 32,
+      "matches": true
+    },
+    {
+      "stat": "life",
+      "actual": 285,
+      "expected": 285,
+      "matches": true
+    },
+    {
+      "stat": "mana",
+      "actual": 186,
+      "expected": 186,
+      "matches": true
+    },
+    {
+      "stat": "armour",
+      "actual": 23,
+      "expected": 23,
+      "matches": true
+    },
+    {
+      "stat": "evasion",
+      "actual": 15,
+      "expected": 15,
+      "matches": true
+    },
+    {
+      "stat": "energyShield",
+      "actual": 0,
+      "expected": 0,
+      "matches": true
+    },
+    {
+      "stat": "baseFireMin",
+      "actual": 9,
+      "expected": 9,
+      "matches": true
+    },
+    {
+      "stat": "baseFireMax",
+      "actual": 14,
+      "expected": 14,
+      "matches": true
+    },
+    {
+      "stat": "normalFireAverage",
+      "actual": 18,
+      "expected": 18,
+      "matches": true
+    },
+    {
+      "stat": "averageHit",
+      "actual": 18.45,
+      "expected": 18.45,
+      "matches": true
+    },
+    {
+      "stat": "castsPerSecond",
+      "actual": 1.3333333333333333,
+      "expected": 1.3333333333333,
+      "matches": true
+    },
+    {
+      "stat": "critChance",
+      "actual": 5,
+      "expected": 5,
+      "matches": true
+    },
+    {
+      "stat": "critMultiplier",
+      "actual": 1.5,
+      "expected": 1.5,
+      "matches": true
+    },
+    {
+      "stat": "hitChance",
+      "actual": 100,
+      "expected": 100,
+      "matches": true
+    },
+    {
+      "stat": "hitDps",
+      "actual": 24.599999999999998,
+      "expected": 24.6,
+      "matches": true
+    },
+    {
+      "stat": "weaponPhysicalMin",
+      "actual": 4,
+      "expected": 4,
+      "matches": true
+    },
+    {
+      "stat": "weaponPhysicalMax",
+      "actual": 9,
+      "expected": 9,
+      "matches": true
+    },
+    {
+      "stat": "weaponAttackRate",
+      "actual": 1.55,
+      "expected": 1.55,
+      "matches": true
+    },
+    {
+      "stat": "spellIncreased",
+      "actual": 28,
+      "expected": 28,
+      "matches": true
+    },
+    {
+      "stat": "elementalMore",
+      "actual": 1.2,
+      "expected": 1.2,
+      "matches": true
+    },
+    {
+      "stat": "fireResistance",
+      "actual": 0,
+      "expected": 0,
+      "matches": true
+    },
+    {
+      "stat": "coldResistance",
+      "actual": 0,
+      "expected": 0,
+      "matches": true
+    },
+    {
+      "stat": "lightningResistance",
+      "actual": 0,
+      "expected": 0,
+      "matches": true
+    },
+    {
+      "stat": "chaosResistance",
+      "actual": 0,
+      "expected": 0,
+      "matches": true
+    }
+  ],
+  "status": "partial",
+  "diagnostics": [
+    {
+      "sourceId": "equipment:Metadata/Items/Armours/BodyArmours/BodyStr1",
+      "effect": "Plate Vest movement-speed penalty is outside this trial comparison"
+    },
+    {
+      "sourceId": "skill:Metadata/Items/Gems/SkillGemFireball",
+      "effect": "Fireball resource costs and projectile/AoE behavior are outside this trial comparison"
+    }
+  ],
+  "excluded": [
+    "Movement speed, mana sustain/costs, AoE/projectile behavior, evade chance, physical enemy mitigation and survivability are outside this trial.",
+    "Ailments disabled by Elemental Focus. Equipped sword local stats are compared separately; spell damage does not use its attack damage."
+  ],
+  "records": {
+    "swordId": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword1",
+    "bodyId": "Metadata/Items/Armours/BodyArmours/BodyStr1",
+    "fireballId": "Metadata/Items/Gems/SkillGemFireball",
+    "supportId": "Metadata/Items/Gems/SkillGemSupportElementalFocus"
+  }
+}

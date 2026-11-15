@@ -1,0 +1,33 @@
+{
+  "title": "Influence",
+  "pageId": 129682,
+  "revision": 1700141,
+  "timestamp": "2026-08-08T15:23:27Z",
+  "retrieved": "2026-11-14T10:11:23.509530+00:00",
+  "requested": [
+    "Element",
+    "Cruel",
+    "Ghost Shroud",
+    "Reflect",
+    "unique jewel",
+    "caustic ground",
+    "Elemental Relic",
+    "Endurance",
+    "Ailments",
+    "recharge",
+    "One-Handed",
+    "Abyssal socket",
+    "amulets",
+    "rings",
+    "quivers",
+    "Two-Handed",
+    "Monsters",
+    "Spawn",
+    "influence",
+    "unique monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Influence''' refers to monsters and items that have been empowered by powerful entities from the [[Atlas of Worlds]]. Influenced monsters can appear in [[map]]s that have had their influence drawn out by certain actions or modifiers, and may drop [[influenced item]]s, special item bases that can roll modifiers not found on their normal counterparts. Maps can be affected by multiple influences, aside from their mutually exclusive counterparts.\n\n==Shaper/Elder==\nMaps can contain [[Shaper]] or [[Elder]] influence, adding monsters and hazards of their respective influence. Maps can be given a Shaper or Elder influence with an {{il|Influencing Scarab of the Shaper}} or {{il|Influencing Scarab of the Elder}}, or randomly when a {{il|Decayed Voidstone}} is socketed to the Atlas. A map cannot have both Shaper and Elder influences.\n\n[[Shaper Guardian Map]]s are inherently Shaper-influenced. A map occupied by an [[Elder Guardian]] will also be Elder-influenced. [[Commander Kirac]] may also sell Shaper/Elder-influenced maps that don't contain a Guardian.\n\n==Conqueror==\nMaps that contain a [[Conquerors]]' Citadel are influenced by the respective Conqueror. Conqueror-influenced maps contain packs of influenced monsters exclusive to that Conqueror, and map bosses gain a buff of the associated damage type.\n\n==Exarch/Eater==\nOnce you obtain a {{il|Luminous Astrolabe}} or {{il|Flesh Compass}}, you can call upon the influence of [[the Searing Exarch]] or [[the Eater of Worlds]] to your map, respectively, from your [[map device]]. Exarch/Eater-influenced monsters can spawn an [[eldritch altar]] on death, giving the player a choice of two modifiers to add the the map, and spawn more influenced monsters when activated.\n\nExarch and Eater-influenced monsters can drop embers or ichors that add an [[eldritch implicit modifier]] to certain equipment types. Items with an eldritch implicit are not considered to be an influenced item, and an item cannot have an influence and eldritch implicit mods at the same time. They can also drop [[eldritch currency item]]s with effects that change based on which of the two eldritch implicits have the higher tier.\n\n[[The Maven]] and Maven-witnessed bosses, despite being thematically similar, are not considered influenced, and have no respective monsters or items associated with the mechanic.\n\n==Originator==\nPlayers can obtain [[memory influenced map]]s that contain the Originator's influence. These maps can roll mods that are exclusive to [[Nightmare map]]s and contain Petals that can be collected from monsters or the area. Petals increase the chance of items dropping with higher amounts of [[Memory Strand]]s, and some Memory Altar modifiers in [[Memory Thread]]s will automatically consume them to apply an effect. Items with Memory Strands are not considered influenced items.\n\nTier 16 maps have a chance to drop as memory influenced maps randomly, and maps may occasionally contain a petal of roses that drop a memory influenced map relative to the current map's tier. All maps in a Memory Thread or affected by a {{il|Templar Astrolabe}} are Originator influenced.\n\n==Related items==\n{{Drop enabled item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where = items.class_id NOT IN (\"Microtransaction\", \"DivinationCard\") AND (items.stat_text LIKE \"%influence%\" OR items.description LIKE \"%influence%\" OR items.name=\"Influenced Scouting Report\")\n|large=1\n|description=1\n|level=1\n|stat=1\n}}\n\n{{Navbox Atlas of Worlds}}\n[[Category:Game mechanics]]",
+  "sha256": "4b61547dc0a3665412df057b9b5030d127fd014d211301afc2f41094224e306d"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Blood Offering",
+  "pageId": 2169,
+  "revision": 1649275,
+  "timestamp": "2026-05-22T23:36:45Z",
+  "retrieved": "2026-11-14T10:57:12.677713+00:00",
+  "requested": [
+    "Black Smoke",
+    "Blackflame Aura",
+    "Blackflame Ignite",
+    "Blackflame Wall",
+    "Blade Flurry",
+    "Blade Vortex",
+    "Bladefall of Trarthus",
+    "Bleeding Immunity",
+    "Blessing of the Storm",
+    "Blightreach",
+    "Blitz Charge",
+    "Block Test",
+    "Blood Barrier",
+    "Blood Bladestorm",
+    "Blood Charges",
+    "Blood Cheat",
+    "Blood Drained",
+    "Blood Offering",
+    "Blood Purge",
+    "Blood Rage"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=BloodOffering}}\n\n'''Blood Offering''' is a [[skill]] granted by the [[unique]] {{il|Bloodbond}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.8.0|\n* Now has a base duration of 5 seconds (from 3), with an additional 1 second per corpse consumed (from 0.5), up to a maximum of 4 corpses (from 8). \n* Now grants 10% more Life Regeneration to Minions per Corpse consumed (from 5%).\n* Now applies a visual effect above the player while it is active. \n}}\n{{Version history table row|3.1.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "55f967ff95d74d07bacd81285f9acdab1ee2feb4ac005581637c81b31911e139"
+}

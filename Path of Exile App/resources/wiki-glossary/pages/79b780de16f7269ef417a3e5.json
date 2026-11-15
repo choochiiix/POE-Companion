@@ -1,0 +1,33 @@
+{
+  "title": "Accuracy and Crits Aura",
+  "pageId": 98327,
+  "revision": 1493662,
+  "timestamp": "2025-02-04T17:54:16Z",
+  "retrieved": "2026-11-14T10:57:08.598522+00:00",
+  "requested": [
+    "A Chilling Wind",
+    "Abandoned Wealth",
+    "Abberath's Fury",
+    "Absorption Charges",
+    "Abyssal Cry",
+    "Abyssal Tempest",
+    "Abyssal Wasting",
+    "Accuracy and Crits Aura",
+    "Accursed Prism",
+    "Acid Pit",
+    "Active Offering",
+    "Added Knockback",
+    "Additional Impale",
+    "Additional Life Recovery",
+    "Additional Totems",
+    "Aegis of the Sea",
+    "Afarud Shrine",
+    "Afarud Shrine Monster",
+    "Affliction Charges",
+    "Affliction Regeneration"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the player skill|Precision}}\n{{Status\n|name=Accuracy and Crits Aura\n|icon=Precision skill icon.png\n|type=Buff\n|description=Allies have increased Accuracy and Critical Strike Chance\n|bonuses= 100% increased Global Accuracy Rating<br/>300% increased Global Critical Strike Chance\n}}\n'''Accuracy and Crits Aura''' is a [[monster aura]]. It is granted by a monster modifier [[Modifier:MonsterModAccuracyAndCritAura|{{c|mod|of Precision}}]] (known as \"{{c|normal|Precision Aura}}\" under the monster nameplate).\n\nUnique monster's mod may also grant the monster with this aura.\n\nThe aura has mostly the same function as {{il|Precision}} aura used by the player, but the monster version was introduced to the game much earlier than the gem variant. Also note that the gem version grants flat Accuracy Rating, while the monster aura grants increased Accuracy Rating. Since Precision and Accuracy and Crits Aura have different names, they can stack on each other.\n\nThe mod [[Modifier:MonsterModAccuracyAndCritAura|{{c|normal|Precision Aura}}]] can be stolen by {{il|Headhunter}}, or {{il|Inspired Learning}} to grant the player the aura as well as player's allies. Use of {{il|Conversion Trap}} on non-uniques enemies with the aura produces similar results.\n\nNot to be confused with {{stl|Speed Aura}}, which has a similar-looking visual effect.\n==Gallery==\n<gallery>\nFile:Deadeye and Steel-infused modded monster.png|A monster with <span style=\"color:olive\">Deadeye</span> and <span style=\"color:silver\">Steel-infused</span> Archnemesis monster mods, showing the '''Accuracy and Crits Aura''' visual effect\nFile:Accuracy and Crits Aura beta.jpg|Official game beta screenshot<ref>https://web.archive.org/web/20120608140904/http://www.pathofexile.com/monsterauras</ref>\nFile:Precision skill screenshot.png|The default visual effect of the [[Precision]] aura is a subdued version of the '''Accuracy and Crits''' monster aura\nFile:Speed and Accuracy and Crits Auras HH.png|Visual of a player character that has stolen a few monster mods, including <span style=\"color:olive\">Deadeye</span> ('''Accuracy and Crits Aura''') and <span style=\"color:olive\">Hasted</span> (Speed Aura) Archnemesis mods\n</gallery>\n\n==Version history==\nIt is originally granted from [[monster modifier]] [[Modifier:MonsterAuraAccuracyAndCrits1|{{c|mod|Accuracy and Crits Aura}}]] but the mod is spawn disabled since version 3.18.0. The aura was then granted by new [[Archnemesis]] monster mod {{ml|MonsterArchnemesisDeadeye}}  (rare rarity version only; also known as <span style=\"color:olive\">Deadeye</span> in the text under the monster nameplate) from version 3.18 to 3.19 (the <span style=\"color:olive\">Deadeye</span> version as league mechanic during game ver.3.17 (Archnemesis league) does not grants aura). The totem version probably introduced at the same time as the initial version, and later forked to be [[Modifier:MonsterImplicitAuraAccuracyAndCritsSextant|a mod]] for totem that spawn from sextant only. Sextants and their mod pool are removed from [[version 3.24.0]].\n\nThe Archnemesis version was much stronger than sextant totem version, which the Archnemesis' (<span style=\"color:olive\">Deadeye</span>'s) Accuracy and Crits Aura grants {{c|mod|100% increased Global Accuracy Rating}} and  {{c|mod|100% increased Global Critical Strike Chance}}, as well as other effect that grant to the mod owner of the <span style=\"color:olive\">Deadeye</span> mod.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/3267228|title=What's Next for Archnemesis Modifiers\n|author=Chris|date=May 15, 2022|accessdate=June 18, 2023|publisher=Official Path of Exile Forums}}</ref> While the totem spawned from the sextant mod, only grant {{c|mod|45% increased Global Accuracy Rating}} and {{c|mod|100% increased Global Critical Strike Chance}}, despite the totem also grants {{stl|Speed Aura}} buff. The current value of Accuracy and Crits Aura from the monster mod is not publicly announced and rely on datamining game files to deduce the values.\n\n{{Version history table header}}\n{{Version history table row|3.24.0|\n*As sextant is removed from the game, it is not possible to acquire the mod {{c|mod|Areas contain # additional packs of Monsters that Convert when Killed}} so that unable to spawn enemy-turn-friendlies totems that grant this aura to player character.}}\n{{Version history table row|3.20.0|\n* Monster mods now only do one specific thing. Monster mods now say exactly what they do.\n** Accuracy and Crits Aura from the new monster mod now grant {{c|mod|100% increased Global Accuracy Rating}} (unchanged) and {{c|mod|300% increased Global Critical Strike Chance}} (up from 100%) {{Undocumented}}\n}}\n{{Version history table row|3.18.0|\n* Archnemesis modifiers have been rebalanced and added to the core game. Existing Magic and Rare monster modifiers have been replaced with Archnemesis modifiers.\n** The Deadeye monster mod now also grants this aura, replacing the old non-unique monster mod. The aura effects have been increased: the aura itself from the Deadeye mod now grant {{c|mod|100% increased Global Accuracy Rating}} (up from 45%) and {{c|mod|100% increased Global Critical Strike Chance}} (up from 75%) {{Undocumented}}\n}}\n{{Version history table row|0.10.0|rel=before|\n* Introduced to the game.\n}}\n{{version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Monster auras]]\n[[Category:Buffs]]",
+  "sha256": "aa923f28ead839a0838a08c336cfbde1332510dd8356999d94214a68ebd067db"
+}

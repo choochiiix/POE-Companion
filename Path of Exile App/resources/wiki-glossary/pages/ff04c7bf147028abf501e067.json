@@ -1,0 +1,35 @@
+{
+  "title": "Gruthkul, Mother of Despair",
+  "pageId": 7714,
+  "revision": 1536011,
+  "timestamp": "2025-04-13T06:41:15Z",
+  "retrieved": "2026-11-14T10:57:53.947103+00:00",
+  "requested": [
+    "Weight of Despair",
+    "Wild Malady",
+    "Wild Savagery",
+    "Wildfire Phloem",
+    "Winter Orb",
+    "Wintertide",
+    "Wintertide Brand",
+    "Wintertide's End",
+    "Wisp's Blessing",
+    "Witchfire Brew",
+    "Withering Step",
+    "Worn Sandals",
+    "Wrath Aura",
+    "Wrath of the Cosmos",
+    "Wrath of the Drowned",
+    "You Fell For It Fool",
+    "You have the Blue Flag",
+    "You have the Green Flag",
+    "You have the Karui Spirit",
+    "You have the Red Flag"
+  ],
+  "aliases": [
+    "Weight of Despair"
+  ],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Gruthkul, Mother of Despair\n| rarity = Boss\n| image = \n| imagealt =\n| type = None\n| diff1 = 53\n| diff2 = \n| diff3 = \n| location = [[The Dread Thicket (Act 7)|The Dread Thicket]]\n| quest = [[Queen of Despair]]\n| resistance = Resists [[Elemental Damage]] <br> Resists [[Chaos Damage]]\n| weakness = \n| damage = \n| aura = \n| skill = Roar <br> Upheaval <br> Slam\n| metadata_id = Metadata/Monsters/DespairBear/DespairBear\n}}\n'''Gruthkul, Mother of Despair''' is a [[List of unique monsters|unique monster]] located in the Den of Despair inside [[The Dread Thicket (Act 7)|The Dread Thicket]] in [[Act 7]].\n\n==Quest==\n{{Ql|Queen of Despair}}\n\n==Mechanics==\nGruthkul uses the following skills:\n* {{stl|Gruthkul's Despair}} - Debuff applied continuously inside the boss arena. Increases damage taken, reduces [[action speed]] and [[light radius]]. Stacks with each 10% life lost. \n* '''Roar''' - Channels and fires 5 [[physical]] [[projectile]]s from random positions and adds another projectile per 25% life lost.\n* '''Slam''' - Gruthkul rears and then slams the ground in front with the forelegs.\n* '''Upheaval''' - Upheave the ground beneath the character, dealing [[physical]] [[damage over time]]. \n** [[Weight of Despair]] - Upheavel creates a ground effect that applies this debuff. Deals [[physical]] [[damage over time]] and reduces [[movement speed]].\n\n{{status\n| name                   = Weight of Despair\n| type                   = Debuff\n| description = You are taking Physical Damage over time and have reduced movement speed.\n}}\n\n===Video===\n{{#ev:youtube|B-GF_XLffKw|400}}\n\n==Pantheon powers==\nDefeating Gruthkul unlocks a minor god power in [[the Pantheon]] screen. This power can be upgraded by defeating a specific map boss and capturing their soul. See {{section link|The Pantheon|Upgrading}}.\n\n{{Pantheon|q_where=pantheon.id=\"Gruthkul\"}}\n\n==Map variants==\n* [[Erebix, Light's Bane]] in {{il|Cemetery Map}}.\n\n==Related items==\n{{Item table\n|where= items.name LIKE \"%Gruthkul%\"\n|large=1\n|stat=1\n|flavour_text =1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Pantheon}}\n{{Navbox Bestiary}}\n[[Category:Act 7 unique monsters]]\n[[Category:Bosses]]",
+  "sha256": "9e07bccca57b005927ed75298e8012461f9a624f227ebc14173bc9966f105fa3"
+}

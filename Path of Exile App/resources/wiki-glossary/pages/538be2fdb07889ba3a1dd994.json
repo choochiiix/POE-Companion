@@ -1,0 +1,33 @@
+{
+  "title": "Aspect of Arakaali",
+  "pageId": 143267,
+  "revision": 1702254,
+  "timestamp": "2026-09-02T22:56:55Z",
+  "retrieved": "2026-11-14T10:57:10.191515+00:00",
+  "requested": [
+    "Arakaali Shrine",
+    "Arc Trap",
+    "Arcane Cloak",
+    "Arcane Tempest",
+    "Arcanist Brand",
+    "Arctic Armour",
+    "Arena Master's Presence",
+    "Armageddon Brand",
+    "Arohongui's Blessing",
+    "Arohongui's Moonlight",
+    "Arrogance of the Vaal",
+    "Ascendancy Effect",
+    "Ascendancy Effect (Invisible)",
+    "Ascendancy Effect (invisible)",
+    "Ashbark Tincture",
+    "Aspect of Arakaali",
+    "Aspect of Lunaris",
+    "Aspect of Solaris",
+    "Aspect of the Brine King",
+    "Assassin's Blade"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=AspectOfArakaali}}\n\n'''Aspect of Arakaali''' is a Pantheon [[aspect]] skill that grants a [[buff]] which inflicts {{stl|Withered}} on hit, but causes Wither you inflict to be reflected back to you, and grants increased life recovery rate per Wither stack on you. Only one aspect skill can be active at a time.\n\n==Mechanics==\nThis buff is a source of guaranteed Wither on hit. Using [[proxies]] to inflict wither will still reflect wither to the character.\n\nModifiers to your Wither effect will affect the reflected Wither. It is recommended to have some protection or prevention against [[chaos damage]], such as {{psl|Chaos Inoculation}} or {{stl|Excommunicated}}.\n\nAlternatively, {{il|Tainted Pact}} with {{il|The Golden Rule}} synergizes well by causing your [[poison]]'s damage and life recovery to scale from wither effect and life recovery rate respectively.\n\nAspect of Arakaali cannot be supported by {{il|Enlighten Support}}.\n\n==Acquisition==\nAspect of Arakaali is obtained exclusively by using {{il|Brinehook's Ducat}} during [[Allflame crafting]].\n\n==Skill level progression==\n{{Skill progression\n|skill_id=AspectOfArakaali\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Allflame}}\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "12ea0242d22749fea28543e5458e22500c9df733770049f0ad87d2217bca0fa6"
+}

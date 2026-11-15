@@ -1,0 +1,33 @@
+{
+  "title": "Inspired Learning",
+  "pageId": 8774,
+  "revision": 1674920,
+  "timestamp": "2026-07-19T06:54:22Z",
+  "retrieved": "2026-11-14T10:57:30.259364+00:00",
+  "requested": [
+    "Increased Experience",
+    "Increased Life Leech",
+    "Increased Mana Leech",
+    "Increased Movement Speed",
+    "Increased Resistances",
+    "Increased Stun Recovery",
+    "Indifference of the Cosmos",
+    "Inescapable Doom",
+    "Infernal Blow",
+    "Infernal Cry",
+    "Inferno Bolt",
+    "Infested",
+    "Influence Mod (Invisible)",
+    "Inner Choking Miasma",
+    "Inner Deatomisation Storm",
+    "Innervate",
+    "Insanity",
+    "Inspirational",
+    "Inspired Learning",
+    "Instability"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Inspired Learning\n|class_id                                = Jewel\n|base_item                               = Crimson Jewel\n|drop_level                               = 50\n|explicit1                               = StealRareModUniqueJewel3\n|flavour_text                            = If you do not learn from a won battle<br>then you have already lost the war.\n|release_version                         = 2.0.0\n|recipe1_part1_item_name                 = The Academic\n|recipe1_part1_amount                    = 8\n|recipe1_description                     = {{c|unique|Inspired Learning}}\n|recipe2_part1_item_name                 = The Strategist\n|recipe2_part1_amount                    = 6\n|recipe2_description                     = {{c|corrupted|corrupted}} {{c|unique|Inspired Learning}}\n}}\n\n'''Inspired Learning''' is a [[unique]] {{il|Crimson Jewel}}.\n\n==Mechanics==\n[[File:Inspired Learning sockets 3.16.1.png|thumb|430px|Inspired Learning jewel sockets in Path of Exile 3.16.1. Blue circles denote the small radius around the jewel socket. Note how at least 4 notable skills are within each radius.]]\nUpon [[kill]]ing a {{c|rare|rare}} [[monster]], the [[character]] gains '''''one''''' of its [[modifier]]s for the next 20 seconds. As a special exception, this item's on-kill effect works with [[minion]]s and [[proxies]]. Note that although when capturing a beast, the beast will drop loot, but it does not count as killing.\n\nThis jewel can be considered a low-power version of the similar stat on {{il|Headhunter}}, which provides the ability to gain '''all''' [[monster modifiers]] from a slain rare enemy. Because stolen modifiers cannot stack,<ref>https://old.reddit.com/r/pathofexile/comments/v317cb/3180e_patch_notes_restartless_headhunter_now/iavrgh5/?context=4</ref> there is no benefit to combining Inspired Learning with Headhunter; it will only reduce the duration of one stolen modifier from 60 seconds to 20. \n\nHowever, multiple copies of Inspired Learning can stack (e.g. regular and Foulborn version), so that up to 2 new monster modifiers can steal from slayed monster, as longer as they are not in the existing mod pool the player already have. In case of getting the existing mod the player has, the jewel will refresh the timer of that mod.\n\nStolen modifiers can grant [[buff]]s (e.g. [[Accuracy_and_Crits_Aura|{{c|normal|Precision Aura}}]]) but are not inherently buffs themselves; they have no green-bordered icon, and do not interact with buff-specific stats like {{il|Mantra of Flames}}. \n\nThe following modifiers can '''''not''''' be gained by characters:\n* {{ml|MonsterNemesisSpawnsMonsters}}\n* {{ml|MonsterNemesisUniqueDrop}}\n* {{ml|MonsterNemesisRaisesAfterDeath}}\n\nThe Inspired Learning jewel can only grant its effect when placed in one of the jewel sockets shown in the image, with 4 allocated [[notable]] passives inside its radius. It has no effect when socketed in a socket of a [[Cluster Jewel]]. \n\n[[Oil|Anointing]] a notable passive despite does not involve spending passive skill point, but the jewel still counted as allocated a notable within the jewel radius.\n{{Item acquisition}}\n\n{{Foulborn}}\n\n{| class=\"wikitable sortable\"\n|+\n|-\n! Unique item !! Original modifier !! {{c|foulborn|Foulborn modifier}}\n|-\n| Inspired Learning || {{c|mod|[[Modifier:StealRareModUniqueJewel3|With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds<br>Radius: Small]]}} || {{c|foulborn|[[Modifier:MutatedUniqueJewel3GainRandomRareMonsterModOnKillWhileNoNotablesAllocatedInRadius|If no Notables Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds<br>Radius: Large]]}}\n|-\n| Inspired Learning || {{c|mod|[[Modifier:StealRareModUniqueJewel3|With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds]]}} || {{c|foulborn|[[Modifier:MutatedUniqueJewel3GainRandomRareMonsterModOnKillWhileXSmallPassivesAllocatedInRadius|With (8-12) Small Passives Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds]]}}\n|}\n\nLike the regular Inspired Learning, anointing a notable passive within the jewel radius would count as allocating that notable. So that it will disable the 1st Foulborn variant, as the player no longer fulfil {{c|foulborn|If no Notables Allocated in Radius}} criterion.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* Foulborn Inspired Learning (2 variants) are introduced. \n}}\n{{Version history table row|3.20.0|\n* The availability of existing Unique Jewels has been reviewed, and many (including Replica versions) can no longer be obtained.\n** Inspired Learning can still able to obtain as an item drop .\n}}\n{{Version history table row|3.8.2|\n* The buff timer for stolen {{il|Headhunter}}, Inspired Learning and {{il|Hunter's Lesson}} buffs is no longer obscured when you have multiple instances of the buff.\n}}\n{{Version history table row|3.8.1d|\n* Fixed a bug where Anointed Notables did not count towards the Inspired Learning unique jewel's allocated Notable requirement.\n}}\n{{Version history table row|2.3.1|\n* Fixed a bug where '''Inspired Learning''' and Headhunter did not correctly steal mods from [[Volatile Blood]] monsters.\n}}\n{{Version history table row|2.1.2|\n* Players once again gain the Mods of indirectly killed rare monsters while using the Headhunter or Inspired Learning uniques. This fixes an unintentional change to this mechanic in the 2.1.0 patch.\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}} \n\n{{Navbox Unique Items}}",
+  "sha256": "1904d567383255cc868a10b69fab7151d68f18d1e7a51d1d3006f3ebdd9918c9"
+}

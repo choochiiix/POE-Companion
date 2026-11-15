@@ -1,0 +1,35 @@
+{
+  "title": "The Draugur's Lantern",
+  "pageId": 143552,
+  "revision": 1705282,
+  "timestamp": "2026-11-12T14:52:37Z",
+  "retrieved": "2026-11-14T10:57:20.722685+00:00",
+  "requested": [
+    "Draugurflame",
+    "Draugurflame Burn",
+    "Dread Banner",
+    "Drought",
+    "Drowning",
+    "Drowning Domain",
+    "Duration Test",
+    "Dying Breath",
+    "Dying Sun",
+    "Earth Drinker",
+    "Ebon Affliction",
+    "Echoing Tempest",
+    "Effigy",
+    "Eldritch Decay",
+    "Eldritch Empowerment",
+    "Electrified Ground Trap",
+    "Electrifying Bond",
+    "Electrifying Gaze",
+    "Electrifying Sight",
+    "Elemental Aegis"
+  ],
+  "aliases": [
+    "Draugurflame"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Draugur's Lantern\n|class_id                                = Shield\n|base_item                               = Ancient Spirit Shield\n|explicit1                               = SpellBlockPercentageUniqueShieldInt18\n|explicit2                               = IncreasedLifeUnique__128\n|explicit3                               = FasterIgniteDamageUnique__2\n|explicit4                               = GhostFurnaceUnique__1\n|flavour_text                            = \"This infernal imp wasn't willing to part with its piece of the Allflame.<br>It's taught me ways to stoke the flame. To burn unnaturally fierce.<br>The imp may have the Allflame, but I have the Imp.\"<br>- Velka, the Tide Witch\n|is_drop_restricted                      = true\n|drop_text                               = Drops from [[Filthscrabble]] in [[The Fathomless Depths (area)|The Fathomless Depths]] in [[Allflame league]].\n|release_version                         = 3.29.1\n|drop_enabled = false\n|removal_version                         = 3.30.0\n}}\n\n'''The Draugur's Lantern''' is a [[unique]] {{il|Ancient Spirit Shield}}.\n\n==Mechanics==\nDraugurflames burn enemies within 3 metres [[distance]] of the shield's wearer, dealing Fire damage over time equal to 15% of the Damage per second of the strongest Ignite you've inflicted in the past 8 seconds. The damage of this burn cannot be directly modified.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.30.0|\n* Content from [[Curse of the Allflame]] did not go core and was temporarily drop disabled.<ref>https://www.pathofexile.com/forum/view-thread/4013527</ref>\n}}\n{{Version history table row|3.29.1|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Allflame}}\n{{Navbox Unique Items}}",
+  "sha256": "29ff8a006046cc235f5955fd289e2c14d32de2a54cfefd9f69f3bb6ca20e3eec"
+}

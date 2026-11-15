@@ -1,0 +1,33 @@
+{
+  "title": "Mirrored",
+  "pageId": 11271,
+  "revision": 1704806,
+  "timestamp": "2026-11-11T16:20:09Z",
+  "retrieved": "2026-11-14T10:08:33.953615+00:00",
+  "requested": [
+    "Siphoning charge",
+    "Brutal charge",
+    "Absorption charge",
+    "Affliction charge",
+    "Corrupted blood",
+    "Corrupted",
+    "Unmodifiable",
+    "Mirrored",
+    "Split (item modifier)",
+    "Fractured item",
+    "Synthesised item",
+    "Influenced item",
+    "Quality",
+    "Gem quality",
+    "Transfigured gem",
+    "Vaal skill",
+    "Socket",
+    "Link",
+    "Support gem",
+    "Skill gem"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "[[File:Mirrored item.png|thumb|A white, mirrored Karui Maul, next to a regular one.]]\n'''Mirrored''' is a special property that appear on items created by a {{il|Mirror of Kalandra}} or a {{il|Reflecting Mist}} on a piece of equipment.\n\nRegular mirrored items always have stats and modifiers identical to the original item, and 2D art which has been flipped horizontally.\n\nMirrored items cannot be altered in any way except through the use of currency items that explicitly affect mirrored items, such as {{il|Reflective Oil}}.\n\n==Reflected items==\nThe [[Lake Islet]] [[Atlas anomaly]] contains a [[Reflecting Mist (interactable object)|Reflecting Mist]] interactable. Interacting with it can open a menu that offers you a choice between two Reflected mirrored Rare [[ring]]s or [[amulet]]s with unusual explicit mods. Some are scaled-up versions of existing modifiers, while others are strong negative versions of the same modifier. The rings provide inverse stats; a negative mod on one ring is positive on the other. You may only pick one of these items to take.\n\nRarely, the Reflecting Mist will drop an [[Reflecting Mist|itemized]] version of itself, allowing the player to reflect their own Rare ring or amulet.\n\n==Trivia==\nIt may be implied that [[Unique item]]s obtained by players are actually Mirrored versions of the original items, and why Unique items cannot be mirrored. Former developer, Qarl, said that Hyrri has the original {{il|Hyrri's Ire}}, but its 3D art is mirrored compared to the player obtainable version.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/37819/page/4#p521723|title=Re: A selection from my PoE pictures folder, including beta nostalgia|date=July 11, 2012|accessdate=October 7, 2022|publisher-Official Path of Exile Forums}}</ref>{{speculation}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.30.0|\n* [[Strongbox]]es can no longer roll Contains Identified Items or Contains Mirrored Items.\n* Exceptional [[Rogue Exile]]s no longer have bonus rewards to drop their items Mirrored or to upgrade the Rarity of dropped items.\n* Creating an [[Imprint]] of an item or Mirroring an item is no longer considered as Modifying the item. As a result [[Eternal Orb]]s and Mirrors of Kalandra cannot be used on items with the Can be modified while Corrupted Implicit Modifier. It also means that using these Currency items no longer removes the Forseeing effect from [[Hinekora's Lock]]s.\n}}\n{{Version history table row|0.6.7|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See Also==\n* [[Corrupted]]\n* [[Unmodifiable]]\n\n==References==\n{{reflist}}\n\n[[Category:Item mechanics]]\n{{Sister|poe2wiki}}",
+  "sha256": "b3cc91bcc592a19b21e7b827601b4651004229ee35a860cbeb12758d4fc2900f"
+}

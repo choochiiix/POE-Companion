@@ -1,0 +1,33 @@
+{
+  "title": "Summon Harbinger of Time",
+  "pageId": 16028,
+  "revision": 1649391,
+  "timestamp": "2026-05-22T23:40:09Z",
+  "retrieved": "2026-11-14T10:10:04.221328+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfTime}}\n{{status\n| name                   = The Flow Untethered\n| type                   = Buff\n| description = Time moves more swiftly for you and those around you.\n}}\n\n'''Summon Harbinger of Time''' is a [[spell]] that summons an allied Harbinger [[minion]]. The skill is only available through {{il|The Flow Untethered}}.\n\n==Skill Functions and Interactions==\nThe summon Harbinger is immortal, and occasionally casts {{stl|The Flow Untethered}} on the player character. {{stl|The Flow Untethered}} is an [[aura]] that lasts 8 seconds, with a cooldown of 20 seconds, granting +10% [[action speed]] to the player and nearby allies and enemies:\n\n[[Action speed]] is a modifier affecting animation speed. This effect stacks additively with other modifiers like [[Temporal Chains]] and [[chill]].\n\n==Drop restrictions==\nHarbinger of Time can only be obtained by equipping {{il|The Flow Untethered}}.\n==See also==\n* {{stl|Slipstream}}, a similar ground effect\n* {{sl|Summon Greater Harbinger of Time}}, the greater Harbinger version of the skill\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Uniques can no longer be obtained: The Beachhead, Infused Beachhead, The Enmity Divine, The Flow Untethered, The Fracturing Spinner, The Rippling Thoughts, The Tempest's Binding, and The Unshattered Will.\n}}\n{{Version history table row|3.15.0|\n* Aura from Harbinger of Time minion now provides 10% increased Action Speed (previously 20%).\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]] [[Category:Spell (gem tag)]]",
+  "sha256": "4b2f4025cf8c1ddae27e2ee93dc1860bb652f2433fbbefe444decd01ecf337a1"
+}

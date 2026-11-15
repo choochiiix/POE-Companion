@@ -1,0 +1,33 @@
+{
+  "title": "Divinity",
+  "pageId": 5246,
+  "revision": 1537575,
+  "timestamp": "2025-06-10T05:32:42Z",
+  "retrieved": "2026-11-14T10:11:19.035282+00:00",
+  "requested": [
+    "Ursa",
+    "Ground Slam",
+    "Warcries",
+    "Retaliation",
+    "Daggers",
+    "Claws",
+    "Divinity",
+    "ranger",
+    "Shepherd of Souls",
+    "Fanaticism",
+    "Enchantments",
+    "Vaal skill gem",
+    "Gluttony of Elements",
+    "Harbinger",
+    "Dominus",
+    "Silence",
+    "smoke cloud",
+    "Vaal Gem",
+    "Sextant",
+    "conquered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Divinity\n| type                   = Buff\n| description            = You are larger, deal more Elemental Damage, take less Elemental Damage and are immune to Curses.\n}}\n\n'''Divinity''' is a [[buff]] granted by {{il|Garb of the Ephemeral}}.\n\n==Mechanics==\nDivinity grants 20% increased [[character size]], 75% more [[elemental damage]], 25% less [[elemental damage]] taken, and immunity to [[curse]]s.<ref name=\"Announcement\"/> Divinity duration cannot be modified.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* now grants 75% more Elemental Damage (previously 50%) and 25% less Elemental Damage taken (previously 20%)\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Announcement\">{{cite web|author=Bex_GGG|date=March 8, 2019|title=Garb of the Ephemeral is one of the new unique items in Path of Exile: Synthesis|url=https://www.pathofexile.com/forum/view-thread/2451936|publisher=Official Path of Exile Forums|accessdate=March 8, 2019}}</ref>\n}}\n\n[[Category:Buffs]]",
+  "sha256": "bc58e030f3cff577ffe9cdd22587f3e9336bb051cbbaf4966151ff8023b32236"
+}

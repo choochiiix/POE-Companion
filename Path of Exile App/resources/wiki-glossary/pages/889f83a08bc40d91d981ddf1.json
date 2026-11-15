@@ -1,0 +1,33 @@
+{
+  "title": "Unholy Might",
+  "pageId": 18330,
+  "revision": 1702379,
+  "timestamp": "2026-09-12T09:36:35Z",
+  "retrieved": "2026-11-14T10:08:29.724746+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Distinguish|Chaotic Might}}\n\n{{status\n| name                   = Unholy Might\n| type                   = Buff\n| description            = Your Physical Damage is converted to Chaos Damage, and you have a 25% chance to Wither on hit\n}}\n\n'''Unholy Might''' is a [[buff]] that grants 100% of [[physical damage]] [[convert]]ed to [[chaos damage]], and 25% chance to inflict [[Withered]] on [[hit]].\n\n==Mechanics==\n{{see also|damage conversion}}\nThe effects of Unholy Might are affected by increased [[buff effect]]. The buff duration can be indirectly scaled by changing the buff [[expiration rate]].\n\n==Unique items==\nThe following [[unique item]]s grant Unholy Might:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%Unholy_Might%\" AND items.name NOT LIKE \"%Extractor Mentis%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n* {{c|foulborn|[[Foulborn]]}} {{il|Darkscorn}}: {{c|foulborn|25% chance to gain Unholy Might for 4 seconds on Critical Strike}}\n* {{c|foulborn|[[Foulborn]]}} {{il|Severed in Sleep}}/{{il|United in Dream}}: {{c|foulborn|Minions have 25% chance to gain Unholy Might for 4 seconds on Kill}}\n* {{c|foulborn|[[Foulborn]]}} {{il|Vis Mortis}}: {{c|foulborn|Minions have Unholy Might}}\n* Legacy {{il|Vis Mortis}} has the mod {{ml|MinionUnholyMightOnKillUniqueBodyInt9|display=stat_text}}\n\n==Related passives skills==\n===Passive skills===\nThe following [[passive skill]]s are related to Unholy Might:\n\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%Unholy_Might%\"\n}}\n\n===Masteries===\nThe following passive masteries are related to Unholy Might:\n{{Query masteries}}\n\n===Ascendancy passives===\nThe following ascendency passives are related to Unholy Might:\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%Unholy_Might%\"\n}}\n\n===Cluster jewel passives===\nThe following cluster jewel passives are related to Unholy Might:\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skills.stat_text LIKE \"%unholy might%\"\n|large=1\n|stat_text=1\n}}\n\n==Related item modifiers==\n{{Modifier table\n|q_tables=mod_stats, mod_spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where=\n  mod_stats.id LIKE \"%unholy_might%\"\n  AND mod_spawn_weights.value > 0\n  AND mods.generation_type NOT IN (24, 31)\n  AND mods.domain NOT IN (30, 35)\n|stat_text=1\n|level=1\n|spawn_weights=1\n|generation_type=1\n|group=1\n|domain=1\n}}\n\n;Synthesis implicits:\n{{Modifier table\n|q_tables=mod_stats\n|q_join=mods._pageID=mod_stats._pageID\n|q_where=\n  mod_stats.id LIKE \"%unholy_might%\"\n  AND mods.id LIKE \"%SynthesisImplicit%\"\n|stat_text=1\n|level=1\n|group=1\n}}\n\n===Legacy mods===\nThese mods can only appear in existing legacy items in the permanent leagues\n{{Modifier table\n|q_tables=mod_stats\n|q_join=mods._pageID=mod_stats._pageID\n|q_where=\n  mod_stats.id LIKE \"%unholy_might%\" AND mods.generation_type IN (24, 31)\n\n|stat_text=1\n|level=1\n|spawn_weights=1\n|generation_type=1\n|group=1\n}}\n\nThese mods are not in game, unless the devs temporarily enabled the related game mechanic as part of special [[event]] leagues:\n\n{{Modifier table\n|q_tables=mod_stats\n|q_join=mods._pageID=mod_stats._pageID\n|q_where=\n  mod_stats.id LIKE \"%unholy_might%\" AND mods.domain IN (30, 35)\n\n|stat_text=1\n|level=1\n|spawn_weights=1\n|generation_type=1\n|domain=1\n|group=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.1|\n* Fixed a bug where the description for the Unholy Might Buff was not updated to reflect changes made in 3.24.0.\n}}\n{{Version history table row|3.24.0|\n* The Unholy Might buff no longer grants 30% of Physical Damage as extra Chaos Damage. It instead now provides 100% of Physical Damage Converted to Chaos Damage, and 25% chance to Apply Wither on Hit.\n* There is a new buff called [[Chaotic Might]], which provides 30% of Physical Damage as extra Chaos Damage.\n}}\n{{Version history table row|3.19.0|\n* The Necromancer's Unnatural Strength Notable Ascendancy Passive Skill no longer provides +2 to Level of all Minion Skill Gems. Instead, it now grants Minions Unholy Might.\n}}\n{{Version history table row|3.8.0|\n* Vis Mortis no longer grants +1 to maximum number of Raised Spectres or grants your minions Unholy Might when they kill an Enemy.\n}}\n{{Version history table row|2.1.0c|\n* Fixed an instance crash where {{il|Extractor Mentis}} was trying to add [[Unholy Might]] and [[Onslaught]] to chests.\n}}\n{{Version history table row|1.1.0|\n* Unholy Might is introduced to the game. Initially from {{il|Vis Mortis}}\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]\n{{Sister|poe2wiki}}",
+  "sha256": "c064db0edbb082deb5a9196c8dff3d973b227b490e8fc2d77687af73e9a63fe2"
+}

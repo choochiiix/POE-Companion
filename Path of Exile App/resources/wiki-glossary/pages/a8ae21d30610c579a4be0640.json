@@ -1,0 +1,33 @@
+{
+  "title": "Radiant Crusade",
+  "pageId": 13306,
+  "revision": 1619145,
+  "timestamp": "2026-02-28T12:03:08Z",
+  "retrieved": "2026-11-14T10:57:38.768468+00:00",
+  "requested": [
+    "Quartz Flask",
+    "Quicksand",
+    "Quicksand ",
+    "Quicksilver Flask",
+    "RED BUFF",
+    "RENAME ME",
+    "Radiant Crusade",
+    "Radiant Crusade's Onslaught",
+    "Radiant Faith",
+    "Radiant Ground",
+    "Radiating Tempest",
+    "Raised Spider",
+    "Rakiata's Leadership",
+    "Rallied",
+    "Rallying Cry",
+    "Rat Tornado",
+    "Rats",
+    "Ravenous - Beast",
+    "Ravenous - Construct",
+    "Ravenous - Demon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Radiant Crusade}}\n'''Radiant Crusade''' is a notable [[Ascendancy passive skill]] for the [[Guardian]] that grants you the skill [[Summon Sentinel of Radiance]]. A portion of [[receiving damage|damage taken]] is taken by your Sentinel of Radiance. \n\nThis damage redirection is multiplicative (occuring in separate steps) with other similar stats, and the Sentinel of Radiance always takes damage first before other targets.<ref>https://discord.com/channels/991073626721763429/991092346651287623/1197890679205015562</ref>\n\n==Ruthless mode==\n{{infocard\n|header    = Radiant Crusade (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:Radient Crusade (Guardian) passive skill icon.png]]</div>\n|2         = Grants Level 20 Summon Sentinel of Radiance Skill<br>10% of Damage from Hits is taken from your Sentinel of Radiance's Life before you\n}}\n\nRadiant Crusade in [[Ruthless mode]] redirects less damage to the Sentinel of Radiance.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The Guardian's Sentinel of Radiance Minion no longer has duration (it is a permanent minion) and has approximately 36% more Movement Speed. Note the Sentinel still doesn't persist between areas.\n}}\n{{Version history table row|3.25.0|\n* {{Ruthless}} The Guardian's Radiant Crusade Ascendancy Passive Skill now provides 10% of Damage from Hits is taken from your Sentinel of Radiance's Life before you (previously 20%).\n}}\n{{Version history table row|3.24.0|\n* Summoned Sentinels of Radiance, granted by the Guardian's Radiant Crusade Ascendancy Passive Skill, now deals Fire Damage equal to 20% of its maximum Life per Second to Enemies in a Base Radius of 4 metres (previously 30% of it maximum Life and a Base Radius of 4.5 metres). This change does not affect Ruthless.\n}}\n{{Version history table row|3.23.0|\n* {{Ruthless}} Summoned Sentinels of Radiance, granted by the Guardian's Radiant Crusade Ascendancy Passive Skill, now have a maximum level of 80 (previously 85). Its melee damage has been reduced by roughly 50%, and the damage and area of their burn has been reduced by roughly 50%.\n}}\n{{Version history table row|3.22.0|\n* Reworked. Old mods listed below:\n** {{c|mod|While there is at least one nearby Ally, you and nearby Allies deal 10% more Damage}}\n** {{c|mod|While there are at least five nearby Allies, you and nearby Allies have Onslaught}}\n** {{c|mod|+20% to all Elemental Resistances}}\n}}\n{{Version history table row|3.8.0|\n* Has been reworked. It now grants +20% to all Elemental Resistances. While there are at least five nearby allies, you and nearby allies have Onslaught. While there is at least one nearby ally, you and nearby allies deal 10% more damage.\n}}\n{{Version history table row|3.4.0|\n* Prayer of Glory has been replaced by a new notable -- '''Radiant Crusade''': You and Allies affected by your Aura Skills deal 20% increased Damage, 10% increased Area of Effect for each Summoned Sentinel of Purity, 10% more Damage while you have at least 1 nearby Ally, Herald of Purity has 40% increased Buff Effect, and Summoned Sentinels of Purity have 50% increased Area of Effect. The passive leading to this notable grants 14% increased Armour, 6% increased Maximum Energy Shield, and Minions deal 10% increased Damage.\n}}\n{{Version history table end}}",
+  "sha256": "752ee9265cceb8925613c70c14d22aba3888b3f347434922a7558baa7a9c177f"
+}

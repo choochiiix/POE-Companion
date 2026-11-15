@@ -1,0 +1,35 @@
+{
+  "title": "Slow aura",
+  "pageId": 15261,
+  "revision": 1626772,
+  "timestamp": "2026-03-07T01:46:54Z",
+  "retrieved": "2026-11-14T10:57:44.399354+00:00",
+  "requested": [
+    "Siphoning Charges",
+    "Siphoning Ring",
+    "Siphoning Trap",
+    "Skeletal Shrine",
+    "Skitterbots",
+    "Slipstream",
+    "Slow",
+    "Slow Aura",
+    "Smite Aura",
+    "Smothered",
+    "Snared",
+    "Snipe",
+    "Sniper's Mark",
+    "Snow Bolt",
+    "Snow Cloak",
+    "Snowstorm",
+    "Soaked to the Bone",
+    "Solaris Shrine",
+    "Somatic Shell",
+    "Soothing Salve"
+  ],
+  "aliases": [
+    "Slow Aura"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Slow Aura\n| type                   = Debuff\n| description = Enemies are Slowed\n| bonuses = 25% reduced Movement Speed\n}}\n'''Slow Aura''' is a [[debuff]] caused by a [[monster aura]] from various monster mods. Monster as well as players and their minions affected by the aura also have a purple-pink colour visual effect on them.\n\nIt affects only player and their minions [[movement speed]], but not [[action speed]].\n==Monsters==\n* Any monster with modifier [[Modifier:MonsterImplicitAuraSlow1|MonsterImplicitAuraSlow1]] (implicit), for example:\n** [[Grinning Totem]]\n** [[Stranglecharm]]\n** [[Nadia the Soothing]] and the map variant [[Spirit of Nadia]]\n** [[The Broken Prince]] ({{il|Vaal Pyramid Map}})\n\n===Legacy===\n* Any monster with prefix modifier [[Modifier:MonsterAuraSlow1|MonsterAuraSlow1]] (mod name as well as the debuff were known as \"{{c|mod|Slow Aura}}\", but the mod was displayed as {{c|normal|Enemies are Slowed}} under the monster nameplate).\n:However, this mod is removed from the monster mod pool in version 3.18.0. Although this mod can still be found in permanent leagues' [[The Menagerie]] or itemized beast, which monsters with this mod are captured by the players before the mod's removal.\n\n===Datamined list===\n\n{{modifier table\n|q_where=granted_buff_id = \"monster_aura_slow\" AND  mods.id NOT LIKE \"%StrIntMission%\" AND mods.id NOT LIKE \"%StrDexMaster%\" \n|stat_text=1\n|level=1\n}}\n\n==Gallery==\n<gallery>\nFile:Slow aura and Stranglecharm.png|Unique monster [[Stranglecharm]] and a character affected by Slow Aura debuff and [[Precision]] self-cast aura.\nFile:Slow aura in action 2.png|A rare [[stone golem (monster type)|stone golem]] with Slow aura and a character affected by Slow Aura debuff and Precision, [[Haste]] and [[Flesh and Stone]] self-cast auras.\nFile:QuestFloodedDepths.png|[[The Dweller of the Deep (monster)|The Dweller of the Deep]] before rework, showing slow aura on the monster and the Templar.\n</gallery>\n\n==See also==\n* {{il|Temporal Chains}}, another slowing debuff (a curse) that can appear as a map mod\n* [[Paralysing touch]], a Delirium monster modifier\n* [[Arc Trap]], a debuff from environmental object\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|1.2.0|\n*  [[The Dweller of the Deep (monster)|The Deep Dweller]] has been reworked. He now has two new skills - in his first form he can disturb the ground, calling Sand Spitters to emerge and assist him. He also has an additional skill in his second form where he will fire a spray of projectiles at enemies. He no longer has the '''slowing aura'''.\n}}\n{{Version history table row|1.0.0e|\n* The '''slow aura''' from totems can now be viewed in the UI as a debuff.\n}}\n{{Version history table row|0.9.9|\n'''Monster Changes'''\n* Environmental totems can use auras (such as '''Slow Player''', Haste, [[Cannot die aura|Allies Cannot Die]], Vitality, Monster Damage), or active skills.\n* [[Stranglecharm]] is a new [[Water Elemental]] Boss in [[the Ship Graveyard Cave]]. She has a '''Slow Player aura''' in addition to her {{il|Ice Nova}}.\n}}\n{{Version history table row|0.9.6|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]\n[[Category:Monster auras]]",
+  "sha256": "97ab055348994266fb1cf93568aaaf25a50fec1275115e6ffe832cb7977f063b"
+}

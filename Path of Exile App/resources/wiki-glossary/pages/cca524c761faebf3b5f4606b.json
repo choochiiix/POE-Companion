@@ -1,0 +1,33 @@
+{
+  "title": "Desecrated ground",
+  "pageId": 4949,
+  "revision": 1443977,
+  "timestamp": "2024-05-11T23:24:51Z",
+  "retrieved": "2026-11-14T10:08:27.228512+00:00",
+  "requested": [
+    "Burning ground",
+    "Chilled ground",
+    "Shocked ground",
+    "Consecrated ground",
+    "Desecrated ground",
+    "Ground effect",
+    "Burning",
+    "Ignite",
+    "Chill",
+    "Freeze",
+    "Shock",
+    "Scorch",
+    "Brittle",
+    "Sap",
+    "Bleeding",
+    "Poison",
+    "Ailment",
+    "Elemental ailment",
+    "Non-damaging ailment",
+    "Resistance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Desecrated Ground\n| type                   = Debuff\n| icon = Desecrated Ground status icon.png\n| description = You are taking Chaos Damage while standing on Desecrated Ground\n}}\n[[File:Desecrated ground.jpg|thumb|Desecrated ground]]\n'''Desecrated Ground''' is a detrimental [[ground effect]] that deals [[chaos]] [[damage over time]]. The amount of damage per second inflicted by desecrated ground depends on its source. It is similar to [[caustic ground]], which both deal Chaos DOT.\n\n==Sources==\n* {{il|Desecrate}} (also these bosses use it: [[Paradisae Venenum|Alpha Paradisae]], [[The Brittle Emperor (unique monster)|The Brittle Emperor]], [[Fleshrend, Grand Inquisitor]] and [[Maligaro, The Inquisitor]], etc.)\n* The {{il|Cyclone}} skill used by [[Beheader Ataguchu]] and Q'ura\n\n==Unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n item_stats.id LIKE \"%desecrated%ground%\"\n  OR item_stats.id LIKE \"%desecrate%\"\n|level=1\n|large=1\n|stat=1\n}}\n\n==Related modifiers==\n===Item mods===\n{{Query spawnable modifiers\n|where=mods.domain=1 AND (mod_stats.id LIKE \"%desecrated%ground%\" OR mods.stat_text LIKE \"%Desecrated ground%\")\n|spawn_weights=1\n}}\n\n===Map and vaal side area mods===\nDesecrated ground is one of the map mods that can be rolled on [[maps]] and [[vaal side area]] (known as \"secret_area\" in spawn weight table):\n{{Query spawnable modifiers\n|where=mods.domain=5 AND (mods.stat_text LIKE \"%desecrated ground%\" OR mod_stats.id LIKE \"%ground%desecration%\" )\n|spawn_weights=1\n}}\n\nThe magnitude of the chaos damage varies depending on the map tier: \n{{#cargo_query: \n|tables=mods, mod_stats, spawn_weights\n|fields = CONCAT('[[', mods._pageName, '|', mods.name, ']]')=Name, spawn_weights.tag, mod_stats.max=Damage per minute\n|join on = mods._pageName=mod_stats._pageName, mods._pageName=spawn_weights._pageName \n|where = mods.domain=5 \n AND mods.id LIKE \"Map%DesecratedGround%\" \n AND mod_stats.id LIKE \"%ground%desecration%\"\n AND spawn_weights.weight > 0\n AND (\n     spawn_weights.tag=\"low_tier_map\"\n  OR spawn_weights.tag=\"mid_tier_map\"\n  OR spawn_weights.tag=\"top_tier_map\"\n  OR spawn_weights.tag=\"secret_area\"\n)\n|group by = mods._pageName, mod_stats.id\n|order by = mods._pageName, mod_stats.id\n}}\n====Legacy map mods====\nThe following map mods can only be find in legacy map item in permanent leagues:\n{{Modifier table\n|q_tables = mod_stats, mod_spawn_weights\n|q_join = mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where = mod_stats.id LIKE \"%ground%desecration%\" AND domain = 5\n|q_having = SUM(mod_spawn_weights.value) = 0\n|q_groupBy = mod_spawn_weights._pageID\n|stat_text=1\n|level=1\n|generation_type =1\n|spawn_weights=1\n}}\nThe magnitude of the chaos damage varies depending on the map tier and which legacy mods: \n{{#cargo_query: \n|tables=mods, mod_stats, spawn_weights\n|fields = CONCAT('[[', mods._pageName, '|', mods.name, ']]')=Name, spawn_weights.tag, mod_stats.max=Damage per minute\n|join on = mods._pageName=mod_stats._pageName, mods._pageName=spawn_weights._pageName \n|where = mods.domain=5 \n AND mods.id LIKE \"Map%DesecratedGround%\" \n AND mod_stats.id LIKE \"%ground%desecration%\"\n AND (\n     spawn_weights.tag=\"low_tier_map\"\n  OR spawn_weights.tag=\"mid_tier_map\"\n  OR spawn_weights.tag=\"top_tier_map\"\n  OR spawn_weights.tag=\"old_map\"\n)\n|having = SUM(spawn_weights.weight) = 0\n|group by = mods._pageName, mod_stats.id\n|order by = mods._pageName, mod_stats.id\n}}\n\n===Delve area mods===\n{{Query spawnable modifiers\n|where=mods.domain=17 AND (mods.stat_text LIKE \"%desecrated ground%\" OR mod_stats.id LIKE \"%ground%desecration%\" )\n|spawn_weights=1\n}}\n\nThe magnitude of the chaos damage varies depending on depth: \n{{#cargo_query: \n|tables=mods, mod_stats, spawn_weights\n|fields = required_level, mod_stats.max=Damage per minute\n|join on = mods._pageName=mod_stats._pageName, mods._pageName=spawn_weights._pageName \n|where = mods.domain=17\n AND mods.id LIKE \"MapDesecratedGroundDelve%\" \n AND mod_stats.id LIKE \"%ground%desecration%\"\n AND spawn_weights.weight > 0\n|group by = mods._pageName, mod_stats.id\n|order by = mods._pageName, mod_stats.id\n}}\n\n===Synthesis area mods===\nSynthesis map mods can only appear in Synthesis-related areas\n{{Query spawnable modifiers\n|where=mods.domain=18 AND (mods.stat_text LIKE \"%desecrated ground%\" OR mod_stats.id LIKE \"%ground%desecration%\" )\n|spawn_weights=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.1.0|\n* We've made performance improvements to ground effects. They now use considerably less bandwidth and server resources. Disconnections or lockstep stuttering near ground effects should occur far less often.\n}}\n{{Version history table row|1.0.6|\n* Desecrated Ground, created by the unique Lightbane Raiment and the new skill Desecrate, now deals flat chaos damage per minute rather than a percentage of life as chaos damage.\n}}\n{{Version history table row|0.10.8c|\n* Added buff icons for Consecrated and Desecrated ground effects.\n}}\n{{Version history table row|0.10.8|\n* Added four new Unique items, three of which were designed by our Diamond supporters. There are new general mechanics that first appear on these items: Desecrated Ground is a ground effect that does chaos damage to enemies.\n}}\n{{Version history table end}}\n\n[[Category:Ground effects]]",
+  "sha256": "db9370b61efc6e7042a4bf1848de26263868cf4bf843e81ac4b49b7436f9dbd0"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Replica Headhunter",
+  "pageId": 13665,
+  "revision": 1488510,
+  "timestamp": "2024-10-13T03:36:50Z",
+  "retrieved": "2026-11-14T10:57:39.619211+00:00",
+  "requested": [
+    "Ravenous - Eldritch",
+    "Ravenous - Humanoid",
+    "Ravenous - Undead",
+    "Reap",
+    "Reave",
+    "Red Effluent",
+    "Red Team",
+    "Redeemer Shrine Monster",
+    "Redeemer's Shrine",
+    "Redeemer's Storm",
+    "Refining Tempest",
+    "Reflection",
+    "Regenerating Mana",
+    "Rejuvenation",
+    "Rejuvenation Totem Aura",
+    "Remembrance",
+    "Remnant of Corruption",
+    "Replenishing Shrine",
+    "Replica Headhunter",
+    "Replica Kalisa's Grace"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|is_replica                              = true\n|rarity_id                               = unique\n|name                                    = Replica Headhunter\n|class_id                                = Belt\n|base_item                               = Leather Belt\n|explicit1                               = StrengthUniqueBelt7\n|explicit2                               = DexterityUniqueBelt7\n|explicit3                               = IncreasedLifeUniqueBelt7\n|explicit4                               = DamageOnMagicMonstersUnique__1_\n|explicit5                               = GainMagicMonsterModsOnKillUnique__1_\n|flavour_text                            = \"A type Delta test subject escaped with Prototype #18. He was last seen<br>ten times the height of a man and crashing straight through walls.\"\n|release_version                         = 3.12.0\n|drop_text                               = Replicas can be obtained from [[Curio Display]]s in the final reward rooms of any [[Grand Heist]].\n}}\n\n'''Replica Headhunter''' is a [[unique]] {{il|Leather Belt}}. It is the [[replica]] version of {{il|Headhunter}}.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.18.0e|\n* The '''Replica Headhunter''' Unique Belt now has \"20% chance when you Kill a Magic Monster to gain its Modifiers for 60 seconds\" (previously 20 seconds).\n** The above changes affect existing version.\n* We have done a lot of work on reducing the memory usage of rare monster modifiers so that a greater variety can be present in each area. This means that the number of different mods that Headhunter items can steal is a lot higher than before.\n}}\n{{Version history table row|3.12.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "fa486acc3efb1c397a4a7bbe03c848482dbc69297702b576e63d8edbf591e717"
+}

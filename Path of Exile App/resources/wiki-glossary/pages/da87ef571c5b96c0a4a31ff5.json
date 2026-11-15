@@ -1,0 +1,33 @@
+{
+  "title": "Unmodifiable",
+  "pageId": 97556,
+  "revision": 1618401,
+  "timestamp": "2026-02-25T18:42:02Z",
+  "retrieved": "2026-11-14T10:08:33.955674+00:00",
+  "requested": [
+    "Siphoning charge",
+    "Brutal charge",
+    "Absorption charge",
+    "Affliction charge",
+    "Corrupted blood",
+    "Corrupted",
+    "Unmodifiable",
+    "Mirrored",
+    "Split (item modifier)",
+    "Fractured item",
+    "Synthesised item",
+    "Influenced item",
+    "Quality",
+    "Gem quality",
+    "Transfigured gem",
+    "Vaal skill",
+    "Socket",
+    "Link",
+    "Support gem",
+    "Skill gem"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Unmodifiable''' is a property of certain [[item]]s. An item that is unmodifiable cannot have any of its properties, base [[stat]]s or [[modifier]]s altered by any means. The only exception is that an unmodifiable item ''can'' be [[Identify|identified]]. However, valid item bases can be used on the [[Recombinator]] to create a new item.\n\n==Unmodifiable items==\nItems that are unmodifiable include:\n\n* [[Relic]]s\n* [[Sentinel]]s\n* [[Idol]]s\n\n===Removed items===\n* [[Sanctified relic]]s\n* {{il|Primeval Remnant}}\n* {{il|Primordial Remnant}}\n* [[Tincture]]s (in [[Affliction league]])\n* [[Charm]]s\n* [[Atlas memory|Atlas memories]]\n\n==See also==\n* [[Corrupted]]\n* [[Mirrored]]\n\n[[Category:Item mechanics]]",
+  "sha256": "f56e4574292f6ee7fb90f20848bbebb9c7b6fc1f89e6bce88fae076826725071"
+}

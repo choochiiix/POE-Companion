@@ -1,0 +1,33 @@
+{
+  "title": "Portal",
+  "pageId": 12732,
+  "revision": 1493240,
+  "timestamp": "2024-12-22T04:00:06Z",
+  "retrieved": "2026-11-14T10:09:59.083601+00:00",
+  "requested": [
+    "Low Mana",
+    "loss",
+    "modifiers",
+    "mana cost",
+    "support gems",
+    "mana reservation",
+    "buffs",
+    "auras",
+    "curses",
+    "Mana Burn",
+    "Mana Flask",
+    "Mana Gained on Kill",
+    "Portal",
+    "town",
+    "Body Armour",
+    "Helmets",
+    "Gloves",
+    "Boots",
+    "Mana reservation",
+    "fire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "[[File:Portal_skill_screenshot.jpg|thumb|right|Portal]]\n{{for|the [[currency]] item|Portal Scroll}}\n{{for|the skill|Portal (gem)}}\n\nA '''portal''' is an entity that allows instant travel to and from the [[town]] in the [[Act]] where it is created (or the previous town if the current town is unvisited) and between a [[map]] and a [[hideout]]. The standard blue portal appearance can be changed by purchasing a [[portal_effect|Portal Effect]].\n\nEach [[area]] can only have one portal active at once. It can be moved with [[Portal Scroll|Portal Scrolls]] or the [[Portal (skill gem)|Portal]] gem.\n\n===Portals in Acts===\nPlayer-created portals can be used to travel to town unlimited times by any party members. However, it will disappear once the creator uses it from the town-side. Other party members can use the town-side portal unlimited times. Towns will show portals of other party members who are currently in the same Act of the campaign.\n\nPortals will automatically disappear after the [[instance]] they are linked to has expired. The expiration time for instances is 8 minutes for normal instances and 15 minutes for \"hub\" instances (instances that lead to more than one instance, eg. Mud Flats which leads to Fetid Pool and Submerged Passage). A portal will not expire as long as the instance it is linked to is prevented from expiring (eg. a player stays in it).\n\nWhen joining another players instance in a [[Partying|party]] (by clicking the Portal icon on their party portrait), players will spawn at the portal if one exists.\n\n===Portals created by a Map Device===\nPortals work differently when created by a Map Device and the corresponding portal inside the [[map]]. See [[Map Device]] for more information.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.8.1|\n* Fixed a bug in the display of portal names.\n}}\n{{Version history table end}}\n\n{{sister|poe2wiki}}\n\n[[Category:Game mechanics]]",
+  "sha256": "857aa020eaecacaf404a917d09e1ec10872e0cdc9840622691df7bb6b80b8ecd"
+}

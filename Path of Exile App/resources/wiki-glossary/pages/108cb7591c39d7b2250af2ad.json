@@ -1,0 +1,33 @@
+{
+  "title": "Added damage",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:08:32.306358+00:00",
+  "requested": [
+    "Hit",
+    "Attack",
+    "Spell",
+    "Physical damage",
+    "Fire damage",
+    "Cold damage",
+    "Lightning damage",
+    "Chaos damage",
+    "Elemental damage",
+    "Damage conversion",
+    "Damage taken as",
+    "Added damage",
+    "Damage effectiveness",
+    "Leech",
+    "Life leech",
+    "Mana leech",
+    "Life regeneration",
+    "Mana regeneration",
+    "Energy shield recharge",
+    "Recoup"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

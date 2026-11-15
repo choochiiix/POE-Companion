@@ -1,0 +1,35 @@
+{
+  "title": "Unhallowed Rite",
+  "pageId": 141619,
+  "revision": 1702957,
+  "timestamp": "2026-10-07T10:01:25Z",
+  "retrieved": "2026-11-14T10:57:46.017711+00:00",
+  "requested": [
+    "Spirit Infusion",
+    "Spirit Offering",
+    "Spirit's Blessing",
+    "Spiritual Thirst",
+    "Sporebloom Tincture",
+    "Sprouting Madness",
+    "Staff Mastery",
+    "Static Shrine",
+    "Static Strike",
+    "Static Tether",
+    "Steel Flask",
+    "Steel Shard",
+    "Steel Ward",
+    "Steelskin",
+    "Stibnite Flask",
+    "Stinging Tempest",
+    "Stolen Power",
+    "Stolen modifiers",
+    "Stone",
+    "Stone Gaze"
+  ],
+  "aliases": [
+    "Spirit Infusion"
+  ],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Unhallowed Rite}}\n\n'''Unhallowed Rite''' is a notable [[Ascendancy passive skill]] for the [[Occultist]]. It grants a stack of Spirit Infusion while [[channelling]] a [[spell]], which grants faster [[energy shield]] recharge, more damage with channeling spells, and more [[cost]]. Spirit Infusion stacks are lost after not gaining any in the last 4 seconds.\n\n==Mechanics==\nEach stack of Spirit Infusion grants 15% faster start of Energy Shield Recharge, Channelling Spells deal 5% more Damage and Channelling Spells have 10% more [[Cost]]. Maximum of 10 stacks. You lose one stack every 0.5 seconds if you have not gained a stack in the past 4 seconds.\n\n==Ruthless mode==\n{{infocard\n|header    = Unhallowed Rite (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:EldrichBarrier (Occultist) passive skill icon.png]]</div>\n|2         = Gain Spirit Infusion every 0.5 seconds while Channelling a Spell\n}}\nUnhallowed Rite in [[Ruthless mode]] is unchanged.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.1|\n* Fixed a bug where Forbidden Flame and Forbidden Flesh jewels with the Inquisitor's [[Instruments of Justice]] notable or the Occultist's '''Unhallowed Rite''' notable were being converted to grant other notables when you changed area.\n}}\n{{Version history table row|3.29.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "dcd3ee27fb1a549faf05fb5b27dbf438c229b37ff22017b6f79f746633ee2ecd"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Blightreach",
+  "pageId": 129664,
+  "revision": 1481053,
+  "timestamp": "2024-08-14T15:05:31Z",
+  "retrieved": "2026-11-14T10:57:12.679216+00:00",
+  "requested": [
+    "Black Smoke",
+    "Blackflame Aura",
+    "Blackflame Ignite",
+    "Blackflame Wall",
+    "Blade Flurry",
+    "Blade Vortex",
+    "Bladefall of Trarthus",
+    "Bleeding Immunity",
+    "Blessing of the Storm",
+    "Blightreach",
+    "Blitz Charge",
+    "Block Test",
+    "Blood Barrier",
+    "Blood Bladestorm",
+    "Blood Charges",
+    "Blood Cheat",
+    "Blood Drained",
+    "Blood Offering",
+    "Blood Purge",
+    "Blood Rage"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Blightreach\n| type                   = Buff\n| description            = Found Maps have a chance to drop as Blighted Maps instead\n}}\n\n'''Blightreach''' is a [[buff]] granted by {{psl|Fungal Horizons}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "814be9a837bf9c5202b6adfef4d11914ce28e2ccc9a726352241a39abdc9b4f4"
+}

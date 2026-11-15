@@ -1,0 +1,33 @@
+{
+  "title": "Mark of Dominus",
+  "pageId": 10784,
+  "revision": 1195855,
+  "timestamp": "2022-07-25T11:11:13Z",
+  "retrieved": "2026-11-14T10:57:34.126477+00:00",
+  "requested": [
+    "Malevolence Aura",
+    "Malignant Madness",
+    "Mana Regeneration Aura",
+    "Mana Rune",
+    "Mana Shield",
+    "Mana-Infused Staff",
+    "Mark of Dominus",
+    "Mark of the Synthete",
+    "Marked for Death",
+    "Massive Shrine",
+    "Master of Metal",
+    "Maven's Game",
+    "Maven's Grace",
+    "Maven's Punishment",
+    "Medium Physical Damage Aura",
+    "Metamorphosis",
+    "Might is Right",
+    "Mightblood Ire",
+    "Militarised Coral",
+    "Mine and Trap Test"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "\n{{status\n| name                   = Mark of Dominus\n| type                   = Debuff\n| description = {{c|normal| Sends Miscreations against you, causing them to chase you and explode}}\n}}\n'''Mark of Dominus''' is a [[debuff]] cast onto the player character by [[Dominus]] and his map variants: [[God's Chosen]] and [[The High Templar]]. It sends [[Miscreation]]s against the target (usually the player character), causing Miscreations to chase the target and explode.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n\n[[Category:Debuffs]]\n[[Category:Monster skills]]",
+  "sha256": "ea45545a4097ff917fab4c4c5571846d055eef17eade5302e8e15b2b93179c42"
+}

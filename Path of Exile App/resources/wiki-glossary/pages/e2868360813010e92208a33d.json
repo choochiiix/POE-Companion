@@ -1,0 +1,33 @@
+{
+  "title": "Pain Attunement",
+  "pageId": 12137,
+  "revision": 1605415,
+  "timestamp": "2026-01-06T19:28:20Z",
+  "retrieved": "2026-11-14T10:08:29.722759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Pain Attunement}}\n\n'''Pain Attunement''' is a [[keystone passive skill]] that grants [[more]] [[spell damage]] when the character is on [[low life]].\n\n==Location==\nPain Attunement is a standalone keystone located on the inner layer of the transition area between [[Witch]] and [[Shadow]].\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Shadow||7\n|-\n|Witch||7\n|-\n|Scion||11\n|-\n|Templar||16\n|-\n|Ranger||17\n|-\n|Duelist||21\n|-\n|Marauder||21\n|}\n\n== Interactions ==\nThe [[low life]] condition can be met in various ways, such as {{il|Petrified Blood}}, [[reservation|reserving]] life via {{il|Arrogance Support}}, or {{il|Coward's Legacy}}. \n\nPain Attunement does not [[snapshot]]. Its condition is checked when damage is calculated: on [[hit]], or when a [[damage over time]] effect is created (in the case of DoT affected by spell damage, like {{il|Vortex}}). This means a spell that lowers the player into low life through a [[cost]] or sacrifice (e.g. {{il|Lifetap Support}}, {{il|Sacrifice Support}}) can immediately benefit from Pain Attunement.\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Pain Attunement%\" OR items.stat_text LIKE \"%Random Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.9.9|\n* Increased damage bonus from 25% to 30%.\n}}\n{{Version history table row|0.9.6|\n* Introduced to the game. \n}}\n{{Version history table end}}\n{{sister|poe2wiki}}",
+  "sha256": "514f42ad006b55480d74a6efc212350cf5c034b44f1c73cb53ce0c65b312ed78"
+}

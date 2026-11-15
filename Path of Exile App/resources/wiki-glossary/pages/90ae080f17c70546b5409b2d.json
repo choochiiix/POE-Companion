@@ -1,0 +1,33 @@
+{
+  "title": "Attack and Cast Speed",
+  "pageId": 115948,
+  "revision": 1364288,
+  "timestamp": "2023-07-24T02:00:47Z",
+  "retrieved": "2026-11-14T10:57:11.013901+00:00",
+  "requested": [
+    "Assassin's Mark",
+    "Asset Lock Buff",
+    "Asset Lock Inactive",
+    "Astral Chains",
+    "Astral Protection",
+    "Astrally Empowered",
+    "Attack Impale Chance",
+    "Attack and Cast Speed",
+    "Atziri's Promise",
+    "Augury of Penitence",
+    "Aukuna's Hunt",
+    "Aukuna's Lasso",
+    "Aul's Uprising",
+    "Aura of Death",
+    "Autoexertion",
+    "Automation",
+    "Avian's Flight",
+    "Avian's Might",
+    "Baited Expectations",
+    "Balance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Attack and Cast Speed}}\n\n'''Attack and Cast Speed''' is a [[small passive skill]] that grants increased [[attack speed]] and [[cast speed]].",
+  "sha256": "d31142e90711942ec3b1cec0308eafd27185e4db11bddcae373197f3c252d414"
+}

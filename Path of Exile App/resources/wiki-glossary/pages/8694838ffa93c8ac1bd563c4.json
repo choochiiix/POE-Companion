@@ -1,0 +1,33 @@
+{
+  "title": "Of Lightning",
+  "pageId": 11792,
+  "revision": 1241933,
+  "timestamp": "2022-10-21T16:12:32Z",
+  "retrieved": "2026-11-14T10:11:20.813613+00:00",
+  "requested": [
+    "Ballista Totem",
+    "fortification",
+    "petrified",
+    "of Lightning",
+    "avoid",
+    "Crimson Dance",
+    "Acrobatics",
+    "Sacrifice of Blood",
+    "rune",
+    "Energy Blade",
+    "Temporal Rift",
+    "Tornado",
+    "Runic",
+    "Alva",
+    "Port",
+    "Flasks",
+    "Far Shot",
+    "Race",
+    "pierces",
+    "Kineticism"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''of Lightning''' may refer to the following mods:\n{{Modifier table\n|q_tables=mod_stats, mod_spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where=\n  mods.name = \"of Lightning\"\n|stat_text=1\n|level=1\n|spawn_weights=1\n|domain=1\n|generation_type =1\n}}\n\n{{Disambiguation}}",
+  "sha256": "f692427ca4c68aa643570f97249d0e00dd901d033f2cce6b937a0c1829b33526"
+}

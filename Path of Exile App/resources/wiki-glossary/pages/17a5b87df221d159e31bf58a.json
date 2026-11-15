@@ -1,0 +1,33 @@
+{
+  "title": "Sprouting Madness",
+  "pageId": 15631,
+  "revision": 1482851,
+  "timestamp": "2024-09-04T14:51:49Z",
+  "retrieved": "2026-11-14T10:57:46.016209+00:00",
+  "requested": [
+    "Spirit Infusion",
+    "Spirit Offering",
+    "Spirit's Blessing",
+    "Spiritual Thirst",
+    "Sporebloom Tincture",
+    "Sprouting Madness",
+    "Staff Mastery",
+    "Static Shrine",
+    "Static Strike",
+    "Static Tether",
+    "Steel Flask",
+    "Steel Shard",
+    "Steel Ward",
+    "Steelskin",
+    "Stibnite Flask",
+    "Stinging Tempest",
+    "Stolen Power",
+    "Stolen modifiers",
+    "Stone",
+    "Stone Gaze"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Sprouting Madness\n| type                   = Debuff\n| icon = ElderSiphon.png\n| description = You are slowed.\n}}\n[[File:Sprouting Madness ingame.png|thumb|right|Elder siphon skill and Sprouting Madness status icon. Note that the Ring of Death is not part of the siphon skill.]]\n'''Sprouting Madness''' is a [[debuff]] related to [[The Elder]]'s siphon skill. It is applied while players are in the siphon's cone area of effect.\n\n'''Sprouting Madness''' applies a -80% [[action speed]] (-60% in [[Uber Elder]] encounter) debuff to the player. It can be negated through various methods such as {{il|Kaom's Roots}} or passives from the [[Juggernaut]] or [[Trickster]]. '''Sprouting Madness''' does not deal damage, but the siphon skill also applies [[Fed Upon]], which deals [[Physical damage|physical]] [[damage over time]]. The player must move out of the siphon's area of effect to remove both debuffs.\n==Trivia==\nSprouting Madness shares the same status icon with [[Fed Upon]]. The file name is known as \"ElderSiphon.dds\".\n\n==See also==\n[[Crystalised Fear]], the debuff applied by the \"super siphon\" version of the skill.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "ec5bd3adbb51d7d659c885dfbbb2b5bc08f32653190830627204ee7920609f93"
+}

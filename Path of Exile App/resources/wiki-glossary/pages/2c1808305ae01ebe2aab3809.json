@@ -1,0 +1,33 @@
+{
+  "title": "Poisoned Faith",
+  "pageId": 111503,
+  "revision": 1683075,
+  "timestamp": "2026-07-26T23:44:11Z",
+  "retrieved": "2026-11-14T10:57:37.226114+00:00",
+  "requested": [
+    "Piety's Rage",
+    "Pinned",
+    "Plague",
+    "Plague Bearer",
+    "Plaguebringer",
+    "Players Increased",
+    "Poacher's Mark",
+    "Poison Immunity",
+    "Poisonberry Tincture",
+    "Poisoned Faith",
+    "Poisoned Water",
+    "Polymorphed",
+    "Portal Shredder",
+    "Portent Vapors",
+    "Possession",
+    "Precision Aura",
+    "Preserving Stillness",
+    "Pride",
+    "Primal Aegis",
+    "Primal Malady"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Poisoned Faith\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Even our most devout beliefs are subtly shaped by our darkest desires.\n|drop_level                              = 53\n|tags                                    = weapon_divination, unique_divination, corrupted_divination, unique_corrupted_divination, unique_weapon_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardPoisonedFaith\n|stack_size                              = 8\n|description                             = {{c|unique|{{iil|Arakaali's Fang}}}}<br>{{c|corrupted|Corrupted}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.21.0\n}}\n\n'''Poisoned Faith''' is a [[divination card]]. A set of eight can be exchanged for a [[corrupted]] {{il|Arakaali's Fang}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nPoisoned Faith was created by an anonymous supporter.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Jungle Valley|Sunken City}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Spider Forest|Spider Lair}}\n}}\n{{Version history table row|3.21.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "f2e4c3caaf5def8b679bea18169fe9bfd5bb85596dca76c2b1da2f513025e1f0"
+}

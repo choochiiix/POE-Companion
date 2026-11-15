@@ -1,0 +1,33 @@
+{
+  "title": "Corrupted blood",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:08:33.950112+00:00",
+  "requested": [
+    "Siphoning charge",
+    "Brutal charge",
+    "Absorption charge",
+    "Affliction charge",
+    "Corrupted blood",
+    "Corrupted",
+    "Unmodifiable",
+    "Mirrored",
+    "Split (item modifier)",
+    "Fractured item",
+    "Synthesised item",
+    "Influenced item",
+    "Quality",
+    "Gem quality",
+    "Transfigured gem",
+    "Vaal skill",
+    "Socket",
+    "Link",
+    "Support gem",
+    "Skill gem"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "The Shattered Divinity",
+  "pageId": 17306,
+  "revision": 1702227,
+  "timestamp": "2026-09-01T15:14:36Z",
+  "retrieved": "2026-11-14T10:57:48.403798+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Shattered Divinity\n|class_id                                = Quiver\n|base_item_id                            = Metadata/Items/Quivers/QuiverNew6\n|explicit1                               = HarbingerSkillOnEquipUnique2_4\n|explicit2                               = HybridStrDexUnique__1\n|explicit3                               = AddedFireDamageUnique__2\n|explicit4                               = AddedColdDamageUnique__3\n|explicit5                               = FireAndColdResistUnique__1\n|flavour_text                            = {{glyph|HBGAf}}{{glyph|HBG02}}{{glyph|HBGAt}}{{glyph|HBG03}}{{glyph|HBGAa}}<br>{{glyph|HBGAf}}{{glyph|HBG02}}{{glyph|HBGAm}}{{glyph|HBGC011}}{{glyph|HBGC04}}<br>{{glyph|HBGAa}}{{glyph|HBG00}}{{glyph|HBGAt}}\n|release_version                         = 3.11.0\n|acquisition_tags                        = Harbinger\n|recipe1_description                     = Only available in permanent leagues\n|recipe1_part1_item_name                 = The Fracturing Spinner\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Fragmentation Scroll\n|recipe1_part2_amount                    = 1\n}}\n\n'''The Shattered Divinity''' is a [[unique]] {{il|Blunt Arrow Quiver}}.\n\n==Mechanics==\nThe summoned Harbinger is immortal, and occasionally casts ''The Shattered Divinity'' on the player. ''The Shattered Divinity'' is a [[buff]] that lasts 4 seconds, with a cooldown of 4 seconds, granting one or all of the following: <br>\n* Fire 2 additional Projectiles <br>\n* [[Chain]] 2 additional times <br>\n* Projectiles [[Pierce]] 2 additional targets <br>\n* Projectiles [[Fork]] then Fork an additional time\n\nThis version doubles the projectile modifier bonuses of each buff. In case for Fork, it Forks twice.\n\nThe cooldown of ''The Shattered Divinity'' buff is '''not''' scaled by player cooldown reduction, only the summoning of the harbinger itself, which has a 6 second cooldown.\n\nSee {{sl|Summon Greater Harbinger of Directions}} for more information.\n\n{{Item acquisition}}\n\n==Legacy variants==\nThe Shattered Divinity has a [[legacy variant]].\n\n{{Legacy variant table header|base=yes|level=yes}}\n{{Legacy variant table row|3.17.0|base={{il|metadata_id=Metadata/Items/Quivers/Quiver9}}|level=60\n|\n* {{c|mod|(25-35)% increased Stun Duration on Enemies}}\n|\n* Grants Summon Greater Harbinger of Directions Skill\n* +(30-50) to Strength and Dexterity\n* Adds (19-22) to (30-35) Fire Damage to Spells and Attacks\n* Adds (19-22) to (30-35) Cold Damage to Spells and Attacks\n* +(15-25)% to Fire and Cold Resistances\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Currency can no longer be obtained: Deregulation Scroll, Electroshock Scroll, Fragmentation Scroll, Haemocombustion Scroll, Specularity Scroll, and Time-light Scroll.\n* The following Uniques have been added to the core drop pool: The Immortal Will, The Shattered Divinity, The Surging Thoughts, The Tempest's Liberation, The Torrent's Reclamation, and The Yielding Mortality.\n* Harbinger uniques now provide an additonal {{il|Fracturing Shard}} when [[vendor]]ed.{{Undocumented}}\n}}\n{{Version history table row|3.17.0|\n* Unique Quivers have been reassigned to a base type that is most appropriate for them and their level:\n* Rearguard, The Fracturing Spinner and Shattered Divinity are Blunt Arrow Quivers.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "64ad6f977579f81a1c90f19bbb283d9ccc72a937d13509057dc50f1640db9960"
+}

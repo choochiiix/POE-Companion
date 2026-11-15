@@ -1,0 +1,33 @@
+{
+  "title": "Kalisa's Grace",
+  "pageId": 9083,
+  "revision": 1675451,
+  "timestamp": "2026-07-20T11:40:08Z",
+  "retrieved": "2026-11-14T10:57:31.007163+00:00",
+  "requested": [
+    "Intensity",
+    "Intervention",
+    "Intimidating Cry",
+    "Intuitive Link",
+    "Invulnerability",
+    "Invulnerable",
+    "Iron Flask",
+    "Iron Manacles",
+    "Ironwood Tincture",
+    "Izaro Damage",
+    "Izaro Damage Taken",
+    "Izaro Speed",
+    "Jade Flask",
+    "Jewel Mod Thief",
+    "Jolt",
+    "K'Tash's Anger",
+    "K'Tash's Magnificence",
+    "Kahuturoa's Leadership",
+    "Kalisa's Grace",
+    "Kalisa's Joy"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Kalisa's Grace\n|class_id                                = Gloves\n|base_item                               = Samite Gloves\n|explicit1                               = SupportedByFasterCastUnique__1\n|explicit2                               = IntelligenceUnique__7\n|explicit3                               = LocalIncreasedEnergyShieldUnique__14\n|explicit4                               = IncreasedLifeUnique__62\n|explicit5                               = GainCriticalStrikeChanceOnManaSpentUnique__1\n|flavour_text                            = \"You shall hang, in blissful agony, on my every note.\"<br />- Kalisa, Prima Donna of Sarn\n|drop_level                              = 47\n|release_version                         = 3.1.0\n}}\n{{status\n|name                    = Kalisa's Grace\n|type                    = Buff\n|description             = You have a higher chance of dealing a Critical Strike.\n|bonuses                 = additional_base_critical_strike_chance\n}}\n'''Kalisa's Grace''' is a pair of [[unique]] {{il|Samite Gloves}}.<ref name=\"Upcoming Unique Items\"/>\n\n==Modifiers==\nApplicable [[skill gem]]s socketed in this item are [[Support Skill Gems|support]]ed by level 18 {{il|Faster Casting Support}}. All support stats are accounted for, including the cost and reservation multiplier.\n\n{{Item acquisition}}\n\n{{Foulborn}}\n\n{| class=\"wikitable sortable\"\n|+\n|-\n! Unique item !! Original modifier !! {{c|foulborn|Foulborn modifier}}\n|-\n| Kalisa's Grace || {{c|mod|[[Modifier:SupportedByFasterCastUnique~~1|Socketed Gems are Supported by Level 18 Faster Casting]]}} || {{c|foulborn|[[Modifier:MutatedUniqueGlovesInt4DisplaySocketedGemsSupportedByFocusedChannelling|Socketed Gems are Supported by Level 18 Focused Channelling]]}}\n|-\n| Kalisa's Grace || {{c|mod|[[Modifier:GainCriticalStrikeChanceOnManaSpentUnique~~1|Gain +2% to Critical Strike Chance for 2 seconds after Spending a total of 800 Mana]]}} || {{c|foulborn|[[Modifier:MutatedUniqueGlovesInt4GainManaCostReductionOnManaSpent|100% increased Mana Cost Efficiency for 2 seconds after Spending a total of 800 Mana]]}}\n|}\n\n==Legacy variants==\nFoulborn Kalisa's Grace has a legacy variant:\n{{legacy variant table header}}\n{{legacy variant table row|3.29.0| \n* Socketed Gems are Supported by Level 18 Faster Casting\n* +(20-30) to Intelligence\n* +(50-80) to maximum Energy Shield\n* +(50-70) to maximum Life\n* '''{{c|foulborn|[[Modifier:MutatedUniqueGlovesInt4GainManaCostReductionOnManaSpent|50% reduced Mana Cost of Skills for 2 seconds after Spending a total of 800 Mana]]}}'''\n}}\n{{Legacy variant table end}}\n\n==See also==\n* {{il|Replica Kalisa's Grace}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* The Foulborn Kalisa's Grace Unique Gloves now have 100% increased Mana Cost Efficiency for 2 seconds after Spending a total of 800 Mana (previously 50% reduced Mana Cost of Skills for 2 seconds after Spending a total of 800 Mana). Existing versions of this item are unaffected by these changes.\n}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Upcoming Unique Items\">{{cite web|author=Natalia_GGG|date=November 27, 2017|title=Upcoming Unique Items and Divination Cards|url=https://www.pathofexile.com/forum/view-thread/2033763|publisher=Official Path of Exile Forums|accessdate=November 27, 2017}}</ref>\n}}\n\n{{Navbox Unique Items}}",
+  "sha256": "9ccef76bf5d8c548fffd71fa39ed4bc364d608e53c797a48c230c5011b7751d4"
+}

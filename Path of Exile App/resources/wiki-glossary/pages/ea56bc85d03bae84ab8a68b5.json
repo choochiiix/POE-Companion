@@ -1,0 +1,33 @@
+{
+  "title": "Oppression",
+  "pageId": 89006,
+  "revision": 1459571,
+  "timestamp": "2024-06-01T20:17:24Z",
+  "retrieved": "2026-11-14T10:57:35.693335+00:00",
+  "requested": [
+    "Omnitect's Thruster",
+    "One Step Ahead",
+    "Oppression",
+    "Orb Fire",
+    "Orb of Elemental Essence",
+    "Ornate Dagger",
+    "Otherworldly Pressure",
+    "Outer Deatomisation Storm",
+    "Overflowing Chalice",
+    "Overloaded Intensity",
+    "Overpowered",
+    "PC Bang Entitlements",
+    "PURPLE BUFF",
+    "Pacified",
+    "Pacify",
+    "Paralysing Touch",
+    "Penance",
+    "Penance Brand",
+    "Perquil's Toe",
+    "Pestilent Strike"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Oppression\n| type                   = Debuff\n| icon = Oppression status icon.png\n| description = You are slowed and deal 50% less Damage and take 50% increased Damage.\n| bonuses                = {{c|mod|20% reduced Movement Speed}}<br>{{c|mod|Deal 50% less Damage}}<br>{{c|mod|50% increased Damage Taken}}\n}}\n\n'''Oppression''' is a [[debuff]] that causes the affected target to have reduced [[movement speed]], deal less damage, and take increased damage. \n\nIt can be applied by enemies with the \"Malediction\" [[Archnemesis modifier]].\n\n[[Category:Debuffs]]",
+  "sha256": "da6adf1cda5e3af43a36aeada141ab92082bdd576421a3b2ab4b2007d297f9b6"
+}

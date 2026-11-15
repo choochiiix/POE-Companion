@@ -1,0 +1,33 @@
+{
+  "title": "Malediction",
+  "pageId": 10615,
+  "revision": 1596483,
+  "timestamp": "2025-11-24T14:13:51Z",
+  "retrieved": "2026-11-14T10:57:33.345677+00:00",
+  "requested": [
+    "Lioneye's Arrows",
+    "Liquid Gold",
+    "Livewire",
+    "Living Crystals",
+    "Lonely Warrior",
+    "Loyalty",
+    "Lucky Arc",
+    "Lunar Protection",
+    "Lunar Resistance",
+    "Lunaris Shrine",
+    "Lustrous Lacquer",
+    "Maata's Leadership",
+    "Magmatic Strikes",
+    "Magnetic Storm",
+    "Maim Immunity",
+    "Malachai Spores",
+    "Malachai's Endurance",
+    "Malachai's Frenzy",
+    "Malachai's Power",
+    "Malediction"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the ascendancy passive skill formerly known as Malediction|Unholy Authority}}\n{{status\n|name                    = Malediction\n|type                    = Debuff\n|bonuses                 = 10% reduced Damage Dealt<br>10% increased Damage Taken\n|description = You are dealing reduced Damage and taking increased Damage\n}}\n\n[[File:Malediction status screenshot.png|thumb|Malediction effect (purple)]]\n\n'''Malediction''' is a [[debuff]] that causes affected targets to deal reduced damage and take increased damage.\n\n==Related unique items==\nThe following [[unique item]]s are related to Malediction:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Malediction%\" \n  OR items.name IN (\"Glimpse of Chaos\", \"Cinderswallow Urn\")\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\nThe table below displays [[passive skills]] related to Malediction.\n\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%Malediction%\" AND passive_skills.id NOT LIKE \"%AlternateAscendancy%\" AND passive_skills.id NOT LIKE \"%AscendancyCustom%\"\n}}\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] [[passive skill]]s are related to Malediction:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n AND passive_skills.stat_text LIKE \"%Malediction%\"\n|large=1\n|stat_text=1\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Malediction:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%Malediction%\"\n}}\n\n===Bloodline Ascendancy passive skills===\n{{Query passive skills\n|where=\n  passive_skill_stats.id LIKE \"%Malediction%\" AND passive_skills.id LIKE \"%AlternateAscendancy%\"\n}}\n\n==Related modifiers==\nThe following [[modifier]]s are related to Malediction:\n{{Query spawnable modifiers\n|q_where=mod_stats.id LIKE \"%blight_scout_tower_minions_inflict_malediction%\"\n|generation_type=1\n|level=1\n|stat_text=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.23.1|\n* Fixed a bug where the Malediction debuff icon was missing a description.\n}}\n{{Version history table row|3.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "982f817e18316fe6883f362f442d837adf654fbe8650a44a7dd8f077a2bff84e"
+}

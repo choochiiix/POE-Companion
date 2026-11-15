@@ -1,0 +1,33 @@
+{
+  "title": "Taste of Hate",
+  "pageId": 16362,
+  "revision": 1677338,
+  "timestamp": "2026-07-22T14:06:21Z",
+  "retrieved": "2026-11-14T10:57:47.571157+00:00",
+  "requested": [
+    "Tainted Power Charges",
+    "Tarred Ground",
+    "Tasalio's Blessing",
+    "Taste of Blood",
+    "Taste of Hate",
+    "Taunted",
+    "Tawhanuku's Leadership",
+    "Tawhoa's Remedies",
+    "Tears of Rot",
+    "Tempest Shield",
+    "Temporal Anomaly",
+    "Temporal Bubble",
+    "Temporal Interference",
+    "Tenacious Vigor",
+    "Tender Embrace",
+    "Test",
+    "The Basics",
+    "The Battle Within",
+    "The Beast",
+    "The Betrayal"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Taste of Hate\n|class_id                                = UtilityFlask\n|base_item                               = Sapphire Flask\n|explicit1                               = FireLightningTakenSsColdUniquFlask8\n|explicit2                               = PhysicalAddedAsColdUniqueFlask8\n|explicit3                               = AvoidChillUniqueFlask8\n|explicit4                               = AvoidFreezeUniqueFlask8\n|flavour_text                            = A sip will freeze your lips,<br>A swig will chill your heart,<br>A glass will still your soul.\n|drop_level                              = 50\n|release_version                         = 1.3.0\n|alternate_art_inventory_icons           = race season 10\n|recipe1_description                     = {{c|unique|Taste of Hate}}\n|recipe1_part1_item_name                 = The Hunger\n|recipe1_part1_amount                    = 9\n}}\n{{status\n| name                   = Taste of Hate\n| type                   = Flask Effect\n| description = \n}}\n'''Taste of Hate''' is a [[unique]] {{il|Sapphire Flask}}. \n\n==Modifiers==\nTaste of Hate causes some of the incoming fire and lightning damage to be [[Damage taken as|taken as]] cold damage. This effect only applies to [[hit]]s and will not modify incoming [[damage over time]]. It is not the same mechanic as [[damage conversion]]. \n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.50 seconds instead.\n\n==Legacy variants==\nTaste of Hate has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.25.0|\n* {{c|mod|(10-15)% of Physical Damage from Hits taken as Cold Damage during Effect}}\n* Gain (10-15)% of Physical Damage as Extra Cold Damage during effect\n* 30% chance to Avoid being Chilled during Effect\n* 30% chance to Avoid being Frozen during Effect}}\n{{legacy variant table row|3.15.0|\n* {{C|mod|20% of Physical Damage from Hits taken as Cold Damage during Flask effect}}\n* {{C|mod|Gain (15-20)% of Physical Damage as Extra Cold Damage during effect}}\n* 30% chance to Avoid being Chilled during Flask effect\n* 30% chance to Avoid being Frozen during Flask effect}}\n{{legacy variant table row|3.0.0|\n* {{C|mod|20% of Physical Damage from Hits taken as Cold Damage during Flask effect}}\n* {{c|mod|Gain (20-30)% of Physical Damage as Extra Cold Damage during effect}}\n* 30% chance to Avoid being Chilled during Flask effect\n* 30% chance to Avoid being Frozen during Flask effect}}\n{{legacy variant table row|2.2.0|\n* {{C|mod|30% of Physical Damage from Hits taken as Cold Damage during Flask effect}}\n* {{c|mod|Gain 30% of Physical Damage as Extra Cold Damage during effect}}\n* 30% chance to Avoid being Chilled during Flask effect\n* 30% chance to Avoid being Frozen during Flask effect}}\n{{Legacy variant table end}}\n\n==Alternate artwork==\n{|\n| [[File:Taste of Hate race season 10 inventory icon.png|78px]] || [[Race season 10]] prize for reaching 1000 RP.\n\nUsing the <kbd>/convertracereward</kbd> [[chat command]], this item can be transformed into a flask skin, {{il|Alternate Art Taste of Hate}}. Be aware that the skin cannot be traded to other players or turned back into the original item.\n\n|-\n| [[File:Taste of Hate Relic inventory icon.png|78px]] || Rainbow [[Foil]] from [[Ancient Reliquary]] ({{il|Ancient Reliquary Key}} is a [[Legacy league]]s-limited drop)\n|}\n\nBoth versions have legacy mods listed in [[#Legacy variants]].\n\n\nIt is also available in [[Voidborn Reliquary]] (as Voidborn foil colors), as well as [[Valdo's Map]]s (in Celestial foil colors).\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.1|\n* Fixed a bug with the Taste of Hate Unique Flask where its Chill and Freeze Avoidance, and Physical as Added Cold Damage effects were not applying.\n}}\n{{Version history table row|3.25.0|\n* The Taste of Hate Unique Flask no longer has 10-15% of Physical Damage from Hits taken as Cold Damage during Effect. Instead, it now has 20-30% of Fire and Lightning Damage from Hits taken as Cold Damage during Effect.\n}}\n{{Version history table row|3.24.0|\n* Alternate-art Unique Items can now be converted to account-bound microtransactions using the new <kbd>/convertracereward</kbd> chat command. The item will be destroyed, and you will be granted an account-bound microtransaction that changes the appearance of an item of the same type to match that of the destroyed item.\n}}\n{{Version history table row|3.15.0|\n* Now has '10-15% of Physical Damage from Hits taken as Cold Damage' (previously 20%), and 'Gain 10-15% of Physical Damage as Extra Cold Damage during effect' (previously 15-20%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n* The basetype, {{il|Sapphire Flask}}, now last 5 seconds (previously 4). They now consume 20 of 50 Charges on use (previously 30 of 60).\n}}\n{{Version history table row|3.9.0|\n* Artwork changed. {{Undocumented}}\n}}\n{{Version history table row|3.5.0|\n* The basetype, {{il|Sapphire Flask}}, no longer grant added maximum resistances. Instead, reduce the damage taken of cold damage by 20%.\n}}\n{{Version history table row|3.0.0|\n* Physical Damage added as extra Cold Damage lowered to 15-20%.\n}}\n{{Version history table row|2.2.0|\n* Taste of Hate now only makes you take 20% of physical damage as cold damage. It now adds 20-30% of physical as cold, rather than always 30%.\n}}\n{{Version history table row|1.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "8312cd9cc7c05f72658c47bef7bcb91062cfdd6c0cede6b4a7dc6ea4d8a1868c"
+}

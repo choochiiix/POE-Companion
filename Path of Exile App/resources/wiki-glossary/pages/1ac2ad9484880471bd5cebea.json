@@ -1,0 +1,33 @@
+{
+  "title": "Boon of the First Ones",
+  "pageId": 2403,
+  "revision": 1682619,
+  "timestamp": "2026-07-26T23:31:07Z",
+  "retrieved": "2026-11-14T10:57:13.545155+00:00",
+  "requested": [
+    "Blood Ritual",
+    "Blood Sap Tincture",
+    "Blood Shrine of Bats",
+    "Blood Shrine of Crows",
+    "Blood Shrine of Locusts",
+    "Blood Shrine of Rats",
+    "Blood Shrine of Toads",
+    "Blood Stance",
+    "Blood of the Karui",
+    "Blue Team",
+    "Boiling Blood",
+    "Bone Armour",
+    "Bone Offering",
+    "Bone Roil",
+    "Boon of Justice",
+    "Boon of the First Ones",
+    "Borealwood Tincture",
+    "Borrowed Power",
+    "Bottled Purity",
+    "Boulderdash Angry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the divination card|the ascendancy passive skill|Boon of the First Ones (ascendancy passive skill)}}\n\n{{Item\n|rarity_id                               = normal\n|name                                    = Boon of the First Ones\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Wreathed in the skin and bones<br>of the beasts she slew, <br>her gift came from what she lost: <br>her humanity.\n|drop_level                              = 68\n|tags                                    = unique_divination, boss_drop_card, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardBoonOfTheFirstOnes\n|stack_size                              = 6\n|description                             = {{c|unique|Bestiary Item}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.4.0\n}}\n\n'''Boon of the First Ones''' is a [[divination card]]. A set of six can be exchanged for a random [[unique item]] that can drop only from the [[Spirit Beasts]].\n\n{{Item acquisition}}\n\n==Design attribution==\nBoon of the First Ones was created by supporter [https://www.pathofexile.com/account/view-profile/aneruok1 aneruok1].{{Citation needed}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Drop level changed from 72 to 68. {{Undocumented}}\n}}\n{{Version history table row|3.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "f36d683d0e03bb5a484e5f3d23796155b21fe8328e47a59c2dbefaa1c49cd99d"
+}

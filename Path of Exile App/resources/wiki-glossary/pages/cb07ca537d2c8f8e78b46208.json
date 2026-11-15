@@ -1,0 +1,33 @@
+{
+  "title": "One Step Ahead",
+  "pageId": 97189,
+  "revision": 1592662,
+  "timestamp": "2025-11-10T05:15:14Z",
+  "retrieved": "2026-11-14T10:57:35.693335+00:00",
+  "requested": [
+    "Omnitect's Thruster",
+    "One Step Ahead",
+    "Oppression",
+    "Orb Fire",
+    "Orb of Elemental Essence",
+    "Ornate Dagger",
+    "Otherworldly Pressure",
+    "Outer Deatomisation Storm",
+    "Overflowing Chalice",
+    "Overloaded Intensity",
+    "Overpowered",
+    "PC Bang Entitlements",
+    "PURPLE BUFF",
+    "Pacified",
+    "Pacify",
+    "Paralysing Touch",
+    "Penance",
+    "Penance Brand",
+    "Perquil's Toe",
+    "Pestilent Strike"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|One Step Ahead}}\n\n'''One Step Ahead''' is a notable [[Ascendancy passive skill]] for the [[Trickster]] that sets the user's [[action speed]] minimum to 90% and nearby monsters' maximum action speed to 90%.\n\n==Mechanics==\nThis passive affects modifiers to [[action speed]], such as [[Tailwind]] and [[Chill]]. Effects that can set the user's action speed to 0% such as [[Freeze]] and [[Petrify]] will have its effects greatly mitigated, allowing to benefit from self-freeze mechanics or {{il|Replica Rumi's Concoction}} at a much lower downside. It also mitigates the action speed reduction of {{il|Temporal Chains}} without affecting the slower [[expiration rate]] of various effects, making it useful for self-curse builds.  \n\nIt does not affect [[Movement Speed]] slows like [[Maim]] and [[Hinder]].\n\nNote that the slow effect only applies to enemy [[monster]]s, and will not affect other players in a [[PVP]] setting.\n\nThe [[distance]] of the slowing aura is 60 units.\n\n==Ruthless mode==\n{{infocard\n|header    = One Step Ahead (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:OneStepAheadTrickster (Trickster) passive skill icon.png]]</div>\n|2         = Your Action Speed is at least 90% of base value<br>Nearby Enemy Monsters' Action Speed is at most 90% of base value\n}}\n\nOne Step Ahead in [[Ruthless mode]] is unchanged.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* The One Step Ahead Notable Ascendancy Passive Skill now has Your Action Speed is at least 90% of base value (previously 108%), and Nearby Enemy Monsters' Action Speed is at most 90% of base value (previously 92%).\n}}\n{{Version history table row|3.19.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "02785cc3001fa355082aa2a9a3367ea308aa762f0701e521f2002388b9ac630c"
+}

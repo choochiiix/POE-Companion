@@ -1,0 +1,33 @@
+{
+  "title": "Gluttony",
+  "pageId": 7370,
+  "revision": 1703818,
+  "timestamp": "2026-11-02T14:22:19Z",
+  "retrieved": "2026-11-14T10:57:26.335266+00:00",
+  "requested": [
+    "Gathering Lightning",
+    "Ghastly Scythe",
+    "Ghorr's Magnificence",
+    "Ghostflame Graveyard",
+    "Glimpse of Infinity",
+    "Gloom Shrine",
+    "Glorious Madness",
+    "Glowing Orb",
+    "Gluttony",
+    "Goddess Beam",
+    "Gold Flask",
+    "Golden Descry",
+    "Golden Lantern's Glow",
+    "Grace Aura",
+    "Grace Period",
+    "Granite Flask",
+    "Grasping Chains",
+    "Grasping Hooks",
+    "Grasping Nightshade",
+    "Grasping Ornaments"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the unique item|the support gem|Gluttony Support}}\n{{Item\n|required_level = 48\n|rarity_id                               = unique\n|name                                    = Gluttony\n|class_id                                = Belt\n|base_item                               = Leather Belt\n|explicit1                               = IncreasedLifeUnique__78 <!-- Plenty of other possible mods -->\n|explicit2                               = CullingStrikeCursedEnemyUnique__1_\n|explicit3                               = LifeGainOnHitCursedEnemyUnique__1\n|explicit4                               = ManaGainOnHitCursedEnemyUnique__1\n|explicit5                               = DamageOnMovementSkillUnique__1\n|explicit6                               = NoArmourOrEnergyShieldUnique__1_\n|flavour_text                            = What started as a desire to feed<br>became a desire to learn...\n|release_version                         = 3.2.2b\n|recipe1_description                     = {{c|unique|Gluttony}}\n|recipe1_part1_item_name                 = Thirst for Knowledge\n|recipe1_part1_amount                    = 5\n}}\n\n'''Gluttony''' is a [[unique]] {{il|Leather Belt}}.\n\n==Mechanics==\n* [[Culling strike|Culling strikes]] kill enemies that would have had 10% of health left after receiving damage from the hit.\n* {{c|mod|Take (100-200) Physical Damage when you use a Movement Skill}}: the [[self-damage]] counts as a hit of [[Secondary damage]], and does count for effects that trigger 'when hit' or 'when you take damage from hits', however this damage cannot be [[Block|blocked]], [[Spell suppression|suppressed]], or [[Dodge|dodged]] or cause [[stun]].\n\n\n{{Item acquisition}}\n\n==Legacy variants==\nGluttony has a [[legacy variant]].\n\n{{legacy variant table header}}\n{{legacy variant table row|3.12.0|+(25-40) to maximum Life|\n* {{c|mod|Trigger Level 30 Poacher's Mark when you hit a Rare or Unique Enemy}}\n* +(60-80) to maximum Life\n* {{c|mod|Culling Strike against Enemies Cursed with Poacher's Mark}}\n* Take (100-200) Physical Damage when you use a Movement Skill\n* You have no Armour or Maximum Energy Shield\n}}\n{{Legacy variant table end}}\n\n==Design attribution==\nGluttony was created by supporter [https://www.pathofexile.com/account/view-profile/JohnOldman JohnOldman] (reddit username: MountainK1ng).<ref name=\"Supporter Attribution\" />\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* now has a level requirement of 48 (previously 8). This change was introduced unintentionally in 3.12.0.{{efn|name=patchnotetypo}}\n}}\n{{Version history table row|3.12.0|\n* No longer has level 30 Poacher's Mark on hit. No longer grants Culling Strike against enemies cursed with Poacher's Mark. Now grants 20 to 28 Life on hit with Attacks against Cursed Enemies, 10 to 14 Mana on hit with Attacks against Cursed enemies, and Culling Strike against Cursed Enemies. \n* Now has an equip level of 8 as a bug. {{Undocumented}}\n}}\n{{Version history table row|3.2.2b|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==Notes==\n{{Notelist|notes=\n{{efn|name=patchnotetypo|The original GGG patch notes misstated that the bug is introduced in version 3.13.0, but in fact it is introduced in version 3.12.0 due to the rework of the unique. During version 3.12.0 to 3.13.2c, people are able to acquire this belt from using {{il| Ancient Orb}} on ilvl 40 unique belt. }}\n}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Supporter Attribution\">{{cite web|author=MountainK1ng|date=April 5, 2018|title=Upcoming unique in 3.2.2b - Gluttony|url=https://www.reddit.com/r/pathofexile/comments/8a0cph/upcoming_unique_in_322b_gluttony/dwutau3/|publisher=Path of Exile Subreddit|accessdate=May 13, 2018}}</ref>\n}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique items created by supporters]]",
+  "sha256": "edacad1d3cbc63fd87a20bc72e8df2c8964f9419a4e391372504b30e3076fe29"
+}

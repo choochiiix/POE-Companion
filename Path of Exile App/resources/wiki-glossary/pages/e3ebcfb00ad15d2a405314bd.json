@@ -1,0 +1,33 @@
+{
+  "title": "Bastion of Hope",
+  "pageId": 1722,
+  "revision": 1490177,
+  "timestamp": "2024-10-13T04:52:28Z",
+  "retrieved": "2026-11-14T10:57:11.808494+00:00",
+  "requested": [
+    "Balek's Gift",
+    "Bane",
+    "Bane of the Loyal",
+    "Baranite Cleric's Aura",
+    "Bark",
+    "Barnacles",
+    "Baryatic Tension",
+    "Basalt Flask",
+    "Bastion of Hope",
+    "Batrachian Procession",
+    "Battlemage's Cry",
+    "Beauty Through Death",
+    "Behead",
+    "Beidat's Magnificence",
+    "Beidat's Wrath",
+    "Berserk Fury",
+    "Bestial Roar",
+    "Binding Chains",
+    "Bino's Life Regeneration",
+    "Bismuth Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Bastion of Hope}}\n\n'''Bastion of Hope''' is a notable [[Ascendancy passive skill]] for the [[Guardian]] that grants yourself and nearby [[ally|allies]] additional attack or spell [[block]] chance if you've used an [[attack]] or [[spell]] [[recently]], respectively.\n\n==Interactions==\nBastion of Hope will not work with attacks or spells that are [[trigger|triggered]]. A provided example for spells is utilizing {{il|Mjölner}} with a socketed {{il|Arc}}- using an attack with Mjölner will grant '''Bastion of Hope's''' Attack Block Chance, but will not do so for its Spell Block Chance. This same interaction also occurs with the usage of any channelling attack, such as {{il|Cyclone}}, linked with {{il|Cast while Channelling Support}} and any non-channelling spell. The inverse will also occur when casting a spell that triggers an attack, such as a {{il|Toxic Rain}} triggered by {{il|Replica Maloney's Mechanism}}.\n\n==Ruthless mode==\n{{infocard\n|header    = Bastion of Hope (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:ShieldMastery (Guardian) passive skill icon.png]]</div>\n|2         = If you've Attacked Recently, you and nearby Allies have +15% Chance to Block Attack Damage<br>If you've Cast a Spell Recently, you and nearby Allies have +15% Chance to Block Spell Damage\n}}\n\nBastion of Hope in [[Ruthless mode]] grants a lower amount of block/spell block.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* No longer provides {{c|mod|+50% Chance to [[Block]] Attack Damage for 2 seconds every 5 seconds}} or {{c|mod|If you've Blocked in the past 10 seconds, you and nearby Allies cannot be Stunned}}.\n* Additional block chance to you and allies if you've used an attack or spell recently increased from +10% to +25%.\n* {{Ruthless}} Now provides \"If you've Attacked Recently, you and nearby Allies have +15% Chance to Block Attack Damage\" and \"If you've Cast a Spell Recently, you and nearby Allies have +15% Chance to Block Spell Damage\" in Ruthless (both +25% in non-Ruthless).\n}}\n{{Version history table row|3.2.0|\n* No longer grants 5% additional Block Chance.\n* Duration of stun immunity after blocking a hit increased from 4 seconds to 10 seconds.\n* Added {{c|mod|If you've Attacked Recently, you and nearby Allies have +10% Chance to Block Attack Damage}} and {{c|mod|If you've Cast a Spell Recently, you and nearby Allies have +10% Chance to Block Spell Damage}}.\n}}\n{{Version history table row|2.3.0|\n* Added {{c|mod|50% additional Block Chance for 1 second every 5 seconds}}.\n}}\n{{Version history table row|2.2.2|\n* The Guardian skill Bastion of Hope now has a radius of 60 (increased from 40). This radius is no longer affected by bonuses to the radius of skills.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "28f2842808a9ec78c7e364214c59039bd109e8850f08cd74e20fb5b6b080eeb0"
+}

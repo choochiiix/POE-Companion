@@ -1,0 +1,33 @@
+{
+  "title": "Diamond Flask",
+  "pageId": 5051,
+  "revision": 1488339,
+  "timestamp": "2024-10-13T03:30:38Z",
+  "retrieved": "2026-11-14T10:57:19.163651+00:00",
+  "requested": [
+    "Death Geas",
+    "Death Prevention",
+    "Death Rhoomba",
+    "Death Wish",
+    "Death's Oath",
+    "Deathly Chill",
+    "Decaying Memory",
+    "Deep One's Presence",
+    "Defiance",
+    "Defiance Banner",
+    "Degeneration Aura",
+    "Demigod's Authority",
+    "Demon's Power",
+    "Demonic Skull",
+    "Desolation of the Awakener",
+    "Destructive Link",
+    "Determination Aura",
+    "Devouring Darkness",
+    "Devouring Tempest",
+    "Diamond Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Diamond Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility1\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 27\n|flask_duration                          = 6\n|buff_id                                 = flask_utility_critical_strike_chance\n|buff_value1                             = 100\n|buff_stat_text                          = 100% increased Global [[Critical Strike Chance]]\n|charges_max                             = 40\n|charges_per_use                         = 20\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Key to Freedom\n|quest_reward1_quest_id                  = a5q2\n|quest_reward1_act                       = 5\n|quest_reward2_type                      = quest\n|quest_reward2_quest                     = The Silver Locket\n|quest_reward2_quest_id                  = a7q5\n|quest_reward2_act                       = 7\n}}\n{{status\n| name                   = Diamond Flask\n| type                   = Flask Effect\n|description = You have increased Critical Strike Chance \n}}\n\n'''Diamond Flask''' is a [[utility flask]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Gallery==\n<gallery>\nDiamond Flask effect.jpg|Diamond Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''6''' seconds (previously 4).\n}}\n{{Version history table row|3.15.0|\n* Diamond Flask no longer grants 'Your Critical Strike Chance is Lucky'. It now grants 100% increased Critical Strike Chance.\n* The {{Ml|FlaskChanceRechargeOnCrit1}} (at that time known as {{c|mod|Surgeon's}}) Flask Prefix can now roll on Diamond Flasks.\n** {{ml|FlaskEffectReducedDuration1}} (at that time known as {{c|mod|Alchemist's}}) can also roll on Diamond Flasks. {{Undocumented}}\n* Diamond Flask item class now \"Utility Flasks\" instead of \"Utility Flask Critical\".<ref name=\"Expedition item filter info\" />\n* Upon completing {{ql|The Key to Freedom}}, you are now offered a choice of the following rewards: {{il|Ruby Flask}}, {{il|Sapphire Flask}}, {{il|Topaz Flask}}, {{il|Amethyst Flask}}, '''Diamond Flask''', {{il|Granite Flask}}, or {{il|Jade Flask}}.\n}}\n{{Version history table row|3.0.0|\n* Now a quest reward of {{ql|The Silver Locket}}\n}}\n{{Version history table row|2.2.0|\n* '''Diamond Flasks''' now last for 4 seconds (increased from 3.5 seconds) and consume 20 of 40 charges (down from 80 of 80).\n}}\n{{Version history table row|0.11.1|\n* '''Diamond Utility Flasks''' have returned! They make your Critical Strike Chance \"Lucky\" for 3.5 seconds (that is, your Critical Strike Chance is rolled twice, with the best result taken). \n}}\n{{Version history table row|0.10.0|\n* Start of open beta.\n* GGG disabled '''Diamond flasks''' until they've rebalanced the flasks properly. \n}}\n{{Version history table row|0.9.13b|\n* Now display an effect on your character when being used.\n}}\n{{Version history table row|0.9.13b|rel=before|\n* Introduced to the game. (The flask existed since 0.10.0 the open beta and at least some point of closed beta (0.9.X))\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Expedition item filter info\">{{cite web\n|author = Community_Team\n|date = July 20, 2021\n|title = Expedition Patch Notes, Item Filter and Passive Tree Information\n|url = https://www.pathofexile.com/forum/view-thread/3147480\n|publisher = Official Path of Exile Forums\n|accessdate = July 21, 2021\n}}</ref>\n}}",
+  "sha256": "3487d449b0c6c7d577742d1bc7bfe84b0c8b8f5dff77ef982fcf9cfb9d13fbc7"
+}

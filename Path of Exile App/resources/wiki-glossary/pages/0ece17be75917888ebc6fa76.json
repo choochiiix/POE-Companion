@@ -1,0 +1,33 @@
+{
+  "title": "Unstoppable Hero",
+  "pageId": 18409,
+  "revision": 1536929,
+  "timestamp": "2025-06-06T17:35:42Z",
+  "retrieved": "2026-11-14T10:57:50.751934+00:00",
+  "requested": [
+    "Tsoagoth Shrine",
+    "Tsoatha's Fodder",
+    "Tsoatha's Fury",
+    "Unbound",
+    "Unbound Fury",
+    "Undying Rage",
+    "Unholy Damage",
+    "Unholy Scalding",
+    "Unholy Urn",
+    "Union of Souls",
+    "Unrighteous Fire",
+    "Unstoppable Hero",
+    "Untuned Lute",
+    "Unwavering Crusade",
+    "Upheaval Buff",
+    "Ursine Procession",
+    "Utula's Leadership",
+    "Vaal Arctic Armour",
+    "Vaal Arctic Armour Buff",
+    "Vaal Blade Flurry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Unstoppable Hero}}\n\n'''Unstoppable Hero''' is an [[Ascendancy passive skill]] for the [[Champion]] that grants increased [[attack speed]] and more [[Armour]] and [[Evasion]] Rating for each stack of [[Fortification]] above the maximum limit of 20.\n\n==Ruthless mode==\nUnstoppable Hero in [[Ruthless mode]] is unchanged.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* The Unstoppable Hero Ascendancy Passive Skill no longer causes Nearby Allies to count as having Fortification equal to yours. It now grants 3% more Armour and Evasion Rating per Fortification above 20, and 3% increased Attack Speed per Fortification above 20.\n}}\n{{Version history table row|3.25.0|\n* The Unstoppable Hero Ascendancy Passive Skill has swapped positions with [[Fortitude]]. Unstoppable Hero no longer grants 20% increased Attack Speed while Fortified, +500 to Armour and Evasion Rating while Fortified, or \"Cannot be Stunned while Fortified\". Instead, it now provides \"Nearby Allies count as having Fortification equal to yours\".\n}}\n{{Version history table row|3.22.0|\n* The {{psl|Unstoppable Hero}} and {{psl|Fortitude}} Ascendancy Passive Skills have swapped position on the Champion Ascendancy in Ruthless.\n* No longer provides \"20% increased Attack Speed while Fortified\", \"+500 to Armour and Evasion Rating while Fortified\" or \"Cannot be Stunned while Fortified\" in Ruthless. It now provides \"Nearby Allies count as having Fortification equal to yours.\"\n}}\n{{Version history table row|3.13.0|\n* Increased attack speed while you have fortify from 10% to 20%\n* Reduced armour and evasion rating while you have fortify from 1000 to 500\n* Removed {{c|mod|30% increased Attack Damage while you have Fortify}}\n}}\n{{Version history table row|3.7.0|\n* Now grants 30% increased attack damage (rather than melee damage) while you have fortify.\n}}\n{{Version history table row|3.2.0|\n* Removed {{c|mod|30% increased Melee Damage while you have Fortify}}.\n* Added {{c|mod|+1000 to Armour and Evasion while you have Fortify}} and {{c|mod|Cannot be Stunned while you have Fortify}}\n}}\n{{Version history table row|2.3.0|\n* Bonuses changed:\n** Removed: 8% increased Movement Speed while you have Fortify, 10% increased effect of Fortify on you\n** Added: 30% increased Armour and Evasion while you have Fortify, 30% increased Melee Damage while you have Fortify\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "ef23971dd5ca150cc83572e422cb01921c909c3036eb9e48a3c0127902ad7489"
+}

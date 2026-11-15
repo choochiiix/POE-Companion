@@ -1,0 +1,33 @@
+{
+  "title": "Ghost Reaver",
+  "pageId": 7202,
+  "revision": 1638526,
+  "timestamp": "2026-03-29T10:31:50Z",
+  "retrieved": "2026-11-14T10:08:29.721759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Ghost Reaver}}\n\n'''Ghost Reaver''' is a [[keystone passive skill]] that causes the player to leech [[energy shield]] instead of [[life]], and doubles the maximum total recovery per second from energy shield leech, with the downside of disabling energy shield recharge.\n\n==Mechanics==\nGhost Reaver makes any effect that would grant life leech grant ES leech instead, including non-standard sources of life leech, such as {{il|Machina Mitts}} or {{il|The Baron}}. This is not a [[conversion]] mechanic; life leech modifiers will not apply to leech altered by this keystone. Only modifiers to ES leech apply.<ref>https://www.reddit.com/r/pathofexile/comments/axcd00/how_do_you_calculate_the_cap_for_es_leech_with/eht7xp</ref> \n\n{{c|mod|Maximum total Energy Shield Recovery per second}} refers to the cap on per-second recovery from all existing leech instances, and is normally 10% of maximum ES. Doubling it happens after increases or reductions. \n\nEven with Ghost Reaver, {{c|mod|#% of Damage Leeched as Life}} stats are not additive with {{c|mod|#% of Damage Leeched as Energy Shield}}. A hit that has both will grant 2 separate energy shield leech instances,<ref>https://www.youtube.com/watch?v=geI-BrR55yY</ref> allowing the per-second recovery cap to be reached with fewer hits, and allowing more total recovery through {{c|mod|#% of Leech is Instant}}.\n\n==Location==\nGhost Reaver is located on the top-right side of the tree, away from the Shadow's starting area.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Shadow]]||12\n|-\n|[[Ranger]]||14\n|-\n|[[Witch]]||12\n|-\n|[[Scion]]||16\n|-\n|[[Duelist]]||21\n|-\n|[[Templar]]||22\n|-\n|[[Marauder]]||26\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Ghost%Reaver%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Now prevents your Energy Shield from Recharging (previously 50% less Energy Shield Recharge Rate).\n}}\n{{Version history table row|3.14.0|\n* The passive skill is reworded due to leech cap rework. Read {{section link|Version 3.14.0|Character Balance}} for details.\n}}\n{{Version history table row|3.6.0|\n* Now causes you to leech Energy Shield instead of Life, and doubles your maximum Energy Shield Leech Rate.\n}}\n{{Version history table row|3.0.0|\n* Now grants 50% less Energy Shield Recharge Rate in addition to granting leeched Life as Energy Shield.\n}}\n{{Version history table row|0.9.12m|\n* Fixed a bug where having both [[Vaal Pact]] and Ghost Reaver would provide duplicate [[leech]] (one occurring instantly and one over time).\n}}\n{{Version history table row|0.9.12|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n==References==\n{{Reflist}}\n\n{{Sister|poe2wiki}}",
+  "sha256": "518ac8ec93d1ad9a9b1227986ba83c23af71ce03ea77506d788ce350051c38b2"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Astral Protection",
+  "pageId": 97123,
+  "revision": 1697656,
+  "timestamp": "2026-07-31T00:59:17Z",
+  "retrieved": "2026-11-14T10:57:11.013901+00:00",
+  "requested": [
+    "Assassin's Mark",
+    "Asset Lock Buff",
+    "Asset Lock Inactive",
+    "Astral Chains",
+    "Astral Protection",
+    "Astrally Empowered",
+    "Attack Impale Chance",
+    "Attack and Cast Speed",
+    "Atziri's Promise",
+    "Augury of Penitence",
+    "Aukuna's Hunt",
+    "Aukuna's Lasso",
+    "Aul's Uprising",
+    "Aura of Death",
+    "Autoexertion",
+    "Automation",
+    "Avian's Flight",
+    "Avian's Might",
+    "Baited Expectations",
+    "Balance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Astral Protection\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = For a time, we had something stronger than eldritch evil.<br>We had each other.\n|drop_level                              = 68\n|tags                                    = armour_divination, shaper_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardAstralProtection\n|stack_size                              = 5\n|description                             = {{c|white|[[Shield]]}}<br>{{c|default|Shaper Item}}\n|stack_size_currency_tab                 = 10000\n|card_effects                            = shaper\n|release_version                         = 3.19.0\n}}\n\n'''Astral Protection''' is a [[divination card]]. A set of five can be exchanged for a random [[Shaper item|Shaper-influenced]] [[normal]] [[shield]].\n\n{{Item acquisition}}\n\n===Trivia===\n\nThe artwork depicts [[The Shaper]], [[Zana]], and the [[Conquerors]] (including [[Sirus]]).\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n{{Atlas div card|Mesa|Courtyard of Wasting}}\n}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Beach|Courtyard of Wasting}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Dry Sea|Shore}}\n}}\n{{Version history table row|3.19.0|\n* Introduced to the game.<ref name=\"Announcement\" />\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Announcement\">{{cite web\n| author = Community_Team\n| date = August 9, 2022\n| title = New Divination Cards in Path of Exile: Lake of Kalandra\n| url = https://www.pathofexile.com/forum/view-thread/3293089\n| publisher = Official Path of Exile Forums\n| accessdate = August 28, 2022\n}}</ref>\n}}\n\n{{Navbox Items}}",
+  "sha256": "f686f3227e5102b33c805f69fe85cd6331714f316862cf929e56909c7db585c7"
+}

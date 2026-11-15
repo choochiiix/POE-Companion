@@ -1,0 +1,33 @@
+{
+  "title": "Maim",
+  "pageId": 10571,
+  "revision": 1702496,
+  "timestamp": "2026-09-20T03:48:59Z",
+  "retrieved": "2026-11-14T10:08:28.927602+00:00",
+  "requested": [
+    "Life",
+    "Mana",
+    "Rage",
+    "Strength",
+    "Dexterity",
+    "Intelligence",
+    "Block",
+    "Spell suppression",
+    "Dodge",
+    "Stun",
+    "Stun threshold",
+    "Knockback",
+    "Blind",
+    "Maim",
+    "Hinder",
+    "Taunt",
+    "Intimidate",
+    "Unnerve",
+    "Withered",
+    "Impale"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the game mechanic|the support gem|Maim Support}}\n{{status\n| name                   = Maimed\n| type                   = Debuff\n| icon                   = Maim status icon.png\n| description            = You have reduced Movement Speed from being Maimed\n| bonuses                = 30% reduced [[movement speed]] on the affected target for 4 seconds.\n}}\n\n'''Maim''', or the debuff name '''Maimed''', is a [[keyword]] [[debuff]] that causes the affected target to have {{c|mod|30% reduced Movement Speed}} and has a default [[duration]] of 4 seconds. Maim is applied by [[attack]]s, just like [[hinder]] is by [[spell]]s. It visibly appears as dark red pools on the ground the maimed entity stands on. \n\n==Mechanics & interactions==\n* Since maim and hinder are different debuffs, an enemy can be affected by both simultaneously.<ref name=\"220Patch\" />\n* Multiple maims do not stack.<ref name=\"MarkMaimReddit\" />\n* Multiple sources of the stat {{c|mod|Enemies Maimed by you take #% increased Damage Over Time}} stack as long the as the maim is applied by the same entity.\n\n==Skill gems==\n{{main|List of maim related skill gems}}\n{{#lst:List of maim related skill gems|active_skill_gems}}\n\n==Support gems==\n{{main|List of maim related skill gems}}\n{{#lst:List of maim related skill gems|support_skill_gems}}\n==Related modifiers==\n===Item mods===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Maim%\" AND mods.domain = 1 AND mods.generation_type NOT IN (\"10\", \"24\", \"25\", \"31\", \"32\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}\n====Abyss Jewel mods====\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Maim%\" AND mods.domain = 13\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}\n\n====Jewel mods====\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Maim%\" AND mods.domain = 10\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}\n\n====Legacy mods====\n:'''Crucible'''\n\n{{modifier table\n|q_tables = mod_stats\n|q_join = mods._pageID=mod_stats._pageID\n|q_where=mod_stats.id LIKE \"%Maim%\" AND mods.domain = 1 AND mods.generation_type IN ( \"31\", \"32\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}\n\n:'''Enchantments'''\n{{modifier table\n|q_tables = mod_stats\n|q_join = mods._pageID=mod_stats._pageID\n|q_where=mod_stats.id LIKE \"%Maim%\" AND mods.domain = 1 AND mods.generation_type = 10\n|stat_text=1\n|spawn_weights=1\n|level=1\n}}\n:'''Scourge ''' \n{{modifier table\n|q_tables = mod_stats\n|q_join = mods._pageID=mod_stats._pageID\n|q_where=mod_stats.id LIKE \"%Maim%\" AND mods.domain = 1 AND mods.generation_type IN ( \"24\", \"25\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}\n\n===Misc===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Maim%\" \nAND mods.domain NOT IN (\"1\", \"10\", \"12\", \"13\", \"32\", \"35\", \"36\" )\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n|domain=1\n}}\n\n==Base items==\n{{Drop enabled base item table\n|where = items.stat_text LIKE \"%Maim%\" AND class_id NOT LIKE \"%Gem%\"\n|level=1\n|stat=1\n|large=1\n}}\n\n==Unique items==\n{{Drop enabled unique item table\n|where = items.stat_text LIKE \"%Maim%\"\n|level=1\n|stat=1\n|large=1\n}}\n\n==Passive skills==\nThe following [[passive skill]]s are related to Maim:\n{{Query base passive skills\n|where=passive_skill_stats.id LIKE \"%maim%\"\n}}\n\n===Cluster jewel passives===\nThe following [[cluster jewel]]-only passives are related to Maim:\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skills.stat_text LIKE \"%Maim%\"\n|large=1\n|stat_text=1\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to Main:\n{{Query masteries}}\n\n===Tattoos===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%maim%\"\n|large=1\n|description=1\n}}\n\n==Pantheon==\n{{Pantheon|q_where=pantheon.id=\"Garukhan\"}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.2.0|\n* Added a new Keyword - Maim: Maimed enemies have 30% reduced movement speed. Multiple maims do not stack. Maim is applied by attacks, just like hinder is by spells. Since maim and hinder are different debuffs, an enemy can be affected by both simultaneously.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"220Patch\">[[Version 2.2.0]] patch notes.</ref>\n<ref name=\"MarkMaimReddit\">[https://www.reddit.com/r/pathofexile/comments/byr9sk/comment/eqkq4ve/?utm_source=reddit&utm_medium=usertext&context=3&utm_name=pathofexile&utm_content=t1_jhf5imu Mark_GGG Reddit comment about maim]</ref>\n}}\n\n{{sister|poe2wiki}}\n\n[[Category:Debuffs]]\n[[Category:Keywords]]",
+  "sha256": "33b5e0b4a693a896cf0812c6ace7000a5f04058205a2660a36e1010a01c82fed"
+}

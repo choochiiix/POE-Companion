@@ -1,0 +1,33 @@
+{
+  "title": "Coralito's Signature",
+  "pageId": 3845,
+  "revision": 1488314,
+  "timestamp": "2024-10-13T03:29:45Z",
+  "retrieved": "2026-11-14T10:57:16.668742+00:00",
+  "requested": [
+    "Cold Empowerment",
+    "Cold Resistance Loss",
+    "Cold Snap",
+    "Cold Swarm",
+    "Cold Thorns",
+    "Combat-Ready",
+    "Conductivity",
+    "Conflagration Debuff",
+    "Consuming Tempest",
+    "Contagion",
+    "Controlled Blaze Support",
+    "Convergence",
+    "Converted",
+    "Coralito's Signature",
+    "Corrosive Hunger",
+    "Corrupted Blood Immunity",
+    "Corrupting Fever",
+    "Corrupting Smoke",
+    "Corrupting Tempest",
+    "Corruption of the Awakener"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Coralito's Signature\n|class_id                                = UtilityFlask\n|base_item                               = Diamond Flask\n|explicit1                               = FlaskChanceToPoisonUnique__1\n|explicit2                               = FlaskHitsHaveNoCritMultiUnique__1\n|explicit3                       =FlaskCriticalStrikeDoTMultiplierUnique__1 \n|explicit4                         = FlaskTakeChaosDamagePerSecondUnique__2 \n|flavour_text                            = \"What cruelty it is, that to be judged a success,<br />such great work must go uncredited.\"<br />- Coralito, Brotherhood of Silence\n|release_version                         = 3.1.0\n}}\n\n'''Coralito's Signature''' is a [[unique]] {{il|Diamond Flask}} that grants additional damage over time multiplier for poisons from critical strikes during its effect.\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Legacy variants==\nCoralito's Signature has a [[legacy variant]].\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0|\n* {{c|mod|Take 30 Chaos Damage per Second during Flask effect}}\n* 25% chance to Poison on Hit during Flask effect\n* Your Critical Strikes do not deal extra Damage during Flask effect\n* {{c|mod|(50-75)% increased Duration of Poisons you inflict during Flask effect}}\n* {{c|mod|Grants Perfect Agony during Flask effect}}}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* The Coralito's Signature unique flask no longer grants 50-75% increased Duration of Poisons you inflict during Flask effect, or grants Perfect Agony during effect. Now has 'Take 200-300 Chaos Damage per Second during flask effect' (previously 30), and now grants 'Poisons you inflict with Critical Strikes have +20-30% to Damage over Time Multiplier'. Existing items can be updated to the new Chaos Damage per Second modifier values with a Divine Orb.\n* Diamond Flask no longer grants 'Your Critical Strike Chance is Lucky'. It now grants 100% increased Critical Strike Chance.\n* The Surgeon's Flask Prefix can now roll on Diamond Flasks.\n* Diamond Flask item class now \"Utility Flasks\" instead of \"Utility Flask Critical\".<ref name=\"Expedition item filter info\" />\n}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Expedition item filter info\">{{cite web\n|author = Community_Team\n|date = July 20, 2021\n|title = Expedition Patch Notes, Item Filter and Passive Tree Information\n|url = https://www.pathofexile.com/forum/view-thread/3147480\n|publisher = Official Path of Exile Forums\n|accessdate = July 21, 2021\n}}</ref>\n}}\n\n{{Navbox Unique Items}}",
+  "sha256": "89aeabb280a0c7cfb0efa42946d78493b2c2996f7f3c775fcb9e669d964bc37a"
+}

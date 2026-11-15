@@ -1,0 +1,33 @@
+{
+  "title": "The Immortal Will",
+  "pageId": 17007,
+  "revision": 1704269,
+  "timestamp": "2026-11-08T13:50:18Z",
+  "retrieved": "2026-11-14T10:57:48.401691+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Immortal Will\n|class_id                                = Shield\n|base_item                               = Archon Kite Shield\n|explicit1                               = HarbingerSkillOnEquipUnique2__3\n|explicit2                               = IncreasedLifeUnique__52 <!-- IncreasedLifeUnique__53, IncreasedLifeUnique__56 -->\n|explicit3                               = AllResistancesUnique__9 <!-- AllResistancesUnique__20 -->\n|explicit4                               = GainManaOnBlockUnique__1\n|explicit5                               = AdditionalBlockChanceUnique__5\n|explicit6                               = ChannelledSkillDamageUnique__1\n|flavour_text                            = {{glyph|HBGAa}}{{glyph|HBG00}}{{glyph|HBGAt}}<br>{{glyph|HBGAa}}{{glyph|HBG04}}{{glyph|HBGAp}}<br>{{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGAn}}{{glyph|HBG04}}{{glyph|HBGC01}}<br>{{glyph|HBGAf}}{{glyph|HBG02}}{{glyph|HBGC05}}\n|release_version                         = 3.11.0\n|acquisition_tags                        = Harbinger\n|recipe1_description                     = Only available in permanent leagues\n|recipe1_part1_item_name                 = The Unshattered Will\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Specularity Scroll\n|recipe1_part2_amount                    = 1\n}}\n\n'''The Immortal Will''' is a [[unique]] {{il|Archon Kite Shield}}.\n\n==Mechanics==\n{{c|mod|Grants Summon Greater Harbinger of Focus Skill}}: {{sl|Summon Greater Harbinger of Focus}} summons an immortal Harbinger [[minion]]. While the character is [[channelling]], the minion will apply a [[buff]] called The Immortal Will on the character, no more than once every eight seconds.\n\nThe Immortal Will buff has a four second duration and grants the following bonuses:\n*Immunity to elemental [[ailments]]\n*[[Stun]] immunity\n* 20% less damage taken\n*Unaffected by [[curses]]\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Currency can no longer be obtained: Deregulation Scroll, Electroshock Scroll, Fragmentation Scroll, Haemocombustion Scroll, Specularity Scroll, and Time-light Scroll.\n* The following Uniques have been added to the core drop pool: The Immortal Will, The Shattered Divinity, The Surging Thoughts, The Tempest's Liberation, The Torrent's Reclamation, and The Yielding Mortality.\n* Harbinger uniques now provide an additonal {{il|Fracturing Shard}} when [[vendor]]ed.{{Undocumented}}\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "67e335bc511b84132b98274f16cd38ec116d9046f44484728606993e626217c2"
+}

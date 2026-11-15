@@ -1,0 +1,33 @@
+{
+  "title": "Brittle",
+  "pageId": 2530,
+  "revision": 1553576,
+  "timestamp": "2025-08-04T06:02:01Z",
+  "retrieved": "2026-11-14T10:08:27.226006+00:00",
+  "requested": [
+    "Burning ground",
+    "Chilled ground",
+    "Shocked ground",
+    "Consecrated ground",
+    "Desecrated ground",
+    "Ground effect",
+    "Burning",
+    "Ignite",
+    "Chill",
+    "Freeze",
+    "Shock",
+    "Scorch",
+    "Brittle",
+    "Sap",
+    "Bleeding",
+    "Poison",
+    "Ailment",
+    "Elemental ailment",
+    "Non-damaging ailment",
+    "Resistance"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Brittle\n| type                   = Ailment\n| description            = Hits against you have additional critical strike chance.\n}}\n\n'''Brittle''' is an Elemental [[Ailment]] associated with [[Cold]]. Hits against brittle enemies have up to +6% chance to [[Critical Strike|critically strike afflicted enemies]], based on the Cold Damage of the Hit that inflicted this [[ailment]], for 4 seconds.\n\n==Mechanics==\nBrittle's magnitude is given by the formula:\n\n{{math|formula=M = 10 * ({D \\over T})^{0.4} * (1 + {E \\over 100})}}<ref>https://www.pathofexile.com/forum/view-thread/3123794 and also [[Talk:Brittle|talk page]]</ref>\n\nwhere {{math|formula=M}} is the magnitude of brittle, {{math|formula=D}} is the cold damage dealt, {{math|formula=T}} is the enemy's ailment threshold, and {{math|formula=E}} is the sum of the attacker's increases to the effect of brittle (normally 0%).\n\nBy transforming the equation above, the damage needed to inflict brittle of the desired magnitude is given by the formula:\n\n{{math|formula=D = T({M \\over {10*(1 + {E \\over 100})} })^{2.5} }}\n\nTo achieve the maximum magnitude, the player character needed to deal damage roughly equal to 28% of the ailment threshold, or 28% life for most monsters. These calculations do not account for increases to ailment effect.\n\nBrittle with a base effect lower than 1% is discarded. Brittle inflicted through means other than hit damage has a base effect of +2%.\n\n==Related items==\n===Base items===\nThe following base items are related to Brittle:\n{{Drop enabled base item table\n|where=items.stat_text LIKE \"%Brittle%\" AND items.class_id NOT IN ( \"Active Skill Gem\" , \"Support Skill Gem\" )\n|large=1\n|level=1\n|stat=1\n}}\n\n===Unique items===\nThe following [[unique item]]s are related to Brittle:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Brittle%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Item modifiers==\nThe following item [[modifier]]s are related to Brittle:\n{{Query spawnable modifiers\n|where=mods.stat_text LIKE \"%brittle%\"\n  AND mods.generation_type IN (1, 2, 3, 4, 5, 9, 11, 13, 14, 15, 24, 25, 28, 29)\n|stat_text=1\n|spawn_weights=1\n|level=1\n|tags=1\n|generation_type=1\n|q_orderBy=mods.stat_text ASC\n}}\n\n==Keystone passive skills==\nThe following [[keystone passive skill]]s are related to Brittle:\n{{Query keystone passive skills\n|q_where=passive_skills.stat_text LIKE \"%Brittle%\"\n}}\n\n==See also==\n* [[Scorch]] alternative ailment for fire damage\n* [[Sap]] alternative ailment for lightning damage\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.21.1|\n* Elemental Ailments other than Freeze are no longer discarded if their duration is lower than 300ms.\n}}\n{{Version history table row|3.19.0|\n* The Brittle Ailment now grants up to +6% chance to critically strike afflicted enemies (previously +15%) and now has a default value of +2% (previously +5%).\n* Fixed an issue where the effects of Brittle and Sapped ground were not affected by Ailment effect.\n}}\n{{Version history table row|3.10.0|\n* [[Scorch]] and '''Brittle''' (alternate ailments for Fire and Cold damage respectively) have both had their maximum effects raised. \n: '''Brittle''' now increases the chance to critically strike an afflicted enemy by up to 15% (from 10%).\n: Scorch, '''Brittle''' and Sap now all have a base duration of 4 seconds (from 2).\n}}\n{{Version history table row|3.9.0|\n* We've added an Ailment Threshold to monsters. In the great majority of cases, the Ailment Threshold matches the monster's Maximum Life. It primarily differs for especially high-life monsters (such as The Shaper), where the threshold is reduced to allow ailments to be applied with hits that wouldn't ordinarily reach the required Life thresholds.\n* The alternate ailments Sap, Scorch and '''Brittle''' have a slightly different calculation as they have lower caps on their magnitudes.\n}}\n{{Version history table row|3.6.0|\n* Now grants up to +10% chance to critically strike afflicted enemies. This chance is further increased by sources of increased Critical Strike Chance, whereas previously, as the result of a bug, it was not.\n}}\n{{Version history table row|3.5.0|\n* Introduced to the game.\n* Updated the reminder text for Ailments to include the '''3 new Ailments'''.\n* (Stated in patch preview) Hits have up to +20% Critical Strike Chance against '''Brittle''' Enemies, based on the Cold Damage of the Hit which inflicted '''Brittle''', for 2 seconds.<ref name=Bex/>\n}}\n{{Version history table end}}\n\n==See also==\n* [[Freeze]] and [[Chill]], the default cold ailments\n\n==References==\n{{reflist|refs=<ref name=Bex>{{cite web|url=https://www.pathofexile.com/forum/view-thread/2256189/page/1|title=Here are the new ailments and information about what they do!|date=December 6, 2018|accessdate=March 1, 2020|author=Bex_GGG|publisher=Path of Exile Forums}}</ref>}}\n\n[[Category:Ailments]]",
+  "sha256": "e7b9bdead8ec792fe5f2c534cd3b311d603cb2ff482d776310c9adf360058b82"
+}

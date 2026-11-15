@@ -1,0 +1,33 @@
+{
+  "title": "Sap of the Seasons",
+  "pageId": 127460,
+  "revision": 1493616,
+  "timestamp": "2025-01-26T15:05:54Z",
+  "retrieved": "2026-11-14T10:57:41.958412+00:00",
+  "requested": [
+    "Rumblemarch Life Regen",
+    "Rumi's Concoction",
+    "Runesurge",
+    "Rupture",
+    "Sacred Ashes",
+    "Sacred Infusion",
+    "Sacred Suffering",
+    "Sacrificial Zeal",
+    "Sailors Lantern",
+    "Sand Bladestorm",
+    "Sand Stance",
+    "Sand of Eternity",
+    "Sands of Shakari",
+    "Sandstorm",
+    "Sap of the Seasons",
+    "Sapped Ground",
+    "Sapphire Flask",
+    "Sapping Conflux",
+    "Saqawine Presence",
+    "Scathing Tempest"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Sap of the Seasons\n|class_id                                = Tincture\n|base_item                               = Prismatic Tincture\n|explicit1                               = TincturePenetrationPerToxicityUnique__1\n|explicit2                               = TinctureCooldownRecoveryUnique__1\n|explicit3                               = TinctureToxicityRateUnique__2\n|required_level                          = 18\n|flavour_text                            = Life and death dance ever closer,<br>waiting only for the right moment.\n|release_version                         = 3.25.0\n|is_drop_restricted                      = false\n|drop_text                               = \n}}\n\n'''Sap of the Seasons''' is a [[unique]] {{il|Prismatic Tincture}}.\n\n==Mechanics==\n[[Quality]] will further modify this tincture's mana burn rate and cooldown recovery.\n\n{{Item acquisition}} <ref>https://www.youtube.com/watch?v=OUnXmMqDs-0</ref>\n\n==Version history==\n\n{{Version history table header}}\n{{Version history table row|3.25.0d|\n* The Sap of the Seasons Unique Tincture now causes Melee Weapon Damage to penetrate a percentage of Elemental Resistances per Mana Burn, up to a maximum of 200% (previously had no maximum). This change applies to existing items.\n}}\n{{Version history table row|3.25.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "68d4b7cfb1c959c9124f6316021d857dffb368d2e204091eae84414cba6b880e"
+}

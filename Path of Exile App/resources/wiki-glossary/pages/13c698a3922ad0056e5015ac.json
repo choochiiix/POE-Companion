@@ -1,0 +1,35 @@
+{
+  "title": "Body armour",
+  "pageId": 2274,
+  "revision": 1594718,
+  "timestamp": "2025-11-15T16:32:51Z",
+  "retrieved": "2026-11-14T10:09:59.078970+00:00",
+  "requested": [
+    "Low Mana",
+    "loss",
+    "modifiers",
+    "mana cost",
+    "support gems",
+    "mana reservation",
+    "buffs",
+    "auras",
+    "curses",
+    "Mana Burn",
+    "Mana Flask",
+    "Mana Gained on Kill",
+    "Portal",
+    "town",
+    "Body Armour",
+    "Helmets",
+    "Gloves",
+    "Boots",
+    "Mana reservation",
+    "fire"
+  ],
+  "aliases": [
+    "Body Armour"
+  ],
+  "missing": false,
+  "wikitext": "'''Body armour''' is a type of [[Armour (equipment)|armour]] equipment. Like [[shields]], body armours have inherent [[movement speed]] penalties. In general, all STR and STR/INT body armours come with a larger reduced movement speed penalty and all other body armours have a smaller penalty.\n\nSome top tier Body Armour don't have this hidden movement speed penalties at all: e.g. {{il|Glorious Plate}}, {{il|Assassin's Garb}}, etc.\n\n==List of body armours==\n{{main|List of body armours}}\n{{:List of body armours}}\n===Unique body armours===\n{{main|List of unique body armours}}\n\n==Passive skills==\nThe following [[passive skill]]s are related to body armour:\n{{Query passive skills\n|where=\n  (passive_skills.stat_text LIKE \"%body%armour%\"\n  OR passive_skill_stats.id = \"ignore_armour_movement_penalties\")\nAND passive_skill_stats.id NOT LIKE \"%brequel%\"\nAND passive_skills.name NOT LIKE \"%Oath of the Maji%\"\n}}\n\n{{Navbox Armours}}\n\n==Version history==\n{{Version history table header }}\n{{Version history table row|3.16.0|\n* Base Types are now generated with a random 0-15% (on average) higher base defence, as an inbuilt property. This means that all base types can be better than they currently are, and armour base types are not homogeneous any more.\n}}\n{{Version history table row|3.0.0|\n* Because of Armour/Energy Shield and Evasion/Energy Shield equipment, we've had to apply this change to the local percentage modifiers on all other armour types as well. To compensate, all inherent values of base Armour and Evasion Rating on equipment are now greater at higher item levels.\n* The defences granted by all body armour has been increased at higher levels by 20%.\n}}\n{{Version history table row|1.1.4|\n* We have reduced the movement penalty that armour types have as follows:\n:Body Armour now has a 3% movement penalty, with Strength or Strength/Intelligence armour having a 5% penalty, instead of 4% and 8% respectively.\n}}\n{{Version history table row|?|\n* Introduced to the game. \n}}\n{{Version history table end}}\n<noinclude>\n[[Category:Body armours| ]]\n[[Category:Item classes]]\n{{sister|poe2wiki}}\n</noinclude>",
+  "sha256": "6a3367e917f278544d71b1daafdac9b9f4297537efebdf952ed86396249ffa47"
+}

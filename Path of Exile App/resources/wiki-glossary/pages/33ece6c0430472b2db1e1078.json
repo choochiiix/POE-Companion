@@ -1,0 +1,33 @@
+{
+  "title": "Shaper's Seed",
+  "pageId": 14784,
+  "revision": 1486265,
+  "timestamp": "2024-10-13T02:13:47Z",
+  "retrieved": "2026-11-14T10:57:43.558898+00:00",
+  "requested": [
+    "Shadow Surge",
+    "Shaper's Seed",
+    "Sharding Tempest",
+    "Shattered Shield",
+    "Shavronne's Aura",
+    "Shield Mastery",
+    "Shining Tempest",
+    "Shivering Tempest",
+    "Shock Immunity",
+    "Shock Prevention",
+    "Shocking Aura",
+    "Shrill Screech",
+    "Shrink",
+    "Shrinking Tempest",
+    "Shrouded Shrine",
+    "Sigil of Power",
+    "Signalled Prey",
+    "Silver Descry",
+    "Silver Flask",
+    "Singularity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Shaper's Seed\n|class_id                                = Amulet\n|base_item                               = Agate Amulet\n|drop_level                               = 20\n|explicit1                               = ManaRegenerationUniqueAmulet21\n|explicit2                               = LifeRegenerationRatePercentageUniqueAmulet21\n|explicit3                               = DisplayLifeRegenerationAuraUniqueAmulet21\n|explicit4                               = DisplayManaRegenerationAuaUniqueAmulet21\n|flavour_text                            = The first light to grow in the primordial darkness.\n|release_version                         = 2.0.0\n}}\n{{Status\n|name=Shaper's Seed\n|type=Buff\n|description=Grants Life Regeneration and increased Mana Regeneration\n}}\n\n'''Shaper's Seed''' is a [[unique]] {{il|Agate Amulet}}.\n\n==Mechanics==\nShaper's Seed applies a special [[aura]] that affects nearby allies but not the character.<ref>{{cite web|author=Mark_GGG|date=October 9, 2015|title=Shaper's Seed Aura Question|url=https://www.pathofexile.com/forum/view-thread/1449241/page/1/#p11839522|publisher=Official Path of Exile Forums|accessdate=October 10, 2015}}</ref>\n\n{{Item acquisition}}\n\n==Gallery==\n<gallery>\nFile:Shaper's Seed effect.png|In-game graphic effect while worn\n</gallery>\n\n==Legacy variants==\nShaper's Seed has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.19.0|+(16-24) to Strength and Intelligence|\n* {{c|mod|(30-50)% increased Mana Regeneration Rate}} \n* {{c|mod|Regenerate 2% of Life per second}} \n* {{c|mod|Nearby Allies gain 2% of Life Regenerated per second}}\n* {{c|mod|Nearby Allies gain 40% increased Mana Regeneration Rate}}\n}}\n{{legacy variant table row|2.6.0|+(16-24) to Strength and Intelligence|\n* {{c|mod|(30-50)% increased Mana Regeneration Rate}}\n* {{c|mod|2% of Life Regenerated per second}}\n* {{c|mod|Nearby Allies gain 1% of Life Regenerated per second}}\n* {{c|mod|Nearby Allies gain 40% increased Mana Regeneration Rate}}\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.21.0|\n* A previous change in 3.19.0 doubled the values of the aura from the Shaper's Seed unique, but this was done incorrectly, and only changed the displayed values on the item, not the actual values granted.\n* This has now been fixed so the values of life and mana regeneration granted to allies will always match what is displayed on the items.\n* Shaper's Seeds from before 3.19 which have not yet been updated with a {{il|Divine Orb}} can still have this done, and this will now update the actual function of the item as well as the displayed values.\n}}\n{{Version history table row|3.19.0|\n* Now has {{c|mod|60-100% increased Mana Regeneration Rate}} (previously 30-50%)\n* Now has {{c|mod|Regenerate 4% of Life per second}} (previously 2%)\n* Now has {{c|mod|Nearby Allies gain 4% of Life Regenerated per second}} (previously 2%)\n* Now has {{c|mod|Nearby Allies gain 80% increased Mana Regeneration Rate}} (previously 40%). \n* Existing items can be updated to these new values with a {{il|Divine Orb}}.\n}}\n{{Version history table row|2.6.0|\n* Life regeneration Given to Allies increased to 2%.\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{Navbox Unique Items}}\n\n[[Category:Buffs]]",
+  "sha256": "80efbe08e95e914b4b993add3477627abf9f5e3ee5218fbb0cbb1f46a47b8ab9"
+}

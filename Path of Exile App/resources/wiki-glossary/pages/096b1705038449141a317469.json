@@ -1,0 +1,33 @@
+{
+  "title": "Convergence",
+  "pageId": 3809,
+  "revision": 1625601,
+  "timestamp": "2026-03-03T21:54:01Z",
+  "retrieved": "2026-11-14T10:57:16.668742+00:00",
+  "requested": [
+    "Cold Empowerment",
+    "Cold Resistance Loss",
+    "Cold Snap",
+    "Cold Swarm",
+    "Cold Thorns",
+    "Combat-Ready",
+    "Conductivity",
+    "Conflagration Debuff",
+    "Consuming Tempest",
+    "Contagion",
+    "Controlled Blaze Support",
+    "Convergence",
+    "Converted",
+    "Coralito's Signature",
+    "Corrosive Hunger",
+    "Corrupted Blood Immunity",
+    "Corrupting Fever",
+    "Corrupting Smoke",
+    "Corrupting Tempest",
+    "Corruption of the Awakener"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n|name                    = Convergence\n|type                    = Buff\n|description             = You deal more Elemental Damage.\n|bonuses                 = 30% more Elemental Damage for 4 seconds\n}}\n\n'''Convergence''' is a [[buff]] that gives the [[character]] 30% [[more]] [[elemental damage]] for 4 seconds. This effect is similar to {{psl|Elemental Overload}}, and does stack with it.\n\n==Related passive skills==\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Convergence:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%Convergence%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "12f1f542a405ebad82f775ac729d887d6fdb8be7efbb0bc136f669c77c8c6325"
+}

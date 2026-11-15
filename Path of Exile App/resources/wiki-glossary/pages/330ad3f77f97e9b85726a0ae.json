@@ -1,0 +1,33 @@
+{
+  "title": "Remembrance",
+  "pageId": 13611,
+  "revision": 1682661,
+  "timestamp": "2026-07-26T23:32:08Z",
+  "retrieved": "2026-11-14T10:57:39.618212+00:00",
+  "requested": [
+    "Ravenous - Eldritch",
+    "Ravenous - Humanoid",
+    "Ravenous - Undead",
+    "Reap",
+    "Reave",
+    "Red Effluent",
+    "Red Team",
+    "Redeemer Shrine Monster",
+    "Redeemer's Shrine",
+    "Redeemer's Storm",
+    "Refining Tempest",
+    "Reflection",
+    "Regenerating Mana",
+    "Rejuvenation",
+    "Rejuvenation Totem Aura",
+    "Remembrance",
+    "Remnant of Corruption",
+    "Replenishing Shrine",
+    "Replica Headhunter",
+    "Replica Kalisa's Grace"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Remembrance\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = \"For all your struggles, all your achievements, even for the greatest of us, a story is all that remains. Write it well.\" <br><br>-Julius Perandus, Father of Chitus\n|drop_level                              = 68\n|tags                                    = jewellery_divination, unique_divination, corrupted_divination, unique_corrupted_divination, unique_jewellery_divination, boss_drop_card, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardRemembrance\n|stack_size                              = 8\n|description                             = {{c|unique|[[Precursor's Emblem]]}}<br>{{c|corrupted|Corrupted}}\n|stack_size_currency_tab                 = 10000\n|drop_text                               = Drops from \"Light Jewellery\" chests in the underground sections of [[Primeval Ruins]], [[Abyssal City]], and [[Vaal Outpost]] [[Delve]] nodes.\n|release_version                         = 3.8.0\n}}\n\n'''Remembrance''' is a [[divination card]]. A set of eight can be exchanged for a [[corrupted]] [[Precursor's Emblem]]. Precursor's Emblem has multiple [[unique item variant|variants]], one of which will be chosen at random.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.0|\n* Remembrance now also drops from Light Jewellery chests in Abyssal City and Vaal Outpost node underground sections. {{Divcord}}\n}}\n{{Version history table row|3.8.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "d5c56d5872df63027a74254472fe4f9cdfea9cacf4cf3423cbc1a3ad13ec26d1"
+}

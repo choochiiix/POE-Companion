@@ -1,0 +1,33 @@
+{
+  "title": "Lightning Beam",
+  "pageId": 9651,
+  "revision": 1607981,
+  "timestamp": "2026-01-31T12:53:36Z",
+  "retrieved": "2026-11-14T10:57:32.565562+00:00",
+  "requested": [
+    "Life Regeneration Aura",
+    "Lifetap",
+    "Light",
+    "Lightning Aegis",
+    "Lightning Beam",
+    "Lightning Bomb",
+    "Lightning Bond",
+    "Lightning Clone Retaliation",
+    "Lightning Damage Aura",
+    "Lightning Damage and Shock",
+    "Lightning Empowered",
+    "Lightning Empowerment",
+    "Lightning Exposure",
+    "Lightning Golem",
+    "Lightning Golem Wrath",
+    "Lightning Reprisal",
+    "Lightning Resistance Loss",
+    "Lightning Shrine",
+    "Lightning Swarm",
+    "Lion's Roar"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Lightning Beam\n| type                   = Debuff\n| icon= LightningSearingBond.png\n| description = {{c|normal|You are taking Lightning Damage from a Lightning Beam skill.}}\n}}\n'''Lightning Beam''' is a [[debuff]] from the map boss [[Shock and Horror]]'s skill of the same name (id [[Skill:SeawitchLightningBeam|SeawitchLightningBeam]]). The debuff icon is the same as [[Degeneration Aura]] (lightning damage variant), [[Scientist's Beam]] and [[Piety Beam]], etc.\n\n==Damage==\nBased on datamined values ([[Skill:SeawitchLightningBeam|SeawitchLightningBeam]]), the beam from [[Shock and Horror]] deals 4000 lightning damage per second (at monster level 72), which excluding other scaling such as monster mod (e.g. map boss' [[Modifier:MonsterAuraAddedLightningDamage|Allies deal additional lightning damage]] aura), map mod , etc.\n\n==Other variants==\nBy the description of the {{il|Imperfect Eldritch Eye}}/{{il|Eldritch Eye}}{{il|Perfect Eldritch Eye}} corpse, the monster (as a spectre) also use this skill. However, the player never able to encounter this monster unless in PVP, and the monster use a skill internally known as [[Skill:GSAzmeriTentacleMonsterBeam|GSAzmeriTentacleMonsterBeam]], which is not the same as [[Shock and Horror]]'s skill.\n\nAlso, do not confuse this skill with [[Automaton Lightning Beam]], used by [[Heist]] monsters, or the [[Corrupted Lightning Beam]] used by Act 4 [[Piety, the Abomination]], or [[Piety Beam]] from her human form.\n==Version history==\n{{Version history table header}}\n{{Version history table row|?|\n* Now has a debuff icon.\n}}\n{{Version history table row|1.0.0|rel=before|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]\n[[Category:Monster skills]]",
+  "sha256": "29a6fb335b96705287dcb63acf91bf8fc266e63693b652c6fad04d6ba3b3ee81"
+}

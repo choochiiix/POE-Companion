@@ -1,0 +1,33 @@
+{
+  "title": "Blood Magic",
+  "pageId": 2165,
+  "revision": 1636200,
+  "timestamp": "2026-03-25T19:18:33Z",
+  "retrieved": "2026-11-14T10:08:29.719759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About||the support gem previously named Blood Magic Support|Arrogance Support|the other support gem with related effects|Lifetap Support}}\n\n{{Passive skill box|Blood Magic}}\n\n'''Blood Magic''' (often referred to as '''BM''') is a [[keystone passive skill]] that changes all [[mana]] [[cost]]s and [[reservation]]s to [[life]] costs and reservations. It also grants more maximum life and removes your mana.\n\n==Mechanics==\nSkills that reserve mana will reserve life and skills that cost mana will cost life instead. This change applies after ''base'' mana cost modifiers (e.g. [[Divine Blessing Support]], [[The_Lake_of_Kalandra#Reflecting_Mist|Inverted]] [[Elreon, Light's Judge|Elreon's]] jewellery), but before other mana-specific cost or reservation modifiers (e.g. {{c|mod|#% increased/reduced Mana Cost of Skills}}, {{c|mod|+# to Total Mana Cost of Skills}}, {{c|mod|#% increased/reduced Mana Reservation Efficiency of Skills}}), which will have no effect on the new life cost or reservation. \n\nIt is not possible to commit suicide through Blood Magic. \n\nIf taken with {{psl|Eldritch Battery}}, your energy shield will continue to protect mana but will not be spent.\n\nWhile you have Blood Magic, you are neither at full mana nor low mana.<ref name=\"Bloodmagiclowmana\"/>\n\nTaking this keystone along with {{psl|Sanguimancy}} from [[Warlock of the Mists]] will provide the {{c|mod|50% increased Life Reservation Efficiency of Skills}} stat, but otherwise impart no additional benefit.\n\n==Location==\nBlood Magic is located in the bottom left corner of the tree.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Marauder||12\n|-\n|Duelist||12\n|-\n|Templar||14\n|-\n|Scion||16\n|-\n|Ranger||19\n|-\n|Witch||21\n|-\n|Shadow||26\n|}\n\n==Related unique items==\nThese [[unique item]]s have the {{c|mod|Blood Magic}} modifier, which provides the same effect as this keystone. Taking the keystone in addition to equipping one of these items will impart no additional benefit.\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=(items.stat_text LIKE \"%Blood%Magic%\" OR items.stat_text LIKE \"%Random%Keystone%\" ) AND items.name NOT LIKE \"%Hungry Loop%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.17.0|\n*Now grants {{c|mod|10% more maximum Life}}.\n*No longer grants {{c|mod|Spend Life instead of Mana for effects of Skills}}.\n}}\n{{Version history table row|3.14.0|\n* The mod {{c|mod|Socketed gems have Blood Magic}} has been removed from the game and replaced by {{c|mod|Socketed Gems Cost and Reserve Life instead of Mana}}, or {{c|mod|Socketed Gems Reserve Life instead of Mana}}, or {{c|mod|Socketed Gems Cost Life instead of Mana}}, affects all version. {{Undocumented}}\n}}\n{{Version history table row|2.1.1|\n* Fixed a bug where you could not get stunned while wearing the {{il|Skyforth}} boots with the Blood Magic Keystone allocated.\n}}\n{{Version history table row|1.3.0|\n* When Blood Magic is active, your mana orb no longer shows as fully reserved.\n}}\n{{Version history table row|1.0.0|\n* Players now cannot spend or reserve their last point of life with Blood Magic.\n}}\n{{Version history table row|0.9.12p|\n* Fixed a bug where skills would appear disabled if you have Blood Magic.\n}}\n{{Version history table row|0.9.12m|\n* Fixed a bug where players who cast their auras and then return to town to select the Blood Magic keystone passive will have free auras until they log out.\n}}\n{{Version history table row|0.9.11|\n* Totems with Blood Magic (from either a Support Gem or the player's passives) now do not spend their own life to cast spells.\n}}\n{{Version history table row|0.9.10|\n* Totems using percentage reserve skills with blood magic now correctly base the cost as a percentage of their life rather than yours.\n}}\n{{Version history table row|0.9.9c|\n* Blood Magic now no longer prevents traps from working.\n}}\n{{Version history table row|0.9.7d|\n* Fixed the interaction between [[Chaos Inoculation]] and Blood Magic so that there's no crazy bugged death state any more. If you try to reserve life or mana when you have both of these keystones, you will now die properly.\n}}\n{{Version history table row|0.9.4|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{Reflist|refs=\n\n<ref name=\"Bloodmagiclowmana\">\n\n{{cite web\n|url=http://www.pathofexile.com/forum/view-thread/614700\n|title=Infernal Mantle and Blood Magic\n|author=Mark_GGG\n|publisher=Official Path of Exile Forums\n|date=November 15, 2013\n|accessdate=May 25, 2021\n}}\n</ref>\n\n}}\n{{sister|poe2wiki}}",
+  "sha256": "41a06712f08d5cd798cee14b8e40865905599ce47cc0b9dbb35f8f07881df75a"
+}

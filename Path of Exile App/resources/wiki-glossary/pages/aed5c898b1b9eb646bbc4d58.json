@@ -1,0 +1,33 @@
+{
+  "title": "Slipstream",
+  "pageId": 15253,
+  "revision": 1634899,
+  "timestamp": "2026-03-19T14:59:02Z",
+  "retrieved": "2026-11-14T10:57:44.399354+00:00",
+  "requested": [
+    "Siphoning Charges",
+    "Siphoning Ring",
+    "Siphoning Trap",
+    "Skeletal Shrine",
+    "Skitterbots",
+    "Slipstream",
+    "Slow",
+    "Slow Aura",
+    "Smite Aura",
+    "Smothered",
+    "Snared",
+    "Snipe",
+    "Sniper's Mark",
+    "Snow Bolt",
+    "Snow Cloak",
+    "Snowstorm",
+    "Soaked to the Bone",
+    "Solaris Shrine",
+    "Somatic Shell",
+    "Soothing Salve"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Slipstream\n| type                   = Buff\n| description = You have increased Action Speed from the Slipstream.\n}}\n[[File:Slipstream.jpg|350px|thumb|right|Active slipstream]]\n\n'''Slipstream''' is a beneficial [[ground effect]] that increases the [[action speed]] of everything standing on it.\n\nIt can generate from the following sources:\n*{{sl|Arcane Wake}} skill from {{il|Worldcarver}}\n\n==See also==\n*{{sl|Summon Harbinger of Time}} an item skill that grants {{stl|The Flow Untethered}} aura buff, which is visually the same as Slipstream\n*{{sl|Summon Greater Harbinger of Time}} an item skill that grants {{stl|The Torrent's Reclamation}} aura buff, which is visually the same as Slipstream, but does not affect enemies\n\n==Version history==\nThe version that granted from [[sextant]], which is not obtainable in the current version of the game, is stackable.<ref name=\"SextantMods\"/>\n\n{{Version history table header }}\n{{Version history table row |3.19.0}}\n* {{il|Worldcarver}} is drop-disabled\n{{Version history table row |3.9.0}}\n* The spawn weight of [[Modifier:MapAtlasGroundHaste|the sextant mod]] that grant this effect, has been set to zero. {{Undocumented}}\n{{Version history table row |2.4.1}}\n* Added to the game\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"SextantMods\">{{cite web|author=Bex_GGG|date=Oct 11, 2016|title=New sextant mods in content update 2.4.1|url=https://www.pathofexile.com/forum/view-thread/1752644/|publisher=Official Path of Exile Forums|accessdate=July 7, 2017}}</ref>\n}}\n\n[[Category:Ground effects]]\n[[Category:Buffs]]",
+  "sha256": "74bdd70085beb9ba05faa9bfd4c7614c4ffed6b7d7bceca892172aaa0d4fcc67"
+}

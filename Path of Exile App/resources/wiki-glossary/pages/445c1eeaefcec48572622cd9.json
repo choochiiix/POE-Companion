@@ -1,0 +1,33 @@
+{
+  "title": "Ambu's Charge",
+  "pageId": 466,
+  "revision": 1674830,
+  "timestamp": "2026-07-19T06:51:08Z",
+  "retrieved": "2026-11-14T10:57:09.418483+00:00",
+  "requested": [
+    "Ahuana's Leadership",
+    "Akoya's Leadership",
+    "Alchemist's Genius",
+    "Alchemist's Mark",
+    "Alivia's Grace",
+    "Allflame Infused Coral",
+    "Alva's Gift",
+    "Always Crit Aura",
+    "Ambu's Charge",
+    "Ambush",
+    "Amethyst Flask",
+    "Ancestral Cry",
+    "Ancestral Earthbreaker",
+    "Ancestral Protector",
+    "Ancestral Warchief",
+    "Ancient Wisdom",
+    "Anger Aura",
+    "Anger's Intensity",
+    "Annihilating Light",
+    "Aquamarine Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Ambu's Charge\n|class_id                                = Body Armour\n|base_item                               = Crusader Chainmail\n|explicit1                               = LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt2\n|explicit2                               = IncreasedLifeUnique__38\n|explicit3                               = AllResistancesUniqueBodyStrInt2\n|explicit4                              = GainMaximumEnduranceChargesWhenCritUnique__1\n|explicit5                              = ShareMaximumEnduranceChargesPartyUnique__1\n|flavour_text                            = Nothing stops the pain like a courageous rush into battle.\n|release_version                         = 0.9.10\n}}\n\n'''Ambu's Charge''' is a [[unique]] {{il|Crusader Chainmail}}.\n\n==Mechanics==\n* {{c|mod|\tYour nearby party members maximum Endurance Charges is equal to yours}} overrides the maximum [[Endurance Charge]] stat for all nearby [[party]] members.\n** This modifier appears to currently be bugged if multiple players are wearing Ambu's Charge. Which player's maximum endurance charges taking priority appears to be inconsistent, and it is even sometimes possible for a player to overwrite their own maximum charges through snapshotting/recursion, ignoring any modifications to their charges such as {{il|Fragility}}.<ref>https://www.pathofexile.com/forum/view-thread/3533137</ref>\n** This modifier will NOT override {{c|mod|Maximum Endurance, Frenzy and Power Charges is 0}} from {{il|Eternal Damnation}}.<ref>https://www.youtube.com/watch?v=w6kZ-Srr8tY</ref>\n\n{{Item acquisition}}\n\n{{Foulborn}}\n\n{| class=\"wikitable sortable\"\n|+\n|-\n! Unique item !! Original modifier !! {{c|foulborn|Foulborn modifier}}\n|-\n| Ambu's Charge || {{c|mod|[[Modifier:AllResistancesUniqueBodyStrInt2|+15% to all Elemental Resistances]]}} || {{c|foulborn|[[Modifier:MutatedUniqueBodyStrInt2MaximumEnduranceCharges|+1 to Maximum Endurance Charges]]}}\n|}\n\n==Legacy variants==\nAmbu's Charge has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.19.0|\n* (180-220)% increased Armour and Energy Shield\n* +(60-80) to maximum Life\n* +15% to all Elemental Resistances\n*{{c|mod|Gain an Endurance Charge when you take a Critical Strike}}\n*{{c|mod|Share Endurance Charges with nearby party members}}\n*{{c|mod|Regenerate 2% of Life per second if you have been Hit Recently}}\n}}\n{{legacy variant table row|2.6.0|\n* (180-220)% increased Armour and Energy Shield\n* +15% to all Elemental Resistances\n* {{c|mod|Gain an Endurance Charge when you take a Critical Strike}}\n* {{c|mod|2% of Life Regenerated per Second while on Low Life}}\n* {{c|mod|Share Endurance Charges with nearby party members}}\n}}\n{{legacy variant table row|2.0.0|\n* {{c|mod|(140-180)% increased Armour and Energy Shield}}\n* {{c|mod|+10% to all Elemental Resistances}}\n* {{c|mod|Gain an Endurance Charge when you take a Critical Strike}}\n* {{c|mod|2% of Life Regenerated per Second while on Low Life}}\n* {{c|mod|Share Endurance Charges with nearby party members}}\n}}\n{{legacy variant table row|1.0.0|\n* {{c|mod|(80-100)% increased Armour and Energy Shield}}\n* {{c|mod|+10% to all Elemental Resistances}}\n* {{c|mod|Gain an Endurance Charge when you take a Critical Strike}}\n* {{c|mod|2% of Life Regenerated per Second while on Low Life}}\n* {{c|mod|Share Endurance Charges with nearby party members}}\n}}\n{{Legacy variant table end}}\n\n==Design attribution==\nAmbu's Charge was created by supporter [https://www.pathofexile.com/account/view-profile/Ambu Ambu].{{citation needed}}\n\n==Gallery==\n<gallery>\nFile:Ambu s Charge3D.png\nFile:Ambus Charge Front.png\n</gallery>\n\n==See also==\n* {{il|Replica Ambu's Charge}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.0|\n* '''A {{il|Divine Orb}} can be used to obtain the new values of modifiers, but cannot be used to gain new modifiers:'''\n* No longer has {{c|mod|Gain an Endurance Charge when you take a Critical Strike}}, {{c|mod|Share Endurance Charges with nearby party members}}, or {{c|mod|Regenerate 2% of Life per second if you have been Hit Recently}}. \n* Now has {{c|mod|Gain up to Maximum Endurance Charge when you take a Critical Strike}}\n* Now has {{c|mod|Your nearby party members' maximum Endurance Charges are equal to yours}}.\n}}\n{{Version history table row|3.3.0|\n* Added 3D art.\n}}\n{{Version history table row|3.0.0|\n* Basetype's Energy Shield value has been decreased and the Armour rating increased.\n}}\n{{Version history table row|2.6.0|\n* Added mod: {{c|mod|+(60-80) to maximum Life}}.\n* Added mod: {{c|mod|2% of Life Regenerated per second if you have been Hit Recently}}.\n* Removed mod: {{c|mod|2% of Life Regenerated per Second while on Low Life}}.\n* Changes cannot be obtained by rerolling the item's mods with a {{il|Divine Orb}}.\n}}\n{{Version history table row|2.0.0|\n* Armour and Energy Shield Mod increased to 180-220%. All Resistances Mod increased to 15%.\n}}\n{{Version history table row|1.0.0|\n* Increased Armour and Energy Shield has been increased.\n}}\n{{Version history table row|0.9.10|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique body armours with 3D art]]\n[[Category:Unique items created by supporters]]",
+  "sha256": "a3c47ebf87d79b1effc585a04c735cd39560c40a9d3198eddfa00273b472589e"
+}

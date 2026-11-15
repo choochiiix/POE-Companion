@@ -1,0 +1,33 @@
+{
+  "title": "Hunter's Lesson",
+  "pageId": 8314,
+  "revision": 1486671,
+  "timestamp": "2024-10-13T02:31:44Z",
+  "retrieved": "2026-11-14T10:57:28.672531+00:00",
+  "requested": [
+    "Hit by Power Siphon",
+    "Hit by Viper Strike",
+    "Hoarfrost",
+    "Holy Relic's Boon",
+    "Holy Water",
+    "Honed Claws",
+    "Horned Scarab of Glittering",
+    "House of Mirrors",
+    "Humility",
+    "Hunger of Ghorr",
+    "Hunter Shrine Monster",
+    "Hunter's Lesson",
+    "Hunter's Reward",
+    "Hunter's Shrine",
+    "Hunters' Cunning",
+    "Hyrri's Reward",
+    "Ice Golem",
+    "Icicle Mines",
+    "Ignite Immunity",
+    "Ignite Prevention"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Historical content|The [[prophecy]] system was removed from the game in [[version 3.17.0]]. Itemised prophecies no longer exist in Path of Exile.}}\n\n{{Item\n|rarity_id                               = normal\n|name                                    = Hunter's Lesson\n|class_id                                = StackableCurrency\n|base_item_id                            = Metadata/Items/Currency/CurrencyItemisedProphecy\n|flavour_text                            = An adversary, slain, briefly lives on in the lessons taught to the slayer.\n|prophecy_id                             = KillingRareStealsMods\n|prediction_text                         = You will slay a powerful foe and gain its powers.\n|seal_cost                               = 3\n|release_version                         = 2.3.0\n|removal_version                         = 3.17.0\n|is_in_game                              = false\n|prophecy_objective                      = Kill a [[rare]] [[monster]].\n|prophecy_reward                         = You gain the monster's mods for 60 seconds. The effect is similar to {{il|Headhunter}} but lasts longer and only once per prophecy.\n}}\n\n'''Hunter's Lesson''' is a [[prophecy]].\n\n{{Prophecy description}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.17.0|\n* Removed the [[Prophecy]] mechanic from the game, and moved many of its rewards to other content.\n* [[Silver Coin (Prophecy)|Silver Coins]] can no longer drop. Existing Silver Coins and itemised Prophecies will be deleted from your inventory and stash the next time you log in after the launch of 3.17.0.\n}}\n{{Version history table row|2.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}\n\n[[Category:Encounter prophecies other reward]]",
+  "sha256": "2e31de923706f362d60925ed1a486a10736884efae1572f077db1a6453a7e978"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Silence",
+  "pageId": 15033,
+  "revision": 1417992,
+  "timestamp": "2024-01-28T10:19:42Z",
+  "retrieved": "2026-11-14T10:11:19.057146+00:00",
+  "requested": [
+    "Ursa",
+    "Ground Slam",
+    "Warcries",
+    "Retaliation",
+    "Daggers",
+    "Claws",
+    "Divinity",
+    "ranger",
+    "Shepherd of Souls",
+    "Fanaticism",
+    "Enchantments",
+    "Vaal skill gem",
+    "Gluttony of Elements",
+    "Harbinger",
+    "Dominus",
+    "Silence",
+    "smoke cloud",
+    "Vaal Gem",
+    "Sextant",
+    "conquered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Silence\n| type                   = Debuff\n| description            = You cannot Cast Spells or use Warcries.\n}}\n\n'''Silence''' is a [[curse]]<!--Is it a hex?--> that makes affected targets unable to [[cast]] [[spell]]s or use [[warcry|warcries]] for 3 seconds. [[Attack]] skills can still be used.\n\nIt is not available as a skill to players.\n\n==Sources==\n* {{ml|ChestRandomCurse}} [[Strongbox]]es\n* [[Tormented spirit|Tormented]] Blasphemers ({{ml|TormentTouchedMonsterBlasphemer}}, {{ml|TormentHauntedMonsterBlasphemer}})\n* [[Tormented spirit|Tormented]] Seditionists ({{ml|TormentTouchedMonsterLibrarian}})\n* [[Blood Crucible|Scourge mod]] {{c|mod|(21–30)% chance to Curse you with Silence when Hit}} on helmets\n\n==Immunity to Silence==\n* {{il|Star of Wraeclast}}\n* [[Jewel]]s can have {{c|mod|You cannot be Cursed with Silence}} [[corrupted]] [[implicit modifier]] ({{ml|V2SilenceImmunityJewelCorrupted}} or {{ml|V2SilenceImmunityJewelCorrupted__}} or legacy mods {{ml|SilenceImmunityAbyssJewelCorrupted}}, {{ml|SilenceImmunityJewelCorrupted}}).\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.2|\n* Monsters with the Hexfont Nemesis Modifier no longer inflict Silence.\n}}\n{{Version history table row|1.3.0|\n* The duration of Silence has been reduced to three seconds.\n}}\n{{Version history table row|1.0.0|\n* Silence was introduced into the game in Nemesis League as part of the nemesis mod Hexfont\n}}\n{{Version history table end}}\n\n[[Category:Monster skills]]",
+  "sha256": "49b70f754f6f7c1456b7075ecfa8b62d0b6c62fc37f109c77f0b130a1fb9429c"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Bane of the Loyal",
+  "pageId": 1635,
+  "revision": 1489409,
+  "timestamp": "2024-10-13T04:10:03Z",
+  "retrieved": "2026-11-14T10:57:11.807497+00:00",
+  "requested": [
+    "Balek's Gift",
+    "Bane",
+    "Bane of the Loyal",
+    "Baranite Cleric's Aura",
+    "Bark",
+    "Barnacles",
+    "Baryatic Tension",
+    "Basalt Flask",
+    "Bastion of Hope",
+    "Batrachian Procession",
+    "Battlemage's Cry",
+    "Beauty Through Death",
+    "Behead",
+    "Beidat's Magnificence",
+    "Beidat's Wrath",
+    "Berserk Fury",
+    "Bestial Roar",
+    "Binding Chains",
+    "Bino's Life Regeneration",
+    "Bismuth Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Bane of the Loyal\n|class_id                                = LabyrinthTrinket\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = A snake cannot survive without its head.<br>But neither can the head survive without the body.\n|drop_level                              = 1\n|tags                                    = default\n|metadata_id                             = Metadata/Items/QuestItems/Labyrinth/Trinkets/BaneOfTheLoyal\n|description                             = The next Lieutenant you hit will be killed instantly\n|release_version                         = 2.2.0\n}}\n{{status\n| name                   = Bane of the Loyal\n| type                   = Buff\n}}\n'''Bane of the Loyal''' is a [[Labyrinth trinket]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "51e02f635e864e4ef7f96ce3e5300245094aaa7163f5b96c959b0879ce0d75d8"
+}

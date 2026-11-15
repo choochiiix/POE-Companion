@@ -1,0 +1,33 @@
+{
+  "title": "Mind Over Matter",
+  "pageId": 11164,
+  "revision": 1492420,
+  "timestamp": "2024-11-30T23:38:34Z",
+  "retrieved": "2026-11-14T10:08:29.722759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Mind Over Matter}}\n\n'''Mind Over Matter''' (often referred to as '''MoM''') is a [[keystone passive skill]] that allows the character's [[mana]] to absorb a portion of the [[damage]] dealt to [[life]]. It is the primary source of the [[Mana before Life]] mechanic for increasing effective health.\n\n==Mechanics==\n{{main|Mana before Life}}\n\n==Location==\nMind Over Matter is a standalone keystone located on the inner layer of the transition area between [[Witch]] and [[Templar]].\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Witch||7\n|-\n|Templar||7\n|-\n|Scion||11\n|-\n|Shadow||16\n|-\n|Marauder||17\n|-\n|Ranger||21\n|-\n|Duelist||21\n|}\n\n==Related items==\n===Base items===\n\n===Unique items===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n    items.stat_text LIKE \"%Mind%Over%Matter%\" \n OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passives skills==\n{{Query passive skills\n|q_where=\n    passive_skills.stat_text LIKE \"%Mind%Over%Matter%\" \n OR passive_skills.stat_text LIKE \"%Random%Keystone%\"\n|ascendancy=1\n}}\n\n==Videos==\n<youtube description=\"Mind Over Matter mechanics and interactions\">FNpGwXNHOAY</youtube>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.0|\n* Now grants {{c|mod|40% of Damage is taken from Mana before Life}} (up from 30%).\n* Damage taken from Mana before Life can no longer roll as an Influence modifier, Synthesised Implicit modifier, or Eldritch Implicit modifier on Body Armour.\n}}\n{{Version history table row|3.0.0|\n* Now applies to Damage over Time as well as Hits.\n}}\n{{Version history table row|1.0.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n}}\n{{sister|poe2wiki}}",
+  "sha256": "2e521cb54293129fdba045ed884367550d2e234b205e584a5f3835f19ce3d246"
+}

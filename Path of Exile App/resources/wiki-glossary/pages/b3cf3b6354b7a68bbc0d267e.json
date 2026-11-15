@@ -1,0 +1,33 @@
+{
+  "title": "Divine Charge",
+  "pageId": 88600,
+  "revision": 1700591,
+  "timestamp": "2026-08-11T22:50:05Z",
+  "retrieved": "2026-11-14T10:57:19.969796+00:00",
+  "requested": [
+    "Digestive Acid",
+    "Diluting Touch",
+    "Discipline Aura",
+    "Disgorge",
+    "Divination Distillate",
+    "Divine Beam",
+    "Divine Blast of Radiance",
+    "Divine Charge",
+    "Divine Flare",
+    "Divine Ire",
+    "Divine Shrine",
+    "Divine Tempest",
+    "Doedre's Madness",
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering",
+    "Doomed",
+    "Doryani's Conflagration",
+    "Double Strike",
+    "Drained Essence"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Divine Charge\n| type                   = Charge\n| icon                   = Divinity status icon.png\n| description = You do not gain Divine Charges while Divinity is active on you. You can gain maximum of 1 charge per second.\n}}\n'''Divine Charge''' is a type of [[charge]] only available from the item {{il|Garb of the Ephemeral}}. Divine charges do not grant any inherent bonuses.\n\n==Mechanics==\nWith {{il|Garb of the Ephemeral}}, a Divine charge is gained on [[hit]], gaining a maximum of one charge per second. At maximum Divine charges (10), the {{status link|Divinity|Divinity}} [[buff]] is granted for 10 seconds, and all Divine charges are lost. Divine charges cannot be gained while you have Divinity.\n\n==See also==\n{{il|Garb of the Ephemeral}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.6.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Charges]]",
+  "sha256": "5105642f0a8903e291d9fd8a51af8996731070283e47572cc455551d0c46209d"
+}

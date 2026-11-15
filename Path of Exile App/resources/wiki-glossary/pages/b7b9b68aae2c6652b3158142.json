@@ -1,0 +1,33 @@
+{
+  "title": "Proximity Shield",
+  "pageId": 13078,
+  "revision": 1578130,
+  "timestamp": "2025-10-23T09:53:33Z",
+  "retrieved": "2026-11-14T10:57:37.995410+00:00",
+  "requested": [
+    "Prismatic Tincture",
+    "Prismplate",
+    "Procyonic Procession",
+    "Projectile Test",
+    "ProphecyQuantity",
+    "Protection",
+    "Protective Link",
+    "Protective Shield",
+    "Proximity Shield",
+    "Punisher",
+    "Punishment",
+    "Purging Flame",
+    "Purity of Elements Aura",
+    "Purity of Fire Aura",
+    "Purity of Ice Aura",
+    "Purity of Lightning Aura",
+    "Purple Effluent",
+    "Pursuit of Faith",
+    "Putrefaction",
+    "Pyroclast Mines"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Proximity Shield\n| type                   = \n| description            = You cannot be harmed by direct damage from enemies outside the shield.\n}}\n\n[[File:Proximity Shield.jpg|thumb|300px|An Undying Evangelist with proximity shield]]\n[[File:Headhunter_proximity_shield.png|thumb|300px|A player steals the proximity shield aura from a slain enemy using [[Headhunter]]]]\n'''Proximity Shield''' is a [[receiving damage|defensive]] [[Area of effect|area of effect]] ability used by a monster, taking the form of a dome with the user at its centre. The user and their allies within the shielded area are protected from direct damage from enemies outside the shield. \n\n==Mechanics==\nA Proximity Shield removes the damage of [[hit]]s coming from enemies outside the shield. It does not physically obstruct objects or projectiles like a {{il|Frost Wall}}; it simply checks the locations of the entity that hit and the entity that was hit. Removing all hit damage also prevents effects that require non-zero damage, such as [[ailments]]. Proximity shield does ''not'' prevent hits entirely, nor does it prevent non-ailment [[debuff]]s applied by hits, including [[damage over time]] debuffs such as {{il|Essence Drain}} or {{il|Corrupting Fever}}.\n\nTo counter proximity shield monsters, the player can:\n* enter the shield\n* inflict non-ailment [[damage over time]] \n* apply damaging ailments without a direct hit, e.g. [[proliferation]] \n* make their [[minion]]s or [[proxies]] enter the shield, or create them directly inside it \n\nSeveral variations of proximity shield exist:  \n* The {{C|normal|[[Temporal Proximity Shield]]}} modifier can occur on enemies randomly. It also inflicts a debuff {{stl|Temporal Bubble}}, that slows [[action speed]], [[cooldown]] recovery rate, and debuff expiration. \n* [[Expedition]]'s Unearthed Soldiers temporarily buff themselves and nearby allies with a directional proximity shield, which can be bypassed by attacking from behind in addition to proximity.<ref>https://discord.com/channels/174993814845521922/175005585203396622/874436849928634388</ref>\n* Specific monster types can have proximity shields as a [[skill]]. \n\nPlayers can benefit from proximity shields by stealing modifiers from enemies with effects like {{il|Headhunter}}, {{il|Inspired Learning}}, {{il|Behead Support}}, or by spawning allies with proximity shields, for example with {{il|Raise Spectre}} or {{il|Dominating Blow}}. \n\n===Proximity shield monsters===\n*[[Undying Evangelist]]s in [[The Upper Sceptre of God]] (uses monster skill: [[Skill:MonsterProximityShield|MonsterProximityShield]])<ref>[[Monster:Metadata/Monsters/Undying/CityStalkerMaleCasterArmour]]</ref><ref>[[Monster:Metadata/Monsters/Undying/CityStalkerMaleCasterArmour]]</ref>\n*[[Docere Incarnatis]], an [[Invasion boss]]\n*[[Temple Guardian]] in [[Oriath Square]], or [[Heretical Guardian]] in [[The Ruined Square]], in Act 5\n*[[Student of Brutality]] in [[The Putrid Cloister]] or in maps affected by [[Divination Scarab of the Cloister]]\n*Monsters with the implicit {{c|nemesis|Proximity Shield}} [[Nemesis modifier]] \n**[[Tormented Temptress]] unique area boss in [[Whakawairua Tuahu]]<ref>[[Monster:Metadata/Monsters/Seawitch/DarkSeaWitch]]</ref>\n**[[Thornrunner]] Vaal side area [[Hidden Patch]] boss<ref>[[Monster:Metadata/Monsters/Snake/SnakeScorpionBossSideArea]]</ref>\n\n==Variants==\n===Monster mod===\n{{Modifier table\n|q_tables = mod_stats, mod_spawn_weights\n|q_join = mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where = mods.name LIKE \"%Proximity Shield%\" AND domain = \"3\"\n|stat_text=1\n|level=1\n|generation_type =1\n|spawn_weights=1\n}}\n===Monster skills===\nThe following [[monster]]s use skill version of Proximity Shield:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, skill_ids\n|where=skill_ids HOLDS LIKE \"%ProximityShield%\" \n\n|limit=100\n|order by=name\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.18.0| \n* Archnemesis modifiers have been rebalanced and added to the core game. Existing Magic and Rare monster modifiers have been replaced with Archnemesis modifiers.\n* Bloodlines and Nemesis have been removed from the core game.\n** This includes {{c|nemesis|Proximity Shield}}. {{Undocumented}}\n}}\n{{Version history table row|3.16.0b|\n* Reduced the number of Monsters with Proximity Shield that can spawn in some [[Scourge league|Scourge]] encounters.\n}}\n{{Version history table row|1.1.2|\n*Undying Evangelists' Proximity Shields have a shorter duration, and they use it less often. \n}}\n{{Version history table row|1.0.5|\n*Added a buff icon for being under the effects of Proximity Shield. \n}}\n{{Version history table row|1.0.4|\n*Fixed an interaction between the {{il|Headhunter}} unique item and the Proximity Shield [[Nemesis]] mod, where the Proximity Shield did not expire. \n}}\n{{Version history table row|1.0.3|\n*Added a new buff icon for the Proximity Shield effect.\n}}\n{{Version history table row|1.0.0|\n*Added to the game (Nemesis mod version).\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Monster auras]]\n[[Category:Monster skills]]",
+  "sha256": "84fcd1f1fec7a85d553af5f3092df05514f142d29ab8ee3755f3ef93ba0d5640"
+}

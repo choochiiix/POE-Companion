@@ -1,0 +1,33 @@
+{
+  "title": "Elemental Thorns",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:57:21.484394+00:00",
+  "requested": [
+    "Elemental Conflux",
+    "Elemental Damage Aura",
+    "Elemental Damage Taken Increase",
+    "Elemental Reflection",
+    "Elemental Reflection Aura",
+    "Elemental Thorns",
+    "Elemental Warding",
+    "Elemental Weakness",
+    "Emberstorm",
+    "Empowering Howl",
+    "Encased in Jade",
+    "Encompassing Tentacles",
+    "Endless Hazard",
+    "Endless Pain",
+    "Energy Shield Aura",
+    "Energy Shield Leech",
+    "Energy Shield Regeneration",
+    "Enervation",
+    "Engraved Orb",
+    "Engulfed by Ghostfire"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

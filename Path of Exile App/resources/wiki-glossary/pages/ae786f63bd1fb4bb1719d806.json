@@ -1,0 +1,33 @@
+{
+  "title": "Mightblood Ire",
+  "pageId": 127461,
+  "revision": 1493615,
+  "timestamp": "2025-01-26T14:54:08Z",
+  "retrieved": "2026-11-14T10:57:34.139551+00:00",
+  "requested": [
+    "Malevolence Aura",
+    "Malignant Madness",
+    "Mana Regeneration Aura",
+    "Mana Rune",
+    "Mana Shield",
+    "Mana-Infused Staff",
+    "Mark of Dominus",
+    "Mark of the Synthete",
+    "Marked for Death",
+    "Massive Shrine",
+    "Master of Metal",
+    "Maven's Game",
+    "Maven's Grace",
+    "Maven's Punishment",
+    "Medium Physical Damage Aura",
+    "Metamorphosis",
+    "Might is Right",
+    "Mightblood Ire",
+    "Militarised Coral",
+    "Mine and Trap Test"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Mightblood Ire\n|class_id                                = Tincture\n|base_item                               = Ironwood Tincture\n|explicit1                               = TinctureMeleeSplashOnWeaponHitUnique__1\n|explicit2                               = TinctureToxicityRateUnique__1\n|flavour_text                            = The liquid within boils and fumes,<br>ready to erupt at any provocation.\n|release_version                         = 3.25.0\n|is_drop_restricted                      = false\n|drop_text                               = \n}}\n\n'''Mightblood Ire''' is a [[unique]] {{il|Ironwood Tincture}}.\n\n==Mechanics==\n\n{{Item acquisition}} <ref>https://youtu.be/OUnXmMqDs-0</ref>\n\n==Version history==\n\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "97ed5bc0a799aaf629915281964af5553b4d519b187843fe2df30a407c871266"
+}

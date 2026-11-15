@@ -1,0 +1,33 @@
+{
+  "title": "Dark Temptation",
+  "pageId": 4543,
+  "revision": 1682638,
+  "timestamp": "2026-07-26T23:31:36Z",
+  "retrieved": "2026-11-14T10:57:18.315379+00:00",
+  "requested": [
+    "Cruelty",
+    "Crusader Shrine Monster",
+    "Crusader's Shrine",
+    "Crushing Darkness",
+    "Crystalised Fear",
+    "Cube of Absorbtion",
+    "Curse Immunity",
+    "Cursed Flesh",
+    "Cyclone",
+    "Damage Aura",
+    "Damage Reduction Aura",
+    "Dancing Dervish",
+    "Dark Gift",
+    "Dark Pit",
+    "Dark Temptation",
+    "Dark Vortex",
+    "Darkness",
+    "Darktongue's Kiss",
+    "Dead Spectre",
+    "Death Draw"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Dark Temptation\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = \"Only a fool looks to the occult for power and expects to be spared from its wrath.\" <br>- Voll, Emperor of Purity\n|drop_level                              = 59\n|tags                                    = weapon_divination, unique_divination, unique_weapon_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardDarkTemptation\n|stack_size                              = 5\n|description                             = {{c|unique|{{iil|Obliteration}}}}\n|stack_size_currency_tab                 = 10000\n|drop_text                               = Can also drop from hidden chests in [[The Azurite Mine]].\n|release_version                         = 3.6.0\n}}\n\n'''Dark Temptation''' is a [[divination card]]. A set of five can be exchanged for {{il|Obliteration}}.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Drop level changed from 44 to 59. {{Undocumented}}\n}}\n{{Version history table row|3.21.0|\n* This card's drop level was changed from 42 to 44. {{Undocumented}}\n}}\n{{Version history table row|3.6.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "71ef0f06b57c380c70a0b9441fc8495ec118d1f4fbb831a7c957ea36a191d750"
+}

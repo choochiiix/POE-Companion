@@ -1,0 +1,33 @@
+{
+  "title": "Lion's Roar",
+  "pageId": 9722,
+  "revision": 1488317,
+  "timestamp": "2024-10-13T03:29:52Z",
+  "retrieved": "2026-11-14T10:57:32.565562+00:00",
+  "requested": [
+    "Life Regeneration Aura",
+    "Lifetap",
+    "Light",
+    "Lightning Aegis",
+    "Lightning Beam",
+    "Lightning Bomb",
+    "Lightning Bond",
+    "Lightning Clone Retaliation",
+    "Lightning Damage Aura",
+    "Lightning Damage and Shock",
+    "Lightning Empowered",
+    "Lightning Empowerment",
+    "Lightning Exposure",
+    "Lightning Golem",
+    "Lightning Golem Wrath",
+    "Lightning Reprisal",
+    "Lightning Resistance Loss",
+    "Lightning Shrine",
+    "Lightning Swarm",
+    "Lion's Roar"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Lion's Roar\n|class_id                                = UtilityFlask\n|base_item                               = Granite Flask\n|drop_level                               = 35\n|explicit1                               = KnockbackOnFlaskUseUniqueFlask9\n|explicit2                               = AoEKnockBackOnFlaskUseUniqueFlask9_\n|explicit3                               = MonstersFleeOnFlaskUseUniqueFlask9\n|explicit4                               = PhysicalDamageOnFlaskUseUniqueFlask9\n|flavour_text                            = A sprinkle of hunger, a spoonful of menace<br>and three generous cups of Might.\n|release_version                         = 2.0.0\n}}\n\n'''Lion's Roar''' is a [[unique]] {{il|Granite Flask}}.\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Legacy variants==\nLion's Roar has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0\n|\n* Adds Knockback to Melee Attacks during Flask effect\n* Knocks Back Enemies in an Area when you use a Flask\n* 75% chance to cause Enemies to Flee on use\n* {{c|mod|(20-25)% more Melee Physical Damage during effect}}{{efn|name=Reroll legacy explicit }}\n}}\n{{legacy variant table row|3.0.0\n|\n* Adds Knockback to Melee Attacks during Flask effect\n* Knocks Back Enemies in an Area when you use a Flask\n* 75% chance to cause Enemies to Flee on use \n* {{c|mod|(30-35)% more Melee Physical Damage during effect}} {{efn|name=Reroll legacy explicit }}\n}}\n{{legacy variant table row|2.2.0\n|\n* {{c|mod|(70-100)% increased Charges used}}\n* Adds Knockback to Melee Attacks during Flask effect\n* Knocks Back Enemies in an Area when you use a Flask\n* 75% chance to cause Enemies to Flee on use\n* {{c|mod|30% more Melee Physical Damage during effect}}{{efn|name=Reroll legacy explicit }}\n}}\n{{Legacy variant table end}}\n\nThe {{c|mod|increased Charges used}} mod (from pre-2.2.0 version) cannot be removed as the game developer DID NOT set a new 0 default value to that mod (sometimes they did for other legacy unique item). The pre-2.2.0 version ''can'' have mod value of (30-35)% for the mod {{c|mod|#% more Melee Physical Damage during effect}}, if the player had used a {{il|Divine Orb}} during the period from [[version 2.2.0]] to before [[version 3.0.0|3.0.0]] (i.e. [[version 2.6.3]]), making it a hybrid variant. However, since the current range is (7-10)%, such hybrid variant is useless to create currently, so that it is not recommended to [[Divine Orb|divine]] it.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* Now has 7-10% More Melee Physical Damage during effect (previously 20-25%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n* The basetype, {{il|Granite Flask}}, now grants +1500 to Armour Rating (previously 3000).\n}}\n{{Version history table row|3.1.0|\n* Now only grants knockback to melee attacks during flask effect.\n}}\n{{Version history table row|3.0.0|\n* More Physical Damage lowered to 20-25%\n}}\n{{Version history table row|2.2.0|\n* Lion's Roar no longer requires extra charges to use and can be used twice. It now also provides 30-35% more melee physical damage (instead of a fixed 30%).\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==Notes==\n{{Notelist|notes=\n{{efn|name=Reroll legacy explicit |Using a {{il|Divine Orb}} on a legacy Lion's Roar with the explicit modifier {{c|mod|(20-25)% more Melee Physical Damage during effect}} ( (30-35)% for double legacy, 30% for triple legacy despite the patch notes claimed it is fixed) will decrease he value of that modifier to (7-10)%}}\n}}\n\n\n{{Navbox Unique Items}}",
+  "sha256": "04ab3d90d52eb4d4c683441ddae0db21a3ce4324efd5e336bcac9056f902213b"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Kitava's Thirst",
+  "pageId": 9181,
+  "revision": 1703455,
+  "timestamp": "2026-10-28T14:02:48Z",
+  "retrieved": "2026-11-14T10:57:31.781976+00:00",
+  "requested": [
+    "Kaom's Leadership",
+    "Keystone Oasis",
+    "Kiara's Determination",
+    "Kiloava's Leadership",
+    "Kingmaker's Presence",
+    "Kirac's Boon",
+    "Kitava's Thirst",
+    "LabyrinthTrapDebuff",
+    "Large Physical Damage Aura",
+    "Last Breath",
+    "Lava",
+    "Lavianga's Cup",
+    "Layered Frost",
+    "Lemuroid Procession",
+    "Leporine Procession",
+    "Lethal Spines",
+    "Lethality",
+    "Lich's Beam",
+    "Life Leech Damage",
+    "Life Regen Aura"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Kitava's Thirst\n|class_id                                = Helmet\n|base_item                               = Zealot Helmet\n|explicit1                               = ChanceToCastOnManaSpentUnique__1\n|explicit2                               = ReducedCastSpeedUniqueHelmetStrInt6\n|explicit3                               = LocalIncreasedArmourAndEnergyShieldUniqueHelmetStrInt6\n|explicit4                               = IncreasedManaUnique__7\n|flavour_text                            = Tukohama, Tawhoa and Kitava went to the lake to fish.<br>Tawhoa weaved a net to catch the fish,<br>Tukohama built a fire to cook the fish,<br>and Kitava swallowed the entire lake, fish and all, with a single gulp.\n|release_version                         = 2.4.0\n}}\n\n'''Kitava's Thirst''' is a [[unique]] {{il|Zealot Helmet}}.\n\n==Mechanics==\n\n* {{c|mod|50% chance to Trigger Socketed Spells}}: \n** Each time you use a [[Active skill|skill]] and spend 100 or more mana to pay its [[cost]], there is a 50% chance all [[socket]]ed [[spell]]s will [[trigger]]. \n** If multiple of the same spell [[skill gem]] are socketed, they will share a cooldown. Only one will trigger. \n* {{c|mod|when you Spend at least 100 Mana}}:\n** 100 or more [[mana]] must be spent in order to trigger socketed spells. \n*** 100 mana must be spent all at once, not across multiple uses.\n*** Skills that spend life via [[Blood Magic]] or energy shield via [[Eldritch Battery]] will not trigger socketed spells.\n*** Using {{il|Soul Taker}} or other methods that avoid spending mana will not trigger socketed spells.\n*** Mana [[reservation]] cannot trigger socketed spells.\n*** Spending mana on trigger costs can trigger socketed spells.\n* {{c|mod|Use a Skill}}: \n** Channelled skills with a mana cost of 100 or above can only trigger spells with the initial cast. This is because Kitava's Thirst triggers when spending mana to use a skill, not to maintain an already-used skill.<ref>https://www.pathofexile.com/forum/view-thread/1773158/page/1#p13911069</ref><ref>https://www.pathofexile.com/forum/view-thread/1716228</ref>\n* Targeting\n** Triggered spells will target a nearby target. The triggered spells will not necessarily target the same location or enemy targeted by the original skill.\n** If there are no nearby potential targets, the casts will target randomly.\n\n==Strategy==\nThere are several methods that can be used to raise the [[cost]] of skills to help Kitava's Thirst trigger its socketed spells more regularly and expand the list of usable skills that can trigger this unique. Rapid cast or attacking abilities are preferred when using Kitava's Thirst to increase the likeliness of socketed spells triggering. Because of the high mana cost needed, several spells and most attack skills struggle to reach the 100 mana threshold, however there are a few ways to increase their cost:\n\n*{{il|Pledge of Hands}} grants an innate level 30 [[Greater Spell Echo Support]] which includes a large 150% mana multiplier and also significantly increases the player's mana pool.\n* A copy of the Unique Jewel {{il|Fevered Mind}} can also be socketed into the passive skill tree to boost the cost of all skills.\n* {{il|Archmage Support}} can also be used to increase the mana cost of spells, if the character has enough unreserved mana.\n\n'''Channelled skills''' are the fastest skills, but they activate the cast only once per use (if the mana cost is sufficient), so the player has to start and end channelling rapidly, which is tedious but possible.\n\n'''Fastest non-channelled spells''' are {{il|Unearth}} and {{il|Armageddon Brand}}. {{il|Frenzy}} is the fastest [[attack skill]]. [[Instant]] skills can be used, but might be undesirable because of their cooldown.\n\n'''Mana consumption''' of a character using Kitava's Thirst offensively is huge. On average, one needs to spend 200 mana for one activation and the cost of the triggered socketed spells also need to be paid. {{il|Nexus Gloves}} can help mitigate the cost.\n\n{{Item acquisition}}\n\n{{Foulborn}}\n\n{| class=\"wikitable sortable\"\n|+\n|-\n! Unique item !! Original modifier !! {{c|foulborn|Foulborn modifier}}\n|-\n| Kitava's Thirst || {{c|mod|[[Modifier:ChanceToCastOnManaSpentUnique~~1|50% chance to Trigger Socketed Spells when you Spend at least 100 Mana on an Upfront Cost to Use or Trigger a Skill, with a 0.1 second Cooldown]]}} || {{c|foulborn|[[Modifier:MutatedUniqueHelmetStrInt6ChanceToCastOnManaSpent|50% chance to Trigger Socketed Spells when you Spend at least 200 Life on an\nUpfront Cost to Use or Trigger a Skill, with a 0.1 second Cooldown]]}}\n|}\n\n==Legacy variants==\nKitava's Thirst has a [[legacy variant]].\n\n{{legacy variant table header}}\n{{legacy variant table row|3.11.0|\n* {{c|mod|30% chance to Trigger Socketed Spells when}}\n* {{c|mod|you Spend at least 100 Mana to Use a Skill}}\n* 15% reduced Cast Speed\n* (70-80)% increased Armour and Energy Shield\n* +(30-50) to maximum Mana\n}}\n{{Legacy variant table end}}\n\n==Gallery==\n<gallery>\nFile:Kitava's Thirst 3D 1.png\nFile:Kitava's Thirst 3D 2.png\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Now has a 50% chance to trigger socketed spells when you spend at least 100 mana to use a skill (from 30%).\n}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique helmets with 3D art]]",
+  "sha256": "3d1184b80b42f00a9adfff42a909f714e4170a55e6c326c0f2515119ae95287d"
+}

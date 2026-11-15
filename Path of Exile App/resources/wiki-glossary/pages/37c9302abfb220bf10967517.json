@@ -1,0 +1,33 @@
+{
+  "title": "Lonely Warrior",
+  "pageId": 127148,
+  "revision": 1683191,
+  "timestamp": "2026-07-26T23:47:12Z",
+  "retrieved": "2026-11-14T10:57:33.346686+00:00",
+  "requested": [
+    "Lioneye's Arrows",
+    "Liquid Gold",
+    "Livewire",
+    "Living Crystals",
+    "Lonely Warrior",
+    "Loyalty",
+    "Lucky Arc",
+    "Lunar Protection",
+    "Lunar Resistance",
+    "Lunaris Shrine",
+    "Lustrous Lacquer",
+    "Maata's Leadership",
+    "Magmatic Strikes",
+    "Magnetic Storm",
+    "Maim Immunity",
+    "Malachai Spores",
+    "Malachai's Endurance",
+    "Malachai's Frenzy",
+    "Malachai's Power",
+    "Malediction"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Lonely Warrior\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = A true warrior fights<br>for those who cannot<br>fight for themselves.\n|drop_level                              = 75\n|tags                                    = jewellery_divination, unique_divination, unique_jewellery_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardLonelyWarrior\n|stack_size                              = 10\n|description                             = {{c|unique|{{iil|Defiance of Destiny}}}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.25.0\n}}\n\n'''Lonely Warrior''' is a [[divination card]]. A set of ten can be exchanged for {{il|Defiance of Destiny}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous.<ref>https://clips.twitch.tv/ScrumptiousDistinctBatRaccAttack-rTyeHxudqBqqs2_I</ref>\n\n==Trivia==\nThis card may be a reference to the song of the same name by Eason Chan, frequently associated with the streamer [https://www.twitch.tv/ruetoo Ruetoo].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Introducted to the game.\n{{Atlas div card|Estuary}} (Tier 7+)\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n}}\n\n{{Navbox Items}}",
+  "sha256": "da6ae2d6cc934c1c88e3cf02c37f237662b783ee2258685ff77439299c7b3603"
+}

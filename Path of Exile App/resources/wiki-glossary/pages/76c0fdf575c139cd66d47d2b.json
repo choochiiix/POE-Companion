@@ -1,0 +1,33 @@
+{
+  "title": "The Torrent's Reclamation",
+  "pageId": 17405,
+  "revision": 1635617,
+  "timestamp": "2026-03-22T01:27:06Z",
+  "retrieved": "2026-11-14T10:57:49.217160+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Torrent's Reclamation\n|class_id                                = Belt\n|base_item                               = Cloth Belt\n|explicit1                               = HarbingerSkillOnEquipUnique2_2\n|explicit2                               = AttackAndCastSpeedUnique__1\n|explicit3                               = LifeAndEnergyShieldRecoveryRateUnique_1\n|explicit4                               = GlobalCooldownRecoveryUnique__1\n|explicit5                               = DebuffTimePassedUnique__1\n|flavour_text                            = {{glyph|HBGAa}}{{glyph|HBG02}}{{glyph|HBGAr}}{{glyph|HBG01}}{{glyph|HBGAl}}<br>{{glyph|HBGAf}}{{glyph|HBG02}}{{glyph|HBGC01}}{{glyph|HBG01}}{{glyph|HBGAr}}<br>{{glyph|HBGAa}}{{glyph|HBG02}}{{glyph|HBGC02}}{{glyph|HBG01}}{{glyph|HBGAn}}{{glyph|HBG03}}{{glyph|HBGAf}}\n|release_version                         = 3.11.0\n|acquisition_tags                        = Harbinger\n|recipe1_description                     = Only available in permanent leagues\n|recipe1_part1_item_name                 = The Flow Untethered\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Time-light Scroll\n|recipe1_part2_amount                    = 1\n|recipe2_description                     = {{c|corrupted|Two-implicit corrupted}} {{c|unique|The Torrent's Reclamation}}\n|recipe2_part1_item_name                 = Deadly Joy\n|recipe2_part1_amount                    = 6\n}}\n\n'''The Torrent's Reclamation''' is a [[unique]] {{il|Cloth Belt}}.\n\n==Mechanics==\n{{sl|Summon Greater Harbinger of Time}}: Summons a minion which will cast {{stl|The Torrent's Reclamation}} aura buff on the player every 10 seconds. The buff lasts for 8 seconds and grants 10% increased [[action speed]].\n\nThis version of the skill doesn't affect enemies, unlike [[Summon Harbinger of Time|the regular version]].\n{{status\n| name                   = The Torrent's Reclamation\n| type                   = Buff\n| description = Time moves more swiftly for you and allies around you.\n}}\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Currency can no longer be obtained: Deregulation Scroll, Electroshock Scroll, Fragmentation Scroll, Haemocombustion Scroll, Specularity Scroll, and Time-light Scroll.\n* The following Uniques have been added to the core drop pool: The Immortal Will, The Shattered Divinity, The Surging Thoughts, The Tempest's Liberation, The Torrent's Reclamation, and The Yielding Mortality.\n* Harbinger uniques now provide an additonal {{il|Fracturing Shard}} when [[vendor]]ed.{{Undocumented}}\n}}\n{{Version history table row|3.15.0|\n* Aura from Greater Harbinger of Time now provides 10% increased Action Speed (previously 20%).\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "2a3ff45a85ea4d526671eba78df01b197765861be8d3517c74fcc755a150bda7"
+}

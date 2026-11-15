@@ -1,0 +1,33 @@
+{
+  "title": "Immortal Ambition",
+  "pageId": 8499,
+  "revision": 1625827,
+  "timestamp": "2026-03-04T13:45:59Z",
+  "retrieved": "2026-11-14T10:09:57.336584+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Immortal Ambition}}\n'''Immortal Ambition''' is a [[keystone passive skill]] which allows [[life]] [[leech]] to recover [[energy shield]] while on [[full life]], while disabling energy shield [[recharge]] and energy shield [[regeneration]], and causing 5% energy shield [[loss]] per second. \n\nThis keystone is only accessible through certain unique items.\n\n==Mechanics==\n{{c|mod|Life Leech effects Recover Energy Shield instead while on Full Life}}:\n* This does not create energy shield leech instances (unlike {{psl|Ghost Reaver}}); life leech effects remain life leech, and accordingly, are still based on maximum life, and modified by life leech modifiers.<ref name=Mark>{{cite web|url=https://www.reddit.com/r/pathofexile/comments/axcd00/how_do_you_calculate_the_cap_for_es_leech_with/|title=Re: How do you calculate the cap for ES leech? (with Ghost Reaver, Vaal Pact and Vixen's entrapment interactions)|author=Mark_GGG|publisher=Official Path of Exile subreddit|date=March 5, 2019|accessdate=March 21, 2021}}</ref>\n* Energy shield recovery per second from life leech ''is'' limited by {{c|mod|Maximum total Energy Shield Recovery per second from Leech}} however, sharing this cap with regular energy shield leech. (By default 10% of maximum ES per second.) \n* Effects that cause life leech to recover life instantly (e.g. {{psl|Vaal Pact}}) will also cause ES to be recovered instantly. Instant recovery is not limited by the per-second recovery cap on ES, only by the per-instance cap of life leech (normally 10% of maximum life). When a hit's instant leech fills life, the remaining recovery will recover ES. \n* Life leech stops recovering life as soon as the player counts as on full life, including with modifiers like the {{c|mod|You count as on Full Life while at 90% of maximum Life or above}} [[Life Mastery]]. \n* Life [[reservation]] will normally prevent ES recovery, as the player will be unable to reach full life. \n* Life leech instances are not removed when energy shield is filled. \n\n==Location==\nThis keystone will conquer (i.e. convert) any existing keystones on the skill tree, that within the jewel radius of a {{il|Glorious Vanity}}. The jewel needs to have the modifier {{c|mod|Bathed in the blood of (100–8000) sacrificed in the name of '''Ahuana'''}}.\n\n==Related unique items==\nThese [[unique item]]s (other than {{il|Glorious Vanity}}) have the {{c|mod|Immortal Ambition}} modifier, which provides the same effect as this keystone. Taking the keystone in addition to equipping one of these items will impart no additional benefit.\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Immortal%Ambition%\" OR items.stat_text LIKE \"%Conquered%by%the%Vaal%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* The stats which limit the total rate of recovery per second from leech have been changed. Previously these limited any recovery based on what kind of leech it came from, but they now limit recovery from any leech based on what kind of recovery it is. This has no effect except in cases where one kind of leech applies a different kind of recovery. For example, Immortal Ambition makes life leech cause energy shield recovery instead of life recovery. Previously this was limited by {{c|mod|Maximum total Recovery per second from Life Leech}}. That recovery will now be limited by {{c|mod|Maximum total Energy Shield Recovery from Leech}}.{{sic}}\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n\n[[Category:Keystone passive skills]]",
+  "sha256": "d3d6771d13e9d690927949bd74713042c8527f5b53e27014080c7eb85e96b10e"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Rhoa",
+  "pageId": 13802,
+  "revision": 1611783,
+  "timestamp": "2026-02-09T11:48:25Z",
+  "retrieved": "2026-11-14T10:11:12.096836+00:00",
+  "requested": [
+    "Ghost",
+    "Rhoa",
+    "Snake",
+    "Spider",
+    "Statue",
+    "Zombie",
+    "magic",
+    "explicit",
+    "Abyss jewel",
+    "Rarity",
+    "rarity",
+    "fishing",
+    "ailments",
+    "Crushed",
+    "Call of Steel",
+    "class",
+    "Buff Effect",
+    "event",
+    "race",
+    "ranged"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "[[File:Rhoa.jpg|thumb]]\nA '''rhoa''' is a type of [[monster]].\n\n==Abilities==\n*{{il|Shield Charge}} <ref>{{cite web|author=Chris|date=April 30, 2014|title=1.1.3 Patch Notes|url=https://www.pathofexile.com/forum/view-thread/910311#p7734085|publisher=Path of Exile Forums|accessdate=November 7, 2015}}</ref>\n*Resists [[Cold Damage]]\n\n==Variations==\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! Name !! Colour !! Location !! Special Attributes\n|- style=\"height:40px\"\n| style=\"width:200px\" |[[Rhoa Mare]] || Light brown ||style=\"width:200px\" | [[The Mud Flats]], [[The Old Fields]], [[The Wetlands]] ||style=\"width:200px\" | N/A\n|-style=\"height:40px\"\n| [[Albino Rhoa]] || White || [[The Mud Flats]] || N/A\n|-style=\"height:40px\"\n| [[Tercel Rhoa]] || Red || [[The Mud Flats]] || N/A\n|-style=\"height:40px\"\n| [[Bone Rhoa]] || White || [[The Fetid Pool]],  [[The Library]], [[The Archives]] || {{c|mod|Undead}} \n|-style=\"height:40px\"\n| [[Murk Runner]] || Dark brown || [[The Ship Graveyard]], [[The Ship Graveyard Cave]], [[The Caverns]] || N/A\n|-style=\"height:40px\"\n| [[Primordial Rhoa]] || || [[Untainted Paradise]] || {{c|mod|Extra Life}} \n|}\n\n==Uniques==\n* [[Oozeback Bloom]] in [[The Mud Flats (Act 1)]]\n* [[Drought-Maddened Rhoa]] in {{il|Arid Lake Map}}\n* [[Skullbeak]] in {{il|Bog Map}}\n* [[The First Rhoa]] in {{il|Untainted Paradise}} map\n* [[Ghostram]], an [[invasion boss]]\n* [[Bone Bird]], target of [[Catarina, Master of the Dead|Catarina]] missions (legacy)\n\n==Trivia==\nThe rhoa is conceptually based on the real-world [[wikipedia:Moa|moa]], a large, flightless bird that was native to New Zealand but is now extinct. The name \"rhoa\" is a combination of \"rhino\" and \"moa\".<ref name=\"Rhino Moa\" />\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.8.3|\n* Rhoas should now not overshoot you by so much distance if a charge misses.\n}}\n{{Version history table row|0.8.1|\n* New Rhoa charge animation.\n* Rhoas can now charge past the player (with an improved animation).\n}}\n{{Version history table row|0.8.0|\n* Rhoas can charge at you.\n}}\n{{Version history table row|0.5.14|\n* Improved Rhoa animations.\n}}\n{{Version history table row|0.5.11|\n* Added sounds to Rhoas.\n}}\n{{Version history table row|0.5.5|\n* Reduced effectiveness of Rhoas.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Rhino Moa\">{{cite web\n| author = chris_wilson\n| date = January 14, 2015\n| title = TIL that Moa were real birds and the size scale used in PoE is quite accurate\n| url = http://www.reddit.com/r/pathofexile/comments/2sdpii/til_that_moa_were_real_birds_and_the_size_scale/cnok67o\n| publisher = Reddit\n| accessdate = July 20, 2023\n}}</ref>\n}}\n\n{{Navbox Bestiary}}\n\n[[Category:Monster types]]\n[[Category:Rhoas| ]]",
+  "sha256": "59f69095fd97d0d7439c2bf6039d3346770b8117e40c8d577009606356ce1525"
+}

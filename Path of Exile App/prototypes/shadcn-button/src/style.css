@@ -1,0 +1,18 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+@source "./button.tsx";
+@theme inline {
+ --color-background:var(--proof-bg);--color-foreground:var(--proof-text);
+ --color-primary:var(--proof-accent);--color-primary-foreground:var(--proof-bg);
+ --color-secondary:var(--proof-surface);--color-secondary-foreground:var(--proof-text);
+ --color-accent:var(--proof-hover);--color-accent-foreground:var(--proof-text);
+ --color-input:var(--proof-line);--color-ring:var(--proof-text);--color-destructive:#e66363;
+}
+:host{--proof-bg:#08090a;--proof-surface:#161718;--proof-text:#d0d6e0;--proof-line:#23252a;--proof-accent:#e4f222;--proof-hover:#ffffff0d;font:13px/1.4 system-ui,sans-serif;color:var(--proof-text)}
+*,*::before,*::after{box-sizing:border-box}
+button[data-slot=button]{appearance:none;min-height:30px;height:auto;padding:6px 10px;border:1px solid var(--proof-line);border-radius:6px;background:transparent;color:var(--proof-text);font:inherit;letter-spacing:-.01em;box-shadow:none;transition:none}
+button[data-slot=button]:hover:enabled{background:var(--proof-hover);border-color:#383b3f}
+button[data-slot=button]:focus-visible{outline:2px solid var(--proof-text);outline-offset:3px;box-shadow:none}
+button[data-slot=button]:disabled{opacity:.5;pointer-events:none}
+.actions{display:flex;gap:12px;flex-wrap:wrap}.status{display:block;margin-top:12px;color:#8a8f98}
+@media(forced-colors:active){button[data-slot=button]{border-color:ButtonText;color:ButtonText}}

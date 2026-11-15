@@ -1,0 +1,33 @@
+{
+  "title": "Lightning Aegis",
+  "pageId": 9644,
+  "revision": 1649357,
+  "timestamp": "2026-05-22T23:39:21Z",
+  "retrieved": "2026-11-14T10:57:32.565562+00:00",
+  "requested": [
+    "Life Regeneration Aura",
+    "Lifetap",
+    "Light",
+    "Lightning Aegis",
+    "Lightning Beam",
+    "Lightning Bomb",
+    "Lightning Bond",
+    "Lightning Clone Retaliation",
+    "Lightning Damage Aura",
+    "Lightning Damage and Shock",
+    "Lightning Empowered",
+    "Lightning Empowerment",
+    "Lightning Exposure",
+    "Lightning Golem",
+    "Lightning Golem Wrath",
+    "Lightning Reprisal",
+    "Lightning Resistance Loss",
+    "Lightning Shrine",
+    "Lightning Swarm",
+    "Lion's Roar"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=LightningAegis}}\n\n'''Lightning Aegis''' is a [[skill]] that applies a protective [[buff]] on the character and absorbs [[lightning damage]] from [[hit]]s up to a certain amount before it temporarily dissipates.\n\n==Acquisition==\nLightning Aegis can only be obtained by equipping {{il|Perepiteia}}.\n\n==See also==\n* {{sl|id=FireAegis}}\n* {{sl|Cold Aegis}}\n* {{sl|Elemental Aegis}}\n* {{sl|id=PhysicalAegis}}\n* {{sl|Primal Aegis}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* No longer has its recharge timer interrupted by damage if the buff is depleted\n}}\n{{Version history table row|3.6.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Buffs]]",
+  "sha256": "886eabdfb157b3091cad649e0035153645081fb54f1960b6de877f6cf8a945f3"
+}

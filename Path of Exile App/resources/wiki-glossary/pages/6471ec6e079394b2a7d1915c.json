@@ -1,0 +1,33 @@
+{
+  "title": "Full life",
+  "pageId": 7006,
+  "revision": 1673459,
+  "timestamp": "2026-07-13T07:21:27Z",
+  "retrieved": "2026-11-14T10:08:33.125174+00:00",
+  "requested": [
+    "Regeneration",
+    "Recovery",
+    "Reservation",
+    "Reservation efficiency",
+    "Low life",
+    "Full life",
+    "Recently",
+    "Nearby",
+    "Unaffected",
+    "Immunity",
+    "Avoidance",
+    "Lucky",
+    "Unlucky",
+    "Culling strike",
+    "Slayer",
+    "Berserk",
+    "Frenzy charge",
+    "Power charge",
+    "Endurance charge",
+    "Charge"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Full Life''' is a condition that applies when the character's current [[life]] is at 100%. Full Life works when under the influence of [[Chaos Inoculation]].\n\n__TOC__\n\n==Interactions==\nWhile taking [[damage over time]], the full life condition can still be met if your net life recovery is greater than the net life loss, via stats such as [[regeneration]], [[leech]], or [[flask]]s.<ref name=\"Full life and degen 1\"/><ref name=\"Full life and degen 2\"/> Note however that the player will still die from sufficiently much damage over time, even if their life recovery over time is greater than the life loss over time.\n\n==Related skill gems==\n{{Drop enabled gem table\n|tables=skill_stats_per_level\n|join=skill._pageID=skill_stats_per_level._pageID\n|where=\n  skill_stats_per_level.id LIKE \"%full_life%\"\n|level=yes\n|int=yes\n|dex=yes\n|str=yes\n}}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%full_life%\"\n|large=1\n|stat=1\n|level=1\n}}\n\n==Related passive skill==\n===Base and notable passives===\n{{Query base passive skills\n|where= passive_skill_stats.id LIKE \"%full_life%\"\n}}\n\n===Cluster jewel passives===\n{{Query base passive skills\n|q_where= passive_skills.id LIKE \"%affliction%\" AND passive_skill_stats.id LIKE \"%full_life%\"\n}}\n\n===Keystone passives===\n{{Query keystone passive skills\n|where=passive_skills.stat_text LIKE \"%full_life%\"\n}}\n\n===Masteries===\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%Full Life%\"}}\n\n===Ascendancy passive skills===\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%full_life%\" \n}}\n\n===Tattoos/Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%full%life%\"\n|large=1\n|description=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.6.0|\n* Full Life condition can now be met if the recovery is greater than the damage over time.<ref name=\"Full life and degen 1\"/>\n}}\n{{Version history table end}}\n\n==See also==\n* [[Low life]]\n\n==References==\n{{reflist|refs=\n<ref name=\"Full life and degen 1\">{{cite web\n| author = Hrishi_GGG\n| date = May 25, 2017\n| title = Re: New unique belt coming in 3.0.0! Promises to make hybrid ES-Life viable\n| url = https://www.reddit.com/r/pathofexile/comments/6d7csk/comment/di0n9wq/?context=3\n| publisher = Reddit\n| accessdate = May 25, 2017\n}}</ref>\n<ref name=\"Full life and degen 2\">{{cite web\n| author = Mark_GGG\n| date = January 12, 2018\n| title = Re: Mechanical Questions Thread\n| url = https://www.pathofexile.com/forum/view-thread/1676002/filter-account-type/staff/page/5#p15196665\n| publisher = Official Path of Exile Forums\n| accessdate = April 20, 2023\n}}</ref>\n}}\n\n[[Category:Game mechanics]]",
+  "sha256": "acd6e2cb779f8dcf3867f619f1f2b0785c35af53eae96c1088892b0aa58c7a4b"
+}

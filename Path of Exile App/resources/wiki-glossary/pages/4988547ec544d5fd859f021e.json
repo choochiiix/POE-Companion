@@ -1,0 +1,33 @@
+{
+  "title": "Sacrificial Zeal",
+  "pageId": 14125,
+  "revision": 1700031,
+  "timestamp": "2026-08-07T22:12:41Z",
+  "retrieved": "2026-11-14T10:57:41.957413+00:00",
+  "requested": [
+    "Rumblemarch Life Regen",
+    "Rumi's Concoction",
+    "Runesurge",
+    "Rupture",
+    "Sacred Ashes",
+    "Sacred Infusion",
+    "Sacred Suffering",
+    "Sacrificial Zeal",
+    "Sailors Lantern",
+    "Sand Bladestorm",
+    "Sand Stance",
+    "Sand of Eternity",
+    "Sands of Shakari",
+    "Sandstorm",
+    "Sap of the Seasons",
+    "Sapped Ground",
+    "Sapphire Flask",
+    "Sapping Conflux",
+    "Saqawine Presence",
+    "Scathing Tempest"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Sacrificial Zeal\n| type                   = Buff\n| description            = You are taking physical damage over time, and deal added physical damage.\n}}\n\n'''Sacrificial Zeal''' is a [[buff]] granted by {{il|Hand of the Fervent}}.\n\n==Mechanics==\n{{il|Hand of the Fervent}} grants Sacrificial Zeal on use of a skill for 4 seconds. It causes you to gain added physical damage equal to 25% of the skill’s mana cost and take physical damage over time equal to a percentage of the skill’s mana cost.\n\nIt will not grant added damage if the cost of the skill is more than the maximum amount you could spend. This can be a result of conditional or rotating cost modifiers such as {{il|Indigon}} increasing the cost after the skill is used or if you were able to ignore the skill's cost while having its actual cost exceed your unreserved maximum mana, such as with {{psl|From Below}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.2|\n* (Hotfix 2) The Sacrificial Zeal buff from Hand of the Fervent now grants Added Spell Damage equal to 25% of the Skill's Mana Cost, if Mana Cost is not higher than the maximum you could spend. The reminder text will be updated in a future patch.\n}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "04e3c54d75c4d9c53d15d521958c8db3a32fc5dab3fe11c87895390f34be6531"
+}

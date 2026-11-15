@@ -1,0 +1,33 @@
+{
+  "title": "Ghost Dance",
+  "pageId": 7200,
+  "revision": 1635131,
+  "timestamp": "2026-03-20T09:46:18Z",
+  "retrieved": "2026-11-14T10:09:57.335585+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Ghost Dance}}\n\n'''Ghost Dance''' is a keystone on the passive tree. It generates a [[Ghost Shroud]] every two seconds, up to a maximum of three Ghost Shrouds. When [[hit]], a Ghost Shroud is removed and [[recovery|recovers]] energy shield equal to a percentage of your evasion rating.\n\n==Mechanics==\nThe character must be [[hit]] in order for a Ghost Shroud to recover energy shield. [[receiving damage|Defensive mechanics]] that prevent hits such as [[evasion]] and [[dodge]] will also prevent the loss of Ghost Shrouds. \n\n[[Hit#Self-damage|Self-hits]] will cause a Ghost Shroud to be lost normally. [[Reflect]]ed hits and [[block]]ed hits will not. Taking damage from blocked hits (e.g. through {{psl|id=glancing_blows_keystone2693}}) does not change this.\n\nWhile limiting the recovery of energy shield is normally a downside, it could be used to prevent reaching full energy shield, for example to prevent the removal of energy shield [[leech]] instances. \n\n==Location==\nGhost Dance is located on the top-right side of the tree, on the upper outer parts of the Shadow's starting area.\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Shadow||11\n|-\n|Ranger||13\n|-\n|Duelist||19\n|-\n|Scion||18\n|-\n|Witch||14\n|-\n|Templar||22\n|-\n|Marauder||28\n|}\n==Version history==\nGhost Dance is a former [[Ascendancy]] notable passive skill of the [[Trickster]].\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Problem: Builds wanting to invest in both Evasion and Energy Shield rely heavily on Ghost Dance, requiring them to be a Trickster.\n: Solution: Give everyone access to Ghost Dance as a Keystone Passive.\n* No longer grants 3% reduced Damage taken per Ghost Shroud.\n* Now causes you, when Hit, to lose a Ghost Shroud and Recover Energy Shield equal to 3% of your Evasion Rating (from 5%).\n* You cannot Recover Energy Shield to above Evasion Rating.\n}}\n{{Version history table row|3.13.0|\n* No longer grants +3% to Chance to Evade while you have Energy Shield and 10% increased Movement Speed while you have Energy Shield.\n* Now causes you, when Hit, to lose a Ghost Shroud and Recover Energy Shield equal to 5% of your Evasion Rating (from 4%) and 3% reduced Damage taken per Ghost Shroud (from 2%).\n}}\n{{Version history table row|3.8.0|\n* Now grants +3% to chance to evade while you have Energy Shield (from +5%), 2% reduced damage taken per Ghost Shroud (from 3%), and when hit, causes you to lose a Ghost Shroud and recover Energy Shield equal to 4% of your Evasion Rating (from 5%).\n}}\n{{Version history table row|3.7.0|\n* Now causes you to gain a Ghost Shroud every 2 seconds (from 1).\n}}\n{{Version history table row|3.6.5|\n* Fixed a bug where [[Ghost Shroud]]s were not able to be gained after changing areas in a PvP match.\n}}\n{{Version history table row|3.6.0|\n* Reworked. It now causes you to gain a Ghost Shroud every second, up to a maximum of 3, 3% reduced damage taken per Ghost Shroud, when Hit, lose a Ghost Shroud and recover Energy Shield equal to 5% of your Evasion Rating, +5% chance to Evade while you have Energy Shield, and 10% increased Movement Speed while you have Energy Shield.\n}}\n{{Version history table row|3.2.0|\n* Removed {{c|mod|20% faster start of Energy Shield Recharge}}.\n* Added {{c|mod|40% increased Attack and Cast Speed if Energy Shield Recharge has started Recently}} and {{c|mod|20% more chance to Evade while on full Energy Shield}}.\n* Now grant 10% Dodge and Spell Dodge while you have energy shield, from 5% at all times.\n* Movement Speed is now granted at any amount of energy shield, from only at full energy shield.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n{{sister|poe2wiki}}",
+  "sha256": "f361b58ec32353bdc8dcea4f511c9203d5998fbb4f7897ac53dec156510d0c79"
+}

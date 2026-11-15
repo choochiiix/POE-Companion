@@ -1,0 +1,33 @@
+{
+  "title": "Effect",
+  "pageId": 5675,
+  "revision": 1486104,
+  "timestamp": "2024-10-13T02:05:22Z",
+  "retrieved": "2026-11-14T10:10:02.540420+00:00",
+  "requested": [
+    "Kill",
+    "Exerted",
+    "Mirage Warriors",
+    "effect",
+    "enemies",
+    "Cost",
+    "Monster modifiers",
+    "curse limit",
+    "Blessing skill",
+    "Elder item",
+    "Runesmithing",
+    "Cassia",
+    "ring",
+    "amulet",
+    "Ring",
+    "Amulet",
+    "notable passive skill",
+    "passive skill tree",
+    "Corrupt",
+    "Talisman"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "[[Image:Active_and_temporary_effects.png|500px|thumb|upright|Various effects.]]\n'''Active and temporary effects''' can be placed on [[character]]s. strengthening or weakening the character considerably. They are shown on the top left corner with a short description when hovered over.\n\n==Types of effects==\nEffects can both be negative or positive depending on if it was an enemy, the character or an ally that inflicted it. They're often inflicted by [[aura]]s, [[curse]]s, when within [[ground effects]] or when the character is [[hit]] by special [[skill]]s. Many of them are active for a short [[duration]], some of them can also stack leading to even stronger effects. \n\n===Buffs===\n[[Image:buffs.png|540px]]\n\n[[Buff]]s have a green border and are shown in one row at the upper left corner. These can originate from skill gems, passive skills and unique items.\n\n[[Minion]]s and [[totem]]s also generate icons. They always precede the temporary effects and are separated by a bar.\n\n===Debuffs===\n[[Image:screenshot-0140.png|45px|[[Bleed]] debuff]]\n\n[[Debuff]]s have a red border and are shown in separate row below [[Buffs]] / positive effects. These can originate from skill gems, passive skills and unique items.\n\n===Flask Effects===\n[[File:screenshot-0132.png|135px]]\n[[File:screenshot-0136.png|41px]]\n{{for|more information|Flask}}\n\nAll the utility [[flask]]s and all the [[Flask#Modifiers|affixes]] on them can create gold bordered temporary effects. Futhermore certain uniques like [[Doryani's Invitation]] grant additional temporary effects while other flasks effects are active. Some unique flasks also grant additional effects like {{il|Divination Distillate}}. Flask effects overwrite each other the only exception is which shows the implicit mod of an {{il|Quicksilver Flask}} with a [[Flask#Modifiers|of Adrenaline]] suffix, both count as different effects.\n\n===Charges===\n[[File:screenshot-0135.png|90px]]\n\nThe first number show the duration left, after which the [[charge]]s expire. The number below is the quantity of those charges.\n\n===Skills===\n[[File:screenshot-0143.png|90px]]\n\nCertain skills display a icon indicating the current state of some mechanic. The first shows {{il|Reave}} and the second a [[shrine]], which is considered a skill as well. They have the same border colour as charges. There's been no need to distinguish the two thus far.<ref name=\"FlaskNotBuff\" />\n\n===Minions & Totems===\n[[File:screenshot-0138.png|300px]]\n\nShows a list of minions. The number indicates the number of minions of those kind, if there is only one a red life bar is shown instead. For more information, see the [[Minion]] and [[Totem]] articles.\n\n==References==\n{{reflist|refs=\n<ref name=\"FlaskNotBuff\">{{cite web|author=Mark_GGG|date=October 4, 2015|title=Why flasks aren't considered as buffs ?|url=https://www.pathofexile.com/forum/view-thread/1441411|publisher=Official Path of Exile Forums|accessdate=December 7, 2015}}</ref>\n}}\n\n[[Category:Game mechanics]]\n[[Category:Buffs]]",
+  "sha256": "021eec861f33c685873fc3cb036c58cd52531e8ce882b469a9a96161fc1b3402"
+}

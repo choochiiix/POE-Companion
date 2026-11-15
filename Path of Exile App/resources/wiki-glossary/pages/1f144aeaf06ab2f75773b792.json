@@ -1,0 +1,33 @@
+{
+  "title": "Wrath of the Cosmos",
+  "pageId": 96249,
+  "revision": 1534800,
+  "timestamp": "2025-02-28T18:40:19Z",
+  "retrieved": "2026-11-14T10:57:53.948107+00:00",
+  "requested": [
+    "Weight of Despair",
+    "Wild Malady",
+    "Wild Savagery",
+    "Wildfire Phloem",
+    "Winter Orb",
+    "Wintertide",
+    "Wintertide Brand",
+    "Wintertide's End",
+    "Wisp's Blessing",
+    "Witchfire Brew",
+    "Withering Step",
+    "Worn Sandals",
+    "Wrath Aura",
+    "Wrath of the Cosmos",
+    "Wrath of the Drowned",
+    "You Fell For It Fool",
+    "You have the Blue Flag",
+    "You have the Green Flag",
+    "You have the Karui Spirit",
+    "You have the Red Flag"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the Atlas keystone|the idol|Wrath of the Cosmos (idol)}}\n\n{{Passive skill box|Wrath of the Cosmos}}\n\n'''Wrath of the Cosmos''' is an [[atlas passive skill]] and [[Atlas keystone]].\n\n==Mechanics==\n[[Searing Exarch]] Eldritch Altars will have a chance to have two Upsides instead of one. If the Altar has two Upsides, its Downside is doubled.\n\n==Location==\nAs of version 3.18.0 it is located at the left of the atlas passive skill tree, in the \"Searing Exarch\" wheel.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Redesigned this keystone. It now has \"Eldritch Altars Influenced by The Searing Exarch have 50% chance to have an additional Upside\" and \"Eldritch Altars Influenced by The Searing Exarch which have an additional Upside have 100% increased Effect of Downsides.\" It no longer has any of its former stats.\n}}\n{{Version history table row|3.18.1|\n* Added a debuff visual for '''Wrath of the Cosmos''' to display how many stacks you have in an area.\n}}\n{{Version history table row|3.18.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Atlas passive skills]]",
+  "sha256": "d3e3e094aec958b2e2ffe3c9fd92ad642692d635cb8793461f6685900ace7cec"
+}

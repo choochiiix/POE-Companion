@@ -1,0 +1,33 @@
+{
+  "title": "Rampage",
+  "pageId": 13349,
+  "revision": 1702497,
+  "timestamp": "2026-09-20T03:50:22Z",
+  "retrieved": "2026-11-14T10:08:29.722759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the challenge league|Rampage league}}\n\n[[File:Rampage-screenshot.jpg|thumb|Tier 4 rampage effect]]\n'''Rampage''' is a kill streak mechanic that provides rewards for killing increasing numbers of enemies without stopping. The rampage effect is only available for characters equipping certain items. \n\n==Mechanics==\nThe rampage counter keeps a running total of consecutive kills, including kills by [[proxies]] and [[minion]]s. When the character or a nearby [[party]] member fails to get a kill within five seconds of the previous kill, the rampage counter will reset to zero. When the counter reaches certain milestones, the character enters a new [[#Tiers|rampage tier]] and a special, beneficial effect is triggered. \n\nIn addition to the tier effects, the [[character]] gains the following [[stat]]s:\n{{#cargo_query:\n|tables = generic_stats\n|fields = stat_text\n|where = name=\"Character\"\n AND id NOT  LIKE \"%max_rampage_stacks%\" \n AND id LIKE \"%rampage%\"\n|format = ul\n}}\n\nThe maximum rampage count is 1000 which gives a character a total of 50% increased movement speed and 100% increased damage. Kills after this number is reached will not increase the rampage count any more, but will renew the countdown.\n\nYou do not gain Rampage stacks if you have an active Rampage killstreak but no longer have any source of Rampage on your character.\n\n{{il|Animate Guardian}} can't gain rampage, even if it meets the requirements of the relevant part of the equipment.\n\n{{il|The Writhing Jar}}, {{il|Squirming Terror}}, {{il|Vaal Breach}} etc. can be used to sustain Rampage while there are no nearby enemies to kill, or if the only enemies are invulnerable, such as during certain boss immunity phases.\n\n==Rampage tiers{{anchor|Tiers}}==\nThere are 13 rampage tiers. The number of kills required per tier remains the same throughout the parts.\n\n{|class=\"wikitable\"\n|-\n! Tier !! Kills !! Effect\n|-\n| 1 || 15 || A nova of spears that damage and stun surrounding enemies\n|-\n| 2 || 30 || A large area of effect Detonate Dead\n|-\n| 3 || 45 || Several Animated Weapons are summoned\n|-\n| 4 || 70 || A damaging nova that echoes off enemies (like [[Vaal Ice Nova]])\n|-\n| 5 || 100 || A nova of arcing spears that damage and stun surrounding enemies\n|-\n| 6 || 135 || Several Animated Bows are summoned\n|-\n| 7 || 175 || Five damaging novas cast with ~1 second intervals\n|-\n| 8 || 220 || A cyclone spawns from the player. When the cyclone kills an enemy, another cyclone appears\n|-\n| 9 || 270 || A heavily damaging nova that echoes off enemies\n|-\n| 10 || 325 || Cyclone that explodes nearby enemies\n|-\n| 11 || 385 || Five novas of spears that damage and stun surrounding enemies\n|-\n| 12 || 450 || Two cyclones that explode nearby enemies\n|-\n| 13 || 520 || Large explosions around the player that detonate corpses\n|}\n\n==Unique Items==\nThe table below lists [[unique items]] that are related to rampage:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%ampage%\"\n|large=1\n|level=1\n|stat=1\n}}\n\n==Modifiers==\n==Related modifiers==\n===Item mods===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%Rampage%\" AND mods.generation_type NOT IN (\"10\", \"24\", \"25\", \"31\", \"32\") AND mods.domain NOT IN ( \"12\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n|domain=1\n}}\n\n===Legacy mods===\n:'''Crucible'''\n\n{{modifier table\n|q_tables = mod_stats\n|q_join = mods._pageID=mod_stats._pageID\n|q_where=mod_stats.id LIKE \"%Rampage%\" AND mods.domain = 1 AND mods.generation_type IN ( \"31\", \"32\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type =1\n}}\n\n==Trivia==\n* Rampage was initially introduced in [[Rampage league]]. After the Rampage league ended, this mechanic was not added to the core game in an always-on way, and instead as an item mod.\n\n* It was offered as a {{il|Map Device}} crafted area mod in [[version 2.3.0]], but it is not offered in recent 3.X era patches. Such map crafting option was removed from the map device in the [[version 3.28.0]] atlas rework.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* You can no longer gain Rampage stacks if you have an active Rampage killstreak but no longer have any source of Rampage on your character. This does not prevent Dancing Dervish granting you Rampage while Manifested.\n}}\n{{Version history table row|3.1.1|\n* Fixed a bug causing debuffs to overlap with the Rampage kill counter.\n}}\n{{Version history table row|2.2.0|\n* Rampage no longer grants bonuses to minions. (Prior to this, Rampage used to grant the same Damage and Movement Speed increases it gave the player to minions as well.)\n}}\n{{Version history table row|2.0.0h|\n* Fixed a recently-introduced bug where Rampage was not working correctly.\n}}\n{{Version history table row|1.3.0|\n* Characters no longer gain 1% increased Damage per 10 Rampage Kills.  Characters now get 2% increased Damage and 1% increased Movement Speed per 20 Rampage Kills.<ref>https://www.reddit.com/r/pathofexile/comments/9igmai/comment/e6lha94/</ref>\n}}\n{{Version history table row|1.2.0|\n* Introduced to  the game.\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n\n\n[[Category:Game mechanics]]",
+  "sha256": "0baaea71e96c95fe3d93a64785ef33b44e09d4db4f53ee077fac5600ce9fab2f"
+}

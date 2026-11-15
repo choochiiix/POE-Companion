@@ -1,0 +1,33 @@
+{
+  "title": "Kiara's Determination",
+  "pageId": 9151,
+  "revision": 1488316,
+  "timestamp": "2024-10-13T03:29:51Z",
+  "retrieved": "2026-11-14T10:57:31.780976+00:00",
+  "requested": [
+    "Kaom's Leadership",
+    "Keystone Oasis",
+    "Kiara's Determination",
+    "Kiloava's Leadership",
+    "Kingmaker's Presence",
+    "Kirac's Boon",
+    "Kitava's Thirst",
+    "LabyrinthTrapDebuff",
+    "Large Physical Damage Aura",
+    "Last Breath",
+    "Lava",
+    "Lavianga's Cup",
+    "Layered Frost",
+    "Lemuroid Procession",
+    "Leporine Procession",
+    "Lethal Spines",
+    "Lethality",
+    "Lich's Beam",
+    "Life Leech Damage",
+    "Life Regen Aura"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Kiara's Determination\n|class_id                                = UtilityFlask\n|base_item                               = Silver Flask\n|explicit1                               = FlaskImmuneToStunFreezeCursesUnique__1\n|explicit2                               = FlaskEffectDurationUnique__2\n|flavour_text                            = Travelers of the deep wood speak of a witch<br>whose ale provides a different kind<br>of liquid courage.\n|release_version                         = 2.3.0\n|recipe1_part1_item_name                 = The Witch\n|recipe1_part1_amount                    = 8\n|recipe1_description                     = {{c|unique|Kiara's Determination}}\n}}\n\n'''Kiara's Determination''' is a [[unique]] {{il|Silver Flask}}. \n\n==Modifiers==\nAs with all other {{il|Silver Flask|Silver Flasks}}, you are granted [[onslaught]] during its effect. You are also made [[Immunity|immune]] to [[chill]]s, [[freeze]]s, [[curse]]s, and [[stun]]s. While it is not explicitly stated, freezes and curses are removed on sip. While this [[flask]] does make you immune to stun locks while active, already-triggered stuns are not cleansed on sip and still must play their animation before you are able to move again.\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of (0.80-1.60) seconds instead.\n\n==Legacy variants==\nKiara's Determination has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0|\n* Immune to Freeze, Chill, Curses and Stuns during Flask Effect\n* {{c|mod|60% reduced Duration}}\n}}\n{{legacy variant table row|3.0.0|\n* Immune to Freeze, Chill, Curses and Stuns during Flask Effect\n* {{c|mod|50% reduced Duration}}\n}}\n{{Legacy variant table end}}\n\n==Design attribution==\nKiara's Determination was created by supporter [https://www.pathofexile.com/account/view-profile/CKilgannon CKilgannon].<ref name=\"Announcement\"/>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* Now has 60-80% reduced Duration (previously 60%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n}}\n{{Version history table row|3.0.0|\n* Reduced Flask Duration increased to 60%.\n}}\n{{Version history table row|2.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Announcement\">{{cite web|author=CKilgannon|date=May 31, 2016|title=Kiara's Determination - a new unique flask coming in 2.3.0!|url=https://www.pathofexile.com/forum/view-thread/1666657|publisher=Official Path of Exile Forum|accessdate=May 31, 2016}}</ref>\n}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique items created by supporters]]",
+  "sha256": "f77a5cd18605acae91d1d25425bad9aa5a2bbcaf3c97571961f3952122d2a4aa"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Unwavering Crusade",
+  "pageId": 18422,
+  "revision": 1486276,
+  "timestamp": "2024-10-13T02:14:23Z",
+  "retrieved": "2026-11-14T10:57:50.752933+00:00",
+  "requested": [
+    "Tsoagoth Shrine",
+    "Tsoatha's Fodder",
+    "Tsoatha's Fury",
+    "Unbound",
+    "Unbound Fury",
+    "Undying Rage",
+    "Unholy Damage",
+    "Unholy Scalding",
+    "Unholy Urn",
+    "Union of Souls",
+    "Unrighteous Fire",
+    "Unstoppable Hero",
+    "Untuned Lute",
+    "Unwavering Crusade",
+    "Upheaval Buff",
+    "Ursine Procession",
+    "Utula's Leadership",
+    "Vaal Arctic Armour",
+    "Vaal Arctic Armour Buff",
+    "Vaal Blade Flurry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Unwavering Crusade}}\n'''Unwavering Crusade''' is a notable [[Ascendancy passive skill]] for the [[Guardian]] that grants a chance to [[trigger]] [[Summon Elemental Relic]] when you or your [[Ally|allies]] kills a monster or hits a rare or unique monster.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.23.0|\n* {{Ruthless}} Elemental Relics, triggered by the Guardian's Unwavering Crusade Ascendancy Passive Skill, now have a maximum level of 80 (previously 85).\n}}\n{{Version history table row|3.22.0|\n* Reworked. Old mods listed below:\n** {{c|mod|Nearby Allies have 20% increased Attack, Cast and Movement Speed}}\n** {{c|mod|Nearby Allies have 30% increased Area of Effect}}\n** {{c|mod|Nearby Allies Intimidate Enemies for 4 seconds on Hit}}\n** {{c|mod|Nearby Allies Unnerve Enemies for 4 seconds on Hit}}\n}}\n{{Version history table row|3.13.0|\n* No longer causes you to grant Nearby Allies 30% increased Damage.\n* Now causes you to grant Nearby Allies 20% increased Attack, Cast and Movement Speed (from 15%).\n}}\n{{Version history table row|3.8.0|\n* Has been reworked: Now grants nearby allies 30% increased damage, 15% increased attack, cast and movement speed, 30% increased area of effect, and causes nearby allies to Intimidate and Unnerve Enemies for 4 seconds on hit. Enemies which are Unnerved take 10% increased Spell Damage.\n}}\n{{Version history table row|3.4.0|\n* Added a new notable which requires Radiant Crusade -- Unwavering Crusade: Summoned Sentinels use Crusade Slam, 100% increased Minion Accuracy Rating, Minions Intimidate Enemies for 4 seconds on Hit, and if you've Hit an Enemy Recently, you and nearby Allies Regenerate 3% of Life per second. The passive leading to this notable grants 14% increased Armour, 6% increased Maximum Energy Shield, and Minions deal 10% increased Damage.\n}}\n{{Version history table end}}\n\n\n[[Category:Buffs]]\n[[Category:Auras]]",
+  "sha256": "3b324c9602bd9c9fbedf4bc12b93e1e82fa0b36a80ffa1077457ceda8865fce1"
+}

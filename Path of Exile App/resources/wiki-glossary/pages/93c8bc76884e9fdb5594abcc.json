@@ -1,0 +1,33 @@
+{
+  "title": "Life Regen Aura",
+  "pageId": 9571,
+  "revision": 1486609,
+  "timestamp": "2024-10-13T02:29:29Z",
+  "retrieved": "2026-11-14T10:57:31.781976+00:00",
+  "requested": [
+    "Kaom's Leadership",
+    "Keystone Oasis",
+    "Kiara's Determination",
+    "Kiloava's Leadership",
+    "Kingmaker's Presence",
+    "Kirac's Boon",
+    "Kitava's Thirst",
+    "LabyrinthTrapDebuff",
+    "Large Physical Damage Aura",
+    "Last Breath",
+    "Lava",
+    "Lavianga's Cup",
+    "Layered Frost",
+    "Lemuroid Procession",
+    "Leporine Procession",
+    "Lethal Spines",
+    "Lethality",
+    "Lich's Beam",
+    "Life Leech Damage",
+    "Life Regen Aura"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n|name                   = Life Regen Aura\n|type                   = Buff\n|description            = Allies Regenerate Life\n}}\n[[File:Life Regen Aura screenshot.png|thumb|A pack of monster that affected by the Life Regen monster aura.]]\n\n'''Life Regen Aura''' is a [[monster aura]] version of {{il|Vitality}} gem. The mod would be displayed under the monster nameplate as {{c|mod|Allies Regenerate Life}}. Some implicit monster mods also under the mod type \"MonsterAuraLifeRegen\" function similar to the \n{{stl|Life Regen Aura}}.\n\nThe player character can have this monster aura by stealing it from monster when using {{il|Headhunter}} or {{il|Inspired Learning}}. Players can also use {{il|Conversion Trap}} to convert monster with this aura as a temporary allies. Moreover, maps affected by the legacy [[sextant]] mod {{c|mod|Areas contain # additional packs of Monsters that Convert when Killed}} may spawn enemies with this mod, granting effects of the aura to players when converted.\n\nLastly, {{c|mod|Life Regen}} is another monster mod. That mod does not affect monster's allies.\n==Monsters==\nNotable monster with this monster auras:\n* [[Grinning Totem]]\n* [[Fickle Totem]]\n* ...\n==Variants==\n{{Modifier table\n|q_tables = mod_stats, mod_spawn_weights\n|q_join = mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where = mods.mod_type=\"MonsterAuraLifeRegen\" AND domain = \"3\"\n|stat_text=1\n|level=1\n|generation_type =1\n}}\n==See also==\n* {{stl|Mana Regeneration Aura}}\n\n==Version history==\n{{Version history table header }}\n{{Version history table row |?}}\n* Introduced to the game.\n{{Version history table end}}\n\n[[Category:Monster auras]]",
+  "sha256": "9340a594b70f48f5e0528a96c559af98e083b1dbeeae47e4cb50af502735df97"
+}

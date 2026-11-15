@@ -1,0 +1,35 @@
+{
+  "title": "Damage taken",
+  "pageId": 4453,
+  "revision": 1673455,
+  "timestamp": "2026-07-13T06:59:05Z",
+  "retrieved": "2026-11-14T10:10:05.032505+00:00",
+  "requested": [
+    "Of War",
+    "helmet",
+    "monster modifiers",
+    "attribute",
+    "area",
+    "Icestorm",
+    "Damage taken",
+    "Damage Taken",
+    "Legion",
+    "Spectral Corpse",
+    "skeleton",
+    "Raging Spirit",
+    "Animate Weapon",
+    "Desecrate",
+    "chaos",
+    "unique items",
+    "character size",
+    "radius",
+    "Tormented Spirit",
+    "damage taken"
+  ],
+  "aliases": [
+    "Damage Taken"
+  ],
+  "missing": false,
+  "wikitext": "{{distinguish|Damage taken as}}\n\n'''Damage taken''' refers to the amount of [[damage]] taken after all [[Damage mitigation|mitigations]] have taken place.<ref name=\"OrderDMGTaken\" /> It is a synonym of 'damage dealt', but from a defending standpoint.\n\n==Mechanics==\nModifiers to 'damage taken' (except [[damage taken as]]) apply to the value calculated ''after'' mitigation by resistances and armour.<ref>https://www.reddit.com/r/pathofexile/comments/gww68s/here_is_one_of_the_new_timeless_jewel_keystones/ft1res0/?context=2</ref><ref>https://www.reddit.com/r/pathofexile/comments/usqtub/why_is_effigy_even_a_thing/i99z2i1/?context=1</ref> See also [[receiving damage]]. \n\n==Related skill gems==\n[[Skill gem]]s that specifies damage taken.\n\n{{Drop enabled gem table\n|tables = skill_stats_per_level\n|join = skill._pageID=skill_stats_per_level._pageID\n|where = skill_stats_per_level.id LIKE \"%damage_taken%\"\n|level=yes\n|int=yes\n|dex=yes\n|str=yes\n|default=Currently, there are no [[active skill gem]]s that specifies damage taken.\n}}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%damage_taken_+%\"\n |large=1\n |level=1\n |stat=1\n}}\n\n==References==\n{{reflist|refs=\n<ref name=\"OrderDMGTaken\">{{cite web|author=Mark_GGG|date=May 15, 2014|title=defensive mechanisms activate in which order?|url=https://www.pathofexile.com/forum/view-thread/924683#p7847614|publisher=Official Path of Exile Forums|accessdate=May 15, 2014}}</ref>\n}}\n\n[[Category: Game mechanics]]",
+  "sha256": "c447c6a390b97335d55deb8d1d951049b541cfe2840b10d7bf4e664e09f9b136"
+}

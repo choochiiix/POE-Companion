@@ -1,0 +1,33 @@
+{
+  "title": "The Fracturing Spinner",
+  "pageId": 16921,
+  "revision": 1635586,
+  "timestamp": "2026-03-21T23:57:02Z",
+  "retrieved": "2026-11-14T10:57:48.401691+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Fracturing Spinner\n|class_id                                = Quiver\n|base_item_id                            = Metadata/Items/Quivers/QuiverNew6\n|explicit1                               = HarbingerSkillOnEquipUnique__4_\n|explicit2                               = HybridStrDexUnique__1\n|explicit3                               = AddedFireDamageUnique__2\n|explicit4                               = AddedColdDamageUnique__3\n|explicit5                               = FireAndColdResistUnique__1\n|flavour_text                            = {{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGAc}}{{glyph|HBG01}}{{glyph|HBGAo}}<br>{{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGAe}}{{glyph|HBG00}}{{glyph|HBGAl}}<br>{{glyph|HBGAa}}{{glyph|HBG01}}{{glyph|HBGAf}}{{glyph|HBG02}}{{glyph|HBGAm}}{{glyph|HBG03}}{{glyph|HBGAc}}{{glyph|HBG01}}{{glyph|HBGAo}}\n|release_version                         = 3.0.0\n|is_drop_restricted                      = true\n|recipe1_part1_item_name                 = First Piece of Directions\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Second Piece of Directions\n|recipe1_part2_amount                    = 1\n|recipe1_part3_item_name                 = Third Piece of Directions\n|recipe1_part3_amount                    = 1\n|drop_text = Can only be acquired in permanent leagues by combining pieces.\n\n}}\n\n'''The Fracturing Spinner''' is a [[unique]] {{il|Blunt Arrow Quiver}}.\n\n==Modifiers==\n{{c|mod|Grants Summon Harbinger of Directions Skill}}: Summons an immortal [[Harbinger]] minion. The [[minion]] will cast a random [[buff]] on you that grants one or all of the following:\n*1 additional Projectile \n*+1 Chain\n*Pierce 1 additional Target\n*Projectiles Fork. \n\nSee {{sl|Summon Harbinger of Directions}} for more information.\n\n{{Item acquisition}}\n\nWhen the last piece is placed, they will all vanish, and the player will be left with the forged item.\n\n{| class=\"wikitable\"\n|+ Arrangement\n| colspan=\"2\" style=\"text-align: center;\" | {{il|Third Piece of Directions|large=1|name=}}\n|-\n| {{il|Second Piece of Directions|large=1|name=}}\n| {{il|First Piece of Directions|large=1|name=}}\n|}\n\nSince item pieces are drop disabled. To acquire this unique, players are requires to acquire the individual pieces, or the quiver directly.\n\n==Legacy variants==\nThe Fracturing Spinner has a [[legacy variant]].\n\n{{Legacy variant table header|base=yes|level=yes}}\n{{Legacy variant table row|3.17.0|base={{il|metadata_id=Metadata/Items/Quivers/Quiver9}}|level=60\n|\n* {{c|mod|(25-35)% increased Stun Duration on Enemies}}\n|\n* Grants Summon Harbinger of Directions Skill\n* +(30-50) to Strength and Dexterity\n* Adds (19-22) to (30-35) Fire Damage to Spells and Attacks\n* Adds (19-22) to (30-35) Cold Damage to Spells and Attacks\n* +(15-25)% to Fire and Cold Resistances\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Uniques can no longer be obtained: The Beachhead, Infused Beachhead, The Enmity Divine, The Flow Untethered, The Fracturing Spinner, The Rippling Thoughts, The Tempest's Binding, and The Unshattered Will.\n* Harbinger uniques now provide an additonal {{il|Fracturing Shard}} when [[vendor]]ed.{{Undocumented}}\n}}\n{{Version history table row|3.17.0|\n* Unique Quivers have been reassigned to a base type that is most appropriate for them and their level:\n* Rearguard, The Fracturing Spinner and Shattered Divinity are Blunt Arrow Quivers.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "f0d1768afede8d1af55989cccc7f2e46d9cd8a0f0ec10586985745c7758dcced"
+}

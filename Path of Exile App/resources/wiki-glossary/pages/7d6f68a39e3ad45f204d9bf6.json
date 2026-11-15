@@ -1,0 +1,33 @@
+{
+  "title": "The Life Thief",
+  "pageId": 17062,
+  "revision": 1682626,
+  "timestamp": "2026-07-26T23:31:17Z",
+  "retrieved": "2026-11-14T10:57:48.402692+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Life Thief\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = \"The process of eternal youth is a give and take. You give them death and take their youth.\"<br>- Zerphi of the Vaal\n|drop_level                              = 68\n|tags                                    = unique_divination, unique_jewellery_divination, boss_drop_card, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheLifeThief\n|stack_size                              = 6\n|description                             = {{c|unique|{{iil|Zerphi's Heart}}}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.5.0\n}}\n\n'''The Life Thief''' is a [[divination card]]. A set of six can be exchanged for {{il|Zerphi's Heart}}.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Crimson Township|Defiled Cathedral}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Alleyways|Haunted Mansion}}\n}}\n{{Version history table row|3.20.0|\n* The Life Thief now also drops from Haunted Mansion. {{Divcord}}\n}}\n{{Version history table row|3.19.0|\n* The Life Thief now also drops from Defiled Cathedral. {{Divcord}}\n}}\n{{Version history table row|3.18.0|\n* The Life Thief now also drops from Lookout, Alleyways, Silo. {{Divcord}}\n}}\n{{Version history table row|3.17.0|\n* This card's drop level requirement was changed. {{Undocumented}}\n* Drop weightings and minimum area levels for the vast majority of cards have not been changed, but drop weightings for a very small number of cards have been reduced in cases where the number of maps they're available from has greatly increased.\n* A longstanding bug in the code determining area level restrictions for some divination card drops has been fixed. This means that cards intended to have a high area level requirement (mostly ones that grant item level 100 items) will no longer fluctuate wildly in availability from league to league.\n* Now also drops from City Square.\n}}\n{{Version history table row|3.6.0|\n* Reworked and drop enabled. Now exchanges for a {{il|Zerphi's Heart}}. {{Undocumented}}\n}}\n{{Version history table row|3.5.0|\n* Introduced to the game. (Was drop disabled, initially redeemable for a {{il|Zerphi's Last Breath}}.)<ref name=\"Announcement\"/> \n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Announcement\">{{cite web|author=Bex_GGG|date=November 28, 2018|title=Upcoming Divination Cards|url=http://www.pathofexile.com/forum/view-thread/2253204|publisher=Official Path of Exile Forums|accessdate=November 28, 2018}}</ref>\n}}\n\n{{Navbox Items}}",
+  "sha256": "e6e08a960fb9da3fa48d36d9218df9c5a499891d22ff389802f46575a765d05a"
+}

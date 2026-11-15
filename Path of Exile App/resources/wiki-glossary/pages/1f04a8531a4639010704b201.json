@@ -1,0 +1,35 @@
+{
+  "title": "Conversion",
+  "pageId": 119448,
+  "revision": 1492580,
+  "timestamp": "2024-12-06T11:21:44Z",
+  "retrieved": "2026-11-14T10:11:19.955913+00:00",
+  "requested": [
+    "Echoing Shrine",
+    "Ancestral Bond",
+    "convert",
+    "buff effect",
+    "hexproof",
+    "Hexproof",
+    "mercenary",
+    "Hex Reflection",
+    "secondary",
+    "The Vaal",
+    "Karui",
+    "Eternal Empire",
+    "The Maraketh",
+    "Combust",
+    "Divine Blessing",
+    "stealth",
+    "Shocking Conflux",
+    "Summon Skitterbots",
+    "the Viridian Wildwood",
+    "Event"
+  ],
+  "aliases": [
+    "Convert"
+  ],
+  "missing": false,
+  "wikitext": "'''Conversion''' may refer to: \n\n* [[Damage conversion]]\n* Conversion of non-damage stats, such as {{psl|Iron Reflexes}}'s evasion into armour, or {{il|Presence of Chayula}}'s life into energy shield. \n* {{il|Conversion Trap}}'s ability to turn enemies into temporary allies\n* Conversion of dropped items by [[List of monster reward mods|monster reward modifiers]]\n\n[[Damage taken as]] is sometimes referred to as conversion. While similar, it is a separate mechanic with different rules.\n\n{{Disambiguation}}\n{{sister|poe2wiki=Conversion (disambiguation)}}",
+  "sha256": "2b78efc558c6226a9fab0cf0048cfa21a011b4d86df7ef458ed98e2653859bd8"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Cannot die aura",
+  "pageId": 2786,
+  "revision": 1626786,
+  "timestamp": "2026-03-07T01:54:35Z",
+  "retrieved": "2026-11-14T10:57:14.333631+00:00",
+  "requested": [
+    "Brain Scrambler",
+    "Branching Affliction",
+    "Brine Charges",
+    "Brittle Conflux",
+    "Brittle Ground",
+    "Brutal Attack",
+    "Brutal Charges",
+    "Brutal Shrine",
+    "Brutality",
+    "Brutally Pinned",
+    "Burning Arrow",
+    "Burning Aura",
+    "Burning Blood",
+    "Burning Bond",
+    "Burning Shrine",
+    "Cannot Be Damaged",
+    "Cannot Die",
+    "Cannot Die Aura",
+    "Carrion Golem",
+    "Cat's Agility"
+  ],
+  "aliases": [
+    "Cannot Die Aura"
+  ],
+  "missing": false,
+  "wikitext": "[[File:Descry-totem.png|thumb|right|A [[vaal totem]] with \"Cannot die aura\"]]\n'''Cannot die aura''' is a [[monster aura]]. Player has to kite the monster with the aura away from other monsters, or kill the monster with the aura directly, in order to kill the monster pack.\n\nThe aura effect displays the [[descry]] symbol. The symbol represents [[Innocence (NPC)|Innocence]] or the [[Order of the Templar|Templar]] faction of in-game world.\n\nSince [[version 3.14.0]] the aura is largely removed from the game, but with exceptions such as [[Vaal Totem]]s.<ref name=\"cannotdie314\"/> \n\nNote that the aura is different from [[Maker of Mires]]' aura/buff. Monsters that have \"others cannot die aura\" can be slayed, while Maker of Mires's buff makes it invulnerable but does not grant invulnerability to its allies.\n\n==Sources==\nAny monster with the modifier [[Modifier:MonsterImplicitAuraCannotDie1|MonsterImplicitAuraCannotDie1]], [[Modifier:MonsterImplicitAuraCannotDie2|MonsterImplicitAuraCannotDie2]] (unique modifiers for unique monsters and vaal totems), for example:\n* [[Titan of the Grove]], a map boss ([[Gneiss]], the act variant does not have this mod)\n* [[Grath]], an invasion boss\n* [[Mother of the Hive]], a Vaal side area boss\n* [[Vaal Totem]]s (despite displayed as normal rarity, it cannot be raised as [[spectre]])\n\nThe mod [[Modifier:MonsterAuraCannotDie1|MonsterAuraCannotDie1]] (prefix) no longer spawns after 3.14, despite it may be found in permanent leagues' [[The Menagerie]] or itemized beast, which monsters with this mod are captured by the players before the mod's removal.\n\n==Version history==\nThe monster with this aura was used to have this text under their monster nameplate: \"{{c|normal|Other Allies Cannot Die}}\". It is removed due to introduction of archnemesis modifier to core game and subsequent reworks.\n\nCannot die aura (except totem) was replaced by {{c|nemesis|Benevolent Guardian}} which behave differently. Although that nemesis mod is replaced again in [[version 3.18.0]] by [[archnemesis]] monster mod Invulnerable, which is more resembled to the behaviour of Cannot die aura. This change was revoked again in [[version 3.18.0c]] to make \"Invulnerable\" mod behave like {{c|nemesis|Benevolent Guardian}}. After a generally negative review on most archnemssis mod among the players community, [[Version 3.20.0]] removed archnemesis mod from the monster and replaced by new set of mods, however, the mod {{ml|MonsterModBenevolentGuardian}} ({{c|normal|Invulnerability Aura}}) is still somewhat resemble to {{c|nemesis|Benevolent Guardian}}.\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* The \"'''Allies Cannot Die'''\" aura has been removed. To replace this, a new \"{{c|nemesis|Benevolent Guardian}}\" [[Nemesis]] modifier has been added which causes the Monster with this modifier to apply an Immunity buff to nearby allies for a short duration.\n}}\n{{Version history table row|3.5.2|\n* Fixed a bug where the \"Allies Cannot Die\" modifier was not being removed when capturing a [[Bestiary league|Bestiary]] beast.\n}}\n{{Version history table row|3.4.1|\n* Monsters with the \"Allies Cannot Die\" aura cannot be affected by the \"Allies Cannot Die\" aura themselves. This prevents multiple monsters with this aura from affecting one another.\n}}\n{{Version history table row|2.6.0|\n* The \"Other Allies Cannot Die\" mod can no longer appear on immobile monsters such as [[Eye Hatchery]] or [[Rakango]]s.\n}}\n{{Version history table row|2.4.0|\n* Monster Balance Changes: The '''Allies Cannot Die aura''' and the Allies Deal Substantial Extra Physical Damage auras now first appear at level 12 and 8 respectively.\n}}\n{{Version history table row|0.9.12|\n* Fixed a bug where the \"Allies cannot die\" aura prevented exploding monsters from detonating.\n}}\n{{Version history table row|0.9.9|\n* Environmental totems can use auras (such as [[Slow aura|Slow Player]], Haste, '''Allies Cannot Die''', Vitality, Monster Damage), or active skills.\n}}\n{{Version history table row|0.9.6|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"cannotdie314\">{{cite web|url=https://www.pathofexile.com/forum/view-thread/3083644|title=\"Allies Cannot Die\" totem is still there in 3.14|author=Jatin_GGG|date=April 20, 2021|accessdate=April 22, 2021|publisher=Official Path of Exile Forums}}</ref>\n}}\n==See also==\n* [[Divine Shrine]]\n\n[[Category:Monster auras]]",
+  "sha256": "c8d870c64eefe16c27d920585ef584c5811425b23824160155bddb4f16904bd0"
+}

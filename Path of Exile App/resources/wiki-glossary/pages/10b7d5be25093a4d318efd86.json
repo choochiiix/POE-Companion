@@ -1,0 +1,33 @@
+{
+  "title": "Singularity",
+  "pageId": 15140,
+  "revision": 1703286,
+  "timestamp": "2026-10-26T16:46:29Z",
+  "retrieved": "2026-11-14T10:57:43.565529+00:00",
+  "requested": [
+    "Shadow Surge",
+    "Shaper's Seed",
+    "Sharding Tempest",
+    "Shattered Shield",
+    "Shavronne's Aura",
+    "Shield Mastery",
+    "Shining Tempest",
+    "Shivering Tempest",
+    "Shock Immunity",
+    "Shock Prevention",
+    "Shocking Aura",
+    "Shrill Screech",
+    "Shrink",
+    "Shrinking Tempest",
+    "Shrouded Shrine",
+    "Sigil of Power",
+    "Signalled Prey",
+    "Silver Descry",
+    "Silver Flask",
+    "Singularity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Singularity\n|class_id                                = Sceptre\n|base_item                               = Platinum Sceptre\n|explicit1                               = SpellAddedLightningDamageUnique__2\n|explicit2                               = IncreasedCastSpeedUnique__2\n|explicit3                               = ManaCostEffiencyUnique__1\n|explicit4                               = DisplayNearbyEnemiesAreSlowedUnique__1\n|explicit5                               = DamageAgainstNearEnemiesUnique__1\n|flavour_text                            = In time, all becomes nothing.<br>We just expedite the process.\n|release_version                         = 2.2.0\n}}\n\n'''Singularity''' is a [[unique]] {{il|Platinum Sceptre}}.\n\n==Modifiers==\nThis sceptre applies the [[Hinder]] debuff on nearby enemies, and increases the wielder's damage dealt to them.\n\nThe radius of the Singularity item aura is 35.<ref name=\"HinderRadius\"/> It cannot be altered with [[modifier]]s to [[area of effect]] because the aura is a property of the item, not a character.<ref name=\"MechanicalQs\"/>\n\n{{Item acquisition}}\n\n{{Foulborn}}\n\n{| class=\"wikitable sortable\"\n|+\n|-\n! Unique item !! Original modifier !! {{c|foulborn|Foulborn modifier}}\n|-\n| Singularity || {{c|mod|[[Modifier:SpellAddedLightningDamageUnique~~2|Adds (1-10) to (150-200) Lightning Damage to Spells]]}} || {{c|foulborn|[[Modifier:MutatedUniqueSceptre13ColdDamageOverTimeMultiplier|+(30-40)% to Cold Damage over Time Multiplier]]}}\n|}\n\n==Gallery==\n<gallery>\nFile:Singularity 3D.png\n</gallery>\n\n==Legacy variants==\nSingularity has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.29.0\n|\n* 30% increased Elemental Damage\n|\n* Adds (1-10) to (150-200) Lightning Damage to Spells\n* (14-18)% increased Cast Speed\n* {{c|mod|(6-8)% reduced Mana Cost of Skills}}\n* Nearby Enemies are Hindered, with 25% reduced Movement Speed\n* 100% increased Damage with Hits and Ailments against Hindered Enemies\n}}\n{{legacy variant table row|3.19.0\n|\n* 30% increased Elemental Damage\n|\n* {{c|mod|Adds (30-40) to (60-70) Lightning Damage to Spells}}\n* (14-18)% increased Cast Speed\n* {{c|mod|(6-8)% reduced Mana Cost of Skills}}\n* Nearby Enemies are Hindered, with 25% reduced Movement Speed\n* {{c|mod|(60-80)% increased Damage with Hits and Ailments against Hindered Enemies}}\n}}\n{{legacy variant table row|2.3.0\n|\n* {{c|mod|10(20)% increased Elemental Damage}}{{efn|name=Reroll legacy implicit}}\n|\n* {{c|mod|Adds (30-40) to (60-70) Lightning Damage to Spells}}\n* (14-18)% increased Cast Speed\n* {{c|mod|(6-8)% reduced Mana Cost of Skills}}\n* Nearby Enemies are Hindered, with 25% reduced Movement Speed\n* {{c|mod|(60-80)% increased Damage with Hits and Ailments against Hindered Enemies}}\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* The Singularity Unique Sceptre now has 10-20% increased Mana Cost Efficiency (previously 6-8% reduced Mana Cost of Skills). Existing versions of this item are unaffected by these changes.\n** Actually grants 15-25% increased Mana Cost Efficiency in-game instead on live.{{Undocumented}}\n}}\n{{Version history table row|3.19.0|\n* Now has {{c|mod|Adds 1-10 to 150-200 Lightning Damage to Spells}} (previously 30-40 to 60-70).\n* Now has {{c|mod|100% increased Damage with Hits and Ailments against Hindered Enemies}} (previously 60-80%).\n}}\n{{Version history table row|3.10.0|\n* The Aura granted by this item now has a radius of 35 units (from 25). This affects all versions of the item.\n}}\n{{Version history table row|2.6.0|\n* Base type damage increased to 51-76 (up from 42-63).\n}}\n{{Version history table row|2.3.0|\n* The implicits on Sceptres and Wands have been increased in value. Sceptres now also follow an increasing sequence of elemental damage similar to what wands have. The highest Wand implicit can go up to 42%. The highest Sceptre implicit can go up to 40%.\n}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==Notes==\n{{Notelist|notes=\n{{efn|name=Reroll legacy implicit|Using a {{il|Blessed Orb}} on a legacy Singularity with the implicit modifier {{c|mod|10% increased Elemental Damage}} will increase the value of that modifier to 20%. It cannot be raised above 20%.<ref name=\"Legacy Implicit\" />}}\n}}\n\n==References==\n{{reflist|refs=\n<ref name=\"HinderRadius\">{{cite web|author=Bex_GGG|date=March 11, 2020|title=Content Update 3.10.0 -- Path of Exile: Delirium|url=https://www.pathofexile.com/forum/view-thread/2784310#uniqueitembalance|publisher=Official Path of Exile Forums|accessdate=March 11, 2020}}</ref>\n<ref name=\"MechanicalQs\">{{cite web|author=Mark_GGG|date=July 19, 2016|title=Mechanical Questions Thread|url=https://www.pathofexile.com/forum/view-thread/1676002/page/82#p13504526|publisher=Official Path of Exile Forums|accessdate=July 19, 2016}}</ref>\n<ref name=\"Legacy Implicit\">{{cite web|author=Lionel_GGG|date=June 13, 2016|title=Can't reroll Doryani's Catalyst implicit|url=https://www.pathofexile.com/forum/view-thread/1681997#p13378942|publisher=Official Path of Exile Forums|accessdate=June 18, 2016}}</ref>\n}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique sceptres with 3D art]]",
+  "sha256": "142c210d7d1b8db83135a3e4e78ab0a6a2ebf46191ec6911ccf11fd4e0be5302"
+}

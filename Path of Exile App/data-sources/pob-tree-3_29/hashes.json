@@ -1,0 +1,12 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "5138C2C84F0BFF4EC3061383D08263079C346F8345D40FB70D25EA8689F8CD74",
+        "Path":  "C:\\Users\\wshan\\Documents\\ChatGPT\\Path of Exile App\\PoE1-Crafting-Simulator\\data-sources\\pob-tree-3_29\\tree.lua"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4E4352062C3E63A1E9BCB720FAADE885AB323938DAEF4B7A696734EDBBBDFFAD",
+        "Path":  "C:\\Users\\wshan\\Documents\\ChatGPT\\Path of Exile App\\PoE1-Crafting-Simulator\\data-sources\\pob-tree-3_29\\sprites.lua"
+    }
+]

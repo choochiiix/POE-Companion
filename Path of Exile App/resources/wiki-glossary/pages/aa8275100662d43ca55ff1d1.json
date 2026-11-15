@@ -1,0 +1,33 @@
+{
+  "title": "Marked for Death",
+  "pageId": 129765,
+  "revision": 1551936,
+  "timestamp": "2025-07-29T21:26:05Z",
+  "retrieved": "2026-11-14T10:57:34.139551+00:00",
+  "requested": [
+    "Malevolence Aura",
+    "Malignant Madness",
+    "Mana Regeneration Aura",
+    "Mana Rune",
+    "Mana Shield",
+    "Mana-Infused Staff",
+    "Mark of Dominus",
+    "Mark of the Synthete",
+    "Marked for Death",
+    "Massive Shrine",
+    "Master of Metal",
+    "Maven's Game",
+    "Maven's Grace",
+    "Maven's Punishment",
+    "Medium Physical Damage Aura",
+    "Metamorphosis",
+    "Might is Right",
+    "Mightblood Ire",
+    "Militarised Coral",
+    "Mine and Trap Test"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the debuff|the notable passive skill|Marked for Death (passive skill)}}\n\n{{status\n| name                   = Marked for Death\n| type                   = Debuff\n| icon                   = Marked for Death status icon.png\n| description            = You are taking 50% increased Damage.\n}}\n\n'''Marked for Death''' is a [[debuff]] that causes the afflicted to take 50% increased damage.\n\n==Sources==\n* [[Tier 17 map]] mod {{ml|MapUberModMarkedForDeath|display=verbose}}\n\n[[Category:Debuffs]]",
+  "sha256": "50ddcca8a1cfd1546f1402260e548b9abf2adcd07bee577a5972999efbabfe43"
+}

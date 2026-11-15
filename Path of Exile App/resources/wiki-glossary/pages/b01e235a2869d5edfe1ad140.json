@@ -1,0 +1,33 @@
+{
+  "title": "Statue",
+  "pageId": 15700,
+  "revision": 1483152,
+  "timestamp": "2024-09-07T10:21:51Z",
+  "retrieved": "2026-11-14T10:11:12.096836+00:00",
+  "requested": [
+    "Ghost",
+    "Rhoa",
+    "Snake",
+    "Spider",
+    "Statue",
+    "Zombie",
+    "magic",
+    "explicit",
+    "Abyss jewel",
+    "Rarity",
+    "rarity",
+    "fishing",
+    "ailments",
+    "Crushed",
+    "Call of Steel",
+    "class",
+    "Buff Effect",
+    "event",
+    "race",
+    "ranged"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "Statues are a monster type found throughout [[Act 3]]. They cannot be harmed, and block line of sight and projectile path, until woken.\n\n==Variations==\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n|-\n! style=\"width:150px\" | Name !! style=\"width:150px\" | Appearance !! style=\"width:350px\" | Location !! style=\"width:150px\" | Special Attributes\n|- style=\"height: 40px\"\n|  [[Maul Statue]] || Stone with Maul || [[The Marketplace]], [[The Catacombs]], [[The Imperial Gardens]]|| N/A\n|- style=\"height: 40px\"\n| [[Archer Statue]] || Stone with Bow || [[The Marketplace]], [[The Catacombs]], [[The Imperial Gardens]]|| Uses {{il|Ice Shot}}\n|- style=\"height: 40px\"\n| [[Giant Gladiator Statue]] || Large Stone || [[The Marketplace]], [[The Imperial Gardens]]|| N/A\n|- style=\"height: 40px\"\n| [[Fencer Statue]] || Stone with Rapier || [[The Marketplace]], [[The Catacombs]], [[The Imperial Gardens]] || N/A\n|- style=\"height: 40px\"\n| [[Martial Statue]] || Stone Unarmed || [[The Catacombs]], [[The Imperial Gardens]] || N/A\n|- style=\"height: 40px\"\n| [[Aurate Warrior]] || Gold with Sword || [[The Battlefront]], [[The Solaris Temple Level 1]], [[The Solaris Temple Level 2]] || N/A\n|- style=\"height: 40px\"\n| [[Aurate Archer]] || Gold with Bow || [[The Battlefront]], [[The Solaris Temple Level 1]], [[The Solaris Temple Level 2]] || N/A\n|- style=\"height: 40px\"\n| [[Auric Champion]] || Large Gold with Spear || [[The Solaris Temple Level 2]] || Throws Spear\n|- style=\"height: 40px\"\n| [[Auric Colossus]] || Large Gold with Sword || [[The Solaris Temple Level 2]] || N/A\n|- style=\"height: 40px\"\n| [[Majestic Statue]] || Stone Lion || [[The Grand Arena]] || N/A\n|- style=\"height: 40px\"\n| [[Towering Figment]] || Large Stone with Spear || [[The Grand Arena]] || Uses {{il|Puncture}}\n|- style=\"height: 40px\"\n| [[Figment of Winds]] || Stone with Bow || [[The Grand Arena]] || Uses {{il|Burning Arrow}}\n|- style=\"height: 40px\"\n| [[Figment of Swords]] || Stone with Sword || [[The Grand Arena]] || N/A\n|- style=\"height: 40px\"\n| [[Figment of Destruction]] || Stone with Maul || [[The Grand Arena]] || N/A\n|}\n\n===Uniques===\n*[[Soulmourn]] in [[The Fellshrine Ruins]]\n*[[Marceus the Defaced]] in [[The Marketplace]]\n*[[The Goddess of Purity]] in [[The Solaris Temple Level 2]]\n\n[[Category:Monster types]]\n[[Category:Statues| ]]\n{{Navbox Bestiary}}",
+  "sha256": "d555a077191e506be6423c123e080879544be11085326b1177e42e1859f076d9"
+}

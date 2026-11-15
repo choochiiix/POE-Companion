@@ -1,0 +1,33 @@
+{
+  "title": "Boiling Blood",
+  "pageId": 2303,
+  "revision": 1536696,
+  "timestamp": "2025-06-06T01:51:53Z",
+  "retrieved": "2026-11-14T10:57:13.543098+00:00",
+  "requested": [
+    "Blood Ritual",
+    "Blood Sap Tincture",
+    "Blood Shrine of Bats",
+    "Blood Shrine of Crows",
+    "Blood Shrine of Locusts",
+    "Blood Shrine of Rats",
+    "Blood Shrine of Toads",
+    "Blood Stance",
+    "Blood of the Karui",
+    "Blue Team",
+    "Boiling Blood",
+    "Bone Armour",
+    "Bone Offering",
+    "Bone Roil",
+    "Boon of Justice",
+    "Boon of the First Ones",
+    "Borealwood Tincture",
+    "Borrowed Power",
+    "Bottled Purity",
+    "Boulderdash Angry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Boiling Blood\n| type                   = Debuff\n| icon = BloodCloudDebuff.png\n| description         = You are taking Physical Damage over time\n}}\n[[File:Boiling Blood Architect.png|thumb|right|A [[witch]] standing on a '''Boiling Blood''' in the [[Hall of Offerings]] incursion room]]\n'''Boiling Blood''' is a [[debuff]] and [[ground effect]] that deals Physical damage over time. \n\nSources:\n\n* {{il|Vaal Reap}}\n* {{il|Storm Call of Trarthus}}\n\nMonsters which use this debuff:\n*[[Freidrich Tarollo, Slave Merchant]] (also slows the character and stacks up to 10)\n*[[Ahuana, Architect of Ceremonies]]\n* [[Forged Whipleg]] (from its [[Skill:CGECrucibleBloodGround|CGECrucibleBloodGround]] skill)\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "83c1bf58d8a03c9a2226e99339ee1071feaccfb3238f4b3056f0076259b155a1"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Summon Greater Harbinger of Time",
+  "pageId": 16022,
+  "revision": 1649385,
+  "timestamp": "2026-05-22T23:39:58Z",
+  "retrieved": "2026-11-14T10:10:04.220324+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfTimeUber}}\n{{status\n| name                   = The Torrent's Reclamation\n| type                   = Buff\n| description = Time moves more swiftly for you and allies around you.\n}}\n\n'''Summon Greater Harbinger of Time''' is a [[skill]] granted by {{il|The Torrent's Reclamation}}.\n\n==Skill Functions and Interactions==\nThe summon Harbinger is immortal, and occasionally casts {{stl|The Flow Untethered}} on the player character. {{stl|The Flow Untethered}} is an [[aura]] that lasts 8 seconds, with a cooldown of 10 seconds, granting 10% increased [[action speed]] to the player and nearby allies.\n\nUnlike the regular version of the skill granted by {{il|The Flow Untethered}}, this buff does not affect enemies.\n\nAll \"Summon Harbinger\" skills share a maximum of 1 Summoned Harbinger.\n\n==See also==\n* {{sl|Summon Harbinger of Time}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* Aura from Greater Harbinger of Time now provides 10% increased Action Speed (previously 20%).\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "85cf3aa56df89511e3776a5c1fb885a834fb04f9590ca7f11b0a9e45ccffb403"
+}

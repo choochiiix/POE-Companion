@@ -1,0 +1,33 @@
+{
+  "title": "Vaal Pact",
+  "pageId": 18560,
+  "revision": 1647702,
+  "timestamp": "2026-04-12T08:43:00Z",
+  "retrieved": "2026-11-14T10:08:29.724746+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Vaal Pact}}\n\n'''Vaal Pact''' is a [[keystone passive skill]] that grants instant [[life leech]] to [[melee]] attacks, but prevents all other forms of life [[recovery]].\n\n==Mechanics==\nVaal Pact does not affect any other types of leech, such as energy leech or mana leech, as it applies exclusively to life leech. It also has no interactions with {{psl|Ghost Reaver}}.\n\nWhile only melee attacks gain instant leech from Vaal Pact, life leech from non-melee sources will function normally. By using {{psl|Brutal Fervour}} and a skill that has both a melee and non-melee damage component (e.g. {{il|Molten Strike}}), you can benefit from both instant leech and overleech.\n\nThe {{c|mod|Cannot Recover Life other than from Leech}} modifier prevents life recovery from sources that aren't leech or {{il|Temporal Rift}}. This is checked when the player's life is modified; it does not remove life recovery stats from the character entirely. Accordingly, life recovery modifiers can still be used for other purposes through mechanics like {{psl|Zealot's Oath}}, {{psl|Pious Path}}, or {{il|Kaom's Spirit}}. \n\nVaal Pact does not affect leech from melee damage dealt by other entities, such as [[minion]]s with {{psl|Bone Barrier}}, or [[Earthbreaker Support|Earthbreaker totem]]s with the {{c|mod|1% of Physical Attack Damage dealt by your Totems is Leeched to you as Life}} [[Totem Mastery]].\n\n==Location==\nVaal Pact is located on the middle layer of the south side, on the east side of the Duelist's area.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Duelist||7\n|-\n|Ranger||10\n|-\n|Scion||14\n|-\n|Marauder||16\n|-\n|Shadow||18\n|-\n|Templar||24\n|-\n|Witch||24\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Vaal%Pact%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* The Vaal Pact Keystone Passive Skill no longer provides any of its current stats. It now provides \"Life Leech from Melee Damage is Instant\", and \"Cannot Recover Life other than from Leech\".\n* Its previous stats were \"Total Recovery per second from Life Leech is doubled\", \"Maximum total Life Recovery per second from Leech is doubled\", and \"You have no Life Regeneration\".\n}}\n{{Version history table row|3.14.0|\n* The passive skill is reworded due to leech cap rework. Read {{section link|Version 3.14.0|Character Balance}} for details.\n}}\n{{Version history table row|3.1.0|\n* Vaal Pact has been significantly reworked. It no longer grants instantaneous Life Leech, and instead doubles the rate of your Life Leech as well as your maximum Leech rate. It has been moved into the Duelist's area.\n}}\n{{Version history table row|3.0.0|\n* Now '''only''' applies to leeched life.\n}}\n{{Version history table row|2.0.0|\n* Vaal Pact now no longer reduces the amount of life leeched. It has also been moved to between the Shadow and Ranger on the passive skill tree.\n}}\n{{Version history table row|1.1.0|\n* Vaal Pact no longer suppresses life recovery from flasks. It still prevents life regeneration and now also reduces your leech by 60%. \n}}\n{{Version history table row|0.9.12|\n* Introduced to the game. \n}}\n{{Version history table end}}\n{{sister|poe2wiki}}",
+  "sha256": "f986989cda92adba51070c1a25a45bd911b5b26d7bedab4e42ed44858b40bcb1"
+}

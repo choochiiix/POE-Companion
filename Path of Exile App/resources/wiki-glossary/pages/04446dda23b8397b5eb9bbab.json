@@ -1,0 +1,33 @@
+{
+  "title": "Iron Flask",
+  "pageId": 76584,
+  "revision": 1482236,
+  "timestamp": "2024-08-28T20:04:57Z",
+  "retrieved": "2026-11-14T10:57:31.008164+00:00",
+  "requested": [
+    "Intensity",
+    "Intervention",
+    "Intimidating Cry",
+    "Intuitive Link",
+    "Invulnerability",
+    "Invulnerable",
+    "Iron Flask",
+    "Iron Manacles",
+    "Ironwood Tincture",
+    "Izaro Damage",
+    "Izaro Damage Taken",
+    "Izaro Speed",
+    "Jade Flask",
+    "Jewel Mod Thief",
+    "Jolt",
+    "K'Tash's Anger",
+    "K'Tash's Magnificence",
+    "Kahuturoa's Leadership",
+    "Kalisa's Grace",
+    "Kalisa's Joy"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Iron Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = not_for_sale, expedition_flask, utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility18\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|implicit1                               = UtilityFlaskWard\n|required_level                          = 27\n|flask_duration                          = 4\n|buff_id                                 = flask_utility_ward\n|buff_value1                             = 200\n|buff_stat_text                          = +200 to [[Ward]]\n|charges_max                             = 60\n|charges_per_use                         = 40\n|drop_text                               = Drops from Expedition monsters in zones and Logbooks.\n|is_drop_restricted                      = true\n|release_version                         = 3.15.0\n}}\n{{status\n| name                   = Iron Flask\n| type                   = Flask Effect\n| description = You have additional Ward\n}}\n\n'''Iron Flask''' is a [[utility flask]] base type.\n\nDespite being named after \"iron\", an Iron Flask grants [[ward]]. Flasks that grant a temporary buff to armour are {{il|Basalt Flask}} and {{il|Granite Flask}}.\n\n==Modifiers==\n{{Main|List of modifiers for Iron Flask}}\n\nIron Flask has a slightly different pool of [[modifier]]s that it can roll compared to the standard pool of modifiers compatible with utility flasks.\n\nIron Flask can roll affixes that grant {{c|mod|X% increased Ward during Flask effect}}. These include the following:\n\n{{Query spawnable affixes\n|where = mods.domain=2\n  AND mod_spawn_weights.tag=\"expedition_flask\"\n|generation_type = 1\n|spawn_weights = 1\n}}\n\nIron Flask ''cannot'' roll affixes that grant {{c|mod|X% increased Armour during Flask effect}} or {{c|mod|X% increased Evasion Rating during Flask effect}}.\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 2.5 seconds instead.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Now last 4 seconds (previously 5).\n* {{Ruthless}} Now last 2.5 seconds (previously 3.5).\n}}\n{{Version history table row|3.16.0|\n* Now last 5 seconds (previously 3).\n}}\n{{Version history table row|3.15.0b|\n* Fixed a bug where non-unique Iron Flasks were not dropping.\n}}\n{{Version history table row|3.15.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "a1a114e7a90e20ad1cf0ad3a6be56880cf3c3976012b626178a03460cf4b3bdf"
+}

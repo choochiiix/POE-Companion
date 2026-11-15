@@ -1,0 +1,33 @@
+{
+  "title": "Summon Harbinger of Brutality",
+  "pageId": 16024,
+  "revision": 1649387,
+  "timestamp": "2026-05-22T23:40:01Z",
+  "retrieved": "2026-11-14T10:10:03.371936+00:00",
+  "requested": [
+    "Jewel",
+    "Modifiers",
+    "item quantity",
+    "Mirage",
+    "Item Quantity",
+    "Support gems",
+    "Buff",
+    "Experience",
+    "Helmet",
+    "gems",
+    "Life Flask",
+    "Animate Guardian's Weapon",
+    "Bestial Rhoa",
+    "Bestial Snake",
+    "Bestial Ursa",
+    "Manifest Dancing Dervish",
+    "Spectral Wolf",
+    "Spectral Tiger",
+    "Raise Spiders",
+    "Summon Harbinger of Brutality"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfBrutality}}\n'''Harbinger of Brutality''' is a [[spell]] that summons an allied Harbinger [[minion]]. The skill is only available through {{il|The Enmity Divine}}.\n\n==Skill Functions and Interactions==\nThe summoned Harbinger is immortal, and will occasionally apply the ''The Enmity Divine'' [[buff]] on the player. ''The Enmity Divine'' lasts 8 seconds, with a cooldown of 20 seconds, and grants the following benefits:\n* 50% increased Damage\n* 15% Damage Reduction\n* 30% increased Attack Speed\n* 30% increased Movement Speed\n\n==Drop restrictions==\nHarbinger of Brutality can only be obtained by equipping {{il|The Enmity Divine}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Uniques can no longer be obtained: The Beachhead, Infused Beachhead, The Enmity Divine, The Flow Untethered, The Fracturing Spinner, The Rippling Thoughts, The Tempest's Binding, and The Unshattered Will.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]] [[Category:Spell (gem tag)]]",
+  "sha256": "55f868a460b532b691c42fc4880c27ec9a7c4597b84694ded9053e5dff01fb5e"
+}

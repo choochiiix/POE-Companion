@@ -1,0 +1,33 @@
+{
+  "title": "Glorious Madness",
+  "pageId": 7359,
+  "revision": 1605901,
+  "timestamp": "2026-01-22T12:06:52Z",
+  "retrieved": "2026-11-14T10:57:26.335266+00:00",
+  "requested": [
+    "Gathering Lightning",
+    "Ghastly Scythe",
+    "Ghorr's Magnificence",
+    "Ghostflame Graveyard",
+    "Glimpse of Infinity",
+    "Gloom Shrine",
+    "Glorious Madness",
+    "Glowing Orb",
+    "Gluttony",
+    "Goddess Beam",
+    "Gold Flask",
+    "Golden Descry",
+    "Golden Lantern's Glow",
+    "Grace Aura",
+    "Grace Period",
+    "Granite Flask",
+    "Grasping Chains",
+    "Grasping Hooks",
+    "Grasping Nightshade",
+    "Grasping Ornaments"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Glorious Madness\n| description            = You're going gloriously mad. You will be repeatedly touched in random ways.\n}}\n\n'''Glorious Madness''' is a continuous effect toggled by {{sl|Embrace Madness}}. \n\n==Effects==\nGlorious Madness causes you to gain a Touch debuff every 2 seconds, chosen randomly from a pool of 4. Each debuff can stack up to 10 times, lasts for 20 seconds, and refreshes the duration of existing stacks of that type when gained.\n \n* {{stl|Eroding Touch}}: You take 6% increased damage per stack. \n* {{stl|Paralysing Touch}}: You have 6% reduced [[action speed]] per stack.\n* {{stl|Diluting Touch}}: You have 9% reduced [[flask charges]] gained and 9% reduced [[flask]] effect per stack.\n* {{stl|Wasting Touch}}: You have 9% reduced [[life]] and [[energy shield]] [[recovery]] rate per stack.\n** Note: recovery rate applies to recovery over time and does not affect instantaneous recovery such as life gain on hit.\n\nThe acquired stacks count as [[debuff]]s and are affected by debuff [[Expiration rate|expiry rate]], reducing the likelihood that stacks are refreshed.  \n\n==Sources==\n{{sl|Embrace Madness}}\n\n==Related unique items==\nThe following [[unique item]]s are related to Glorious Madness:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Glorious%Madness%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* The Glorious Madness buff from the Beacon of Madness Unique Boots Embrace Madness Skill now inflicts a random Touched Debuff every 2 seconds (previously every 1 second).\n}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "ba38bf1fe9d781634cd1a240f84985353793953e6c4d440f83b146efc55942f5"
+}

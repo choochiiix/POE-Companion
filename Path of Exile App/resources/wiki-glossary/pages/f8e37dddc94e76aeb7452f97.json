@@ -1,0 +1,33 @@
+{
+  "title": "Supreme Decadence",
+  "pageId": 16214,
+  "revision": 1636421,
+  "timestamp": "2026-03-26T17:52:52Z",
+  "retrieved": "2026-11-14T10:09:57.337087+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Supreme Decadence}}\n'''Supreme Decadence''' is a [[keystone passive skill]] which causes [[life]] recovery from [[flask]]s to also apply to [[energy shield]], but reduces the recovery amount. Life flask effects are still removed on full life. The amount recovered is based on the life recovery, regardless of your maximum Energy Shield value.\n\nThis keystone is not on the default character skill tree. See [[#Related unique items]] for item needed to have this keystone.\n{{#ev:youtube|v0eVaddwL0o|500}}\n\n==Location==\nThis keystone will replace (in-game wording: [[Timeless Jewel#Conquered|conquered]]) any keystones within the radius of a {{il|Elegant Hubris}} jewel with modifier {{c|mod|Commissioned (2000-160000) coins to commemorate '''Cadiro'''}}.\n\n==Related unique items==\nThe following [[unique item]]s are related to Supreme Decadence:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Supreme Decadence%\"\n    OR items.stat_text LIKE \"%Conquered%by%the%Eternal%Empire%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n* [[The Sorrow of the Divine]] and [[Replica Sorrow of the Divine]] also provide a similar effect to this keystone.\n\n==See also==\n* {{psl|id=supreme_ego_keystone2696}} - another keystone originally from Elegant Hubris\n* {{psl|Supreme Grandstanding}} - another keystone from Elegant Hubris\n* {{psl|Supreme Ostentation}} - another keystone from Elegant Hubris\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.7.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Keystone passive skills]]",
+  "sha256": "a6be5a9262254e2f6a2372f3b3fde9d137af0334588b4b7888932bb7547c0a17"
+}

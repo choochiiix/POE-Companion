@@ -1,0 +1,35 @@
+{
+  "title": "Fragile Bloom",
+  "pageId": 6883,
+  "revision": 1489314,
+  "timestamp": "2024-10-13T04:06:46Z",
+  "retrieved": "2026-11-14T10:57:24.746805+00:00",
+  "requested": [
+    "Flammability",
+    "Flask Drain",
+    "Flesh",
+    "Flesh Offering",
+    "Fleshrend",
+    "Flicker Strike",
+    "Flying Death Rhoomba",
+    "Focused",
+    "Footsteps Cheat",
+    "Forbidden Taste",
+    "Forest's Blessing",
+    "Foulgrasp",
+    "Fountain of Youth",
+    "Fragile Regrowth",
+    "Fragment of Past Trauma",
+    "Fragment of Renewed Pain",
+    "Freeze Immunity",
+    "Freeze Mine",
+    "Freeze Prevention",
+    "Freezing Shrine"
+  ],
+  "aliases": [
+    "Fragile Regrowth"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Fragile Bloom\n|class_id                                = Jewel\n|base_item                               = Crimson Jewel\n|flavour_text                            = The first green shoots of Spring are the most resilient,<br>and the most vulnerable.\n|explicit1                               = FragileRegrowthLifeRegenerationUnique__1\n|jewel_limit                             = 1\n|release_version                         = 2.0.0\n|drop_enabled                            = false\n|removal_version                         = 3.20.0\n}}\n{{status\n|name                   = Fragile Regrowth\n|description            = You are gaining Fragile Regrowth over time and will lose it when hit.\n}}\n\n'''Fragile Bloom''' is a [[unique]] {{il|Crimson Jewel}}.\n\n{{Item acquisition}}\n\n==Legacy variants==\nFragile Bloom has a [[legacy variant]].\n\n{{legacy variant table header}}\n{{legacy variant table row|3.11.0|\n* {{c|mod|Regenerate 2% of Life per second}}\n* {{c|mod|10% increased Damage taken}}\n}}\n{{Legacy variant table end}}\n\n==Related items==\n* {{il|Replica Fragile Bloom}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* The availability of existing Unique Jewels has been reviewed, and many (including Replica versions) can no longer be obtained.\n}}\n{{Version history table row|3.11.0|\n* No longer increases damage taken by 10% or causes you to regenerate 2% of Life per second.\n* Now grants 1 Fragile Regrowth each second, up to 10.\n* Causes 0.7% of Life to regenerate per second per Fragile Regrowth. All Fragile Regrowths are lost when hit.\n* It is now also limited to 1, which does affect existing versions of the item.\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "b11639c08d463885753d130ba8453496e61a2ebe47e99a3f97015ab18984da86"
+}

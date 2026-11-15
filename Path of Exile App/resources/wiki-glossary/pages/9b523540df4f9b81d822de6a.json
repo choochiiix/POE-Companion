@@ -1,0 +1,33 @@
+{
+  "title": "Fire Damage Aura",
+  "pageId": 129822,
+  "revision": 1484224,
+  "timestamp": "2024-09-28T10:46:52Z",
+  "retrieved": "2026-11-14T10:57:23.926046+00:00",
+  "requested": [
+    "Feeding Frenzy",
+    "Feline Procession",
+    "Fenumal Presence",
+    "Fertile Presence",
+    "Fins of Brine",
+    "Fire Aegis",
+    "Fire Damage Aura",
+    "Fire Damage and Ignite",
+    "Fire Empowered",
+    "Fire Empowerment",
+    "Fire Exposure",
+    "Fire Resistance Loss",
+    "Fire Swarm",
+    "Fire Weapon",
+    "Firebreather Mead",
+    "Flame Golem",
+    "Flame Link",
+    "Flame Wall",
+    "Flame of the Well",
+    "Flameblast"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Fire Damage Aura\n|icon=Anger skill icon.png\n|type=Buff\n|description=Allies deal additional fire damage\n|bonuses= Allies gain #% of Physical Damage as Extra Fire Damage\n}}\n\n'''Fire Damage Aura''' is a [[monster aura]]. It is granted by [[Burning Totem]] and several other monsters.\n\n==Gallery==\n<gallery>\nFile:Fire Damage Aura.png|A Burning Totem with the Fire Damage Aura and a monster affected by it\n</gallery>\n\n[[Category:Monster auras]]",
+  "sha256": "fb0608f570ac14347445b593bab7ca4ac1a77745ffd4905271ca463732ff1867"
+}

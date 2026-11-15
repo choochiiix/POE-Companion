@@ -1,0 +1,33 @@
+{
+  "title": "Raise Spiders",
+  "pageId": 13338,
+  "revision": 1675716,
+  "timestamp": "2026-07-20T21:09:15Z",
+  "retrieved": "2026-11-14T10:10:03.370929+00:00",
+  "requested": [
+    "Jewel",
+    "Modifiers",
+    "item quantity",
+    "Mirage",
+    "Item Quantity",
+    "Support gems",
+    "Buff",
+    "Experience",
+    "Helmet",
+    "gems",
+    "Life Flask",
+    "Animate Guardian's Weapon",
+    "Bestial Rhoa",
+    "Bestial Snake",
+    "Bestial Ursa",
+    "Manifest Dancing Dervish",
+    "Spectral Wolf",
+    "Spectral Tiger",
+    "Raise Spiders",
+    "Summon Harbinger of Brutality"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=RaiseSpiders}}\n'''Raise Spiders''' is a [[spell]] that summons two allied Spectral Spider [[minions]] per nearby [[corpse]].  These corpses will be consumed by this process.\n\n==Mechanics==\n* Triggering this skill while you have the maximum amount of spiders summoned does not re-summon spiders or refresh the duration of the spiders.\n\n* Corpses created from skills such as {{il|Desecrate}} and {{il|Unearth}} can be consumed when summoning spiders.\n** Because spiders raised with this skill are always a fixed monster level, the level of your '''Unearth''' or '''Desecrate''' gem has no impact on your spiders.\n** When paired with {{il|The Writhing Jar}} a player can quickly generate a full 20 spiders at the start a new map or when engaging in a boss fight.\n\n* Dual-wielding {{il|Arakaali's Fang}} does not alter the maximum number of spiders you can summon.\n\n* Due to their damage immunity, spiders summoned by {{sl|Raise Spiders}} are immune to the self-damaging effect of {{il|Infernal Legion Support}} in the same fashion that {{il|Summon Skitterbots}} are immune to it.\n** Because '''Infernal Legion''' damages enemies with a debuff you cannot stack multiple instances of it on a single target. This limits its effectiveness in single target fights.\n** The pathing AI for '''Raise Spider''' causes spiders to tightly group together when moving from one enemy pack to the next thereby limiting their ability to cover larger areas with '''Infernal Legion''''s debuff until they spread out again.\n\n* {{sl|Raise Spiders}} can also become self-perpetuating to a degree because the spiders attack with a variant of {{il|Viper Strike}} which gives them a chance to poison their target(s).  Enemies which die from a minion's poison or ignite effects or effects similar to the {{il|Decay Support}} gem are considered the player's kill for the purposes of many game mechanics.  As such, if a summoned spider attacks and kills the enemy outright then '''Raise Spider''' will not trigger, but if the spider poisons an enemy which then dies from the poison '''Raise Spider''' ''will'' be triggered.\n** With enough movement speed a player can travel within their spider pack to always be in proximity of their spiders' kills thus increasing the likelihood of being around sufficient corpses when the skill triggers.\n** Items similar to the {{il|Speaker's Wreath}} helmet can be used to make this process more likely by preventing your minions' hits from killing enemies that are not currently ignited thus ensuring that only the poison ailment kills the target.\n\n==Acquisition==\nThis skill can only be gained indirectly through certain items or modifiers:\n\n* {{il|Arakaali's Fang}}: {{c|mod|100% chance to Trigger Level 1 Raise Spiders on Kill}}\n* [[Reliquarian]]'s [[Martial Weapon Display]] in [[version 3.29.0]]: {{c|foulborn|Trigger Level 20 Raise Spiders on Kill}}\n* [[Servant of Arakaali]]'s [[Broodguard]] in [[Legacy of Phrecia]]: {{c|foulborn|Trigger Level 20 Raise Spiders on Kill}}\n\n==Skill progression==\n{{Skill progression\n|skill_id=RaiseSpiders\n}}\n\nAt Level 1 or 20 skill level, the spider minions' level is fixed at Level 75 or 84 respectively. The minions from the Level 20 version of the skill deal approximately 68% more damage than spiders from {{il|Arakaali's Fang}}, at the cost of being unable to be supported by support gems (in the weapon itself or {{il|The Squire}}).<ref>https://www.reddit.com/r/PathOfExileBuilds/comments/1itp3gv/level_20_raise_spiders_from_servant_deal_68_more/</ref>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.0|\n* The damage and life scaling values for minions have been adjusted. Generally speaking, minion life and damage is unchanged in the very early game, roughly 30% lower in mid acts, roughly 20% lower at level 20 of the minion skill, and roughly 10% lower at level 30 of the minion skill. The base life and damage of minions that are not associated with skill gems have been adjusted to counteract these changes, except for Raise Spiders from Arakaali's Fang.\n*The Viper Strike skill used by Raised Spiders now has a base Poison duration of 4 seconds (previously 8 seconds) and no longer has 25% of Physical Damage as Extra Chaos Damage. Player now gains 15% increased Poison Damage per Spider (previously 12%).\n}}\n{{Version history table row|3.5.0|\n* Adjusted visual and audio effects of the Raised Spiders skill.\n* The Raised Spiders now have 100% more Movement Speed, a longer attack range, a base duration of 30 seconds, deal 33% more Damage and always apply Poison on Hit.\n* They can no longer leap.\n* Raised Spiders are now Level 75, instead of the level of the area you are in, and are immune to damage.\n}}\n{{Version history table row|3.1.0|\n* Spiders created from {{il|Arakaali's Fang}} can no longer {{stl|taunt}} their enemies.\n}}\n{{Version history table row|2.5.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "3cf98ec7f83d9f824ae29224078ed5198ebb3698e1944aa20473e7b8507b708e"
+}

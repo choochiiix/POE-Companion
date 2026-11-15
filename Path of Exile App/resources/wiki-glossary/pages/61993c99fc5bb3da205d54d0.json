@@ -1,0 +1,33 @@
+{
+  "title": "Void Beacon",
+  "pageId": 19597,
+  "revision": 1418984,
+  "timestamp": "2024-02-08T13:18:46Z",
+  "retrieved": "2026-11-14T10:57:53.141911+00:00",
+  "requested": [
+    "Void Beacon",
+    "Void Gaze",
+    "Void Lens",
+    "Void Snare",
+    "Voltaxic Burst",
+    "Vomitous Ooze",
+    "Vortex",
+    "Vortex Mine",
+    "Vulnerability",
+    "WIP",
+    "War Banner",
+    "War Bringer",
+    "Warcry Damage to Mana",
+    "Warlord Shrine Monster",
+    "Warlord's Mark",
+    "Warlord's Shrine",
+    "Warm Campfire",
+    "Wasting Touch",
+    "Webbed",
+    "Weeping Black"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Void Beacon}}\n\n'''Void Beacon''' is a notable [[Ascendancy passive skill]] for the [[Occultist]]. It lowers the [[cold resistance|cold]] and [[chaos resistance]] and [[life regeneration]] of nearby enemies.\n\nThe radius of the [[aura]] is 60.<ref name=\"Radius\"/>\n\n==Ruthless mode==\n{{infocard\n|header    = Void Beacon (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:VoidBeacon (Occultist) passive skill icon.png]]</div>\n|2         = Nearby Enemies have -8% to Chaos Resistance<br>Nearby Enemies have 100% reduced Life Regeneration rate<br>Nearby Enemies have -8% to Cold Resistance\n}}\n\nVoid Beacon in [[Ruthless mode]] reduces nearby enemies' resistances by a smaller amount.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} Now causes Nearby Enemies to have -8% to Cold Resistance and -8% to Chaos Resistance in Ruthless (both -20% in non-Ruthless).\n}}\n{{Version history table row|3.5.0|\n* Now also causes nearby Enemies to have -20% to Cold resistance.\n}}\n{{Version history table row|3.2.0|\n* Reduced life regeneration to nearby enemies increased from 25% to 100%.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Radius\">{{cite web|author=Mark_GGG|date=December 13, 2016|title=Mechanical Questions Thread|url=https://www.pathofexile.com/forum/view-thread/1676002/page/198|publisher=Path of Exile Forums|accessdate=December 18, 2016}}</ref>\n}}",
+  "sha256": "d325e74f3b9b9e8dd857863d0331df19f5373be01e8fd131c2e9d32a5830e0c2"
+}

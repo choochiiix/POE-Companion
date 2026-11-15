@@ -1,0 +1,35 @@
+{
+  "title": "Mana rune",
+  "pageId": 10710,
+  "revision": 1486402,
+  "timestamp": "2024-10-13T02:20:55Z",
+  "retrieved": "2026-11-14T10:57:34.125479+00:00",
+  "requested": [
+    "Malevolence Aura",
+    "Malignant Madness",
+    "Mana Regeneration Aura",
+    "Mana Rune",
+    "Mana Shield",
+    "Mana-Infused Staff",
+    "Mark of Dominus",
+    "Mark of the Synthete",
+    "Marked for Death",
+    "Massive Shrine",
+    "Master of Metal",
+    "Maven's Game",
+    "Maven's Grace",
+    "Maven's Punishment",
+    "Medium Physical Damage Aura",
+    "Metamorphosis",
+    "Might is Right",
+    "Mightblood Ire",
+    "Militarised Coral",
+    "Mine and Trap Test"
+  ],
+  "aliases": [
+    "Mana Rune"
+  ],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Mana Rune\n| type                   = Debuff\n| description            = You are taking Lightning Damage and losing Mana.\n}}\n'''Mana Rune''' is a detrimental [[ground effect]]. The ground effect is cast by the [[Conquerors|Conqueror]] boss [[Baran, the Crusader]] and found in maps influenced by him.\n[[File:Mana Rune Baran Arena.png|border|thumb|A active Mana Rune as seen in the Baran Arena]]\nThe Runes take a short amount of time once cast in order to activate and apply the [[debuff]] to the player.\n[[File:Mana Rune Baran Arena inactive.png|thumb|A inactive Mana Rune as seen in the Baran Arena]]\nActive '''Mana Runes''' \"shine\" brighter than their counterpart.\n'''Mana Runes''' that have been activated only last for a certain amount of time before vanishing.\n==See also==\n* {{il|Stormbind}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.9.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Ground effects]]",
+  "sha256": "7b486ea4798f56225255d63ef08fcb04a0f93b9dc6252ba9e56b2ba23692d26f"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Eldritch",
+  "pageId": 119741,
+  "revision": 1598173,
+  "timestamp": "2025-12-09T07:29:02Z",
+  "retrieved": "2026-11-14T10:11:15.603056+00:00",
+  "requested": [
+    "Ersi",
+    "Eldritch",
+    "the Eater of Worlds",
+    "Fractured",
+    "The Eater of Worlds",
+    "Pact",
+    "Vaal gem",
+    "Light radius",
+    "explosion",
+    "tinctures",
+    "Weeping Wounds",
+    "belts",
+    "The Viridian Wildwood",
+    "Master",
+    "Abyss",
+    "Breach",
+    "Grasping Vines",
+    "Shrine",
+    "Debilitate",
+    "Wither"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Eldritch''' is a monster category, as well as a property typically exclusive to monsters and [[boss]]es in the endgame of [[map]]s and the [[Atlas of Worlds]].\n\nMonster types with the eldritch property:\n\n*[[Eldritch Horrors]]\n*[[Elder Guardian]]s\n*[[The Incarnations]]\n*[[The Maven]]\n*[[The Elder]]\n*[[Uber Elder]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.23.0|\n* Established \"eldritch\" as a distinct monster category. {{Undocumented}}\n}}\n{{Version history table end}}\n\n[[Category:Monster types]]\n[[Category:Eldritch]]\n{{Navbox Bestiary}}",
+  "sha256": "1f3b236c78200506c438e3d64326d0fec659d41fb147dd36cae89d8c8512c742"
+}

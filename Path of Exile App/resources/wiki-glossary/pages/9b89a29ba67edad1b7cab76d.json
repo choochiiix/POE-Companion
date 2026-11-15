@@ -1,0 +1,33 @@
+{
+  "title": "Prismatic Tincture",
+  "pageId": 127120,
+  "revision": 1477947,
+  "timestamp": "2024-07-31T09:00:40Z",
+  "retrieved": "2026-11-14T10:57:37.997538+00:00",
+  "requested": [
+    "Prismatic Tincture",
+    "Prismplate",
+    "Procyonic Procession",
+    "Projectile Test",
+    "ProphecyQuantity",
+    "Protection",
+    "Protective Link",
+    "Protective Shield",
+    "Proximity Shield",
+    "Punisher",
+    "Punishment",
+    "Purging Flame",
+    "Purity of Elements Aura",
+    "Purity of Fire Aura",
+    "Purity of Ice Aura",
+    "Purity of Lightning Aura",
+    "Purple Effluent",
+    "Pursuit of Faith",
+    "Putrefaction",
+    "Pyroclast Mines"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Prismatic Tincture\n|class_id                                = Tincture\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 18\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = tincture, default\n|metadata_id                             = Metadata/Items/Tinctures/Tincture1\n|help_text                               = Right click to activate. Only one Tincture in your belt can be active at a time. Mana Burn causes you to lose 1% of your maximum Mana per stack per second. Can be deactivated manually, or will automatically deactivate when you reach 0 Mana.\n|implicit1                               = TinctureElementalDamageImplicit1\n|required_level                          = 18\n|tincture_mana_burn                      = 0.7\n|tincture_cooldown                       = 8\n|release_version                         = 3.25.0\n}}\n\n'''Prismatic Tincture''' ia a [[tincture]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for tinctures}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n}}\n\n{{Navbox Items}}",
+  "sha256": "8449a5068d04f98d4b13e8ffed876fd6b3344331093e6c33828131a82892f2e6"
+}

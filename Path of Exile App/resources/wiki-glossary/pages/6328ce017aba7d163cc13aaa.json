@@ -1,0 +1,33 @@
+{
+  "title": "Drowning",
+  "pageId": 89083,
+  "revision": 1702851,
+  "timestamp": "2026-10-05T23:13:26Z",
+  "retrieved": "2026-11-14T10:57:20.722685+00:00",
+  "requested": [
+    "Draugurflame",
+    "Draugurflame Burn",
+    "Dread Banner",
+    "Drought",
+    "Drowning",
+    "Drowning Domain",
+    "Duration Test",
+    "Dying Breath",
+    "Dying Sun",
+    "Earth Drinker",
+    "Ebon Affliction",
+    "Echoing Tempest",
+    "Effigy",
+    "Eldritch Decay",
+    "Eldritch Empowerment",
+    "Electrified Ground Trap",
+    "Electrifying Bond",
+    "Electrifying Gaze",
+    "Electrifying Sight",
+    "Elemental Aegis"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Drowning''' refers to two different debuffs. One is a damaging mechanical debuff that is found exclusively in [[Seething Chyme]], and the other is a lethal debuff that can kill a [[character]] instantly after a few seconds, inflicted by Drowning Orbs or drowning water in [[The Fathomless Depths (area)|The Fathomless Depths]] areas.\n==The Infinite Hunger version==\n{{status\n| name                   = Drowning\n| type                   = Debuff\n| icon                   = Drowning infinite hunger status icon.png\n| description            = You are being slowed and suffocated by grasping bile.\n}}\n\n'''Drowning''' is a [[debuff]] that gradually immobilises the character and deals physical and chaos damage over time. It is inflicted by waves of bile in the arena of [[The Infinite Hunger]], [[Seething Chyme]]. Upon hitting 10 stacks, the player is \"pulled under\" into an underground maze area.\n{{clear}}\n==Drowning Orb version==\n{{status\n| name                   = Drowning\n| type                   = Debuff\n| icon                   = Drowning eater of worlds status icon.png\n| description            = You are drowning and will die soon\n}}\n[[File:Drowning Orb screenshot.png|thumb|100px|A Drowning Orb.]]\n\nThe moving Drowning Orbs inflict a debuff called \"Drowning\" on contact, which causes a 75% [[action speed]] slow and automatically kills the player after 3 seconds if they do not move away in time. While facing away from Drowning Orbs, they will slowly float towards the character; when facing towards them, they will back up a fixed distance away.\n\nDrowning Orbs can be found in [[the Eater of Worlds]]' arena [[Absence of Symmetry and Harmony]], or maps with mod {{ml|MapUberModDrowningOrbs}}, which can roll on [[nightmare map]]s or [[Originator-influenced map]]s with the {{ml|MapZanaInfluenced|display=stat_text}} implicit.\n{{clear}}\n\n==Curse of the Allflame version==\n{{status\n| name                   = Drowning\n| type                   = Debuff\n| icon                   = Drowning eater of worlds status icon.png\n| description            = You are drowning and will die soon\n}}\n\nUnderwater areas not lit up by an Allflame Lantern inflict a debuff called \"Drowning\" on contact, which causes a 50% [[action speed]] slow and automatically kills the player after 5 seconds if they do not move back to a safe area in time.\n\nDrowning water can be found in [[The Fathomless Depths (area)|The Fathomless Depths]] as part of the [[Curse of the Allflame]] mechanic.\n{{clear}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.2|\n* There is now a more immediate audio cue when drowning begins.\n}}\n{{Version history table row|3.29.0|\n* (Hotfix 3) The magnitude of the action speed debuff applied by drowning in Allflame encounters has been reduced by 33%.\n}}\n{{Version history table row|3.27.0|\n* Drowning Orbs no longer drown the player faster when they have sources of \"Debuffs on you expire 100% faster\".\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]\n\n{{sister|poe2wiki}}",
+  "sha256": "2dfcc8e45fcf82f2f21da6895440925c28c3963f56e800d2effa7b9c7d4330bf"
+}

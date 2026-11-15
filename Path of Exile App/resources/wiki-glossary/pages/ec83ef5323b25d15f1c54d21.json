@@ -1,0 +1,35 @@
+{
+  "title": "Expiration rate",
+  "pageId": 6218,
+  "revision": 1673449,
+  "timestamp": "2026-07-13T06:29:37Z",
+  "retrieved": "2026-11-14T10:11:18.141403+00:00",
+  "requested": [
+    "Frost",
+    "Corrosion",
+    "cast time",
+    "stationary",
+    "moving",
+    "Shaper's Presence",
+    "Regenerate",
+    "expire",
+    "debuffs",
+    "lingering blade",
+    "bestial minion",
+    "Critical strikes",
+    "Cold Exposure",
+    "Damage Types",
+    "damage types",
+    "Elemental Hit",
+    "Power",
+    "area damage",
+    "Anointed",
+    "The Searing Exarch"
+  ],
+  "aliases": [
+    "Expire"
+  ],
+  "missing": false,
+  "wikitext": "The '''expiration rate''' of a [[temporary effect]] describes how fast or slow time progresses for that effect relative to real time.\n\nOrdinarily, the expiration rate of a temporary effect is equivalent to real time – that is, one second of temporary effect [[duration]] lasts one actual second – however, there are modifiers that can increase or decrease it. Modifiers that cause a temporary effect to {{c|mod|expire x% slower}} decrease the expiration rate of that effect, thereby making it last longer. Similarly, modifiers that cause it to {{c|mod|expire x% faster}} (or {{c|mod|expire x% more quickly}}) increase its expiration rate, making it last a shorter period of time.\n\n==Mechanics==\nDespite changing the total time that temporary effects last, it does not increase or decrease the [[duration]] of that temporary effect. For most characters this difference does not matter, because the main goal is an overall longer or shorter time for the [[game mechanics|game mechanic]].  The difference only matters for benefits and/or downsides that only affect expiration rate or duration. For example:\n* [[Vaal skill]]s with duration buffs/auras, like {{il|Vaal Molten Shell}} and {{il|Vaal grace}} will gain soul gain prevention time from {{c|mod|Increased Duration}} modifiers, but not from those that affect expiration rate. Therefore having these skills expire slower on you will result in them being active more often than increased duration would.\n\nTemporary effects that can possibly be affected by expiration rate include [[buff]]s, debuffs, curses, [[flask]] effects, and temporary [[aura]]s. Temporary effects that are not affected by expiration rate include [[rage]] and [[Focus]], which don't have a modifiable duration, but instead apply at fixed rates or for fixed intervals.\n\nSlower expiry rate is capped at 75% after combining all sources, or a 4x effective duration.<ref name=\"expiration-cap\">{{cite web|author=Mark_GGG|date=October 30, 2018|title=Temporal chains and 75% limitation question|url=https://www.pathofexile.com/forum/view-thread/2240771/page/3#p15915997|publisher=Path of Exile Forum|accessdate=July 20, 2022}}</ref>\n\n==Formulas==\nThe modifier {{c|mod|expire x% faster}} has diminishing returns, while the modifier {{c|mod|expire x% slower}} has increasing returns.\n\n====Expiration Rate====\nThe expiration rate of an effect, where ''IncreasedExpirationRate'' and ''DecreasedExpirationRate'' are the sums of all {{c|mod|expire #% faster}} and {{c|mod|expire #% slower}} modifiers applicable.\n\n{{math|formula=\n\\text{ExpirationRate} = 1 + \\frac{ \\text{IncreasedExpirationRate} }{100} - \\frac{ \\text{DecreasedExpirationRate} }{100}\n}}\n\n====Effective Duration====\nFrom its base duration and expiration rate, we can calculate the effective duration of an effect.\n\n{{math|formula=\n\\text{EffectiveDuration} = \\frac{ \\text{BaseDuration} }{ \\text{ExpirationRate} }\n}}\n\n==Related items==\n===Gems===\n{{Query stat related skill gems\n|type=active\n|stat_id_query=%time_passed%\n}}\n\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%time_passed%\n}}\n===Unique items===\n{{Drop enabled unique item table\n|where = items.stat_text LIKE \"%expire%faster%\" OR items.stat_text LIKE \"%expire%slower%\"\n|large=1\n|stat=1\n|level=1\n}}\n\n===Buffs===\n* {{stl|Shaper's Presence}} ({{il|Solstice Vigil}})\n\n===Debuffs===\n* [[Rupture]] ({{il|Rupture Support}})\n\n==Related passive skills==\nThe table below displays [[passive skills]] related to expiration rate:\n\n{{Query base passive skills\n|where=passive_skills.id NOT LIKE \"%Atlas%\" AND \n  passive_skill_stats.id LIKE \"%time_passed%\"\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to expiration rate:\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%expire%faster%\" OR mastery_effects.stat_text_raw LIKE \"%expire%slower%\"}}\n\n===Cluster Jewel passive skills===\nThe following [[Cluster Jewel]] passives are related to expiration rate:\n{{Passive skill table\n|q_where=passive_skills.id LIKE \"affliction%\"\n  AND (passive_skills.stat_text LIKE \"%expire%faster%\" OR passive_skills.stat_text LIKE \"%expire%slower%\")\n|large=1\n|stat_text=1\n}}\n\n===Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%expire%\"\n|large=1\n|description=1\n}}\n\n===Pantheon===\n* [[Soul of Arakaali]] upgrade: {{c|mod|Debuffs expire 20% faster}}\n\n==References==\n{{reflist}}\n\n[[Category:Game mechanics]]",
+  "sha256": "516f745b5e6563c43ac5201bc0e0375531c2ea6f67d2126b3ac8089b0a2dbd2d"
+}

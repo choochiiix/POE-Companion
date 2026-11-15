@@ -1,0 +1,6 @@
+{
+  "name": "exile-shadcn-button-proof", "private": true, "type": "module",
+  "scripts": { "build": "tsc --noEmit && vite build", "preview": "vite preview --host 127.0.0.1" },
+  "dependencies": { "react": "^19.2.0", "react-dom": "^19.2.0", "class-variance-authority": "^0.7.1", "clsx": "^2.1.1", "tailwind-merge": "^3.3.1", "radix-ui": "^1.4.3" },
+  "devDependencies": { "vite": "^7.2.0", "tailwindcss": "^4.1.0", "@tailwindcss/vite": "^4.1.0", "typescript": "~5.8.3", "@types/react": "^19.2.0", "@types/react-dom": "^19.2.0" }
+}

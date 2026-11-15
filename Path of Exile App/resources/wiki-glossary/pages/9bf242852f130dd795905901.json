@@ -1,0 +1,33 @@
+{
+  "title": "Essence of Misery",
+  "pageId": 6042,
+  "revision": 1561445,
+  "timestamp": "2025-08-05T13:50:45Z",
+  "retrieved": "2026-11-14T10:57:22.324353+00:00",
+  "requested": [
+    "Enlarging Tempest",
+    "Enrage",
+    "Envy Aura",
+    "Eroding Touch",
+    "Escalating Ruin",
+    "Escalating Vulnerability",
+    "Essence Drain",
+    "Essence Drain Regeneration",
+    "Essence Glutton",
+    "Essence of Anger",
+    "Essence of Hatred",
+    "Essence of Misery",
+    "Essence of Wrath",
+    "Eternal Empire Aura",
+    "Eternal Scourge",
+    "Ethereal Tempest",
+    "Ethereal Tendrils",
+    "Evasion Aura",
+    "Evolving Shrine",
+    "Evolving Shrine Monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Essence of Misery\n| type                   = Debuff\n| icon = Essence of Misery status icon.png\n| description = You are taking Chaos Damage over time.\n}}\n\n'''Essences of Misery''' can be used to upgrade an equipment with a guaranteed [[affix]] related to:\n*Cast Speed\n*Mana Regeneration\n*Maximum Mana\n*Physical Attack Damage Leeched as Mana\n*Mana Flask Recovery\n\nMonsters possessed by these essences will launch a pulsing projectile that applies a [[debuff]] named '''Essence of Misery''' to the player character, dealing chaos damage over time.\n\n'''Essences of Misery''' refer to the following [[Essence|essences]] (see the table).\n== Modifiers ==\n{|class=\"wikitable sortable\"\n|-\n! scope=\"col\" | Slot\n! scope=\"col\" | Stat Pattern\n! scope=\"col\" | Generation type\n|-\n| Weapon\n| {{c|mod|#% increased Cast Speed}}\n| [[Suffix|Suffix]]\n|-\n| Shield\n| {{c|mod|#% increased Mana Regeneration Rate}}\n| [[Suffix|Suffix]]\n|-\n| Gloves / Boots / Helmet / Body Armour\n| {{c|mod|+# to maximum Mana }}\n| [[Prefix|Prefix]]\n|-\n| Quiver\n| {{c|mod|#% of Physical Attack Damage Leeched as Mana}}\n| [[Prefix|Prefix]]\n|-\n| Belt\n| {{c|mod|#% increased Flask Mana Recovery rate}}\n| [[Prefix|Prefix]]\n|-\n| Amulet / Ring\n| {{c|mod|#% increased Mana Regeneration Rate}}\n| [[Suffix|Suffix]]\n|-\n|}\n== Essence Tiers ==\n\n{{Query base item\n|tables = essences\n|join = items._pageID = essences._pageID\n|where = essences.category = \"Essence of Misery\"\n|orderby = essences.type ASC, essences.level ASC\n|large=1\n|description=1\n|essence=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.17.0|\n* Deafening Essence of Misery now provides 29-32% increased Cast Speed on one-handed Weapons (previously 26-28%), and 44-49% on two-handed Weapons (previously 39-42%). Screaming and Shrieking Essences have been updated accordingly.\n}}\n{{Version history table row|3.0.0|\n* Pierce has been reworked. Items and skills that used to use or provide pierce chance now instead use or provide a number of pierces. Once a projectile has reached its pierce limit, it will not pierce further.\n* Screaming, Shrieking and Deafening Essences of Misery now grant +1, +1, and +2 Pierces respectively. Existing Shrieking Essence of Misery mods that specifically had a 20% chance to pierce will become +2 Pierces.\n}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Disambiguation}}\n\n[[Category:Debuffs]]",
+  "sha256": "d585f3654bd3dd7a3f493fdb92039085b3862c96367ff326db5abd07ecfa25b6"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Difficulty",
+  "pageId": 5058,
+  "revision": 1700864,
+  "timestamp": "2026-08-16T18:28:59Z",
+  "retrieved": "2026-11-14T10:11:23.474084+00:00",
+  "requested": [
+    "Element",
+    "Cruel",
+    "Ghost Shroud",
+    "Reflect",
+    "unique jewel",
+    "caustic ground",
+    "Elemental Relic",
+    "Endurance",
+    "Ailments",
+    "recharge",
+    "One-Handed",
+    "Abyssal socket",
+    "amulets",
+    "rings",
+    "quivers",
+    "Two-Handed",
+    "Monsters",
+    "Spawn",
+    "influence",
+    "unique monster"
+  ],
+  "aliases": [
+    "Cruel"
+  ],
+  "missing": false,
+  "wikitext": "{{historical content|[[Version 3.0.0]] removed the Cruel and Merciless difficulty levels, making Path of Exile a single ten-act playthrough.}}\n\nPath of Exile had three '''difficulties''' prior to [[The Fall of Oriath]] expansion: Normal, Cruel, and Merciless. Currently there's a single storyline playthrough, without players having to replay the same acts multiple times.\n\nAfter completing [[Act 4]] for the first time, players restarted the game in [[Act 1]] at the Cruel difficulty, as long as they met the level requirement. After completing Act 4 on Cruel, the same process repeated for Merciless.\n\nEach difficulty level contained the same [[area]]s, [[monsters]] and [[quests]]. The difference in difficulty came from the zones being generated at a [[Zone Levels|different level]] and hence monsters and items within them also being that level. The only structural differences was that [[The Twilight Strand]] does not have a waypoint in Normal difficulty, and [[The Eternal Laboratory]] is only a separate area with a map device on Merciless difficulty.\n\nElemental and chaos resistance penalties and experience loss on death were solely tied on the difficulty the player was on. Switching difficulties modified these penalties.\n\n{| class=\"wikitable\" style=\"text-align: center\"\n! Difficulty !! Level Requirement !! Resistance Penalty !! Experience Loss on Death\n|-\n| Normal\n| {{n/a}}\n| {{n/a}}\n| {{n/a}}\n|-\n| Cruel\n| Level 20\n| −20% Elemental and Chaos resistance\n| 5% of level progress\n|-\n| Merciless\n| Level 35\n| −60% Elemental and Chaos resistance\n| 10% of level progress\n|}\n\nDifficulties also modified the required amount of Souls for [[vaal skill gem]]s and the kills needed to enter [[rampage]] tiers.\n\nIn addition to the experience loss, death in the [[Hardcore league]] moves the character from that league and into the [[Standard league]]. It's important to note that characters that die in a hardcore challenge league are also moved to Standard, NOT to the respective softcore challenge league.\n\nUpon going to the next difficulty characters did not lose access to the zones of previous difficulties, and could travel back to them from any waypoint.\n\n==Content modified with the removal of difficulty levels==\n===Bandit rewards===\nThe [[Deal with the Bandits]] quest gave different rewards for each difficulty.\n<section begin=\"reward\" />\n{| class=\"wikitable\" align=\"center\" |\n!rowspan=\"2\"|Difficulty\n!colspan=\"3\"|Side with\n!rowspan=\"2\"|Kill all\n|-\n![[The Bandit Lord Oak]]\n![[The Bandit Lord Kraityn]]\n![[The Bandit Lord Alira]]\n|-\n| Normal\n| {{c|mod|+40 to maximum [[Life]]}}\n| {{c|mod|+10% to all Elemental [[Resistances]]}}\n| {{c|mod|+60 to maximum [[Mana]]}}\n| {{c|mod|+1 Passive Skill Point}}\n|-\n| Cruel\n| {{c|mod|16% increased [[Physical Damage]]}}\n| {{c|mod|8% increased [[Attack Speed]]}}\n| {{c|mod|5% increased [[Cast Speed]]}}\n| {{c|mod|+1 Passive Skill Point}}\n|-\n| Merciless\n| {{c|mod|+1 to Maximum [[Endurance Charge]]s}}\n| {{c|mod|+1 to Maximum [[Frenzy Charge]]s}}\n| {{c|mod|+1 to Maximum [[Power Charge]]s}}\n| {{c|mod|+1 Passive Skill Point}}\n|}<section end=\"reward\" />\n\n===Achievements===\n6 [[achievements]] were modified with the removal of difficulty levels. \n\n{| class=\"wikitable\" style=\"text-align: center;\"\n|-\n! Name !! Achievement\n|-\n| '''Breaking Free''' <br> [[File:Breaking Free achievement icon.jpg]] || Finish the game on Normal difficulty in a non-Hardcore League.\n|-\n|'''Ascension''' <br> [[File:Ascension achievement icon.jpg]]  ||Finish the game on Cruel difficulty in a non-Hardcore League.\n|-\n| '''Vengeance'''<br> [[File:Vengeance achievement icon.jpg]] ||Finish the game on Merciless difficulty in a non-Hardcore League\n|-\n| '''Fearless'''<br> [[File:Fearless achievement icon.jpg]] ||Finish the game on Normal difficulty in a Hardcore League.\n|-\n| '''Dauntless'''<br> [[File:Dauntless achievement icon.jpg]] ||Finish the game on Cruel difficulty in a Hardcore League.\n|-\n| '''Indomitable'''<br> [[File:Indomitable achievement icon.jpg]] ||Finish the game on Merciless difficulty in a Hardcore League.\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Removed the Cruel and Merciless difficulty levels. Path of Exile is now a single ten-act playthrough.\n}}\n{{Version history table row|0.10.0|\n* Now that [[Act 3|Act Three]] has been added, we've removed the Ruthless difficulty level and have rebalanced around this new progression.\n}}\n{{Version history table row|0.8.6|\n* Set new area levels for difficulty 4 - it's not flat any more.\n}}\n{{Version history table row|0.8.4|\n* Made Merciless difficulty harder again.\n}}\n{{Version history table row|0.8.3|\n* Rebalanced monster difficulty in all four difficulty levels.\n}}\n{{Version history table row|0.8.2|\n* Merciless difficulty now has reduced monster life and increased monster damage relative to before.\n}}\n{{Version history table row|0.8.1|\n* Made [[monster]]s even faster in higher difficulties.\n* Made monsters even faster in higher difficulties.\n* Made progression of Ruthless difficulty shallower. There's more of a gap before Merciless now.\n* Reduced experience penalty in Merciless difficulty to 15% (from 20%).\n}}\n{{Version history table row|0.8.0|\n* Enabled the fourth difficulty level (Merciless).\n}}\n{{Version history table row|0.7.1|\n* Added death penalties of 5% and 10% of current level's experience on Cruel and Ruthless difficulties respectively.\n* Fixed large miscalculation in monster life for harder difficulties.\n* Rebalanced higher difficulties to have less monster damage and more monster life.\n}}\n{{Version history table row|0.7.0|\n* Added Cruel and Ruthless difficulty levels.\n}}\n{{Version history table end}}\n\n==Trivia==\n* Before [[version 0.10.0]] was released, there were four difficulty levels (Normal, Cruel, Ruthless and Merciless).\n\n[[Category:Game mechanics]]\n[[Category:Removed mechanics]]\n{{sister|poe2wiki=Cruel}}",
+  "sha256": "21ba4973779d2a60e5e4b74d0bc43e1c17456855aa3c6a21a4f2154ad3d41e9a"
+}

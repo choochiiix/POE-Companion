@@ -1,0 +1,33 @@
+{
+  "title": "Covered in Spiders",
+  "pageId": 4031,
+  "revision": 1192881,
+  "timestamp": "2022-07-25T00:18:42Z",
+  "retrieved": "2026-11-14T10:57:17.464334+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Covered in Spiders\n| type                   = Debuff\n| description            = You are covered in spiders! Burn them off! You move faster but Attack and Cast slower and deal less Damage.\n}}\n\n'''Covered in Spiders''' is a [[debuff]] inflicted by [[Hybrid Widow]] in {{il|Arachnid Tomb Map}}. The debuff can be removed by walking over one of two bonfires found in the boss arena.\n==See also==\n* {{stl|Covered in Webs}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.5.1c|\n* Fixed a bug where the Covered in Spiders effect from the Arachnid Tomb map boss would spawn spiders four times too frequently.\n}}\n{{Version history table row|2.4.1|\n* The debuff '''Covered in Spiders''' applied during the [[Hybrid Widow]] boss encounter will no longer apply unless you are in the boss' arena.\n}}\n{{Version history table row|?|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "3b83ed051329c6cb79eb789863b829f5e780cec38b16814e0763f4495bc9c091"
+}

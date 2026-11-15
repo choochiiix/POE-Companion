@@ -1,0 +1,33 @@
+{
+  "title": "Violent Retaliation",
+  "pageId": 19531,
+  "revision": 1486878,
+  "timestamp": "2024-10-13T02:39:08Z",
+  "retrieved": "2026-11-14T10:57:52.314848+00:00",
+  "requested": [
+    "Valdo's Brilliance",
+    "Vampiric Link",
+    "Veiling Tempest",
+    "Vengeful Cry",
+    "Venom Gyre Blades",
+    "Venomous Web",
+    "Verdant Spores",
+    "Verisium Energy",
+    "Vessel of Vinktar",
+    "Victario's Flight",
+    "Vile Bastion",
+    "Vilenta's Beam",
+    "VinktarLightningBond",
+    "Violent Desire",
+    "Violent Retaliation",
+    "Virulence",
+    "Viscous Swamp",
+    "Vitality Aura",
+    "Vivid Malady",
+    "Void Arrows"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Historical content}}\n{{infocard2\n|header    = Violent Retaliation\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:GLADViolentRetaliation (Gladiator) passive skill icon.png]]</div>\n|2         = Attack Damage is Lucky if you've Blocked in the past 20 seconds<br>Hits ignore Enemy Monster Physical Damage Reduction if you've Blocked in the past 20 seconds\n}}\n\n'''Violent Retaliation''' is a notable [[Ascendancy passive skill]] for the [[Gladiator]] that makes your [[attack]] damage [[lucky]] and allows your hits to [[ignore]] the enemy's [[physical damage reduction]] if you've blocked a hit in the past 20 seconds.\n\n==Ruthless mode==\n{{infocard2\n|header    = Violent Retaliation (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:GLADViolentRetaliation (Gladiator) passive skill icon.png]]</div>\n|2         = Attack Damage while Dual Wielding is Lucky if you've Blocked in the past 20 seconds\n}}\n\nViolent Retaliation in [[Ruthless mode]] does not let your hits ignore enemy physical damage reduction, and requires [[dual-wielding]] to benefit from the lucky mechanic.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Removed from the game.\n}}\n{{Version history table row|3.22.0|\n* No longer provides \"Hits ignore Enemy Monster Physical Damage Reduction if you've Blocked in the past 20 seconds\" or \"Attack Damage is Lucky if you've Blocked in the past 20 seconds\" in Ruthless.\n** It now provides \"Attack Damage while Dual Wielding is Lucky if you've Blocked in the past 20 seconds.\"\n}}\n{{Version history table row|3.16.0|\n* Now has Ignore Enemy Monster Physical Damage Reduction if you've blocked in the past 20 seconds, and Attack Damage is Lucky if you've Blocked in the past 20 seconds.\n}}\n{{Version history table row|3.2.0|\n* Removed {{c|mod|4% increased Movement Speed for each Hit you've Blocked Recently}}\n* Bonuses are now granted for hits that were blocked in the past 10 seconds, up from recently (4 seconds)\n* Added {{c|mod|1% additional Block Chance for each Hit you've Blocked in the past 10 seconds}}\n* Added {{c|mod|+4% to Maximum Block Chance}}\n}}\n{{Version history table row|2.3.0|\n* Increased physical damage per recently blocked hit increased from 4% to 8%\n* Increased movement speed per recently blocked hit increased from 2% to 4%\n* Added {{c|mod|80% increased Physical Damage if you've Blocked a Hit from a Unique Enemy Recently}}\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}",
+  "sha256": "7eb8e3d077942c470ad33693b18401aa064401698fd978495bb2e90ebe99be04"
+}

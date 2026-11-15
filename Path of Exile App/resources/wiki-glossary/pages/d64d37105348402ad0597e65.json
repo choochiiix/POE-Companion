@@ -1,0 +1,33 @@
+{
+  "title": "Chaotic Might",
+  "pageId": 122768,
+  "revision": 1611775,
+  "timestamp": "2026-02-09T02:59:14Z",
+  "retrieved": "2026-11-14T10:11:14.753900+00:00",
+  "requested": [
+    "support",
+    "spells",
+    "increased",
+    "more",
+    "Unique",
+    "Wrath",
+    "Hatred",
+    "Anger",
+    "Chaotic Might",
+    "Shaper item",
+    "Soul Gain Prevention",
+    "Fortification",
+    "Utility flask",
+    "Inspiration Charge",
+    "Cooldown Recovery Rate",
+    "enemy",
+    "movement",
+    "chest",
+    "Uhtred",
+    "Vorana"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Distinguish|Unholy Might}}\n\n{{status\n| name                   = Chaotic Might\n| type                   = Buff\n| description            = You deal extra Chaos Damage, based on your Physical Damage.\n}}\n\n'''Chaotic Might''' is a [[buff]] that grants 30% of [[physical damage]] [[gained as]] extra [[chaos damage]].\n\n==Mechanics==\nThe effect of Chaotic Might is affected by increased [[buff effect]]. The buff duration can be indirectly scaled by  changing the buff [[expiration rate]].\n\n==Unique items==\nThe following [[unique item]]s grant Chaotic Might:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where= item_stats.id like \"%old_unholy_Might%\"\n        OR items.stat_text like \"%Chaotic_Might%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n==Passive skills==\n{{Query passive skills\n|where=\n     passive_skill_stats.id LIKE \"%Chaotic_Might%\"\n}}\n\n==Version history==\nThe bonuses granted by Chaotic Might were previously given by {{stl|Unholy Might}} prior to [[Version 3.24.0]]. {{il|Extractor Mentis}} was the only source of Unholy Might that was changed to grant Chaotic Might instead.\n\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* Introduced to the game.\n* The [[Unholy Might]] buff no longer grants 30% of Physical Damage as extra Chaos Damage. It instead now provides 100% of Physical Damage Converted to Chaos Damage, and 25% chance to Apply Wither on Hit.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "1f87ffc07af88cb9bb8e199380560c00f046d4632b1b81b9033815a1774b2a02"
+}

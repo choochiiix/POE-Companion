@@ -1,0 +1,33 @@
+{
+  "title": "Vaal Shrine",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:57:51.528217+00:00",
+  "requested": [
+    "Vaal Clarity Aura",
+    "Vaal Cold Snap",
+    "Vaal Determination Aura",
+    "Vaal Discipline Aura",
+    "Vaal Earthquake",
+    "Vaal Enrage",
+    "Vaal Grace Aura",
+    "Vaal Haste Aura",
+    "Vaal Immortal Call",
+    "Vaal Impurity of Fire",
+    "Vaal Impurity of Ice",
+    "Vaal Impurity of Lightning",
+    "Vaal Reap",
+    "Vaal Rejuvenation Totem Aura",
+    "Vaal Righteous Fire",
+    "Vaal Shrine",
+    "Vaal Shrine Monster",
+    "Vaal Temptation",
+    "Vaal Venom Gyre",
+    "Vaal Vitality Aura"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

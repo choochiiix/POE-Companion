@@ -1,0 +1,33 @@
+{
+  "title": "Orb Fire",
+  "pageId": 88585,
+  "revision": 1200582,
+  "timestamp": "2022-07-26T05:11:37Z",
+  "retrieved": "2026-11-14T10:57:35.692334+00:00",
+  "requested": [
+    "Omnitect's Thruster",
+    "One Step Ahead",
+    "Oppression",
+    "Orb Fire",
+    "Orb of Elemental Essence",
+    "Ornate Dagger",
+    "Otherworldly Pressure",
+    "Outer Deatomisation Storm",
+    "Overflowing Chalice",
+    "Overloaded Intensity",
+    "Overpowered",
+    "PC Bang Entitlements",
+    "PURPLE BUFF",
+    "Pacified",
+    "Pacify",
+    "Paralysing Touch",
+    "Penance",
+    "Penance Brand",
+    "Perquil's Toe",
+    "Pestilent Strike"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name= Orb Fire\n|type=Debuff\n|icon= ignite status icon.png\n|description=You are taking fire damage over time from Maven's Orb\n}}\n'''Orb Fire''' is a [[debuff]] which causes you to take [[fire]] [[damage over time]]. It has the same status graphic as [[ignite]].\n\nIt is applied by [[The Maven]] to aid the map boss in the fight.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "95ff05080c1f3de6244a2d04c766dc9f9d9c89585ac47b33bc7ea13e07380467"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Ceaseless Feast",
+  "pageId": 88822,
+  "revision": 1705585,
+  "timestamp": "2026-11-13T10:58:03Z",
+  "retrieved": "2026-11-14T10:11:18.151950+00:00",
+  "requested": [
+    "Frost",
+    "Corrosion",
+    "cast time",
+    "stationary",
+    "moving",
+    "Shaper's Presence",
+    "Regenerate",
+    "expire",
+    "debuffs",
+    "lingering blade",
+    "bestial minion",
+    "Critical strikes",
+    "Cold Exposure",
+    "Damage Types",
+    "damage types",
+    "Elemental Hit",
+    "Power",
+    "area damage",
+    "Anointed",
+    "The Searing Exarch"
+  ],
+  "aliases": [
+    "Corrosion"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Ceaseless Feast\n|class_id                                = Gloves\n|base_item                               = Spiked Gloves\n|flavour_text                            = Lost in a sea of limbs and screaming faces, they claw<br>for any fleeting pleasure which might dull the pain.\n|explicit1                               = AddedPhysicalDamageUnique__11__\n|explicit2 = LocalIncreasedPhysicalDamageReductionRatingPercentUnique__24 \n|explicit3 = AttackCorrosionOnHitChanceUnique__1\n|explicit4 = EnduranceChargeNoArmourUnique__1_ \n|explicit5 = FrenzyChargeNoEvasionRatingUnique__1 \n|release_version                         = 3.17.0\n|drop_monsters = Metadata/Monsters/AtlasInvaders/DoomMonsters/DoomBoss_\n}}\n\n'''Ceaseless Feast''' is a pair of [[unique]] {{il|Spiked Gloves}}. \n\n==Mechanics==\n\n{{c|mod|(20–30)% chance to inflict [[Corrosion]] on Hit with Attacks}}: Corrosion is a stacking debuff that causes -5000 to Armour and -1000 to Evasion Rating per stack. Corrosion lasts for 4 seconds and inflicting a stack refreshes the duration of all existing Corrosion stacks.\n\n{{Item acquisition}}\n\n==Legacy variants==\nSpiked Gloves has a [[legacy variant]].\n\n{{legacy variant table header}}\n{{legacy variant table row|3.30.0|\n* {{c|mod|(16-20)% increased Melee Damage}}\n|\n* Adds (2-3) to (22-26) Physical Damage to Attacks\n* (100-150)% increased Armour\n* (20-30)% chance to inflict Corrosion on Hit with Attacks\n* (20-30)% chance to gain an Endurance Charge on Hitting an Enemy with no Armour\n* (20-30)% chance to gain a Frenzy Charge on Hitting an Enemy with no Evasion Rating\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.30.0|\n* The Implicit Modifiers on the following Atlas Item Types have been adjusted:\n** Spiked Gloves now has 24-30% increased Melee Damage (previously 16-20%).\n* All the above items can be updated to the new values using Blessed Orbs.\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "3c2e71c17daea538cb13cc7c08f68b40eeb80e457fbc049dbdd4442f3f221b48"
+}

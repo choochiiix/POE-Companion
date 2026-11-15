@@ -1,0 +1,33 @@
+{
+  "title": "Choking Miasma",
+  "pageId": 3385,
+  "revision": 1192594,
+  "timestamp": "2022-07-24T23:16:39Z",
+  "retrieved": "2026-11-14T10:57:15.855315+00:00",
+  "requested": [
+    "Chill Prevention",
+    "Chilling Aura",
+    "Chilling Barrier",
+    "Chilling Bond",
+    "Chilling Conflux",
+    "Chilling Vision",
+    "Chiropteran Procession",
+    "Choking Miasma",
+    "Chronos Statue Life Regen",
+    "Cinderflame",
+    "Cinders",
+    "Cinderswallow Urn",
+    "Clarity Aura",
+    "Coated in Azurite",
+    "Cogs of Disruption",
+    "Cold Aegis",
+    "Cold Beam",
+    "Cold Damage Aura",
+    "Cold Damage and Freeze",
+    "Cold Empowered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Choking Miasma\n| type                   = Debuff\n| description = {{c|normal|You are taking Chaos Damage over time}}\n}}\n{{status\n| name                   = Inner Choking Miasma\n| type                   = Debuff\n| icon                   = Choking Miasma status icon.png\n| description = {{c|normal|You are taking significantly more Chaos Damage over time}}\n\n}}\n'''Choking Miasma''' and '''Inner Choking Miasma''' are [[debuff]]s from a modifier of the same name. Currently they can only be found in the [[Trials of Chaos]].\n\nThe modifier adds a cloud that follow the player character and deals [[chaos damage|chaos]] [[damage over time]] when the player character is inside the cloud. There are multiple tiers of the modifier, based on player selection during the trial, or scripted on the [[misc map item]] [[Inscribed Ultimatum]]:\n\n* Choking Miasma I: A cloud that deals Chaos Damage over Time will follow you\n* Choking Miasma II: A large cloud that deals Chaos Damage over Time will follow you\n* Choking Miasma III: A large and fast cloud that deals Chaos Damage over Time will follow you\n\nLikes the [[Deatomization Storm]], the tier 2 and 3 of Choking Miasma have inner ring and outer ring, which the inner ring deals more damage over time.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* {{stl|Caustic Ground}} - ground effect that deals chaos damage over time\n* {{stl|Desecrated Ground}} - another ground effect that deals chaos damage over time\n\n[[Category:Debuffs]]",
+  "sha256": "d4ff2b9121486df74410a0a34f8677348519d6c2c79134cbb0c30766ca6e912f"
+}

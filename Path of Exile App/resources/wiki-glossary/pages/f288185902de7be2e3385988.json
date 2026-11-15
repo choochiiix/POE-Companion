@@ -1,0 +1,33 @@
+{
+  "title": "Vessel of Vinktar",
+  "pageId": 19442,
+  "revision": 1618327,
+  "timestamp": "2026-02-24T09:13:30Z",
+  "retrieved": "2026-11-14T10:57:52.313846+00:00",
+  "requested": [
+    "Valdo's Brilliance",
+    "Vampiric Link",
+    "Veiling Tempest",
+    "Vengeful Cry",
+    "Venom Gyre Blades",
+    "Venomous Web",
+    "Verdant Spores",
+    "Verisium Energy",
+    "Vessel of Vinktar",
+    "Victario's Flight",
+    "Vile Bastion",
+    "Vilenta's Beam",
+    "VinktarLightningBond",
+    "Violent Desire",
+    "Violent Retaliation",
+    "Virulence",
+    "Viscous Swamp",
+    "Vitality Aura",
+    "Vivid Malady",
+    "Void Arrows"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Vessel of Vinktar''' is a [[unique]] {{il|Topaz Flask}} with five attainable variants.\n\n==Variants==\n{{Drop enabled unique item table\n|where=items.name=\"Vessel of Vinktar\"\n|large=1\n|level=1\n|stat=1\n}}\n\n==Mechanics==\n* '''Shock effect''': Vessel of Vinktar applies a base 10% effect shock to nearby enemies during flask effect. This shock is scaled by the user's modifiers to effect of shock and lightning ailments. Similarly, the 50% shock on the user is also scaled by the user's effect of shock and lightning ailments, additive with {{c|mod|#% reduced Effect of Shock on you}}. Neither shocks are scaled by flask effect.\n* '''Shock Radius''': Enemies within approximately 30 [[unit]]s of the user will be [[shock]]ed as long as the flask is active. However, enemies will not remain shocked if they move out of range.\n* '''Self-shock''': The self-shock cannot be proliferated or reflected to enemies (e.g. via {{il|Esh's Visage}}).\n* '''Flask Stacking:''' When using several different Vessel of Vinktar variants simultaneously, each of their distinct modifiers will apply, but any shared modifiers will not.\n\n{{Item acquisition|page=Vessel of Vinktar (Lightning Penetration)}}\n\nNotably, the shock proliferation variant ({{il|page=Vessel of Vinktar (Shock Effect and Proliferation)}}) appears to be exclusive to Tier 12+ {{il|The Vinktar Square}} maps only, while the other four variants can drop at any tier. It is also noticably rarer than the other variants, at an estimated 5% drop rate compared to approximately 24% drop rate for the other variants.<ref>[[Prohibited Library (community)|Prohibited Library]] <sup>(requires membership to view)</sup> - https://discord.com/channels/991073626721763429/991092751502278736/1475764528074457202</ref>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* Now has 125-150% Increased Charges used (previously 80-100%).\n* The variant that added 25-35 to 110-130 Lightning Damage to Spells during effect now adds 10-15 to 55-65.\n* The variant that added 25-35 to 110-130 Lightning Damage to Attacks now adds 10-15 to 55-65.\n* The variant that granted 'Damage Penetrates 10% Lightning Resistance during effect' now grants 6%.\n* Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n}}\n{{Version history table row|3.14.0|\n* Added a fifth variant of the '''Vessel of Vinktar''' which grants 25-40% increased Effect of Shock during the Flask Effect and causes Shock to spread to other Enemies in a radius of 20 during the Flask Effect.\n* The Damage Conversion variation of the Vessel of Vinktar now causes 50% of Physical Damage to be Converted to Lightning during the Flask Effect (previously 20%). Existing versions can be updated to the new values using a Divine Orb.\n* The Added Lightning Damage to Spells variation of the Vessel of Vinktar now grants 25-35 to 110-130 Lightning Damage to Spells during the Flask Effect (previously 15-25 to 70-90). Existing versions can be updated to the new values using a Divine Orb.\n}}\n{{Version history table row|3.0.0|\n'''The following changes can be obtained by rerolling the item's mods with a Divine Orb:'''\n* No longer has Lightning Damage Leeched as Mana during Flask Effect.\n'''The following changes affect existing items automatically:'''\n* The Shock aura now increases damage taken by 10%, but the Shock on the player still increases damage taken by 50%.\n* The original versions now grant Gain Life and Mana from Leech instantly (can no longer instantly leech to Energy Shield).\n}}\n{{Version history table row|2.2.0|\n* Vessel of Vinktar has been reduced to 20% Life and Mana leech. It no longer grants \"Leech applies instantly during Flask effect\". It also consumes more charges when used, so you cannot use the flask twice per fill any more.\n}}\n{{Version history table row|2.1.1d|\n* Fixed a bug where the shock applied to nearby enemies when using the Vessel of Vinktar was removed when using a flask with the \"of Grounding\" suffix afterwards.\n}}\n{{Version history table row|2.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}\n\n{{Disambiguation}}\n\n[[Category:Unique utility flasks]]",
+  "sha256": "e5b078fd195c72e2bcef8f24e317daa959a1552f7886c3fbbe438b06a2769d41"
+}

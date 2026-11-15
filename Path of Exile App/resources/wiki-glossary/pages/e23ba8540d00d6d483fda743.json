@@ -1,0 +1,33 @@
+{
+  "title": "Crimson Dance",
+  "pageId": 4146,
+  "revision": 1625594,
+  "timestamp": "2026-03-03T21:29:46Z",
+  "retrieved": "2026-11-14T10:11:20.796858+00:00",
+  "requested": [
+    "Ballista Totem",
+    "fortification",
+    "petrified",
+    "of Lightning",
+    "avoid",
+    "Crimson Dance",
+    "Acrobatics",
+    "Sacrifice of Blood",
+    "rune",
+    "Energy Blade",
+    "Temporal Rift",
+    "Tornado",
+    "Runic",
+    "Alva",
+    "Port",
+    "Flasks",
+    "Far Shot",
+    "Race",
+    "pierces",
+    "Kineticism"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Crimson Dance}}\n\n'''Crimson Dance''' is a [[keystone passive skill]] that halves the damage of [[bleeding]], but causes hits to apply an alternative '''Bleeding''' debuff. Enemies take damage from up to 8 stacks of this debuff, but take no extra damage from it while moving. This effectively causes bleeding to be based on 35% of your flat physical attack damage per second, or 280% at 8 stacks.\n\nCrimson Dance bleeding may deal damage alongside regular bleeding, for example from a [[partying|party member]] or [[minion]]. It's also possible for a single player to utilize both types if Crimson Dance is lost or gained periodically (e.g. {{il|Farrul's Pounce}}). \n\n==Location==\nCrimson Dance is located at the middle layer of the southwest part of the tree, to the right of the transition path between [[Duelist]] and [[Marauder]] across {{psl|The Impaler}}.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Duelist]]||8\n|-\n|[[Marauder]]||10\n|-\n|[[Scion]]||14\n|-\n|[[Ranger]]||16\n|-\n|[[Templar]]||18\n|-\n|[[Shadow]]||24\n|-\n|[[Witch]]||24\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Crimson%Dance%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "a23068180b70d0da91479159ddd43095f7b70264d2d1d3d8a3378e9493221ae0"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Bow",
+  "pageId": 2436,
+  "revision": 1675303,
+  "timestamp": "2026-07-20T01:00:40Z",
+  "retrieved": "2026-11-14T10:11:22.561689+00:00",
+  "requested": [
+    "one-handed sword",
+    "Death Aura",
+    "Mirage Archer",
+    "Penance Mark",
+    "Aura Skill",
+    "Conduit",
+    "Presence",
+    "tattoo",
+    "taking damage",
+    "channelling skill",
+    "Diamond Shrine",
+    "Minions",
+    "Determination",
+    "Bows",
+    "utility flask",
+    "Mana Flasks",
+    "Life Flasks",
+    "life regen",
+    "Everlasting Sacrifice",
+    "resistances"
+  ],
+  "aliases": [
+    "Bows"
+  ],
+  "missing": false,
+  "wikitext": "'''Bows''' is an [[item class]] of two-handed [[ranged]] [[weapons]] that require [[dexterity]] to equip. [[Quiver]]s may be equipped with bows to provide additional bonuses. Bows have low base [[critical strike chance]] but moderate [[physical damage]] and [[attack speed]], resulting in overall higher damage per second than [[wands]].\n\nBows sometimes do not have implicit [[modifier]]s. There are 5 groups of bow base types (with 3 base types each) with the following implicits:\n* {{c|mod|x% increased Elemental Damage with Weapons}}\n* {{c|mod|x% increased Critical Strike Chance}}\n* {{c|mod|x% to Global Critical Strike Multiplier}}\n* {{c|mod|x% increased Movement Speed}} ([[Maraketh weapon]]s)\n* {{c|mod|Adds # to # Fire Damage}} ([[Experimented Base Types]])\n\nIn additions, all bows are 2 x 4 in size, with the exception of the starter bow and another set of bows. The exception (total 4), are 2 x 3 in size and all without an implicit. \n\n==List of bow base types==\n{{main|List of bow base types}}\n\nThere are {{Drop enabled base item count|where=items.class_id=\"Bow\"}} bow base types that can drop.\n\n{{Drop enabled base item table\n|where = items.class_id=\"Bow\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|dex=1\n|stat=1\n}}\n\n==List of unique bows==\n{{main|List of unique bows}}\n\nThere are {{Drop enabled unique item count|where=items.class_id=\"Bow\"}} unique bows that can drop.\n\n{{Drop enabled unique item table\n|where = items.class_id=\"Bow\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|dex=1\n|stat=1\n}}\n\n==Passive skills==\nThere are [[passive skill]]s that grant bow bonuses.\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%bow%\"\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to Bows:\n{{Query masteries|where=mastery_groups.id=\"Bow\"}}\n\n==List of active skill gems usable with bows==\n{{main|List of skill gems usable with bows}}\n{{:List of skill gems usable with bows}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.17.2|\n*Bows in Standard with one-handed local Added Fire, Cold, Lightning and Chaos Damage weapon prefix modifiers can now have a Divine Orb used on them to obtain the two-handed modifier values introduced in 3.17.0.\n}}\n{{Version history table row|3.17.0|\n* Give bows the same local added elemental damage modifiers as two handed melee weapon modifiers do, which are much stronger than the bow-specific modifiers used previously.\n* Improve the damage of bows in general, with some base types getting up to 50% more base damage than before.\n}}\n{{Version history table row|0.8.7|\n* Fixed [[bow]] [[attack]]s so that they still do [[damage]] when firing really fast. The [[arrow]] may still be taken away visually.\n}}\n{{Version history table row|0.8.3|\n* The highest few increased [[attack speed]] [[mod]]s no longer spawn on ranged weapons.\n}}\n{{Version history table row|0.7.1|\n* Fixed the bow crash.\n}}\n{{Version history table row|0.6.8|\n* Accuracy used for bows (they can miss now).\n}}\n{{Version history table row|0.6.7|\n* Fixed bow damage scaling (bows now do 40% less damage).\n}}\n{{Version history table row|0.6.0|\n* Added support for bows.\n* Arrows stick in objects properly.\n* Arrows have trails as they fly through the air.\n}}\n{{Version history table end}}\n\n{{Navbox Weapons}}\n{{sister|poe2wiki}}\n\n[[Category:Bows| ]]\n[[Category:Item classes]]",
+  "sha256": "42441766b9527c3dbc14dd7c8961df7a8f1147589da4379eeff690d69efbe96f"
+}

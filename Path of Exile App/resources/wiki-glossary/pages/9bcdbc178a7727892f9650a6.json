@@ -1,0 +1,33 @@
+{
+  "title": "Eldritch Battery",
+  "pageId": 5724,
+  "revision": 1698816,
+  "timestamp": "2026-08-03T06:30:38Z",
+  "retrieved": "2026-11-14T10:08:29.719759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Eldritch Battery}}\n\n[[Image:Eldritch Battery Orb.png|thumb|upright|Energy Shield shown over mana, instead of life.]]\n\n'''Eldritch Battery''' (often referred to as '''EB''') is a [[keystone passive skill]] that makes [[energy shield]] protect [[mana]] instead of [[life]].\n\n==Mechanics==\n{{c|mod|Spend Energy Shield before Mana for Skill Mana Costs\n}}: allows paying mana [[cost]]s by spending energy shield. \n* Unlike {{psl|Blood Magic}} or {{il|Lifetap Support}}, this does not change mana costs into energy shield costs. The player still pays a mana cost, and can modify that cost with mana cost modifiers. \n* Energy shield recharge is not interrupted by energy shield spent to pay costs. Unless interrupted by damage to mana or energy shield, energy shield will continually recharge.<ref name=\"JatinRechargeEB\" /><ref>https://www.reddit.com/r/pathofexile/comments/mnojoj/because_life_is_just_spicy_mana/gu7jkek/?context=1</ref>\n* Energy shield can only be spent for mana ''costs''. {{il|page=Arcane Cloak}} will still spend mana, {{il|Apep's Rage}} will still cause mana [[loss]].\n* Has negative synergy with {{il|Arcane Surge Support}}, {{il|Inspiration Support}}, {{il|Sigil of Power}}, and other mechanics that require mana to be spent.\n\n{{c|mod|Energy Shield protects Mana instead of Life}}: allows energy shield to protect mana from [[damage]] \n* Damage may be taken to mana through {{c|mod|% of Damage is taken from Mana before Life}} or similar modifiers (e.g. {{il|Mind of the Council}}). \n* Damage that bypasses energy shield, such as [[chaos]] damage, will still bypass energy shield. \n* Damage to energy shield or mana will interrupt energy shield recharge.<ref>https://www.reddit.com/r/pathofexile/comments/a1n53x/heres_a_new_unique_item_and_two_early_patch_notes/earf9ak/?context=1</ref> \n\nEldritch Battery also removes the inherent 50% chance to ignore stun while you have energy shield<ref>https://www.pathofexile.com/forum/view-thread/1247469</ref> even when energy shield can still take damage by protecting mana.\n\n==Location==\nEldritch Battery is a standalone keystone located on the upper right edge of the skill tree.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Witch]]||9\n|-\n|[[Shadow]]||11\n|-\n|[[Scion]]||15\n|-\n|[[Templar]]||16\n|-\n|[[Ranger]]||19\n|-\n|[[Marauder]]||23\n|-\n|[[Duelist]]||25\n|}\n\n==Related unique items==\n{{Item table\n|where=items.stat_text LIKE \"%eldritch_battery%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Now clarified in the mod text that spent \"Energy Shield before Mana for Skill Mana Costs\", instead of just Cost {{Undocumented}}\n}}\n{{Version history table row|3.5.0|\n* Now causes you to have 50% less Energy Shield Recharge Rate.\n* Energy Shield Recharge is no longer interrupted by non-damage changes to your Life or Energy Shield, such as when you spend your Energy Shield on skills via Eldritch Battery.\n}}\n{{Version history table row|2.0.2|\n* Fixed a bug where players with Eldritch Battery would spend energy shield to cast spells which reserved mana.\n}}\n{{Version history table row|2.0.1|\n* Fixed a recently introduced bug where Eldritch Battery prevented the life degeneration of {{il|Righteous Fire}}.\n}}\n{{Version history table row|2.0.0|\n* Eldritch Battery now causes Energy Shield to protect Mana instead of Life.<br/>(Old effect: Converts all Energy Shield into Mana)\n}}\n{{Version history table row|0.9.8e|\n* Fixed a server crash related to the Discipline aura and Eldritch Battery.\n}}\n{{Version history table row|0.9.4|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"JatinRechargeEB\">{{cite web|author=Jatin_GGG|date=December 10, 2018|title=Eldritch Battery Bug|url=https://www.pathofexile.com/forum/view-thread/2261496/page/1#p16000111|publisher=Official Path of Exile Forums|accessdate=February 28, 2019}}</ref>\n}}\n{{sister|poe2wiki}}",
+  "sha256": "91d65963332a62ba926a34878a1def97fd3e34d7071a602d0ecde60405a815e5"
+}

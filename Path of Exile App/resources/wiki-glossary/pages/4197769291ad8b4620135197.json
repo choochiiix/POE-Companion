@@ -1,0 +1,33 @@
+{
+  "title": "Ravenous",
+  "pageId": 121511,
+  "revision": 1677754,
+  "timestamp": "2026-07-23T22:29:00Z",
+  "retrieved": "2026-11-14T10:11:11.218525+00:00",
+  "requested": [
+    "Discipline",
+    "flasks",
+    "Abyss Jewel",
+    "Unwavering Stance",
+    "Hits can't be evaded",
+    "party",
+    "cast spee",
+    "Monster resistances",
+    "monster category",
+    "Ravenous",
+    "physical damage reduction",
+    "item rarity",
+    "Unique Monsters",
+    "Endurance Charges",
+    "Frenzy Charges",
+    "Power Charges",
+    "Damage reduction",
+    "Unique monsters",
+    "Beast",
+    "Carrion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=Ravenous}}\n\n'''Ravenous''' is a skill granted by {{il|Veruso's Ambition}}.\n\n==Mechanics==\nRavenous is a [[spell]] that consumes a [[corpse]] near the targeted location, granting a [[buff]] that provides more [[damage]] against and less [[damage taken]] from monsters of the same [[monster category]] as the consumed corpse.\n\nThis buff has no [[duration]] and persists permanently in that [[instance]] until you [[death|die]], the area is exited, or the source of the skill is removed.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/3452002#12|title=Path of Exile 2 and Path of Exile: Affliction Recently Asked Questions|date=December 3, 2023|accessdate=December 3, 2023}}</ref>. The buff can only provide bonuses against one monster category at a time and is overwritten when a new corpse is consumed. \n\nRavenous ''cannot'' be used on spectral corpses created through [[skill]]s or [[corpse item]]s.\n\n==Ravenous buffs==\n{| class=\"wikitable sortable\"\n! Icon !! Monster category !! Effect\n|-\n| [[File:Ravenous - Beast status icon.png|64px]]\n| [[Beast]]\n| {{c|value|You deal more damage to and take less damage from Beast monsters.}}\n|-\n| [[File:Ravenous - Construct status icon.png|64px]]\n| [[Construct]]\n| {{c|value|You deal more damage to and take less damage from Construct monsters.}}\n|-\n| [[File:Ravenous - Demon status icon.png|64px]]\n| [[Demon]]\n| {{c|value|You deal more damage to and take less damage from Demon monsters.}}\n|-\n| [[File:Ravenous - Eldritch status icon.png|64px]]\n| [[Eldritch]]\n| {{c|value|You deal more damage to and take less damage from Eldritch monsters.}}\n|-\n| [[File:Ravenous - Humanoid status icon.png|64px]]\n| [[Humanoid]]\n| {{c|value|You deal more damage to and take less damage from Humanoid monsters.}}\n|-\n| [[File:Ravenous - Undead status icon.png|64px]]\n| [[Undead]]\n| {{c|value|You deal more damage to and take less damage from Undead monsters.}}\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Ravenous, granted by the Veruso's Ambition Unique Boots: The Ravenous Buff is now removed if you no longer have the Ravenous Skill, such as by unequipping the Boots.\n}}\n{{Version history table row|3.23.0|\n* Introduced to the game via the [[Warlock of the Mists]] passive skill, {{psl|Blood Hunt}}.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "387060368d43972d8d72d60f2db659ed434777f1bcd3965e61c0b88e6941e6c5"
+}

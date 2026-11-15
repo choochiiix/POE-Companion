@@ -1,0 +1,33 @@
+{
+  "title": "Ghost",
+  "pageId": 7198,
+  "revision": 1701268,
+  "timestamp": "2026-08-22T20:13:25Z",
+  "retrieved": "2026-11-14T10:11:12.081050+00:00",
+  "requested": [
+    "Ghost",
+    "Rhoa",
+    "Snake",
+    "Spider",
+    "Statue",
+    "Zombie",
+    "magic",
+    "explicit",
+    "Abyss jewel",
+    "Rarity",
+    "rarity",
+    "fishing",
+    "ailments",
+    "Crushed",
+    "Call of Steel",
+    "class",
+    "Buff Effect",
+    "event",
+    "race",
+    "ranged"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "[[File:Bestiary ghost.jpg|thumb|right]]\n'''Ghost''' is a type of {{moncat|undead}} [[undead]] [[monster]] .\n\nGhosts have subtypes called [[wraith spirit]], ghost pirate, ghost soldiers, and [[Dockhand Wraith]] (ghost that use bandit 3D model but only spawns in port areas).\n==Abilities==\n\n==Variations==\n===Ghost pirates===\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! Name !! Location !! Special Attributes\n|-style=\"height:40px\"\n| style=\"width:250px\"|[[Spectral Corsair]] ||style=\"width:350px\"|[[The Tidal Island]], [[The Climb]], [[The Ship Graveyard]] ||style=\"width:350px\"| NA\n|-style=\"height:40px\"\n| [[Cursed Mariner]] || [[The Ship Graveyard Cave]] || {{c|mod|Uses {{il|Flicker Strike}}}}\n|-style=\"height:40px\"\n| [[Ashen Buccaneer]] || [[The Lower Prison]], [[The Cavern of Wrath]], [[The Cavern of Anger]], [[The Slums Sewers]] || NA\n|-style=\"height:40px\"\n| [[Spectral Bowman]] || [[The Cavern of Wrath]], [[The Slums Sewers]] || {{c|mod|Uses {{il|Puncture}}}}\n|-style=\"height:40px\"\n| [[Phantom Occultist]] || [[The Ship Graveyard]], [[The Caverns]]  || {{c|mod|Gains [[Power Charge]]s}}\n|-style=\"height:40px\"\n| [[Spectral Swashbuckler]] || [[The Ship Graveyard]] || {{c|mod|Uses {{il|Spectral Throw}}}}\n|}\n===Dockhand Wraith===\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! Name !! Location !! Special Attributes\n|-style=\"height:40px\"\n| [[Dockhand Wraith]] || [[The Docks]], [[The Aqueduct]], [[The Quay]] || {{il|Phase Run}} or {{il|Ice Shot}}\n|-style=\"height:40px\"\n| [[Labourer Wraith]] || [[The Quay]] ||\n|-style=\"height:40px\"\n| [[Foreman]] ||  [[The Quay]] ||\n|}\n===Ghost soldiers ===\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! Name !! Location !! Special Attributes\n|-style=\"height:40px\"\n| [[Spectral Legionnaire]] || [[The Grand Promenade]] || \n|-style=\"height:40px\"\n| [[Spectral Officer]] || [[The Grand Promenade]]  ||\n|-style=\"height:40px\"\n| [[Spectral Soldier]] || [[The Grand Promenade]]  ||\n|-style=\"height:40px\"\n| [[Spectral Tactician]] || [[The Grand Promenade]]  ||\n|}\n\n===Wraith spirit===\n{{main|Wraith spirit}}\n===Uniques===\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n! Name !! Location !! Special Attributes\n|-style=\"height:40px\"\n| style=\"width:250px\"| [[Coniraya, Shadow of Malice]] ||style=\"width:350px\"| [[Forgotten Oubliette]] || style=\"width:350px\"| {{il|Rain of Arrows}}\n|-style=\"height:40px\"\n| [[Droolscar]] || [[Invasion Boss]] || {{il|Desecrate}}, {{il|Raise Zombie}}, {{il|Detonate Dead}}\n|-style=\"height:40px\"\n| [[Ondar, the Betrayer]] || [[The Grand Promenade]] || [[Caustic Cloud]] {{il|Double Strike}} {{il|Lacerate}} {{il|Leap Slam}}\n|}\n\n==Version History==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* [[Wraith spirit]] is added to the game. {{undocumented}}\n}}\n{{Version history table row|0.10.0|\n* new type of ghost, [[Dockhand Wraith]] is added to the game. {{undocumented}}\n}}\n{{Version history table row|0.8.5|\n* Improved appearance of Ghost Pirates.\n}}\n{{Version history table row|0.8.2|\n* Updated art for Ghost Pirates in the [[Ship Graveyard]].\n* Ghost Pirates should now be holding the correct coloured [[weapons]].\n}}\n{{Version history table row|0.6.10|\n* New monster: Pirate Ghosts.\n}}\n{{Version history table end}}\n\n{{Navbox Bestiary}}\n\n[[Category:Monster types]]\n[[Category:Ghosts| ]]",
+  "sha256": "d986d601c1db1fd34673d7e21998ecfa1fc4e32200c158f8445578192d357560"
+}

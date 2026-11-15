@@ -1,0 +1,33 @@
+{
+  "title": "The Beast",
+  "pageId": 16605,
+  "revision": 1682613,
+  "timestamp": "2026-07-26T23:30:59Z",
+  "retrieved": "2026-11-14T10:57:47.571157+00:00",
+  "requested": [
+    "Tainted Power Charges",
+    "Tarred Ground",
+    "Tasalio's Blessing",
+    "Taste of Blood",
+    "Taste of Hate",
+    "Taunted",
+    "Tawhanuku's Leadership",
+    "Tawhoa's Remedies",
+    "Tears of Rot",
+    "Tempest Shield",
+    "Temporal Anomaly",
+    "Temporal Bubble",
+    "Temporal Interference",
+    "Tenacious Vigor",
+    "Tender Embrace",
+    "Test",
+    "The Basics",
+    "The Battle Within",
+    "The Beast",
+    "The Betrayal"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the divination card|the divine creature that corrupted Malachai|the Beast (lore)}}\n\n{{Item\n|rarity_id                               = normal\n|name                                    = The Beast\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = To know the monster, you must become the monster.\n|drop_level                              = 35\n|tags                                    = armour_divination, unique_divination, unique_armour_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheBeast\n|stack_size                              = 6\n|description                             = {{c|unique|{{iil|Belly of the Beast}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 1_4_6_1, 1_4_6_2, 2_9_10_1\n|release_version                         = 3.3.0\n}}\n\n'''The Beast''' is a [[divination card]]. A set of six can be exchanged for {{il|Belly of the Beast}}.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "580e3a50773feef0d848baadb2538fc9270c094236f66814c55e05842022e97f"
+}

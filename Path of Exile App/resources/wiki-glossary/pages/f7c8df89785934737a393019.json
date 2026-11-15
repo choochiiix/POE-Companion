@@ -1,0 +1,33 @@
+{
+  "title": "Divination Distillate",
+  "pageId": 5194,
+  "revision": 1594736,
+  "timestamp": "2025-11-15T18:05:41Z",
+  "retrieved": "2026-11-14T10:57:19.960711+00:00",
+  "requested": [
+    "Digestive Acid",
+    "Diluting Touch",
+    "Discipline Aura",
+    "Disgorge",
+    "Divination Distillate",
+    "Divine Beam",
+    "Divine Blast of Radiance",
+    "Divine Charge",
+    "Divine Flare",
+    "Divine Ire",
+    "Divine Shrine",
+    "Divine Tempest",
+    "Doedre's Madness",
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering",
+    "Doomed",
+    "Doryani's Conflagration",
+    "Double Strike",
+    "Drained Essence"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Divination Distillate\n|class_id                                = HybridFlask\n|base_item                               = Large Hybrid Flask\n|explicit1                               = FlaskItemRarityUniqueFlask1\n|explicit2                               = FlaskLightRadiusUniqueFlask1\n|explicit3                               = FlaskElementalResistancesUniqueFlask1_\n|flavour_text                            = Knowledge is fermented in pain and loss<br>Distilled with reflection<br>To quench the thirst of those<br>who dream of enlightenment\n|release_version                         = 0.11.1\n|alternate_art_inventory_icons           = race season 5\n|recipe1_description                     = {{c|unique|Divination Distillate}}\n|recipe1_part1_item_name                 = The Drunken Aristocrat\n|recipe1_part1_amount                    = 8\n}}\n\n'''Divination Distillate''' is a [[unique]] {{il|Large Hybrid Flask}}.\n\n==Mechanics==\nLike the base item, effects will be ceased when the user reaches both full health and mana.\n\n==Strategies==\nDivination Distillate can be paired with {{il|Soul Catcher}} or {{psl|id=AscendancyPathfinder4}} to prevent its effect from disabling.\n\n{{Item acquisition}}\n\n==Design attribution==\nDivination Distillate was created by supporter [https://www.pathofexile.com/account/view-profile/AriesEMP-4711 AriesEMP].<ref>[[Supporter newsletter 18]]</ref>\n\n==Legacy variants==\nDivination Distillate has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row | 3.25.0 |\n* {{c|mod|(20-30)% increased Rarity of Items found during Effect}}\n* {{c|mod|(8-12)% increased Quantity of Items found during Effect}}\n* 25% increased Light Radius during Effect\n* {{c|mod|+50% to Elemental Resistances during Effect}}\n}}\n{{legacy variant table row | 3.15.0 |\n* {{c|mod|(40-60)% increased Rarity of Items found during Flask effect}}\n* {{c|mod|(12-18)% increased Quantity of Items found during Flask effect}}\n* 25% increased Light Radius during Flask effect\n* {{c|mod|+50% to Elemental Resistances during Effect}}\n}}\n{{legacy variant table row | 3.5.0 |\n* {{c|mod|(40-60)% increased Rarity of Items found during Flask effect}}\n* {{c|mod|(12-18)% increased Quantity of Items found during Flask effect}}\n* 25% increased Light Radius during Flask effect\n* {{c|mod|+4% to all maximum Elemental Resistances during Flask effect}}\n}}\n{{legacy variant table row | 2.2.0 |\n* {{c|mod|(40-60)% increased Rarity of Items found during Flask effect}}\n* {{c|mod|(12-18)% increased Quantity of Items found during Flask effect}}\n* 25% increased Light Radius during Flask effect\n* {{c|mod|+6% to all maximum Elemental Resistances during Flask effect}}\n}}\n{{legacy variant table row | 1.1.0 |\n* {{c|mod|(40-60)% increased Rarity of Items found during Flask effect}}\n* {{c|mod|(20-25)% increased Quantity of Items found during Flask effect}}\n* 25% increased Light Radius during Flask effect\n* {{c|mod|+6% to all maximum Elemental Resistances during Flask effect}}\n}}\n{{Legacy variant table end}}\n\n\nThe legacy mod {{c|mod|#% increased Quantity of Items found during Flask effect}} does not have a new default value of zero (still set at the last value range (8-12)%), so that a {{il|Divine Orb}} can be used to improve the roll of IIR and IIQ for all post-3.15 variants. Note that by doing so, the mod {{c|mod|+50% to Elemental Resistances during Effect}} will be decreased to the current value of 10%.\n\nDo not use Divine Orb on any pre-3.15 variant, as it would only worsen the mod range.\n\n==Alternate artwork==\n{|\n| [[File:Divination Distillate 2.png|78px]] || Race [[Season Five]] prize for reaching 135 RP.\n\nUsing the <kbd>/convertracereward</kbd> [[chat command]], this item can be transformed into a helmet skin, {{il|Alternate Art Divination Distillate}}. Be aware that the skin cannot be traded to other players or turned back into the original item.\n|-\n| [[File:Divination Distillate foil inventory icon.png|78px]] || Rainbow [[Foil]] version from the [[Ancient Reliquary]].\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* No longer has 8-12% increased Quantity of Items found during Effect. Instead, it now has 30-50% increased Rarity of Items found during Effect. It also now provides +10% to Elemental Resistances during Effect (previously +50%), existing items can be updated to this new value with a Divine Orb and a side of regret.\n}}\n{{Version history table row|3.24.0|\n* Alternate-art Unique Items can now be converted to account-bound microtransactions using the new <kbd>/convertracereward</kbd> chat command. The item will be destroyed, and you will be granted an account-bound microtransaction that changes the appearance of an item of the same type to match that of the destroyed item.\n}}\n{{Version history table row|3.15.0|\n* Now has 20-30% increased Rarity of items found during flask effect (previously 40-60%), and 8-12% increased Quantity of items found during flask effect (previously 12-18%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n}}\n{{Version history table row|3.5.0|\n* No longer provides additional maximum resistances during flask effect and instead provides +50% to all elemental resistances during flask effect.\n* Existing Divination Distillates are not affected.\n}}\n{{Version history table row|2.2.0|\n* Reduced the maximum resistances on Divination Distillate from 6% to 4%.\n}}\n{{Version history table row|1.1.0|\n* Increased Item Quantity mods on Unique items have been reduced by around 30%.\n}}\n{{Version history table row|0.11.1|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n{{Navbox Unique Items}}\n\n[[Category:Unique items created by supporters]]",
+  "sha256": "a78ce989e76cc45035150aa4beb81c0ef1872dd9655372a1c44f4edf74c4d9f3"
+}

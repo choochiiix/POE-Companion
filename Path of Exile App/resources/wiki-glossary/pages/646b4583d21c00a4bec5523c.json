@@ -1,0 +1,33 @@
+{
+  "title": "Sapphire Flask",
+  "pageId": 14199,
+  "revision": 1488344,
+  "timestamp": "2024-10-13T03:30:53Z",
+  "retrieved": "2026-11-14T10:57:41.957413+00:00",
+  "requested": [
+    "Rumblemarch Life Regen",
+    "Rumi's Concoction",
+    "Runesurge",
+    "Rupture",
+    "Sacred Ashes",
+    "Sacred Infusion",
+    "Sacred Suffering",
+    "Sacrificial Zeal",
+    "Sailors Lantern",
+    "Sand Bladestorm",
+    "Sand Stance",
+    "Sand of Eternity",
+    "Sands of Shakari",
+    "Sandstorm",
+    "Sap of the Seasons",
+    "Sapped Ground",
+    "Sapphire Flask",
+    "Sapping Conflux",
+    "Saqawine Presence",
+    "Scathing Tempest"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Sapphire Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 18\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility3\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 18\n|flask_duration                          = 8\n|buff_id                                 = flask_utility_resist_cold\n|buff_value1                             = 40\n|buff_value2                             = 5\n|buff_stat_text                          = +40% to [[Cold Resistance]]<br>+5% to maximum [[Cold Resistance]]\n|charges_max                             = 50\n|charges_per_use                         = 20\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Key to Freedom\n|quest_reward1_quest_id                  = a5q2\n|quest_reward1_act                       = 5\n}}\n{{status\n| name                   = Sapphire Flask\n| type                   = Flask Effect\n| description = You have additional Cold Resistance and maximum Cold Resistance\n}}\n\n'''Sapphire Flask''' is a [[utility flask]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.50 seconds instead.\n\n==Gallery==\n<gallery>\nSapphire Flask effect.jpg|Sapphire Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* No longer grants {{c|mod|20% less Cold Damage taken}}.\n* Now grants {{c|mod|+5% to maximum Cold Resistance}}\n* Now grants {{c|mod|+40% to Cold Resistance}} (from 50%).\n}}\n{{Version history table row|3.16.0|\n*Now last '''8''' seconds (previously 5).\n}}\n{{Version history table row|3.15.0|\n*'''Sapphire Flask''' now last 5 seconds (previously 4). They now consume 20 of 50 Charges on use (previously 30 of 60).\n* Upon completing {{ql|The Key to Freedom}}, you are now offered a choice of the following rewards: {{il|Ruby Flask}}, '''Sapphire Flask''', {{il|Topaz Flask}}, {{il|Amethyst Flask}}, {{il|Diamond Flask}}, {{il|Granite Flask}}, or {{il|Jade Flask}}.\n}}\n{{Version history table row|3.5.0|\n* No longer grant added maximum resistances. Instead, reduce the damage taken of cold damage by 20%.\n}}\n{{Version history table row|2.2.0|\n* Duration increased from 3.5 to 4 seconds. Maximum resistance reduced from 10% to 6%.\n}}\n{{Version history table end}}",
+  "sha256": "0bc6db8c9216fe3363746a179a18951f858c13a12b209e2a18286261055f825b"
+}

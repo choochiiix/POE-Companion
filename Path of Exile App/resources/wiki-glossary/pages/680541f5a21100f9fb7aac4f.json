@@ -1,0 +1,33 @@
+{
+  "title": "House of Mirrors",
+  "pageId": 8279,
+  "revision": 1682455,
+  "timestamp": "2026-07-26T23:27:00Z",
+  "retrieved": "2026-11-14T10:57:28.671028+00:00",
+  "requested": [
+    "Hit by Power Siphon",
+    "Hit by Viper Strike",
+    "Hoarfrost",
+    "Holy Relic's Boon",
+    "Holy Water",
+    "Honed Claws",
+    "Horned Scarab of Glittering",
+    "House of Mirrors",
+    "Humility",
+    "Hunger of Ghorr",
+    "Hunter Shrine Monster",
+    "Hunter's Lesson",
+    "Hunter's Reward",
+    "Hunter's Shrine",
+    "Hunters' Cunning",
+    "Hyrri's Reward",
+    "Ice Golem",
+    "Icicle Mines",
+    "Ignite Immunity",
+    "Ignite Prevention"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = House of Mirrors\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = What do you see in the mirror?\n|drop_level                              = 80\n|tags                                    = currency_divination, currency_basic_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardHouseOfMirrors\n|stack_size                              = 9\n|description                             = {{c|currency|{{iil|Mirror of Kalandra}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = MapAtziri2\n|release_version                         = 2.0.3\n|recipe1_description                     = 1x {{c|card|House of Mirrors}}\n|recipe1_part1_item_name                 = The Immortal\n|recipe1_part1_amount                    = 10\n}}\n\n'''House of Mirrors''' is a [[divination card]]. A set of nine can be exchanged for a {{il|Mirror of Kalandra}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nHouse of Mirrors was created by supporter ShangWar.{{Citation needed}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Drop level changed from 78 to 80. {{Undocumented}}\n}}\n{{Version history table row|3.17.0|\n* This card's drop level requirement was changed. {{Undocumented}}\n* Drop weightings and minimum area levels for the vast majority of cards have not been changed, but drop weightings for a very small number of cards have been reduced in cases where the number of maps they're available from has greatly increased.\n* A longstanding bug in the code determining area level restrictions for some divination card drops has been fixed. This means that cards intended to have a high area level requirement (mostly ones that grant item level 100 items) will no longer fluctuate wildly in availability from league to league.\n}}\n{{Version history table row|2.0.3|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "ceab98891aa478f637e6c4b4f87b25d4a6388de647916088f0e12de0ef64a781"
+}

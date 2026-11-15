@@ -1,0 +1,33 @@
+{
+  "title": "Trauma",
+  "pageId": 116108,
+  "revision": 1702394,
+  "timestamp": "2026-09-14T12:26:31Z",
+  "retrieved": "2026-11-14T10:11:17.308597+00:00",
+  "requested": [
+    "Swords",
+    "Maces",
+    "Sceptres",
+    "hits",
+    "endurance charges",
+    "defences",
+    "inventory",
+    "overkill damage",
+    "frozen",
+    "Unique Jewel",
+    "Aspect",
+    "Guard Skills",
+    "Combat Rush",
+    "Phantasm",
+    "Flame-Touched",
+    "Approaching Flames",
+    "Trauma",
+    "Pact skill",
+    "Drenched",
+    "Mania"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the buff|the support gem|Trauma Support}}\n{{status\n| name                   = Trauma\n| icon = Trauma status icon.png\n| type                   = Buff\n|description             = Some Strike Skills gain bonuses for each Trauma you have\n}}\n'''Trauma''' is a stackable [[buff]] that increases the damage dealt by {{il|Boneshatter}}, {{il|Boneshatter of Complex Trauma}}, and [[strike]] skills supported by {{il|Trauma Support}}.\n\n==Mechanics and interactions==\n<onlyinclude>\n{{il|Boneshatter}} cannot be supported by {{il|Trauma Support}}. Skills that gain bonuses based on your Trauma stacks do not care about the source of that trauma; for example, if you use {{il|Boneshatter}} to generate trauma, skills supported by {{il|Trauma Support}} will still be granted added Physical Damage even if they themselves did not generate the trauma.\n\n===Gaining Trauma===\nHitting an enemy with {{il|Boneshatter}} or [[strike]] skill (other than Boneshatter) supported by {{il|Trauma Support}} will grant you a {{stl|Trauma}} stack, giving more Damage or added Physical Damage respectively. However, you will also take [[Physical Damage]] per Trauma stack upon gaining a new one. Only one stack can be obtained per attack, regardless of the number of enemies hit. [[Repeat]]ed attacks from {{il|Multistrike Support}} will also not grant additional Trauma stacks and only inflicts [[self-damage]] every 3rd hit. This can be used to reduce the gain and impact of Trauma for builds incapable of tanking high stacks of Trauma.\n\nEach Trauma stack counts as an individual [[buff]], with each Trauma stack having its own duration. The (now [[drop-disabled]]) {{il|Mantra of Flames}} Jewel therefore grants a damage bonus for each stack of Trauma. Linking Boneshatter or a Trauma skill with {{il|More Duration Support}}/{{il|Efficacy Support}}, cursing yourself/being cursed with {{il|Temporal Chains}}, or gaining [[skill effect duration]] elsewhere will increase the duration of each Trauma buff stack, reducing the need for high attack speed to maintain high Trauma.\n\n===Damage taken from Trauma===\nWith a level 20 gem and N current Trauma stacks, you will take '''[194<sub>({{il|Boneshatter}})</sub>, 497<sub>({{il|Boneshatter of Complex Trauma}})</sub>, 146<sub>({{il|Trauma Support}})</sub>] * (N+1)''' physical damage (before [[Receiving damage|damage mitigation]]) upon your next attack.\n\nThe damage taken per Trauma is a [[hit]] of [[secondary damage|secondary]] [[self-damage]], allowing the use of when-hit effects and {{il|Cast when damage taken}}. Like other forms of self-damage, the attacker's offensive modifiers (e.g. {{c|mod|#% increased Damage}}, {{c|mod|#% chance to Poison on Hit}}, [[conversion]]) do not apply, but it can be modified defensively, for example by [[damage taken as]], [[armour]], additional physical [[damage reduction]], damage [[avoidance]] (e.g. {{stl|Elusive}}), and {{c|mod|#% chance to be Poisoned}} (e.g. {{il|Apep's Supremacy}}). As pure secondary damage, it cannot be [[Block|blocked]], [[evasion|evaded]], or [[dodge]]d. \n\n[[Recoup]] is a valuable stat to have due to the escalating damage quickly exceeding and overpowering other forms of recovery, whereas Recoup will always recover the same percentage of damage received.</onlyinclude>\n\n==Gems==\n===Skill gems===\n{{Query stat related skill gems\n|type=active\n|where = skill_stats_per_level.id LIKE \"%Trauma%\"\n  OR skill_quality_stats.id LIKE \"%Trauma%\"\n  OR skill.description LIKE \"%Trauma%\"\n|stat_page=Trauma\n}}\n\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%Trauma%\n|stat_page=Trauma\n}}\n\n==Related modifiers==\n===Item modifiers===\n{{Modifier table\n|q_tables=mod_stats, mod_spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where=\n  mod_stats.id LIKE \"%trauma%\"\n  AND mod_stats.id NOT LIKE \"%heavy_trauma%\"\n  AND mod_spawn_weights.value > 0 \n  AND mods.domain NOT IN (\"16\", \"17\", \"18\")\n  AND mods.generation_type != \"24\"\n|stat_text=1\n|level=1\n|spawn_weights=1\n|generation_type=1\n|group=1\n}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* Now also grants from {{il|Trauma Support}}.\n}}\n{{Version history table row|3.15.0|\n* Added to the game.\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n[[Category:Buffs]]",
+  "sha256": "b534bf7776632804341f96603cd79eaf8b1e61ca5992beb7941b7721d4b2964d"
+}

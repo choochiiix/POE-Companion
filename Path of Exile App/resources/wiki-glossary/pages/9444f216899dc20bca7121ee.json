@@ -1,0 +1,33 @@
+{
+  "title": "Dodge",
+  "pageId": 5253,
+  "revision": 1595031,
+  "timestamp": "2025-11-16T20:05:24Z",
+  "retrieved": "2026-11-14T10:08:28.925001+00:00",
+  "requested": [
+    "Life",
+    "Mana",
+    "Rage",
+    "Strength",
+    "Dexterity",
+    "Intelligence",
+    "Block",
+    "Spell suppression",
+    "Dodge",
+    "Stun",
+    "Stun threshold",
+    "Knockback",
+    "Blind",
+    "Maim",
+    "Hinder",
+    "Taunt",
+    "Intimidate",
+    "Unnerve",
+    "Withered",
+    "Impale"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Distinguish|Evasion}}\n\n'''Dodge''' is a [[Receiving damage|layer of defence]] that provides a chance to prevent [[hit]]s.\n\n==Mechanics==\nWhether a character dodges a hit is determined by their chance to dodge, which is capped at 75%. Dodge is rolled randomly each time the character would be hit. On a successful dodge, the character does not take the hit. For this reason, dodge is handled before [[block]] and [[avoidance]], both of which provide a chance to mitigate the damage of hits rather than preventing them outright. Dodge is not affected by the enemy's [[accuracy]].\n\n==Sources of dodge==\nThe only source of dodge is the [[Acrobatics]] keystone, which provides a chance to dodge [[spell]] hits from [[spell suppression]] modifiers.\n\n{{Query keystone passive skills\n|where = passive_skills.name=\"Acrobatics\"\n}}\n\n==Version history==\nBefore version 3.16.0, the game had both attack dodge and spell dodge. The former is removed entirely, while the latter became a special stat only obtainable from the [[Acrobatics]] keystone. On a related note, GGG has also introduced a new layer of damage mitigation called [[spell suppression]], which has a chance to reduce spell damage by 40% at base value.\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Attack dodge has been removed from the game entirely.\n* Existing sources of dodge have been replaced with [[spell suppression]] or other bonuses.\n* The [[Acrobatics]] keystone has been redesigned to change any modifiers to Spell Suppression into Spell Dodge at 50% of their value.\n\n''For a detailed explanation of these changes, see {{section link|Version 3.16.0|Core Character Defences and Recovery}}.''\n}}\n{{Version history table row|0.11.2|\n* Spell Block and Spell Dodge now apply to reflected Spell damage.\n}}\n{{Version history table row|?|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Game mechanics]]",
+  "sha256": "8254a4084242b059f46eac924230d1f19ef8ed7dbae1c07bb03f6da2b185a18a"
+}

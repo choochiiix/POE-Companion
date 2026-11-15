@@ -1,0 +1,33 @@
+{
+  "title": "Reflection",
+  "pageId": 13552,
+  "revision": 1649366,
+  "timestamp": "2026-05-22T23:39:33Z",
+  "retrieved": "2026-11-14T10:57:39.618212+00:00",
+  "requested": [
+    "Ravenous - Eldritch",
+    "Ravenous - Humanoid",
+    "Ravenous - Undead",
+    "Reap",
+    "Reave",
+    "Red Effluent",
+    "Red Team",
+    "Redeemer Shrine Monster",
+    "Redeemer's Shrine",
+    "Redeemer's Storm",
+    "Refining Tempest",
+    "Reflection",
+    "Regenerating Mana",
+    "Rejuvenation",
+    "Rejuvenation Totem Aura",
+    "Remembrance",
+    "Remnant of Corruption",
+    "Replenishing Shrine",
+    "Replica Headhunter",
+    "Replica Kalisa's Grace"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the skill|the game mechanic|Reflect}}\n{{Skill infobox|id=UniqueMirageWarriors}}\n\n'''Reflection''' is a [[skill]] granted by {{il|The Saviour}}.\n\n==Mechanics==\n'''Reflection''' is triggered when you deal a [[critical strike]] using a non-[[vaal skill|Vaal]] [[attack]] skill using The Saviour.\n\nDual wielding {{il|The Saviour}} does not increase the maximum number of Mirage Saviours; it will instead spawn independent Mirage Saviours, though the cap is shared between them.\n\nThe duration of Mirage Saviours can be modified by support gems socketed in The Saviour, as well as other modifiers to skill effect duration.\n\nMirage Saviours are a type of [[proxy]], and use the [[character]]'s offensive stats. This also means a Mirage Saviour will update its stats dynamically, such as if a character gained or lost a buff relevant to the skill's calculations. Mirage Savious do not possess copies of your [[aura]] effects, though they are affected by the stats from your auras affecting you. Mirage Saviours are not [[minion]]s and do not scale with minion modifiers.\n\n{{il|Multistrike Support}}, due to causing repeats, may help the Mirage Saviours with remaining in range of an enemy rather than frequently reposition due to their mobile nature.\n\n==Skill functions and interactions==\nToggling [[Stance|Blood/Sand Stance]] causes Blood/Sand skills used by Mirage Saviours to change immediately.\n\nMirage Saviours cannot use skills from other proxies such as {{il|Blade Trap}} or skills supported by {{il|General's Cry}}, and cannot use {{il|Crushing Fist}} or other [[retaliation]] skills.\n\nMirage Saviours are able to have charges (such as gaining Endurance Charges from {{il|Replica Victario's Charity}}) and use them for skill effects, but do not benefit from charge bonuses (as the skills would care about the character's charges instead).\n\nThe following are other observations or interactions with skills noted by users:\n\n* {{il|Blade Flurry}} and {{il|Charged Dash}} - Mirage Saviours do not seem to release the channeling very often\n* {{il|Consecrated Path}} - Works as expected. Particularly mobile due to skill's inherent teleporting\n* {{il|Cyclone}} - Works as expected. Particularly mobile due to skill allowing attacking while moving\n* {{il|Dominating Blow}} - Minion caps are shared globally regardless of whether the player or Mirage Saviours kill the enemy\n* {{il|Flicker Strike}} - Cooldown still applies for Mirage Saviours and they can use their own frenzy charges to bypass cooldown\n* {{il|Infernal Blow}} - Mirage Savious can cause explosions by themselves\n* {{il|Rage Vortex}} and {{il|Rage Vortex of Berserking}} - Mirage Saviour appears to only use the skill as if they have no rage, causing them to only spin once instead of creating a ragestorm or attaching itself to them.\n* {{il|Vigilant Strike}} - Cooldown still applies for Mirage Saviours and they can use their own endurance charges to bypass cooldown\n<!--This is unnecessary to display\n* {{il|Bladestorm}} - Works as expected\n* {{il|Cleave}} - Works as expected\n* {{il|Chain Hook}} - Works as expected\n* {{il|Double Strike}} - Works as expected\n* {{il|Elemental Hit}} - Works as expected\n* {{il|Frost Blades}} - Works as expected\n* {{il|Heavy Strike}} - Works as expected\n* {{il|Ice Crash}} - Works as expected\n* {{il|Lacerate}} - Works as expected\n* {{il|Lancing Steel}} - Works as expected\n* {{il|Lightning Strike}} - Works as expected\n* {{il|Molten Strike}} - Works as expected\n* {{il|Perforate}} - Works as expected\n* {{il|Reave}} - Works as expected\n* {{il|Shattering Steel}} - Works as expected\n* {{il|Smite}} - Works as expected\n* {{il|Spectral Throw}} - Works as expected\n* {{il|Splitting Steel}} - Works as expected\n* {{il|Spectral Helix}} - Works as expected\n* {{il|Static Strike}} - Works as expected\n* {{il|Tectonic Slam}} - Works as expected\n* {{il|Viper Strike}} - Works as expected\n* {{il|Wild Strike}} - Works as expected-->\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.1c|\n* '''Mirage Saviours''', [[Mirage Warriors]] and Mirage Chieftains spawned by {{il|The Saviour}} unique {{il|Legion Sword}}, {{il|General's Cry}} and {{sl|Tawhoa's Chosen}} respectively can no longer be stunned.\n}}\n{{Version history table row|3.11.1|\n* Fixed a bug where [[General's Cry|Mirage Warriors]], Mirage Chieftains and '''Mirage Saviours''' were unable to deal damage when you had allocated the [[Ancestral Bond]] keystone passive.\n}}\n{{Version history table row|3.11.0|\n* The Saviour: '''Mirage Warriors''' have been renamed '''Mirage Saviours''', to differentiate them from those created by {{il|General's Cry}}. [[Strike]] skills used by Mirage Saviours cannot hit additional targets. This affects all existing versions of the item.\n\n''This change is required to maintain server performance, as builds using The Saviour with certain Strike skills were causing enough calculations to put noticeable strain on the servers. It was accidentally missed in the Development Manifesto. ''\n}}\n{{Version history table row|3.10.0|\n* The Saviour: '''Mirage Warriors''' created by this weapon can now consume charges to bypass cooldowns, if the skill they use has a cooldown that can be bypassed this way. For example, {{il|Flicker Strike}} '''Mirage Warriors''' will now consume [[Frenzy Charge]]s until they run out, at which point they will only use Flicker Strike once the cooldown expires. These '''Mirage Warriors''' now have a cool new effect.\n}}\n{{Version history table row|3.9.0|\n* Introduced to the game as a skill granted by {{il|The Saviour}}.  {{Undocumented}}\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "f17dc85ee6859935f717167c9775cc27c6d1741a6736861ddcf7ddbdb3779c36"
+}

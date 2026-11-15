@@ -1,0 +1,33 @@
+{
+  "title": "Hexproof",
+  "pageId": 8165,
+  "revision": 1486560,
+  "timestamp": "2024-10-13T02:27:32Z",
+  "retrieved": "2026-11-14T10:11:19.927175+00:00",
+  "requested": [
+    "Echoing Shrine",
+    "Ancestral Bond",
+    "convert",
+    "buff effect",
+    "hexproof",
+    "Hexproof",
+    "mercenary",
+    "Hex Reflection",
+    "secondary",
+    "The Vaal",
+    "Karui",
+    "Eternal Empire",
+    "The Maraketh",
+    "Combust",
+    "Divine Blessing",
+    "stealth",
+    "Shocking Conflux",
+    "Summon Skitterbots",
+    "the Viridian Wildwood",
+    "Event"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Hexproof''' is a [[keyword]] and [[modifier]] that causes [[character]]s and [[monsters]] with it to be unaffected by [[Hex]] [[curse]]s, but can be bypassed under certain conditions. \n\n__TOC__\n\n==Mechanics==\nCurses negated by Hexproof will have their floating Curse icons above the entity replaced by lock symbols. Entities with these lock symbols are still considered cursed even if the curses have no effect, enabling mechanics such as those found on {{il|Hexblast}} and {{il|Self-Flagellation}} as well as [[Curse Mastery]].\n\nHexproof only affects Hex curses and does not affect [[Mark]] curses. [[Curse immunity]], which is distinct from Hexproof, prevents both Hexes and Marks from being applied at all.<ref>[[Version 3.12.0]] patch notes</ref>\n==Sources==\n===Area modifiers===\nThe following [[Map#Modifiers|Map modifier]], [[vaal side area]] modifier (known in spawn weight table as \"secret_area\") [[Delve]] area modifier and [[Synthesis league|Synthesis]] area modifier grants the monster Hexproof: \n{{Query spawnable modifiers\n|where = mod_stats.id LIKE \"%Hexproof%\" AND (domain = \"5\" OR domain = \"17\" OR domain = \"18\")\n|stat_text=1\n|level=1\n|generation_type =1\n|spawn_weights = 1\n}}\n====Legacy mods====\nThe lists below displays Hexproof related modifiers where all spawn weights have been set to zero. These mods can be found on [[legacy variant|legacy]] map:\n\n{{Modifier table\n|q_tables = mod_stats, mod_spawn_weights\n|q_join = mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where = mod_stats.id LIKE \"%Hexproof%\" AND domain = \"5\"\n|q_having = SUM(mod_spawn_weights.value) = 0\n|q_groupBy = mod_spawn_weights._pageID\n|stat_text=1\n|level=1\n|spawn_weights=1\n}}\n\n===Monster modifiers===\nThe following [[Monster modifiers]] grants the monster Hexproof: \n{{Modifier table\n|q_tables = mod_stats, mod_spawn_weights\n|q_join = mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where = mods.mod_type=\"MonsterHexproof\" AND domain = \"3\"\n|stat_text=1\n|level=1\n|generation_type =1\n|spawn_weights = 1\n}}\n\n==Bypass==\n===Support gems===\n{{Drop enabled gem table\n|tables=skill_gems\n|join=items._pageID=skill_gems._pageID\n|where=items.class_id=\"Support Skill Gem\" AND (items.stat_text LIKE \"%hexproof%\")\n}}\n\n===Unique items===\n{{Drop enabled unique item table\n|where=items.stat_text like \"%hexproof%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n\n}}\n\n===Ascendancy passive skills===\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%hexproof%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.12.0|\n* '''Hexproof''' monsters can now be cursed, but will ignore the effect of any Hexes applied to them (previously curses could not be applied). Hexproof in no way mitigates the effects of a Mark.\n}}\n{{Version history table row|3.11.0|\n* Now acts like an Immunity effect when gained (such as via Headhunter), and will remove any curses already present on you when gained.\n}}\n{{Version history table row|2.3.1|\n* Fixed a bug where Hexproof monsters were immune to curses, rather than being Hexproof.\n}}\n{{Version history table row|2.3.0|\n*Monsters and maps with the Hexproof prefix now grant the Hexproof keyword.\n*Hexproof prevents curses applying, but can be bypassed under certain conditions.\n*Currently only [[Cospri's Will|one unique item being added in 2.3.0]] will bypass Hexproof, but this power may show up from other sources in the future.\n*Hexproof does not affect curse reduction that unique monsters can have, and will allow for potential Curse Immunity in the future that is absolute and not keyworded as Hexproof.\n}}\n{{Version history table row|?|\n* Map mod {{ml|MapHexproof}} introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n}}\n\n[[Category:Monster mechanics]]\n[[Category:Keywords]]",
+  "sha256": "cf0dba9eead0735d01f4881f0b300a6b6173cd2e4b6cbef547051660c3f4e16b"
+}

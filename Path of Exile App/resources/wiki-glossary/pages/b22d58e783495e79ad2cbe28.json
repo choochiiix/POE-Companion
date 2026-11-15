@@ -1,0 +1,33 @@
+{
+  "title": "Elusive",
+  "pageId": 5823,
+  "revision": 1673493,
+  "timestamp": "2026-07-13T19:17:43Z",
+  "retrieved": "2026-11-14T10:08:29.720760+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Elusive\n| type                   = Buff\n| description            = You have increased Movement Speed, and additional chance to avoid damage. This buff's effects are reduced over time.\n}}\n\n'''Elusive''' is a [[buff]] which grants bonus [[movement speed]] and a chance to [[Avoidance|avoid]] damage from hits. It grants a large amount of avoid chance and movement speed when it is first applied, and the effectiveness of it decays over time. You must wait for Elusive to expire before you can re-apply it again at full strength.\n\n==Mechanics==\nElusive, by default, starts at 100% effectiveness. At 100%, it grants the following:\n* {{c|mod|15% chance to Avoid All Damage from Hits}}\n* {{c|mod|30% increased Movement Speed}}\n\nUnlike most other effects, Elusive loses its effectiveness over time, at a rate of 20% per second, and lasts until it decays to 0% effectiveness. This causes Elusive to have its duration be based on its buff effect. Modifiers to skill effect duration will not affect the duration of Elusive, but buff effects (e.g. {{il|Ichimonji}}) and {{c|mod|x% increased Effect of Elusive}} will.\n\nYou cannot refresh the effectiveness of Elusive by reapplying it. You must wait until Elusive expires to be able to reapply Elusive again.\n\n==Skill gems==\n===Skill gems===\n{{Query stat related skill gems\n|type=active\n|stat_id_query=%elusive%\n|stat_page=elusive\n}}\n\n===Support gems===\nThe following [[skill gem]]s are related to Elusive:\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%elusive%\n|stat_page=elusive\n}}\n\n==Unique Items==\nThe following [[unique item]]s are related to Elusive:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%Elusive%\" or items.name=\"Triumvirate Authority\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Mods==\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%elusive%\" AND mods.generation_type NOT IN (\"10\", \"24\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n|tags=1\n}}\n===Enchantments===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%elusive%\" AND mods.generation_type= \"10\"\n|stat_text=1\n|spawn_weights=1\n|level=1\n|enchantment=1\n}}\n===Scourge mods===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%elusive%\" AND mods.generation_type= \"24\"\n|stat_text=1\n|spawn_weights=1\n|level=1\n|group=1\n}}\n\n==Related passive skills==\nThe following [[passive skill]]s are related to Elusive:\n{{Query base passive skills\n|where=(passive_skill_stats.id LIKE \"%Elusive%\" OR passive_skills.id = \"blight_special_notable30\") AND passive_skills.id != \"affliction_notable_no_witnesses\"\n}}\n\n===Ascendancy passive skills===\n{{Query ascendancy passive skills\n|where=passive_skill_stats.id LIKE \"%Elusive%\"\n}}\n\n===Cluster jewel passives===\n====Drop-disabled====\nThe following [[cluster jewel]]-only passives are related to elusive:\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skills.stat_text LIKE \"%Elusive%\"\n|large=1\n|stat_text=1\n}}\n\n===Tattoos/Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%elusive%\"\n|large=1\n|description=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Change Elusive to provide 15% chance to Avoid Damage from Hits, instead of it's old Dodge-related stats.\n}}\n{{Version history table row|3.10.0|\n* Elusive now grants 30% increased movement speed (from 40%), 15% chance to dodge attacks (from 20%) and 15% chance to dodge spells (from 20%).\n}}\n{{Version history table row|3.8.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "2b47fcf6ed07d6d388664617f48da7b3293f7a88181766d8756254deba9fa6bc"
+}

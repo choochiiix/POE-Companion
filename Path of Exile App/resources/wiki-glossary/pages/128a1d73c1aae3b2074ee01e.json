@@ -1,0 +1,33 @@
+{
+  "title": "The Agnostic",
+  "pageId": 16542,
+  "revision": 1618361,
+  "timestamp": "2026-02-24T15:49:02Z",
+  "retrieved": "2026-11-14T10:08:34.802776+00:00",
+  "requested": [
+    "Double damage",
+    "Triple damage",
+    "Increased and reduced",
+    "More and less",
+    "Unarmed",
+    "Dual wielding",
+    "Wielding",
+    "Main hand",
+    "Off hand",
+    "Weapon range",
+    "Melee strike range",
+    "Intelligence stacking",
+    "Anoint",
+    "Catalyst",
+    "Cluster jewel",
+    "Mastery",
+    "Keystone",
+    "Notable",
+    "Passive skill",
+    "The Agnostic"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|q_where = id=\"the_agnostic_keystone2695\"}}\n\n'''The Agnostic''' is a [[keystone passive skill]] that removes your [[energy shield]] and drains [[mana]] per second to recover your [[life]] while you are not at [[full life]].\n\nThis skill node is essential for the [[Mana before Life]] defensive technique, provided you have enough Mana recovery to maintain it.\n\n==Mechanics==\n\"Full Life\" is used in the literal sense, rather than the \"no Life left to recover\" sense used by [[flask]]s. If you have any Life reserved, you will sacrifice Mana continuously even if your unreserved Life is full. Forcing the full life condition (i.e. {{il|Coward's Chains}}) does not change this behavior, but the {{c|mod|You count as on Full Life while at 90% of maximum Life or above}} [[Life Mastery]] will change the life threshold for when The Agnostic activates.\n\nWhile at full life and taking damage over time, the mana sacrificed will be equal to the total life lost per second, up to the maximum of 20% of your mana<ref>{{cite web|author=Mark_GGG|date=July 15, 2019|title=Why doesn't The Agnostic interact with DoTs in the same way as every other Full Life effect?|url=https://www.reddit.com/r/pathofexile/comments/cd1ys7/comment/ett5c9g/}}</ref>.\n\nLife Recovery Rate will affect the recovery of the Agnostic Keystone, but it will not affect the loss of mana at all<ref>{{cite web|author=Community_Team|date=May 19, 2021|title=Game Mechanics Q&A Answers|url=https://www.pathofexile.com/forum/view-thread/3123794}}</ref>.\n\n==Location==\nThe Agnostic is located on the far left side of the skill tree, to the west of the Templar's starting point.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Scion||17\n|-\n|Marauder||14\n|-\n|Templar||11\n|-\n|Duelist||20\n|-\n|Witch||13\n|-\n|Ranger||27\n|-\n|Shadow||21\n|}\n\nThis keystone can also be obtained from the tree by using a [[legacy variant|legacy]] {{il|Militant Faith}} jewel with modifier {{c|mod|Carved to glorify (2000-10000) new faithful converted by High Templar '''Venarius'''}}.\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%The%Agnostic%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Timeless Jewel Keystone passives have become a popular feature for many builds, but are prohibitively difficult to acquire (especially without trade). We've moved some of the most build-defining Keystones out of the Timeless Jewels and into the tree itself. These Keystones have been added to the tree: The Agnostic, [[Glancing Blows]], [[Supreme Ego]], [[Wind Dancer]] and [[Eternal Youth]].\n* Timeless Jewels -- New keystones have been added to replace the five that are now available on the passive skill tree. The new ones are: [[The Traitor (keystone passive)|The Traitor]], [[Supreme Ostentation]], [[Chainbreaker]], [[Transcendence (keystone passive)|Transcendence]], [[Immortal Ambition]]. Existing Timeless Jewels will retain the old keystones, but if you reroll them with a Divine Orb they will be able to reveal these new keystones.\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game (granted by {{il|Militant Faith}}'s {{c|mod|Carved to glorify (2000-10000) new faithful converted by High Templar Venarius}} mod).\n}}\n{{Version history table end}}\n\n[[Category:Keystone passive skills]]",
+  "sha256": "3b987968a5913aa32cad2244719213c0ff137d0ebf504e6034a5fa213a030759"
+}

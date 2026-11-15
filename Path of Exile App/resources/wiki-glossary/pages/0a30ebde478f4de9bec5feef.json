@@ -1,0 +1,35 @@
+{
+  "title": "The Overflowing Chalice",
+  "pageId": 17152,
+  "revision": 1703791,
+  "timestamp": "2026-11-02T11:14:03Z",
+  "retrieved": "2026-11-14T10:57:35.686043+00:00",
+  "requested": [
+    "Omnitect's Thruster",
+    "One Step Ahead",
+    "Oppression",
+    "Orb Fire",
+    "Orb of Elemental Essence",
+    "Ornate Dagger",
+    "Otherworldly Pressure",
+    "Outer Deatomisation Storm",
+    "Overflowing Chalice",
+    "Overloaded Intensity",
+    "Overpowered",
+    "PC Bang Entitlements",
+    "PURPLE BUFF",
+    "Pacified",
+    "Pacify",
+    "Paralysing Touch",
+    "Penance",
+    "Penance Brand",
+    "Perquil's Toe",
+    "Pestilent Strike"
+  ],
+  "aliases": [
+    "Overflowing Chalice"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Overflowing Chalice\n|class_id                                = UtilityFlask\n|base_item                               = Sulphur Flask\n|flavour_text                            = Empty cup, full of promise.\n|explicit1                               = FlaskChargesAddedIncreasePercentUnique_1\n<!-- |explicit2                               = FlaskIncreasedDurationUnique1 -->\n|explicit2                               = CannotGainFlaskChargesDuringFlaskEffectUnique_1\n|explicit3                               = IncreasedFlaskChargesForOtherFlasksDuringEffectUnique_1\n|release_version                         = 2.3.0\n}}\n\n'''The Overflowing Chalice''' is a [[unique]] {{il|Sulphur Flask}}.\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.50 seconds instead.\n\n==Legacy variants==\nThe Overflowing Chalice has a [[legacy variant]]:\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0|Creates Consecrated Ground on Use|\n* {{c|mod|50% increased Charge Recovery}}\n* {{c|mod|(10-20)% increased Duration}}\n* Gains no Charges during Effect of any Overflowing Chalice Flask\n* {{c|mod|100% increased Charges gained by Other Flasks during Flask Effect}}\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* No longer has 10-20% increased Duration. It now has 40-60% increased Charge Recovery (previously 100%), and 50-100% increased Charges Gained by other Flasks during Flask Effect (previously 100%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n}}\n{{Version history table row|2.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "d941eb5e490c803625c7b952f15c3fc1226bc4dd535a52335a94c7a1419aa0c4"
+}

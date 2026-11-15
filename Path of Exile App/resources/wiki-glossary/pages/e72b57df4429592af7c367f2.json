@@ -1,0 +1,33 @@
+{
+  "title": "Magmatic Strikes",
+  "pageId": 10562,
+  "revision": 1367987,
+  "timestamp": "2023-08-15T07:16:24Z",
+  "retrieved": "2026-11-14T10:57:33.344677+00:00",
+  "requested": [
+    "Lioneye's Arrows",
+    "Liquid Gold",
+    "Livewire",
+    "Living Crystals",
+    "Lonely Warrior",
+    "Loyalty",
+    "Lucky Arc",
+    "Lunar Protection",
+    "Lunar Resistance",
+    "Lunaris Shrine",
+    "Lustrous Lacquer",
+    "Maata's Leadership",
+    "Magmatic Strikes",
+    "Magnetic Storm",
+    "Maim Immunity",
+    "Malachai Spores",
+    "Malachai's Endurance",
+    "Malachai's Frenzy",
+    "Malachai's Power",
+    "Malediction"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Magmatic Strikes}}\n\n'''Magmatic Strikes''' is a [[notable passive skill]] that grants a portion of your [[physical damage]] as extra [[fire damage]] for 4 seconds every 10 seconds. This effect does not scale with [[duration]].\n\n==Anointment==\n[[Blight (game mechanic)|Blight]] [[anointment]] to unlock the passive:\n\n{{Blight crafting table\n|id=0\n|type=0\n|no_html=1\n|q_where=passive_skills.id = \"melee_fire_damage_notable2409\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* The Magmatic Strikes Notable Passive Skill no longer provides \"Gain 10% of Physical Damage as Extra Fire Damage.\" Instead, it now provides \"Every 10 seconds, gain 30% of Physical Damage as Extra Fire Damage for 4 seconds.\"\n}}\n{{Version history table row|3.16.0|\n''Make clusters more unique compared to each other as well as having a more clear identity. Remove niche or unneeded stats entirely, or shift them to Masteries. Improve many notables that have had secondary stats removed.''\n* {{Undocumented}}\n**Now grants {{c|mod|Gain 10% of Physical Damage as Extra Fire Damage}} (up from 5%).\n**No longer grants {{c|mod|24% increased Fire Damage with Attack Skills}}.\n**No longer grants {{c|mod|20% of Physical Damage Converted to Fire Damage}}.\n}}\n{{Version history table row|3.11.0|\n''Many passive skill clusters offered the same thing as other clusters, with the only differences being the location on the tree and the number of passive skills in the cluster. We also wanted to reduce the power of some clusters that were overly efficient, and increase the power of clusters that were inefficient.''\n* {{Undocumented}}<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/2873767|title=All Notables and Keystones in Path of Exile: Harvest|author=Bex_GGG|date=June 17, 2020|accessdate=November 3, 2021|publisher=Official Path of Exile forums}}</ref>\n**Now grants {{c|mod|20% of Physical Damage Converted to Fire Damage}}.\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}",
+  "sha256": "427dd13bf80261fda8bba0788b39acaa94c8e1b24f52c6573a87b13861de33e5"
+}

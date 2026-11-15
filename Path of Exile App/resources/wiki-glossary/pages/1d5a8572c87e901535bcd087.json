@@ -1,0 +1,33 @@
+{
+  "title": "Barnacles",
+  "pageId": 143570,
+  "revision": 1697567,
+  "timestamp": "2026-07-30T16:40:02Z",
+  "retrieved": "2026-11-14T10:57:11.810175+00:00",
+  "requested": [
+    "Balek's Gift",
+    "Bane",
+    "Bane of the Loyal",
+    "Baranite Cleric's Aura",
+    "Bark",
+    "Barnacles",
+    "Baryatic Tension",
+    "Basalt Flask",
+    "Bastion of Hope",
+    "Batrachian Procession",
+    "Battlemage's Cry",
+    "Beauty Through Death",
+    "Behead",
+    "Beidat's Magnificence",
+    "Beidat's Wrath",
+    "Berserk Fury",
+    "Bestial Roar",
+    "Binding Chains",
+    "Bino's Life Regeneration",
+    "Bismuth Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n|name                    = Barnacles\n|type                    = Debuff\n|bonuses                 = You have increased duration of Chill and Freeze on you and a percentage of your Physical Damage is being converted to Cold Damage per stack of Barnacles on you\n|description = \n}}\n\n'''Barnacles''' is a stackable [[debuff]] that convert a percentage of the target's [[physical damage]] to [[cold damage]] and increases the duration of [[chill]] and [[freeze]] on them.\n\n==Mechanics==\nEach stack of Barnacles applies {{c|mod|Converts 5% of Physical Damage to Cold Damage}} and {{c|mod|5% increased Duration of Chill and Freeze on You}}. Barnacles can stack up to 10 times and last 30 seconds.\n\nSimilar to the stats found on {{il|Kaom's Binding}} and {{psl|Shaper of Flames}}, Barnacles converts the enemy's physical damage and is different from [[damage taken]] conversion.\n\n==Related passive skills==\nThe table below displays [[passive skills]] related to Barnacles.\n{{Passive skill table\n|q_where=passive_skills.stat_text LIKE \"%Barnacle%\"\n|large=1\n|stat_text=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "372ce8692454e3c2566f57d49fd3c29b50857f537959655cf44fbb76b100e1a1"
+}

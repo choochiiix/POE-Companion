@@ -1,0 +1,33 @@
+{
+  "title": "Cruelty",
+  "pageId": 4225,
+  "revision": 1673492,
+  "timestamp": "2026-07-13T19:15:17Z",
+  "retrieved": "2026-11-14T10:57:18.313376+00:00",
+  "requested": [
+    "Cruelty",
+    "Crusader Shrine Monster",
+    "Crusader's Shrine",
+    "Crushing Darkness",
+    "Crystalised Fear",
+    "Cube of Absorbtion",
+    "Curse Immunity",
+    "Cursed Flesh",
+    "Cyclone",
+    "Damage Aura",
+    "Damage Reduction Aura",
+    "Dancing Dervish",
+    "Dark Gift",
+    "Dark Pit",
+    "Dark Temptation",
+    "Dark Vortex",
+    "Darkness",
+    "Darktongue's Kiss",
+    "Dead Spectre",
+    "Death Draw"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the buff|the support gem|Cruelty Support}}\n{{status\n| name                   = Cruelty\n| type                   = Buff\n| description            = Skills supported by Cruelty Support deal more damage over time.\n}}\n'''Cruelty''' is a [[buff]] associated with {{il|Cruelty Support}} that grants more [[damage over time]] to supported skills.\n\n==Mechanics==\nCruelty grants more [[damage over time]] with supported skills based on the [[damage]] of the [[hit]] compared to the target's maximum [[life]]. It lasts 4 seconds by default, and has a maximum effect of 40%. The maximum is unaffected by modifiers to Cruelty effect.<ref name=\"CrueltyCap\"/>\n\nAt gem level 20, The Cruelty buff provides 15.85% more damage over time to skills supported by Cruelty when the hit does 0.01% of the monster's [[Ailment#Ailment_threshold|ailment threshold]] and 40% more damage over time to skills supported by Cruelty when the hit does 3.2% of the monster's ailment threshold.<ref name=\"CrueltyCalculations\"/> Taking Shaper's 7 million ailment threshold<ref name=\"ShaperAilmentThreshold\"/> as an example, a hit of 224k is needed to reach the maximum buff of 40%.{{confirm|changes since introduction}} \n\nThe effect of Cruelty is calculated using the following formula:{{citation needed}}\n\n{{math|formula=\nE ={1 + M \\over 120\\%} * \\left({D \\over L}\\right)^{0.2}\n}}\n\nwhere D is the is the amount of damage caused by a hit, L is the enemy's maximum life, and M is the sum of increases to Cruelty effect.\n\n==Sources==\n===Support skill gems===\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%cruelty%\n|stat_page=cruelty\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* Maximum Cruelty Effect is now 40% (previously 50%).\n}}\n{{Version history table row|3.14.0|\n* Introduced to the game as a buff (which not related to the original passive skill)\n}}\n{{Version history table row|1.3.0|\n* Removed from the game.<ref>{{cite web|url=https://github.com/PoESkillTree/PoESkillTree/releases/tag/2.1.0|title=2.1.0|date=December 4, 2014|accessdate=April 27, 2022|author=EmmittJ |publisher=Github}}</ref><ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/994170|title=Tentative 1.2.0 Passive Skill Tree (Raw Data for Tools Authors)|date=August 11, 2014|accessdate=April 27, 2022|author=Chris|publisher=Official Path of Exile Forums}}</ref> (Originally grants {{c|mod|25% increased Critical Strike Multiplier}})\n}}\n{{Version history table row|1.0.0|rel=before|\n* '''Cruelty''' is introduced to the game as a notable passive skill\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=CrueltyCalculations>{{cite web|author=Community_Team|date=April 14, 2021|title=GGG, Please explain Cruelty|url=https://www.reddit.com/r/pathofexile/comments/mr1ijx/ggg_please_explain_cruelty/gujknss/|publisher=Official Path of Exile Subreddit|accessdate=June 5, 2021}}</ref>\n<ref name=CrueltyCap>{{cite web|author=Mark_GGG|date=Jun 3, 2021|title=Cruelty buff damage cap|url=https://www.pathofexile.com/forum/view-thread/3115191#p24145842|publisher=Official Path of Exile Forums|accessdate=Jun 4, 2021}}</ref>\n<ref name=ShaperAilmentThreshold>{{cite web|author=ChuanHsing|date=February 6, 2022|title=The Shaper - PoEDB, Path of Exile Wiki|url=https://poedb.tw/us/The_Shaper#Lvl84TheShaperBoss|publisher=PoEDB|accessdate=August 23, 2023}}</ref>\n}}\n\n[[Category:Buffs]]",
+  "sha256": "f05ea5938f028c81e2f939a49f5ee9ceb62e331fe0d312ae80c3787f20f21a50"
+}

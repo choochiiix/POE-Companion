@@ -1,0 +1,33 @@
+{
+  "title": "Sewage Toxins",
+  "pageId": 14546,
+  "revision": 1342364,
+  "timestamp": "2023-02-21T20:59:33Z",
+  "retrieved": "2026-11-14T10:57:42.761634+00:00",
+  "requested": [
+    "Scientist's Beam",
+    "Scorching Conflux",
+    "Scorching Ray",
+    "Scourge Arrow",
+    "Screech",
+    "Sea Hag's Blessing",
+    "Searing Beam",
+    "Searing Rune",
+    "Seething Tempest",
+    "Seismic Cry",
+    "Sentinel Chaos Resistance",
+    "Sentinel Curse Protection",
+    "Sentinel Fire Damage",
+    "Sentinel Life Regeneration",
+    "Sentinel Lightning Damage",
+    "Sentinel Mana Regeneration",
+    "Sentinel Shield",
+    "Serpent Extract",
+    "Sewage Toxins",
+    "Shade Form"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Sewage Toxins\n| type                   = Debuff\n| description            = You are taking Chaos Damage over time\n}}\n'''Sewage Toxins''' is a debuff found in area such as [[Doedre the Vile]]'s boss room (during purple boss phase) or its map variant, [[Portentia, the Foul]], in {{il|Waste Pool Map}}.\n\nIt use the same icon as {{sl|id=Contagion}} skill.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Debuffs]]",
+  "sha256": "e7be5df0a082f3f182ec0a2441aedbf87a36170aaf9a9da8c4bb6ae40ce5acd2"
+}

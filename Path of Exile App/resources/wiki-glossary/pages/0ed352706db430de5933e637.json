@@ -1,0 +1,33 @@
+{
+  "title": "Death Aura",
+  "pageId": 4660,
+  "revision": 1701100,
+  "timestamp": "2026-08-18T17:47:56Z",
+  "retrieved": "2026-11-14T10:11:22.569595+00:00",
+  "requested": [
+    "one-handed sword",
+    "Death Aura",
+    "Mirage Archer",
+    "Penance Mark",
+    "Aura Skill",
+    "Conduit",
+    "Presence",
+    "tattoo",
+    "taking damage",
+    "channelling skill",
+    "Diamond Shrine",
+    "Minions",
+    "Determination",
+    "Bows",
+    "utility flask",
+    "Mana Flasks",
+    "Life Flasks",
+    "life regen",
+    "Everlasting Sacrifice",
+    "resistances"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=DeathAura}}\n\n'''Death Aura''' is a [[spell]] that grants an [[aura]] that deals [[Chaos damage|chaos]] [[damage over time]] around the user, like {{il|Righteous Fire}}. It is granted by {{il|Death's Oath}}.\n\n==Mechanics==\nDeath Aura is a [[trigger]]ed skill that's always active while you have the item that grants the skill equipped. \n\nDeath Aura's damage affected by modifiers to [[aura]] effect, [[damage over time]], [[damage over time multiplier]], and [[chaos damage]], but ''not'' area damage. The tooltip damage does not display damage increases from {{c|magic|X% increased effect of Non-Curse Auras you Cast}} modifier, but the actual damage of the skill is affected by these modifiers.<ref name = \"aura_mods\" />\n\nThe base radius of Death Aura is 3 metres (30 units).{{citation needed}}\n\nCurrently, there are several support gems that affect Death Aura beneficially:\n* {{il|Concentrated Effect Support}}\n* {{il|Increased Area of Effect Support}}\n* {{il|Efficacy Support}}\n* {{il|Arrogance Support}} ({{c|mod|Supported Skills have (10-19)% increased Aura effect}} gem mod only; despite tooltip dps would not reflect it<ref name = \"aura_mods\" /> )\n* {{il|Void Manipulation Support}}\n* {{il|Item Rarity Support}}\n* {{il|Item Quantity Support}} (currently unobtainable normally)\n\nSince '''Death Aura''' is a [[trigger]]ed skill, it will ''not'' be activated if equipped on {{il|Animate Guardian}}. The on-kill damage taken, however, still applies.\n\n===Lifetap Support===\n{{il|Lifetap Support}} can add duration mod to the skill so that it can be supported by \n* {{il|Swift Affliction Support}}<ref name=ArcaneSurge315/>\n* {{il|Less Duration Support}} ({{c|mod|Supported Skills deal #% more Damage}} gem mod only; not affected by other mod of the gem)\n\nWhile the Lifetap Support gem itself requires a secondary skill supported by Lifetap and spent life to gain {{stl|Lifetap}} buff in order to trigger the gem mod {{c|mod|Supported Skills deal #% more Damage while you have Lifetap}}; Death Aura itself does not gain the {{stl|Lifetap}} buff as the Aura does not cost mana or life.\n\n===Other Considerations===\n* {{il|Despair}} linked to {{il|Blasphemy Support}} or {{il|Witchfire Brew}} to curse nearby enemies\n* [[Occultist]]'s [[Profane Bloom]] or another [[explode|on-death explosion effect]] can kill packs of monsters sooner\n* [[Withered]] increases the chaos damage taken by enemies and can be applied automatically by [[Occultist]]'s [[Withering Presence]]\n* The mod on {{il|Death's Oath}} {{c|mod|You take 450 Chaos Damage per second for 3 seconds on Kill}} can be countered with life regeneration and chaos resistance. For example, at 75% chaos resistance, 112.5 life regeneration per second is needed. [[Chaos Inoculation]] is not recommended as [[Death's Oath]] does not have any [[energy shield]].\n* {{il|Tainted Pact}} converts the chaos damage over time to healing over time, while leeching\n* {{il|The Sundered Will}} can raise Death Aura's damage even further by scaling increased chaos damage.\n* Death's Oath can be used to create a [[Vestigial unique item]] that grants Death Aura, which lets you gain access to the skill while not having to deal with the chaos damage degen from the armour itself while potentially being on a unique body armour with stats more suited for the north side of the passive tree.\n\n==Drop restrictions==\nDeath Aura can only be obtained from {{il|Death's Oath}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Death Aura, triggered by the Death's Oath Unique Body Armour: Now deals 1600 base Chaos Damage per second at gem level 20 (previously 1250).\n}}\n{{Version history table row|3.26.0|\n* Death Aura skill now deals 1250 Base Chaos Damage per second (previously 1000).\n}}\n{{Version history table row|3.25.0|\n* Death Aura skill now deals 1000 Base Chaos Damage per second (previously 758.3).\n}}\n{{Version history table row|3.17.1|\n* Fixed a bug where the '''Auras granted by the Death's Oath''' and {{il|Corona Solaris}} Unique Items could be supported by [[Divine Blessing Support|Divine Blessing]]. The description on Death's Oath has also been updated to clarify it triggers '''Death Aura''', rather than granting it.\n}}\n{{Version history table row|3.15.0|\n* No longer supported by {{il|Arcane Surge Support}} due to support gem rework.<ref name=ArcaneSurge315/>\n}}\n{{Version history table row|3.14.0|\n* Death Aura skill now deals 758 Base Chaos Damage per second (previously 563).\n}}\n{{Version history table row|3.6.0|\n* Death Aura skill now deals 25% more damage per second.\n}}\n{{Version history table row|3.1.0|\n* Now properly updates its behaviour when items, passives or skills change it in some way.\n}}\n{{Version history table row|3.0.0|\n* The chaos damage-over-time aura is now a skill that activates on equipping Death's Oath, and is modified by socketed support gems as well as modifiers that affect auras, area of effect, damage over time and chaos damage. \n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name = \"aura_mods\">{{cite web\n |title = Re: In case anyone is preparing to use Death's Oath\n |url = https://www.reddit.com/r/pathofexile/comments/6rojbk/in_case_anyone_is_preparing_to_use_deaths_oath/dl76uce/\n |author = Mark_GGG\n |date =  5 August 2017\n |accessdate =  17 March 2018\n |publisher = Official Path of Exile Subreddit\n}}</ref>\n\n<ref name=ArcaneSurge315>{{cite web\n| title=Re: death's oath gem support\n| url= https://www.pathofexile.com/forum/view-thread/3150555#p24251227\n| author=Jatin_GGG\n| date=August 9, 2021\n|accessdate =  August 11, 2021\n|publisher = Official Path of Exile Forums\n}}</ref>\n}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "ceada1311ee7b0489bb252034e162b49a1eb6072ea19f4131ae2ccc3c02dc97f"
+}

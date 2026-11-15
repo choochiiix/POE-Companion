@@ -1,0 +1,33 @@
+{
+  "title": "Helmet",
+  "pageId": 8131,
+  "revision": 1594719,
+  "timestamp": "2025-11-15T16:33:47Z",
+  "retrieved": "2026-11-14T10:10:05.034008+00:00",
+  "requested": [
+    "Of War",
+    "helmet",
+    "monster modifiers",
+    "attribute",
+    "area",
+    "Icestorm",
+    "Damage taken",
+    "Damage Taken",
+    "Legion",
+    "Spectral Corpse",
+    "skeleton",
+    "Raging Spirit",
+    "Animate Weapon",
+    "Desecrate",
+    "chaos",
+    "unique items",
+    "character size",
+    "radius",
+    "Tormented Spirit",
+    "damage taken"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Helmets''' is an [[item class]] of armour pieces that can contain up to 4 [[socket]]s. ([[Item level]] may affects the max socket, which can be bypassed by [[crafting bench]] recipe that change the number of sockets).\n\n__TOC__\n\n==Types of helmets==\nThere are 6 main sub-types of helmets:\n\n* There are 3 single-attribute based sub-types, which require the player to have a threshold amount (indicated in the item's tooltip) of a single type of [[Attribute]]; once equipped, they provide the wearer with the Defence stat of the type associated with the required attribute.\n\n* There are 3 '''Hybrid''' sub-types which require both of the two listed [[Attributes]] to reach a threshold value, in return providing both of the associated [[Defence]] stat types.   Providing multiple defensive stat types from a single item comes at a cost: both defense types provided have a lesser value than their non-hybrid counterparts. This is in addition to the player having to manage more than one attribute in order to be able and/or continue to use the item. \n\n[[Version 3.15.0]] introduced a 7th sub-type of helmet that utilizes a new Defence known as [[Ward]]. These new base types require an equal amount of each Attribute to equip.\n\n==List of Helmets==\n{{main|List of helmets}}\n{{:List of helmets}}\n\n===List of unique helmets===\n{{main|List of unique helmets}}\n\n==Other Helmets==\n* {{il|Demigod's Triumph}} is a unique {{il|Golden Wreath}}. The basetype cannot be obtained normally.\n* {{il|Demigod's Immortality }} is a unique {{il|Golden Visage}}. The basetype cannot be obtained normally.\n\n==Passive Skills==\nThe following [[passive skill]]s are related to helmets:\n\n{{Query passive skills\n|q_where=passive_skill_stats.id LIKE \"%helmet%\"\nAND passive_skill_stats.id NOT LIKE \"%brequel%\"\nAND passive_skills.name NOT LIKE \"%Oath of the Maji%\"\n}}\n\n==Mastery Effects==\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%Helmet%\"}}\n\n==Helmet Skins==\nHelmet skins are obtained from [[microtransaction]]s and change the cosmetic appearance of your character, but not the stats. See\n[[List of helmet skins|the list of helmet skins]].\n\n{{Navbox Armours}}\n\n==Version history==\n{{Version history table header }}\n{{Version history table row|3.16.0|\n* Base Types are now generated with a random 0-15% (on average) higher base defence, as an inbuilt property. This means that all base types can be better than they currently are, and armour base types are not homogeneous any more.\n}}\n{{Version history table row|0.6.0|\n* Added many new items, including many helmets.\n}}\n{{Version history table row|0.5.10|\n* Added new strength, dexterity and hybrid helmets\n}}\n{{Version history table row|?|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n[[Category:Helmets| ]]\n[[Category:Item classes]]",
+  "sha256": "cffe4cfe32fda1b45ccaa3b22a4ce21028730500aa76369a442ac34438596cc0"
+}

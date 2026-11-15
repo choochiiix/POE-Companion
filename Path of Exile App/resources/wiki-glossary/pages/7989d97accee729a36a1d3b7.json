@@ -1,0 +1,33 @@
+{
+  "title": "Physical Damage and Bleed",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:57:36.428655+00:00",
+  "requested": [
+    "Pestilent Strike Damage",
+    "Phantasmal Might",
+    "Phase Run",
+    "Phase Run Damage",
+    "Phase Running",
+    "Phasing Buff",
+    "Phoenix Fire Bomb",
+    "Phylactery",
+    "Physical Aegis",
+    "Physical Damage Immunity",
+    "Physical Damage Taken Increase",
+    "Physical Damage and Bleed",
+    "Physical Empowered",
+    "Physical Empowerment",
+    "Physical Projectile Retaliation",
+    "Physical Reflection",
+    "Physical Reflection Aura",
+    "Physical Thorns",
+    "Piercing Screech",
+    "Piety Beam"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Summon Spectral Tiger",
+  "pageId": 136803,
+  "revision": 1649489,
+  "timestamp": "2026-05-22T23:42:16Z",
+  "retrieved": "2026-11-14T10:10:03.373443+00:00",
+  "requested": [
+    "Jewel",
+    "Modifiers",
+    "item quantity",
+    "Mirage",
+    "Item Quantity",
+    "Support gems",
+    "Buff",
+    "Experience",
+    "Helmet",
+    "gems",
+    "Life Flask",
+    "Animate Guardian's Weapon",
+    "Bestial Rhoa",
+    "Bestial Snake",
+    "Bestial Ursa",
+    "Manifest Dancing Dervish",
+    "Spectral Wolf",
+    "Spectral Tiger",
+    "Raise Spiders",
+    "Summon Harbinger of Brutality"
+  ],
+  "aliases": [
+    "Spectral Tiger"
+  ],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonSpectralTiger}}\n\n'''Summon Spectral Tiger''' is a [[skill]] that summons an allied [[Monster:Metadata/Monsters/SummonedTiger/SummonedTiger|Spectral Tiger]] [[minion]] for a duration.\n\n==Skill mechanics and interactions==\nSpectral Tigers last for 30 seconds by default, use a melee {{sl|id=Melee}}, and scale with the player's modifiers to [[critical strike chance]] and critical strike multiplier with [[claw]]s. Generic sources of crit and crit multi do not apply. Spectral Tigers also inherently have the modifier {{c|mod|100% of Physical Attack Damage [[Leech]]ed as Life}}.\n\nEach tiger also grants a stackable attack and cast speed and critical strike chance buff to the owner.\n\nThe maximum number of Spectral Tigers a player can have is 5. Triggering the skill while at the maximum number of Tigers will refresh an existing tiger's duration.\n\nThe skill has a [[cooldown]] of 0.5 seconds.\n\n==Acquisition==\nThis skill can only be gained indirectly from [[Farrul Bloodline]]'s {{psl|Huntleader}}.\n\n==Skill progression==\nThis table is for the id: SummonSpectralWolf only, which \"level\" 1 = skill level 20\n{{Skill progression\n|skill_id=SummonSpectralTiger\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* Summoned Spectral Tigers from the Huntleader Bloodline Passive Skill now have 50% less maximum Life, but deal slightly more damage and have increased attack speed. They now also display their maximum life in the Character panel.\n}}\n{{Version history table row|3.27.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n==See also==\n* [[Summon Spectral Wolf]]\n\n==References==\n{{reflist}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Spell (gem tag)]]",
+  "sha256": "814351a9cf8262d344370f5495a7e13981f2d974dfe8a8220337884e4e903260"
+}

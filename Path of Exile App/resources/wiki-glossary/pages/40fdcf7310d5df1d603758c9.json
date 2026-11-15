@@ -1,0 +1,33 @@
+{
+  "title": "Snow Bolt",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:57:44.390848+00:00",
+  "requested": [
+    "Siphoning Charges",
+    "Siphoning Ring",
+    "Siphoning Trap",
+    "Skeletal Shrine",
+    "Skitterbots",
+    "Slipstream",
+    "Slow",
+    "Slow Aura",
+    "Smite Aura",
+    "Smothered",
+    "Snared",
+    "Snipe",
+    "Sniper's Mark",
+    "Snow Bolt",
+    "Snow Cloak",
+    "Snowstorm",
+    "Soaked to the Bone",
+    "Solaris Shrine",
+    "Somatic Shell",
+    "Soothing Salve"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

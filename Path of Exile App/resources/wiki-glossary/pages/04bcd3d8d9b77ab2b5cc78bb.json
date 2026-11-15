@@ -1,0 +1,33 @@
+{
+  "title": "The Surging Thoughts",
+  "pageId": 17368,
+  "revision": 1635618,
+  "timestamp": "2026-03-22T01:27:51Z",
+  "retrieved": "2026-11-14T10:57:49.217160+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Surging Thoughts\n|class_id                                = One Hand Sword\n|base_item                               = Legion Sword\n|explicit1                               = HarbingerSkillOnEquipUnique2_1\n|explicit2                               = LocalGrantsStormCascadeOnAttackUnique__1\n|explicit3                               = SpellDamageUnique__5\n|explicit4                               = LocalIncreasedPhysicalDamagePercentUnique__27\n|explicit5                               = LocalAddedLightningDamageUnique__5\n|explicit6                               = SpellAddedLightningDamageUnique__4\n|explicit7                               = AreaOfEffectUnique__3 <!-- AreaOfEffectUnique__4_ -->\n|flavour_text                            = {{glyph|HBGAf}}{{glyph|HBG02}}{{glyph|HBGAm}}{{glyph|HBG03}}{{glyph|HBGAa}}<br>{{glyph|HBGAk}}{{glyph|HBG03}}{{glyph|HBGC011}}{{glyph|HBGAl}}{{glyph|HBG03}}{{glyph|HBGAo}}{{glyph|HBGAe}}<br>{{glyph|HBGC011}}{{glyph|HBGAa}}{{glyph|HBG00}}{{glyph|HBGC07}}\n|release_version                         = 3.11.0\n|acquisition_tags                        = Harbinger\n|recipe1_description                     = Only available in permanent leagues\n|recipe1_part1_item_name                 = The Rippling Thoughts\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Electroshock Scroll\n|recipe1_part2_amount                    = 1\n}}\n\n'''The Surging Thoughts''' is a [[unique]] {{il|Legion Sword}}.\n\n==Mechanics==\n{{sl|Summon Greater Harbinger of the Arcane}}\n\n{{sl|Storm Cascade}} \n\nThis version also grants a second buff that grants [[shock]] chance and lightning [[penetration]].\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Currency can no longer be obtained: Deregulation Scroll, Electroshock Scroll, Fragmentation Scroll, Haemocombustion Scroll, Specularity Scroll, and Time-light Scroll.\n* The following Uniques have been added to the core drop pool: The Immortal Will, The Shattered Divinity, The Surging Thoughts, The Tempest's Liberation, The Torrent's Reclamation, and The Yielding Mortality.\n* Harbinger uniques now provide an additonal {{il|Fracturing Shard}} when [[vendor]]ed.{{Undocumented}}\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "d3cf7de791ad6bb69c8b5fb3f67f2f96b6f3322bb938571f8ac1f8e7d161444f"
+}

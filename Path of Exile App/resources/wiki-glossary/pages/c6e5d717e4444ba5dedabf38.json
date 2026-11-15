@@ -1,0 +1,33 @@
+{
+  "title": "Enrage",
+  "pageId": 5959,
+  "revision": 1698259,
+  "timestamp": "2026-08-01T10:42:40Z",
+  "retrieved": "2026-11-14T10:57:22.322354+00:00",
+  "requested": [
+    "Enlarging Tempest",
+    "Enrage",
+    "Envy Aura",
+    "Eroding Touch",
+    "Escalating Ruin",
+    "Escalating Vulnerability",
+    "Essence Drain",
+    "Essence Drain Regeneration",
+    "Essence Glutton",
+    "Essence of Anger",
+    "Essence of Hatred",
+    "Essence of Misery",
+    "Essence of Wrath",
+    "Eternal Empire Aura",
+    "Eternal Scourge",
+    "Ethereal Tempest",
+    "Ethereal Tendrils",
+    "Evasion Aura",
+    "Evolving Shrine",
+    "Evolving Shrine Monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Enrage''' is a [[monster]] ability. Usually it grants 40% increased [[attack speed]], [[movement speed]] and [[damage]] for the duration of the enrage.<ref name=\"DevManifesto2.3.0\"/><ref name=\"Phrecia enrage\"/> Different enrage mechanics may also include damage reduction, increased [[character size]] or values higher or lower than the defaults.\n\nSome monsters have it as an ability which has a cooldown, while sometimes it may have a scripted trigger (for example, enrage on [[low life]]).\n\n==Monsters that Enrage==\n* [[Bandit|Oak's Brute]]\n* [[Q'uru]] and [[It That Fell]]\n* [[Argus]] and [[Hephaeus, The Hammer]]\n* [[Daresso, King of Swords]] and [[Ambrius, Legion Slayer]]\n* [[Drought-Maddened Rhoa]]\n* [[Skullbeak]]\n* [[Y'ara'az]] and [[Slashing Horror]]\n* [[The Black Mórrigan]]\n* {{il|City Square Map}} bosses when a boss is killed\n\n==Other sources of Enrage==\n* [[Monster modifier]] ''Enraging'' (Periodically Enrages)\n* Monster modifier ''Berserking'' (Enrages as Life Lost)\n* [[Valdo's map]] modifier {{c|mod|Monsters Enrage on Low Life}}\n* [[Ripper]] [[mercenary]]'s [[Enrage (mercenary skill)|Enrage]] skill\n\n==References==\n{{reflist|refs=\n<ref name=\"DevManifesto2.3.0\">{{cite web|author=Qarl|date=May 26, 2016|title=Development Manifesto: 2.3.0 Balance\n|url=https://www.pathofexile.com/forum/view-thread/1665252|publisher=Official Path of Exile Forums|accessdate=May 26, 2016}}</ref>\n<ref name=\"Phrecia enrage\">{{cite web|author=Belakay_ggg|date=Feb 3, 2026|title=Phrecia enrage update\n|url=https://www.reddit.com/r/pathofexile/comments/1qsyquf/the_refiners_bargain_unique_idol_does_not_have_a/o32bv2y/\n|publisher=Path of Exile Reddit|accessdate=Feb 3, 2026}}\n</ref>\n}}\n\n[[Category: Monster skills]]",
+  "sha256": "bbc0d25f2ab10f37108b6fe2d3ba7e709bb186d8baee9ff0bbd898991d638465"
+}

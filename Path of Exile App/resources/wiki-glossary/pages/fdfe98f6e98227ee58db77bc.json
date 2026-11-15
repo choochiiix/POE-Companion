@@ -1,0 +1,33 @@
+{
+  "title": "Elemental Warding",
+  "pageId": 5776,
+  "revision": 1649339,
+  "timestamp": "2026-05-22T23:38:11Z",
+  "retrieved": "2026-11-14T10:57:21.491901+00:00",
+  "requested": [
+    "Elemental Conflux",
+    "Elemental Damage Aura",
+    "Elemental Damage Taken Increase",
+    "Elemental Reflection",
+    "Elemental Reflection Aura",
+    "Elemental Thorns",
+    "Elemental Warding",
+    "Elemental Weakness",
+    "Emberstorm",
+    "Empowering Howl",
+    "Encased in Jade",
+    "Encompassing Tentacles",
+    "Endless Hazard",
+    "Endless Pain",
+    "Energy Shield Aura",
+    "Energy Shield Leech",
+    "Energy Shield Regeneration",
+    "Enervation",
+    "Engraved Orb",
+    "Engulfed by Ghostfire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=ElementalWarding}}\n\n'''Elemental Warding''' is a [[spell]] that fires a [[Nova (projectile behaviour)|nova]] of [[projectile]]s outward, dealing spell damage. It is only available through {{il|Geofri's Devotion}} as a [[trigger]]ed skill.\n\n==Skill mechanics and interactions==\nThe player must be [[curse]]d to trigger Elemental Warding. See [[self-curse]] for different methods of self-cursing; alternatively, {{il|Coward's Legacy}} has good synergy with this skill. \n\nYou are unaffected by curses for a duration after triggering Elemental Warding.\n\nElemental Warding is affected by [[support gem]]s socketed into {{il|Geofri's Devotion}}, regardless of whether the [[socket]]s are linked. Since it is not an actual [[skill gem]] the effects of {{il|Empower Support}}, {{il|Enhance Support}}, and {{il|Enlighten Support}} do not apply to it. As Elemental Warding is currently only granted by Geofri's Devotion, the skill's stats at other levels are unknown.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Now has a cooldown of 1 second (from 10), only triggers on melee hit (rather than any), and makes you unaffected by curses rather than immune to curses for its duration.\n}}\n{{Version history table row|3.2.0|\n* Introduced to the game (player version). \n}}\n{{Version history table row|?|\n* [[Pagan Bishop of Agony]] and [[Litanius, the Black Prayer]]'s version\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "05245a3fd4807273ed0a8c01ec1060b49e8ab343c4664f03607f38894acca1c0"
+}

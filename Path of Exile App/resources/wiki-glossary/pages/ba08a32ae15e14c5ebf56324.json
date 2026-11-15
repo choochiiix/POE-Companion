@@ -1,0 +1,33 @@
+{
+  "title": "Supreme Ostentation",
+  "pageId": 16217,
+  "revision": 1659206,
+  "timestamp": "2026-06-20T08:31:43Z",
+  "retrieved": "2026-11-14T10:09:57.338089+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Supreme Ostentation}}\n'''Supreme Ostentation''' is a {{il|Timeless Jewel}} only [[keystone passive skill]] which allows the player to ignore [[Attribute]] Requirements (on the gems and equipment) and removes inherent bonuses provided by those [[attribute]]s, thus making them irrelevant in most cases.\n\nWith the keystone allocated:\n\n* [[Strength]] no longer provides maximum [[life]] and [[melee]] [[physical]] damage\n* [[Dexterity]] no longer provides [[evasion]] and [[accuracy]]\n* [[Intelligence]] no longer provides maximum [[mana]] and [[energy shield]]\n\nThis also effectively nullifies stats that directly modify attribute bonuses, such as {{psl|Iron Will}}, {{psl|Iron Grip}}, {{il|Iron Will Support}}, {{il|Iron Grip Support}}, or {{il|The Iron Fortress}}' {{c|mod|Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength}}.\n\nSupreme Ostentation does not disable other attribute-related effects, like {{il|Shaper's Touch}}, {{il|Mask of the Stitched Demon}}, {{psl|Magebane}}, {{psl|Solipsism}}.\n\nThis keystone's primary use is to equip high-attribute-requirement items such as {{il|Mjölner}}, {{il|page=Garb of the Ephemeral (Synthesised)}}, {{il|Cospri's Malice}}, {{il|Null's Inclination}}, {{il|Blunderbore}} {{il|Repentance}}, {{il|Zerphi's Heart}}, and {{il|Hand of the Lords}}. Builds making heavy use of [[tattoo]]s may also find this keystone useful, replacing all attribute travel passives.\n\n==Location==\nThis keystone will replace (in-game wording [[Timeless Jewel#Conquered|conquered]]) any keystones within the radius of a {{il|Elegant Hubris}} jewel with modifier {{c|mod|Commissioned (2000-160000) coins to commemorate '''Caspiro'''}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* {{psl|Supreme Decadence}}\n* {{psl|Supreme Grandstanding}}\n\n{{Navbox Legion}}\n\n[[Category:Keystone passive skills]]\n[[Category:Legion]]",
+  "sha256": "573357e6c87b75e8d222d18ceffd3819c516acf8994629bb813819ba6c4a3564"
+}

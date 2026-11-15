@@ -1,0 +1,33 @@
+{
+  "title": "Executioner's Presence",
+  "pageId": 130221,
+  "revision": 1571066,
+  "timestamp": "2025-08-23T03:46:31Z",
+  "retrieved": "2026-11-14T10:57:23.119142+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Executioner's Presence\n| type                   = Debuff\n| icon                   = Executioner's Presence status icon.png\n| description            = Life and Energy Shield cannot recover above 50%\n}}\n'''Executioner's Presence''' is a [[monster aura]] [[debuff]], granted by the monster mod {{c|mod|[[Modifier:MonsterModPreventRecoveryAura|of the Executioner]]}}, which is displayed in the monster nameplate as: {{c|normal|Prevents Recovery above 50%}}. It prevents recovery to above 50% [[life]] or [[energy shield]] while inside the aura radius.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* The Executioner Monster modifier's Aura once again does not prevent minions from recovering life.\n}}\n{{Version history table row|3.20.0|\n* Monster mods now only do one specific thing.\n* {{c|mod|[[Modifier:MonsterArchnemesisExecutioner|Executioner]]}} is removed from the monster mod pool\n** The new mod no longer grants immune to [[Culling strike|Culling Strike]] and 15% (increase or more?) damage with hits per 10% missing enemy life.\n}}\n{{Version history table row|3.18.0|\n* [[Archnemesis modifiers]] are added to the core game.\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game as part of [[Archnemesis league]].\n}}\n{{Version history table end}}\n\n[[Category:Monster auras]]\n[[Category:Debuffs]]\n\n{{sister|poe2wiki}}",
+  "sha256": "4ff46b446c02a948f8ad89f1bf3f7b6499168a9343d8c6d1b303151a532b7ece"
+}

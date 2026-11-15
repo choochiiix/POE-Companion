@@ -1,0 +1,33 @@
+{
+  "title": "Explosive Retch",
+  "pageId": 6231,
+  "revision": 1700922,
+  "timestamp": "2026-08-16T23:35:57Z",
+  "retrieved": "2026-11-14T10:57:23.115635+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Explosive Retch\n| type                   = Debuff\n| description = You are slowed for each stack of this Debuff\n}}\n'''Explosive Retch''' is a timed [[debuff]] from [[Delirium league|Delirium]]. It slows the player character's action speed. It can have multiple stacks.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "30451ac4baefc9d2e36e52e88f319c5307cb0e17d27365caa2b5dae0f3ca2313"
+}

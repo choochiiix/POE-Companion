@@ -1,0 +1,33 @@
+{
+  "title": "Shatter",
+  "pageId": 98133,
+  "revision": 1673468,
+  "timestamp": "2026-07-13T10:38:18Z",
+  "retrieved": "2026-11-14T10:11:24.426365+00:00",
+  "requested": [
+    "corrupted item",
+    "unique monsters",
+    "Impact",
+    "Overwhelm",
+    "savage hit",
+    "Will of the Lords",
+    "jewel socket",
+    "Skeleton archer",
+    "marauder",
+    "one-handed",
+    "flask charge",
+    "shatter",
+    "Rain of Arrows",
+    "Frozen",
+    "ignited",
+    "shocked",
+    "scorched",
+    "sapped",
+    "burn",
+    "Assassin"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "[[Monster]]s who are killed by [[hit]]s while [[frozen]] '''shatter''', leaving no [[corpse]] behind. Unique bosses cannot shatter. The on-death effects of many monsters will not occur if they are shattered, such as that of the [[Porcupine Goliath]].\n\n==Mechanics==\n{{main|Freeze#Shatter}}\n\nNon-unique enemies that are killed while frozen shatter into pieces. They will still leave loot, but most other on-death effects are prevented, including:\n* Leaving a [[corpse]]. This prevents raising or exploding the corpse. Furthermore, there is no corpse to transfer status ailments with {{il|Elemental Proliferation}}.\n* Taking on a secondary form, such as the [[Shield crab (monster type)|Shield Crab]].\n* Spines shot by the [[Porcupine Goliath]].\n\nThese on-death effects are not suppressed:\n* Spawning enemies, such as with Fracturing enemies.\n* On-death explosions, such as those from a Tormented Martyr.\n* Zombies spreading tar.\n\nKills from damage over time will not shatter enemies. Only hits can cause shatter.<ref>https://www.pathofexile.com/forum/view-thread/3284453</ref> Culling strike is recommended for damage over time builds that are able to freeze enemies to be able to shatter enemies.\n\n==Skill Gems==\n{{Drop enabled gem table\n|where = (skill.description LIKE \"%shatter%\" OR skill.stat_text LIKE \"%shatter%\")\n  AND items.name NOT LIKE \"Earthshatter%\" \n  AND items.name NOT LIKE \"Shattering Steel%\"\n  AND items.name NOT LIKE \"Spectral Shield Throw%\"\n}}\n\n== Items ==\n===Unique Items===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n item_stats.id LIKE \"%shatter%\"\n AND item_stats.id NOT LIKE \"%shield_shatter%\"\n AND item_stats.id NOT LIKE \"%shattering_steel%\"\n AND item_stats.id NOT LIKE \"%earthshatter%\"\n AND item_stats.id NOT LIKE \"%boneshatter%\"\n|level=1\n|large=1\n|stat=1\n}}\n\n===Modifiers===\n{{Query spawnable modifiers\n|where = \n mod_stats.id LIKE \"%shatter%\"\n AND mod_stats.id NOT LIKE \"%shattering_steel%\"\n AND mod_stats.id NOT LIKE \"%earthshatter%\"\n AND mod_stats.id NOT LIKE \"%boneshatter%\"\n AND domain NOT IN (\"9\")\n AND generation_type NOT IN (\"31\")\n\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type=1\n|domain=1\n}}\n====Crafted====\n{{modifier table\n|q_tables=mod_stats\n|q_join=mods._pageID=mod_stats._pageID\n|q_where=\n mod_stats.id LIKE \"%shatter%\"\n AND mod_stats.id NOT LIKE \"%shattering_steel%\"\n AND mod_stats.id NOT LIKE \"%earthshatter%\"\n AND mod_stats.id NOT LIKE \"%boneshatter%\"\n AND domain = 9\nAND mods.id NOT LIKE \"%JunMasterCritica%\" \nAND mods.id != \"JunMaster2CriticalMultiplierOnShatter1\"\n\n|stat_text=1\n|level=1\n|generation_type=1\n|domain=1\n}}\n====Legacy mods====\n{{modifier table\n|q_tables=mod_stats\n|q_join=mods._pageID=mod_stats._pageID\n|q_where= \n mod_stats.id LIKE \"%shatter%\"\n AND mod_stats.id NOT LIKE \"%shattering_steel%\"\n AND mod_stats.id NOT LIKE \"%earthshatter%\"\n AND mod_stats.id NOT LIKE \"%boneshatter%\"\n AND domain NOT IN (\"9\", \"28\")\n AND generation_type NOT IN (\"3\")\n\n|stat_text=1\n|level=1\n|generation_type=1\n|domain=1\n}}\n\nLegacy crafted mods\n{{modifier table\n|q_tables=mod_stats\n|q_join=mods._pageID=mod_stats._pageID\n|q_where= (\n mod_stats.id LIKE \"%shatter%\"\n AND mod_stats.id NOT LIKE \"%shattering_steel%\"\n AND mod_stats.id NOT LIKE \"%earthshatter%\"\n AND mod_stats.id NOT LIKE \"%boneshatter%\"\n AND domain = 9\nAND mods.id LIKE \"%JunMasterCritica%\" )\nOR mods.id = \"JunMaster2CriticalMultiplierOnShatter1\"\n\n|stat_text=1\n|level=1\n|generation_type=1\n|domain=1\n}}\n\n==Passive skills==\n{{Passive skill table\n|q_where=\n passive_skills.stat_text LIKE \"%Shatter%\" \n  AND passive_skills.stat_text NOT LIKE \"%Ward Shatter%\"\n|large=1\n|stat_text=1\n}}\n\n== Version history ==\n{{Version history table header}}\n{{Version history table row|0.8.6|\n* Monsters who are killed while frozen now shatter, leaving no corpse behind. Unique bosses cannot shatter.\n}} \n{{Version history table end}}\n\n{{sister|poe2wiki}}\n\n[[Category:Game mechanics]]",
+  "sha256": "b1c4c4de264d398e2ef5bd7164ed62ad30b893fcb2e08b0332c7ae9b5e8bb5fc"
+}

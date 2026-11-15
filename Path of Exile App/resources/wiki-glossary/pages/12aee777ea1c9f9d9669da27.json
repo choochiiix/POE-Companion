@@ -1,0 +1,33 @@
+{
+  "title": "Overpowered",
+  "pageId": 12114,
+  "revision": 1486315,
+  "timestamp": "2024-10-13T02:16:34Z",
+  "retrieved": "2026-11-14T10:57:35.685043+00:00",
+  "requested": [
+    "Omnitect's Thruster",
+    "One Step Ahead",
+    "Oppression",
+    "Orb Fire",
+    "Orb of Elemental Essence",
+    "Ornate Dagger",
+    "Otherworldly Pressure",
+    "Outer Deatomisation Storm",
+    "Overflowing Chalice",
+    "Overloaded Intensity",
+    "Overpowered",
+    "PC Bang Entitlements",
+    "PURPLE BUFF",
+    "Pacified",
+    "Pacify",
+    "Paralysing Touch",
+    "Penance",
+    "Penance Brand",
+    "Perquil's Toe",
+    "Pestilent Strike"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Overpowered\n| type                   = Debuff\n| description            = Your chance to block attack and spell hits is lowered.\n| bonuses = -5% chance to Block Attack and Spell Damage\n}}\n'''Overpowered''' is a [[debuff]] which reduces block chance by 5% for 4 seconds, and can be applied any number of times.\n\n==Sources==\n* {{il|Block Chance Reduction Support}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.5.0|\n*Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "09f4742899c88930ac817926f760013a74ad01e61167c144136818be6ff5830d"
+}

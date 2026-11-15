@@ -1,0 +1,33 @@
+{
+  "title": "Aspect of Lunaris",
+  "pageId": 143266,
+  "revision": 1701284,
+  "timestamp": "2026-08-23T18:37:37Z",
+  "retrieved": "2026-11-14T10:57:10.191515+00:00",
+  "requested": [
+    "Arakaali Shrine",
+    "Arc Trap",
+    "Arcane Cloak",
+    "Arcane Tempest",
+    "Arcanist Brand",
+    "Arctic Armour",
+    "Arena Master's Presence",
+    "Armageddon Brand",
+    "Arohongui's Blessing",
+    "Arohongui's Moonlight",
+    "Arrogance of the Vaal",
+    "Ascendancy Effect",
+    "Ascendancy Effect (Invisible)",
+    "Ascendancy Effect (invisible)",
+    "Ashbark Tincture",
+    "Aspect of Arakaali",
+    "Aspect of Lunaris",
+    "Aspect of Solaris",
+    "Aspect of the Brine King",
+    "Assassin's Blade"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=AspectOfLunaris}}\n\n'''Aspect of Lunaris''' is a Pantheon [[aspect]] skill that grants a [[buff]] which grants Lunar Protection or Lunar Resistance stacks on taking physical or elemental damage respectively, stackable buffs which lessen physical or elemental damage. Only one aspect skill can be active at a time.\n\n==Mechanics==\nLunar Protection causes you to take 2% less physical damage per stack; Lunar Resistance causes you to take 2% less elemental damage per stack. These two buffs are independent. These buffs can each stack up to 8 times, up to 16% less physical and elemental damage taken respectively. Gaining a stack will refresh its duration.\n\nSelf-damage (e.g. {{il|Boneshatter}}, {{il|Enmity's Embrace}}) can proc these stacks consistently without requiring an enemy to hit you.\n\nAs Aspect of Lunaris is not a skill gem, it cannot be supported by {{il|Enlighten Support}}.\n\n==Acquisition==\nAspect of Lunaris is obtained exclusively by using {{il|Brinehook's Ducat}} during [[Allflame crafting]].\n\n==Skill level progression==\n{{Skill progression\n|skill_id=AspectOfLunaris\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Allflame}}\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "fc4d4b92a7d9233f5e3a2a380809bade61e1067b80284eac8970795df10b659d"
+}

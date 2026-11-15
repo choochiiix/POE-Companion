@@ -1,0 +1,33 @@
+{
+  "title": "Damage types",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:11:18.126697+00:00",
+  "requested": [
+    "Frost",
+    "Corrosion",
+    "cast time",
+    "stationary",
+    "moving",
+    "Shaper's Presence",
+    "Regenerate",
+    "expire",
+    "debuffs",
+    "lingering blade",
+    "bestial minion",
+    "Critical strikes",
+    "Cold Exposure",
+    "Damage Types",
+    "damage types",
+    "Elemental Hit",
+    "Power",
+    "area damage",
+    "Anointed",
+    "The Searing Exarch"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

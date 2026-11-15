@@ -1,0 +1,33 @@
+{
+  "title": "Stealth",
+  "pageId": 15711,
+  "revision": 1619514,
+  "timestamp": "2026-03-01T13:53:35Z",
+  "retrieved": "2026-11-14T10:11:19.946809+00:00",
+  "requested": [
+    "Echoing Shrine",
+    "Ancestral Bond",
+    "convert",
+    "buff effect",
+    "hexproof",
+    "Hexproof",
+    "mercenary",
+    "Hex Reflection",
+    "secondary",
+    "The Vaal",
+    "Karui",
+    "Eternal Empire",
+    "The Maraketh",
+    "Combust",
+    "Divine Blessing",
+    "stealth",
+    "Shocking Conflux",
+    "Summon Skitterbots",
+    "the Viridian Wildwood",
+    "Event"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Stealth''' is a [[stat]] that makes it more difficult for monsters to see the character from far away. A character with increased stealth can get closer to monsters without them noticing.\n\n==Mechanics==\nStealth reduces the range at which a monster will aggro a target. If a monster would detect a target within its visibility range that has reduced visibility, the range is checked again with reduced visibility applied.<ref name=\"ReducedVisibilityEffect\"/>\n\nStealth's formula can be calculated by r = 100 / (100+n), where r = the percentage of default aggro radius and n = the total #% increased Stealth.\n\nThe maximum achievable #% increased Stealth currently achievable is 360% (using all sources below with two {{il|Ichimonji}}s for 20% increased buff effect). This calculates to ~78% reduction in enemy aggro radius.\n\nIt may have uses in situations where players want to avoid getting hit, such as [[Sanctum]] or [[Trial of the Ancestors]].\n\n==Sources==\n* {{il|Phase Run}}\n* {{sl|Aspect of the Cat}} (Cat's Stealth only)\n* {{sl|id=ShadeForm}} buff from [[Shroud of the Lightless]], {{il|Replica Eternity Shroud}}, or {{il|Omen of Death's Door}}\n* {{c|mod|50% increased Stealth if you've Hit With a Claw Recently}} [[Claw Mastery]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.12.0|\n* Removed the concept 'Reduced Visibility to Enemies' and replaced it with 'Stealth'. Increasing your Stealth reduces the radius at which enemies will notice you. 100% increased Stealth cuts that radius in half, and 200% increased Stealth cuts that radius by two thirds. You can, therefore, no longer become entirely invisible to enemies.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"ReducedVisibilityEffect\">{{cite web|author=Mark_GGG|date=May 29, 2018|title=Does the \"reduced visibility\" effect (e.g. given by phase run gem) do anything apart from visual (cosmetic) changes?|url=https://www.reddit.com/r/pathofexile/comments/8mt8h8/does_the_reduced_visibility_effect_eg_given_by/dzqwx9e/|accessdate=Jul 15, 2019}}</ref>\n}}\n\n[[Category:Monster mechanics]]",
+  "sha256": "59d216670f0e796048fa7de030940d6775caf28b135f1af2e2b201079cf94a64"
+}

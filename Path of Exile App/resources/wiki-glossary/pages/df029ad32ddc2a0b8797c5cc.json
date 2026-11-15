@@ -1,0 +1,33 @@
+{
+  "title": "Slayer",
+  "pageId": 15243,
+  "revision": 1675933,
+  "timestamp": "2026-07-21T15:50:25Z",
+  "retrieved": "2026-11-14T10:08:33.127692+00:00",
+  "requested": [
+    "Regeneration",
+    "Recovery",
+    "Reservation",
+    "Reservation efficiency",
+    "Low life",
+    "Full life",
+    "Recently",
+    "Nearby",
+    "Unaffected",
+    "Immunity",
+    "Avoidance",
+    "Lucky",
+    "Unlucky",
+    "Culling strike",
+    "Slayer",
+    "Berserk",
+    "Frenzy charge",
+    "Power charge",
+    "Endurance charge",
+    "Charge"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Ascendancy Class\n|name = Slayer\n|flavour_text = ''No judge. No jury. Just the executioner.''\n}}\n{{about|the Ascendancy class|the [[Ascendant]] passive|Slayer (Ascendant passive)}}\n\nThe '''Slayer''' is an [[Ascendancy class]] for [[Duelist]]s.\n\n==Overview==\n[[Image:Ascendancy skill tree Slayer.PNG|290px|thumb|right|Slayer skill tree]]\n\nThe Slayer is an offence-oriented class based around [[attacks]]. Most of his notables provide straightforward damage increases through [[critical strike]]s, [[attack speed]], [[accuracy]], or simply more damage. With an enhanced [[culling strike]] and a damage bonus against [[unique monsters]], the Slayer is an excellent boss-killer. Defensively, the Slayer has several conditional buffs while leeching as well as access to [[Leech#Leech duration|overleech]], making those buffs easy to maintain as long as the character keeps attacking. Additionally, the Slayer can replace the default [[endurance charge]] limit with his [[frenzy charge]] limit, allowing simultaneous investment in both offence and defence.\n\n==Passive skills==\n\n===Notable skills===\nSlayer has the following notable passive skills:\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n! Skill !! class=\"unsortable\" | Modifiers !! Prerequisite !! Preceding Passive\n|-\n{{psl|id=AscendancySlayer9|format=tablerow}}\n|\n|[[Attack Damage, Attack Speed]]\n|-\n{{psl|id=AscendancySlayer7|format=tablerow}}\n| [[Bane of Legends]]\n|[[Attack Damage, Attack Speed]]\n|-\n{{psl|id=AscendancySlayer11|format=tablerow}}\n|\n|[[Attack Damage, Life Leech]]\n|-\n{{psl|id=AscendancySlayer10|format=tablerow}}\n| [[Brutal Fervour]]\n|[[Attack Damage, Life Leech]]\n|-\n{{psl|id=AscendancySlayer8|format=tablerow}}\n|\n|[[Attack Damage, Critical Strike Chance]]\n|-\n{{psl|id=AscendancySlayer12|format=tablerow}}\n| \n|[[Attack Damage, Area of Effect]]\n|-\n{{psl|id=AscendancySlayer14|format=tablerow}}\n| \n|[[Attack Damage, Frenzy and Endurance Charge Duration]]\n|}\n\n===Minor skills===\nSlayer has the following minor passive skills:\n\n{{Query ascendancy passive skills\n|ascendancy=0\n|where=\n  passive_skills.ascendancy_class = \"Slayer\"\n  AND passive_skills.is_notable=0\n  AND passive_skills.name NOT LIKE \"%Slayer%\"\n  AND passive_skills.id NOT LIKE \"AscendancyCustom%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Swapped [[Endless Hunger]] and [[Brutal Fervour]] in the skill tree position.\n}}\n{{Version history table row|3.7.0|\n* The small passives leading to Headsman and Bane of Legends now grant 10% increased attack damage, rather than 14% increased damage with two handed weapons.\n* The small passive leading to Overwhelm now grants 10% increased attack damage and 10% increased critical strike chance (previously granted 14% increased damage with two handed weapons and 5% reduced enemy stun threshold).\n* The small passives leading to Endless Hunger and Brutal Fervour now grant 10% increased attack damage, rather than 14% increased damage with two handed weapons.\n* The small passive leading to Impact now grants 10% increased attack damage, rather than 14% increased damage with two handed weapons.\n* Added a new Slayer notable - [[Masterful Form]].\n* The small passive leading to Masterful Form grants 10% increased attack damage, 10% increased endurance charge duration and 10% increased frenzy charge duration.\n}}\n{{Version history table row|3.2.0|\n* Swapped [[Bane of Legends]] and [[Headsman]] in the skill tree position.\n}}\n{{Version history table row|2.3.0|\n* Skill Tree reworked:\n** [[Impact]] and [[Overwhelm]] now only require 2 points to reach.\n** Swapped [[Headsman]] and [[Bane of Legends]] in the skill tree position.\n** Swapped [[Brutal Fervour]] and [[Endless Hunger]] in the skill tree position.\n}}\n{{Version history table end}}\n\n{{Navbox Characters}}",
+  "sha256": "4744d0f08109597ba64b888f429f5f8b4871e6e1d2fa749939bee972b639a3a1"
+}

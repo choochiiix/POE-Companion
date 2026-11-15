@@ -1,0 +1,33 @@
+{
+  "title": "Might is Right",
+  "pageId": 11155,
+  "revision": 1682571,
+  "timestamp": "2026-07-26T23:29:55Z",
+  "retrieved": "2026-11-14T10:57:34.126477+00:00",
+  "requested": [
+    "Malevolence Aura",
+    "Malignant Madness",
+    "Mana Regeneration Aura",
+    "Mana Rune",
+    "Mana Shield",
+    "Mana-Infused Staff",
+    "Mark of Dominus",
+    "Mark of the Synthete",
+    "Marked for Death",
+    "Massive Shrine",
+    "Master of Metal",
+    "Maven's Game",
+    "Maven's Grace",
+    "Maven's Punishment",
+    "Medium Physical Damage Aura",
+    "Metamorphosis",
+    "Might is Right",
+    "Mightblood Ire",
+    "Militarised Coral",
+    "Mine and Trap Test"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Might is Right\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = The mind had much to endure before the advent of thaumaturgy.\n|drop_level                              = 40\n|tags                                    = weapon_divination, unique_divination, unique_weapon_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardMightIsRight\n|stack_size                              = 9\n|description                             = {{c|unique|{{iil|Trypanon}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 1_5_6, 1_5_7, 2_10_8, 2_10_9\n|release_version                         = 2.6.0\n}}\n\n'''Might is Right''' is a [[divination card]]. A set of nine can be exchanged for {{il|Trypanon}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous. \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Cursed Crypt|Mausoleum|Ziggurat}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Cursed Crypt|Oba's Cursed Trove|Ziggurat}}\n* Drop level changed from 30 to 40. {{Undocumented}}\n}}\n{{Version history table row|3.0.0|\n* Cruel and Merciless difficulty and thus the former drop locations are removed.\n}}\n{{Version history table row|2.6.0|\n* Introduced to the game.<ref name=\"Divination cards announcement\" />\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Divination cards announcement\">{{cite web\n| author = Bex_GGG\n| date = February 27, 2017\n| title = Breach League Ends Tomorrow, New Divination Cards and Other News\n| url = https://web.archive.org/web/20170302020247/https://www.pathofexile.com/forum/view-thread/1838788\n| publisher = Official Path of Exile Forums\n| accessdate = March 2, 2017\n}}</ref>\n}}",
+  "sha256": "fe4e96299135a9adb0e3e27128fe2dac2787f2be19fe245e842ffd55595b7a1d"
+}

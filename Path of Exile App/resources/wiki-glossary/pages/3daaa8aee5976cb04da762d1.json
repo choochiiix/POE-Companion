@@ -1,0 +1,33 @@
+{
+  "title": "Affliction charge",
+  "pageId": 307,
+  "revision": 1595329,
+  "timestamp": "2025-11-20T00:52:33Z",
+  "retrieved": "2026-11-14T10:08:33.951112+00:00",
+  "requested": [
+    "Siphoning charge",
+    "Brutal charge",
+    "Absorption charge",
+    "Affliction charge",
+    "Corrupted blood",
+    "Corrupted",
+    "Unmodifiable",
+    "Mirrored",
+    "Split (item modifier)",
+    "Fractured item",
+    "Synthesised item",
+    "Influenced item",
+    "Quality",
+    "Gem quality",
+    "Transfigured gem",
+    "Vaal skill",
+    "Socket",
+    "Link",
+    "Support gem",
+    "Skill gem"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Affliction Charge\n| type                   = Charge\n|description= Players gain more Damage with Ailments and more Effect of Non-Damaging Ailments for each Affliction Charge they have.\n|bonuses = {{c|help|Players have 8% more Damage with Ailments and 8% more Effect of Non-Damaging Ailments per Affliction Charge}} \n}}\n'''Affliction Charges''' are alternative [[charge]]s of {{stl|Frenzy Charge}}. They are currently only granted by {{il|Olesya's Delight}}'s mod {{c|mod|Gain Affliction Charges instead of Frenzy Charges}}. Players can accumulate them the same way they generate frenzy charges.\n==Related unique items==\nThe following [[unique item]]s are related to affliction charge:\n\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%affliction_charge%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==See also==\n* {{stl|Brutal Charge}} - alternative charge of endurance charge\n* {{stl|Absorption Charge}} - alternative charge of power charge\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.18.1c|\n* Updated the description on the Map modifier that causes Monsters to have a chance to remove Power, Frenzy and Endurance Charges on Hit, as it can also remove any type of Charge on Hit (such as Inspiration or Void Charges).\n}}\n{{Version history table row|3.17.0|\n* Introduced new modifiers that can roll on [[Map]]s, Expedition [[Logbook]]s, Heist [[Contract]]s, [[Blueprint]]s and [[Delve]] areas.\n** This includes {{ml|MapMonstersStealChargesOnHitMapWorlds}} {{Undocumented}}\n}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Charges]]",
+  "sha256": "f2264b6e780dbdcfa8b0585851b44f7bc2ef954325414be8afff96e810c9fd3d"
+}

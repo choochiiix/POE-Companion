@@ -1,0 +1,33 @@
+{
+  "title": "Quicksand",
+  "pageId": 111384,
+  "revision": 1630930,
+  "timestamp": "2026-03-08T14:42:32Z",
+  "retrieved": "2026-11-14T10:57:38.770468+00:00",
+  "requested": [
+    "Quartz Flask",
+    "Quicksand",
+    "Quicksand ",
+    "Quicksilver Flask",
+    "RED BUFF",
+    "RENAME ME",
+    "Radiant Crusade",
+    "Radiant Crusade's Onslaught",
+    "Radiant Faith",
+    "Radiant Ground",
+    "Radiating Tempest",
+    "Raised Spider",
+    "Rakiata's Leadership",
+    "Rallied",
+    "Rallying Cry",
+    "Rat Tornado",
+    "Rats",
+    "Ravenous - Beast",
+    "Ravenous - Construct",
+    "Ravenous - Demon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n|name = Quicksand\n|type = Debuff\n|icon = Quicksand status icon.png\n| description = You are being slowed by Quicksand.\n}}\n\n'''Quicksand''' is a detrimental [[ground effect]] and corresponding stacking debuff which can stack up to ten stacks while standing in its area. Each stack of Quicksand reduces [[action speed]] by 5% (up to 50%), and visually causes affected entities to sink into the ground. Stacks of Quicksand can be removed gradually by moving while not on quicksand.\n\n==Sources==\n* [[Dusty Chamber]] in the [[Azurite Mine]]\n* [[Shakari]] ([[The Oasis]] boss)\n* [[Terror of the Infinite Drifts]] ({{il|Desert Spring Map}} boss)\n* [[Mirage]] [[Ultimatum]] modifiers (Quicksand I-IV)\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Ground effects]]",
+  "sha256": "981014343ba94322c01930077d9d5ef971ed678b5630d9386ba77b919797bd2e"
+}

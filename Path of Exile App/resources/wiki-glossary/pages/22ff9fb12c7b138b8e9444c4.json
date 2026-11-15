@@ -1,0 +1,33 @@
+{
+  "title": "Shaper's Presence",
+  "pageId": 14779,
+  "revision": 1486264,
+  "timestamp": "2024-10-13T02:13:45Z",
+  "retrieved": "2026-11-14T10:11:18.144419+00:00",
+  "requested": [
+    "Frost",
+    "Corrosion",
+    "cast time",
+    "stationary",
+    "moving",
+    "Shaper's Presence",
+    "Regenerate",
+    "expire",
+    "debuffs",
+    "lingering blade",
+    "bestial minion",
+    "Critical strikes",
+    "Cold Exposure",
+    "Damage Types",
+    "damage types",
+    "Elemental Hit",
+    "Power",
+    "area damage",
+    "Anointed",
+    "The Searing Exarch"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Shaper's Presence\n| type                   = Buff\n| description            = Effects on you and nearby allies expire slower.\n}}\n\n'''Shaper's Presence''' is a temporary [[aura]] granted by {{il|Solstice Vigil}}.\n\n==Mechanics==\nShaper's Presence causes effects on you and nearby allies to have a 20% slower [[Expiration rate]]. This modifier is additive with [[temporal chains]] and capped at 75%.\n\nShaper's Presence alone effectively increases the duration of all effects (positive and negative) by 25%.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0|\n* {{il|Solstice Vigil}} now has 30-40% increased Damage (from 20 to 25%) and 8-10 Mana Regeneration per second (from 2 to 3).\n* The '''Shaper's Presence''' buff granted by this item now grants -20% to buff expiration speed (from 33%).\n* This buff change affects all versions of the item, however existing items will need to have a {{il|Divine Orb}} applied to receive the rest of the changes.\n}}\n{{Version history table row|3.5.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Auras]]\n[[Category:Buffs]]",
+  "sha256": "f83afe85c14c3ebc3bf6393ff7b7f6dc0e485342f987bd42275d3c77b38fa1f4"
+}

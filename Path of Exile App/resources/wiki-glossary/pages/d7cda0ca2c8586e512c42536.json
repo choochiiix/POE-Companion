@@ -1,0 +1,33 @@
+{
+  "title": "Mark",
+  "pageId": 10783,
+  "revision": 1647869,
+  "timestamp": "2026-04-17T20:03:15Z",
+  "retrieved": "2026-11-14T10:08:30.589305+00:00",
+  "requested": [
+    "Elemental Overload",
+    "Point Blank",
+    "Iron Will",
+    "Iron Grip",
+    "Avatar of Fire",
+    "Zealot's Oath",
+    "Wicked Ward",
+    "Glancing Blows",
+    "Divine Flesh",
+    "Petrified Blood",
+    "Petrification",
+    "Aegis",
+    "Guard",
+    "Aura",
+    "Curse",
+    "Hex",
+    "Mark",
+    "Warcry",
+    "Totem",
+    "Trap"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Marks''' are a type of [[curse]]. Unlike [[Hex]]es, only one type of Mark can be applied at a time, and only to a single target. \n\n==Mechanics==\n{{see also|Curse#Mechanics}}\nEach character can only place a Mark on one target at any time, a limit shared between all Mark skills. If you apply a Mark on an enemy and then apply any Mark skill again, the previous Mark will expire. This also means Marks cannot be [[reflect]]ed, as this would involve a Mark applying to multiple things.<ref>https://www.reddit.com/r/pathofexile/comments/ipsjsk/curse_skills_in_path_of_exile_heist/g4m6tys/?context=2</ref> \n\nMarks have no [[duration]], though they can be removed in several circumstances. Marks from monsters can be removed if the player moves a great distance away from a cursing monster. Marks on enemies are removed when the player dies or loses the cursing skill, for example by swapping the weapon it was socketed in. Some enemies may possess mechanics that remove their debuffs. \n\nMarks share the curse limit with [[hex|Hexes]]. Applying a Hex curse to a Marked target will expire the Mark, and vice versa, unless you have have increased your [[Curse#Additional curses|curse limit]]. Increased curse limit will still not allow you to place more than one Mark skill on an enemy.\n\n{{il|Mark on Hit Support}} will cause the supported Mark skill to [[trigger]] when hitting a Rare or Unique monster with an [[attack]].\n\n==Skills==\n===Skill gems===\n\nA list of {{Drop enabled gem count|where=skill_gems.gem_tags HOLDS \"Mark\" AND items.class_id=\"Active Skill Gem\"}} [[skill gem]]s with the [[:Category:Mark (gem tag)|Mark]] [[gem tag]]\n \n{{Drop enabled gem table\n|where=\n skill_gems.gem_tags HOLDS \"Mark\" AND\n items.class_id=\"Active Skill Gem\"\n}}\n\n===Support gems===\nA list of {{Drop enabled gem count|where=skill_gems.gem_tags HOLDS \"Mark\" AND items.class_id=\"Support Skill Gem\"}} [[support gem]]s with the [[:Category:Mark (gem tag)|Mark]] [[gem tag]] \n\n{{Drop enabled gem table\n|where=\n skill_gems.gem_tags HOLDS \"Mark\" AND\n items.class_id=\"Support Skill Gem\"\n}}\n\n===Other===\n*{{sl|Penance Mark}} (from {{il|The Hateful Accuser}})\n\n==Unique items==\nThe following [[unique items]] affect Marks:\n\nFor items that affect Curses in general, read {{section link|Curse|Unique items}}.\n{{Drop enabled unique item table\n|tables = item_stats\n|join = item_stats._pageName=items._pageName\n|where = items.stat_text LIKE \"%mark%\"\n|large=1\n|level=1\n|stat=1\n}}\n\n==Passive skills==\nThere are [[passive skill]]s that grant bonuses to Marks.\n===Main tree passive===\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%mark%\"\n  AND passive_skills.id NOT LIKE \"%AlternateAscendancy%\"\n  AND passive_skills.stat_text NOT LIKE \"%marker%\"\n}}\n\n===Ascendancy passive===\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%mark%\"\n}}\n===Cluster jewel passive===\nThe following [[cluster jewel]]-only passives are related to marks:\n{{Passive skill table\n|q_tables=passive_skill_stats\n|q_join=passive_skills._pageID=passive_skill_stats._pageID\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skill_stats.id LIKE \"%mark%\"\n|large=1\n|stat_text=1\n}}\n  \n===Mastery Effects===\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%Mark%\"}}\n\n===Tattoos/Runegrafts===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%mark%\"\n|large=1\n|description=1\n}}\n\n===Bloodline ascendancy skills===\n{{Query passive skills\n|where= passive_skills.id LIKE \"%Oshabi%\" AND passive_skills.stat_text LIKE \"%Mark%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.1|\n* [[Mark]]s applied to you by a monster are now removed if you move a great distance away from the monster.\n}}\n{{Version history table row|3.17.0|\n* Mark curse skills are now permanent.\n* Mark curse skills no longer have the \"Duration\" tag.\n* Applied Marks are removed when the Marker, player or monster, dies.\n}}\n{{Version history table row|3.12.0|\n* Some curse skills are reworked as a subset and [[gem tag]]: Mark.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Gem tag mechanics]]\n[[Category:Gem tags]]\n{{sister|poe2wiki}}",
+  "sha256": "23d88ab8d9b04491d60bd2ca688aaa645a48e221a3e593b193db6a501f4a7cde"
+}

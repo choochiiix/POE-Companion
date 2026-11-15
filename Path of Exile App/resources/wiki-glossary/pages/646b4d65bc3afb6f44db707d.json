@@ -1,0 +1,33 @@
+{
+  "title": "Death Wish",
+  "pageId": 4667,
+  "revision": 1649305,
+  "timestamp": "2026-05-22T23:37:22Z",
+  "retrieved": "2026-11-14T10:57:19.161651+00:00",
+  "requested": [
+    "Death Geas",
+    "Death Prevention",
+    "Death Rhoomba",
+    "Death Wish",
+    "Death's Oath",
+    "Deathly Chill",
+    "Decaying Memory",
+    "Deep One's Presence",
+    "Defiance",
+    "Defiance Banner",
+    "Degeneration Aura",
+    "Demigod's Authority",
+    "Demon's Power",
+    "Demonic Skull",
+    "Desolation of the Awakener",
+    "Destructive Link",
+    "Determination Aura",
+    "Devouring Darkness",
+    "Devouring Tempest",
+    "Diamond Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the notable passive skill|Wish for Death}} \n{{Skill infobox|id=DeathWish}}\n'''Death Wish''' is a [[active skill|skill]] granted by {{il|Maw of Mischief}}, a unique {{il|Bone Helmet}}, that applies a spreading buff to your minions while channelled that improves their abilities and makes them eventually explode.\n\n==Skill functions and interactions==\n* Minions are chosen at random. Line of sight to chosen minions is not required.\n* Once 13 minions are affected, the spell will continue channelling but no more minions will be added.\n* Ending the channel, or casting any non-instant [[spell]] will cause all affected minions to explode, killing them instantly and triggering any \"on minion death\" effects, such as the {{c|mod|Minions recover 5% of Life on Minion Death}} minion defense [[Passive Mastery|passive mastery]].\n* Minions that are exploded by this skill will not trigger [[Minion Instability]]'s explosion, as they never ''reach'' low life.\n* The skill cannot affect \"immortal\" minions, minions without a life pool, or minions already prepared to explode by the skill.<ref name=\"Q&AMay2021\"/> <br />\"Immortal\" minions include:\n** {{sl|Spectral Spirits}} ({{il|Essence of Insanity}}).\n** Agony Crawlers ({{il|Herald of Agony}}).\n** Skitterbots ({{il|Summon Skitterbots}})\n\n* Cannot target minions summoned by minions.\n* The Fire damage hit scales with spell damage and can be reflected; the [[explosion]] based off of minion life does not scale with spell damage and cannot be reflected.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.17.0|\n* Death Wish now has 444 to 666 Fire Damage (previously 316 to 474). \n* Explosion now deals base Fire Damage equal to 19% of the Minion's maximum Life (previously 13%).\n}}\n{{Version history table row|3.12.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n==References==\n{{reflist|refs=<ref name=\"Q&AMay2021\">{{cite web|url=https://www.pathofexile.com/forum/view-thread/3123794|title=Game Mechanics Q&A Answers|author=Community_Team|date=May 18, 2021|accessdate=May 19, 2021|publisher=Official Path of Exile Forums}}</ref>}}\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "f453fc00ae91b60a279c030a7939e648f5ebb7181643642d4a023d52f042a950"
+}

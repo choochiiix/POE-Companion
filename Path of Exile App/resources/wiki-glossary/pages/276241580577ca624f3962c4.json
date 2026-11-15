@@ -1,0 +1,33 @@
+{
+  "title": "Impenetrable Bastion",
+  "pageId": 133961,
+  "revision": 1550898,
+  "timestamp": "2025-07-27T12:03:31Z",
+  "retrieved": "2026-11-14T10:57:29.465873+00:00",
+  "requested": [
+    "Ignited Damage Increase",
+    "Igniting Conflux",
+    "Ikiaho's Leadership",
+    "Immobilised",
+    "Immortal Call",
+    "Impale Effect",
+    "Impaled",
+    "Impedance",
+    "Impenetrable Bastion",
+    "Impenetrable Shell",
+    "Impenetrable Shrine",
+    "Impotence",
+    "Imprisoned",
+    "Impurity of Fire",
+    "Impurity of Ice",
+    "Impurity of Lightning",
+    "Incinerate",
+    "Increased Armour",
+    "Increased Energy Shield",
+    "Increased Evasion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Impenetrable Bastion''' is a skill used by Bastion class [[Mercenaries]]. The skill description reads ''Creates an impenetrable barrier around an allied target, briefly making them completely invulnerable to damage.''\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0e|\n* '''Impenetrable Bastion''''s cooldown no longer ticks while the immunity Buff is active on a player or the Mercenary.\n}}\n{{Version history table row|3.26.0d|\n* (In Hotfix 4) '''Impenetrable Bastion''''s immunity Buff is now unaffected by things that modify the expiry rate of Buffs, such as Temporal Chains. It now has a global cooldown of 20 seconds.\n}}\n{{Version history table row|3.26.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Monster skills]]",
+  "sha256": "4a680a744d880083eb00a230ff320e082f7167e2780ada184457d294182e62ad"
+}

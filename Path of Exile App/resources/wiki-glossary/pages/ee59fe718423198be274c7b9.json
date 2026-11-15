@@ -1,0 +1,33 @@
+{
+  "title": "The Darkest Dream",
+  "pageId": 16778,
+  "revision": 1682595,
+  "timestamp": "2026-07-26T23:30:29Z",
+  "retrieved": "2026-11-14T10:57:48.399663+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Darkest Dream\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = A dream from which you cannot awake is nothing other than a nightmare.\n|drop_level                              = 68\n|tags                                    = weapon_divination, unique_divination, unique_weapon_divination, unique_corrupted_divination, corrupted_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheDarkestDream\n|stack_size                              = 6\n|description                             = {{c|unique|{{iil|Severed in Sleep}}}}<br>{{c|corrupted|Corrupted}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.3.0\n}}\n\n'''The Darkest Dream''' is a [[divination card]]. A set of six can be exchanged for a [[corrupted]] {{il|Severed in Sleep}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThe Darkest Dream was created by supporter [https://www.pathofexile.com/account/view-profile/Organics Organics].<ref name=\"Supporter attribution\"/>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Bog|Malformation}}\n* Drop level changed from 69 to 68. {{Undocumented}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Bog|Sulphur Vents}}\n* Drop level changed from 80 to 69. {{Undocumented}}\n}}\n{{Version history table row|3.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Supporter attribution\">{{cite web\n| author = Organics\n| date = May 24, 2018\n| title = Upcoming Divination Cards\n| url = https://www.pathofexile.com/forum/view-thread/2148235/page/16#p15547990\n| publisher = Official Path of Exile Forums\n| accessdate = September 24, 2020\n}}</ref>\n}}\n\n{{Navbox Items}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "116b92af7bb7b740193c5054849204cffa8aa85ea926136e6bdab7e82cc87aca"
+}

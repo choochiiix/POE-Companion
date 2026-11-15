@@ -1,0 +1,4 @@
+data-sources/
+crafting-data/*.json
+docs/previews/
+node_modules/

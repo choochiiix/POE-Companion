@@ -1,0 +1,33 @@
+{
+  "title": "Essence of Anger",
+  "pageId": 6028,
+  "revision": 1561429,
+  "timestamp": "2025-08-05T13:10:17Z",
+  "retrieved": "2026-11-14T10:57:22.324353+00:00",
+  "requested": [
+    "Enlarging Tempest",
+    "Enrage",
+    "Envy Aura",
+    "Eroding Touch",
+    "Escalating Ruin",
+    "Escalating Vulnerability",
+    "Essence Drain",
+    "Essence Drain Regeneration",
+    "Essence Glutton",
+    "Essence of Anger",
+    "Essence of Hatred",
+    "Essence of Misery",
+    "Essence of Wrath",
+    "Eternal Empire Aura",
+    "Eternal Scourge",
+    "Ethereal Tempest",
+    "Ethereal Tendrils",
+    "Evasion Aura",
+    "Evolving Shrine",
+    "Evolving Shrine Monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Essence of Anger\n| type                   = Debuff\n| icon = Essence of Anger status icon.png\n| description = You have reduced Fire Resistance.\n}}\n\n'''Essence of Anger''' can be used to upgrade an equipment with a guaranteed [[affix]] related to:\n* Local +#Fire damage\n* Fire Damage\n* Fire Resistance\n\nMonsters that are possessed by these essences will periodically cast a fire version of {{il|Creeping Frost}}. They will also apply a timed [[debuff]] named '''Essence of Anger''' to the player character, which reduces their fire resistance.\n\n'''Essence of Anger''' refer to the following [[essence]]s (see the table). \n\n== Modifiers ==\n{|class=\"wikitable sortable\"\n|-\n! scope=\"col\" | Slot\n! scope=\"col\" | Stat Pattern\n! scope=\"col\" | Generation type\n|-\n| Weapon\n| {{c|mod|Adds # to # Fire Damage}}\n| [[Prefix|Prefix]]\n|-\n| Gloves / Boots / Helmet / Shield / Body Armour\n| {{c|mod|+#% to Fire Resistance}}\n| [[Suffix|Suffix]]\n|-\n| Quiver\n| {{c|mod|+#% to Fire Resistance}}\n| [[Suffix|Suffix]]\n|-\n| Belt\n| {{c|mod|+#% to Fire Resistance}}\n| [[Suffix|Suffix]]\n|-\n| Amulet / Ring\n| {{c|mod|#% increased Fire Damage}}\n| [[Suffix|Suffix]]\n|-\n|}\n== Essence Tiers ==\n{{Query base item\n|tables = essences\n|join = items._pageID = essences._pageID\n|where = essences.category = \"Essence of Anger\"\n|orderby = essences.type ASC, essences.level ASC\n|large=1\n|description=1\n|essence=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.17.0|\n* Local added Fire, Cold, Lightning, and Physical Damage Prefix modifiers on Weapons have been increased by roughly 8% at the highest tier and increased by more at lower tiers. The difference between tiers has been lowered, so that there's less of a jump between tiers as you progress towards the highest.\n* Essence of Wrath, Hatred, Anger, and Contempt have been adjusted accordingly.\n}}\n{{Version history table row|?|\n* Added damage mod from essence crafting now matching the changes in version 3.7.0 {{Undocumented}}\n}}\n{{Version history table row|3.7.0|\n* The top two tiers of added elemental damage for melee weapons have had their damage increased by about 10% for tier 2 and 40% for tier 1.\n* All added damage modifiers on two-handed weapons are now 160% of the values of their one-handed counterparts. This takes the new higher values at the top end into account—even they are 160% of their one-hand versions.\n* Added new top-tier modifiers for Added Fire Damage, Added Cold Damage, and Added Lightning Damage. These are available on items with an ilevel of 82 or greater.\n}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Disambiguation}}\n\n[[Category:Debuffs]]",
+  "sha256": "62d447c7f6b68dbeccbc59515d34f0c75805f03f1e3b248e7dd193077d8f7a23"
+}

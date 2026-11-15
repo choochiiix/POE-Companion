@@ -1,0 +1,33 @@
+{
+  "title": "Decay",
+  "pageId": 4705,
+  "revision": 1673500,
+  "timestamp": "2026-07-13T19:44:02Z",
+  "retrieved": "2026-11-14T10:11:21.680704+00:00",
+  "requested": [
+    "fireball",
+    "bleed",
+    "decay",
+    "Valour",
+    "Explosion",
+    "Travel",
+    "Attributes",
+    "traps",
+    "mines",
+    "totems",
+    "Spells",
+    "claws",
+    "flying",
+    "Skill Duration",
+    "Envy",
+    "Ghastly Eye Jewel",
+    "of Ice",
+    "Chilling Area",
+    "warcries",
+    "travel"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the debuff|the support gem|Decay Support}}\n\n{{status\n| name                   = Decay\n| type                   = Debuff\n| description            = You are taking Chaos Damage over time\n}}\n\n'''Decay''' is a [[debuff]] which causes affected targets to take [[chaos damage]] over time.\n\n==Mechanics==\nDecay is a damaging debuff that deals chaos damage over time. It is not a [[skill]] or [[ailment]], and it is not a skill effect for the purpose of modifiers to {{c|mod|Skill Effect Duration}}. \n\nWhen the Decay debuff is built into a skill through {{il|Decay Support}}, or into all skills by a global on-hit effect such as {{il|Essence of Delirium}}'s weapon modifier, Decay's damage will scale with the stats of the skill that inflicts it, including from that skill's [[support gem]]s. Sources of Decay that do ''not'' incorporate it into a skill (e.g. {{il|Chalice of Horrors}}) are affected by global stats only. \n\n==Sources==\n===Support gems===\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%deal_chaos_damage_per_second_for_10_seconds_on_hit%\n|stat_page=decay\n}}\n\n===Unique items===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where= items.stat_text LIKE \"%decay%\"\nAND items.stat_text NOT LIKE \"%Random notable mods%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n===Essences===\n{{Drop enabled base item table\n|where=items.name LIKE \"%Essence%\"\n   AND items.description LIKE \"%decay%\"\n|large=1\n|essence=1\n|description=1\n}}\n\n==Other variants==\n{{status\n| name                   = Spatial Decay\n| type                   = Debuff\n| icon = Decay status icon.png\n| description            = You are taking Chaos Damage over time\n}}\n[[The Maven]] applies a near identical debuff, but known as '''Spatial Decay'''.\n\n{{clear}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "62acee0578a7a175619ce87bad807fd52d15c5a6c72472665a478590b8b5a86c"
+}

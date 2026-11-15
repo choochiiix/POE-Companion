@@ -1,0 +1,33 @@
+{
+  "title": "Extinguish",
+  "pageId": 95647,
+  "revision": 1483558,
+  "timestamp": "2024-09-11T18:42:07Z",
+  "retrieved": "2026-11-14T10:57:23.118138+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Extinguish\n| type                   = Debuff\n| description            = You cannot inflict elemental ailments.\n}}\n'''Extinguish''' is a debuff that prevents the afflicted from applying [[elemental ailments]]. It lasts 4 seconds. Players can apply it if they have the relevant [[List of Searing Exarch implicit modifiers|Searing Exarch modifier]] on their gloves.\n[[File:Extinguish visual.png|thumbnail|right|Visual effect]]\n\n[[Category:Debuffs]]",
+  "sha256": "c8d5b99ce4c1208ff5c2bd7008b85dce772b77ef1aeae5f731540c69de021a2a"
+}

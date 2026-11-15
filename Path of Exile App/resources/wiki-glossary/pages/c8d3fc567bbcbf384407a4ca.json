@@ -1,0 +1,33 @@
+{
+  "title": "Guard",
+  "pageId": 7724,
+  "revision": 1612594,
+  "timestamp": "2026-02-20T09:47:03Z",
+  "retrieved": "2026-11-14T10:08:30.588740+00:00",
+  "requested": [
+    "Elemental Overload",
+    "Point Blank",
+    "Iron Will",
+    "Iron Grip",
+    "Avatar of Fire",
+    "Zealot's Oath",
+    "Wicked Ward",
+    "Glancing Blows",
+    "Divine Flesh",
+    "Petrified Blood",
+    "Petrification",
+    "Aegis",
+    "Guard",
+    "Aura",
+    "Curse",
+    "Hex",
+    "Mark",
+    "Warcry",
+    "Totem",
+    "Trap"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Guard\n| image = \n| rarity = Normal\n| location = [[The City of Sarn]]\n| level =23\n| resistance = Elemental, Chaos (as spectre only)\n| damage =\n| modifier = \n| skill = \n| metadata_id = Metadata/Monsters/Axis/GuardClarissa\n}}\n{{for|the skill type|Guard skill}}\n\n'''Guard''' is a type of [[Blackguard]] which accompanies [[Guard Captain]].\n\n==Areas==\n* [[The City of Sarn]]\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Removed the Cruel and Merciless difficulty levels. Path of Exile is now a single ten-act playthrough.\n}}\n{{Version history table row|1.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Bestiary}}\n[[Category:Blackguard]]\n[[Category:Act 3 monsters]]",
+  "sha256": "947b8027f32ed1c477754267b30c6deb07c9686f663b8433e90040384211f663"
+}

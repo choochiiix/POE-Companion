@@ -1,0 +1,33 @@
+{
+  "title": "The Enthusiasts",
+  "pageId": 16847,
+  "revision": 1682736,
+  "timestamp": "2026-07-26T23:33:57Z",
+  "retrieved": "2026-11-14T10:57:48.400661+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Enthusiasts\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = \"Glimmers of benevolence,<br>Shrouded a lacquered lust for power,<br>Yet still they followed his influence.\"\n|drop_level                              = 54\n|tags                                    = armour_divination, unique_divination, corrupted_divination, unique_corrupted_divination, unique_armour_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheEnthusiasts\n|stack_size                              = 3\n|description                             = {{c|unique|{{iil|Victario's Influence}}}}<br>{{c|corrupted|Two-Implicit}}<br>{{c|corrupted|Corrupted}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.14.0\n}}\n\n'''The Enthusiasts''' is a [[divination card]]. A set of three can be exchanged for a [[corrupted]] {{il|Victario's Influence}} with two [[corruption implicit modifier]]s.\n\n{{Item acquisition}}\n==Design attribution==\nThe Enthusiasts was created by supporter [https://www.pathofexile.com/account/view-profile/Arenyr Arenyr].<ref name=\"Supporter attribution=\"/>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n{{Atlas div card|Ghetto}}\n}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Alleyways|Bazaar}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Arcade}}\n}}\n{{Version history table row|3.20.0|\n* The Enthusiasts now also drops from Academy and Scriptorium {{Divcord}}\n}}\n{{Version history table row|3.16.0|\n* Many Divination Cards have found new homes as a result of the Atlas Changes:\n: The Enthusiasts can now drop in the Museum Map.\n}}\n{{Version history table row|3.14.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n{{Navbox Items}}\n\n==References==\n{{reflist|refs=\n\n<ref name=\"Supporter attribution=\">{{cite web|url=https://www.reddit.com/r/pathofexile/comments/mt6bfi/new_card_the_enthusiasts/|title=New Card: The Enthusiasts|author=Arenyr|date=April 18, 2021|accessdate=October 15, 2021|publisher=Official Path of Exile subreddit}}</ref>\n}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "ec191dd682d561447b0bc526c8da09903ee0d866a786d8719b09f4c469ad7f8d"
+}

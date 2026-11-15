@@ -1,0 +1,33 @@
+{
+  "title": "Victario's Flight",
+  "pageId": 19473,
+  "revision": 1675074,
+  "timestamp": "2026-07-19T07:00:13Z",
+  "retrieved": "2026-11-14T10:57:52.313846+00:00",
+  "requested": [
+    "Valdo's Brilliance",
+    "Vampiric Link",
+    "Veiling Tempest",
+    "Vengeful Cry",
+    "Venom Gyre Blades",
+    "Venomous Web",
+    "Verdant Spores",
+    "Verisium Energy",
+    "Vessel of Vinktar",
+    "Victario's Flight",
+    "Vile Bastion",
+    "Vilenta's Beam",
+    "VinktarLightningBond",
+    "Violent Desire",
+    "Violent Retaliation",
+    "Virulence",
+    "Viscous Swamp",
+    "Vitality Aura",
+    "Vivid Malady",
+    "Void Arrows"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Victario's Flight\n|aliases                                 = Ondar's Flight\n|class_id                                = Boots\n|base_item                               = Goathide Boots\n|explicit1      = DexterityUniqueBootsDex3\n|explicit2      = IntelligenceUniqueBootsDex3\n|explicit3      = LocalIncreasedEvasionRatingPercentUniqueBootsDex3\n|explicit4 = MovementVelocityUnique__19\n|explicit5 = MovementVelocityOnLowLifeUnique__1\n|explicit6 = QuicksilverFlaskAppliesToAlliesUnique__1 \n|flavour_text                            = Alive but not unscathed, Victario fled<br>as slaughter blossomed at the gates.\n|release_version                         = 0.9.12\n}}\n\n'''Victario's Flight''' is a pair of [[unique]] {{il|Goathide Boots}}.\n\n==Modifiers==\n\n* {{c|mod|[[Quicksilver Flask]]s also apply to nearby Allies}} functions similar to {{il|Umbilicus Immortalis}}. When you use a quicksilver flask, that flask's effect is applied to nearby allies for the flasks' duration (as well as to you, since this item doesn't prevent flasks applying to you).<ref>https://www.reddit.com/r/pathofexile/comments/wjl9xl/comment/ijiisqt/</ref> This includes Magic flask prefixes and suffixes. {{il|Rotgut}} will remove [[Frenzy Charges]] from Minions and grant them Onslaught. \n** A player wearing {{il|Mother's Embrace}} and spawning an Animate Guardian wearing Victario's Flight may be able to trigger a Quicksilver Flask on itself, which would then be shared to allies (including the player) {{speculation}}.\n\n{{Item acquisition}}\n\n{{Foulborn}}\n\n{| class=\"wikitable sortable\"\n|+\n|-\n! Unique item !! Original modifier !! {{c|foulborn|Foulborn modifier}}\n|-\n| Victario's Flight || {{c|mod|[[Modifier:MovementVelocityUnique~~19|(10-20)% increased Movement Speed]]}} || {{c|foulborn|[[Modifier:MutatedUniqueBootsDex3ActionSpeedReduction|(12-6)% increased Action Speed]]}}\n|}\n\n==Legacy variants==\nVictario's Flight has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.19.0|\n* +15 to Dexterity\n* +15 to Intelligence\n* (100-150)% increased Evasion Rating\n* {{c|mod|15% increased Movement Speed}}\n* {{c|mod|(5-10)% of Damage taken Recouped as Mana}}\n* {{c|mod|10% increased Movement Speed for you and nearby Allies}}\n}}\n{{legacy variant table row|2.6.0|\n* +15 to Dexterity\n* +15 to Intelligence\n* (100-150)% increased Evasion Rating\n* {{c|mod|30% increased Movement Speed when on Low Life}}\n* {{c|mod|(5-10)% of Damage taken Recouped as Mana}}\n}}\n{{Legacy variant table end}}\n\nThe pre-2.6.0 version's {{c|mod|30% increased Movement Speed when on Low Life}} is not the same mod as the current variant,<ref>{{ml|MovementVelocityOnLowLifeUniqueBootsDex3}} verse {{ml|MovementVelocityOnLowLifeUnique__1}}</ref> so that legacy item can be divined without affected this mod. However, Divine Orb cannot gain any of the new mod on the legacy item.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.0|\n* '''A {{il|Divine Orb}} can be used to obtain the new values of modifiers, but cannot be used to gain new modifiers:'''\n* No longer has {{c|mod|5-10% of Damage taken [[Recouped]] as [[Mana]]}}, or {{c|mod|10% increased [[Movement Speed]] for you and nearby [[Allies]]}}. \n* Now has {{c|mod|10-20% increased [[Movement Speed]] when on [[Low Life]]}}\n* Now has {{c|mod|[[Quicksilver Flask]]s you Use also apply to [[nearby]] [[Allies]]}}. \n* Now has {{c|mod|10-20% increased [[Movement Speed]]}} (previously 15%).\n}}\n{{Version history table row|3.0.0|\n* '''The following changes affect existing items automatically:'''\n* The Damage Taken gained as Mana when Hit now occurs over 4 seconds.\n}}\n{{Version history table row|2.6.0|\n'''The following changes cannot be obtained by rerolling the item's mods with a {{il|Divine Orb}}''':\n* No longer has 30% Movement Speed on Low Life.\n* Now has 15% Increased Movement Speed.\n* Now has the additional property of You and Allies have 10% Increased Movement Speed.\n}}\n{{Version history table row|2.0.0|\n* Ondar's Flight renamed to Victario's Flight.\n}}\n{{Version history table row|0.9.12|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\n* [[Victario]]\n* {{il|Victario's Acuity}}\n* {{il|Victario's Charity}}\n* {{il|Victario's Influence}}\n* [[Victario's Secrets]]\n* [[Victario's Writings]]\n\n==References==\n{{reflist}}\n\n{{Navbox Unique Items}}",
+  "sha256": "9a0473279fe823f4729f50fe10d269663422e71ddb49ad0261d4a604fade6be1"
+}

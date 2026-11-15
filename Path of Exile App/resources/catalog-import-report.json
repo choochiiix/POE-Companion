@@ -1,0 +1,2011 @@
+{
+  "definitions": 1307,
+  "variantRecords": 3250,
+  "missingFlavor": 338,
+  "diagnostics": [
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attributes",
+      "raw": "{version:1,2}{group:1,2}{tags:attribute}(12-16)% increased Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attributes",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attributes",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Defences",
+      "raw": "{version:1,2}{group:1,2}{tags:defences}(15-25)% increased Global Defences",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Defences",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Defences",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Chaos Damage",
+      "raw": "{version:1,2}{group:1,2}{tags:chaos_damage}(19-31)% increased Chaos Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Chaos Damage",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Chaos Damage",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attack Damage",
+      "raw": "{version:1,2}{group:1,2}{tags:attack}(20-30)% increased Attack Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attack Damage",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attack Damage",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold Damage",
+      "raw": "{version:1,2}{group:1,2}{tags:elemental_damage}(20-30)% increased Cold Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold Damage",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold Damage",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire Damage",
+      "raw": "{version:1,2}{group:1,2}{tags:elemental_damage}(20-30)% increased Fire Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire Damage",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire Damage",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning Damage",
+      "raw": "{version:1,2}{group:1,2}{tags:elemental_damage}(20-30)% increased Lightning Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning Damage",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning Damage",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Spell Damage",
+      "raw": "{version:1,2}{group:1,2}{tags:caster}(20-30)% increased Spell Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Spell Damage",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Spell Damage",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Physical Damage",
+      "raw": "{version:1,2}{group:1,2}{tags:physical_damage}(20-30)% increased Global Physical Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Physical Damage",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Physical Damage",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mana",
+      "raw": "{version:1,2}{group:1,2}{tags:resource}(20-30)% increased maximum Mana",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mana",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mana",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage",
+      "raw": "{version:1,2}{group:1,2}(25-35)% increased Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Physical Damage Reduction",
+      "raw": "{version:1,2}{group:1,2}(4-6)% additional Physical Damage Reduction",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Physical Damage Reduction",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Physical Damage Reduction",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Chance to Freeze, Shock and Ignite",
+      "raw": "{version:1,2}{group:1,2}(4-6)% chance to Freeze, Shock and Ignite",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Chance to Freeze, Shock and Ignite",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Chance to Freeze, Shock and Ignite",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Chance",
+      "raw": "{version:1,2}{group:1,2}{tags:critical}(40-50)% increased Global Critical Strike Chance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Chance",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Chance",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Area of Effect",
+      "raw": "{version:1,2}{group:1,2}(5-8)% increased Area of Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Area of Effect",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Area of Effect",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attack/Cast Speed",
+      "raw": "{version:1,2}{group:1,2}{tags:attack,caster,speed}(6-10)% increased Attack and Cast Speed",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attack/Cast Speed",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attack/Cast Speed",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Item Quantity (Pre 3.25.0)",
+      "raw": "{version:1}{group:1,2}(6-10)% increased Quantity of Items found",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Item Quantity (Pre 3.25.0)",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Item Quantity (Pre 3.25.0)",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life",
+      "raw": "{version:1,2}{group:1,2}{tags:resource}(8-12)% increased maximum Life",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Multiplier",
+      "raw": "{version:1,2}{group:1,2}{tags:critical}+(24-36)% to Global Critical Strike Multiplier",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Multiplier",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Multiplier",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum number of Raised Zombies",
+      "raw": "{version:1,2}{group:1,2}+1 to maximum number of Raised Zombies",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum number of Raised Zombies",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum number of Raised Zombies",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Frenzy Charge on Kill",
+      "raw": "{version:1,2}{group:1,2}10% chance to gain a Frenzy Charge on Kill",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Frenzy Charge on Kill",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Frenzy Charge on Kill",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Power Charge on Kill",
+      "raw": "{version:1,2}{group:1,2}10% chance to gain a Power Charge on Kill",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Power Charge on Kill",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Power Charge on Kill",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Endurance Charge on Kill",
+      "raw": "{version:1,2}{group:1,2}10% chance to gain an Endurance Charge on Kill",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Endurance Charge on Kill",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Endurance Charge on Kill",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life Regen",
+      "raw": "{version:1,2}{group:1,2}{tags:resource}Regenerate 2% of Life per second",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life Regen",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life Regen",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold taken as Fire",
+      "raw": "{version:1,2}{group:1,2}50% of Cold Damage from Hits taken as Fire Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold taken as Fire",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold taken as Fire",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold taken as Lightning",
+      "raw": "{version:1,2}{group:1,2}50% of Cold Damage from Hits taken as Lightning Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold taken as Lightning",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold taken as Lightning",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire taken as Cold",
+      "raw": "{version:1,2}{group:1,2}50% of Fire Damage from Hits taken as Cold Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire taken as Cold",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire taken as Cold",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire taken as Lightning",
+      "raw": "{version:1,2}{group:1,2}50% of Fire Damage from Hits taken as Lightning Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire taken as Lightning",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire taken as Lightning",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning taken as Cold",
+      "raw": "{version:1,2}{group:1,2}50% of Lightning Damage from Hits taken as Cold Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning taken as Cold",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning taken as Cold",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning taken as Fire",
+      "raw": "{version:1,2}{group:1,2}50% of Lightning Damage from Hits taken as Fire Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning taken as Fire",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning taken as Fire",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Gain Physical as random Element",
+      "raw": "{version:1,2}{group:1,2}{tags:physical_damage,elemental_damage}Gain (6-12)% of Physical Damage as Extra Damage of a random Element",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Gain Physical as random Element",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Gain Physical as random Element",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Extra Pierces",
+      "raw": "{version:1,2}{group:1,2}Projectiles Pierce 2 additional Targets",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Extra Pierces",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Extra Pierces",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage over Time Multiplier",
+      "raw": "{version:1,2}{group:1,2}+(12-18)% to Damage over Time Multiplier",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage over Time Multiplier",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage over Time Multiplier",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Action Speed",
+      "raw": "{version:3}{group:1,2}{tags:speed}{enchant}8% increased Action Speed",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Action Speed",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Action Speed",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Extra Pierces",
+      "raw": "{version:3}{group:1,2}{enchant}Projectiles Pierce 3 additional Targets",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Extra Pierces",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Extra Pierces",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Additional Projectile",
+      "raw": "{version:3}{group:1,2}{enchant}Skills fire an additional Projectile",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Additional Projectile",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Additional Projectile",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Defences",
+      "raw": "{version:3}{group:1,2}{tags:defences}{enchant}30% increased Global Defences",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Defences",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Global Defences",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Area of Effect",
+      "raw": "{version:3}{group:1,2}{enchant}16% increased Area of Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Area of Effect",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Area of Effect",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold and Lightning taken as Fire",
+      "raw": "{version:3}{group:1,2}{enchant}100% of Cold and Lightning Damage from Hits taken as Fire Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold and Lightning taken as Fire",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold and Lightning taken as Fire",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold Penetration",
+      "raw": "{version:3}{group:1,2}{tags:elemental_damage}{enchant}Damage Penetrates 15% Cold Resistance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold Penetration",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cold Penetration",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Multiplier",
+      "raw": "{version:3}{group:1,2}{tags:critical}{enchant}+40% to Global Critical Strike Multiplier",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Multiplier",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Crit Multiplier",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire Penetration",
+      "raw": "{version:3}{group:1,2}{tags:elemental_damage}{enchant}Damage Penetrates 15% Fire Resistance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire Penetration",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Fire Penetration",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Freeze Enemies when Hit",
+      "raw": "{version:3}{group:1,2}{enchant}20% chance to Freeze Enemies for 1 second when they Hit you",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Freeze Enemies when Hit",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Freeze Enemies when Hit",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cooldown Recovery",
+      "raw": "{version:3}{group:1,2}{enchant}20% increased Cooldown Recovery Rate",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cooldown Recovery",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Cooldown Recovery",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage over Time Multiplier",
+      "raw": "{version:3}{group:1,2}{enchant}+20% to Damage over Time Multiplier",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage over Time Multiplier",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Damage over Time Multiplier",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Herald Gem Levels",
+      "raw": "{version:3}{group:1,2}{enchant}+2 to Level of all Herald Skill Gems",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Herald Gem Levels",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Herald Gem Levels",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Skill Gem Levels",
+      "raw": "{version:3}{group:1,2}{enchant}+1 to Level of all Skill Gems",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Skill Gem Levels",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Skill Gem Levels",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Skill Gem Quality",
+      "raw": "{version:3}{group:1,2}{enchant}+15% to Quality of all Skill Gems",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Skill Gem Quality",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Skill Gem Quality",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Ignore Physical Damage Reduction",
+      "raw": "{version:3}{group:1,2}{enchant}Hits ignore Enemy Physical Damage Reduction",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Ignore Physical Damage Reduction",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Ignore Physical Damage Reduction",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Power Charges",
+      "raw": "{version:3}{group:1,2}{enchant}+1 to Maximum Power Charges",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Power Charges",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Power Charges",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning Penetration",
+      "raw": "{version:3}{group:1,2}{tags:elemental_damage}{enchant}Damage Penetrates 15% Lightning Resistance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning Penetration",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Lightning Penetration",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mark Effect",
+      "raw": "{version:3}{group:1,2}{tags:caster}{enchant}30% increased Effect of your Marks",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mark Effect",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mark Effect",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Cold Resistance",
+      "raw": "{version:3}{group:1,2}{tags:resistance}{enchant}+4% to maximum Cold Resistance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Cold Resistance",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Cold Resistance",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Endurance Charges",
+      "raw": "{version:3}{group:1,2}{enchant}+1 to Maximum Endurance Charges",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Endurance Charges",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Endurance Charges",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Fire Resistance",
+      "raw": "{version:3}{group:1,2}{tags:resistance}{enchant}+4% to maximum Fire Resistance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Fire Resistance",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Fire Resistance",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Frenzy Charges",
+      "raw": "{version:3}{group:1,2}{enchant}+1 to Maximum Frenzy Charges",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Frenzy Charges",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Frenzy Charges",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life as Extra Armour",
+      "raw": "{version:3}{group:1,2}{tags:defences}{enchant}Gain 15% of Maximum Life as Extra Armour",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life as Extra Armour",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life as Extra Armour",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life",
+      "raw": "{version:3}{group:1,2}{tags:resource}{enchant}15% increased maximum Life",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Life",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Lightning Resistance",
+      "raw": "{version:3}{group:1,2}{tags:resistance}{enchant}+4% to maximum Lightning Resistance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Lightning Resistance",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Lightning Resistance",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mana",
+      "raw": "{version:3}{group:1,2}{tags:resource}{enchant}30% increased maximum Mana",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mana",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Mana",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Spectres",
+      "raw": "{version:3}{group:1,2}{enchant}+1 to maximum number of Spectres",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Spectres",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Maximum Spectres",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Minimum Charges",
+      "raw": "{version:3}{group:1,2}{enchant}+1 to Minimum Endurance, Frenzy and Power Charges",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Minimum Charges",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Minimum Charges",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Minion Damage over Time Multiplier",
+      "raw": "{version:3}{group:1,2}{enchant}Minions have +30% to Damage over Time Multiplier",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Minion Damage over Time Multiplier",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Minion Damage over Time Multiplier",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Movement Speed",
+      "raw": "{version:3}{group:1,2}{tags:speed}{enchant}12% increased Movement Speed",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Movement Speed",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Movement Speed",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attributes",
+      "raw": "{version:3}{group:1,2}{tags:attribute}{enchant}15% increased Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attributes",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Attributes",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Projectile Speed",
+      "raw": "{version:3}{group:1,2}{tags:speed}{enchant}30% increased Projectile Speed",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Projectile Speed",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Projectile Speed",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Unaffected by Ignite",
+      "raw": "{version:3}{group:1,2}{enchant}Unaffected by Ignite",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Unaffected by Ignite",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Unaffected by Ignite",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Utility Flask Charges",
+      "raw": "{version:3}{group:1,2}{enchant}Utility Flasks gain 2 Charges every 3 seconds",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Utility Flask Charges",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Utility Flask Charges",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Additional Exerted Attack",
+      "raw": "{version:3}{group:1,2}{enchant}Warcries Exert 1 additional Attack",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Additional Exerted Attack",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Additional Exerted Attack",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Withered Effect",
+      "raw": "{version:3}{group:1,2}{enchant}35% increased Effect of Withered",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Withered Effect",
+      "raw": "{version:3}(50-100)% increased Enchantment Modifier magnitudes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eyes of the Greatwolf",
+      "variant": "Withered Effect",
+      "raw": "{version:1,2}Implicit Modifier magnitudes are doubled",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Fire and Chaos Resistances)",
+      "raw": "{tags:resistance}{crafted}+(8-15)% to Fire and Chaos Resistances",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Cold and Chaos Resistances)",
+      "raw": "{tags:resistance}{crafted}+(8-15)% to Cold and Chaos Resistances",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Light and Chaos Resistances)",
+      "raw": "{tags:resistance}{crafted}+(8-15)% to Lightning and Chaos Resistances",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Strength and Dexterity)",
+      "raw": "{tags:attribute}{crafted}+(6-17) to Strength and Dexterity",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Dexterity and Intelligence)",
+      "raw": "{tags:attribute}{crafted}+(6-17) to Dexterity and Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Strength and Intelligence)",
+      "raw": "{tags:attribute}{crafted}+(6-17) to Strength and Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Trap Throwing Speed)",
+      "raw": "{crafted}(7-12)% increased Trap Throwing Speed",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Energy Shield Regen)",
+      "raw": "{crafted}Regenerate 120 Energy Shield per second while a Rare or Unique Enemy is Nearby",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Hyperboreus",
+      "variant": "Pre 3.11.0 (Lucky Crit Chance while Focused)",
+      "raw": "{crafted}Your Critical Strike Chance is Lucky while Focused",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Garb of the Ephemeral",
+      "variant": "Current",
+      "raw": "{fractured}(180-230)% increased Energy Shield",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Beacon of Madness",
+      "variant": "Two-Toned Boots (Armour/Evasion)",
+      "raw": "Two-Toned Boots (Armour/Evasion)",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Beacon of Madness",
+      "variant": "Two-Toned Boots (Armour/Energy Shield)",
+      "raw": "Two-Toned Boots (Armour/Energy Shield)",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Beacon of Madness",
+      "variant": "Two-Toned Boots (Evasion/Energy Shield)",
+      "raw": "Two-Toned Boots (Evasion/Energy Shield)",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Pre 3.26 Crit Chance",
+      "raw": "{crafted}(45-55)% increased Critical Strike Chance during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Damage Taken is Leeched as Life",
+      "raw": "{crafted}15% of Damage Taken from Hits is Leeched as Life during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Item Rarity",
+      "raw": "{crafted}(20-30)% increased Rarity of Items found during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Pre 3.26 Movement Speed/Stun Avoidance",
+      "raw": "{crafted}50% Chance to Avoid being Stunned during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Pre 3.26 Movement Speed/Stun Avoidance",
+      "raw": "{crafted}(8-12)% increased Movement Speed during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Stun Avoidance",
+      "raw": "{crafted}50% Chance to Avoid being Stunned during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Life Regen",
+      "raw": "{crafted}Regenerate 3% of Life per second during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Reduced Reflected Damage Taken",
+      "raw": "{crafted}(60-80)% reduced Reflected Damage taken during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Physical Damage can Ignite",
+      "raw": "{crafted}Your Physical Damage can Ignite during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Ignited enemies have Malediction",
+      "raw": "{crafted}Enemies Ignited by you during Effect have Malediction",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Additional Curse",
+      "raw": "{crafted}You can apply an additional Curse during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Ignite Spread",
+      "raw": "{crafted}Ignites you inflict during Effect spread to other Enemies within 1.5 metres",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Ignite Leech",
+      "raw": "{crafted}Leech 1.5% of Expected Ignite Damage as Life when you Ignite an Enemy during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Cinderswallow Urn",
+      "variant": "Pre 3.16.0 Crit Chance",
+      "raw": "{crafted}(60-80)% increased Critical Strike Chance during Effect",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Replica Atziri's Acuity",
+      "variant": "Current",
+      "raw": "{version:1}(25-35)% increased Global Critical Strike Chance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Replica Atziri's Acuity",
+      "variant": "Current",
+      "raw": "{version:2}(40-60)% increased Global Critical Strike Chance",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Echoes of Creation",
+      "variant": "Current",
+      "raw": "Shaper Item",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Strength and Quality Pre 3.16.0",
+      "raw": "{crafted}+(7-18)% to Quality",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Dexterity and Quality Pre 3.16.0",
+      "raw": "{crafted}+(7-18)% to Quality",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Intelligence and Quality Pre 3.16.0",
+      "raw": "{crafted}+(7-18)% to Quality",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Cold and Chaos Resistances Pre 3.16.0",
+      "raw": "{crafted}+(8-15)% to Cold and Chaos Resistances",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Lightning and Chaos Resistances Pre 3.16.0",
+      "raw": "{crafted}+(8-15)% to Lightning and Chaos Resistances",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Mine Laying Speed Pre 3.16.0",
+      "raw": "{crafted}(7-12)% increased Mine Laying Speed",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Focus Spell Trigger Pre 3.16.0",
+      "raw": "{crafted}Trigger Socketed Spells when you Focus",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Focus Ailment Duration Pre 3.16.0",
+      "raw": "{crafted}(81-140)% increased Duration of Ailments you inflict while Focused",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "The Devouring Diadem",
+      "variant": "Avoid Elemental Damage Pre 3.16.0",
+      "raw": "{crafted}(6-9)% chance to Avoid Elemental Damage from Hits during Soul Gain Prevention",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eber's Unification",
+      "variant": "Current",
+      "raw": "{version:1}(120-150)% increased Energy Shield",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Eber's Unification",
+      "variant": "Current",
+      "raw": "{version:2}(150-180)% increased Energy Shield",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Gorgon's Gaze",
+      "variant": "Current",
+      "raw": "Source: Drops from unique{Talin, Faithbreaker} in normal{Pillars of Arun}",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Item Class: Jewels",
+      "variant": "Current",
+      "raw": "Rarity: Unique",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Circle of Anguish",
+      "variant": "Skill Reservation (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Strength",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Anguish",
+      "variant": "Skill Reservation (Current)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Strength",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Anguish",
+      "variant": "Fire Damage",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Strength",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Anguish",
+      "variant": "Buff Effect (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Strength",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Anguish",
+      "variant": "Buff Effect (Current)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Strength",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Anguish",
+      "variant": "Max Resistance",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Strength",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Anguish",
+      "variant": "Fire Resistance",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Strength",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Fear",
+      "variant": "Skill Reservation (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Dexterity",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Fear",
+      "variant": "Skill Reservation (Current)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Dexterity",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Fear",
+      "variant": "Cold Damage",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Dexterity",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Fear",
+      "variant": "Buff Effect (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Dexterity",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Fear",
+      "variant": "Buff Effect (Current)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Dexterity",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Fear",
+      "variant": "Max Resistance",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Dexterity",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Fear",
+      "variant": "Cold Resistance",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Dexterity",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Guilt",
+      "variant": "Skill Reservation (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Guilt",
+      "variant": "Skill Reservation (Current)",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Guilt",
+      "variant": "Physical Damage",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Guilt",
+      "variant": "Buff Effect (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Guilt",
+      "variant": "Buff Effect (Current)",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Guilt",
+      "variant": "Sentinel Damage",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Guilt",
+      "variant": "Damage Reduction",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Nostalgia",
+      "variant": "Skill Reservation (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Nostalgia",
+      "variant": "Skill Reservation (Current)",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Nostalgia",
+      "variant": "Chaos Damage",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Nostalgia",
+      "variant": "Buff Effect (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Nostalgia",
+      "variant": "Buff Effect (Current)",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Nostalgia",
+      "variant": "Agony Damage",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Nostalgia",
+      "variant": "Chaos Resistance",
+      "raw": "{tags:attribute}{fractured}+(10-20) to all Attributes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Regret",
+      "variant": "Skill Reservation (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Regret",
+      "variant": "Skill Reservation (Current)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Regret",
+      "variant": "Lightning Damage",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Regret",
+      "variant": "Buff Effect (Pre 3.11.0)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Regret",
+      "variant": "Buff Effect (Current)",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Regret",
+      "variant": "Max Resistance",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Circle of Regret",
+      "variant": "Lightning Resistance",
+      "raw": "{tags:attribute}{fractured}+(20-30) to Intelligence",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Replica Gifts from Above",
+      "variant": "Current",
+      "raw": "League: Heist",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Vivinsect",
+      "variant": "Cold and Chaos Resistances Pre 3.16.0",
+      "raw": "{crafted}{tags:chaos,jewellery_resistance}+(8-15)% to Cold and Chaos Resistances",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Vivinsect",
+      "variant": "Lightning and Chaos Resistances Pre 3.16.0",
+      "raw": "{crafted}{tags:chaos,jewellery_resistance}+(8-15)% to Lightning and Chaos Resistances",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Vivinsect",
+      "variant": "Effect of non-Damaging Ailments Pre 3.16.0",
+      "raw": "{crafted}(11-30)% increased Effect of non-Damaging Ailments on Enemies",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Vivinsect",
+      "variant": "Focus Shock Nearby Enemies Pre 3.16.0",
+      "raw": "{crafted}Shock nearby Enemies for (2-4) Seconds when you Focus",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Vivinsect",
+      "variant": "Minimum Frenzy Charges Pre 3.16.0",
+      "raw": "{crafted}+1 to Minimum Frenzy Charges",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Vivinsect",
+      "variant": "Minimum Power Charges Pre 3.16.0",
+      "raw": "{crafted}+1 to Minimum Power Charges",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Vivinsect",
+      "variant": "Minimum Endurance Charges Pre 3.16.0",
+      "raw": "{crafted}+1 to Minimum Endurance Charges",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Life",
+      "raw": "{group:2}{tags:resource}10% increased maximum Life",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Energy Shield",
+      "raw": "{group:2}{tags:defences}20% increased maximum Energy Shield",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Mana",
+      "raw": "{group:2}{tags:resource}20% increased maximum Mana",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Reflect Immune",
+      "raw": "{group:3,4}Damage cannot be Reflected",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Reduced Extra Damage from Crits",
+      "raw": "{group:3,4}{tags:critical}You take 100% reduced Extra Damage from Critical Strikes",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "No Monster Suppress",
+      "raw": "{group:3,4}Monsters cannot Suppress your Spells",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "No Enemy Pen",
+      "raw": "{group:3,4}Elemental Resistances cannot be Penetrated",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Charges cannot be stolen",
+      "raw": "{group:3,4}Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Burning Ground Immune",
+      "raw": "{group:3,4}Unaffected by Burning Ground",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Shocked Ground Immune",
+      "raw": "{group:3,4}Unaffected by Shocked Ground",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Desecrated Ground Immune",
+      "raw": "{group:3,4}Unaffected by Desecrated Ground",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Chilled Ground Immune",
+      "raw": "{group:3,4}Unaffected by Chilled Ground",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Attack Speed",
+      "raw": "{group:1}{tags:attack,speed}(5-15)% increased Attack Speed",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Cast Speed",
+      "raw": "{group:1}{tags:caster,speed}(5-15)% increased Cast Speed",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Enemies Cannot Leech Life",
+      "raw": "{group:3,4}Enemies Cannot Leech Life From you",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Reduced Curse Effect",
+      "raw": "{group:3,4}{tags:caster}80% reduced Effect of Curses on you",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Attacks Cannot Be Blocked",
+      "raw": "{group:3,4}Monsters cannot Block your Attacks",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Zana's Ingenuity",
+      "variant": "Avoid Chained Projectiles",
+      "raw": "{group:3,4}Avoid Projectiles that have Chained",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Fire and Cold Damage (Pre 3.14)",
+      "raw": "{crafted}Adds (3-12) to (5-16) Fire Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Fire and Cold Damage (Pre 3.14)",
+      "raw": "{crafted}Adds (3-12) to (5-16) Cold Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Cold and Lightning Damage (Pre 3.14)",
+      "raw": "{crafted}Adds (3-12) to (5-16) Cold Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Cold and Lightning Damage (Pre 3.14)",
+      "raw": "{crafted}Adds 1 to (7-24) Lightning Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Fire and Lightning Damage (Pre 3.14)",
+      "raw": "{crafted}Adds (3-12) to (5-16) Fire Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Fire and Lightning Damage (Pre 3.14)",
+      "raw": "{crafted}Adds 1 to (7-24) Lightning Damage",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Energy Shield and Life (Pre 3.14)",
+      "raw": "{crafted}(20-40)% increased Energy Shield",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Energy Shield and Life (Pre 3.14)",
+      "raw": "{crafted}+(10-28) to maximum Life",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Armour during Soul Gain Prevention (Pre 3.14)",
+      "raw": "{crafted}+(500-3000) to Armour during Soul Gain Prevention",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Bitterbind Point",
+      "variant": "Level of Socketed Support Gems (Pre 3.14)",
+      "raw": "{crafted}+(1-2) to Level of Socketed Support Gems",
+      "reason": "Unsupported annotation retained"
+    },
+    {
+      "item": "Disintegrator",
+      "variant": "Pre 3.7.0",
+      "raw": "Maelstrom Staff",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Disintegrator",
+      "variant": "Pre 3.11.0",
+      "raw": "Maelstrom Staff",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Disintegrator",
+      "variant": "Pre 3.13.0",
+      "raw": "Maelstrom Staff",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Disintegrator",
+      "variant": "Pre 3.29.0",
+      "raw": "Maelstrom Staff",
+      "reason": "Base not matched; requirements unknown"
+    },
+    {
+      "item": "Disintegrator",
+      "variant": "Current",
+      "raw": "Maelstrom Staff",
+      "reason": "Base not matched; requirements unknown"
+    }
+  ],
+  "hashes": {
+    "amulet.lua": "de6e4e56c7da7260986b26c929c40ab2514e93b0ca75eb6ce5469a4fbb4b58ea",
+    "axe.lua": "dd94db64aaecd833f4c05b3bdec0bb96665d01ac1e98dcb1d1086ab26d800dcf",
+    "belt.lua": "6f47f7fb343ee787029e3a2d3f021961369b5a9f1854f26a56173d90c9eee018",
+    "body.lua": "06d6194d0d8177012ddeef8ae4c927e87cb4dc77586c1df87f838e584e2cd49b",
+    "boots.lua": "5507da0248788c85924d2acbb69f7b3b1b8270173a6af845cf28eccad2407f11",
+    "bow.lua": "e99480974a22488e12b420278e7486c93f6f3366e32ef68625c8accfdbab9f82",
+    "claw.lua": "551b8cc53e8829f3dbb9f19fa2bf018e4ae69de51cbe5192fcb22e486799b454",
+    "dagger.lua": "e3a4244088780a2ad0ca160addb2450bfe9535efeb1a8b2e713d9c42b3f57927",
+    "fishing.lua": "e8c7909bef398354309608bd7c47fbdb0b884a2857035bab936ebfec535ebe2f",
+    "flask.lua": "d0e4e867425741af28214e1573808fa1b9a958936cd8be6bf2e3191aeedd7047",
+    "gloves.lua": "6c927b9b2574c9f907d797d7ac05741371273f811da2b431185dc9fa96333fc1",
+    "graft.lua": "fce873d9e292821c75cf9bdeefc0a438468777dcf23406f2e8e843b068eb4342",
+    "helmet.lua": "9b28d7f1bea332cc731e334ae4cdcd546ae2369a586e443a91bc6916227eb3e0",
+    "jewel.lua": "2aa4734741ca7152b77e230eb0adf0d6a95ef6a1ed4f659aee04aa08332350b9",
+    "mace.lua": "c249c263d37c3779524722e88b7c7fb1c87c65c5b8ccd60a80c397b40ac8c8d8",
+    "quiver.lua": "794dfc14ef99fd364a7883ee35268fd4639dba661a83a4c2cdeeac202408cf8c",
+    "ring.lua": "0e7f3a0e04d2fea2fbda64c62c298130bfcf4672532325f5c87b7762bec46444",
+    "shield.lua": "77a9877f0b7f0f01f2e3b3c67c807ec3de4d9b252b1cad0aa576b6b283d838ef",
+    "staff.lua": "2d7884eb20f165bc30115aeb538def0697965622fe1ef5c5898c1adc8940efd0",
+    "sword.lua": "106bfc19d20631b2f1d73a87e92533697931318e2827334cd2b669b615f79a91",
+    "tincture.lua": "bfaa9b56eec127b958b3c23f25a8cce118d2e106a86d6aacb8b409a29335413f",
+    "wand.lua": "45ece7f9729353e325f9b857a1230f4cd307ae5f6b808574dc2b4708f25448dc"
+  },
+  "limitations": [
+    "Static long-string definitions only; dynamically generated Special Lua files are not executed or imported.",
+    "Base requirements are unmodified base requirements; unique requirement modifiers are retained as text.",
+    "Missing implicit definitions on bases are retained as IDs, not translated.",
+    "Snapshot completeness is not live-game completeness."
+  ]
+}

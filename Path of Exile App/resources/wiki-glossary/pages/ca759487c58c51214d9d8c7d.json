@@ -1,0 +1,33 @@
+{
+  "title": "Quartz Flask",
+  "pageId": 13217,
+  "revision": 1583802,
+  "timestamp": "2025-11-02T02:25:48Z",
+  "retrieved": "2026-11-14T10:57:38.768468+00:00",
+  "requested": [
+    "Quartz Flask",
+    "Quicksand",
+    "Quicksand ",
+    "Quicksilver Flask",
+    "RED BUFF",
+    "RENAME ME",
+    "Radiant Crusade",
+    "Radiant Crusade's Onslaught",
+    "Radiant Faith",
+    "Radiant Ground",
+    "Radiating Tempest",
+    "Raised Spider",
+    "Rakiata's Leadership",
+    "Rallied",
+    "Rallying Cry",
+    "Rat Tornado",
+    "Rats",
+    "Ravenous - Beast",
+    "Ravenous - Construct",
+    "Ravenous - Demon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Quartz Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility8\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 27\n|flask_duration                          = 6\n|buff_id                                 = flask_utility_phase\n|buff_value1                             = 1\n|buff_value2                             = 10\n|buff_stat_text                          = [[Phasing]]<br>+10% chance to [[Suppress]] [[Spell Damage]]\n|charges_max                             = 60\n|charges_per_use                         = 30\n|release_version                         = 1.0.0\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = The Silver Locket\n|quest_reward1_quest_id                  = a7q5\n|quest_reward1_act                       = 7\n|quest_reward2_type                      = quest\n|quest_reward2_quest                     = Safe Passage\n|quest_reward2_quest_id                  = a10q1\n|quest_reward2_act                       = 10\n}}\n{{status\n| name                   = Quartz Flask\n| type                   = Flask Effect\n|description = You have additional chance to Suppress Spell Damage and Phasing, allowing you to move through enemies\n}}\n\n'''Quartz Flask''' is a [[utility flask]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Gallery==\n<gallery>\nQuartz Flask effect.jpg|Quartz Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Now last '''6''' seconds (previously 4).\n* Now grants {{c|mod|10% chance to Suppress Spell Damage}}.\n}}\n{{Version history table row|3.0.0|\n* Now a quest reward of {{ql|The Silver Locket}} and {{ql|Safe Passage}}\n}}\n{{Version history table row|2.2.0|\n* Quartz Flasks, now lasts for 4 seconds (down from 5 seconds) and consume 30 of 60 charges (down from 40 of 60). \n* They now provide {{c|mod|10% Dodge and Spell Dodge}}, as well as [[Phasing]].\n}}\n{{Version history table row|1.1.0|\n* Sanctified Life Flask, Sanctified Mana Flask, Jade Flask, and Quartz Flask can now drop in all leagues.\n}}\n{{Version history table row|1.0.0|\n* Introduced to the game in the Domination and Nemesis leagues.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "bc56f0efa95eb8c22dc31d19967bc62183711befc06aec45edfc64e3bc54d010"
+}

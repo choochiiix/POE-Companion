@@ -1,0 +1,33 @@
+{
+  "title": "Rod of Detonation",
+  "pageId": 13927,
+  "revision": 1489415,
+  "timestamp": "2024-10-13T04:10:14Z",
+  "retrieved": "2026-11-14T10:57:41.165224+00:00",
+  "requested": [
+    "Righteous Fire",
+    "Righteous Lightning",
+    "Rigid Shell",
+    "Rigwald Wolf Barrage",
+    "Ritual Rune",
+    "Ritual of Dance",
+    "Ritual of Meditation",
+    "Ritual of Undeath",
+    "Rod of Detonation",
+    "Rolling Magma Emissions",
+    "Rongokurai's Boon",
+    "Rose Petals",
+    "Rosethorn Tincture",
+    "Rotten Bulwark",
+    "Ruby Flask",
+    "Ruin",
+    "Ruinous Burning Bond",
+    "Ruinous Chaotic Bond",
+    "Ruinous Chilling Bond",
+    "Ruinous Electrifying Bond"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Rod of Detonation\n|class_id                                = LabyrinthTrinket\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = What can be built, can be destroyed.\n|drop_level                              = 1\n|tags                                    = default\n|metadata_id                             = Metadata/Items/QuestItems/Labyrinth/Trinkets/RodOfDetonation\n|description                             = The next Font you hit will be killed instantly\n|release_version                         = 2.2.0\n}}\n{{status\n| name                   = Rod of Detonation\n| type                   = Buff\n}}\n'''Rod of Detonation''' is a [[Labyrinth trinket]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "b9aec667e9d90dde8fae1027e89ac174742121fd18af9f7009efb0d38dd62abd"
+}

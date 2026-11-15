@@ -1,0 +1,33 @@
+{
+  "title": "Culling strike",
+  "pageId": 4316,
+  "revision": 1673452,
+  "timestamp": "2026-07-13T06:39:16Z",
+  "retrieved": "2026-11-14T10:08:33.123671+00:00",
+  "requested": [
+    "Regeneration",
+    "Recovery",
+    "Reservation",
+    "Reservation efficiency",
+    "Low life",
+    "Full life",
+    "Recently",
+    "Nearby",
+    "Unaffected",
+    "Immunity",
+    "Avoidance",
+    "Lucky",
+    "Unlucky",
+    "Culling strike",
+    "Slayer",
+    "Berserk",
+    "Frenzy charge",
+    "Power charge",
+    "Endurance charge",
+    "Charge"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{about|the game mechanic|the support gem|Culling Strike Support}}\n\n'''Culling Strike''' (also known as '''culling''' or '''cull''') is a property that causes [[hit]]s to kill enemies left with 10% of maximum [[life]] or less.<ref>https://www.pathofexile.com/forum/view-thread/23987/page/3#p556037</ref><ref>https://www.pathofexile.com/forum/view-thread/1676002/filter-account-type/staff/page/3#p13842615</ref> \n\n==Mechanics==\nCulling strike is an on-hit effect that kills the target if its current [[life]] is 10% or less of its maximum life after [[receiving damage]]. A culling strike occurs even if the the hit deals no damage or had its damage fully mitigated (Ex. \"Avoid damage from hits\"), but not if the hit itself was avoided (e.g. [[evasion]] or [[dodge]]). Culling strike only cares about the target's life percentage and ignores [[energy shield]] and [[Guard skill|guard]] skills. A hit cannot cull if the damage of the hit kills the target.\n\nEnemies can be culled regardless of their [[rarity]], including bosses. However, it does not affect some enemies that have a scripted death, such as [[Uber Elder]] in its final phase, [[Beast (Bestiary)|beasts]] during Bestiary encounters, or [[Catarina, Master of Undeath]].\n\nAs culling is a property of hits, [[damage over time]] cannot cull.<ref name=\"1.0.2PatchNotes\" />\n\nCulling strike is not considered damage, and will never provide [[overkill damage]] for mechanics such as {{il|Herald of Ash}}.\n\nCertain similar effects also kill enemies at different life thresholds, such as {{psl|Headsman}} (aka \"[[Slayer]] cull\"\", 20%) and {{il|The Eternal Struggle}} (15%). These effects can proc effects that occur on culling strikes such as {{il|Goblinedge}}. However, it cannot proc the quality effect of {{il|Culling Strike Support}} if it does not meet the 10% threshold. It is possible for multiple thresholds of cull simultaneously if the hit reduces the target's life to below each threshold. For example, a hit that takes a target from 30% life to 8% life will simultaneously proc Headsman and {{il|Culling Strike Support}}'s quality effect.\n\n==Sources of culling strike==\n===Gems===\n{{Drop enabled gem table\n|tables=skill_stats_per_level\n|join=skill._pageID=skill_stats_per_level._pageID\n|where=\n  skill_stats_per_level.id LIKE \"%cull%\"\n  OR skill_stats_per_level.id LIKE \"%kill_enemy_on_hit_if_under%\"\n}}\n\n* {{il|Glacial Hammer}} has a similar effect to culling strike, but it only applies to [[frozen]] enemies that can be shattered, and kills at 33% or less life instead.\n\n===Mods===\nItem modifiers\n{{Modifier table\n|q_tables=mod_stats, mod_spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where=\n  mods.generation_type IN (1, 2, 5, 11, 14, 24, 28, 29)\n   AND mods.domain = 1 \n   AND mod_stats.id LIKE \"%cull%\"\n|stat_text=1\n|level=1\n|spawn_weights=1\n|generation_type=1\n}}\n\n<!--{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where=\n  mods.stat_text LIKE \"%culling_strike%\" AND spawn_weights.weight > 0\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type=1\n|group=1\n}}\n-->\n* [[Expedition]] monsters can receive the {{c|mod|Monsters Kill things with 20% or lower Life on Hit}} modifier from Remnants.\n\n===Unique items=== \n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=\n  item_stats.id LIKE \"%cull%\"\n  OR item_stats.id LIKE \"%kill_enemy_on_hit_if_under%\"\n  OR item_stats.id LIKE \"%kill_enemies_that%\"\n|level=1\n|stat=1\n|large=1\n}}\n\n==Passive skills==\n===Base passives===\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%culling_strike%\"\n}}\n===Ascendancy passives===\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%culling_strike%\" \n  OR passive_skill_stats.id LIKE \"%kill_enemy_on_hit_if_under_%\\%_life%\"\n}}\n\n=== Cluster jewel passives ===\n{{Passive skill table|large=1|q_where=passive_skills.id LIKE \"affliction%\" AND passive_skills.stat_text LIKE \"%culling%\"|stat_text=1}}\n\n==Mastery Effects==\n{{Query masteries|where=mastery_effects.stat_text_raw LIKE \"%Cull%\"}}\n\n==References==\n{{reflist|refs=\n<ref name=\"1.0.2PatchNotes\">[[version 1.0.2]] patch notes: \"On hit effects do not apply to damage over time.\"</ref>\n}}\n\n{{sister|poe2wiki}}\n\n[[Category:Game mechanics]]",
+  "sha256": "2046e8f9346c969c8f59c63dd76324af9db82bddc310d3159f557eedbc10ba9c"
+}

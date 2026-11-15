@@ -1,0 +1,33 @@
+{
+  "title": "Cold Damage Aura",
+  "pageId": 129819,
+  "revision": 1484222,
+  "timestamp": "2024-09-28T10:46:15Z",
+  "retrieved": "2026-11-14T10:57:15.864363+00:00",
+  "requested": [
+    "Chill Prevention",
+    "Chilling Aura",
+    "Chilling Barrier",
+    "Chilling Bond",
+    "Chilling Conflux",
+    "Chilling Vision",
+    "Chiropteran Procession",
+    "Choking Miasma",
+    "Chronos Statue Life Regen",
+    "Cinderflame",
+    "Cinders",
+    "Cinderswallow Urn",
+    "Clarity Aura",
+    "Coated in Azurite",
+    "Cogs of Disruption",
+    "Cold Aegis",
+    "Cold Beam",
+    "Cold Damage Aura",
+    "Cold Damage and Freeze",
+    "Cold Empowered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Cold Damage Aura\n|icon=Hatred skill icon.png\n|type=Buff\n|description=Allies deal additional cold damage\n|bonuses= Allies gain #% of Physical Damage as Extra Cold Damage\n}}\n\n'''Cold Damage Aura''' is a [[monster aura]]. It is granted by [[Chilling Totem]] and several other monsters.\n\n==Gallery==\n<gallery>\nFile:Cold Damage Aura.png|A Chilling Totem with the Cold Damage Aura and a monster affected by it\n</gallery>\n\n[[Category:Monster auras]]",
+  "sha256": "46990ded1033c9aa15932d6007a50a555f8d60198c76ffe8b4ed6cfa200b6f1f"
+}

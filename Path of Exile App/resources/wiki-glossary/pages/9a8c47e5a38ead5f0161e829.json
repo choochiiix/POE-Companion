@@ -1,0 +1,33 @@
+{
+  "title": "Tailwind",
+  "pageId": 16328,
+  "revision": 1493255,
+  "timestamp": "2024-12-22T05:56:05Z",
+  "retrieved": "2026-11-14T10:08:29.724244+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name = Tailwind\n| type = Buff\n| description = You are being granted Tailwind, increasing your Action Speed.\n}}\n\n'''Tailwind''' is a [[buff]] that grants the user 8% increased [[action speed]] for 4 seconds.\n\n==Mechanics==\nThe buff itself cannot stack, but the effects of Tailwind can be increased by modifiers to [[Buff Effect]], which can currently only be obtained through the use of {{il|Ichimonji}}, or Effect of Tailwind (e.g. {{psl|Gathering Winds}}).\n\nTailwind can exist both as a standalone buff, or as an Aura-like effect from Gathering Winds.\n\n==Sources of Tailwind==\n===Passive skills===\nThese are the [[passive skill]]s that are related to Tailwind:\n\n{{Query passive skills\n|where=passive_skill_stats.id LIKE \"%tailwind%\"\n}}\n\n==Unique Items==\nThe following [[unique item]]s are related to Tailwind:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%Tailwind%\" or items.name=\"Triumvirate Authority\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Item Modifiers==\n{{modifier table\n|q_tables=mod_stats, spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=spawn_weights._pageID\n|q_where= mod_stats.id LIKE \"%tailwind%\" AND domain = 1\n|stat_text=1\n|spawn_weights=1\n|level=1\n|generation_type=1\n|tags= 1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* The '''Tailwind''' buff now grants 8% increased Action Speed (from 10%).\n}}\n{{Version history table row|3.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{sister|poe2wiki}}\n\n[[Category:Auras]]\n[[Category:Buffs]]",
+  "sha256": "d966b9ea12b6275cfd07fb41c78b8e576177f57679c711bdc271c59f2aad357d"
+}

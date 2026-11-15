@@ -1,0 +1,33 @@
+{
+  "title": "Abandoned Wealth",
+  "pageId": 72,
+  "revision": 1682429,
+  "timestamp": "2026-07-26T23:26:20Z",
+  "retrieved": "2026-11-14T10:57:08.595476+00:00",
+  "requested": [
+    "A Chilling Wind",
+    "Abandoned Wealth",
+    "Abberath's Fury",
+    "Absorption Charges",
+    "Abyssal Cry",
+    "Abyssal Tempest",
+    "Abyssal Wasting",
+    "Accuracy and Crits Aura",
+    "Accursed Prism",
+    "Acid Pit",
+    "Active Offering",
+    "Added Knockback",
+    "Additional Impale",
+    "Additional Life Recovery",
+    "Additional Totems",
+    "Aegis of the Sea",
+    "Afarud Shrine",
+    "Afarud Shrine Monster",
+    "Affliction Charges",
+    "Affliction Regeneration"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Abandoned Wealth\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = When the world burned, the greedy burned with it, while the clever left as paupers.\n|drop_level                              = 35\n|tags                                    = currency_divination, currency_basic_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardAbandonedWealth\n|stack_size                              = 5\n|description                             = {{c|currency|3x {{iil|Exalted Orb}}}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 2.0.0\n}}\n\n'''Abandoned Wealth''' is a [[divination card]]. A set of five can be exchanged for a stack of three {{il|Exalted Orb|Exalted Orbs}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n{{Atlas div card|Mao Kun}}\n}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Mineral Pools|Underground Sea}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Vaal Temple|Vault}}\n* Drop level changed from 68 to 35. {{Undocumented}}\n}}\n{{Version history table row|3.23.0|\n* Verified that Abandoned Wealth can drop anywhere in Mao Kun, not just from Booty Chests. {{Divcord}}\n}}\n{{Version history table row|3.18.0|\n* Abandoned Wealth no longer appears to drop from Precinct or Arsenal (sample size 750+ card drops), making it exclusive to Mao Kun. {{Divcord}}\n}}\n{{Version history table row|3.15.0|\n* Abandoned Wealth no longer appears to drop in Precinct.<ref>https://www.reddit.com/r/pathofexile/comments/tbfthh/thoughts_on_farming_precinct_map/</ref><ref>https://www.reddit.com/r/pathofexile/comments/aqidf0/question_abandoned_wealth_no_longer_dropped_in/</ref><ref>https://www.reddit.com/r/pathofexile/comments/ab4ubv/is_abandoned_wealth_avaiable_in_precinct_or_wiki/edddgvl/</ref><ref>https://www.reddit.com/r/pathofexile/comments/a8085k/does_precinct_drop_abandoned_wealth_card/ec8ln6k/</ref><ref>https://www.reddit.com/r/pathofexile/comments/a8085k/does_precinct_drop_abandoned_wealth_card/ec8ipkn/</ref><ref>https://www.reddit.com/r/pathofexile/comments/a6y90x/results_of_100_volcano_and_100_precinct_betrayal/</ref> {{Divcord}}\n}}\n{{Version history table row|3.2.0|\n* Many Divination Cards have had their drop weightings and locations adjusted. You should now find a better variety of cards throughout areas introduced in The Fall of Oriath. Some maps which had several high-value cards have had some of those cards moved elsewhere.\n* (Player speculation) Abandoned Wealth has been removed from the [[Vault Map]] drop table. It can now drop in [[Precinct Map]] and [[Arsenal Map]].\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}",
+  "sha256": "6ce1d3c5cd9d8895f60ac19877da50a85a9bcf0be3b6b22f9ee1fc6de7facae4"
+}

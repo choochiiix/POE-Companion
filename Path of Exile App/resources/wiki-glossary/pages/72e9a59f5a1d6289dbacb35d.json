@@ -1,0 +1,33 @@
+{
+  "title": "Port",
+  "pageId": 12719,
+  "revision": 1642566,
+  "timestamp": "2026-04-06T19:03:17Z",
+  "retrieved": "2026-11-14T10:11:20.813613+00:00",
+  "requested": [
+    "Ballista Totem",
+    "fortification",
+    "petrified",
+    "of Lightning",
+    "avoid",
+    "Crimson Dance",
+    "Acrobatics",
+    "Sacrifice of Blood",
+    "rune",
+    "Energy Blade",
+    "Temporal Rift",
+    "Tornado",
+    "Runic",
+    "Alva",
+    "Port",
+    "Flasks",
+    "Far Shot",
+    "Race",
+    "pierces",
+    "Kineticism"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Query area infoboxes|where=areas.id=\"MapWorldsPort\"}}\n\n'''Port Map''' is a [[map]] [[area]].\n\n{{Atlas status|area_id=MapWorldsPort}}\n\n==Layout==\n\n==Encounters==\n===Boss===\n[[Unravelling Horror]]\n\nThe fight consists of 4 stages – upon death a smaller version with less hitpoints and an additional ability is spawned.\n\n===Boss video===\n\n{{Monster item drops|metadata_id=Metadata/Monsters/MassSkeleton/MassSkeletonMapBoss5}}\n\n{{Area item drops|area_id=MapWorldsPort}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.5.0|\n* The Atlas of Worlds has been shuffled. Most maps have changed tier and location within the Atlas.\n* Many map bosses have also shifted around. Some have been retired and replaced!\n}}\n{{Version history table row|3.1.0|\n* Added 32 new maps including two new Unique maps.\n* The entire Atlas has been reworked. Many map names have changed, as have their balance, tier and position on the Atlas. Many maps have also had their boss fights swapped or completely reworked.\n* The rules used to generate monsters in endgame maps have been significantly reworked and rebalanced around the rate at which we expect players to reliably clear out the map. In general, narrow, linear maps will contain fewer total monsters than maps with complex layouts. We will be closely monitoring and adjusting the balance of this change and expect to make further changes and improvements over time.\n}}\n{{Version history table row|3.0.0|\n* The Quay map has been renamed Port.\n}}\n{{Version history table row|2.4.0|\n* We've added thirty new maps and dozens of new map bosses.\n}}\n{{Version history table end}}\n\n{{Navbox maps}}",
+  "sha256": "9c7deb78c821cf8494500dc053eb28f98297486d74e04ad82d1aa89608d5a280"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Ally",
+  "pageId": 416,
+  "revision": 1660805,
+  "timestamp": "2026-07-08T21:42:37Z",
+  "retrieved": "2026-11-14T10:10:01.717680+00:00",
+  "requested": [
+    "veiled mod",
+    "defence",
+    "Monster modifier",
+    "quiver",
+    "Foulborn",
+    "Weapon",
+    "Tincture",
+    "enchantment",
+    "skill gems",
+    "modifier",
+    "Enduring Cry",
+    "allies",
+    "exerting",
+    "exert",
+    "Ally",
+    "corpse",
+    "support skill gem",
+    "Crucible",
+    "Keystone passive skill",
+    "Call to Arms"
+  ],
+  "aliases": [
+    "Allies"
+  ],
+  "missing": false,
+  "wikitext": "'''Ally''' refers to any creature on the player's side. They are subject to effects granted by equipment and skills, which have in their description \"grants (effect) to nearby allies\". Allies include:\n* Players in your party\n* [[Minion]]s\n* [[Totem]]s\n* [[Mirage Archer Support|Mirage Archers]], [[Mirage Warriors]], [[Mirage Saviours]] and [[Mirage Chieftains]]\n\nThe player is '''not''' their own ally; if an effect states simply \"allies\" (for example {{il|Kingmaker}}), it will not affect the source the effect originates from. Effects that affect both the source and their allies specify \"you and allies\" (for example {{il|Vitality}}).\n\nThe term '''party members''' refers only to players in a team, which affect the properties of [[unique]] [[equipment]]s and [[passive skill]]s. Minions and other creatures are not party members.\n\n==Auras==\n{{main|Aura}}\nAll auras affect both the player and their allies in a certain radius. This radius can be increased by passive skills.\n\n==Gems==\n===Skill gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Active Skill Gem\" AND (skill.description LIKE \"%allies%\" OR skill.stat_text LIKE \"%allies%\")}} [[skill gem]]s that directly mention allies. Additionally, {{il|Conversion Trap}} temporarily converts an enemy to an ally.\n\n{{Drop enabled gem table\n|where=items.class_id=\"Active Skill Gem\"\n  AND (skill.description LIKE \"%allies%\" OR skill.stat_text LIKE \"%allies%\")\n}}\n\n===Support gems===\n{{Drop enabled gem table\n|where=items.class_id=\"Support Skill Gem\"\n  AND (skill.description LIKE \"%allies%\" OR skill.stat_text LIKE \"%allies%\")\n}}\n\n==Unique items==\nItems that affect allies, excluding [[Aura]] items:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=item_stats._pageID=items._pageID\n|where=\n     items.stat_text LIKE \"%ally%\"\n  OR items.stat_text LIKE \"%allies%\"\n|large=1\n|level=1\n|stat=1\n}}\n\nItems that affect only party members:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=item_stats._pageID=items._pageID\n|where=\n     items.stat_text LIKE \"%party member%\"\n|large=1\n|level=1\n|stat=1\n}}\n\n==Passive skills==\nThese passive skills that interact with Allies:\n{{Query passive skills\n|where=\n     passive_skill_stats.id LIKE \"%ally%\"\n  OR passive_skill_stats.id LIKE \"%allies%\"\n  OR passive_skill_stats.id LIKE \"%party_member%\"\n}}\n\n{{sister|poe2wiki}}\n\n[[Category:Allies| ]]",
+  "sha256": "ba30b97a881cc0439d071571978337de78356a2648209bb63eadf09d3f0475e1"
+}

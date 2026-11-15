@@ -1,0 +1,33 @@
+{
+  "title": "The Doctor",
+  "pageId": 16800,
+  "revision": 1682391,
+  "timestamp": "2026-07-26T23:25:21Z",
+  "retrieved": "2026-11-14T10:57:48.399663+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = The Doctor\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = \"They said I needed my head examined, but I'd rather just take yours.\" - Klopek the Cannibal\n|drop_level                              = 75\n|tags                                    = jewellery_divination, unique_divination, unique_jewellery_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheDoctor\n|stack_size                              = 8\n|description                             = {{c|unique|{{iil|Headhunter}}}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 2.0.0\n|recipe1_part1_item_name                 = The Nurse\n|recipe1_part1_amount                    = 8\n|recipe1_description                     = {{c|card|The Doctor}}\n}}\n\n'''The Doctor''' is a [[divination card]]. A set of eight can be exchanged for {{il|Headhunter}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nThe Doctor was created by supporter [https://www.pathofexile.com/account/view-profile/KungFusedMike-3670 KungFusedMike].<ref name=\"Supporter Attribution\" />\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n{{Atlas div card|Burial Chambers|Sepulchre}} (Tier 7+)\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Sepulchre|Spider Forest}} (Tier 7+)\n* Drop level changed from 68 to 75. {{Undocumented}}\n}}\n{{Version history table row|3.21.0|\n* {{il|The Brawny Battle Mage}}, The Doctor, {{il|The Incantation}}, and {{il|The Witch}} can now be found in the {{il|The Putrid Cloister}}, {{il|Sepulchre Map|Sepulchre}}, {{il|Waste Pool Map|Waste Pool}}, and {{il|Phantasmagoria Map|Phantasmagoria}} Maps.\n}}\n{{Version history table row|3.17.0|\n* This card's drop level requirement was changed. {{Undocumented}}\n* Drop weightings and minimum area levels for the vast majority of cards have not been changed, but drop weightings for a very small number of cards have been reduced in cases where the number of maps they're available from has greatly increased.\n* A longstanding bug in the code determining area level restrictions for some divination card drops has been fixed. This means that cards intended to have a high area level requirement (mostly ones that grant item level 100 items) will no longer fluctuate wildly in availability from league to league.\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Supporter Attribution\">{{cite web|author=frenshi|date=March 27, 2018|title=Custom content (Unique, Div Card, Forum Avatar) design experience|url=https://www.reddit.com/r/pathofexile/comments/87i16e/custom_content_unique_div_card_forum_avatar/dwd2g3a/?st=jf9tl8eo&sh=0c4d640e|publisher=Path of Exile Subreddit|accessdate=March 27, 2018}}</ref>\n}}\n\n{{Navbox Items}}\n\n[[Category:Divination cards created by supporters]]",
+  "sha256": "ab30d0ca71397af56ccd9f46feb1fd7cbc46833ec2bf73d507ab0079e1311f57"
+}

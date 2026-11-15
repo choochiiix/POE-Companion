@@ -1,0 +1,33 @@
+{
+  "title": "Beast",
+  "pageId": 136770,
+  "revision": 1595055,
+  "timestamp": "2025-11-17T11:03:58Z",
+  "retrieved": "2026-11-14T10:11:11.218525+00:00",
+  "requested": [
+    "Discipline",
+    "flasks",
+    "Abyss Jewel",
+    "Unwavering Stance",
+    "Hits can't be evaded",
+    "party",
+    "cast spee",
+    "Monster resistances",
+    "monster category",
+    "Ravenous",
+    "physical damage reduction",
+    "item rarity",
+    "Unique Monsters",
+    "Endurance Charges",
+    "Frenzy Charges",
+    "Power Charges",
+    "Damage reduction",
+    "Unique monsters",
+    "Beast",
+    "Carrion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the monster category}}\n\n'''Beast''' (or \"Animal\") is a category of [[monster]]s that refer to animals and wildlife in [[Wraeclast]].\n\n__TOC__\n\n==Beast monster types==\n* [[Ape]]\n** [[Ape chieftain|Chieftain]]\n* [[Bull]]\n* [[Carrion insect]]\n* [[Chimeral]]\n* [[Crab]]\n* [[Devourer (monster type)|Devourer]]\n* [[Gem frog]]\n* [[Goatman (monster type)|Goatman]]\n* [[Goliath (monster type)|Goliath]]\n* [[Hellion]]\n* [[Lurcher]]\n* [[Maw]]\n* [[Retch (monster type)|Retch]]\n* [[Rhoa]]\n* [[Sand spitter (monster type)|Sand spitter]]\n** [[Shield crab (monster type)|Shield crab]]\n* [[Sea witch]]\n** [[Spawn (monster type)|spawn]]\n* [[Snake]]\n* [[Spider]]\n* [[Ursa]]\n** [[Gargantuan]]\n** [[Plummeting ursa (monster type)|Plummeting]]\n* [[Wasp]]\n* [[Watcher]]\n\n==Related items==\n{{Item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Beast%\" OR items.stat_text LIKE \"%Animal%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\n{{Passive skill table\n|q_where=passive_skills.stat_text LIKE \"%beast%\" AND passive_skills.ID NOT LIKE \"%Atlas%\" \n|large=1\n|stat_text=1\n}}\n\n[[Category:Monster types]]\n[[Category:Beasts| ]]\n{{Navbox Bestiary}}\n{{sister|poe2wiki}}}",
+  "sha256": "46280b85461b613b9ecbeac715fb80a5279de61e453f175f280ff6ad222e40b3"
+}

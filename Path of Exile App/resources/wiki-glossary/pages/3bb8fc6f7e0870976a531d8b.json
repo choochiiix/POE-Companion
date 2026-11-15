@@ -1,0 +1,33 @@
+{
+  "title": "Approaching Flames",
+  "pageId": 129645,
+  "revision": 1649443,
+  "timestamp": "2026-05-22T23:41:24Z",
+  "retrieved": "2026-11-14T10:11:17.309100+00:00",
+  "requested": [
+    "Swords",
+    "Maces",
+    "Sceptres",
+    "hits",
+    "endurance charges",
+    "defences",
+    "inventory",
+    "overkill damage",
+    "frozen",
+    "Unique Jewel",
+    "Aspect",
+    "Guard Skills",
+    "Combat Rush",
+    "Phantasm",
+    "Flame-Touched",
+    "Approaching Flames",
+    "Trauma",
+    "Pact skill",
+    "Drenched",
+    "Mania"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=ApproachingFlames}}\n\n'''Approaching Flames''' is a skill granted by the unique item {{il|Annihilation's Approach}}.\n\nFlame-Touched players gain {{stl|Adrenaline (buff)|Adrenaline}} but take fire damage each second.\n\n[[Category:Active Skill]]",
+  "sha256": "ca22bd99265a81dd238e0ee5cf338f7f36718730b8ab66c77c66bdd02271afe8"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Divine Beam",
+  "pageId": 5205,
+  "revision": 1362553,
+  "timestamp": "2023-07-15T09:04:54Z",
+  "retrieved": "2026-11-14T10:57:19.961712+00:00",
+  "requested": [
+    "Digestive Acid",
+    "Diluting Touch",
+    "Discipline Aura",
+    "Disgorge",
+    "Divination Distillate",
+    "Divine Beam",
+    "Divine Blast of Radiance",
+    "Divine Charge",
+    "Divine Flare",
+    "Divine Ire",
+    "Divine Shrine",
+    "Divine Tempest",
+    "Doedre's Madness",
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering",
+    "Doomed",
+    "Doryani's Conflagration",
+    "Double Strike",
+    "Drained Essence"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Divine Beam\n| type                   = Debuff\n| description = You are taking fire damage the longer you are in the beam.\n}}\n{{status\n| name                   = Divine Beam\n| icon = Ignite status icon.png\n| type                   = Debuff\n| description = You are taking fire damage over time.\n}}\n'''Divine Beam''' is a [[debuff]] from the monster skill of the same name. It is used by [[High Templar Avarius|Innocence, God-Emperor of Eternity]].\n\nThe debuff has two icons. The main one lasts longer and does not disappear immediately upon leaving the beam.\n==See also==\n* {{stl|Divine Flare}}, monster skill that also deals burning damage. The beam is vertical instead.\n* {{il|Divine Ire}}, player skill that deals physical and lightning damage by default\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]\n[[Category:Monster skills]]",
+  "sha256": "e67988487b87b012c90ab26bfa127ffd6e0eeced634ea954a4ddf648320fe1d1"
+}

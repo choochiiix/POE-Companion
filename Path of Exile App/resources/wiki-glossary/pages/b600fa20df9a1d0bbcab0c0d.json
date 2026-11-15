@@ -1,0 +1,33 @@
+{
+  "title": "The Scavenger",
+  "pageId": 17272,
+  "revision": 1682554,
+  "timestamp": "2026-07-26T23:29:30Z",
+  "retrieved": "2026-11-14T10:57:48.402692+00:00",
+  "requested": [
+    "The Black Reaping",
+    "The Bull's Horns",
+    "The Coming Storm",
+    "The Conduit",
+    "The Darkest Dream",
+    "The Demoness",
+    "The Doctor",
+    "The Enmity Divine",
+    "The Enthusiasts",
+    "The Escape",
+    "The Feast",
+    "The Flow Untethered",
+    "The Fracturing Spinner",
+    "The Grey Winds Blessing",
+    "The Immortal Will",
+    "The Impaled",
+    "The Life Thief",
+    "The Lunaris Priestess",
+    "The Scavenger",
+    "The Shattered Divinity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Redirect|Scavenger|the ascendancy class|Scavenger (ascendancy class)}}\n\n{{Item\n|rarity_id                               = normal\n|name                                    = The Scavenger\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Take small pieces of things and then assemble them together\n|drop_level                              = 62\n|tags                                    = armour_divination, unique_divination, unique_armour_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheScavenger\n|stack_size                              = 8\n|description                             = {{c|unique|{{iil|Carcass Jack}}}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 2.4.0\n}}\n\n'''The Scavenger''' is a [[divination card]]. A set of eight can be exchanged for {{il|Carcass Jack}}.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Chateau}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Channel|Chateau}}\n* Drop level changed from 47 to 62. {{Undocumented}}\n}}\n{{Version history table row|3.18.0|\n** The Scavenger now also drops from Gnar, Eater of Carrion. No longer drops from The Hundred Foot Shadow due to drop level requirements. {{Divcord}}\n}}\n{{Version history table row|3.17.0|\n* Many divination cards that drop in maps now drop in additional map areas. In most cases their existing drop locations have not changed, and those cases have not been patch noted individually. Atlas reshuffles will mean that some of these locations will not be available in any given league, but checks are in place to ensure that every divination card available in maps always has at least one map present on the Atlas.\n** The Scavenger now also drops from Stonebeak, Battle Fowl. {{Divcord}}\n}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "6fb4801c7ebde67879e7eaaff44df16f87e4d13f1e311b2750ed38b61d605eb5"
+}

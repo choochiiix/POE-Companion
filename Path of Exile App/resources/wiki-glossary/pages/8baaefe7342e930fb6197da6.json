@@ -1,0 +1,33 @@
+{
+  "title": "Fearful",
+  "pageId": 6434,
+  "revision": 1648600,
+  "timestamp": "2026-05-11T13:28:00Z",
+  "retrieved": "2026-11-14T10:57:23.116635+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Fearful\n| type                   = Debuff\n| icon = Chill status icon.png\n| description = You are taking Cold Damage over time for each manifestation of fear near you\n}}\n'''Fearful''' is a [[debuff]] that deals [[Cold damage|cold]] [[damage over time]]. It is caused by the \"manifestation of fear\" near the player character. A manifestation of fear is a water bubble–like, non-targetable object in quicksilver color that appears in several boss arenas and other areas. The orbs then slowly pursue the player and deal cold damage over time when in close proximity.\n\n==Sources==\n* [[Sea of Isolation]] (arena of [[The Constrictor]])\n* The Pools of Terror in [[The High Gardens]] (arena of [[Yugul, Reflection of Terror]]), and the map variant in [[Terrace]] Map\n* [[Gardens]] Map boss arena ([[Sallazzang]])\n* several other area\n\n==Trivia==\nThe debuff shared the same status icon graphic with [[chill]] ailment, [[chilled ground]], etc. However, since Fearful is not an ailment, it cannot be avoided by the passive skills that grant the player character to avoid elemental ailment.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|rel=before|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "424cfb04e52ecf5d310483beb9ece8da29f30229fdb8eaedb2fb54e3b31ef68c"
+}

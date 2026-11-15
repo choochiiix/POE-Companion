@@ -1,0 +1,33 @@
+{
+  "title": "Gold Flask",
+  "pageId": 76585,
+  "revision": 1583800,
+  "timestamp": "2025-11-02T02:25:44Z",
+  "retrieved": "2026-11-14T10:57:26.335266+00:00",
+  "requested": [
+    "Gathering Lightning",
+    "Ghastly Scythe",
+    "Ghorr's Magnificence",
+    "Ghostflame Graveyard",
+    "Glimpse of Infinity",
+    "Gloom Shrine",
+    "Glorious Madness",
+    "Glowing Orb",
+    "Gluttony",
+    "Goddess Beam",
+    "Gold Flask",
+    "Golden Descry",
+    "Golden Lantern's Glow",
+    "Grace Aura",
+    "Grace Period",
+    "Granite Flask",
+    "Grasping Chains",
+    "Grasping Hooks",
+    "Grasping Nightshade",
+    "Grasping Ornaments"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Gold Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility16\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 27\n|flask_duration                          = 5\n|buff_id                                 = flask_utility_rarity\n|buff_value1                             = 30\n|buff_stat_text                          = 30% increased [[IIR|Rarity of Items]] found\n|charges_max                             = 80\n|charges_per_use                         = 60\n|release_version                         = 3.15.0\n}}\n{{status\n| name                   = Gold Flask\n| type                   = Flask Effect\n| description = You find items of increased Rarity\n}}\n\n'''Gold Flask''' is a [[utility flask]] base type.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 3.50 seconds instead.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''5''' seconds (previously 3).\n}}\n{{Version history table row|3.15.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "9b26308d15ed4e385dd5a09903449f658ede157267078018fcebd0d1e7d86a91"
+}

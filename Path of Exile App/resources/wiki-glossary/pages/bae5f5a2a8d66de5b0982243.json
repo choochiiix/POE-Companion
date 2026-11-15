@@ -1,0 +1,33 @@
+{
+  "title": "Will of the Lords",
+  "pageId": 136468,
+  "revision": 1680433,
+  "timestamp": "2026-07-25T22:14:02Z",
+  "retrieved": "2026-11-14T10:11:24.427366+00:00",
+  "requested": [
+    "corrupted item",
+    "unique monsters",
+    "Impact",
+    "Overwhelm",
+    "savage hit",
+    "Will of the Lords",
+    "jewel socket",
+    "Skeleton archer",
+    "marauder",
+    "one-handed",
+    "flask charge",
+    "shatter",
+    "Rain of Arrows",
+    "Frozen",
+    "ignited",
+    "shocked",
+    "scorched",
+    "sapped",
+    "burn",
+    "Assassin"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=BreachHandTrap}}\n\n'''Will of the Lords''' is a [[trap]] [[spell]] granted by {{il|Hand of the Lords}}.\n\n__TOC__\n\n==Sources==\n{{il|Hand of the Lords}} grants the level 30 version of the skill.\n\nThe [[Vestigial implicit]] mod grants the level 20 version of the skill. \n\n==Skill functions and interactions==\nThis skill throws a [[trap]] that creates a rift, summoning a giant hand that deals [[physical]] [[spell]] [[area]] damage around it. This skill also gains 25% of physical damage [[gained as]] extra fire/cold/lightning/chaos damage per red/green/blue/white [[socket]] on the [[gloves]] respectively. This skill deals 20% more damage with hits and ailments per [[curse]] on the target.\n\n==Skill level progression==\n{{Skill progression\n|skill_id=BreachHandTrap\n|c1_abbr             = Physical<br>Damage\n| c1_header          = Deals x to y Physical Damage\n| c1_pattern_extract = Deals (%d+) to (%d+) Physical Damage\n| c1_pattern_value   = %d&nbsp;to&nbsp;%d\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* Introduced to the game in Keepers league.\n}}\n{{Version history table end}}\n\n[[Category:Active Skill]]\n{{Navbox Skills}}",
+  "sha256": "4c67258c157e90268eb2dc5c4dcf5c563c1dd6d9b6cb4226528afd4808995ab4"
+}

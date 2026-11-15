@@ -1,0 +1,33 @@
+{
+  "title": "Fed Upon",
+  "pageId": 6443,
+  "revision": 1194035,
+  "timestamp": "2022-07-25T04:31:16Z",
+  "retrieved": "2026-11-14T10:57:23.118138+00:00",
+  "requested": [
+    "Excommunicated",
+    "Executioner",
+    "Executioner's Presence",
+    "Explosive Retch",
+    "Exposed to Corruption",
+    "Exsanguinate",
+    "Exterminating Flame",
+    "Extinguish",
+    "Eye of Malice",
+    "Fading Flesh",
+    "Fairgraves' Tricorne",
+    "Fanatic Charges",
+    "Farric Presence",
+    "Farrul's Farric Presence",
+    "Farrul's Fertile Presence",
+    "Farrul's Wild Presence",
+    "Faster Run",
+    "Fearful",
+    "Fearless",
+    "Fed Upon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name = Fed Upon\n| type = Debuff\n| icon = ElderSiphon.png\n| description = You are taking Physical Damage over time.\n}}\n\n[[File:Fed Upon ingame.png|thumb|right|Elder siphon skill and Fed Upon status icon. Note that the Ring of Death is not part of the siphon skill.]]\n\n'''Fed Upon''' is a [[debuff]] that deals [[physical]] [[damage over time]]. It is inflicted by [[the Elder]]'s siphon and super siphon skills. It is paired with two more debuffs named [[Sprouting Madness]] and [[Crystalised Fear]] respectively.\n\nIn both skills, Elder will first either slow the player character or completely freeze them, by applying [[Sprouting Madness]] or [[Crystalised Fear]]. In both cases [[the Elder]] will cast a fan-shaped [[Area of effect|Area of Effect]], in which the player takes [[physical]] [[damage over time]]. '''Fed Upon''' can be dealt with by wearing a pair of {{il|Kaom's Roots}}, which makes the player unaffected by [[Sprouting Madness]]. However [[Kaom's Roots]] does not negate [[Crystalised Fear]].\n\nThe [[Physical damage|physical]] [[damage over time]] coming from '''Fed Upon''' can of course be dealt with by high [[Regeneration]], good mitigation or various other means.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "86a53bdfe48b23bb6e35aba19bb44c9d9479233cfc3d8fd8101534debf20b07e"
+}

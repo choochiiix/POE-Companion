@@ -1,0 +1,35 @@
+{
+  "title": "The Iron Fortress",
+  "pageId": 8847,
+  "revision": 1675033,
+  "timestamp": "2026-07-19T06:58:38Z",
+  "retrieved": "2026-11-14T10:09:57.336584+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [
+    "Iron Fortress"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = The Iron Fortress\n|aliases                                 = Iron Heart\n|class_id                                = Body Armour\n|base_item                               = Crusader Plate\n|explicit1                               = BlockChancePer50StrengthUnique__1\n|explicit2                               = ExtraRollsSpellBlockUnique__1\n|explicit3                               = StrengthUnique__13_\n|explicit4                               = LocalIncreasedPhysicalDamageReductionRatingPercentUnique__12 <!-- LocalIncreasedPhysicalDamageReductionRatingPercentUnique__15 -->\n|explicit5                               = ReducedMovementVelocityUnique__2\n|explicit6                               = StrengthDamageBonus3Per10Unique__1\n|flavour_text                            = \"Stand steadfast in the face of destruction.<br>The Council cannot afford to falter.\"<br>- Mauritius, the Iron Heart\n|release_version                         = 3.1.0\n}}\n\n'''The Iron Fortress''' is a [[unique]] {{il|Crusader Plate}}.\n\n==Mechanics==\n* {{c|mod|Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength}}: This mod will also apply to [[Iron Grip]] and [[Iron Will (keystone passive)|Iron Will]]/{{il|Iron Will Support}}.\n** The Iron Fortress combined with Iron Will and {{il|Crown of Eyes}} will cause strength to grant 4.5% increased spell damage per 10 strength.\n\n{{Item acquisition}}\n\n{{Foulborn}}\n\n{| class=\"wikitable sortable\"\n|+\n|-\n! Unique item !! Original modifier !! {{c|foulborn|Foulborn modifier}}\n|-\n| The Iron Fortress || {{c|mod|[[Modifier:BlockChancePer50StrengthUnique~~1|+1% Chance to Block Attack Damage per 50 Strength]]}} || {{c|foulborn|[[Modifier:MutatedUniqueBodyStr9SpellBlockPer50Strength|+1% Chance to Block Spell Damage per 50 Strength]]}}\n|-\n| The Iron Fortress || {{c|mod|[[Modifier:ExtraRollsSpellBlockUnique~~1|Chance to Block Spell Damage is Unlucky]]}} || {{c|foulborn|[[Modifier:MutatedUniqueBodyStr9AttackBlockLuck|Chance to Block Attack Damage is Unlucky]]}}\n|}\n\n==Legacy variants==\nThe Iron Fortress (ex-Iron Heart) has a [[Legacy item|legacy variant]].\n\n[[Version 3.17.0]] renamed all newly dropped Iron Heart into The Iron Fortress and receives new mods. However, in permanent league, the legacy name, legacy mods and legacy flavour text are retained. The current version of The Iron Fortress is not considered fated and drops generically.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.17.0|\n* {{c|mod|(8-12)% Chance to Block Attack Damage}}\n* (80-100)% increased Armour\n* 10% reduced Movement Speed\n* {{c|mod|Cannot Block Spell Damage}}\n* Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength\n}}\n{{Legacy variant table end}}\n\nThe legacy flavour text is {{c|flavour|\"The Council have a great many secrets. Some are better kept that way, Cospri.\" - Mauritius, the Iron Heart}}\n\nUnlike other renamed uniques, the legacy Iron Heart has its own slot in [[Unique Collection Tab]].\n\n==Design attribution==\nThe Iron Fortress was created by supporter [https://www.pathofexile.com/account/view-profile/LostArtz LostArtz].<ref name=\"Announcement\"/>\n\n==Version history==\nBefore the removal of the [[prophecy]] system in [[version 3.17.0]], Iron Heart (afterward renamed \"The Iron Fortress\") could be upgraded to {{il|page=The Iron Fortress (fated)}} by fulfilling the prophecy, {{il|Battle Hardened}}.\n\n{{Version history table header}}\n{{Version history table row|3.17.0|\n* Removed the [[Prophecy]] mechanic from the game, and moved many of its rewards to other content.\n* '''Iron Heart''' has been renamed to '''The Iron Fortress'''. It no longer has \"8-12% Chance to Block Attack Damage\" or \"Cannot Block Spells\". It now has \"+1% Chance to Block Attack Damage per 50 Strength\", \"Chance to Block Spell Damage is Unlucky\", and \"+60-120 to Strength\". Existing items are unaffected by these changes. The old, [[fated]] version of {{il|page=The Iron Fortress (fated)}} can no longer be acquired.\n}}\n{{Version history table row|3.5.0|\n* Added 3D art.\n}}\n{{Version history table row|3.2.0|\n* Iron Heart can now able to be fated into {{il|page=The Iron Fortress (fated)}}.\n}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Announcement\">{{cite web|author=lostartz|date=November 29, 2017|title=3.1 is shaping up to be a great patch|url=https://www.reddit.com/r/pathofexile/comments/7g9p68/31_is_shaping_up_to_be_a_great_patch/|publisher=Path of Exile Subreddit|accessdate=November 29, 2017}}</ref>\n}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique body armours with 3D art]]\n[[Category:Unique items created by supporters]]",
+  "sha256": "07fcee5b8b56a440fe22c14c4d9e51e873e10de411208e2e3017e94e0ac0a465"
+}

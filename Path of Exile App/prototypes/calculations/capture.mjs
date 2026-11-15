@@ -1,0 +1,37 @@
+import assert from 'node:assert/strict';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+const { chromium } = createRequire(import.meta.url)(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const browser = await chromium.launch({channel:'msedge',headless:true});
+try {
+  const page = await browser.newPage({viewport:{width:1440,height:1100}, reducedMotion:'reduce'});
+  const errors=[], external=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('request',request=>{if(/^https?:/.test(request.url()))external.push(request.url())});
+  await page.goto(new URL('./index.html',import.meta.url).href);
+  await page.waitForTimeout(500);
+  await page.screenshot({path:fileURLToPath(new URL('./previews/character-overview.png',import.meta.url)),fullPage:true});
+  await page.getByRole('button',{name:'Life',exact:false}).filter({has:page.locator('strong')}).click();
+  assert.equal(await page.locator('#detail-title').innerText(),'Life');
+  await page.getByRole('button',{name:'Combat assumptions'}).click();
+  const dialog=page.getByRole('dialog',{name:'Combat assumptions'});
+  assert.equal(await dialog.isVisible(),true);
+  await page.screenshot({path:fileURLToPath(new URL('./previews/combat-assumptions.png',import.meta.url))});
+  await dialog.press('Escape');
+  assert.equal(await dialog.isVisible(),false);
+  assert.equal(await page.locator('#config').evaluate(node=>node===document.activeElement),true);
+  await page.getByRole('button',{name:'Equipment comparison',exact:true}).click();
+  await page.screenshot({path:fileURLToPath(new URL('./previews/equipment-comparison.png',import.meta.url)),fullPage:true});
+  await page.getByRole('button',{name:'Character overview',exact:true}).click();
+  await page.locator('[data-detail="damage"]').click();
+  await page.setViewportSize({width:390,height:844});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.screenshot({path:fileURLToPath(new URL('./previews/character-mobile.png',import.meta.url)),fullPage:true});
+  await page.getByRole('button',{name:'Equipment comparison',exact:true}).click();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.getByRole('button',{name:'Combat assumptions'}).click();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.getByRole('dialog',{name:'Combat assumptions'}).press('Escape');
+  assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
+  console.log('Prototype preview checks passed: desktop + 390px reflow, stat drilldown, comparison switching, modal Escape/focus return, reduced motion, no page errors or HTTP requests.');
+} finally { await browser.close(); }

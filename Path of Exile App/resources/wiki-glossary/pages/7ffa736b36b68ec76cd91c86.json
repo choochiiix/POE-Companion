@@ -1,0 +1,33 @@
+{
+  "title": "Stibnite Flask",
+  "pageId": 15754,
+  "revision": 1488346,
+  "timestamp": "2024-10-13T03:30:57Z",
+  "retrieved": "2026-11-14T10:57:46.017711+00:00",
+  "requested": [
+    "Spirit Infusion",
+    "Spirit Offering",
+    "Spirit's Blessing",
+    "Spiritual Thirst",
+    "Sporebloom Tincture",
+    "Sprouting Madness",
+    "Staff Mastery",
+    "Static Shrine",
+    "Static Strike",
+    "Static Tether",
+    "Steel Flask",
+    "Steel Shard",
+    "Steel Ward",
+    "Steelskin",
+    "Stibnite Flask",
+    "Stinging Tempest",
+    "Stolen Power",
+    "Stolen modifiers",
+    "Stone",
+    "Stone Gaze"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Stibnite Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility12\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|implicit1                               = UtilityFlaskSmokeCloud\n|required_level                          = 27\n|flask_duration                          = 8\n|buff_id                                 = flask_utility_smoke\n|buff_value1                             = 20\n|buff_stat_text                          = 20% more [[Evasion Rating]]\n|charges_max                             = 60\n|charges_per_use                         = 40\n|release_version                         = 2.2.0\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = Safe Passage\n|quest_reward1_quest_id                  = a10q1\n|quest_reward1_act                       = 10\n}}\n{{status\n| name                   = Stibnite Flask\n| type                   = Flask Effect\n| description = You have more Evasion Rating\n}}\n\n'''Stibnite Flask''' is a [[utility flask]] base type. It creates a [[smoke cloud]] on usage.\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 5.50 seconds instead.\n\n==Gallery==\n<gallery>\nStibnite Flask effect.jpg|Stibnite Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''8''' seconds (previously 5).\n}}\n{{Version history table row|3.15.0|\n* Stibnite Flask no longer grants 100% increased Evasion Rating. It now grants 20% more Evasion Rating. Now consumes 40 of 60 Charges on use (previously 10 of 30). Now requires level 40 to use (previously level 14).\n* Now a quest reward of {{ql|Safe Passage}}\n* No longer a quest reward of {{ql|The Key to Freedom}}\n}}\n{{Version history table row|3.0.0|\n* Now a quest reward of {{ql|The Key to Freedom}}\n}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "d4aaf600dc495a41c7f70442e9ea55bb2ed5c880432f492f083f507aa1a4f6e9"
+}

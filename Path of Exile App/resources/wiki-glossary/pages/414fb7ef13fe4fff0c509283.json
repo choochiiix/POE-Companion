@@ -1,0 +1,33 @@
+{
+  "title": "Hinder",
+  "pageId": 8212,
+  "revision": 1660573,
+  "timestamp": "2026-07-07T15:17:22Z",
+  "retrieved": "2026-11-14T10:08:28.926096+00:00",
+  "requested": [
+    "Life",
+    "Mana",
+    "Rage",
+    "Strength",
+    "Dexterity",
+    "Intelligence",
+    "Block",
+    "Spell suppression",
+    "Dodge",
+    "Stun",
+    "Stun threshold",
+    "Knockback",
+    "Blind",
+    "Maim",
+    "Hinder",
+    "Taunt",
+    "Intimidate",
+    "Unnerve",
+    "Withered",
+    "Impale"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Hinder\n| type                   = Debuff\n| description            = Your Movement Speed is reduced.\n}}\n\n'''Hinder''' is a [[debuff]] that reduces [[movement speed]] on the affected target. A creature can only be affected by one Hinder at a time; if a creature is hindered by multiple sources, only the strongest Hinder takes effect.\n\nHinder is applied by [[spell]]s, just like [[maim]] is by [[attack]]s. Since maim and hinder are different debuffs, an enemy can be affected by both simultaneously.<ref name=\"220Patch\"/>\n\nBy default, hindered enemies have 30% reduced [[movement speed]], and the debuff lasts for 4 seconds. Some unique items, skill gems, and flask modifiers have another specified debuff value and duration in their modifier text, however.\n==Skills==\n===Active skill gems===\n{{Drop enabled gem table\n|where = items.class_id=\"Active Skill Gem\"\n  AND skill.description LIKE \"%hinder%\"\n}}\n\n===Item skills===\n* {{sl|id=AspectOfTheSpider}}\n* {{sl|Gravity Sphere}}\n\n==Unique items==\nThe table below lists [[unique items]] that are related to hinder:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id like \"%hinder%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related mods==\n===Area modifiers===\n{{Query spawnable modifiers\n|where =mods.stat_text LIKE \"%hinder%\" AND domain IN ( \"5\", \"17\", \"18\", \"19\", \"22\")\n|stat_text=1\n|level=1\n|generation_type =1\n|domain=1\n|spawn_weights =1\n}}\n===Scourge modifiers===\nScourge mechanic is not yet added to the game\n{{Query spawnable modifiers\n|where =mods.stat_text LIKE \"%hinder%\" AND mods.generation_type IN ( \"24\", \"25\") AND domain = 1\n|stat_text=1\n|level=1\n|generation_type =1\n|domain=1\n|spawn_weights =1\n}}\n===Synthesis implicit===\nThese Synthesis implicit currently only able to find in Synthesis unique (available as core mechanic in temporary league) or added via [[Harvest league]] mechanics or rare/magic/normal [[legacy variant|legacy]] items in [[permanent leagues]]: \n{{Modifier table\n|q_where =mods.stat_text LIKE \"%hinder%\" AND mods.id LIKE \"%SynthesisImplicit%\" \n|stat_text=1\n|level=1\n|domain=1\n}}\n===Eldritch implicit===\nThese Eldritch implicit can only be crafted using [[Eldritch currency]]:\n{{Query spawnable modifiers\n|where =mods.stat_text LIKE \"%hinder%\" AND mods.generation_type IN ( \"28\", \"29\")\n|stat_text=1\n|level=1\n|generation_type =1\n|domain=1\n|spawn_weights =1\n}}\n===Flask mods===\n{{Query spawnable modifiers\n|where =mods.stat_text LIKE \"%hinder%\" AND domain = \"2\"\n|stat_text=1\n|level=1\n|generation_type =1\n|domain=1\n|spawn_weights =1\n}}\n===Jewel mods===\n{{Query spawnable modifiers\n|where =mods.stat_text LIKE \"%hinder%\" AND domain IN ( \"10\", \"13\")\n|stat_text=1\n|level=1\n|generation_type =1\n|domain=1\n|spawn_weights =1\n}}\n===Misc===\n{{Query spawnable modifiers\n|where =mods.stat_text LIKE \"%hinder%\" AND mods.generation_type NOT IN (\"10\", \"24\", \"25\", \"28\", \"29\")  AND domain NOT IN (\"2\", \"5\", \"10\", \"12\" , \"13\", \"17\", \"18\", \"19\", \"22\")\n|stat_text=1\n|level=1\n|generation_type =1\n|domain=1\n|spawn_weights =1\n}}\n\n==Related helmet enchantments==\nThe list below displays Lab [[enchantment]]s that are related to hinder:\n{{Modifier table\n|q_where = mods.generation_type=\"10\"\n AND (\n      mods.stat_text LIKE \"%hinder%\"\n)\n|stat_text=1\n|level=1\n|spawn_weights =1\n|labyrinth=1\n}}\n\n==Passive skills==\n===Base passive skills===\nThe list below displays [[passive skills]] that are related to Hinder:\n{{Query base passive skills\n|where=\n  passive_skill_stats.id = \"hinder\"\n}}\n===Ascendancy passive skills===\nThe list below displays Ascendancy [[passive skills]] that are related to Hinder:\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%hinder%\"\n}}\n===Cluster jewel passives===\nThe following [[cluster jewel]]-only passives are related to Hinder:\n{{Passive skill table\n|q_where=\n  passive_skills.id LIKE \"affliction%\"\n  AND passive_skills.stat_text LIKE \"%hinder%\"\n|large=1\n|stat_text=1\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to Hinder:\n{{Query masteries}}\n\n===Tattoos===\n{{Drop enabled item table\n|tables = tattoos\n|join = items._pageID = tattoos._pageID\n|where = items.class_id=\"StackableCurrency\"\n  AND tattoos.target IS NOT NULL\n  AND items.description LIKE \"%hinder%\"\n|large=1\n|description=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.1.0|\n* Spells that reduce movement speed now do so with a new debuff called \"Hinder\". You can only have one Hinder effect on you at once, so multiple movement-slowing spells will not stack. This is currently used on {{il|Infernal Cry|Abyssal Cry}} and the new {{il|Wither}} skill.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"220Patch\">[[version 2.2.0]] patch notes</ref>\n}}\n\n{{sister|poe2wiki}}\n\n[[Category:Debuffs]]",
+  "sha256": "3e2a2fee5753e5ce6d906a6d2b90d2b3a0c78145877f24c855b958afc0a6f3f5"
+}

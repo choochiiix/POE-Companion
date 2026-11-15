@@ -1,0 +1,33 @@
+{
+  "title": "Eternal Youth",
+  "pageId": 6124,
+  "revision": 1647933,
+  "timestamp": "2026-04-19T05:59:18Z",
+  "retrieved": "2026-11-14T10:10:00.822598+00:00",
+  "requested": [
+    "Doom Blast",
+    "Shockwave",
+    "Guard skill",
+    "Blink",
+    "skills",
+    "repeat",
+    "Acceleration Shrine",
+    "monster modifier",
+    "Critical Strike Chance",
+    "Passive Skills",
+    "Historic",
+    "mana regen",
+    "cold",
+    "attack damage",
+    "Unleash",
+    "Corpse",
+    "Mana before Life",
+    "flask",
+    "Eternal Youth",
+    "talisman"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|q_where = id=\"eternal_youth_keytone2692\"}}\n\n'''Eternal Youth''' is a [[keystone passive skill]] which causes [[energy shield]] recharge to apply to [[life]], but halves your life [[regeneration]] and life [[leech]].\n\n==Mechanics==\nYour life recharge rate is dependent on your total life pool, not your [[energy shield]] pool.\n\nAs with energy shield, losing life to [[damage]] will interrupt the recharge. Taking damage to energy shield or mana will not interrupt life recharge. Reserving life with {{il|Dissolution of the Flesh}} will interrupt recharge if the reservation lowers current life; reservation of ''missing'' life does not interrupt. \n\nModifiers that prevent energy shield recharge, such as {{psl|Ghost Reaver}} and {{il|Shavronne's Revelation}}, do not prevent life recharge.\n\nModifiers to energy shield recharge, such as {{C|mod|faster start of energy shield recharge}} and {{C|mod|increased energy shield recharge rate}}, apply to life recharge instead. {{psl|id=wicked_ward_keystone2342}} prevents life recharge from being interrupted.\n\nThe less Life Regeneration Rate mod on the keystone does not lower energy shield regeneration when {{psl|Zealot's Oath}} keystone is allocated.\n\n==Location==\nEternal Youth is located on the west side of the tree, on the intersection between the Scion, Marauder, and Templar paths.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Scion||8\n|-\n|Duelist||10\n|-\n|Marauder||10\n|-\n|Ranger||14\n|-\n|Templar||14\n|-\n|Shadow||18\n|-\n|Witch||18\n|}\n\nThis keystone can also be obtained from the tree by using a [[legacy variant|legacy]] {{il|Glorious Vanity}} jewel with modifier {{c|mod|Bathed in the blood of (100–8000) sacrificed in the name of '''Zerphi'''}}. The jewel will conquer any keystones within the radius (size: 1500) of the jewel.\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Eternal%Youth%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Videos==\n<youtube description=\"Eternal Youth mechanics and interactions\">2pUncJf2WRg</youtube>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Timeless Jewel Keystone passives have become a popular feature for many builds, but are prohibitively difficult to acquire (especially without trade). We've moved some of the most build-defining Keystones out of the Timeless Jewels and into the tree itself. These Keystones have been added to the tree: [[The Agnostic]], [[Glancing Blows]], [[Supreme Ego]], [[Wind Dancer]] and Eternal Youth.\n* Timeless Jewels -- New keystones have been added to replace the five that are now available on the passive skill tree. The new ones are: [[The Traitor (keystone passive)|The Traitor]], [[Supreme Ostentation]], [[Chainbreaker]], [[Transcendence (keystone passive)|Transcendence]], [[Immortal Ambition]]. Existing Timeless Jewels will retain the old keystones, but if you reroll them with a Divine Orb they will be able to reveal these new keystones.\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game (grants from {{il|Glorious Vanity}}'s {{c|mod|Bathed in the blood of (100–8000) sacrificed in the name of Zerphi}} mod).\n}}\n{{Version history table end}}\n\n[[Category:Keystone passive skills]]\n{{sister|poe2wiki}}",
+  "sha256": "f8a04cc2574c88ff9838e40eb879456e148622b46b9c3f7b71c30eca65c77e41"
+}

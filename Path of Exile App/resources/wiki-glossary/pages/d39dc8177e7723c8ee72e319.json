@@ -1,0 +1,33 @@
+{
+  "title": "Costly Potency",
+  "pageId": 3971,
+  "revision": 1192869,
+  "timestamp": "2022-07-25T00:16:26Z",
+  "retrieved": "2026-11-14T10:57:17.464334+00:00",
+  "requested": [
+    "Corundum Flask",
+    "Coruscating Elixir",
+    "Corvine Procession",
+    "Costly Might",
+    "Costly Potency",
+    "Council of Cats",
+    "Covered In Ash",
+    "Covered In Frost",
+    "Covered in Spiders",
+    "Covered in Webs",
+    "Covetous Shrine",
+    "Crab Aspect",
+    "Craiceann's Call",
+    "Craiceann's Torment",
+    "Craicic Presence",
+    "Creeping Agony",
+    "Creeping Darkness",
+    "Creeping Frost",
+    "Creeping Ice",
+    "Crown of the Tyrant"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Costly Potency\n| description = {{c|normal|You are faster, leech Life from Elemental Damage and deal increased Elemental Damage, but are taking Fire Damage over time}}\n| bonuses = {{c|mod|#% increased attack/cast/movement speed<br/>#% of Elemental Damage Leeched as Life<br/>#% increased Elemental Damage<br/>15% of maximum Life and Energy Shield as Fire Damage per second}}\n}}\n'''Costly Potency''' is a hybrid [[buff]] and [[debuff]]. As of [[version 3.14.0]], it is granted from an invulnerable [[totem]] that itself spawns from a modifier of the [[Trials of Chaos]].\n\nThe status icon of this hybrid is placed in the top row of the screen, the same row as [[charge]], buffs, [[aura]]s, [[minion]]s, [[flask]] effects, {{stl|Rage}} and etc.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* [[Costly Might]]\n\n[[Category:Buffs]]\n[[Category:Debuffs]]",
+  "sha256": "aee1d24b2c9dbcbf48b90f30a554781352c3d9b9be6f79c952a0b0eaea92fc61"
+}

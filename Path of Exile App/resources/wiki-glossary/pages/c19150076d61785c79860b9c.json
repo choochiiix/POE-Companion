@@ -1,0 +1,33 @@
+{
+  "title": "Heretical Flare",
+  "pageId": 8152,
+  "revision": 1194906,
+  "timestamp": "2022-07-25T07:40:59Z",
+  "retrieved": "2026-11-14T10:57:27.908617+00:00",
+  "requested": [
+    "Heartstopper",
+    "Heat",
+    "Her Blessing",
+    "Her Embrace",
+    "Her Mask",
+    "Herald Of Agony",
+    "Herald Of Ash",
+    "Herald Of Ice",
+    "Herald Of The Hive",
+    "Herald Of Thunder",
+    "Herald of Purity",
+    "Heretic's Ire",
+    "Heretical Flare",
+    "Hexing Shrine",
+    "High-Impact Mines",
+    "Hinder Immunity",
+    "Hinekora's Aid",
+    "Hit by Explosive Arrow",
+    "Hit by Infernal Blow",
+    "Hit by Lightning Arrow"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Heretical Flare\n| type                   = Debuff\n| description = You are taking Physical Damage over time from a Heretical Flare\n}}\n'''Heretical Flare''' is a [[debuff]] from the monster skill of the same name. It deals [[physical]] [[damage over time]]. This is NOT a [[bleeding]] ailment.\n\nIt is used by the boss [[Cato, Defiler of Light]] and its map variants [[Barthol, the Corruptor]]. In the first phase of the boss (as [[Cato, Scholar of Light]] or [[Barthol, the Pure]]), he uses {{stl|Divine Flare}} instead.\n\nIt is also existed in the boss room of [[Avarius, Reassembled]] ([[The Desecrated Chambers]]) and his/its map variant [[Woad, Mockery of Man]] ({{il|Defiled Cathedral Map}}), which has a fixed pattern and does not chase the player and their minion.\n\nThe side-boss of [[Kitava]], [[Shaman of the Feast]], also use this skill.<ref>[[Monster:Metadata/Monsters/KitavaBoss/KitavaMinionBoss6]]</ref> The side-boss has multiple variant, which one variant summon a parallel Heretical Flares.\n\nHeretical Flare is in fact coded as a minion.<ref>[[Monster:Metadata/Monsters/InvisibleFire/InvisibleKitavaCannon]]</ref> The \"monster\" is not targetable and does not have a nameplate. It has a skill that deals the actual damage. For [[Avarius, Reassembled]]'s case, it is known as [[Skill:InvisibleIonKitavaCannonWickerman|InvisibleIonKitavaCannonWickerman]] internally.<ref>[[Monster:Metadata/Monsters/InvisibleFire/InvisibleKitavaCannonMoveDaemon]]</ref> \n\n==Monsters==\nThe following [[monster]]s summon Heretical Flare skills:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, skill_ids\n|where=(skill_ids HOLDS LIKE \"%KitavaCannon%\" OR skill_ids HOLDS LIKE \"%CannonParallelKitava%\" ) AND name NOT IN (\"Invisible\")\n|limit=100\n|order by=name\n}}\n\n\nThe following \"[[monster]]s\" use Heretical Flare (or similar) skills:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, metadata_id, skill_ids\n|where=skill_ids HOLDS LIKE \"%InvisibleIonKitavaCannon%\" \n\n|limit=100\n|order by=name\n}}\n\n==See also==\n* {{stl|Galvanic Flare}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n\n[[Category:Debuffs]]\n[[Category:Monster skills]]",
+  "sha256": "f70097fb7b3dbf6245d9a5ac0e9deeb954cc2c61d2e617ddbd4138f5d14d7eac"
+}

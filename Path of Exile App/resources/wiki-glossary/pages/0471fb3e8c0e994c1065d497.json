@@ -1,0 +1,33 @@
+{
+  "title": "Divine Flare",
+  "pageId": 5217,
+  "revision": 1605965,
+  "timestamp": "2026-01-24T03:04:59Z",
+  "retrieved": "2026-11-14T10:57:19.961712+00:00",
+  "requested": [
+    "Digestive Acid",
+    "Diluting Touch",
+    "Discipline Aura",
+    "Disgorge",
+    "Divination Distillate",
+    "Divine Beam",
+    "Divine Blast of Radiance",
+    "Divine Charge",
+    "Divine Flare",
+    "Divine Ire",
+    "Divine Shrine",
+    "Divine Tempest",
+    "Doedre's Madness",
+    "Doedre's Suffering",
+    "Doedre's Torment",
+    "Doedre's Withering",
+    "Doomed",
+    "Doryani's Conflagration",
+    "Double Strike",
+    "Drained Essence"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Divine Flare\n| type                   = Debuff\n| description = You are taking Burning Damage from a Divine Flare\n}}\n'''Divine Flare''' is a [[debuff]] from the monster skill of the same name. It is used by the boss [[Dawn, Harbinger of Solaris]] and its map variants [[Jorus, Sky's Edge]] and [[Opid, Helial's Herald]]. The debuff deals [[burning damage]] ([[fire]] [[damage over time]]).\n\nIt is also used by another unique monster [[Cato, Scholar of Light]] (and his map variant [[Barthol, the Pure]]), but with different internal id: [[Skill:BlackguardClericBossHolyCannon|BlackguardClericBossHolyCannon]]. When Cato/Barthol changed to second phase as [[Cato, Defiler of Light]] ([[Barthol, the Corruptor]]) he uses {{stl|Heretical Flare}}.\n\nUnlike its storyline variant, [[Suncaller Asha]] ({{il|Park Map}}) also uses Divine Flare.\n\nNote that the vertical fire beam in the [[Solaris and Lunaris]] boss fight, it does not have the Divine Flare status icon despite looking similar.\n\nDivine Flare is in fact coded as a minion.<ref name=DivineFlareDawn/> The \"monster\" is not targetable and does not have a nameplate. It has a skill that deals the actual damage. For [[Dawn, Harbinger of Solaris|Dawn]] case, it is known as [[Skill:InvisibleIonHolyCannonDawn|InvisibleIonHolyCannonDawn]] internally.<ref name=DivineFlareDawn>[[Monster:Metadata/Monsters/InvisibleFire/InvisibleHolyCannonMoveDaemon]]</ref> While Dawn only acts as the AI that interact with the Divine Flare AI.\n==Monsters==\nThe following [[monster]]s summon Divine Flare skill or use skill that command Divine Flare to move:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, skill_ids\n|where=(skill_ids HOLDS LIKE \"%MoveDaemonIonCannon%\" OR skill_ids HOLDS LIKE \"%HolyCannon%\") AND name NOT IN (\"Daemon\", \"Invisible\" , \"Shaman of the Feast\") \n\n|limit=100\n|order by=name\n}}\n\nThe following \"[[monster]]s\" use Divine Flare (or similar) skills:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, metadata_id, skill_ids\n|where=skill_ids HOLDS LIKE \"%InvisibleIonHolyCannon%\" \n\n|limit=100\n|order by=name\n}}\n\n==See also==\n* {{stl|Galvanic Flare}}\n* {{stl|Divine Beam}}- uses by Innocence fight\n\n==References==\n{{reflist}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.4.1|\n* Suncaller Asha's '''beams of holy fire''' will no longer create Beyond Portals when they expire.\n}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]\n[[Category:Monster skills]]",
+  "sha256": "c63da6eaff5de5e2670a24f5af31087e0f32e0eb1303d392c5d13658279a6446"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Summon Greater Harbinger of Focus",
+  "pageId": 16020,
+  "revision": 1704268,
+  "timestamp": "2026-11-08T13:50:08Z",
+  "retrieved": "2026-11-14T10:10:04.218815+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfFocusUber}}\n\n'''Summon Greater Harbinger of Focus''' is a [[skill]] granted by {{il|The Immortal Will}}.\n\n==Skill Functions and Interactions==\nSummons a harbinger that is immortal and will occasionally apply \"The Immortal Will\" on the player character while the player character is channeling. \"The Immortal Will\" is a buff that lasts 4 seconds, with a cooldown of 8 seconds, and grants the following benefits:\n\n*Immunity to elemental [[ailments]]\n*[[Stun]] immunity\n* 20% less damage taken\n*Unaffected by [[Curses]]\n\nThe duration of the buff can be lengthened through the use of effect-lengthening buffs such as [[Shaper's Presence]] from [[Solstice Vigil]].\n\n[[Temporal Chains]] is another effect-lengthening effect but as '''The Immortal Will''' makes you immune to [[curses]], you cannot be affected with [[Temporal Chains]] while you have the buff.\n\nAll \"Summon Harbinger\" skills share a maximum of 1 Summoned Harbinger.\n\n==Drop Restrictions==\nThe '''Summon Greater Harbinger of Focus''' skill can only be acquired by equipping [[The Immortal Will]].\n\n\n==See also==\n* {{sl|Summon Harbinger of Focus}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "d2904684ae28698b1c93e3455110ee29e04a82003d9ac6754d940379db3a5c45"
+}

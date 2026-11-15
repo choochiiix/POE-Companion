@@ -1,0 +1,33 @@
+{
+  "title": "Horned Scarab of Glittering",
+  "pageId": 122849,
+  "revision": 1705074,
+  "timestamp": "2026-11-12T11:00:07Z",
+  "retrieved": "2026-11-14T10:57:28.673534+00:00",
+  "requested": [
+    "Hit by Power Siphon",
+    "Hit by Viper Strike",
+    "Hoarfrost",
+    "Holy Relic's Boon",
+    "Holy Water",
+    "Honed Claws",
+    "Horned Scarab of Glittering",
+    "House of Mirrors",
+    "Humility",
+    "Hunger of Ghorr",
+    "Hunter Shrine Monster",
+    "Hunter's Lesson",
+    "Hunter's Reward",
+    "Hunter's Shrine",
+    "Hunters' Cunning",
+    "Hyrri's Reward",
+    "Ice Golem",
+    "Icicle Mines",
+    "Ignite Immunity",
+    "Ignite Prevention"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Historical content|All scarabs have been replaced with [[thread]]s in [[Version 3.30.0]].}}\n{{Item\n|rarity_id                               = normal\n|name                                    = Horned Scarab of Glittering\n|class_id                                = MapFragment\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Wealth flows to those that shine brightest.\n|drop_level                              = 81\n|tags                                    = scarab, uber_scarab, mythic_scarab, default\n|metadata_id                             = Metadata/Items/Scarabs/ScarabUber6\n|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.\n|stack_size                              = 20\n|description                             = Players in Area gain increased Item Rarity for each Monster<br>slain, up to 400%, decaying over time\n|stack_size_currency_tab                 = 10000\n|is_in_game                         = false\n|removal_version                         = 3.30.0\n|map_fragment_limit                      = 1\n|map_fragment_bonus1                     = ScarabUber6\n|release_version                         = 3.24.0\n|recipe1_description                     = Random {{c|white|Horned Scarab}} x6\n|recipe1_part1_item_name                 = The Silly Boy\n|recipe1_part1_amount                    = 9\n}}\n\n'''Horned Scarab of Glittering''' is a [[scarab]].\n\n==Mechanics==\nKilling monsters will grant a temporary invisible buff that increases player [[IIR|item rarity]] based on the rarity of the enemy, similar to {{il|Whakawairua Tuahu}}:\n\n{| class=\"wikitable\"\n|+ IIR scaling\n|-\n! Monster Rarity !! IIR\n|-\n| Normal || 10%\n|-\n| Magic || 30%\n|-\n| Rare || 50%\n|-\n| Unique || 200%\n|}\n\nThis bonus is capped at 200% increased Rarity from kills and decays at a rate of 10% per second. The bonus does not decay past the IIR of your character excluding these buffs.\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.30.0|\n*Scarabs have been removed from the game. A new item type, Threads, have been added in their place.\n*Existing Scarabs will be converted to either a Thread related to that specific Scarab content, or a Frayed Thread.\n}}\n{{Version history table row|3.26.0|\n* Horned Scarab of Glittering now has Players in Area gain increased Item Rarity for each Monster slain, up to 400%, decaying over time (from up to 200%. No longer grants Item Quantity. Note the decay rate is no longer described as recently, as it was never over 4 seconds but was 20 seconds from the maximum value)\n}}\n{{Version history table row|3.24.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "217e421f9b60e4630c7f0d2ce7eeb983df2c2b033935adbbe366587947c120f7"
+}

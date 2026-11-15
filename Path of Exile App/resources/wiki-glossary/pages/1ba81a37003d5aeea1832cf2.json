@@ -1,0 +1,33 @@
+{
+  "title": "Soul Ripper",
+  "pageId": 15380,
+  "revision": 1648119,
+  "timestamp": "2026-04-26T14:55:34Z",
+  "retrieved": "2026-11-14T10:57:45.182550+00:00",
+  "requested": [
+    "Soul Catcher",
+    "Soul Link",
+    "Soul Ripper",
+    "Soulchill",
+    "Soulfire",
+    "Soulrend",
+    "Spectral",
+    "Spectral Pack",
+    "Spectral Swiftness",
+    "Speed Aura",
+    "Speed Gale",
+    "Speed Randomisation",
+    "Spellslinger",
+    "Spider Aspect",
+    "Spider's Web",
+    "Spike Pinned",
+    "Spinning Blades",
+    "Spiral Test Cheat",
+    "Spirit Charges",
+    "Spirit Containment"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Soul Ripper\n|class_id                                = UtilityFlask\n|base_item                               = Quartz Flask\n|explicit1                               = FlaskExtraChargesUnique__2_\n|explicit2                               = FlaskLoseChargesOnNewAreaUnique__1\n|explicit3                               = FlaskVaalConsumeMaximumChargesUnique__1\n|explicit4                               = FlaskVaalGainSoulsAsChargesUnique__1_\n|flavour_text                            = \"What care have I for their pain? They're already dead.\"<br>- Atalui, Vaal Priestess\n|release_version                         = 3.3.0\n|is_drop_restricted                      = true\n|recipe1_description                     = Upgraded via the Altar of Sacrifice found in [[the Temple of Atzoatl]]'s [[Apex of Ascension]] room\n|recipe1_part1_item_name                 = Soul Catcher\n|recipe1_part1_amount                    = 1\n|recipe1_part2_item_name                 = Vial of the Ghost\n|recipe1_part2_amount                    = 1\n|recipe2_description                     = {{c|unique|Soul Ripper}}\n|recipe2_part1_item_name                 = The Damned\n|recipe2_part1_amount                    = 6\n}}\n\n'''Soul Ripper''' is a [[unique]] {{il|Quartz Flask}}.\n\n== Interactions ==\n\n=== % Reduced Flask Charge Used ===\nThe Vaal Souls gained are will be the actual flask charges used. So if you have a 100 flask version and you have 15% reduced flask charges used you will gain 85 Vaal Souls. \n\n=== % Chance of flask not using charges ===\nThis will gain you souls even when no charges are used.\n\n=== % Increased Flask Effect ===\nIncreased flask effect will not increase the Vaal Souls gained.\n\n=== Multiple Vaal Skills ===\nSouls can be allocated to multiple Vaal skills. \n\nIf you have 2 Vaal skills with zero souls, and a 60 charges/souls flask, the souls will be shared between both skills, so you'll get near 30 souls for each.\n\nWith one full Vaal skill, and one empty Vaal skill, the souls go only to the empty skill.\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Legacy variants==\nSoul Ripper has a [[legacy variant]].\n\n{{legacy variant table header}}\n{{legacy variant table row|3.10.0|\n* {{c|mod|100% increased Charges used}}\n* {{c|mod|Vaal Skills deal (30-40)% more Damage during Effect}}\n* {{c|mod|Vaal Skills used during effect do not apply Soul Gain Prevention}}\n* {{c|mod|Gains no Charges during effect of any Soul Ripper Flask}}\n}}\n{{Legacy variant table end}}\n\nEven using a legacy {{il|Soul Catcher}}, the [[Altar of Sacrifice]] will upgrades the item to the current variant of Soul Ripper, instead of the legacy version.\n\n==Alternate artwork==\n{|\n| [[File:Soul Ripper Relic inventory icon.png|78px]] || [[Foil]] version from the [[Timeworn Reliquary]]\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0|\n* Soul Ripper has been reworked. It now has -40 to +90 maximum charges and consumes maximum charges on use, granting Vaal Souls equal to the consumed charges. It now loses all charges on entering a new area. Existing versions are unaffected.\n}}\n{{Version history table row|3.3.0|\n* Introduced to the game in [[Incursion league]].<ref name=\"Reveal\"/>\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Reveal\">{{cite web|author=Bex_GGG|date=May 31, 2018|title=Vials drop from the temple boss and can be used to transform Incursion Unique Items|url=https://www.pathofexile.com/forum/view-thread/2150618|publisher=Official Path of Exile Forums|accessdate=May 31, 2018}}</ref>\n}}\n\n{{Navbox Unique Items}}",
+  "sha256": "e5d9fe7571b5258b2a7e9eb647afed72cc614819d9ba23d6df70cdf5580bebc5"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Off-hand equipment",
+  "pageId": 111472,
+  "revision": 1493306,
+  "timestamp": "2024-12-25T21:12:13Z",
+  "retrieved": "2026-11-14T10:11:10.310495+00:00",
+  "requested": [
+    "Vaal",
+    "Veiled modifier",
+    "off-hand",
+    "implicit modifier",
+    "Summon Spectral Wolf",
+    "ground effects",
+    "Bleed",
+    "aspect",
+    "rare",
+    "suffix",
+    "Belts",
+    "Bear Trap",
+    "Despair",
+    "Frenzy",
+    "Molten Strike",
+    "Barrage",
+    "Lightning Strike",
+    "Glacial Cascade",
+    "Kinetic Blast",
+    "Lightning Arrow"
+  ],
+  "aliases": [
+    "Off-hand"
+  ],
+  "missing": false,
+  "wikitext": "'''Off-hand equipment''' is a sub-category of [[equipment]] that are equipped in the off-hand slot (right weapon slot), typically alongside other [[weapon]]s, to provide offensive or defensive benefits through [[affix|modifiers]].\n\n* [[Quiver]]s can only be equipped while holding a [[bow]].\n* [[Shield]]s can be equipped while [[unarmed]] or with [[one-handed weapon]]s.\n\n{{Navbox Off-hands}}\n{{sister|poe2wiki=Off Hand}}\n\n[[Category:Off-hands| ]]",
+  "sha256": "07532f516c1c2798777fb3e28149bdbe099b6d8b12464f8f152a2c52e222371b"
+}

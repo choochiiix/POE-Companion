@@ -1,0 +1,33 @@
+{
+  "title": "Gale Force",
+  "pageId": 7046,
+  "revision": 1619384,
+  "timestamp": "2026-03-01T09:50:43Z",
+  "retrieved": "2026-11-14T10:57:25.575050+00:00",
+  "requested": [
+    "Frenzied",
+    "Fright Mask",
+    "Frigid Beam",
+    "Frigid Roar",
+    "Frontal Proximity Shield",
+    "Frost Bomb",
+    "Frost Nova",
+    "Frost Shield",
+    "Frostbite",
+    "Frozen Damage Increase",
+    "Frozen Ground",
+    "Fulgurite Tincture",
+    "GREEN BUFF",
+    "Gale Force",
+    "Galvanic Field",
+    "Galvanic Flare",
+    "Galvanizing Tempest",
+    "Gambler's Greed",
+    "Garb of the Ephemeral",
+    "Garukhan's Sandstorm"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name        = Gale Force\n| type        = Counter\n| description = {{c|white|Winds gather around you.}}\n}}\n'''Gale Force''' is a counter, itself has no effect. However, [[Gathering Winds]] [[ascendancy passive skill]] of the [[Deadeye]], which grants Gale Force, scales the effect of {{stl|Tailwind}} per Gale Force. The notable ascendancy passive skill behind the [[Gathering Winds]], [[Wind Ward]], further augment the player per Gale Force.\n\nNote that {{c|help|Each instance of Gale Force lasts 4 seconds. Maximum 10 Gale Force.}}\n==Sources==\n* [[Gathering Winds]]: {{c|mod|Gain 1 '''Gale Force''' when you use a [[Active skill|Skill]]}}\n* [[Wind Ward]]: {{c|mod|Lose all '''Gale Force''' when [[Hit]]}}\n\n==Effects==\n* [[Gathering Winds]]: {{c|mod|10% increased Effect of Tailwind on you per '''Gale Force'''}}\n* [[Wind Ward]]: {{c|mod|4% less Damage taken per '''Gale Force'''}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* The hidden skill counter of the [[Gathering Winds]] is removed and replaced by '''Gale Force'''. The indirect effect of Gale Force has changed due to Gathering Winds rework as well as introduction of [[Wind Ward]] passive skill\n}}\n{{Version history table row|3.2.0|\n* Introduced to the game as a hidden counter for the [[Gathering Winds]] passive skill.\n}}\n{{Version history table end}}\n\n==See also==\n* {{stl|Rage}}\n\n[[Category:Game mechanics]]",
+  "sha256": "7f8ecdf6385ecbddce97fc07c6f5e50385062dde538d9f80b5879461ae0d9468"
+}

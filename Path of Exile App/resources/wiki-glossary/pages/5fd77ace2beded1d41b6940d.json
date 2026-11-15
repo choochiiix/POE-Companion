@@ -1,0 +1,35 @@
+{
+  "title": "Skill gem",
+  "pageId": 245,
+  "revision": 1492929,
+  "timestamp": "2024-12-20T05:25:09Z",
+  "retrieved": "2026-11-14T10:10:01.717680+00:00",
+  "requested": [
+    "veiled mod",
+    "defence",
+    "Monster modifier",
+    "quiver",
+    "Foulborn",
+    "Weapon",
+    "Tincture",
+    "enchantment",
+    "skill gems",
+    "modifier",
+    "Enduring Cry",
+    "allies",
+    "exerting",
+    "exert",
+    "Ally",
+    "corpse",
+    "support skill gem",
+    "Crucible",
+    "Keystone passive skill",
+    "Call to Arms"
+  ],
+  "aliases": [
+    "Skill gems"
+  ],
+  "missing": false,
+  "wikitext": "{{for|a detailed description of the interaction between active skill gems and support gems|gem}}\n\n'''Skill gem''' (known as '''Active Skill Gems''' in [[item filter]]), is an [[item class]] which grants [[skill]]s to the [[player]] by placing them into an [[item socket]]. Similar to [[support gem]]s, skill gems can gain experience and level up increasing both their [[Attribute]](s) and character [[level]] requirement as well as the effect of the [[stats]] granted by the skill.\n\nSkill gems can be further augmented by placing appropriate [[support gem]]s into a [[linked socket]].\n\nSkill gems have [[gem tag]]s which are used to categorize them, but note that [[gem tags]] are not intended to indicate whether a skill gem can be supported by other gems<ref name=\"tag_support\" /> or whether specific [[stat]]s (or [[modifier]]s)<ref name=\"tag_modifiers\" /> apply.\n\nWhile [[support gems]] are referred to as \"support gems\" by passive skills and item mods, such as [[Catarina, Master of Undeath|Catarina]]'s {{c|craft|+# to Level of Socketed Support Gems}}, [[item filter]]s refer to them as Support Skill Gems.\n\n==List of skill gems==\n{{main|List of skill gems}}\n\n{{:List of skill gems}}\n\n==Skills synergy==\n{| class=\"wikitable\" style=\"width: 800px<br> text-align: center<br>\"\n! scope=\"col\" width=\"200px\" |Skill\n! scope=\"col\" |Interaction\n|-\n|{{il|Frostbolt}}\n|\n* {{il|Ice Nova of Frostbolts}}\n----\n* {{il|Vortex of Projection}}\n|-\n|{{il|Contagion}}\n|\n* {{il|Essence Drain}}\n----\n* {{il|Essence Drain of Desperation}}\n----\n* {{il|Blight of Contagion}}\n|-\n|{{il|Blade Blast}}\n|\n* {{il|Ethereal Knives of Lingering Blades}}\n----\n* {{il|Bladefall}}\n|-\n|{{il|Blade Blast of Unloading}}\n|\n* {{il|Blade Vortex}}\n----\n* {{il|Blade Vortex of the Scythe}}\n|-\n|{{il|Venom Gyre}}\n|\n* {{il|Whirling Blades}}\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.23.0|\n* [[Alternate quality]] [[gem]]s, [[labyrinth enchantment|labyrinth helmet enchantments]] and [[Threshold jewel|unique threshold jewels]] are all systems that were trying to subtly modify the behaviour of [[skill]]s. With this expansion these have been combined into a new system called [[Transfigured Gem]]s that allows us to fully achieve the goal of these three systems, and then some.\n* Transfigured Gems are alternate versions of existing skill gems that have different functionality and balance than their regular versions. We have added many of these, with interesting variations that drastically change how existing skills play.\n* Some existing skill gems have had stats or interactions removed from the base gem and moved to the Transfigured versions to provide more focused support for pre-existing alternate playstyles.\n* A substantial amount of damage-dealing skills have had their quality stats buffed. In most cases they will be significantly more powerful than before, and also more interesting. Many supports have also received changes to their quality stats.\n* Anomalous, Divergent and Phantasmal Quality Gems have been removed from the game. Existing alternate Quality Gems now have the base Quality effect found on the respective Gem.\n}}\n{{Version history table row|3.22.2|\n* Updated [[Skill Gem]] item hovers to indicate when the maximum augmented level is reached (it's level 40).\n}}\n{{Version history table row|0.9.3|\n* Hybrid skill gems now have a primary [[attribute]] and are changed to 60/40 alignment.\n}}\n{{Version history table row|0.8.6|\n* Skill and [[support gem]]s can now have [[quality]], like [[equipment]]. Each [[gem]] is affected by quality in a specific way - for example, additional [[damage]] or [[attack speed]]. Skill gems from [[quest reward]]s have zero quality.\n}}\n{{Version history table row|0.8.4|\n* Raised [[attribute]] requirements on all skill gems. Many gems will no longer be usable until you gain more attributes.\n}}\n{{Version history table row|0.8.3|\n* Changed the requirements of all skill gems to take into account the new attribute equation.\n}}\n{{Version history table row|0.7.0|\n* Added attribute requirements to skill gems.\n}}\n{{Version history table row|0.6.7|\n* Made skill gems substantially less common.\n}}\n{{Version history table row|0.6.0|\n* Added skill gems and skill augmentation.\n}}\n{{Version history table row|0.5.12|\n* Added various new skill gem drop colours\n}}\n{{Version history table row|0.5.10|\n* Added skill gems, which currently grant skills while you hold them.\n}}\n{{Version history table end}}\n\n==See also==\n* [[List of skill gems by gem tag]]\n\n==References==\n{{reflist|refs=\n<ref name=\"tag_support\">{{cite web|author=Mark_GGG|date=April 03, 2017|title=Some Mechanics questions answered by Mark |url=https://www.reddit.com/r/pathofexile/comments/634vc5/some_mechanics_questions_answered_by_mark/dfrk58b/|publisher=Reddit|accessdate=April 03, 2017}}</ref>\n<ref name=\"tag_modifiers\">{{cite web|author=Mark_GGG|date=June 14, 2016|title=Mechanical Questions Thread|url=https://www.pathofexile.com/forum/view-thread/1676002/page/29#p13383914|publisher=Official Path of Exile Forums|accessdate=June 14, 2016}}</ref>\n}}\n\n{{Skills navbox}}\n\n[[Category:Skills]]\n[[Category:Skill gems| ]]\n[[Category:Item classes]]\n{{sister|poe2wiki}}",
+  "sha256": "08e1b2d81a49417502b3b26acbb58bb333f3b63d95bd7e41dfe62b1a34b0f6a6"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Ruin",
+  "pageId": 14000,
+  "revision": 1674506,
+  "timestamp": "2026-07-18T23:56:51Z",
+  "retrieved": "2026-11-14T10:57:41.165224+00:00",
+  "requested": [
+    "Righteous Fire",
+    "Righteous Lightning",
+    "Rigid Shell",
+    "Rigwald Wolf Barrage",
+    "Ritual Rune",
+    "Ritual of Dance",
+    "Ritual of Meditation",
+    "Ritual of Undeath",
+    "Rod of Detonation",
+    "Rolling Magma Emissions",
+    "Rongokurai's Boon",
+    "Rose Petals",
+    "Rosethorn Tincture",
+    "Rotten Bulwark",
+    "Ruby Flask",
+    "Ruin",
+    "Ruinous Burning Bond",
+    "Ruinous Chaotic Bond",
+    "Ruinous Chilling Bond",
+    "Ruinous Electrifying Bond"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Ruin\n| type                   = Debuff\n| description            = You have Ruin. On reaching 7 Ruin, you will fail the Ultimatum\n}}\n'''Ruin''' is a [[debuff]] primarily found in [[Ultimatum]] encounters, as well as a modifier for [[Valdo's Map]]s. Accumulating 7 stacks of Ruin will cause the party to fail the Ultimatum encounter, and kick players out to the main area of the map if they were currently in the [[Trialmaster]]'s arena. In Valdo's Maps, failing will prevent the reward chest from spawning.\n\n==Mechanics==\nEnemy attacks that apply Ruin are subject to a shared cooldown between applications, preventing additional stacks from being applied until a short delay has passed, regardless of the number of sources.\n\n[[Evasion]], [[spell dodge]], hit avoidance, and [[block]] (with or without damage taken from block e.g. {{psl|id=glancing_blows_keystone2693}}) prevent Ruin from being applied.<ref>https://youtu.be/zYl71wC72TA?si=OaHHJaj0bFLnInCh</ref><ref>https://youtu.be/0QibCq3AqlQ?si=d4CNyZT9VALD2Avx</ref> Though the melee attacks of shades spawned by Stalking Ruin cannot be Evaded.\n\nRuin is tracked independently per player in a [[party]]. In [[map]]s, players can fail the Ultimatum encounter and lose all of their accumulated rewards, but this will not end the encounter for other players. In {{il|Inscribed Ultimatum}}s, only the instance owner can accumulate Ruin; other players will not gain Ruin stacks when hit.\n\nA variant of Ruin can also be gained from using {{il|Dark Bargain of Trarthus}}. Though it grants a separate debuff, the failure on 7 Ruin mechanic uses the sum of both types of debuffs.<ref>https://www.pathofexile.com/forum/view-thread/3792399#p26211786</ref> However, the Ultimatum will fail only if the Ruin modifier is present in the encounter.\n\n==Sources==\nRuin can be inflicted via these Ultimatum modifiers:\n\n{| class=\"wikitable\"\n|-\n! Modifiers !! Effects\n|-\n| Ruin || A Monster type will apply {{stl|Ruin}} with its special ability. Fail on reaching 7 Ruin\n|-\n| Ruin II || A Monster type will apply double {{stl|Ruin}} with its special ability. Fail on reaching 7 Ruin\n|-\n| Ruin III ||Two Monster types will apply double {{stl|Ruin}} with their special abilities. Fail on reaching 7 Ruin\n|-\n| Ruin IV ||Two Monster types will apply quadruple {{stl|Ruin}} with their special abilities. Fail on reaching 7 Ruin\n|-\n| Stalking Ruin\tI || An invulnerable shade stalks you, inflicting {{stl|Ruin}} with its Melee Attacks. Fail on reaching 7 Ruin\n|-\n| Stalking Ruin II ||An invulnerable shade stalks you, gaining speed and inflicting {{stl|Ruin}} with Melee Attacks and Spells. Fail on reaching 7 Ruin\n|-\n| Stalking Ruin III || An invulnerable shade stalks you, gaining further speed and inflicting {{stl|Ruin}} with Melee Attacks and powerful Spells. Fail on reaching 7 Ruin\n|-\n| Stalking Ruin IV || An invulnerable shade stalks you, aggressively casting Spells that inflict {{stl|Ruin}} while teleporting to random locations. Fail on reaching 7 Ruin \n|}\n\nThe {{psl|Ruinous Wager}} [[Atlas keystone passive]] adds the effect of Ruin to all Ultimatum encounters. This does not block the \"Ruin\" modifier from spawning and does not stack with it. Higher tiers of the Ruin modifier will override it.\n\n{{il|Valdo's Puzzle Box}} maps with the {{c|mod|Players are assaulted by Ruinous Ghosts}} adds Stalking Ruin ghosts that inflict Ruin on hit. At 7 Ruin, the map becomes impossible to complete and won't drop a Singular Reliquary.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.23.0|\n* Return to the game as part of Ultimatum.\n}}\n{{Version history table row|3.14.0|\n* Introduced to the game as Ultimatum league's mechanic.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "7502875af549d1b145c4311dbfe4858f4e016bb340c86ba00d467ffa087a89c1"
+}

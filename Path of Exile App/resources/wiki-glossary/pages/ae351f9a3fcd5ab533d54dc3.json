@@ -1,0 +1,33 @@
+{
+  "title": "Holy Water",
+  "pageId": 8255,
+  "revision": 1363590,
+  "timestamp": "2023-07-19T00:02:29Z",
+  "retrieved": "2026-11-14T10:57:28.671028+00:00",
+  "requested": [
+    "Hit by Power Siphon",
+    "Hit by Viper Strike",
+    "Hoarfrost",
+    "Holy Relic's Boon",
+    "Holy Water",
+    "Honed Claws",
+    "Horned Scarab of Glittering",
+    "House of Mirrors",
+    "Humility",
+    "Hunger of Ghorr",
+    "Hunter Shrine Monster",
+    "Hunter's Lesson",
+    "Hunter's Reward",
+    "Hunter's Shrine",
+    "Hunters' Cunning",
+    "Hyrri's Reward",
+    "Ice Golem",
+    "Icicle Mines",
+    "Ignite Immunity",
+    "Ignite Prevention"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Holy Water\n| image = HolyWater.jpg\n| rarity = \n| type = Elemental\n| location = [[The Solaris Temple Level 2]]\n| quest = \n| resistance = Fire\n| damage = Cold\n| modifier =\n| skill = [[Ice Nova]]\n| aura = \n}}\n'''Holy Water''' is a [[water elemental]] that can be found in [[the Solaris Temple Level 2]]. They emerge from areas of water.\n\n==Abilities==\n*Resists Fire\n*Deals Cold Damage\n*Casts {{il|Ice Nova}}\n\n==Areas==\n*[[The Solaris Temple Level 2]]\n\n{{Navbox Bestiary}}\n\n[[Category:Act 3 monsters]]\n[[Category:Water elementals]]",
+  "sha256": "d4cc2f2690f31dfd185f2e0a1e9d4f9b2874b767aa028ff5ba974022fbb2fb65"
+}

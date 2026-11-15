@@ -1,0 +1,33 @@
+{
+  "title": "Ghost Shroud",
+  "pageId": 7203,
+  "revision": 1493301,
+  "timestamp": "2024-12-25T20:21:58Z",
+  "retrieved": "2026-11-14T10:11:23.480245+00:00",
+  "requested": [
+    "Element",
+    "Cruel",
+    "Ghost Shroud",
+    "Reflect",
+    "unique jewel",
+    "caustic ground",
+    "Elemental Relic",
+    "Endurance",
+    "Ailments",
+    "recharge",
+    "One-Handed",
+    "Abyssal socket",
+    "amulets",
+    "rings",
+    "quivers",
+    "Two-Handed",
+    "Monsters",
+    "Spawn",
+    "influence",
+    "unique monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Ghost Shroud\n| type                   = Charge\n| icon                   = AcrobaticWillpower_(Trickster)_passive_skill_icon.png\n| description            = You have Ghost Shrouds.\n}}\n'''Ghost Shroud''' is the stack counter used by the [[Ghost Dance]] [[keystone]].\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.6.5|\n* Fixed a bug where '''Ghost Shrouds''' were not able to be gained after changing areas in a PvP match.\n}}\n{{Version history table row|3.6.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Game mechanics]]\n{{sister|poe2wiki}}",
+  "sha256": "92e64586004d00d6052f8d1c13a80c0a3119d8aef0b59b89db6ec8f9c94cac6d"
+}

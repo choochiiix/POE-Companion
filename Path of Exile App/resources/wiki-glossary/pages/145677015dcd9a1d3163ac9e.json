@@ -1,0 +1,33 @@
+{
+  "title": "Supreme Ego",
+  "pageId": 16215,
+  "revision": 1659207,
+  "timestamp": "2026-06-20T15:33:07Z",
+  "retrieved": "2026-11-14T10:09:57.338089+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|q_where = id=\"supreme_ego_keystone2696\"}}\n\n'''Supreme Ego''' is a [[keystone passive skill]] which increases your [[mana reservation]] amount, and prevents your auras from affecting allies, but grants increased aura effect to a skill per percent of mana reserved by that skill.\n\n==Mechanics and Interactions==\nSupreme Ego {{c|stat|40% more Mana Reservation of Aura Skills}} applies to all [[aura]] skills that reserve mana, rounding down, including [[mine]]s.\n\n{{c|stat|Auras from your Skills can only affect you}} not only prevents your beneficial auras from affecting [[minion]]s and [[allies]], but also prevents detrimental aura effects from affecting enemies, such as {{il|Pride}} and {{il|Flesh and Stone}}<ref>https://www.youtube.com/watch?v=pQGrzv9Ip9E</ref>, auras from [[mine]]s<ref>https://www.youtube.com/watch?v=JHUTF5R4ISo</ref>, or {{il|Blasphemy Support|Curse auras}}. It will also prevent {{il|Runegraft of Treachery}}'s effect of auras affecting enemies.\n\n{{il|Summon Skitterbots}} will also reserve more mana due to having the Aura tag, but the [[shock]] and [[chill]] will apply at their regular values and not be scaled. \n:When used with {{il|Profane Proxy}}, Supreme Ego prevents the Curse aura from being applied from the Skitterbot. Note that the Skitterbot will still continue to apply the Curse aura on enemies once Supreme Ego is allocated and will not update until the player moves to a new instance or re-summons the Skitterbots.\n\n==Location==\nThe keystone is located on the right side of the tree, between the [[Shadow]] and [[Ranger]] starting areas.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Scion||11\n|-\n|Duelist||17\n|-\n|Ranger||7\n|-\n|Shadow||7\n|-\n|Marauder||21\n|-\n|Templar||21\n|-\n|Witch||17\n|}\n\nThis keystone can also be obtained from the tree by using a [[legacy variant|legacy]] {{il|Elegant Hubris}} jewel with modifier {{c|mod|Commissioned (2000-160000) coins to commemorate '''Chitus'''}}. Unlike legacy notable from cluster jewel, Supreme Ego from passive skill tree and from the alt tree by using the timeless jewel, are the same.\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Supreme%Ego%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\na [[legacy variant|legacy]] {{il|Elegant Hubris}} jewel with modifier {{c|mod|Commissioned (2000-160000) coins to commemorate '''Chitus'''}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.18.1c|\n* Updated the description on the '''Supreme Ego''' Keystone Passive Skill to clarify the \"more Mana Reservation\" only applies to Aura Skills, rather than all Skills.\n}}\n{{Version history table row|3.17.0|\n*Now grants {{c|mod|Aura Skills have 1% more Aura Effect per 2% of maximum Mana they Reserve}}.\n*No longer grants {{c|mod|50% more Reservation of Skills}}.\n**Instead, it now grants {{c|mod|40% more Mana Reservation of Skills}}.\n*No longer grants {{c|mod|Auras from your Skills do not affect Allies}}.\n**Instead, it now grants {{c|mod|Auras from your Skills can only affect you}}.\n*No longer grants {{c|mod|You can only have one Permanent Aura on you from your Skills}}.\n}}\n{{Version history table row|3.11.1|\n* Fixed a bug when using the Supreme Ego keystone passive where an aura would retain the '50% more Effect on you' after unallocating Supreme Ego.\n}}\n{{Version history table row|3.11.0|\n* Timeless Jewel Keystone passives have become a popular feature for many builds, but are prohibitively difficult to acquire (especially without trade). We've moved some of the most build-defining Keystones out of the Timeless Jewels and into the tree itself. These Keystones have been added to the tree: [[The Agnostic]], [[Glancing Blows]], Supreme Ego, [[Wind Dancer]] and [[Eternal Youth]].\n* Timeless Jewels -- New keystones have been added to replace the five that are now available on the passive skill tree. The new ones are: [[The Traitor (keystone passive)|The Traitor]], [[Supreme Ostentation]], [[Chainbreaker]], [[Transcendence (keystone passive)|Transcendence]], [[Immortal Ambition]]. Existing Timeless Jewels will retain the old keystones, but if you reroll them with a Divine Orb they will be able to reveal these new keystones.\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game (grants from {{il|Elegant Hubris}}'s {{c|mod|Commissioned (2000-160000) coins to commemorate Chitus}} mod).\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n\n[[Category:Keystone passive skills]]",
+  "sha256": "1f799030ec76444192e0bb6647be8f415285cbef527b7287a33099804c4180f2"
+}

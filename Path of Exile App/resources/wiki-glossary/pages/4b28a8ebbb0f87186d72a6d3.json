@@ -1,0 +1,35 @@
+{
+  "title": "Manifest Dancing Dervishes",
+  "pageId": 88724,
+  "revision": 1649422,
+  "timestamp": "2026-05-22T23:40:55Z",
+  "retrieved": "2026-11-14T10:10:03.373443+00:00",
+  "requested": [
+    "Jewel",
+    "Modifiers",
+    "item quantity",
+    "Mirage",
+    "Item Quantity",
+    "Support gems",
+    "Buff",
+    "Experience",
+    "Helmet",
+    "gems",
+    "Life Flask",
+    "Animate Guardian's Weapon",
+    "Bestial Rhoa",
+    "Bestial Snake",
+    "Bestial Ursa",
+    "Manifest Dancing Dervish",
+    "Spectral Wolf",
+    "Spectral Tiger",
+    "Raise Spiders",
+    "Summon Harbinger of Brutality"
+  ],
+  "aliases": [
+    "Manifest Dancing Dervish"
+  ],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=ManifestDancingDervishes}}\n\n'''Manifest Dancing Dervishes''' is a [[spell]] granted by {{il|The Dancing Dervish}}. This spell summons two dancing dervish [[minion]]s, while disabling the character's weapon. The character has [[Onslaught]] while the dancing dervishes remain alive.\n\n==Skill functions and interactions==\nManifest Dancing Dervishes summons two dancing dervish minions. It is [[trigger]]ed when the character reaches the first [[Rampage]] tier of 15 consecutive kills. While the dancing dervishes remain alive, the character has [[Onslaught]] and their weapon is disabled.\n\nManifest Dancing Dervishes cannot be supported by support gems that create other minions, such as {{il|Summon Phantasm Support}}. Manifest Dancing Dervishes cannot be supported by {{il|Enhance}}, {{il|Enlighten}} or {{il|Empower}}, as these only support skill gems.\n\nThe dancing dervishes use {{sl|id=DancingDervishCycloneChannelled}}, a [[channelling]] melee attack skill. It is functionally similar to the {{il|Cyclone}} skill gem version. Support gems that can support Manifest Dancing Dervishes also apply to the dancing dervish minions and their Cyclone skill.\n\nThe dancing dervishes do not have a timed [[duration]]. Instead, they remain alive as long as the player can keep up their character's [[Rampage]] kill streak. As they are minions, the dancing dervishes' kills do count toward Rampage. Additionally, each time a dancing dervish [[hit]]s a rare or unique monster, there is a 25% chance to add 1 to the character's Rampage kill counter.\n\nDancing dervishes are considered to be manifested minions, which allows them to be used while the character is equipped with {{il|Chains of Command}}. Dancing dervishes are ''not'' considered to be [[Animate Weapon|animated weapons]].\n\n{{Alternate skill effect list|skill=Cyclone}}\n\nAlternate skill effects for {{il|Cyclone}} can be applied to Manifest Dancing Dervishes.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.17.0|\n* The skill granted by The Dancing Dervish is now called \"Manifest Dancing Dervishes\" and manifests two copies of the Sword. Existing versions of The Dancing Duo are affected by this change, and no longer have \"Manifest Dancing Dervish also manifests a copy of Dancing Dervish\". The Dancing Duo can no longer be acquired.\n}}\n{{Version history table row|3.1.0|\n* While Manifest Dancing Dervish is active, the Dancing Dervish now has a 25% chance to grant you a Rampage kill when it hits a unique enemy. The minion created by this unique can no longer cross unwalkable gaps. These changes affect all versions of the item.\n}}\n{{Version history table row|3.0.0|\n* Improved the behaviour of the Manifested weapon minion.\n}}\n{{Version history table row|2.6.0|\n* Improved the behaviour of the Manifested weapon minion to cyclone more frequently.\n}}\n{{Version history table row|2.3.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]] [[Category:Spell (gem tag)]]",
+  "sha256": "b6485b3e5a6e8f1f61020a6d071469cb54a599fa0211669903b8eb043528e33e"
+}

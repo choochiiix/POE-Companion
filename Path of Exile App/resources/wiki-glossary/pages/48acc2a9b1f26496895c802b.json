@@ -1,0 +1,33 @@
+{
+  "title": "Hollow Palm Technique",
+  "pageId": 8244,
+  "revision": 1576516,
+  "timestamp": "2025-09-03T21:25:43Z",
+  "retrieved": "2026-11-14T10:09:57.335585+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Hollow Palm Technique}}\n\n'''Hollow Palm Technique''' is a [[keystone passive skill]] which grants various bonuses while the player is [[Unencumbered]] (being [[Unarmed]] with no [[off-hand]] or [[glove]]s equipped).\n\n==Mechanics==\nWhile unencumbered, unarmed attacks count as [[Dual Wielding]], which also causes attacks to alternate between using the main hand and off hand (by default, unarmed attacks only count as main hand)<ref name=\"unarmed\"/><ref name=\"hollowpalm_fixed\"/>, though the animation may not indicate this.<ref>https://www.reddit.com/r/pathofexile/comments/fnygra/comment/flcdq5l/</ref>\n\n==Related unique items==\nThe following [[unique item]]s are related to Hollow Palm Technique:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Hollow%Palm%Technique%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* The Hollow Palm Technique Notable now grants 40% more Attack Speed with Melee Skills while you are Unencumbered. It previously granted 60% more Attack Speed while you are Unencumbered. The modifier that granted {{c|mod|“14 to 20 Added Attack Physical Damage per 10 Dexterity while you are Unencumbered”}} is now {{c|mod|“14 to 20 Attack Physical Damage to Melee Skills per 10 Dexterity while you are Unencumbered”}}.\n}}\n{{Version history table row|3.11.0|\n* Fixed a bug where {{il|Rigwald's Curse}} didn't give added Critical Strike Chance to offhand attacks while you had Hollow Palm Technique allocated.\n}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name = \"unarmed\">{{cite web\n| author = Mark_GGG\n| date = Mar 24, 2020\n| title = Bug? 'Off hand' mods don't count with Hollow Palm Technique\n| url = https://www.reddit.com/r/pathofexile/comments/fnygra/comment/flcdq5l/\n| publisher = Path of Exile Subreddit\n| accessdate = Oct 29, 2022\n}}</ref>\n<ref name = \"hollowpalm_fixed\">{{cite web\n| author = Natalia_GGG\n| date = Apr 1, 2020\n| title = 3.10.1c Patch Notes\n| url = https://www.pathofexile.com/forum/view-thread/2817139\n| publisher = Official Path of Exiles Website\n| accessdate = Oct 29, 2022\n}}</ref>\n}}\n\n[[Category:Cluster jewels-only passive skills]]\n{{sister|poe2wiki}}",
+  "sha256": "621ef3a701c34057065b406033d171c89c2d1b14ca5827f543052c78dc68f3b9"
+}

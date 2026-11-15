@@ -1,0 +1,33 @@
+{
+  "title": "Enervation",
+  "pageId": 96035,
+  "revision": 1673499,
+  "timestamp": "2026-07-13T19:37:22Z",
+  "retrieved": "2026-11-14T10:57:21.493901+00:00",
+  "requested": [
+    "Elemental Conflux",
+    "Elemental Damage Aura",
+    "Elemental Damage Taken Increase",
+    "Elemental Reflection",
+    "Elemental Reflection Aura",
+    "Elemental Thorns",
+    "Elemental Warding",
+    "Elemental Weakness",
+    "Emberstorm",
+    "Empowering Howl",
+    "Encased in Jade",
+    "Encompassing Tentacles",
+    "Endless Hazard",
+    "Endless Pain",
+    "Energy Shield Aura",
+    "Energy Shield Leech",
+    "Energy Shield Regeneration",
+    "Enervation",
+    "Engraved Orb",
+    "Engulfed by Ghostfire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Enervation\n| type                   = Debuff\n| description            = You have less Movement Speed, and cannot Recover Life or Energy Shield\n}}\n\n'''Enervation''' is a [[debuff]] that reduces [[movement speed]] of the character by 20% and disables [[life]] and [[energy shield]] recovery. The debuff does not stack and lasts for 4 seconds. \n\n==Sources==\n* [[Ward Shatter]] (skill from [[Volatile Runes]] in [[Olroth Bloodline]])\n* [[Olroth, Origin of the Fall]] applies with the aftershock pulses from his Ground Slam skill.\n\n[[Category:Debuffs]]",
+  "sha256": "8d497a026faf70912785db65bb34e023c00b4e6a3a42ac46d8db6eaedb2f04b2"
+}

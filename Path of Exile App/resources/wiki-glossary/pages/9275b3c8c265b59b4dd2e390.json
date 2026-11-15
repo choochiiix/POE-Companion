@@ -1,0 +1,33 @@
+{
+  "title": "Binding Chains",
+  "pageId": 108169,
+  "revision": 1349765,
+  "timestamp": "2023-04-30T21:24:11Z",
+  "retrieved": "2026-11-14T10:57:11.810175+00:00",
+  "requested": [
+    "Balek's Gift",
+    "Bane",
+    "Bane of the Loyal",
+    "Baranite Cleric's Aura",
+    "Bark",
+    "Barnacles",
+    "Baryatic Tension",
+    "Basalt Flask",
+    "Bastion of Hope",
+    "Batrachian Procession",
+    "Battlemage's Cry",
+    "Beauty Through Death",
+    "Behead",
+    "Beidat's Magnificence",
+    "Beidat's Wrath",
+    "Berserk Fury",
+    "Bestial Roar",
+    "Binding Chains",
+    "Bino's Life Regeneration",
+    "Bismuth Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Binding Chains\n| type                   = Debuff\n| description            = You are slowed by Binding Chains. Move to break the chains.\n| icon = Grasping Vines status icon.png\n}}\n\n[[File:Binding Chains debuff.png|thumb]]\n\n'''Binding Chains''' is a [[debuff]] that reduces the [[movement speed]] of the character, inflicting 20% reduced Movement Speed.\n\nTeleporting with any movement skill that instantly moves you (such as {{il|Flame Dash}} or {{il|Blink Arrow}}) instantly removes all stacks of the Binding Chains debuff. {{il|The Stampede}} can bypass the penalty of the vines entirely.\n\nThis debuff is only found in the [[Forbidden Sanctum]] while under the effect of the \"Chains of Binding\" Affliction, which causes monsters to inflict it on hit.\n\n===See also===\n* {{stl|Grasping Vines}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "eaf365c16917bae6eb90c61006050dea839a36f5178c68b5cef4e86da6fc77d9"
+}

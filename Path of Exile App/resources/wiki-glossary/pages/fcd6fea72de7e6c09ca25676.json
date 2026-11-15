@@ -1,0 +1,33 @@
+{
+  "title": "Death",
+  "pageId": 4653,
+  "revision": 1682464,
+  "timestamp": "2026-07-26T23:27:13Z",
+  "retrieved": "2026-11-14T10:11:08.540542+00:00",
+  "requested": [
+    "stunned",
+    "player",
+    "physical",
+    "damage reduction",
+    "Shadow",
+    "Ranger",
+    "quantity",
+    "abyss jewel",
+    "attacks",
+    "melee",
+    "strike",
+    "Wands",
+    "Fishing rod",
+    "Sceptre",
+    "elemental",
+    "lightning",
+    "explode",
+    "death",
+    "Prismatic",
+    "Melee"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Death\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = The end of the old,<br>the beginning of the new.<br>A unique opportunity for transformation,<br>for those with the power<br>to grasp it.\n|drop_level                              = 68\n|tags                                    = weapon_divination, unique_divination, unique_weapon_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardDeath\n|stack_size                              = 4\n|description                             = {{c|unique|{{iil|Mon'tregul's Grasp}}}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 2.0.3\n}}\n\n{{about|the divination card|the game mechanic|Experience#Death}}\n\n'''Death''' is a [[divination card]]. A set of four can be exchanged for {{il|Mon'tregul's Grasp}}.\n\n{{Item acquisition}}\n\nThis card is only able to  theoretically drop in [[The Karui Fortress]] through a {{c|mod|+5 Chest level}} [[strongbox]].\n\n==Design attribution==\nThis card has not yet been assigned or the creator wishes to remain anonymous. \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Abomination|Acid Caverns}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Abomination|Marshes}}\n* Drop level changed from 51 to 68. {{Undocumented}}\n}}\n{{Version history table row|3.0.0|\n* Cruel and Merciless difficulty and thus the former drop locations are removed.\n}}\n{{Version history table row|2.0.3|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "309fe7e5b56eaf0d5315d8a70f5427dbe04c3a00ece76c3ca68df7846bcdd7cc"
+}

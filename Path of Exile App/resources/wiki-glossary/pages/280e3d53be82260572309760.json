@@ -1,0 +1,33 @@
+{
+  "title": "Mastery",
+  "pageId": 83016,
+  "revision": 1580153,
+  "timestamp": "2025-10-31T20:35:42Z",
+  "retrieved": "2026-11-14T10:08:34.802776+00:00",
+  "requested": [
+    "Double damage",
+    "Triple damage",
+    "Increased and reduced",
+    "More and less",
+    "Unarmed",
+    "Dual wielding",
+    "Wielding",
+    "Main hand",
+    "Off hand",
+    "Weapon range",
+    "Melee strike range",
+    "Intelligence stacking",
+    "Anoint",
+    "Catalyst",
+    "Cluster jewel",
+    "Mastery",
+    "Keystone",
+    "Notable",
+    "Passive skill",
+    "The Agnostic"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Masteries''' are special [[passive skill]]s present on most passive skill clusters of the skill tree, which can be allocated after allocating a notable in their cluster. They are found in all passive clusters outside of the class starting areas. Once allocated, the player can choose a bonus from a list of thematically appropriate passive bonuses from the mastery to obtain. Allocating a mastery passive requires one skill point. The set of mastery passives offered are shared among their respective cluster categories, so for example a player can allocate a Fire Mastery from any of several Fire-related clusters, but the same mastery cannot be allocated twice.\n\nAllocating a notable passive by any means without it being connected to the rest of the skill tree (via [[Anointing]], [[Intuitive Leap]], [[Thread of Hope]], etc.) does not allow you to allocate its associated Mastery passive. [[Jewel]]s with radius effects will ignore masteries, even if visually they look like they are within the jewel radius.\n\nA [[Runegraft]] can be applied to a mastery passive to transform it into a different one.\n\n==List of masteries==\n{{#cargo_query: \n |tables=mastery_groups,mastery_effects\n |join on= mastery_groups._pageID = mastery_effects._pageID\n |fields= \n   CONCAT('[[', mastery_groups.name, ']]')=Mastery,\n   GROUP_CONCAT( CONCAT('* ', mastery_effects.stat_text_raw)\n     SEPARATOR \"\\n\")=Effects,\n   COUNT(mastery_effects.stat_text)=Count\n |where=mastery_groups._pageName IS NOT NULL\n |order by=mastery_groups.name\n |group by=mastery_groups._pageID\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.21.0|\n* Half of the Masteries are reworked and have 6 Masteries in each group. Read {{section link|version 3.21.0|Passive Skill Tree Mastery Changes}} and {{section link|version 3.21.0|Removed Masteries}} for details.\n}}\n{{Version history table row|3.19.0|\n* \"80% increased Critical Strike Chance against Shocked Enemies\" is no longer a Lightning Mastery option. It has been replaced with \"Shocks you inflict spread to other Enemies within a Radius of 10\".\n* The Reservation Mastery that granted 15% increased Mana Reservation Efficiency of Skills has been removed from the Passive Skill Tree.\n* The Reservation Mastery that grants increased Life Reservation Efficiency of Skills now has a value of 20% (previously 30%).\n* The Reservation Mastery that causes Auras from your Skills to have an increased Effect on you now has a value of 10% (previously 15%).\n}}\n{{Version history table row|3.17.0|\n*Improve the Mastery options on Bow Passive clusters.\n** We have replaced the Bow Mastery stats that gave \"Movement Speed while Phasing\" and \"Phasing on Kill\". We've also replaced the mastery that gave \"Increased Damage while you are wielding a Bow and have a Totem\".\n** New mastery: \"Increases and Reductions to Projectile Speed also apply to Damage with Bows\"\n** New mastery: \"+100 to Accuracy Rating per Green Socket on your Bow\"\n** Existing mastery: \"100% increased Mirage Archer Duration\" (previously 50%)\n** Existing mastery : \"Blink Arrow and Mirror Arrow have 100% increased Cooldown Recovery Rate\" (previously 60%)\n\n* Added a new Mark Mastery: 10% chance to gain a Frenzy Charge on Hit against a Marked Enemy\n}}\n{{Version history table row|3.16.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Masteries| ]]",
+  "sha256": "1e9ed122b8d68f7f32f157fd4e43a31c72ae9eed357ad450ec07d4d5528e5adb"
+}

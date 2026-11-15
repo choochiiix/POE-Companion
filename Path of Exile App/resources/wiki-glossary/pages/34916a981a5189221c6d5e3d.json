@@ -1,0 +1,33 @@
+{
+  "title": "Humility",
+  "pageId": 8300,
+  "revision": 1682441,
+  "timestamp": "2026-07-26T23:26:39Z",
+  "retrieved": "2026-11-14T10:57:28.672531+00:00",
+  "requested": [
+    "Hit by Power Siphon",
+    "Hit by Viper Strike",
+    "Hoarfrost",
+    "Holy Relic's Boon",
+    "Holy Water",
+    "Honed Claws",
+    "Horned Scarab of Glittering",
+    "House of Mirrors",
+    "Humility",
+    "Hunger of Ghorr",
+    "Hunter Shrine Monster",
+    "Hunter's Lesson",
+    "Hunter's Reward",
+    "Hunter's Shrine",
+    "Hunters' Cunning",
+    "Hyrri's Reward",
+    "Ice Golem",
+    "Icicle Mines",
+    "Ignite Immunity",
+    "Ignite Prevention"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Humility\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            =  \n|drop_level                              = 23\n|tags                                    = armour_divination, unique_divination, unique_armour_divination, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardHumility\n|stack_size                              = 9\n|description                             = {{c|unique|{{iil|Tabula Rasa}}}}\n|stack_size_currency_tab                 = 10000\n|drop_areas                              = 1_4_1, 2_9_1\n|release_version                         = 2.0.0\n}}\n\n'''Humility''' is a [[divination card]]. A set of nine can be exchanged for {{il|Tabula Rasa}}.\n\n{{Item acquisition}}\n\nThe card can also drops from the [[Heist]] unique item reward chest.\n==Design attribution==\nHumility was created by supporter [https://www.pathofexile.com/account/view-profile/OneTooMany-1648 OneTooMany].<ref name=\"attribution\" />\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n{{Atlas div card|Forking River|Channel}}\n}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Ancient City|Waterways}}\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Ancient City}}\n}}\n{{Version history table row|3.18.0|\n* The following Maps have been removed from the Atlas: Channel (Read {{section link|version 3.18.0|Atlas and Map Changes}} for full list)\n* Some Divination Cards have found new homes as a result of these Atlas Changes:\n: Can now drop in the {{il|Frozen Cabins Map}}.\n}}\n{{Version history table row|2.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"attribution\">{{cite web|author=TheOneExile|date=June 30, 2015|title=New Divination Cards|url=http://www.reddit.com/r/pathofexile/comments/3bku23/new_divination_cards/csn2mfi|publisher=Path of Exile Subreddit|accessdate=June 30, 2015}}</ref>\n}}\n[[Category:Divination cards created by supporters]]",
+  "sha256": "272f40f032d56f43b956e600139e4a432e5ba958602bffec75619ee583dc8c30"
+}

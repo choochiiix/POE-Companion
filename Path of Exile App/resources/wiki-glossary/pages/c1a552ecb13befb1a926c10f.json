@@ -1,0 +1,33 @@
+{
+  "title": "Wasting Touch",
+  "pageId": 19901,
+  "revision": 1493809,
+  "timestamp": "2025-02-06T20:48:17Z",
+  "retrieved": "2026-11-14T10:57:53.143912+00:00",
+  "requested": [
+    "Void Beacon",
+    "Void Gaze",
+    "Void Lens",
+    "Void Snare",
+    "Voltaxic Burst",
+    "Vomitous Ooze",
+    "Vortex",
+    "Vortex Mine",
+    "Vulnerability",
+    "WIP",
+    "War Banner",
+    "War Bringer",
+    "Warcry Damage to Mana",
+    "Warlord Shrine Monster",
+    "Warlord's Mark",
+    "Warlord's Shrine",
+    "Warm Campfire",
+    "Wasting Touch",
+    "Webbed",
+    "Weeping Black"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Wasting Touch\n| type                   = Debuff\n| description = You have reduced Life and Energy Shield Recovery Rate. This debuff is removed when you stop being Delirious.\n| bonuses = {{c|mod|9% reduced Life Recovery Rate}}<br>{{c|mod|9% reduced Energy Shield Recovery Rate}}\n}}\n\n'''Wasting Touch''' is a timed [[debuff]] caused by monsters with [[Delirium league|Delirium]] modifier of [[Modifier:MonsterAfflictionMagicRewardDebuffRecoveryRate~~|the same name]]. It reduces the player character's [[life]] and [[energy shield]] [[recovery]] rate. It can stack up to 10 times.\n\n==See also==\n* [[Beacon of Madness]] unique boots\n** {{sl|Embrace Madness}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0d|\n* Delirium modifiers are now applied on a per-pack basis. This means that a given pack of monsters will only have a single Delirium modifier, rather than potentially having a variety of different modifiers.\n* Significantly reduced the chance of Delirium modifiers appearing on monsters.\n}}\n{{Version history table row|3.10.0c|\n* Reduced the duration of the '''Wasting Touch''', [[Paralysing Touch]], [[Eroding Touch]] and [[Diluting Touch]] debuffs to three seconds.\n}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "7bac2b6c4111aca0250c0ab940a9134008379a55397b3f144fe5a88405020022"
+}

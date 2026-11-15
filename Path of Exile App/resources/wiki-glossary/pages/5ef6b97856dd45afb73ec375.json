@@ -1,0 +1,33 @@
+{
+  "title": "Brine ground",
+  "pageId": 141567,
+  "revision": 1702507,
+  "timestamp": "2026-09-20T08:06:04Z",
+  "retrieved": "2026-11-14T10:11:12.999448+00:00",
+  "requested": [
+    "weapons",
+    "dual wield",
+    "sceptre",
+    "implicit",
+    "Crucible Passive Skill Tree",
+    "Flying",
+    "Summon Raging Spirit",
+    "Caustic ground",
+    "Scorched ground",
+    "Profane ground",
+    "Fungal ground",
+    "Brine ground",
+    "Smoke cloud",
+    "normal",
+    "Foulborn unique item",
+    "level",
+    "Evasion Rating",
+    "Battlemage",
+    "Quivers",
+    "Shields"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Brine Ground\n| type                   = Buff\n| description = You are gaining a percentages of Physical Damage as extra Cold and extra Lightning Damage\n}}\n{{status\n| name                   = Brine Ground\n| type                   = Debuff\n| description = You have reduced Armour and Evasion Rating and have increased effect of Lightning and Cold Ailments on you\n}}\n[[File:Brine ground screenshot.png|thumb|A pool of brine ground. It is a subtle puddle of water.]]\n'''Brine ground''' is a beneficial and detrimental [[ground effect]]. Enemies on Brine Ground have 30% increased effect of Lightning and Cold [[Ailment]]s on them and 25% reduced [[Armour]] and [[Evasion]] rating. Allies on Brine Ground gain 10% of Physical Damage as each of extra Cold and Lightning Damage\n\n==Sources==\nBrine ground is exclusive to the [[Velka Bloodline]]'s [[Tide Caller]] ascendancy passive skill.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Ground effects]]",
+  "sha256": "3877e8c358450faf77b42c89feaca546fcc5c71319e62ce8fe7cf0c47551e71f"
+}

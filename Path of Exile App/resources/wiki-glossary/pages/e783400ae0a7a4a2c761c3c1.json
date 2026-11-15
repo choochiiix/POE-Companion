@@ -1,0 +1,33 @@
+{
+  "title": "Rumi's Concoction",
+  "pageId": 14032,
+  "revision": 1488319,
+  "timestamp": "2024-10-13T03:29:57Z",
+  "retrieved": "2026-11-14T10:57:41.956409+00:00",
+  "requested": [
+    "Rumblemarch Life Regen",
+    "Rumi's Concoction",
+    "Runesurge",
+    "Rupture",
+    "Sacred Ashes",
+    "Sacred Infusion",
+    "Sacred Suffering",
+    "Sacrificial Zeal",
+    "Sailors Lantern",
+    "Sand Bladestorm",
+    "Sand Stance",
+    "Sand of Eternity",
+    "Sands of Shakari",
+    "Sandstorm",
+    "Sap of the Seasons",
+    "Sapped Ground",
+    "Sapphire Flask",
+    "Sapping Conflux",
+    "Saqawine Presence",
+    "Scathing Tempest"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Rumi's Concoction\n|class_id                                = UtilityFlask\n|base_item                               = Granite Flask\n|drop_level                              = 70\n|explicit1                               = BlockIncreasedDuringFlaskEffectUniqueFlask7\n|explicit2                               = SpellBlockIncreasedDuringFlaskEffectUniqueFlask7\n|flavour_text                            = \"Yesterday I was clever, so I wanted to change the world.<br>Today I am wise, so I am changing myself.\"<br>-Rumi of the Vaal\n|release_version                         = 1.1.5\n|alternate_art_inventory_icons           = race season 9\n|drop_text                               = It is speculated that it may drop with increased frequency from [[A'alai]], [[Q'ura]], and [[Y'ara'az]] in the [[Apex of Sacrifice]].\n}}\n\n{{status\n| name                   = Rumi's Concoction\n| type                   = Flask Effect\n| description = You have additional Chance to Block Attacks and Spells\n}}\n\n'''Rumi's Concoction''' is a [[unique]] {{il|Granite Flask}}. \n\n\n{{Item acquisition|acquisition_insert=<ref>https://www.reddit.com/r/pathofexile/comments/odityy/comment/h41wtpm/</ref><ref>https://youtu.be/RskRFwgoQ5g?si=eR2RnY7L9vFhzKH3&t=734</ref>}}\n\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Design attribution==\nRumi's Concoction was created by supporter [https://www.pathofexile.com/account/view-profile/Soroban Soroban].{{citation needed}}\n\n==Alternate artwork==\n{|\n| [[File:Rumi's Concoction race season 9 inventory icon.png|78px]] || Race [[Season Nine]] prize for reaching 250 RP.\n|}\n{{Item skin list}}\n\n==Legacy variants==\nRumi's Concoction has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0\n|\n* {{c|mod|+(14-20)% Chance to Block Attack Damage during Flask effect}}\n* {{c|mod|+(6-10)% Chance to Block Spell Damage during Flask effect}}\n}}\n{{legacy variant table row|2.5.0\n|\n* {{c|mod|+(20-30)% Chance to Block Attack Damage during Flask effect}}\n* {{c|mod|+(10-15)% Chance to Block Spell Damage during Flask effect}}\n}}\n{{legacy variant table row|1.3.0\n|\n* {{c|mod|+(30-40)% Chance to Block Attack Damage during Flask effect}}\n* {{c|mod|+(15-20)% Chance to Block Spell Damage during Flask effect}}\n}}\n{{Legacy variant table end}}\n\n==Trivia==\nThe flavor text is a quote by the 13th century Persian poet [https://en.wikipedia.org/wiki/Rumi Rumi].\n==See also==\n* {{il|Replica Rumi's Concoction}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.15.0|\n* Now has 8-12% Chance to Block Attack Damage during Flask Effect (previously 14-20%), and 4-6% Chance to Block Spell Damage during Flask Effect (previously 6-10%). Existing versions can be updated to the new values with a {{il|Divine Orb}}.\n* The basetype, {{il|Granite Flask}}, now grants +1500 to Armour Rating (previously 3000).\n}}\n{{Version history table row|2.5.0|\n* Chance to block during flask effect has been reduced from 20-30% to 14-20%. Chance to block spells during flask effect has been reduced from 10-15% to 6-10%. A {{il|Divine Orb}} can be used to reroll the stats within this new range.\n}}\n{{Version history table row|1.3.0|\n* Chance to block during flask effect has been reduced from 30-40% to 20-30%. Chance to block spells during flask effect has been reduced from 15-20% to 10-15%.\n}}\n{{Version history table row|1.1.5|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique items created by supporters]]",
+  "sha256": "f5d180cae2c5a58119d8a3aee4b21b9f0bb357708a8508765bd6430084746c6d"
+}

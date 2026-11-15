@@ -1,0 +1,35 @@
+{
+  "title": "Foulgrasp Support",
+  "pageId": 137910,
+  "revision": 1682297,
+  "timestamp": "2026-07-26T23:22:43Z",
+  "retrieved": "2026-11-14T10:57:24.753829+00:00",
+  "requested": [
+    "Flammability",
+    "Flask Drain",
+    "Flesh",
+    "Flesh Offering",
+    "Fleshrend",
+    "Flicker Strike",
+    "Flying Death Rhoomba",
+    "Focused",
+    "Footsteps Cheat",
+    "Forbidden Taste",
+    "Forest's Blessing",
+    "Foulgrasp",
+    "Fountain of Youth",
+    "Fragile Regrowth",
+    "Fragment of Past Trauma",
+    "Fragment of Renewed Pain",
+    "Freeze Immunity",
+    "Freeze Mine",
+    "Freeze Prevention",
+    "Freezing Shrine"
+  ],
+  "aliases": [
+    "Foulgrasp"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Foulgrasp Support\n|class_id                                = Support Skill Gem\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = \"Words without thought drive us<br>to claw and scrabble in the dirt,<br>seeking respite found only in pain.\"\n|drop_level                              = 72\n|tags                                    = level_capped_gem, support_gem, gem, default\n|metadata_id                             = Metadata/Items/Gems/SupportGemFoulgrasp\n|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.\n|gem_tags                                = Exceptional, Brand, Support, AoE, Spell, Lightning, Trigger\n|skill_id                                = SupportFoulgrasp\n|secondary_skill_id                      = TriggeredSupportFoulgrasp\n|required_level                          = 72\n|level1_level_requirement                = 72\n|level2_level_requirement                = 74\n|level3_level_requirement                = 76\n|level4_level_requirement                = 78\n|level5_level_requirement                = 80\n|level6_level_requirement                = 82\n|level7_level_requirement                = 84\n|level8_level_requirement                = 86\n|level9_level_requirement                = 88\n|level10_level_requirement               = 90\n|level11_level_requirement               = 91\n|level12_level_requirement               = 92\n|level13_level_requirement               = 93\n|level14_level_requirement               = 94\n|level15_level_requirement               = 95\n|level1_experience                       = 0\n|level2_experience                       = 226854909\n|level3_experience                       = 1666045137\n|level1_dexterity_requirement            = 50\n|level1_intelligence_requirement         = 72\n|level2_dexterity_requirement            = 51\n|level2_intelligence_requirement         = 74\n|level3_dexterity_requirement            = 52\n|level3_intelligence_requirement         = 75\n|level4_dexterity_requirement            = 54\n|level4_intelligence_requirement         = 77\n|drop_text                               = Drops from [[It That Was Tul]] and [[It That Was Esh]].\n|drop_monsters                           = Metadata/Monsters/BreachBossFallenKnight/FallenKnight, Metadata/Monsters/BreachBossHandMage/HandMage\n|is_drop_restricted                      = true\n|release_version                         = 3.28.0\n}}\n\n'''Foulgrasp Support''' is an [[exceptional support gem]] for [[brand]] skills. Whenever the brand is [[Brand Recall|recalled]], it triggers Foulgrasp, creating grasping hands at where the brand was recalled. Grasping hands explode when touched by an enemy, dealing [[lightning damage]] in an [[area]].\n\n==Skill function and interactions==\n\n==Gem level progression==\n{{Skill progression\n|c1_abbr              = Lightning<br>Damage\n  |c1_header          = Deals x to y Lightning Damage\n  |c1_pattern_extract = Deals (%d+) to (%d+) Lightning Damage\n  |c1_pattern_value   = %d&nbsp;to&nbsp;%d\n}}\n\n{{Item acquisition}}\n\n==Version history==\nFoulgrasp is similar to [[Enervating Grasp]], a [[graft skill]] used by {{il|Draining Eshgraft}} during [[Keepers league]].\n\n{{Version history table header}}\n{{Version history table row|3.28.0g|\n* Foulgrasp Support now has a buff icon to display how many grasping hands you currently have active.\n}}\n{{Version history table row|3.28.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Support Gems}}",
+  "sha256": "f996c1d8c44ec0e5704c0d6357a38f33cda4b3b46040b31b5c9f690010eaf7c8"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Temporal Bubble",
+  "pageId": 129994,
+  "revision": 1492131,
+  "timestamp": "2024-11-22T14:23:22Z",
+  "retrieved": "2026-11-14T10:57:47.572158+00:00",
+  "requested": [
+    "Tainted Power Charges",
+    "Tarred Ground",
+    "Tasalio's Blessing",
+    "Taste of Blood",
+    "Taste of Hate",
+    "Taunted",
+    "Tawhanuku's Leadership",
+    "Tawhoa's Remedies",
+    "Tears of Rot",
+    "Tempest Shield",
+    "Temporal Anomaly",
+    "Temporal Bubble",
+    "Temporal Interference",
+    "Tenacious Vigor",
+    "Tender Embrace",
+    "Test",
+    "The Basics",
+    "The Battle Within",
+    "The Beast",
+    "The Betrayal"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Temporal Bubble\n| type                   = Debuff\n| description = You have severely lowered action speed and your cooldowns take longer to recover. Negative effects on you take longer to expire\n| bonuses = 25% reduced Action Speed<br/>Debuffs on you expire 40% slower<br/>60% reduced Cooldown Recovery Rate\n}}\n'''Temporal Bubble''' is an aura [[debuff]] inflicted by monster that has the monster mod [[Modifier:MonsterModTemporalAura|{{c|normal|Temporal Proximity Shield}}]], or its predecessor, the legacy [[Archnemesis mod]]  [[Modifier:MonsterArchnemesisTimeBubble|{{c|nemesis|Temporal Bubble}}]]. The radius of the aura is 3.2 metres.\n\nThe mod itself also functions similar to [[Proximity Shield]] monster skill, which protect the monster from any damage inflicted outside the bubble.\n\n==Version history==\nDespite most [[Archnemesis mod]]s are modified in [[version 3.20.0]], the new mod {{c|normal|Temporal Proximity Shield}} is almost identical to the old {{c|nemesis|Temporal Bubble}} mod, except the new mod no longer deterministically drops fully-linked items.\n\nDuring [[Archnemesis league]], the old mod drops Heist and Expedition items instead.\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Monster mods now only do one specific thing.\n** (wiki editor note: this does not applies to {{c|normal|Temporal Proximity Shield}} (ex-{{c|nemesis|Temporal Bubble}}), which still have the Proximity Shield skill and applies the debuff.)\n* Players are no longer required to do annoying actions to maximise rewards\n* In the new system, we have added a significant pool of new rewards to rares, but the reward that is on the monster is hidden (and not associated with a specific mod), so you don't know what kind of rewards you will get until you kill the monster. Rare monsters with more mods are more likely to have these special hidden reward mods. This new reward system smooths out the spikiness that the Archnemesis reward system had.\n}}\n{{Version history table row|3.19.0|\n* Some of the more powerful Monster modifiers now use a special reward conversion system. For example, if you defeat a monster with the Corrupter mod, all of its drops become corrupted. The Solaris-touched mod converts all of its item drops to maps. The Kitava-touched mod will cause the rarity of its drops to be upgraded by one tier, so magic becomes rare, rare becomes unique, etc). If you're lucky, you can find these conversion modifiers on both the third and fourth mod of a rare monster. This causes them to stack together. So if you kill a four-mod rare monster with both the Entangler and Kitava-touched mods on it, its heavily juiced drops will also be converted to jewels with their rarity upgraded by a tier. Due to the high amount of inherent item rarity that four-mod monsters have, this may result in several unique jewels. This conversion system is fully compatible with your item rarity and quantity bonuses, as well as the drop bonuses from all other archnemesis mods.\n* Magic monsters have a restricted list of archnemesis modifiers compared to rare monsters, but this list still includes many modifiers which can spawn threats external to the monsters themselves, such as ground effects or volatile orbs. These external threats can feel overwhelming due to magic monsters being more numerous than rare monsters.\n}}\n{{Version history table row|3.18.0|\n* Added to the core game.\n** Now {{c|mod|25% reduced Action Speed}} (down from 45%), {{c|mod|Debuffs on you expire 40% slower}}  (down from 60%) and {{c|mod|60% reduced Cooldown Recovery Rate}}  (down from 80%) {{Undocumented}}\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]\n[[Category:Monster auras]]",
+  "sha256": "1efdc05a71d5e77f5d8c2c1918104f75c933cb21a256a7c4aecb1f96c5b16329"
+}

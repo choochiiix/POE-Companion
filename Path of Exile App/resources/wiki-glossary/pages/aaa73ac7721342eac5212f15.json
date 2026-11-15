@@ -1,0 +1,33 @@
+{
+  "title": "Snake",
+  "pageId": 15305,
+  "revision": 1483165,
+  "timestamp": "2024-09-07T10:40:45Z",
+  "retrieved": "2026-11-14T10:11:12.096836+00:00",
+  "requested": [
+    "Ghost",
+    "Rhoa",
+    "Snake",
+    "Spider",
+    "Statue",
+    "Zombie",
+    "magic",
+    "explicit",
+    "Abyss jewel",
+    "Rarity",
+    "rarity",
+    "fishing",
+    "ailments",
+    "Crushed",
+    "Call of Steel",
+    "class",
+    "Buff Effect",
+    "event",
+    "race",
+    "ranged"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{redirect|Cobra|the pet|Cobra Pet}}\n'''Snakes''' are a [[monster]] type found in acts 2 and 3 with a range of abilities.\n\n==Variations==\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n!  Name !!  Location !!  Special Attributes\n|-style=\"height:40px\"\n| style=\"width:200px\" |[[Bramble Cobra]] ||style=\"width:350px\" | [[The Southern Forest]], [[The Riverways]], [[The Northern Forest]] ||style=\"width:350px\" | {{c|mod|Chaos Damage, Resists Fire, Resists Chaos}}\n|-style=\"height:40px\"\n| [[Night Adder]] || [[The Northern Forest]] || {{c|mod|Chaos Damage, Resists Fire, Resists Chaos}}, Casts [[Flame Totem|Flamebreath]]\n|-style=\"height:40px\"\n| [[Bramble Cobra]] || [[The Wetlands]] || {{c|mod|?}}\n|-style=\"height:40px\"\n| [[Glade Mamba]] || [[The Dread Thicket]] || {{c|mod|Chaos Damage, Resists Fire, Resists Chaos}}\n|-style=\"height:40px\"\n| [[Serpentine Construct]] || [[The Vaal Ruins]] || {{c|mod|Resists Fire, Resists Chaos}}\n|-style=\"height:40px\"\n| [[Barb Serpent]] || [[Forbidden Shrine]] || {{c|mod|?}}\n|-style=\"height:40px\"\n| [[Spine Serpent]] || [[The Slums]], [[The Marketplace]] || {{c|mod|?}}\n|}\n\n===Uniques===\n{| class=\"wikitable\" style=\"text-align:center;\"\n|-\n!  Name !!  Location !!  Special Attributes\n|-style=\"height:40px\"\n| style=\"width:200px\"| [[Tailsinger]] || style=\"width:350px\" | [[The Northern Forest]] || style=\"width:350px\" | Uses {{il|Puncture}} and {{il|Frost Wall}}\n|-style=\"height:40px\"\n| [[Bramblemist]] || [[The Phrecia Outskirts]] || Resist Fire, Resist Chaos, Fires Additional Projectiles, Deals Chaos Damage\n|-style=\"height:40px\"\n| [[Thornrunner]] || [[Hidden Patch]] || [[Proximity Shield]], {{il|Firestorm}} with spike projectiles, Quick, Fast Attacks, Extra Projectiles, Chaos Damage, Resists Elemental Damage, Resists Chaos\n|-style=\"height:40px\"\n| [[Wiraqucha, Ancient Guardian]] || [[Stagnant Canal]] || Invisible, spawns many smaller copies, {{il|Smoke Mine}} like effect\n|}\n\n;Removed:\n\n* [[Slitherskin]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.0.0|\n* Tailsinger has been relocated from [[The Riverways]] to [[The Northern Forest]].\n}}\n{{Version history table end}}\n\n\n{{Navbox Bestiary}}\n[[Category:Monster types]]\n[[Category:Snakes| ]]",
+  "sha256": "6772b3e26964c99dc2f29bc0c0f57397174c17d3f5a02d0bc03a109e0b5416ef"
+}

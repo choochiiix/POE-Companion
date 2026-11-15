@@ -1,0 +1,35 @@
+{
+  "title": "Ersi, Mother of Thorns",
+  "pageId": 5991,
+  "revision": 1641691,
+  "timestamp": "2026-03-30T14:09:20Z",
+  "retrieved": "2026-11-14T10:11:15.574872+00:00",
+  "requested": [
+    "Ersi",
+    "Eldritch",
+    "the Eater of Worlds",
+    "Fractured",
+    "The Eater of Worlds",
+    "Pact",
+    "Vaal gem",
+    "Light radius",
+    "explosion",
+    "tinctures",
+    "Weeping Wounds",
+    "belts",
+    "The Viridian Wildwood",
+    "Master",
+    "Abyss",
+    "Breach",
+    "Grasping Vines",
+    "Shrine",
+    "Debilitate",
+    "Wither"
+  ],
+  "aliases": [
+    "Ersi"
+  ],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Ersi, Mother of Thorns\n| rarity = Unique\n| image = \n| level = \n| location = [[The Sacred Grove]]\n| quest = \n| health = \n| damage = Physical\n| aps = \n| resistance =\n| modifier =\n| skill = {{il|Ground Slam}}<br/>Charge<br/>Trample<br/>Vine Wall<br/>Minions\n| metadata_id = Metadata/Monsters/LeagueHarvest/Red/HarvestBearBoss\n}}\n'''Ersi, Mother of Thorns''' is one of the tier 4 [[harvest]] bosses. It is the boss of \"Wild\" (purple) seeds.\n\nThe boss can be found in the [[The Sacred Grove]] at random. The chance can be increased by allocating [[atlas passive skill]] {{psl|Heart of the Grove}} or using a {{il|Harvest Scarab of Cornucopia}}.\n\nErsi can drop {{il|Wild Crystallised Lifeforce}} and has a chance to drop an exclusive unique item.\n\n==Abilities==\n* {{il|Ground Slam}}\n* Basic melee attacks\n* Charge attack\n* Trample\n* Creates a vine wall\n\nA minion phase starts at about 60% health and ends after the boss has taken enough damage.\n\n{{Monster item drops|metadata_id=Metadata/Monsters/LeagueHarvest/Red/HarvestBearBoss}}\n\n==Other variants==\n* [[Melur Thornmaul]] ({{il|Bramble Valley Map}})\n\n==Version history==\nDuring [[Harvest league]], Ersi, Mother of Thorns could be fought by growing a {{il|Wild Thornfruit}}.\n\n===Recipes (ver 3.11 to 3.18)===\n''This section describes historical game content.''\n\nUpon killing all the monsters of the plot that contains Ersi, Mother of Thorns, it granted a one-time-use harvest recipe.<ref name=Harvest/>\n{{c|craft|Reveal a random crafting effect that locks a random modifier on an item when Harvested}}\n\n* [[Fractured item|Fracture]] a random modifier on an item with at least 5 modifiers, locking it in place. This can't be used on [[Influenced item|Influenced]], [[Synthesised item|Synthesised]], or Fractured items\n* Fracture a Suffix on an item with least 3 Suffixes. This can't be used on Influenced, Synthesised, or Fractured items\n* Fracture a Prefix on an item with at least 3 Prefixes. This can't be used on Influenced, Synthesised, or Fractured items.\n\n{{Version history table header}}\n{{Version history table row|3.28.0e|\n* Harvest Bosses will transition back into their regular forms 40 seconds after starting a vine phase.\n}}\n{{Version history table row|3.19.0|\n* Harvest monsters are no longer associated with specific crafting options and do not grant uses of crafting options on death. Instead, monsters defeated now drop a stack of lifeforce.\n* Tier 4 bosses are now encountered much more frequently and can drop [[Sacred Blossom|a key]] to fight [[Oshabi, Avatar of the Grove|Oshabi]].\n}}\n{{Version history table row|3.13.1c|\n* Reduced the life on Tier 4 Harvest bosses.\n}}\n{{Version history table row|3.13.0|\n* Reworked. Now its seed is pre-planted in [[The Sacred Grove]] randomly. {{Undocumented}}\n}}\n{{Version history table row|3.12.0|\n* Spawn disabled as Harvest is not part of the core game yet. {{Undocumented}}\n}}\n{{Version history table row|3.11.1|\n* Added additional preloading for the Tier 4 Harvest bosses and Heart of the Grove encounter.\n* Fixed a bug where the Tier 4 Harvest Bosses could endlessly spawn monsters during their immobile phase.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=<ref name=Harvest>{{cite web|url=https://www.pathofexile.com/forum/view-thread/2874544|title=Path of Exile: Harvest - Cultivating Your Garden & Crafting Outcomes |author=Bex_GGG|date=June 19, 2020|accessdate=July 7, 2020|publisher=Official Path of Exile forums}}</ref>\n}}\n\n{{Navbox Harvest}}\n\n[[Category:Harvest monsters]]",
+  "sha256": "b0e7bc4e361f06dd953f0036553ebd529dd64182f04fb29eaaed4a832a2f5f56"
+}

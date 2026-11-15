@@ -1,0 +1,33 @@
+{
+  "title": "Malachai's Power",
+  "pageId": 10593,
+  "revision": 1486248,
+  "timestamp": "2024-10-13T02:12:52Z",
+  "retrieved": "2026-11-14T10:57:33.345677+00:00",
+  "requested": [
+    "Lioneye's Arrows",
+    "Liquid Gold",
+    "Livewire",
+    "Living Crystals",
+    "Lonely Warrior",
+    "Loyalty",
+    "Lucky Arc",
+    "Lunar Protection",
+    "Lunar Resistance",
+    "Lunaris Shrine",
+    "Lustrous Lacquer",
+    "Maata's Leadership",
+    "Magmatic Strikes",
+    "Magnetic Storm",
+    "Maim Immunity",
+    "Malachai Spores",
+    "Malachai's Endurance",
+    "Malachai's Frenzy",
+    "Malachai's Power",
+    "Malediction"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Malachai's Power\n| type                   = Buff\n| description            = Malachai's Power grants you a 10% chance to gain a Power Charge when you hit enemies.\n}}\n\n'''Malachai's Power''' is a [[buff]] granted by {{il|Malachai's Mark}} which grants a 10% chance to gain a [[power charge]] on hit.\n\n==See also==\n* [[File:Malachai's Endurance status icon.png|25px|link=Malachai's Endurance]] [[Malachai's Endurance]]\n* [[File:Malachai's Frenzy status icon.png|25px|link=Malachai's Frenzy]] [[Malachai's Frenzy]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* The Malachai's Endurance, Frenzy and Power Buffs from the Malachai's Mark Unique Gloves now give a 10% chance to grant an Endurance, Frenzy or Power Charge on Hit respectively (previously 20% chance to grant an Endurance, Frenzy, or Power Charge on Kill respectively). This change affects existing items.\n}}\n{{Version history table row|3.0.2|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "8b72e1b62a8526af8df763dd413f7c272cf53b6afc8e783a92e357a060b2a417"
+}

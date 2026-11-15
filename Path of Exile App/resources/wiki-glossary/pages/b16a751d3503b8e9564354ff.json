@@ -1,0 +1,33 @@
+{
+  "title": "Overwhelm",
+  "pageId": 12120,
+  "revision": 1476681,
+  "timestamp": "2024-07-28T17:33:09Z",
+  "retrieved": "2026-11-14T10:11:24.413828+00:00",
+  "requested": [
+    "corrupted item",
+    "unique monsters",
+    "Impact",
+    "Overwhelm",
+    "savage hit",
+    "Will of the Lords",
+    "jewel socket",
+    "Skeleton archer",
+    "marauder",
+    "one-handed",
+    "flask charge",
+    "shatter",
+    "Rain of Arrows",
+    "Frozen",
+    "ignited",
+    "shocked",
+    "scorched",
+    "sapped",
+    "burn",
+    "Assassin"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Overwhelm}}\n{{for}}\n'''Overwhelm''' is a notable [[Ascendancy passive skill]] for the [[Slayer]] that sets the base [[critical strike]] chance of the equipped weapon to 8%, grants critical strike multiplier per nearby enemy, and lowers the critical strike multiplier of nearby enemies.\n\nThis passive only overrides the ''weapon'''s critical strike chance value.<ref>https://www.reddit.com/r/pathofexile/comments/bw2bpl/deleted_by_user/eq16ie3/?context=2</ref> It does not prevent additional flat critical strike chance from other sources, for example {{il|Increased Critical Strikes Support}} or {{stl|Brittle}}. \n\n==Ruthless mode==\n{{infocard\n|header    = Overwhelm (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:CriticalAttacks (Slayer) passive skill icon.png]]</div>\n|2         = Base Critical Strike Chance for Attacks with Weapons is 8%\n}}\n\nOverwhelm in [[Ruthless mode]] does not grant crit multi or reduce enemies' crit multi.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} No longer provides \"+10% to Critical Strike Multiplier per Nearby Enemy, up to +100%\" or \"Nearby Enemies have -30% to Critical Strike Multiplier\" in Ruthless.\n}}\n{{Version history table row|3.13.0|\n* Base critical strike chance for attack with weapons is now 8% (from 7.5%).\n}}\n{{Version history table row|3.8.0|\n* Base critical strike chance for attacks with weapons is now 7.5% (from 8%).\n}}\n{{Version history table row|3.7.0|\n* Reworked. Old mods listed below:\n** {{c|mod|Your Damaging Hits always Stun Enemies that are on Full Life}}\n** {{c|mod|20% chance to double Stun Duration}}\n** {{c|mod|100% increased Stun Duration on Enemies}}\n** {{c|mod|Cannot be Stunned}}\n}}\n{{Version history table row|3.2.0|\n* Now grants increased stun duration at all times, instead of only granting increased stun duration against enemies at full or low life.\n* Added {{c|mod|Cannot be Stunned}}.\n}}\n{{Version history table row|2.3.0|\n* Changed wording of 'Always Stun Enemies that are on Full Life' to 'Your Damaging Hits always Stun Enemies that are on Full Life'\n}}\n{{Version history table row|2.2.1e|\n* The notable passive Overwhelm for the Slayer Ascendancy class now only stuns enemies on full life with hits that deal damage.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}",
+  "sha256": "19f2dc9b7003d541d17fac44cba13828ba2d3c5094dc5321be3d43a535e21a16"
+}

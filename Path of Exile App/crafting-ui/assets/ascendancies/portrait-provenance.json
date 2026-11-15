@@ -1,0 +1,96 @@
+{
+  "sourcePage": "https://poedb.tw/us/Character_class",
+  "reference": "Original small portraits matching user supplied reference; Raider deliberately not assigned to Warden",
+  "files": {
+    "champion": {
+      "url": "https://i.imgur.com/ltGrJ1K.png",
+      "file": "portraitchampion.png",
+      "sha256": "f326627b1edf4ad57efa65a8fbe62dd3706aefbe555a9fd3624a8a2219d6ba6e"
+    },
+    "gladiator": {
+      "url": "https://i.imgur.com/F3FQxV4.png",
+      "file": "portraitgladiator.png",
+      "sha256": "2bc8155b5c7a37b4b296f33eaa37e4987820de30d7ed42d154cccd6d7be9af89"
+    },
+    "pathfinder": {
+      "url": "https://i.imgur.com/EVg7lhR.png",
+      "file": "portraitpathfinder.png",
+      "sha256": "a880688ffca7b3a54eeaa6eae948fa0dcaf6bf454c01985d5a264bf240f6e9c4"
+    },
+    "ascendant": {
+      "url": "https://i.imgur.com/Th9qGrm.png",
+      "file": "portraitascendant.png",
+      "sha256": "315e90db3e8948eeab294d3c249ee28151b58c671f662368bb29aa0c252d97f3"
+    },
+    "deadeye": {
+      "url": "https://i.imgur.com/NCybIiO.png",
+      "file": "portraitdeadeye.png",
+      "sha256": "74a7856c18b8648b6906794fc0a83cfc5bc97b902eafe255ecde8686a8a3a332"
+    },
+    "inquisitor": {
+      "url": "https://i.imgur.com/PyzEPzP.png",
+      "file": "portraitinquisitor.png",
+      "sha256": "43448d862a7b202c0f96d6ad4657e7b678f594c881b374f11cc6619f99d89af9"
+    },
+    "occultist": {
+      "url": "https://i.imgur.com/BGrQsx5.png",
+      "file": "portraitoccultist.png",
+      "sha256": "268e39478bd55b408c9b36be9804c958418336093b35296ceca3fc416ad834e3"
+    },
+    "elementalist": {
+      "url": "https://i.imgur.com/G5fSIS8.png",
+      "file": "portraitelementalist.png",
+      "sha256": "f5d647c8acbc38afa42818f2e20165fb70a50e6674b29fb8c89ea02bf16aa537"
+    },
+    "chieftain": {
+      "url": "https://i.imgur.com/WSkz5xh.png",
+      "file": "portraitchieftain.png",
+      "sha256": "28bb36a4034401c72b1f008cf0f7309a561a0b473bd5318972d89089493c4e3e"
+    },
+    "berserker": {
+      "url": "https://i.imgur.com/l2vDx4j.png",
+      "file": "portraitberserker.png",
+      "sha256": "83a8357dc6cce3b113ca7db70f7c2e5b18709dd4237a1f7fc4858a2e77e4a890"
+    },
+    "saboteur": {
+      "url": "https://i.imgur.com/7dNJPM4.png",
+      "file": "portraitsaboteur.png",
+      "sha256": "d8e9e8bef9c6d74d4c6e7d7be0674b79c2757d55e81b598652f9f1d3a4762c11"
+    },
+    "necromancer": {
+      "url": "https://i.imgur.com/k1debpx.png",
+      "file": "portraitnecromancer.png",
+      "sha256": "6fe6f173ac287a4cdc9a6d2c0d46a2b301b63dda037e0ee5cef657024dfad944"
+    },
+    "slayer": {
+      "url": "https://i.imgur.com/UMAd0yL.png",
+      "file": "portraitslayer.png",
+      "sha256": "11c32e57439811cbaec96f2dab79b9a5c5ff1635c448f35bc43b8b4f8cf4b17f"
+    },
+    "juggernaut": {
+      "url": "https://i.imgur.com/QFubXr4.png",
+      "file": "portraitjuggernaut.png",
+      "sha256": "f33aefc440f5d2313ca7df31ec3fb01508f18bf79b3439e77d80f67fb8c53272"
+    },
+    "assassin": {
+      "url": "https://i.imgur.com/0tURSJ4.png",
+      "file": "portraitassassin.png",
+      "sha256": "a3e6c6a2fe35ce71367249e6aee15bcf6ab5cdffc15f257ff4f8a0b436ad4c2c"
+    },
+    "hierophant": {
+      "url": "https://i.imgur.com/8iu1k86.png",
+      "file": "portraithierophant.png",
+      "sha256": "9efe98b56bc5708570365d0f23d685f05e6f256faab06f58a15157978efd5bed"
+    },
+    "guardian": {
+      "url": "https://i.imgur.com/sHiE02Y.png",
+      "file": "portraitguardian.png",
+      "sha256": "277d5df8bfd719a4ef8eeaf5bb0692fbbcac6d08a04da152b5b40f4f42dfb7e6"
+    },
+    "trickster": {
+      "url": "https://i.imgur.com/n8jtbfr.png",
+      "file": "portraittrickster.png",
+      "sha256": "e78d1835caf1bf4fb6c0b38224221f1fdec88181d6a3ead10d5a6bcbe76ef891"
+    }
+  }
+}

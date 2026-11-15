@@ -1,0 +1,5 @@
+import {createServer} from 'node:http';
+import {readFile} from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+export function makeServer(){return createServer(async(req,res)=>{const path=new URL(req.url,'http://localhost').pathname;const files={'/':'index.html','/index.html':'index.html','/style.css':'style.css','/app.js':'app.js','/model.js':'model.js'};if(!files[path]){res.writeHead(404);res.end('Not found');return;}try{const body=await readFile(new URL(files[path],import.meta.url));res.writeHead(200,{'Content-Type':path.endsWith('.js')?'text/javascript':path.endsWith('.css')?'text/css':'text/html','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'"});res.end(body);}catch{res.writeHead(500);res.end('Unable to load prototype');}});}
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)makeServer().listen(4321,'127.0.0.1',()=>console.log('Catalogix concept: http://127.0.0.1:4321'));

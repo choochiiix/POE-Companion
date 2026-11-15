@@ -1,0 +1,33 @@
+{
+  "title": "Rupture",
+  "pageId": 14044,
+  "revision": 1660589,
+  "timestamp": "2026-07-07T22:00:11Z",
+  "retrieved": "2026-11-14T10:57:41.956409+00:00",
+  "requested": [
+    "Rumblemarch Life Regen",
+    "Rumi's Concoction",
+    "Runesurge",
+    "Rupture",
+    "Sacred Ashes",
+    "Sacred Infusion",
+    "Sacred Suffering",
+    "Sacrificial Zeal",
+    "Sailors Lantern",
+    "Sand Bladestorm",
+    "Sand Stance",
+    "Sand of Eternity",
+    "Sands of Shakari",
+    "Sandstorm",
+    "Sap of the Seasons",
+    "Sapped Ground",
+    "Sapphire Flask",
+    "Sapping Conflux",
+    "Saqawine Presence",
+    "Scathing Tempest"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Rupture\n|type=Debuff\n|description=Bleeding deals you more damage per second, but expires more quickly\n|bonuses = \n}}\n\n'''Rupture''' is a stackable [[debuff]] that causes the affected target to take more damage from [[bleeding]], but also causes bleeding on the affected target to [[expire]] 25% more quickly. Up to 4 Ruptures can be active on a target. Each stack has a 3 second duration. \n[[File:rupturevisual.png|thumb|A Ruptured Gladiator Statue appears bloodsoaked. Also shown: minor blood spray near neck due to non-aggravated Bleeding.]]\n\n==Mechanics==\nRupture is a dynamic debuff: an enemy starts taking more damage from all their bleeds when they become Ruptured, and cease to do so when Rupture expires. Similarly, an enemy that becomes Ruptured will have the timers on their bleeding debuffs speed up, and return to normal speed if Rupture is removed.\n\nUnlike {{c|mod|Bleeding you inflict deals Damage #% faster}}, Rupture does not affect the base DPS and base duration values of bleeding debuffs. Due to applying to different things at different times, the overall effect on damage dealt is effectively multiplicative.<ref>https://www.pathofexile.com/forum/view-thread/3123794</ref>  \n\nThe only current source of Rupture is {{il|Rupture Support}}, which sets the debuff's values based on its gem level. The default values when Rupture was available from a global stat were 25% and 25%. \n\n==Skills==\n===Skill gems===\nThe following [[skill gem]]s are related to Rupture:\n{{Drop enabled gem table\n|where = items.class_id=\"Active Skill Gem\"\n  AND (skill.description LIKE \"%rupture%\" OR skill.stat_text LIKE \"%rupture%\")\n}}<section end=\"active_skill_gems\" />\n\n===Support gems===\nThe following [[support gem]]s are related to Rupture:\n{{Drop enabled gem table\n|where = items.class_id=\"Support Skill Gem\"\n  AND (skill.description LIKE \"%rupture%\" OR skill.stat_text LIKE \"%rupture%\")\n}}\n\n==Passive skills==\nThese [[passive skill]]s are related to rupture:\n\n{{Query passive skills\n|where=passive_skill_stats.id LIKE \"%rupture%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* The Rupture debuff can now stack up to 4 times on a target (previously 3).}}\n{{Version history table row|3.13.0|\n* Introduced to the game as debuff.\n* The existing passive skill Rupture was renamed to Rupturing, which inflicts this debuff\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Debuffs]]",
+  "sha256": "84f3ae79836047bc9ba66752c8cdb2225e4ea902bc2cf1b32c06e6be265dc8ba"
+}

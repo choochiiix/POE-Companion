@@ -1,0 +1,33 @@
+{
+  "title": "Blessing skill",
+  "pageId": 116128,
+  "revision": 1550429,
+  "timestamp": "2025-07-19T23:35:30Z",
+  "retrieved": "2026-11-14T10:10:02.543510+00:00",
+  "requested": [
+    "Kill",
+    "Exerted",
+    "Mirage Warriors",
+    "effect",
+    "enemies",
+    "Cost",
+    "Monster modifiers",
+    "curse limit",
+    "Blessing skill",
+    "Elder item",
+    "Runesmithing",
+    "Cassia",
+    "ring",
+    "amulet",
+    "Ring",
+    "Amulet",
+    "notable passive skill",
+    "passive skill tree",
+    "Corrupt",
+    "Talisman"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|other uses of the word \"Blessing\"|Blessing (disambiguation)}}\n\nA '''Blessing Skill''' is a [[gem tag]] for support skills that modifies the [[aura]]'s [[reservation]] cost into something else. You can only have one aura on you from your Blessing Skills.\n\n==Sources==\n===Skill gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Support Skill Gem\" AND skill_gems.gem_tags HOLDS \"Blessing\"}} [[skill gem]]s with the [[:Category:Blessing (gem tag)|Blessing]] [[gem tag]]:\n{{Query stat related skill gems\n|type=support\n|stat_id_query=%blessing%\n}}\n\n===Other===\n* [[Divine Blessing Support]] (from {{il|March of the Legion}})\n\n[[Category:Gem tag mechanics]]\n[[Category:Gem tags]]",
+  "sha256": "2551ad4040d7deaffa9be491757157852365d228e97237de28d960af2623ff97"
+}

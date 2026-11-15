@@ -1,0 +1,33 @@
+{
+  "title": "Dying Sun",
+  "pageId": 5584,
+  "revision": 1597033,
+  "timestamp": "2025-11-28T20:14:21Z",
+  "retrieved": "2026-11-14T10:57:20.721182+00:00",
+  "requested": [
+    "Draugurflame",
+    "Draugurflame Burn",
+    "Dread Banner",
+    "Drought",
+    "Drowning",
+    "Drowning Domain",
+    "Duration Test",
+    "Dying Breath",
+    "Dying Sun",
+    "Earth Drinker",
+    "Ebon Affliction",
+    "Echoing Tempest",
+    "Effigy",
+    "Eldritch Decay",
+    "Eldritch Empowerment",
+    "Electrified Ground Trap",
+    "Electrifying Bond",
+    "Electrifying Gaze",
+    "Electrifying Sight",
+    "Elemental Aegis"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Dying Sun\n|class_id                                = UtilityFlask\n|base_item                               = Ruby Flask\n|explicit1                               = FlaskChargesUsedUnique__5\n|explicit2                               = FlaskLessDurationUnique1\n|explicit3                               = FlaskIncreasedAreaOfEffectDuringEffectUnique__1_\n|explicit4                               = FlaskAdditionalProjectilesDuringEffectUnique__1\n|flavour_text                            = All things must die.<br>Whether you burn out or explode is up to you.\n|release_version                         = 2.4.0\n|drop_monsters                           = Metadata/Monsters/AtlasBosses/TheShaperBoss\n|recipe1_part1_item_name                 = The Progeny of Lunaris\n|recipe1_part1_amount                    = 2\n|recipe1_description                     = {{c|unique|{{iil|Dying Sun}}}}\n}}\n{{status\n| name                   = Dying Sun\n| type                   = Flask Effect\n| description            = You have increased Area of Effect, and fire additional Projectiles\n}}\n\n'''Dying Sun''' is a [[unique]] {{il|Ruby Flask}}.\n\n==Mechanics==\n* {{ml|FlaskAdditionalProjectilesDuringEffectUnique__1|display=stat_text}}:\n:Player can stack increased flask effect mod (such as {{c|mod|Flasks applied to you have #% increased Effect}} from belt) to 50%+ increased, so that the flask effect would be fires 3 additional projectiles instead of 2 additional. This can be achieved by [[passive skill]] from the main tree, from [[cluster jewel]], from [[List of jewel implicit mods|jewel implicit]] (crafted from [[Vivid Parasite]] [[harvest crafting]]), belt mod, etc.\n\n* {{ml|FlaskChargesUsedUnique__5|display=stat_text}}:\n\n:The mod is additive to other increase/reduced [[flask charges]] used modifiers, such as {{c|mod|#% reduced Flask Charges used}} modifier from the [[belt]]. Despite the item mod stated \"charge\", it means flask charge instead of [[power charge]], [[frenzy charge]] or [[endurance charge]], etc.\n\n* {{c|mod|(40-60)% less Duration}} This mod is multiplicative to the effect of the [[quality#Effect on items|flask quality]].\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of (2.20-3.30) seconds instead.\n\n{{Item skin list}}\n\n==Legacy variants==\nDying Sun has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.16.0|\n* (125-150)% increased Charges used\n* {{c|mod|(40-60)% reduced Duration}}{{efn|name=Reroll legacy duration explicit}}\n* (10-20)% increased Area of Effect during Flask Effect\n* Skills fire 2 additional Projectiles during Flask Effect\n}}\n{{legacy variant table row|3.15.0|\n* {{c|mod|(-10 to +10)% increased Charges used}}\n* {{c|mod|(15-25)% increased Area of Effect during Flask Effect}}{{efn|name=Reroll legacy explicit}}\n* Skills fire 2 additional Projectiles during Flask Effect\n}}\n{{legacy variant table row|3.0.0|\n* {{c|mod|(-10 to +10)% increased Charges used}}\n* {{c|mod|30% increased Area of Effect during Flask Effect}}{{efn|name=Reroll legacy explicit}}\n* Skills fire 2 additional Projectiles during Flask Effect\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Now has {{c|mod|40-60% less Duration}} (previously {{c|mod|40-60% reduced duration}}).\n}}\n{{Version history table row|3.15.0|\n* Dying Sun now has 10-20% increased Area of Effect during Flask Effect (previously 15-25%), 125-150% increased Charges Used (previously -10 to 10%), and now has 40-60% reduced Duration. Existing items can be updated to these new modifier values with a {{il|Divine Orb}}.\n* The basetype, {{il|Ruby Flask}}, now last 5 seconds (previously 4). They now consume 20 of 50 Charges on use (previously 30 of 60).\n}}\n{{Version history table row|3.5.0|\n* The basetype, {{il|Ruby Flask}}, no longer grant added maximum resistances. Instead, reduce the damage taken of the elements by 20%.\n}}\n{{Version history table row|3.0.0|\n* Increased Area of Effect lowered to 15-25%.\n}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==Notes==\n{{Notelist|notes=\n{{efn|name=Reroll legacy duration explicit|It is not stated in the patch note, but the new default range for [[Modifier:FlaskEffectDurationUnique~~6|the legacy mod]] {{c|mod|#% reduced Duration}} is (70-80)%, thus using a {{il|Divine Orb}} on a legacy Dying Sun (3.15.X version), will reroll the value and never able to restored to within the old default range (40-60)%.}}\n{{efn|name=Reroll legacy explicit|Using a {{il|Divine Orb}} on a legacy Dying Sun with the explicit modifier {{c|mod|(15-25)% increased Area of Effect during Flask Effect}} (or {{c|mod|30% increased Area of Effect during Flask Effect}} for double legacy Dying Sun) will potentially decrease the value of that modifier to (10-20)%}}\n}}\n\n{{Navbox Unique Items}}",
+  "sha256": "442f1398f3c9395a2b5b840b8f23e66fe5d1cfe4b9202246114b593f3feedca3"
+}

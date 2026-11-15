@@ -1,0 +1,33 @@
+{
+  "title": "Abyssal Wasting",
+  "pageId": 144193,
+  "revision": 1702857,
+  "timestamp": "2026-10-05T23:17:53Z",
+  "retrieved": "2026-11-14T10:57:08.598522+00:00",
+  "requested": [
+    "A Chilling Wind",
+    "Abandoned Wealth",
+    "Abberath's Fury",
+    "Absorption Charges",
+    "Abyssal Cry",
+    "Abyssal Tempest",
+    "Abyssal Wasting",
+    "Accuracy and Crits Aura",
+    "Accursed Prism",
+    "Acid Pit",
+    "Active Offering",
+    "Added Knockback",
+    "Additional Impale",
+    "Additional Life Recovery",
+    "Additional Totems",
+    "Aegis of the Sea",
+    "Afarud Shrine",
+    "Afarud Shrine Monster",
+    "Affliction Charges",
+    "Affliction Regeneration"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Abyssal Wasting\n| type                   = Debuff\n| icon                   = Abyssal Wasting status icon.png\n| description            = Your Damage with Hits is Unlucky\n}}\n[[File:Abyssal Wasting debuff indicator.png|70px|thumb|The Abyssal Wasting debuff.]]\n'''Abyssal Wasting''' is a [[debuff]] which causes affected enemies' [[damage]] with [[hit]]s to be [[unlucky]]. This effect does not stack with other sources of unlucky.\n\nIt is inflicted exclusively by [[Summon Bone Feeders]] from the [[Abyssal Bloodline]]'s {{psl|Bone Feeders}} as a debuffing [[aura]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.29.1|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]\n\n{{sister|poe2wiki}}",
+  "sha256": "5d11b42fd70d9d94a45acb4db9144d6921f24dc8a91feca70feadcf13682760b"
+}

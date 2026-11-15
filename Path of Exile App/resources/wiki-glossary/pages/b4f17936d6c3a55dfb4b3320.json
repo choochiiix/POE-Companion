@@ -1,0 +1,33 @@
+{
+  "title": "Iron Reflexes",
+  "pageId": 8855,
+  "revision": 1605890,
+  "timestamp": "2026-01-21T16:38:45Z",
+  "retrieved": "2026-11-14T10:08:29.721759+00:00",
+  "requested": [
+    "Fortify",
+    "Onslaught",
+    "Phasing",
+    "Elusive",
+    "Tailwind",
+    "Adrenaline",
+    "Rampage",
+    "Soul Eater",
+    "Unholy Might",
+    "Arcane Surge",
+    "Vaal Pact",
+    "Ghost Reaver",
+    "Mind Over Matter",
+    "Chaos Inoculation",
+    "Eldritch Battery",
+    "Resolute Technique",
+    "Iron Reflexes",
+    "Blood Magic",
+    "Pain Attunement",
+    "Elemental Equilibrium"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Iron Reflexes}}\n\n'''Iron Reflexes''' is a [[keystone passive skill]] that [[convert]]s all [[evasion]] rating into [[armour]]. It also removes the bonus to evasion rating that [[dexterity]] inherently grants.\n\n==Mechanics==\nIron Reflexes [[convert]]s evasion into armour. Similar to other forms of conversion, armour converted this way 'remembers' originating from evasion, and will include evasion modifiers in its calculation, such as {{il|Grace}}'s {{c|mod|#% more Evasion rating}}.   \n\nArmour gained from evasion [[equipment]] counts as {{c|mod|Armour from}} that equipment for the purpose of effects like {{il|Prospero's Protection}} or {{psl|Unbreakable}}.<ref>https://www.youtube.com/watch?v=lmkr1-voSww</ref>\n\n===Conversion Formulae===\nThe final Armour value is calculated with the following formula:\n<ref>Mark_GGG (March 1, 2013). [https://www.pathofexile.com/forum/view-thread/199679/filter-account-type/staff \"Need Iron reflexes/leather and steel clarification\"]. ''Path of Exile Forums''. Retrieved March 6, 2013.</ref><ref>Mark_GGG (February 5, 2013). [https://www.pathofexile.com/forum/view-thread/76318/page/4 \"Iron Reflexes + Leather and Steel\"]. ''Path of Exile Forums''. Retrieved March 6, 2013.</ref>\n Final Armour = \n   Flat AR * (1 + [total #% increased/reduced AR]) * (More/Less AR modifiers)\n '''+''' Flat EV * (1 + [total #% increased/reduced AR or EV]) * (More/Less AR modifiers) * (More/Less EV modifiers)\n\nwhere:\n\n* EV = \"Evasion Rating\"\n* AR = \"Armour\"\n* Flat EV = Sum of Evasion Rating from Equipped Items (e.g. Body Armour, Shield) and other sources of additional Evasion Rating (e.g. Grace)\n* Flat AR = Sum of  Armour from Equipped Items (e.g. Body Armour, Shield) and other sources of additional Armour (e.g. Determination)\n* More/Less modifiers from different sources (e.g. Determination vs Basalt Flask) are multiplicative with each other.\n\nModifiers which grant {{c|mod|#% increased Evasion Rating and Armour}} (e.g. [[Bravery]]) or {{c|mod|#% increased Global Defences}} (e.g. {{il|Skin of the Loyal}}) only apply to base values one time. For example, taking [[Bravery]] would increase flat ER by 24%, which would then be converted directly into the final Armour. It does not then apply 24% increased Armour, as the flat ER was already affected by that modifier.\n\nWhen factoring modifiers which apply to specific equipment slots such as {{ml|ArmourFromHelmetGlovesEldritchImplicitPinnaclePresence6|text=verbose}}, each source of flat AR/EV should be calculated separately, then summed at the end. These modifiers are additive with other increases and reductions.\n\n===Example===\n1000 Armour from Equipped Items<br>\n1000 Evasion Rating from Equipped Items<br>\n{{c|mod|+1500 Armour}} from {{il|Granite Flask}}<br>\n{{c|mod|+1500 Evasion Rating}} from {{il|Jade Flask}}<br>\n{{c|mod|+2051 Armour}} from {{il|Determination}}<br>\n{{c|mod|+2575 Evasion Rating}} from {{il|Grace}}<br>\n{{c|mod|80% increased Armour}} from passive skills<br>\n{{c|mod|40% increased Evasion Rating}} from passive skills<br>\n{{c|mod|36% increased Evasion Rating and Armour}} from passive skills<br>\n{{c|mod|49% more Armour}} from {{il|Determination}}<br>\n{{c|mod|29% more Evasion Rating}} from {{il|Grace}}\n\n Final Armour = (1000 + 1500 + 2051) * (1 + 0.80 + 0.36) * 1.49 \n              + (1000 + 1500 + 2575) * (1 + 0.80 + 0.40 + 0.36) * 1.49 * 1.29 \n Final Armour = 4551 * 2.16 * 1.49 \n              + 5075 * 2.56 * 1.49 * 1.29 \n Final Armour = 14646.9 + 24972.9\n Final Armour = 39620\n\n===Summary===\nWith Iron Reflexes:\n* {{c|mod|#% increased Evasion Rating}} mods are applied to flat Evasion Rating ''only''.\n* {{c|mod|#% increased Armour}} mods are applied to flat Armour ''and'' flat Evasion Rating.\n* {{c|mod|#% increased Evasion Rating and Armour}} mods get applied to flat Armour ''and'' flat Evasion Rating.\n\nTherefore, the mods that provide the most significant benefits in conjunction with Iron Reflexes are those that increase Armour or both Evasion Rating and Armour.\n\n==Location==\nIron Reflexes is located in the Southern part of the tree near the Duelist Section. It is a stand-alone keystone.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Duelist]]||12\n|-\n|[[Ranger]]||11\n|-\n|[[Scion]]||16\n|-\n|[[Marauder]]||16\n|-\n|[[Shadow]]||18\n|-\n|[[Templar]]||22\n|-\n|[[Witch]]||26\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Iron%Reflexes%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.11.2|\n* Iron Reflexes now no longer includes your [[Dexterity]] bonus to Evasion from your Evasion before it is converted to Armour. \n}}\n{{Version history table row|0.10.0b|\n* Fixed a bug where evasion would be calculated slightly incorrectly on characters that have the Iron Reflexes keystone passive. \n}}\n{{Version history table row|0.9.13|\n* Moved Iron Reflexes closer to the [[Ranger]] area and further from the [[Marauder]]\n}}\n{{Version history table row|0.9.12|\n* Prevented the passives that add both Armour and Evasion from having a double effect if you have the Iron Reflexes keystone.\n}}\n{{Version history table row|0.9.5|\n* Fixed a bug where \"Increased Evasion\" did not apply to converted evasion for Iron Reflexes.\n}}\n{{Version history table row|0.9.4|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n{{sister|poe2wiki}}",
+  "sha256": "72869438fd1e8b97e0db9c3b294249d2c36ba1d279041db817a055109ce52dd1"
+}

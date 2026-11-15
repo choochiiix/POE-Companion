@@ -1,0 +1,35 @@
+{
+  "title": "Replica Leer Cast",
+  "pageId": 13679,
+  "revision": 1594692,
+  "timestamp": "2025-11-15T14:01:32Z",
+  "retrieved": "2026-11-14T10:57:34.127477+00:00",
+  "requested": [
+    "Malevolence Aura",
+    "Malignant Madness",
+    "Mana Regeneration Aura",
+    "Mana Rune",
+    "Mana Shield",
+    "Mana-Infused Staff",
+    "Mark of Dominus",
+    "Mark of the Synthete",
+    "Marked for Death",
+    "Massive Shrine",
+    "Master of Metal",
+    "Maven's Game",
+    "Maven's Grace",
+    "Maven's Punishment",
+    "Medium Physical Damage Aura",
+    "Metamorphosis",
+    "Might is Right",
+    "Mightblood Ire",
+    "Militarised Coral",
+    "Mine and Trap Test"
+  ],
+  "aliases": [
+    "Mana Regeneration Aura"
+  ],
+  "missing": false,
+  "wikitext": "{{Item\n|is_replica                              = true\n|rarity_id                               = unique\n|name                                    = Replica Leer Cast\n|class_id                                = Helmet\n|base_item                               = Festival Mask\n|explicit1                               = DexterityUniqueHelmetDexInt2\n|explicit2                               = ManaRegenerationUnique__14___\n|explicit3                               = IncreasedLifeUniqueHelmetDexInt2\n|explicit4                               = IncreasedManaUniqueHelmetDexInt2\n|explicit5                               = ManaRegenerationAuraUnique__1\n|flavour_text                            = \"Prototype #412 seems to bear much in<br/>common with Thought Extractor technology.\"\n|release_version                         = 3.12.0\n|drop_text                               = Replicas can be obtained from [[Curio Display]]s in the final reward rooms of any [[Grand Heist]].\n}}\n\n'''Replica Leer Cast''' is a [[unique]] {{il|Festival Mask}}. It is the [[replica]] version of {{il|Leer Cast}}.\n\n==Mechanics==\nThe {{stl|Mana Regeneration Aura}} from this item is additive to other increase/reduced mod, including the {{ml|ManaRegenerationUnique__14___|display=stat_text}} on this item. Assume it does not have other mods from other source, the net effect of this item is granting {{c|mod|30% increased Mana Regeneration Rate}} to allies, but the player character has {{c|mod|30% reduced Mana Regeneration Rate}}.\n\nThe buff is an aura, but it is not an aura skill, thus does not benefit from mod such as {{c|mod|#% increased effect of Non-Curse Auras from your Skills}}. The aura from the original item can stack with each other characters that use {{il|Leer Cast}}.<ref name=stack/> Thus, the {{stl|Mana Regeneration Aura}} may also able to stack with each other.{{guesswork}}\n\nThe other 3 mods are the same as the original.\n\n{{status\n| name        = Mana Regeneration Aura\n| type        = Buff\n| description = You have increased Mana Regeneration\n}}\n\n{{Item acquisition}}\n\n==See also==\n* {{il|Clarity}}\n\n==Legacy variants==\nReplica Leer Cast has a [[legacy variant]].\n{{legacy variant table header}}\n{{legacy variant table row|3.19.0|\n* +(20-30) to Dexterity\n*{{c|mod|+(20-30) to maximum Life}}\n*{{c|mod|+(20-30) to maximum Mana}}\n* 60% reduced Mana Regeneration Rate\n* You and nearby Allies have 30% increased Mana Regeneration Rate\n}}\n{{Legacy variant table end}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.19.0|\n* Now has {{c|mod|+60-100 to maximum Life}} (previously +20-30)\n* Now has {{c|mod|+60-100 to maximum Mana}} (previously +20-30)\n* Existing versions of this unique can be updated to these new values using a {{il|Divine Orb}}.\n}}\n{{Version history table row|3.12.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=<ref name=stack>{{cite web|author=qarldev|date=July 15, 2013|title=Re: New Unique #3|url=https://www.reddit.com/r/pathofexile/comments/1idz8f/new_unique_3/cb3jvp3?context=3|publisher=Path of Exile Subreddit|accessdate=July 16, 2013}}</ref>}}\n\n{{Navbox Unique Items}}",
+  "sha256": "f9adfad3a84d12cd5a9582868d9e14312a1627e59753d0f40022b2da993f539d"
+}

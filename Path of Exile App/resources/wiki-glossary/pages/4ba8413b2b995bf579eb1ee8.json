@@ -1,0 +1,33 @@
+{
+  "title": "Ancestral Bond",
+  "pageId": 508,
+  "revision": 1681109,
+  "timestamp": "2026-07-26T20:37:11Z",
+  "retrieved": "2026-11-14T10:11:19.919782+00:00",
+  "requested": [
+    "Echoing Shrine",
+    "Ancestral Bond",
+    "convert",
+    "buff effect",
+    "hexproof",
+    "Hexproof",
+    "mercenary",
+    "Hex Reflection",
+    "secondary",
+    "The Vaal",
+    "Karui",
+    "Eternal Empire",
+    "The Maraketh",
+    "Combust",
+    "Divine Blessing",
+    "stealth",
+    "Shocking Conflux",
+    "Summon Skitterbots",
+    "the Viridian Wildwood",
+    "Event"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Ancestral Bond}}\n\n'''Ancestral Bond''' is a [[keystone passive skill]] that raises the active [[totem]] limit by one. As a drawback, the character cannot deal [[damage]] directly. \n\n==Mechanics==\n\nWith Ancestral Bond, damage may only be dealt through indirect means such as [[proxies]], [[minion]]s, and sources unaffected by offensive damage modifiers like [[reflect]], {{psl|Master Toxicist}}, or {{il|Flame Surge}}'s burning ground. Despite specifying 'with [[skills]]', this effect is not limited to skills, and will prevent damage by the character's non-skill [[explosion]]s.<ref>https://www.youtube.com/watch?v=tpiscAcc-5U</ref> It does not prevent [[self-damage]]. \n\nWhile Ancestral Bond prevents damage and effects that require damage, it does not prevent [[hits]] or [[critical strikes]]. Effects like {{il|Culling Strike Support}} or {{il|Power Charge On Critical Support}} may be used normally. \n\n==Location==\nAncestral Bond lies on the outer northwest side of the tree, between Templar and Witch, near the [[Primal Manifestation]] totem cluster.\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Templar||15\n|-\n|Witch||15\n|-\n|Marauder||16\n|-\n|Scion||19\n|-\n|Duelist||24\n|-\n|Shadow||24\n|-\n|Ranger||29\n|}\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Ancestral Bond%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.10.0|\n* Converted to Keystone Passive\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{sister|poe2wiki}}",
+  "sha256": "968ce87a48009693286d9416982057f3a735ee77db2bcc92e27fdc44e000f429"
+}

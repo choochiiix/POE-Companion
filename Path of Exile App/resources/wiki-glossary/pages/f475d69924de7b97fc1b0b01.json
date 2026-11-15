@@ -1,0 +1,33 @@
+{
+  "title": "Master of Metal",
+  "pageId": 10888,
+  "revision": 1463661,
+  "timestamp": "2024-07-19T18:49:36Z",
+  "retrieved": "2026-11-14T10:57:34.126477+00:00",
+  "requested": [
+    "Malevolence Aura",
+    "Malignant Madness",
+    "Mana Regeneration Aura",
+    "Mana Rune",
+    "Mana Shield",
+    "Mana-Infused Staff",
+    "Mark of Dominus",
+    "Mark of the Synthete",
+    "Marked for Death",
+    "Massive Shrine",
+    "Master of Metal",
+    "Maven's Game",
+    "Maven's Grace",
+    "Maven's Punishment",
+    "Medium Physical Damage Aura",
+    "Metamorphosis",
+    "Might is Right",
+    "Mightblood Ire",
+    "Militarised Coral",
+    "Mine and Trap Test"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Master of Metal}}\n{{status\n| name                   = Master of Metal\n| type                   = Buff\n| icon =ImpalePassiveNotable (Champion) passive skill icon.png\n| description = You deal additional physical damage for each Impale on enemies you hit\n}}\n'''Master of Metal''' is a notable [[Ascendancy passive skill]] for the [[Champion]]. It causes {{stl|Impale}} to last 1 additional hit, grants you and nearby allies [[armour]] if you've applied Impale on an enemy in the past 4 seconds, and grants added physical damage to you and nearby allies for each Impale on an enemy.\n\n==Ruthless mode==\n{{infocard\n|header    = Master of Metal (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:ImpalePassiveNotable (Champion) passive skill icon.png]]</div>\n|2         = Impales you inflict last 1 additional Hit<br>Impale Damage dealt to Enemies Impaled by you ignores Enemy Physical Damage Reduction\n}}\n\nMaster of Metal in [[Ruthless mode]] does not grant armour or added physical damage, but also causes impale to ignore the enemy's physical damage reduction.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* {{Ruthless}} The Champion's Master of Metal Ascendancy Passive Skill now has \"Impale Damage dealt to Enemies Impaled by you ignores Enemy Physical Damage Reduction\" and \"Impales you inflict last 1 additional Hit\".\n}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} No longer provides \"If you've Impaled an Enemy Recently, you and nearby Allies have +1000 to Armour\" or \"You and nearby Allies deal 6 to 12 added Physical Damage for each Impale on Enemy\" in Ruthless.\n}}\n{{Version history table row|3.13.0|\n* Impales you inflict last now 1 additional hit (from 2)\n* Removed {{c|mod|20% chance to Impale Enemies on Hit with Attacks}}\n}}\n{{Version history table row|3.7.0|\n* Now causes you and nearby allies to deal 6 to 12 added physical damage for each impale on the enemy (from 4 to 8).\n}}\n{{Version history table row|3.5.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "7471a244511c94ab2d394b5618a6dca1d6177873bb31a236c3b8c1e065eea67e"
+}

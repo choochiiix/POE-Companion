@@ -1,0 +1,33 @@
+{
+  "title": "Grace Period",
+  "pageId": 116038,
+  "revision": 1491304,
+  "timestamp": "2024-10-27T23:31:51Z",
+  "retrieved": "2026-11-14T10:57:26.336333+00:00",
+  "requested": [
+    "Gathering Lightning",
+    "Ghastly Scythe",
+    "Ghorr's Magnificence",
+    "Ghostflame Graveyard",
+    "Glimpse of Infinity",
+    "Gloom Shrine",
+    "Glorious Madness",
+    "Glowing Orb",
+    "Gluttony",
+    "Goddess Beam",
+    "Gold Flask",
+    "Golden Descry",
+    "Golden Lantern's Glow",
+    "Grace Aura",
+    "Grace Period",
+    "Granite Flask",
+    "Grasping Chains",
+    "Grasping Hooks",
+    "Grasping Nightshade",
+    "Grasping Ornaments"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Grace Period\n| type                   = Buff\n| description            = You can't be damaged\n}}\n'''Grace Period''' is a [[buff]] that prevents affected [[character]]s and [[minion]]s from taking [[damage]], as well as preventing [[monster]]s from targeting them. If the character performs any [[action speed|action]] (using a [[skill]], moving, using a [[flask]]), the buff will be removed from them and their minions. This buff is granted to any character and their minions when they enter certain areas, upon which it will be granted for a [[duration]] specific to the area. It is impossible for monsters to be affected by this buff, or for players to obtain this buff through any alternative method. When an entity is affected by Grace Period, they are referred as being \"in the Grace Period\".\n\n==Mechanics==\nWhile in the Grace Period:\n* Affected [[character]]s take no [[damage]].\n* Affected [[minion]]s take no [[damage]].\n* Affected [[minion]]s do not attack.\n* [[Monster]]s will not attack affected [[minion]]s or [[player]]s.\n\n===Strategy===\nThere are various strategies employed by players in relation to the Grace Period.\n\n====\"Skipping\" a difficult boss attack====\nSome [[boss]]es have attacks with [[cooldown]]s and last for a certain [[duration]]. When the player is killed by these attacks, once they reenter the instance and are in the Grace Period, it may be advisable to stay still and perform no actions as to remain in the Grace Period and wait for the boss's attack to end. This will effectively \"wait out\" the attack and ensure that the player does not die again. [[The Searing Exarch]]'s [[Searing Exarch#Skills|Rolling Meteors]] attack is one such example.\n\n====Avoiding otherwise unavoidable or exceptionally difficult to avoid damage====\nSome bosses have attacks whose effects are more difficult to avoid for players that have recently entered the instance. If a player reenters the instance after having died, it may be advisable to stay still and remain the Grace Period as to avoid this otherwise difficult to avoid attack. A prime example is that of [[The Shaper]]'s [[The Shaper#Skills|Bullet Hell]] attack - reaching [[Zana]]'s \"bubble\" from the [[portal]] may be more difficult than normal, especially is there are already [[projectile]]s in the way.\n\nSome bosses have attacks with completely unavoidable damage for players that have recently entered the instance. An example is [[The Maven]]'s attack on failing a [[The Maven#Skills|Memory Game]]. If you have failed the Memory Game, logout or die, and reenter the instance, it is almost always advisable to stay in the Grace Period if you can see that her failed Memory Game skill is being used, as the damage is unavoidable.\n\n===The Elder's shockwave===\n'''Do not''' exit [[The Elder]]'s arena once it has triggered its final attack - the one where you must hide in [[Zana]]'s bubble. If you leave the arena once it has been triggered and return, The Elder will still be waiting to finish its attack. You cannot wait the attack out while in the Grace Period, because The Elder will always wait until you have exited the Grace Period to attack. This means that the player is forced to either exit the Grace Period and very likely be killed (especially deadly for [[Hardcore]] players) or log out of the game and give up the entire fight.\n\n==Areas with specific Grace Period durations==\nMany areas have specific [[duration]]s for their Grace Period. [[Town]]s do not have Grace Periods.\n{| class=\"wikitable\"\n! Area !! Duration\n|-\n| Campaign Areas, Maps || 60 seconds\n|-\n| [[Hideout]] || 60 seconds\n|-\n| [[Azurite Mine Encampment]], when visited from the [[Azurite Mine]] || 10 seconds\n|-\n| [[The Shaper's Realm]], when re-entering the [[Shaper]] encounter mid-fight || 3 seconds\n|}\n\n==Related cosmetic items==\n{{Item table\n|where= items.description LIKE \"%grace%period%\" AND items.class_id IN (\"Microtransaction\")\n|large=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Player Minions are no longer targetable by Enemies while the Player has the Grace Period Buff.\n}}\n{{Version history table row|3.15.0|\n* Fixed a bug where some instilled flask mods could remove grace period when entering new areas.\n}}\n{{Version history table row|3.13.1e|\n* Fixed a bug with {{il|Righteous Fire}} where swapping socketed [[Support gem]]s during the grace period could cause the [[skill]] to deal no [[damage]]].\n}}\n{{Version history table row|3.13.1c|\n* A short grace period has been added between [[Elder Guardian]] phases.\n}}\n{{Version history table row|3.4.0|\n* Fixed a bug where {{il|Blade Vortex}} stacks carried across areas could deal [[damage]] during a player's grace period. This also fixed cases of [[minion]]s dealing or taking damage during grace period (including through {{psl|Minion Instability}} or Invoker).\n}}\n{{Version history table row|2.0.0|\n* The invulnerability grace period when loading into an area has been increased to 30 seconds.\n}}\n{{Version history table row|1.1.3|\n* Fixed an issue where a momentary Grace Period buff was applied to users when using a teleporter.\n}}\n{{Version history table row|0.11.5|\n* Using [[flask]]s now breaks the grace period of invulnerability you gain upon entering an area.\n}}\n{{Version history table row|0.9.2c|\n* Added a five second grace period of invulnerability when entering an area. This is cancelled if you perform any action.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "f2afb8ca3a9fb5687f7de03cfd4f67ab52a63df6ddc1887f63d32fdc4292bac7"
+}

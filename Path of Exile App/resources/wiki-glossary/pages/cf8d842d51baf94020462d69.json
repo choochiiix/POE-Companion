@@ -1,0 +1,33 @@
+{
+  "title": "Transcendence",
+  "pageId": 17890,
+  "revision": 1490244,
+  "timestamp": "2024-10-13T04:54:41Z",
+  "retrieved": "2026-11-14T10:09:57.338089+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the keystone passive skill}}\n\n{{Passive skill box|Transcendence}}\n\n'''Transcendence''' is a [[keystone passive skill]] that causes [[armour]] to grant [[damage reduction]] against [[elemental]] damage instead of [[physical]] damage. It also lowers [[maximum resistance|maximum elemental resistances]].<ref name=\"newkeystone\"/> \n\n==Mechanics==\n{{c|mod|Armour applies to Fire, Cold and Lightning Damage taken from Hits instead of Physical Damage}} causes armour to defend against elemental damage instead of physical damage. Other armour behaviour is unchanged: it only grants damage reduction against [[hit]]s, and is normally capped to 90%. Modifiers that cause a ''percentage'' of armour to defend against elemental hits (e.g. {{c|mod|#% of Armour applies to Fire, Cold and Lightning Damage taken from Hits}}) are redundant.<ref>https://www.reddit.com/r/pathofexile/comments/wg8y6e/comment/ij02k6a/?context=10</ref> \n\nElemental resistances still [[receiving damage|mitigate]] elemental hits, and do so ''before'' armour's damage reduction is calculated. Additionally, hits that deal more than one element will have each element individually reduced (rather than the sum of all relevant elements) by the armour value.<ref>https://www.pathofexile.com/forum/view-thread/3284453</ref>\n\n===Interactions===\nBecause the player can no longer defend against physical damage with armour, items that cause physical damage to be [[damage taken as|taken as]] elemental damage (e.g. {{il|Cloak of Flame}} [[Lightning Coil]] {{il|Dawnbreaker}}) can be used to mitigate physical damage instead. It is also possible to obtain non-armour sources of physical damage reduction (e.g. [[endurance charge]]s, {{psl|Strength of Blood}}).\n\nItems like {{il|Loreweave}} or {{il|Replica Loreweave}} can be used to ignore Transcendence's maximum resistance penalty, as well as similar penalties found on e.g. {{il|Eternal Damnation}}.\n\n{{il|The Fourth Vow}}'s {{c|mod|Armour also applies to Chaos Damage taken from Hits}} is not prevented by Transcendence; the combination can make armour defend against both elemental and chaos hits. \n\n==Location==\nThis keystone will conquer any keystones within the radius of a {{il|Militant Faith}} jewel with modifier {{c|mod|Carved to glorify (2000-10000) new faithful converted by High Templar '''Maxarius'''}}.\n\n==Related unique items==\nThese [[unique item]]s (other than {{il|Militant Faith}}) have the {{c|mod|Transcendence}} modifier, which provides the same effect as this keystone. Taking the keystone in addition to equipping one of these items will impart no additional benefit.\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Transcendence%\" OR items.name = \"Militant Faith\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Videos==\n<youtube description=\"Transcendence mechanics and interactions\">r43Ms66OFx0</youtube>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* Transcendence: Keystone Passive Skill now grants -15% to maximum Elemental Resistances (previously -5%).\n}}\n{{Version history table row|3.15.3b|\n* Fixed a bug where additional Physical Damage reduction could cause Armour to provide Physical Damage reduction even if you had the Transcendence Keystone Passive allocated.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=<ref name=\"newkeystone\">{{cite web|url=https://www.reddit.com/r/pathofexile/comments/gww68s/here_is_one_of_the_new_timeless_jewel_keystones/|title=Here is one of the new Timeless Jewel Keystones!|date=June 5, 2020|accessdate=June 5, 2020|publisher=Official Path of Exile subreddit|author=Bex_GGG}}</ref>\n}}",
+  "sha256": "f680b38198458dd40e04add3c161d2abd7313d3269d0ffb58c4e72bbdff2e473"
+}

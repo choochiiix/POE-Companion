@@ -1,0 +1,35 @@
+{
+  "title": "Split (item property)",
+  "pageId": 15610,
+  "revision": 1675199,
+  "timestamp": "2026-07-19T16:29:30Z",
+  "retrieved": "2026-11-14T10:08:33.953615+00:00",
+  "requested": [
+    "Siphoning charge",
+    "Brutal charge",
+    "Absorption charge",
+    "Affliction charge",
+    "Corrupted blood",
+    "Corrupted",
+    "Unmodifiable",
+    "Mirrored",
+    "Split (item modifier)",
+    "Fractured item",
+    "Synthesised item",
+    "Influenced item",
+    "Quality",
+    "Gem quality",
+    "Transfigured gem",
+    "Vaal skill",
+    "Socket",
+    "Link",
+    "Support gem",
+    "Skill gem"
+  ],
+  "aliases": [
+    "Split (item modifier)"
+  ],
+  "missing": false,
+  "wikitext": "{{Historical content|Split items can no longer be created. Existing items with the Split tag are unchanged, but functionally no longer serve a purpose.}}\n{{For|the projectile behaviour|Split}}\n\n'''Splitting items''' refers to the use of the [[Fenumal Plagued Arachnid]] beast, {{il|Fractured Fossil}}, or {{c|mod|x% chance to create a Split Copy}} corpse modifier in [[the Necropolis]] to create a split copy of an item. This adds the '''split''' property to both copies, preventing them from being split again.\n\n==Restrictions==\n\n[[Synthesised item|Synthesised]], [[Fractured item|fractured]], and [[influenced item]]s cannot be split. This restriction prevents bases with valuable synthesised implicit modifiers or fractured modifiers from being duplicated. \n\nItems with an [[enchantment]] also cannot be split. This prevents any non-legacy [[cluster jewel]]s from being split, as they always have an enchantment.\n\nThe [[beastcrafting]] version of the split craft using the Fenumal Plagued Arachnid also cannot split items with [[catalyst]] [[quality]]. This can be done with {{il|Fractured Fossil}}s, despite the error message saying otherwise when attempting to Fracture Fossil an enchanted item, and retains the original quality type and amount on both copies.<ref>https://www.pathofexile.com/forum/view-thread/3824080</ref>\n\nNote that these restrictions do not apply the other way around. For example, it is not possible to split a fractured item, but it is possible to fracture a split item.\n\n==Split items==\nItems with the split property can be crafted on normally (unlike [[mirrored]] and [[corrupted]] items), except that they cannot be further split, and the split property cannot be removed via imprint.\n\nTo be specific, items with the split property:\n* Can be synthesised via the [[List of harvest crafting options|Harvest craft]]\n* Can be fractured via the {{il|Fracturing Orb}} currency\n* Can have imprints created of them via the [[Craicic Croaker]] beastcraft. The act of splitting an item changes its identity, so an imprint created before the split cannot be applied to either of the split copies. However, creating an imprint of one of the split copies will work fine, and it can be applied to that item as usual.\n* Can be [[Orb of Chance|chanced]] into a [[unique]] item and retain the split property\n* Can be mirrored by using {{il|Mirror of Kalandra}}\n\nIf the split item has an implicit modifier, both split copies will keep the implicits. However, in the case of [[Eldritch implicit modifier]]s, one of the split copy will only have the Eater implicit and the other will only have the Exarch implicit.\n\nIf the item that has been split has a [[Crucible Passive Skill Tree]], both copies of the item will have the same trees and retain the same amount of experience as the original item.\n\nBoth split items will have the same amount of [[Memory Strand]]s as the original item.\n\n==Version history==\nBefore [[version 3.14.0]], the \"master\" item did not gain the split property, which made it a significantly more powerful method of crafting.\n\nPlayers were also able to use 5 rare to 1 rare [[vendor recipe]] to restore the copies by the fossil into a \"clean\" base, a craftable base that is not mirrored. The Fractured Fossil was used to be the only known way to duplicate special basetype such as basetypes of [[Demigod]] unique items, which the unique items themselves are race rewards. \n\nAfter the introduction of split property, it would need 5 \"master\" items to be \"contaminate\" with split property to create 1 \"clean\" copy.\n\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* [[Fractured Fossil]]s now Fracture a random Modifier, and cannot be used on Fractured and Influenced items.\n* The [[Beastcrafting]] option to Split an item into two has been replaced with a new option that Fractures a Modifier on a Rare Talisman with at least 4 Modifiers.\n* The Beastcrafting option to Split an item into three has been replaced with a new option that Fractures two Modifiers on a Rare Talisman with at least 6 Modifiers.\n}}\n{{Version history table row|3.14.0c|\n* Applying an {{il|Orb of Horizons}} or {{il|Harbinger's Orb}} to a map that has the Split modifier no longer removes the Split modifier.\n* Added a filter for Split items on the Trade website.\n}}\n{{Version history table row|3.14.0|\n* Splitting an item through Beastcrafting now applies a Split modifier to both items, preventing further splitting.\n* {{il|Fractured Fossil|Fractured Fossils}} now apply a Split modifier to both items, preventing further duplication. As a result, Fractured Fossils can no longer be applied to items that cannot be Split, such as Synthesised, Enchanted, Fractured or Influenced items.\n}}\n{{Version history table row|3.5.0|\n* Beastcrafting was enabled in the core game.\n}}\n{{Version history table row|3.2.0|\n* Introduction to the game as a mechanic of [[Bestiary league]]\n}}\n{{Version history table end}}\n==References==\n{{reflist}}\n[[Category:Game mechanics]]",
+  "sha256": "213073cd452d1680593976e676f19a972f195973d21c5810d99afae3ccd3e5b6"
+}

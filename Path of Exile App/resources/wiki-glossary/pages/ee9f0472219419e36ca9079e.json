@@ -1,0 +1,33 @@
+{
+  "title": "Unholy Damage",
+  "pageId": 18328,
+  "revision": 1199535,
+  "timestamp": "2022-07-26T01:14:22Z",
+  "retrieved": "2026-11-14T10:57:50.751934+00:00",
+  "requested": [
+    "Tsoagoth Shrine",
+    "Tsoatha's Fodder",
+    "Tsoatha's Fury",
+    "Unbound",
+    "Unbound Fury",
+    "Undying Rage",
+    "Unholy Damage",
+    "Unholy Scalding",
+    "Unholy Urn",
+    "Union of Souls",
+    "Unrighteous Fire",
+    "Unstoppable Hero",
+    "Untuned Lute",
+    "Unwavering Crusade",
+    "Upheaval Buff",
+    "Ursine Procession",
+    "Utula's Leadership",
+    "Vaal Arctic Armour",
+    "Vaal Arctic Armour Buff",
+    "Vaal Blade Flurry"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{historical content|[[Forsaken Masters]] content was removed in [[version 3.5.0]].}}\n\n{{status\n| name                   = Unholy Damage\n| type                   = Buff\n}}\n\n'''Unholy Damage''' is a [[buff]] granted by some corrupted minions from [[Catarina]] missions. It makes enemies and allies around the corrupted undead deal increased damage.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.5.0|\n* Removed from the game.\n}}\n{{Version history table row|1.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "7a030ac43fc4f44af936f08102e850ff86112cf358fa5dc96b12afc26acff935"
+}

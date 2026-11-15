@@ -1,0 +1,33 @@
+{
+  "title": "Summon Harbinger of Directions",
+  "pageId": 16025,
+  "revision": 1649388,
+  "timestamp": "2026-05-22T23:40:03Z",
+  "retrieved": "2026-11-14T10:10:04.221328+00:00",
+  "requested": [
+    "Summon Harbinger of Time",
+    "Summon Harbinger of Directions",
+    "Summon Harbinger of the Arcane",
+    "Summon Harbinger of Storms",
+    "Summon Harbinger of Focus",
+    "Summon Greater Harbinger of Brutality",
+    "Summon Greater Harbinger of Time",
+    "Summon Greater Harbinger of Directions",
+    "Summon Greater Harbinger of the Arcane",
+    "Summon Greater Harbinger of Storms",
+    "Summon Greater Harbinger of Focus",
+    "Guardian",
+    "Summon Sentinel of Radiance",
+    "Summon Elemental Relic",
+    "elemental resistance",
+    "Raise Zombie",
+    "Summon Skeleton",
+    "Raise Spectre",
+    "Enchantment",
+    "gloves"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonHarbingerOfDirections}}\n'''Harbinger of Directions''' is a skill that summons an allied Harbinger [[minion]]. The skill is only available through {{il|The Fracturing Spinner}}.\n\n==Skill Functions and Interactions==\nThe summoned Harbinger is immortal, and occasionally casts ''The Fracturing Spinner'' on the player. ''The Fracturing Spinner'' is a [[buff]] that lasts 4 seconds, with a cooldown of 8 seconds, and grants one or all of the following benefits:\n* 1 additional Projectile\n* +1 [[Chain]]\n* [[Pierce]] 1 additional Target\n* Projectiles [[Fork]]\n\n==Drop restrictions==\nHarbinger of Directions can only be obtained by equipping {{il|The Fracturing Spinner}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* The following Uniques can no longer be obtained: The Beachhead, Infused Beachhead, The Enmity Divine, The Flow Untethered, The Fracturing Spinner, The Rippling Thoughts, The Tempest's Binding, and The Unshattered Will.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Spell (gem tag)]]",
+  "sha256": "7aec15614b9b2e50256e7743a5dbadda7f1e5bf69b20ec8780c013cc1b52025a"
+}

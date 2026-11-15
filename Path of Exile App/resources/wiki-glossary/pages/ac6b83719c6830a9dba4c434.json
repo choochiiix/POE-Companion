@@ -1,0 +1,33 @@
+{
+  "title": "Demigod's Authority",
+  "pageId": 4833,
+  "revision": 1490904,
+  "timestamp": "2024-10-27T01:22:36Z",
+  "retrieved": "2026-11-14T10:57:19.162651+00:00",
+  "requested": [
+    "Death Geas",
+    "Death Prevention",
+    "Death Rhoomba",
+    "Death Wish",
+    "Death's Oath",
+    "Deathly Chill",
+    "Decaying Memory",
+    "Deep One's Presence",
+    "Defiance",
+    "Defiance Banner",
+    "Degeneration Aura",
+    "Demigod's Authority",
+    "Demon's Power",
+    "Demonic Skull",
+    "Desolation of the Awakener",
+    "Destructive Link",
+    "Determination Aura",
+    "Devouring Darkness",
+    "Devouring Tempest",
+    "Diamond Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the unique one-handed sword|the weapon skin|Demigod's Authority (weapon skin)}}\n\n{{Item\n|rarity_id                               = unique\n|name                                    = Demigod's Authority\n|class_id                                = One Hand Sword\n|base_item                               = Golden Blade\n|flavour_text                            = Stories of Heroism by the victor persist,<br/>for no one survives to contest them.\n|explicit1                               = LocalDisplayYouAndNearbyAlliesHaveIncreasedItemRarityUnique__1 \n|explicit2                               = ActorSizeUnique__4\n|drop_enabled                            = False\n|release_version                         = 3.12.5b\n}}\n\n'''Demigod's Authority''' is a [[unique]] {{il|Golden Blade}}.\n\n==Modifiers==\n{{ml|ActorSizeUnique__4|display=stat_text}}. The item is one of the few source of {{c|mod|#% increased Character Size}} mod. They are additive to each other such as [[dual wielding]] Demigod's Authority.\n\n{{c|mod|You and Nearby Allies have 30% increased Item Rarity}} According to datamined value, it has a radius of 6 metre.\n\n{{Item acquisition}}\n\nDemigod's Authority is a [[event prize|prize item]] awarded to the top 5 players of each Ascendancy class for the December 2020 events: [[Mayhem]], [[Endless Delve]] and [[Heist league|Heist]] [[Flashback]], as well as December 2021 events: [[Class Gauntlet]], [[Endless Delve]], [[Endless Heist]], [[Atlas Invasion]] and [[Delirium Everywhere]]. Each Demigod's Authority will display the class rank and the event that the item is won from. <ref name=race/>\n\n==Gallery==\n<gallery>\nFile:Demigod's Authority 3DArt.png|3D\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n*Alternate-art Unique Items can now be converted to account-bound microtransactions using the new <kbd>/convertracereward</kbd> chat command. The item will be destroyed, and you will be granted an account-bound microtransaction that changes the appearance of an item of the same type to match that of the destroyed item.\n** This command also applies to Demigod's race rewards, regardless they have alternate-art or not. {{undocumented}} \n}}\n{{Version history table row|3.12.5b|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==See also==\nOther Demigod unique items:\n{{Item table\n|where = items.rarity_id = \"unique\" AND items.name LIKE \"%Demigod's%\" AND items.name != \"Demigod's Authority\"\n|orderBy = items.name\n}}\n\n==References==\n{{reflist|refs=<ref name=race>{{cite web|url=https://www.pathofexile.com/forum/view-thread/2996106|title=December Events - Mayhem, Endless Delve and Flashback|date=November 22, 2020|accessdate=December 3, 2020|author=Bex_GGG|publisher=Path of Exile forums}}</ref>\n}}\n{{Navbox Unique Items}}\n\n[[Category:Unique one-handed swords with 3D art]]",
+  "sha256": "db31ac6ca1cdcd2cbf282c8fdeb1bf0b46a23a69de623f3c916b32011acd8d2a"
+}

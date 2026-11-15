@@ -1,0 +1,33 @@
+{
+  "title": "Runic",
+  "pageId": 122209,
+  "revision": 1538566,
+  "timestamp": "2025-06-13T20:19:59Z",
+  "retrieved": "2026-11-14T10:11:20.821208+00:00",
+  "requested": [
+    "Ballista Totem",
+    "fortification",
+    "petrified",
+    "of Lightning",
+    "avoid",
+    "Crimson Dance",
+    "Acrobatics",
+    "Sacrifice of Blood",
+    "rune",
+    "Energy Blade",
+    "Temporal Rift",
+    "Tornado",
+    "Runic",
+    "Alva",
+    "Port",
+    "Flasks",
+    "Far Shot",
+    "Race",
+    "pierces",
+    "Kineticism"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the Equipment|Runic base type}}\n\n'''Runic monsters''' are encountered in [[Expedition]].  They spawn from the large skulls on spikes and have the Runic tag.  In addition to being more difficult than regular monsters, they are affected by the modifiers of remnants which have been triggered before they spawned. Runic monsters also have [[Ward]].\n\nOne unique runic monster is a shield mob which will be directionally immune to damage when their shield is up.  They can be damaged either by attacking from behind or moving close to the monster which will cause it to drop its shield.\n\n{{sister|poe2wiki}}\n\n[[Category:Game mechanics]]",
+  "sha256": "9acedb735ce03c3928cc6fa9bae8d1590a9fcd6bf26077ff9272c623dccde54e"
+}

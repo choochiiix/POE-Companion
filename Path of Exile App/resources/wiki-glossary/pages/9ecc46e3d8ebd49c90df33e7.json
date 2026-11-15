@@ -1,0 +1,33 @@
+{
+  "title": "Wicked Ward",
+  "pageId": 20112,
+  "revision": 1597145,
+  "timestamp": "2025-11-29T00:55:43Z",
+  "retrieved": "2026-11-14T10:08:30.591854+00:00",
+  "requested": [
+    "Elemental Overload",
+    "Point Blank",
+    "Iron Will",
+    "Iron Grip",
+    "Avatar of Fire",
+    "Zealot's Oath",
+    "Wicked Ward",
+    "Glancing Blows",
+    "Divine Flesh",
+    "Petrified Blood",
+    "Petrification",
+    "Aegis",
+    "Guard",
+    "Aura",
+    "Curse",
+    "Hex",
+    "Mark",
+    "Warcry",
+    "Totem",
+    "Trap"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Wicked Ward}}\n\n'''Wicked Ward''' is a [[keystone passive skill]] that prevents [[Energy shield#Start of Energy shield Recharge|energy shield recharge]] from being interrupted by damage if energy shield recharge began [[recently]], but reduces your base energy shield recharge rate from 33% to 20%.\n\n==Mechanics==\nOnce energy shield recharge starts, either by not taking damage for a duration (2 seconds by default) or by effects that trigger energy shield recharge such as {{il|Xirgil's Crank}} or {{psl|Spellbreaker}}, recharge will not be interrupted by damage for 4 seconds. This effect persists for the full 4 seconds even if energy shield reaches full.\n\n==Location==\nWicked Ward is located on the right side of the upper part of the tree, near the energy shield wheel for the [[Witch]].\n\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|Witch||8\n|-\n|Shadow||10\n|-\n|Scion||14\n|-\n|Templar||16\n|-\n|Ranger||18\n|-\n|Marauder||24\n|-\n|Duelist||24\n|}\n\n==Related unique items==\nThese [[unique item]]s have the {{c|mod|Wicked Ward}} modifier, which provides the same effect as this keystone. Taking the keystone in addition to equipping one of these items will impart no additional benefit.\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Wicked%Ward%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* The Wicked Ward Keystone Passive Skill no longer grants “50% less Energy Shield Regeneration Rate” or “50% less Maximum total Energy Shield Recovery per Second from Leech”. Instead, it now grants “40% less Energy Shield Recharge Rate”. This brings the recharge rate with Wicked Ward down to 19.8% per second, while before it would have been 20% with or without the keystone.\n}}\n{{Version history table row|3.7.0|\n* No longer part of the [[Occultist]] ascendancy. Is now a keystone passive.\n* No longer grants +100 to Maximum Energy Shield.\n* Now grants 50% less energy shield regeneration and energy shield leech leech.\n}}\n{{Version history table row|2.2.0|\n* Added to the game as an [[Occultist]] ascendancy.\n}}\n{{Version history table end}}",
+  "sha256": "ddb5216b82e4493cea41d301addf145785c878084916aab3be71c71986539ca8"
+}

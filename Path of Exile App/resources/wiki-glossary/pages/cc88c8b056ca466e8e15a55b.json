@@ -1,0 +1,33 @@
+{
+  "title": "Shepherd of Souls",
+  "pageId": 111891,
+  "revision": 1579130,
+  "timestamp": "2025-10-27T19:18:23Z",
+  "retrieved": "2026-11-14T10:11:19.070828+00:00",
+  "requested": [
+    "Ursa",
+    "Ground Slam",
+    "Warcries",
+    "Retaliation",
+    "Daggers",
+    "Claws",
+    "Divinity",
+    "ranger",
+    "Shepherd of Souls",
+    "Fanaticism",
+    "Enchantments",
+    "Vaal skill gem",
+    "Gluttony of Elements",
+    "Harbinger",
+    "Dominus",
+    "Silence",
+    "smoke cloud",
+    "Vaal Gem",
+    "Sextant",
+    "conquered"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{infocard2\n|header    = Shepherd of Souls\n|subheader = Keystone\n|1         = <div class=\"passive-icon-container passive-icon-type__keystone\"><div class=\"passive-icon-frame\"></div>[[]]</div>\n|2         = Vaal Non-Aura Skills have 80% less Soul Cost<br>Vaal Non-Aura Skills have 100% increased Soul Cost per Vaal Skill used in the past 8 seconds\n|3         = {{c|flavour|}}\n}}\n'''Shepherd of Souls''' is a [[keystone passive skill]]/[[keyword]] which causes non-[[aura]] [[Vaal skill]]s to have significantly less Soul Cost but also increase their Soul Cost per Vaal skill used in the past 8 seconds.\n\n==Sources==\n* {{il|Yaomac's Accord}}\n* [[Corruption's Embrace]] ([[Chaos Bloodline]])\n* [[Forbidden Secrets]] ([[Architect of Chaos]] in [[Legacy of Phrecia]]-enabled leagues)\n* [[Runesmithing]] [[wand]] enchantment {{c|enchanted|Shepherd of Souls}} (legacy)\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.23.0|\n* Shepherd of Souls, granted by the Yaomac's Accord Unique Sceptre, no longer causes other Vaal Skills to gain 50% of the consumed Souls when you use a Vaal Skill, and no longer causes Non-Vaal Skills to deal 30% less Damage. Instead, it now causes Vaal Non-Aura Skills to have 80% less Soul Cost, and Vaal Non-Aura Skills to have 100% increased Soul Cost per Vaal Skill used in the past 8 seconds.\n}}\n{{Version history table row|3.14.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Keystone passive skills]]\n[[Category:Keywords]]",
+  "sha256": "42550fd2ac4d10e0a768c54343cd73b659982218b658b674620d564bab234333"
+}

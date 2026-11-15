@@ -1,0 +1,33 @@
+{
+  "title": "Secrets of Suffering",
+  "pageId": 14441,
+  "revision": 1492019,
+  "timestamp": "2024-11-18T10:23:47Z",
+  "retrieved": "2026-11-14T10:09:57.337087+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Secrets of Suffering}}\n\n'''Secrets of Suffering''' is an item exclusive [[keystone passive skill]]. Upon taking it, the character will be unable to directly [[Ignite]], [[Chill]], [[Freeze]] or [[Shock]] enemies, but will inflict [[Scorch]], [[Brittle]], and [[Sapped]] upon a [[critical strike]]. \n\nHowever, the magnitude of the alternative ailments still requires the matching elemental damage. Otherwise, a zero magnitude ailment will be discarded by the game server.\n\n\n==Mechanics==\nChill and Shock can still be applied indirectly with;\n* {{il|Summon Skitterbots}} and their Chilling & Shocking auras, \n* Chilled Ground created by {{il|Arctic Armour}}, {{il|Frostblink}}, or an {{il|Aquamarine Flask}}\n* Chilling areas created by {{il|Vortex}}\nNotably, Chilled Ground from {{il|Creeping Frost}} does NOT work despite being worded similarly to all the working sources above. {{il|Hydrosphere}} & {{il|Wintertide Brand}} do not work either, but they are more intuitive as the source of Chill is more obviously the player.\n\n* Shocked Ground such as from the unique boots {{il|Wake of Destruction}}. \n\nIgnite can still be applied indrectly with;\n* Minions that deal fire damage and have ignite or critical strike chance\n\n{{il|Hexblast}}'s Chaos Damage can inflict ailments modifier does not work with '''Secrets of Suffering'''. Hexblast only allows Chill, Ignite & Shock to be applied, and '''Secrets of Suffering''' will disable Hexblast from applying them, without allowing Hexblast to apply Scorch/Brittle/Sap at more than 0% magnitude (unless the spell also deals Fire/Cold/Lightning damage respectively).\n\n==Related items==\n===Base items===\nThe following base items are related to Secrets of Suffering:\n{{Drop enabled base item table\n|where=items.stat_text LIKE \"%Secrets%of%Suffering%\"\n|large=1\n|level=1\n|stat=1\n}}\n\n\n\n===Unique items===\nThe following [[unique item]]s are related to Secrets of Suffering:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Secrets%of%Suffering%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0|\n* Introduced to the game (initially from {{il|The Interrogation}} only).\n}}\n{{Version history table end}}\n{{sister|poe2wiki}}",
+  "sha256": "efa6be911545f56779d76b89e31361b5ed26fec9e8f882afb8a1bbb115af40f2"
+}

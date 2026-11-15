@@ -1,0 +1,33 @@
+{
+  "title": "Soul Catcher",
+  "pageId": 15371,
+  "revision": 1648120,
+  "timestamp": "2026-04-26T14:58:51Z",
+  "retrieved": "2026-11-14T10:57:45.181551+00:00",
+  "requested": [
+    "Soul Catcher",
+    "Soul Link",
+    "Soul Ripper",
+    "Soulchill",
+    "Soulfire",
+    "Soulrend",
+    "Spectral",
+    "Spectral Pack",
+    "Spectral Swiftness",
+    "Speed Aura",
+    "Speed Gale",
+    "Speed Randomisation",
+    "Spellslinger",
+    "Spider Aspect",
+    "Spider's Web",
+    "Spike Pinned",
+    "Spinning Blades",
+    "Spiral Test Cheat",
+    "Spirit Charges",
+    "Spirit Containment"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Soul Catcher\n|class_id                                = UtilityFlask\n|base_item                               = Quartz Flask\n|explicit1                               = NoManaRecoveryDuringFlaskEffectUnique__1_\n|explicit2                               = FlaskVaalSkillCriticalStrikeChanceUnique__1\n|explicit3                               = FlaskVaalSkillDamageUnique__1\n|explicit4                               = FlaskVaalSoulPreventionDurationUnique__1_\n|flavour_text                            = Freedom is for the privileged, even in death.<br><br>{{c|help|This item can be transformed on the [[Altar of Sacrifice]] along with [[Vial of the Ghost]]}}\n|release_version                         = 3.3.0\n|drop_text                               = Soul Catcher can only be obtained from [[The Vaal Omnitect]]. \n|drop_monsters                           = Metadata/Monsters/LeagueIncursion/VaalSaucerBoss\n}}\n\n'''Soul Catcher''' is a [[unique]] {{il|Quartz Flask}}.\n\n==Mechanics==\n{{c|mod|Cannot gain Mana during effect}}: While this disables mana recovery from flasks, it does not disable life recovery based on mana recovery from flasks, such as from {{il|Runegraft of Quaffing}} or {{il|Indigon}}.\n\n{{Item acquisition}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Legacy variants==\nSoul Catcher has [[legacy variant]]s.\n\n{{legacy variant table header}}\n{{legacy variant table row|3.15.0|\n* Cannot gain Mana during effect\n* {{c|mod|Vaal Skills have (80-120)% increased Critical Strike Chance during effect}}\n* {{c|mod|Vaal Skills deal (80-120)% increased Damage during effect}}\n* {{c|mod|Vaal Skills used during effect have (40-20)% reduced Soul Gain Prevention Duration}}\n}}\n{{legacy variant table row|3.10.0|\n* Cannot gain Mana during effect\n* {{c|mod|Vaal Skills deal (60-100)% increased Damage during effect}}\n* {{c|mod|Non-Aura Vaal Skills require 25% reduced Souls Per Use during Effect}}\n* {{c|mod|Vaal Skills used during effect have (40-20)% reduced Soul Gain Prevention Duration}}\n}}\n{{Legacy variant table end}}\n\n==Alternate artwork==\n{|\n| [[File:Soul Catcher Relic inventory icon.png|78px]] || [[Foil]] version from [[Timeworn Reliquary]] ([[Timeworn Reliquary Key|the key]] to the area itself, is exclusive to [[Version 3.4.0|Version 3.4]]).\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n* The legacy (pre-3.10.0 version) now has {{c|mod|Non-Aura Vaal Skills require 25% reduced Souls Per Use during Effect}} (previously affects all Vaal skills). {{Undocumented}}\n}}\n{{Version history table row|3.15.0|\n* Now has 'Vaal Skills have 60-80% increased Critical Strike Chance during effect' (previously 80-120%), and 'Vaal Skills deal 60-80% increased Damage during effect (previously 80-120%). Vaal skills used during effect now have 10% reduced Soul Gain Prevention (previously 20-40%). Existing versions can be updated to the new values with a Divine Orb.\n}}\n{{Version history table row|3.10.0|\n* Soul Catcher no longer grants reduced cost of Vaal Skills. It now grants 80 to 120% increased Critical Strike Chance with Vaal Skills. It now increases Damage with Vaal Skills by 80 to 120% (from 60 to 100%). Using a Divine Orb on existing items will grant the new values but will not change the Vaal Soul Cost modifier to the Critical Strike Chance modifier.\n}}\n{{Version history table row|3.3.0|\n* Introduced to the game in [[Incursion league]].<ref name=\"Reveal\"/>\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Reveal\">{{cite web|author=Bex_GGG|date=May 31, 2018|title=Vials drop from the temple boss and can be used to transform Incursion Unique Items|url=https://www.pathofexile.com/forum/view-thread/2150618|publisher=Official Path of Exile Forums|accessdate=May 31, 2018}}</ref>\n}}\n\n{{Navbox Unique Items}}",
+  "sha256": "bea5f11a82b6df4f9886d21a8e4790e01cb6772b70855021a290d5fa0927ab6d"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Shrink",
+  "pageId": 14988,
+  "revision": 1419995,
+  "timestamp": "2024-03-18T10:04:24Z",
+  "retrieved": "2026-11-14T10:57:43.564442+00:00",
+  "requested": [
+    "Shadow Surge",
+    "Shaper's Seed",
+    "Sharding Tempest",
+    "Shattered Shield",
+    "Shavronne's Aura",
+    "Shield Mastery",
+    "Shining Tempest",
+    "Shivering Tempest",
+    "Shock Immunity",
+    "Shock Prevention",
+    "Shocking Aura",
+    "Shrill Screech",
+    "Shrink",
+    "Shrinking Tempest",
+    "Shrouded Shrine",
+    "Sigil of Power",
+    "Signalled Prey",
+    "Silver Descry",
+    "Silver Flask",
+    "Singularity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Shrink\n| type                   = Debuff\n| description = You have been shrunk! You're more vulnerable to damage, and deal less damage.\n}}\n'''Shrink''' is a stackable debuff. It can be found in areas such as the boss room of [[The Cursed King (boss)|The Cursed King]] ({{il|Dark Forest Map}}), or the encounter with [[Rotfeather Talisman]] possessed monster.\n\n==Version history==\nIn the past, one of the unique [[Perandus]] monster also casts this debuff. However, the whole league mechanic is removed from the game in [[version 3.16.0]], thus that monster is no longer encounterable.\n{{Version history table header}}\n{{Version history table row|2.2.0|\n* The '''Shrink''' effect from the [[Rotfeather Talisman]] now has a buff icon to display the effects on your character.\n}}\n{{Version history table row|?|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* [[Creeping Ice]]\n* [[Tempest|Shrinking Tempest]]\n\n[[Category:Debuffs]]",
+  "sha256": "357bae776b98a9b453741b160eb722c080229fe7a4446c86eca662f234b8b5dc"
+}

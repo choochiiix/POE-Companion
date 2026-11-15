@@ -1,0 +1,33 @@
+{
+  "title": "Aspect of the Crab",
+  "pageId": 1180,
+  "revision": 1659302,
+  "timestamp": "2026-06-21T13:58:15Z",
+  "retrieved": "2026-11-14T10:09:57.333583+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=AspectOfTheCrab}}\n\n'''Aspect of the Crab''' is an [[aspect]] skill that generates a Crab Barrier every 0.5 seconds, granting [[physical damage reduction]] for each Crab Barrier the player has. All Crab Barriers are lost when the player takes physical damage from a hit. Only one aspect skill can be active at a time. The rate of Crab Barrier gain is unrelated to the skill's [[cooldown]].<ref>https://www.youtube.com/watch?v=9NBPrFq5Y5g</ref> \n\nAspect of the Crab is found on {{il|Craiceann's Carapace}} or [[beastcrafted]] onto gear as a [[Item affix|suffix]] ({{ml|GrantsCrabAspectCrafted}}) using the captured \"[[Craiceann, First of the Deep]]\" unique beast. The skill can be further modified by equipping {{il|Craiceann's Tracks}}, {{il|Craiceann's Pincers}} and/or {{il|Craiceann's Chitin}}. The Level 30 version of the skill is acquired from beastcrafting with the addition of [[The Black Mórrígan]].\n\n==Skill level progression==\n{{Skill progression\n|skill_id=AspectOfTheCrab\n|c1_abbr              = Max<br>Crab Barriers\n  |c1_header          = Can have up to x Crab Barriers\n  |c1_pattern_extract = Can have up to (%d+) Crab Barriers\n  |c1_pattern_value   = %d\n}}\n\n==Aspect of the Crab Gear Set==\n{{Drop enabled unique item table\n|where=\n  items.name LIKE \"%Craiceann's%\"\n|base_item=1\n|large=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.24.0|\n* Added Level 30 versions of Aspect skills, acquired from beastcrafting recipes using [[The Black Mórrígan]]. {{Undocumented}}\n}}\n{{Version history table row|3.4.0|\n* Now instant by default and can therefore be used while moving.\n* All instant skills now have cooldown 1 second or less.\n* Instant skills cannot be supported by Spell Echo and will not be cast a second time by similar effects (such as from the Echoing Shrine).\n}}\n{{Version history table row|3.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{Navbox Bestiary League}}\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "2d3467572fbefae105d6dfb86df054c87dae3ab6a854b77ba23934d4958a9d52"
+}

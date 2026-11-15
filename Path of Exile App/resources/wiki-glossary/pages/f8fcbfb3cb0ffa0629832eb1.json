@@ -1,0 +1,33 @@
+{
+  "title": "Dance with Death",
+  "pageId": 4474,
+  "revision": 1492760,
+  "timestamp": "2024-12-15T05:20:39Z",
+  "retrieved": "2026-11-14T10:09:57.335585+00:00",
+  "requested": [
+    "The Impaler",
+    "Secrets of Suffering",
+    "Hollow Palm Technique",
+    "Dance with Death",
+    "Corrupted Soul",
+    "Transcendence",
+    "Strength of Blood",
+    "Chainbreaker",
+    "Immortal Ambition",
+    "Supreme Ego",
+    "Supreme Ostentation",
+    "Supreme Decadence",
+    "Lethe Shade",
+    "Ghost Dance",
+    "Iron Fortress",
+    "Aspect of the Cat",
+    "Aspect of the Avian",
+    "Aspect of the Spider",
+    "Aspect of the Crab",
+    "debuff"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Dance with Death}}\n'''Dance with Death''' is a [[keystone passive skill]] which makes both [[Critical strike]] chance and damage with [[Critical strike]]s [[Luck]]y, at the cost of disallowing the use of [[Helmets]] and causing enemies' critical strike damage to be [[Luck]]y against you. Luck only applies to [[hit]] damage, not [[ailment]] DPS.<ref>Confirmed through direct testing by [[Prohibited Library (community)]]. https://discord.com/channels/991073626721763429/991092346651287623/1165229624595316807</ref>\n\n==Location==\nThis keystone will conquer any keystones within the radius of a {{il|Brutal Restraint}} jewel with modifier {{c|mod|Denoted service of (500–8000) dekhara in the akhara of '''Asenath'''}}.\n\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.7.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Keystone passive skills]]\n{{sister|poe2wiki}}",
+  "sha256": "3d0aa37c0a3ab13dbd65ad296d0e4c9f20939a22c99f00c143a69645d124d85d"
+}

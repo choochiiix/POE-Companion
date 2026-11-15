@@ -1,0 +1,35 @@
+{
+  "title": "Divine Blessing Support",
+  "pageId": 127297,
+  "revision": 1649441,
+  "timestamp": "2026-05-22T23:41:21Z",
+  "retrieved": "2026-11-14T10:11:19.962424+00:00",
+  "requested": [
+    "Echoing Shrine",
+    "Ancestral Bond",
+    "convert",
+    "buff effect",
+    "hexproof",
+    "Hexproof",
+    "mercenary",
+    "Hex Reflection",
+    "secondary",
+    "The Vaal",
+    "Karui",
+    "Eternal Empire",
+    "The Maraketh",
+    "Combust",
+    "Divine Blessing",
+    "stealth",
+    "Shocking Conflux",
+    "Summon Skitterbots",
+    "the Viridian Wildwood",
+    "Event"
+  ],
+  "aliases": [
+    "Divine Blessing"
+  ],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SupportDivineBlessing}}\n\n'''Divine Blessing''' is a [[support]] granted by {{il|March of the Legion}}. It converts a supported [[Aura#Aura_Skills|aura skill]] into a [[Blessing skill]], changing their [[Reservation]] to a one-time cost to grant the aura effect on [[duration]] with increased effect. You and your allies will only be able to benefit from one Blessing at a time per individual source.\n\n==Mechanics==\nThe level 25 version of this support found on {{il|March of the Legion}} grants {{c|mod|Supported Skills have 34% increased Aura effect}}, {{c|mod|Supported Skills Cost +278 Mana}}, and {{c|mod|Auras from Supported Skills have a base duration of 11.4 seconds}}.\n\nSupported [[aura]] skills become temporary and instead of reserving mana, they now have a mana cost equal to their base mana reservation, plus a flat cost specified by the support. The cost based on mana reservation will be referred below as \"percentage cost\" and \"base aura cost\" for percentage and flat reservation auras respectively.\n\n* Modifiers to reservation efficiency have no effect. \n* Modifiers to cost (e.g. {{il|Inspiration Support}}'s {{c|mod|Supported Skills have #% less Mana Cost}} or {{c|crafted|#% reduced Mana Cost of Skill}}) affect both the percentage/base aura cost and the + 278 flat cost.\n* Cost multipliers from [[support gems]] (e.g. {{il|Inspiration Support}}'s 120% cost multiplier) only affects the percentage/base aura cost, not the flat cost.\n* Effects that cause you to spend other resources before mana, such as {{psl|Eldritch Battery}} or {{il|Battery Staff}}, retain the original cost which is still calculated based on maximum mana.\n* Effects that convert cost to other resources (e.g. {{il|Whispers of Infinity}}) converts the percentage and flat cost separately; for example, a 50% reservation aura will instead cost 50% of maximum energy shield + 278 energy shield.\n** For auras that have a flat cost, the base aura cost value remains the same, just in a different resource.\n* Effects that add a cost (e.g. {{il|The Covenant}}) will apply the percentage cost to the other resource, instead of converting the actual cost. In other words, a skill costing 50% of mana + 278 mana will gain a cost of 50% of life + 278 life, not just 50% of mana + 278 converted to life.\n** The Covenant's added life cost is discarded by {{il|Whispers of Infinity}}, so only the mana cost will be converted to energy shield cost.\n** For auras that have a flat cost, the added cost applies to both the base aura cost and the + 278 flat cost.\n\nSupported skills also gain a cast time of 0.5s. Aura duration is affected by [[Duration#Skill effect duration modifiers|Skill Effect Duration]]. {{il|Blasphemy Support}} turns [[Curse]]s into temporary auras. Auras affected by Divine Blessing Support can also be supported by {{il|Guardian's Blessing Support}}, though doing so will only cause the skill to cost more mana, have reduced aura effect, and require a damageable minion to use the skill.\n\nSupported skills count as Blessings but their initial tags remain the same. They cannot be supported by {{il|Lifetap Support}} or {{il|Arrogance Support}}. Auras converted into blessings cannot be [[trigger]]ed. \n\nDivine Blessing Support cannot support non-permanent aura skills such as {{il|Smite}}, [[mine]]s, [[banner]]s, and [[stance]] skills (i.e. {{il|Flesh and Stone}}). This may be beneficial to take advantage of the {{c|mod|+# to Level of Socketed Aura Gems}} in {{il|March of the Legion}} without affecting the skill's aura.\n\n==Gem level progression==\n\n{{Skill progression\n|skill_id            = SupportDivineBlessing\n|c1_abbr             = Base Duration\n| c1_header          = Auras from Supported Skills have a base duration of x seconds\n| c1_pattern_extract = Auras from Supported Skills have a base duration of (%d+%.*%d*) seconds\n| c1_pattern_value   = %ss\n|c2_abbr             = Mana Cost\n| c2_header          = Supported Skills Cost +x Mana\n| c2_pattern_extract = Supported Skills Cost %+(%d+) Mana\n| c2_pattern_value   = +%d\n|c3_abbr             = Increased Aura<br/>Effect\n| c3_header          = Supported Skills have x% increased Aura effect\n| c3_pattern_extract = Supported Skills have (%d+)%% increased Aura effect\n| c3_pattern_value   = %d%%\n}}\n\n==Related modifiers==\n{{modifier table\n|q_where=granted_skill = \"SupportDivineBlessing\" AND mods.generation_type NOT IN (\"3\")\n|stat_text=1\n|spawn_weights=1\n|level=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* The Divine Blessing Support has been removed, and existing versions of this item will be deleted upon logging in after the launch of 3.25.0. Existing {{il|Forbidden Shako}} items will have this Support replaced with {{il|Rupture Support|Rupture}}, while existing {{il|The Hungry Loop|Hungry Loop}}'s will be replaced with {{il|Eternal Blessing Support|Eternal Blessing}}. March of the Legion is unaffected by these changes, and is now the sole source of this Support.\n}}\n{{Version history table row|3.19.0|\n* Blessing Skills can no longer be supported by Lifetap.\n* Skills supported by Divine Blessing Support now have 10% increased Aura Effect at gem level 1 (previously 0%), up to 29% at gem level 20 (previously 19%).\n}}\n{{Version history table row|3.17.2|\n* Aura Skills that have had their Reservation changed to a cost through Divine Blessing Support can now be supported by Arcane Surge.\n* Updated the description on Divine Blessing Support to state that it cannot support Stance Skills.\n}}\n{{Version history table row|3.17.0|\n* Introduced to the game as gem, and renamed into \"Divine Blessing Support\".\n}}\n{{Version history table row|3.14.0}} \n* (in Development Manifesto) \"...reservation skills no longer have an associated cost by default, so you don't need the current mana available to reserve a skill...\" As a result of this, Blessing support will no longer require mana to cast auras and it will no longer count as spent mana for things that gain benefits from spending mana recently.\n{{Version history table row|3.6.0|\n* Introduced to the game as item only support.\n}}\n{{Version history table end}}\n\n[[Category:Support effects not granted by support gems]]",
+  "sha256": "f13ee044f93a3c00448b24e98419b54dc478190d174f78e15e20c146ab1f6981"
+}

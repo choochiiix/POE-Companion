@@ -1,0 +1,33 @@
+{
+  "title": "Deathly Chill",
+  "pageId": 4684,
+  "revision": 1193161,
+  "timestamp": "2022-07-25T01:18:52Z",
+  "retrieved": "2026-11-14T10:57:19.161651+00:00",
+  "requested": [
+    "Death Geas",
+    "Death Prevention",
+    "Death Rhoomba",
+    "Death Wish",
+    "Death's Oath",
+    "Deathly Chill",
+    "Decaying Memory",
+    "Deep One's Presence",
+    "Defiance",
+    "Defiance Banner",
+    "Degeneration Aura",
+    "Demigod's Authority",
+    "Demon's Power",
+    "Demonic Skull",
+    "Desolation of the Awakener",
+    "Destructive Link",
+    "Determination Aura",
+    "Devouring Darkness",
+    "Devouring Tempest",
+    "Diamond Flask"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Deathly Chill\n|type=Debuff\n|description={{c|normal|You are taking Cold Damage over time.}}\n|bonuses = # cold damage taken per second }}\n'''Deathly Chill''' is a [[debuff]] from the icy beam of the Bitter [[Ritual Altar]].\n\n[[File:Bitter Ritual 2.png|thumb|right|Bitter Ritual in action]]\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* [[Cold Beam]]\n\n[[Category:Debuffs]]",
+  "sha256": "66edaf6705a971e1830b8a222400f8ec65a5b41919b97f6b8f39b42882dba24c"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Vorana, Last to Fall",
+  "pageId": 76672,
+  "revision": 1650174,
+  "timestamp": "2026-06-09T13:30:13Z",
+  "retrieved": "2026-11-14T10:11:14.752900+00:00",
+  "requested": [
+    "support",
+    "spells",
+    "increased",
+    "more",
+    "Unique",
+    "Wrath",
+    "Hatred",
+    "Anger",
+    "Chaotic Might",
+    "Shaper item",
+    "Soul Gain Prevention",
+    "Fortification",
+    "Utility flask",
+    "Inspiration Charge",
+    "Cooldown Recovery Rate",
+    "enemy",
+    "movement",
+    "chest",
+    "Uhtred",
+    "Vorana"
+  ],
+  "aliases": [
+    "Vorana"
+  ],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Vorana, Last to Fall\n| rarity = Boss\n| image = \n| level = \n| location = [[Expedition Logbook]]\n| quest = \n| health = \n| damage = Physical\n| aps = \n| resistance = 50% [[Fire]] <br> 50% [[Cold]] <br> 50% [[Lightning]] <br> 30% [[Chaos]]\n| modifier = [[Modifier:MonsterGainLifeAsWardBoss|Gain base Ward equal to 5% of Maximum Life; no Energy Shield]] <br> [[Modifier:CannotBeSlowedBelowValueBosses|Cannot Be Fully Slowed]]\n| skill = \n| aura = \n| metadata_id = Metadata/Monsters/LeagueExpedition/ReaperBoss/ReaperBoss_\n}}\n'''Vorana, Last to Fall'''  is a boss that can only appear inside [[Expedition Logbook]] areas with zone level 68+ marked with Black Scythe Mercenaries.\n\n==Skills==\n* '''The Black Reaping:''' Creates a swirling dark fog around Vorana's spawn point that inflicts stacking [[debuffs]] that deal [[damage over time]].\n* '''Orbiting Stars:''' Orbs will rotate around the arena periodically firing projectiles at player location. Running through the Orbiting Stars will cause it to fall after a quick delay and explode, dealing [[area of effect]] damage.\n* '''Cyclone:''' Attacks continuously around her while lunging in a direction. Voiceline: {{c|quest|Death Wind!}}\n* '''Lacerate:''' Slashes with both scythes in a semi-circle cross pattern in front of her. Voiceline: {{c|quest|I shall cut you down!}}\n* '''Dash Slash:''' Dashes quickly and slashes.\n* '''Ambush:''' Hides in the mist and cannot be damaged. Visible on the minimap; there is also a faint indicator of moving wind towards the centre of the arena that indicates where she will appear from.\n\n===Strategy===\nVorana will spawn once you travel close enough, the first thing you will notice is a suffocating black fog that descends around the location she spawns. This fog will immediately starts damaging you through a stacking debuff that very quickly will kill you, immediately move to the location where Vorana is and you will find a clearing in the fog; this is the battle arena. \n\nAround the outside of area there will be rotating orbiting stars that periodically fire projectiles at the player's location so continual movement is advised.\n\nPeriodically she will vanish from the area to hide inside the damaging mists, she will also vanish from the mini-map with the icon returning seconds before she reappears and attacks. There is a visual aide in the movement of the window towards the centre of the area to indicate where she will charge from, which may be helpful to avoid being in front of the direction from which the icon reappears before she re-enters the arena.\n\nVorana's attacks are easily tracked via the animations with her attacks involving the use of her dual-wielded scythes, players are advised to attack between melee swings and step behind her back while swinging.\n\nHer strong attacks are accompanied by voice lines as outlined above.\n\n{{Monster item drops|metadata_id=Metadata/Monsters/LeagueExpedition/ReaperBoss/ReaperBoss_}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.20.0|\n* Pinnacle bosses, Map bosses, Incursion architects, Betrayal targets, Breachlords and others no longer have 33% or 66% less effect of curses on them respectively.\n}}\n{{Version history table row|3.15.3b|\n* Improved the visuals of Vorana, Last to Fall's storm skill to make the outer ring more discernible.\n}}\n{{Version history table row|3.15.0d|\n* Increased the chance for Expedition Bosses to appear in level 68 and above Logbooks.\n* The storm cast by Vorana, Last to Fall now despawns when no players are in range of it. Vorana is also now immune to damage until players have re-entered the storm.\n}}\n{{Version history table row|3.15.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Expedition}}\n{{sister|poe2wiki}}",
+  "sha256": "b8418a9df59d5ea47c35397f9f332d821df7f414354a118b0aa9c7da61a8183b"
+}

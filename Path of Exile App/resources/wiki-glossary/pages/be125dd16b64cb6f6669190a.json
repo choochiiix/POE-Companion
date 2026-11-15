@@ -1,0 +1,33 @@
+{
+  "title": "Conduit",
+  "pageId": 3710,
+  "revision": 1492414,
+  "timestamp": "2024-11-30T23:37:56Z",
+  "retrieved": "2026-11-14T10:11:22.569595+00:00",
+  "requested": [
+    "one-handed sword",
+    "Death Aura",
+    "Mirage Archer",
+    "Penance Mark",
+    "Aura Skill",
+    "Conduit",
+    "Presence",
+    "tattoo",
+    "taking damage",
+    "channelling skill",
+    "Diamond Shrine",
+    "Minions",
+    "Determination",
+    "Bows",
+    "utility flask",
+    "Mana Flasks",
+    "Life Flasks",
+    "life regen",
+    "Everlasting Sacrifice",
+    "resistances"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Conduit}}\n\n{{about|the keystone passive skill|the divination card|The Conduit}}\n\n{{distinguish|Soul Conduit}}\n\n'''Conduit''' is a [[keystone passive skill]] that shares [[charge]]s with nearby [[party]] members only.\n\nMore precisely, whenever the player gains an [[endurance charge]], a [[frenzy charge]] or a [[power charge]], each party member within a radius of 120 units will also gain one charge of the same type.<ref name=\"radius\"/> Minions cannot gain charges this way: They are nearby '''allies''', not '''party members'''.\n\n==Location==\nConduit is located in the center of the skill tree, on the east side of the Scion starting area.\n{| class=\"wikitable sortable\" style=\"text-align: center;\"\n!Class\n!Distance from start\n|-\n|[[Scion]]||8\n|-\n|[[Ranger]]||10\n|-\n|[[Shadow]]||10\n|-\n|[[Duelist]]||14\n|-\n|[[Witch]]||14\n|-\n|[[Templar]]||18\n|-\n|[[Marauder]]||18\n|}\n\n==Related unique items==\nThese [[unique item]]s and [[ascendancy]] passives have the {{c|mod|Conduit}} modifier, which provides the same effect as this keystone. Taking the keystone in addition to equipping one of these items will impart no additional benefit.\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Conduit%\" OR items.stat_text LIKE \"%Share%Charges%\" OR items.stat_text LIKE \"%Random%Keystone%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Ascendancy passive skills==\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%Share%Charges%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.10.5|\n* Fixed a bug with Conduit where some players would not get the shared charges under some conditions.\n* Fixed a bug where Unique items that grant Conduit did not work correctly.\n}}\n{{Version history table row|0.10.4c|\n* Fixed an instance crash related to Conduit.\n}}\n{{Version history table row|0.10.0|\n* Fixed a bug with Conduit and unpartied players in the same instance.\n}}\n{{Version history table row|0.9.4|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"radius\">{{cite web|author=Mark_GGG|date=October 19, 2016|title=RIP Victario's Charity + Necro Aegis|url=https://www.reddit.com/r/pathofexile/comments/587sn2/rip_victarios_charity_necro_aegis/d8zjb2l|publisher=Path of Exile Reddit|accessdate=October 19, 2016}}</ref>\n}}\n{{sister|poe2wiki}}",
+  "sha256": "e468ad6c161c8ae920d8d4bbacef90b8e83cee6802e80da69b91aac210967d90"
+}

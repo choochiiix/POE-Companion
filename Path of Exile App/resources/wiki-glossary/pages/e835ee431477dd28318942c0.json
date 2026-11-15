@@ -1,0 +1,33 @@
+{
+  "title": "Grasping Nightshade",
+  "pageId": 127459,
+  "revision": 1702182,
+  "timestamp": "2026-08-29T02:34:12Z",
+  "retrieved": "2026-11-14T10:57:26.336333+00:00",
+  "requested": [
+    "Gathering Lightning",
+    "Ghastly Scythe",
+    "Ghorr's Magnificence",
+    "Ghostflame Graveyard",
+    "Glimpse of Infinity",
+    "Gloom Shrine",
+    "Glorious Madness",
+    "Glowing Orb",
+    "Gluttony",
+    "Goddess Beam",
+    "Gold Flask",
+    "Golden Descry",
+    "Golden Lantern's Glow",
+    "Grace Aura",
+    "Grace Period",
+    "Granite Flask",
+    "Grasping Chains",
+    "Grasping Hooks",
+    "Grasping Nightshade",
+    "Grasping Ornaments"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Grasping Nightshade\n|class_id                                = Tincture\n|base_item                               = Sporebloom Tincture\n|required_level                          = 52\n|explicit1                               = TinctureApplyWitherStacksOnHitUnique__1\n|explicit2                               = TinctureGraspingVineOnWeaponHitUnique__1\n|flavour_text                            = A virulent brew of death and decay.\n|release_version                         = 3.25.0\n|is_drop_restricted                      = false\n|drop_text                               = \n}}\n\n'''Grasping Nightshade''' is a [[unique]] {{il|Sporebloom Tincture}}.\n\n==Mechanics==\n\n[[Grasping Vines]]\n\n{{Item acquisition}} <ref>https://www.youtube.com/watch?v=OUnXmMqDs-0</ref>\n\n==Version history==\n\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}",
+  "sha256": "fe642f82e1abc8bcf06d960c90603e11dafa7436aa0ef944d1775ad8c77cdd92"
+}

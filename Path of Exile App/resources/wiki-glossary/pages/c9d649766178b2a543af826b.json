@@ -1,0 +1,33 @@
+{
+  "title": "Dark Vortex",
+  "pageId": 4547,
+  "revision": 1649302,
+  "timestamp": "2026-05-22T23:37:18Z",
+  "retrieved": "2026-11-14T10:57:18.315379+00:00",
+  "requested": [
+    "Cruelty",
+    "Crusader Shrine Monster",
+    "Crusader's Shrine",
+    "Crushing Darkness",
+    "Crystalised Fear",
+    "Cube of Absorbtion",
+    "Curse Immunity",
+    "Cursed Flesh",
+    "Cyclone",
+    "Damage Aura",
+    "Damage Reduction Aura",
+    "Dancing Dervish",
+    "Dark Gift",
+    "Dark Pit",
+    "Dark Temptation",
+    "Dark Vortex",
+    "Darkness",
+    "Darktongue's Kiss",
+    "Dead Spectre",
+    "Death Draw"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=LunarisDarkProjectile}}\n{{status\n| name                   = Dark Vortex\n| type                   = Debuff\n| description = You are taking damage from Lunaris's Dark Vortex.\n}}\n[[File:Lunaris, Eternal Moon in Celestial Form.png|thumb|right|[[Lunaris, Eternal Moon]], in Celestial Form, and [[Dusk, Harbinger of Lunaris]], covered in [[Ash]] , and a Dark Vortex on the foreground.]]\n'''Dark Vortex''' is a [[debuff]] that can be found in the boss fight of [[Dusk, Harbinger of Lunaris]] (and its map variant), as well as the boss fight of [[Solaris and Lunaris]] (and its map variant).\n\nIn the first fight, [[Lunaris, Eternal Moon]], in the Celestial Form (or known as \"orb form\"), is suspended in the centre of the boss arena, and occasionally casts a vortex that inflicts \"Dark Vortex\" debuff when stepped on.\n\nWhile in the second fight, after damaging [[Lunaris, Eternal Moon]] to a certain health remaining, Lunaris will return to its orb form and cast Dark Vortex to aid [[Solaris, Eternal Sun]].\n\nThe debuff can also be found in the map variant of the boss fight in {{il|Moon Temple Map}}<ref>[[Monster:Metadata/Monsters/LunarisSolaris/LunarisCelestialFormDuskMap]]</ref> and {{il|The Twilight Temple}}<ref>[[Monster:Metadata/Monsters/LunarisSolaris/LunarisCelestialFormUniqueMap]]</ref> (the pressure plate mini-boss fight and when selecting [[Selenia, the Endless Night]] as final map boss).\n==References==\n{{reflist}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n*Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "6f70fa587e9f8673ee98626b73ea58e959faf7ceb4cf9ef3192fddb4e5221643"
+}

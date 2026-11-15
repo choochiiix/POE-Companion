@@ -1,0 +1,33 @@
+{
+  "title": "Unaffected",
+  "pageId": null,
+  "revision": null,
+  "timestamp": null,
+  "retrieved": "2026-11-14T10:08:33.122668+00:00",
+  "requested": [
+    "Regeneration",
+    "Recovery",
+    "Reservation",
+    "Reservation efficiency",
+    "Low life",
+    "Full life",
+    "Recently",
+    "Nearby",
+    "Unaffected",
+    "Immunity",
+    "Avoidance",
+    "Lucky",
+    "Unlucky",
+    "Culling strike",
+    "Slayer",
+    "Berserk",
+    "Frenzy charge",
+    "Power charge",
+    "Endurance charge",
+    "Charge"
+  ],
+  "aliases": [],
+  "missing": true,
+  "wikitext": "",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

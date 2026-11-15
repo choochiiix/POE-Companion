@@ -1,0 +1,33 @@
+{
+  "title": "Battlemage",
+  "pageId": 1745,
+  "revision": 1579100,
+  "timestamp": "2025-10-27T07:23:23Z",
+  "retrieved": "2026-11-14T10:11:12.964646+00:00",
+  "requested": [
+    "weapons",
+    "dual wield",
+    "sceptre",
+    "implicit",
+    "Crucible Passive Skill Tree",
+    "Flying",
+    "Summon Raging Spirit",
+    "Caustic ground",
+    "Scorched ground",
+    "Profane ground",
+    "Fungal ground",
+    "Brine ground",
+    "Smoke cloud",
+    "normal",
+    "Foulborn unique item",
+    "level",
+    "Evasion Rating",
+    "Battlemage",
+    "Quivers",
+    "Shields"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Battlemage''' is a [[keyword]]. Battlemage gives the player character {{c|help|Gain Added Spell Damage equal to the Damage of Your Main Hand Weapon}}.\n==Mechanics==\n* '''Battlemage''' stacks with {{il|Spellblade Support}}.\n* It can only add damage to [[spell]]s that deal [[spell damage]]. It cannot add damage to [[Herald]]s.\n\n==Related unique items==\nThe following [[unique item]]s are related to Battlemage:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Battlemage%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Ascendancy passives==\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%Battlemage%\"\n}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* {{il|Battlemage's Cry}}\n\n[[Category:Keywords]]",
+  "sha256": "5b7728217e8b62fa95279de369728a477f07309ed3949d42b3566746ffa646a8"
+}

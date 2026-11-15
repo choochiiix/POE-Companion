@@ -1,0 +1,33 @@
+{
+  "title": "Silver Flask",
+  "pageId": 15058,
+  "revision": 1647942,
+  "timestamp": "2026-04-19T16:49:40Z",
+  "retrieved": "2026-11-14T10:57:43.565529+00:00",
+  "requested": [
+    "Shadow Surge",
+    "Shaper's Seed",
+    "Sharding Tempest",
+    "Shattered Shield",
+    "Shavronne's Aura",
+    "Shield Mastery",
+    "Shining Tempest",
+    "Shivering Tempest",
+    "Shock Immunity",
+    "Shock Prevention",
+    "Shocking Aura",
+    "Shrill Screech",
+    "Shrink",
+    "Shrinking Tempest",
+    "Shrouded Shrine",
+    "Sigil of Power",
+    "Signalled Prey",
+    "Silver Descry",
+    "Silver Flask",
+    "Singularity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Silver Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 27\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility14\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 27\n|flask_duration                          = 6\n|buff_id                                 = flask_utility_haste\n|buff_stat_text                          = [[Onslaught]]\n|charges_max                             = 60\n|charges_per_use                         = 40\n|release_version                         = 2.2.0\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = Safe Passage\n|quest_reward1_quest_id                  = a10q1\n|quest_reward1_act                       = 10\n}}\n{{status\n|name        = Onslaught\n|type        = Buff\n|description = Your attack, cast, and movement speeds are increased by 20%\n}}\n\n'''Silver Flask''' is a [[utility flask]] base type. The {{stl|Onslaught}} buff granted by the flask scales with flask duration and effect modifiers present on the flask itself.\n\n__TOC__\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n{{Item acquisition}}\n\n==Related microtransactions==\nThe table below lists [[microtransactions]] that are related to Silver Flask:\n{{Drop enabled base item table\n|where=items.class_id = \"Microtransaction\" AND (items.description like \"% Silver Flask%\" OR items.name LIKE \"% Silver Flask%\" )\n|large=1\n|level=1\n|description=1\n}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a flask duration of 4.00 seconds instead.\n\n==Gallery==\n<gallery>\nSilver Flask effect.jpg|Silver Flask effect\nSilver Flask status icon.png|legacy Silver Flask status icon\n</gallery>\n\n==Version history==\nPrior to the [[Version 3.20.0#Onslaught|changes to Onslaught in version 3.20.0]], Silver Flask could roll any [[modifier]]s compatible with utility flasks ''except'' for those that granted {{c|mod|X% increased effect}}. The excluded affixes were {{ml|FlaskEffectReducedDuration1}} (old Alchemist's), {{ml|FlaskEffectReducedDuration2}} and {{ml|FlaskEffectReducedDuration3}}. These affixes were not allowed to roll on Silver Flask due to the fact that [[Onslaught]] could not be improved by increasing the effect of flasks.<ref name=\"Onslaught flask effect\" />\n\n{{Version history table header}}\n{{Version history table row|3.21.0|\n* Now required character level 27 to use (down from 40). {{Undocumented}}\n}}\n{{Version history table row|3.20.0|\n* Onslaught is now a buff, and modifiers to buff effect now apply to Onslaught. This includes flask effect modifiers when Onslaught is provided through a Flask. As such, flask effect modifiers are now able to roll on Silver Flasks.\n}}\n{{Version history table row|3.16.0|\n*Now last '''6''' seconds (previously 4).\n}}\n{{Version history table row|3.15.0|\n* Silver Flask now lasts 4 seconds (previously 5)\n* Now requires level 40 to use (previously level 22).\n* No longer a quest reward of {{ql|The Key to Freedom}}\n}}\n{{Version history table row|3.0.0|\n* Now a quest reward of {{ql|The Key to Freedom}} and {{ql|Safe Passage}}\n}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{Reflist|refs=\n<ref name=\"Onslaught flask effect\">{{cite web\n| author = Mark_GGG\n| date = June 14, 2016\n| title = Re: Mechanical Questions Thread\n| url = https://www.pathofexile.com/forum/view-thread/1676002/page/29#p13383661\n| publisher = Official Path of Exile Forums\n| accessdate = May 5, 2022\n}}</ref>\n}}\n\n{{Navbox Items}}",
+  "sha256": "09e2fb09c07e35ec4eecee5420a4eb0964d4a9d884c58cbb6a4f2fc30637b45a"
+}

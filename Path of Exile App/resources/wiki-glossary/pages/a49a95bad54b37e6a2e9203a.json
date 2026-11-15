@@ -1,0 +1,33 @@
+{
+  "title": "Snow Cloak",
+  "pageId": 15315,
+  "revision": 1649692,
+  "timestamp": "2026-05-30T05:25:21Z",
+  "retrieved": "2026-11-14T10:57:44.400354+00:00",
+  "requested": [
+    "Siphoning Charges",
+    "Siphoning Ring",
+    "Siphoning Trap",
+    "Skeletal Shrine",
+    "Skitterbots",
+    "Slipstream",
+    "Slow",
+    "Slow Aura",
+    "Smite Aura",
+    "Smothered",
+    "Snared",
+    "Snipe",
+    "Sniper's Mark",
+    "Snow Bolt",
+    "Snow Cloak",
+    "Snowstorm",
+    "Soaked to the Bone",
+    "Solaris Shrine",
+    "Somatic Shell",
+    "Soothing Salve"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{historical content|version 3.28.0 removes [[They of Tul]] from spawning in Breach. This buff can only acquired from existing players that owns a They of Tul [[Raise Spectre|spectre]]}}\n{{Skill infobox|id=BreachBlizzard}}\n{{Skill infobox|id=BreachBlizzardBoss}}\n{{Skill infobox|id=BreachBlizzardSpectre}}\n{{status\n| name                   = Snow Cloak\n| type                   = Buff\n| icon = Chill status icon.png\n| description = {{c|normal|The snowstorm protects you. You have a chance to avoid damage while in it.}}\n}}\n[[File:Snow Cloak AOE.png|thumb|right|Shown is the Area of Effect of overlapping Snow Cloak vortexes, compared to the tiles of the [[Luxurious Hideout]].]]\n'''Snow Cloak''' is a [[buff]], cast by [[They of Tul]] for its [[Ally|allie]]s.\n\nWhen They of Tul is raised as a spectre via the {{il|Raise Spectre}} [[active skill gem|skill gem]], or converted temporarily via {{il|Conversion Trap}}, the player character and other allies gain additional chance to avoid damage from hits while in the [[area of effect]] of Snow Cloak.\n\nThe buff effect of monster version of this skill scales with the monster level of They of Tul, which is capped at a maximum level of 68. (i.e., a lvl. 80 monster level They of Tul has the same max Snow Cloak skill as lvl. 68.) The monster version also granted reduced damage taken to the monster's allies.\n\nThe internal id of the monster skill is \"BreachBlizzard\". The id of spectred version is [[Skill:BreachBlizzardSpectre|BreachBlizzardSpectre]].\n\n[[Tul, Creeping Avalanche]] uses an enhanced version of the skill (id: [[Skill:BreachBlizzardBoss|BreachBlizzardBoss]]) which applies the buff to herself and her minions.\n\n==Skill progression==\nThis only applies to the monster version, not the spectre version.\n{{Skill progression\n|skill_id=BreachBlizzard\n|c1_abbr            =  Reduced Damage taken\n|c1_header          =  x% reduced Damage taken\n|c1_pattern_extract =  (%d+)%% reduced Damage taken\n|c1_pattern_value   =  %d%%\n|c2_abbr            =  Chance to Avoid All Damage from Hits\n|c2_header          =  x% chance to Avoid All Damage from Hits\n|c2_pattern_extract = (%d+)%% chance to Avoid All Damage from Hits\n|c2_pattern_value   =  %d%%\n}}\n\n==Monsters==\nThe following [[monster]]s use Snow Cloak skills:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, metadata_id, skill_ids\n|where=skill_ids HOLDS LIKE \"BreachBlizzard%\" \n|limit=100\n|order by=name\n}}\n\n==Version history==\nBefore removal from the game, the monster version was known as [[Skill:BreachBlizzard|BreachBlizzard]]\n\n{{Version history table header}}\n{{Version history table row|3.28.0|\n* Breach now spawns monster variants that introduced in [[Keepers league]]s\n}}\n{{Version history table row|3.27.0|\n* Unable to acquire in [[Keepers league]]s\n}}\n{{Version history table row|3.16.0|\n* Due to the removal of attack dodge and rework of spell dodge, the monster skill Snow Cloak has be reworked. {{Undocumented}}\n}}\n{{Version history table row|3.14.1|\n* Clarified that the '''Snow Cloak''' buff doesn't cause you to take less damage. This is purely a description change.\n}}\n{{Version history table row|3.13.0|\n* [[Raise Spectre|Spectred]] versions of [[They of Tul]]'s '''Snow Cloak''' skill no longer grants reduced damage taken, and grants 15% chance to dodge attacks and spells (from 20%).\n}}\n{{Version history table row|3.10.1c|\n* Fixed a bug where the '''Snow Cloak''' buff granted by [[They of Tul]] didn't have a description.\n}}\n{{Version history table row|2.5.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n[[Category:Buffs]]\n[[Category:Monster skills]]",
+  "sha256": "f8b09f94616fbbe7156731ca374799bbdcc0361ca943cd2dfe4cf07b9b2a49b4"
+}

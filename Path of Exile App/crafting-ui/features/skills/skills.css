@@ -1,0 +1,249 @@
+.skills-filters {
+  display:grid;
+  grid-template-columns:minmax(160px,2fr) minmax(120px,1fr) auto;
+  gap:var(--space-2);
+  align-items:end;
+  margin-bottom:var(--space-2);
+}
+.gem-library-layout {
+  display:grid;
+  grid-template-columns:168px minmax(0,1fr);
+  gap:var(--space-3);
+  align-items:start;
+}
+#gem-category-panel {
+  min-width:0;
+}
+.gem-category-tabs {
+  display:flex;
+  flex-direction:column;
+  gap:var(--space-1);
+  margin:0;
+}
+.gem-category-tabs [role=tab] {
+  display:flex;
+  align-items:center;
+  gap:var(--space-1);
+  min-height:40px;
+  width:100%;
+  text-align:left;
+  color:var(--text-secondary);
+}
+.gem-category-tabs [role=tab] span {
+  font-size:var(--text-xs);
+  margin-left:auto;
+}
+.gem-category-tabs [aria-selected=true] {
+  background:var(--accent);
+  color:var(--bg);
+  border-color:var(--accent);
+  font-weight:650;
+}
+.gem-category-tabs [aria-selected=true]::before {
+  content:'✓';
+}
+.gem-category-note {
+  font-size:var(--text-xs);
+  color:var(--text-muted);
+}
+@media(forced-colors:active) {
+  .gem-category-tabs [aria-selected=true] {
+    color:HighlightText;
+    background:Highlight;
+    border-color:Highlight;
+  }
+}
+.skills-filters label {
+  margin:0;
+}
+.skills-filters input,.skills-filters select {
+  width:100%;
+  min-width:0;
+}
+/* Same geometry as unique cards; PoB Global.lua GEM / GemTooltip.lua palette. */
+.gem-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(min(100%,285px),1fr));
+  gap:20px;
+  align-items:start;
+  margin-bottom:var(--space-3);
+}
+.gem-card {
+  overflow-wrap:break-word;
+  border:1px solid var(--gem-border);
+}
+.gem-card-header {
+  min-height:48px;
+  padding:var(--space-dense) 20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  border-block:2px solid var(--gem-header-rule);
+  background:linear-gradient(90deg,var(--gem-header-edge),var(--gem-header-center) 50%,var(--gem-header-edge));
+  position:relative;
+}
+.gem-card-header::before,.gem-card-header::after {
+  content:'◆';
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  color:var(--gem-color);
+  font-size:var(--text-base);
+}
+.gem-card-header::before {
+  left:8px;
+}
+.gem-card-header::after {
+  right:8px;
+}
+#skillsPanel .gem-card-header h4,.gem-card-header .gem-kind {
+  font-family:var(--font-display);
+  font-weight:400;
+  color:var(--gem-color);
+  line-height:1.3;
+  margin:0;
+}
+#skillsPanel .gem-card-header h4 {
+  font-size:18px;
+}
+.gem-card-header .gem-kind {
+  font-size:var(--text-xs);
+  margin-top:var(--space-compact);
+}
+.gem-card-art {
+  height:48px;
+  padding:var(--space-1);
+  background:radial-gradient(ellipse at center,var(--gem-art-glow),transparent 72%);
+  border-bottom:1px solid var(--gem-rule);
+}
+.gem-card-art img {
+  max-height:44px;
+}
+.gem-card-art span {
+  color:var(--text-muted);
+  font-size:var(--text-xs);
+}
+.gem-card-body {
+  padding:var(--space-1) var(--space-card) var(--space-half);
+}
+.gem-card-body p {
+  margin:1px 0;
+  line-height:1.2;
+  letter-spacing:normal;
+}
+.gem-card-body .gem-properties {
+  color:var(--text-secondary);
+}
+.gem-value {
+  color:var(--reference-value);
+}
+.gem-requirements {
+  color:var(--text-secondary);
+  border-top:1px solid var(--gem-rule);
+  margin-top:var(--space-half);
+  padding-top:var(--space-half);
+}
+.gem-requirements small {
+  display:block;
+  font:12px/1.5 var(--font-reference);
+  color:var(--text-muted);
+}
+.gem-card-body .gem-description {
+  color:var(--gem-color);
+  border-top:1px solid var(--gem-rule);
+  margin-top:var(--space-half);
+  padding:var(--space-half) 0;
+}
+.gem-stats p,.gem-quality p {
+  color:var(--reference-mod);
+}
+.gem-quality {
+  margin:var(--space-dense) 0;
+}
+.gem-quality .gem-quality-heading {
+  color:var(--reference-value);
+}
+.gem-reference-note {
+  display:block;
+  margin:var(--space-half) 0;
+  color:var(--text-muted);
+  font-size:var(--text-xs);
+}
+#skillsPanel .gem-source-details,#skillsPanel .gem-secondary {
+  margin:var(--space-dense) 0;
+  border-top:1px solid var(--gem-rule);
+  padding-top:var(--space-1);
+}
+#skillsPanel .gem-source-details summary,#skillsPanel .gem-secondary summary {
+  color:var(--text-secondary);
+  font-size:var(--text-xs);
+}
+.gem-source-details {
+  text-align:left;
+  overflow-wrap:anywhere;
+}
+.gem-source-details p,.gem-source-details strong {
+  font-size:var(--text-xs);
+  color:var(--text-muted);
+}
+.gem-source-details strong {
+  display:block;
+  padding-top:var(--space-1);
+}
+.gem-card-footer {
+  border-top:1px solid var(--gem-rule);
+  padding:var(--space-1);
+}
+.gem-card-footer button {
+  font-size:var(--text-xs);
+}
+#skillsPanel h3 {
+  font-size:var(--text-lg);
+  color:var(--text);
+  margin:0 0 var(--space-2);
+}
+#skillsPanel h4 {
+  font-size:var(--text-base);
+}
+#skillsPanel details {
+  margin:var(--space-2) 0 var(--space-3);
+}
+#skillsPanel summary {
+  cursor:pointer;
+  color:var(--accent);
+}
+#skillsPanel summary:focus-visible {
+  outline:var(--focus-ring);
+  outline-offset:4px;
+}
+.skill-support {
+  padding:var(--space-2) 0;
+  border-top:1px solid var(--line);
+}
+.skill-incompatible,.skills-notice {
+  color:var(--accent);
+}
+@media(max-width:750px) {
+  .skills-filters {
+    grid-template-columns:1fr;
+  }
+}
+@media(max-width:650px) {
+  .gem-library-layout {
+    grid-template-columns:minmax(0,1fr);
+    gap:var(--space-3);
+  }
+}
+@media(forced-colors:active) {
+  .gem-card,.gem-card-header,.gem-card-art,.gem-requirements,.gem-description,.gem-card-footer {
+    border-color:CanvasText;
+  }
+  #skillsPanel .gem-card-header h4,.gem-card-header .gem-kind,.gem-card-header::before,.gem-card-header::after,.gem-card-body p,.gem-requirements small,.gem-value,.gem-card-art span,.gem-reference-note,.gem-stats p,.gem-quality p,.gem-source-details strong {
+    color:CanvasText;
+  }
+}
+/* Keep inherited section/details spacing out of compact reference cards. */
+#skillsPanel .gem-card details {
+  margin:var(--space-dense) 0;
+  padding:var(--space-half) 0
+}

@@ -1,0 +1,11 @@
+{
+  "archive": "references/path-of-building/PathOfBuilding-dev.zip",
+  "archiveSha256": "6ea36e73649da26741fd0c1c3bd57a99e589db84191f0e0578f320b1921cc34b",
+  "files": {
+    "PathOfBuilding-dev/src/Modules/CalcDefence.lua": "c0c47339fb887cfdac3e08432a4836adcc554c8273acc6c3e77439361cc13f12",
+    "PathOfBuilding-dev/src/Modules/CalcOffence.lua": "89da11a3d3d5c0cea31b7b59ce3349f3b48882d2ebaaecb77de046ef3de3f0bd",
+    "PathOfBuilding-dev/src/Modules/CalcPerform.lua": "cf3e868f56685205287d5d1c6528a5dc91fe9bde4343ba56938c0658e355875b",
+    "PathOfBuilding-dev/src/Modules/CalcSetup.lua": "ade08429d2ecb93145a6f8f469a3f35c6dbab30dae81fd8433620acd3e952ecf",
+    "PathOfBuilding-dev/src/Modules/Calcs.lua": "2d2ca4c835226866103bcb18c519c9fc8b7ec3e063bc3116d86cf6d9d10f17ff"
+  }
+}

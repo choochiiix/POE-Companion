@@ -1,0 +1,41 @@
+{
+  "sourcePage": "https://poedb.tw/us/Character_class",
+  "reference": "Original portraits matching the user supplied class/ascendancy reference",
+  "files": {
+    "witch": {
+      "url": "https://i.imgur.com/XSqMHh9.png",
+      "sha256": "084b96415ad05046d1a6a24fda057f686c911a5b6af4a463945e26469848b6e5",
+      "file": "portraitwitch.png"
+    },
+    "marauder": {
+      "url": "https://i.imgur.com/UWvvGKZ.png",
+      "sha256": "9cd0f409b0058f2c0687f316a1d37540ebf403af63f713db579a178c200fff8d",
+      "file": "portraitmarauder.png"
+    },
+    "scion": {
+      "url": "https://i.imgur.com/9IfOWoN.png",
+      "sha256": "096a204b0c83ff26a43067cf2a7991deb6f3ea7349751ce6a17924a2eb7b7891",
+      "file": "portraitscion.png"
+    },
+    "templar": {
+      "url": "https://i.imgur.com/i53a1id.png",
+      "sha256": "b9fb850dc835c65c151064f0c4558e5dc31a4c96e037879ad22be9acfd20bf0b",
+      "file": "portraittemplar.png"
+    },
+    "duelist": {
+      "url": "https://i.imgur.com/c8vB7OX.png",
+      "sha256": "0437593d2561e0edcc1b95ea6bb743f1c4e2f3de0c474b166bac0e3ca5087526",
+      "file": "portraitduelist.png"
+    },
+    "ranger": {
+      "url": "https://i.imgur.com/qtdp8Jh.png",
+      "sha256": "42253703b980f5b3bf570364a29b7c9b5c2fe7dc4a0ba35afd58045612e34dbd",
+      "file": "portraitranger.png"
+    },
+    "shadow": {
+      "url": "https://i.imgur.com/nWahbNR.png",
+      "sha256": "9ed00565af23eb7ddc8be5bb27c3bea718d7ba0e8a7a386601fa2837dfed7e0e",
+      "file": "portraitshadow.png"
+    }
+  }
+}

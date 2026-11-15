@@ -1,0 +1,33 @@
+{
+  "title": "Wrath of the Drowned",
+  "pageId": 143708,
+  "revision": 1698827,
+  "timestamp": "2026-08-03T14:36:17Z",
+  "retrieved": "2026-11-14T10:57:53.949107+00:00",
+  "requested": [
+    "Weight of Despair",
+    "Wild Malady",
+    "Wild Savagery",
+    "Wildfire Phloem",
+    "Winter Orb",
+    "Wintertide",
+    "Wintertide Brand",
+    "Wintertide's End",
+    "Wisp's Blessing",
+    "Witchfire Brew",
+    "Withering Step",
+    "Worn Sandals",
+    "Wrath Aura",
+    "Wrath of the Cosmos",
+    "Wrath of the Drowned",
+    "You Fell For It Fool",
+    "You have the Blue Flag",
+    "You have the Green Flag",
+    "You have the Karui Spirit",
+    "You have the Red Flag"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Wrath of the Drowned\n| icon = DrownedCrew.png\n| type                   = Ailment\n| description            = You feel the gaze of the drowned all around you\n}}\n\nCan be given to you when you interact with \"Offering to the Drowned\" chests in [[The Fathomless Depths (area)]].",
+  "sha256": "3e20df9f9d959307290f60628034766b9624e6e99bed45a37e191961dfeacd6d"
+}

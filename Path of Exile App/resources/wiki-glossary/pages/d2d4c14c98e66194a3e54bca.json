@@ -1,0 +1,33 @@
+{
+  "title": "Monster resistances",
+  "pageId": 11343,
+  "revision": 205220,
+  "timestamp": "2019-09-22T07:12:57Z",
+  "retrieved": "2026-11-14T10:11:11.204662+00:00",
+  "requested": [
+    "Discipline",
+    "flasks",
+    "Abyss Jewel",
+    "Unwavering Stance",
+    "Hits can't be evaded",
+    "party",
+    "cast spee",
+    "Monster resistances",
+    "monster category",
+    "Ravenous",
+    "physical damage reduction",
+    "item rarity",
+    "Unique Monsters",
+    "Endurance Charges",
+    "Frenzy Charges",
+    "Power Charges",
+    "Damage reduction",
+    "Unique monsters",
+    "Beast",
+    "Carrion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "__TOC__\n\n== Overview ==\n\n[[Monster]] base resistances are derived from the resistance group their monster type is in.  \n\nMonster resistances are not final and may be further modified by buffs, map mods, monster mods, auras, curses and other sources.\n\nMonster resistances are capped:\n{{#cargo_query: table=generic_stats\n|fields = stat_text\n|where = name=\"Monster\"\n AND (id LIKE \"base_maximum_%_damage_resistance_%\") \n|format = ul\n}}\n\n== Resistance groups ==\n{{#cargo_query:\n|table=monster_resistances\n|fields=id=ID, CONCAT('<em class=\"tc -lightning\">', part1_lightning, '</em>')=Part 1 Lightning, CONCAT('<em class=\"tc -cold\">', part1_cold, '</em>')=Part 1 Cold, CONCAT('<em class=\"tc -fire\">', part1_fire, '</em>')=Part 1 Fire, CONCAT('<em class=\"tc -chaos\">', part1_chaos, '</em>')=Part 1 Chaos, CONCAT('<em class=\"tc -lightning\">', part2_lightning, '</em>')=Part 2 Lightning, CONCAT('<em class=\"tc -cold\">', part2_cold, '</em>')=Part 2 Cold, CONCAT('<em class=\"tc -fire\">', part2_fire, '</em>')=Part 2 Fire, CONCAT('<em class=\"tc -chaos\">', part2_chaos, '</em>')=Part 2 Chaos, CONCAT('<em class=\"tc -lightning\">', maps_lightning, '</em>')=Endgame Lightning, CONCAT('<em class=\"tc -cold\">', maps_cold, '</em>')=Endgame Cold, CONCAT('<em class=\"tc -fire\">', maps_fire, '</em>')=Endgame Fire, CONCAT('<em class=\"tc -chaos\">', maps_chaos, '</em>')=Endgame Chaos\n}}\n== Developer information ==\n{{development information|section}}\n\nThe data can be found in content.ggpk:Data/MonsterResistances.dat\n\n== See also ==\n\n* [[Monster]]\n* [[Resistance]]\n\n[[Category:Game mechanics]]",
+  "sha256": "915d440cb3f7a41e7ff131edffb1bc7b8799a6b23332025bd0f4b67f7b8d6e2f"
+}

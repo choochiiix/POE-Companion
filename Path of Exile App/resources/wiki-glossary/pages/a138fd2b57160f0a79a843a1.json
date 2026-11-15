@@ -1,0 +1,33 @@
+{
+  "title": "Empowering Howl",
+  "pageId": 5861,
+  "revision": 1649341,
+  "timestamp": "2026-05-22T23:38:15Z",
+  "retrieved": "2026-11-14T10:57:21.492902+00:00",
+  "requested": [
+    "Elemental Conflux",
+    "Elemental Damage Aura",
+    "Elemental Damage Taken Increase",
+    "Elemental Reflection",
+    "Elemental Reflection Aura",
+    "Elemental Thorns",
+    "Elemental Warding",
+    "Elemental Weakness",
+    "Emberstorm",
+    "Empowering Howl",
+    "Encased in Jade",
+    "Encompassing Tentacles",
+    "Endless Hazard",
+    "Endless Pain",
+    "Energy Shield Aura",
+    "Energy Shield Leech",
+    "Energy Shield Regeneration",
+    "Enervation",
+    "Engraved Orb",
+    "Engulfed by Ghostfire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=EmpoweringHowl}}\n'''Empowering Howl''' is a [[warcry]]-like skill cast by [[Xoph's Favoured]]. This buff can be applied to the player when a Xoph's Favoured is raised as an allied [[spectre]], or using a {{il|Conversion Trap}}. The buff adds percentage of physical damage as extra fire damage. \n\nAt max skill level when the monster is level 68 or above, the extra fire damage is 80% of the physical damage, according to datamined stats.\n\nHowever, the spectre version of Xoph's Favoured uses a weaker version of the skill, which has another internal id: [[Skill:EmpoweringHowlSpectre|EmpoweringHowlSpectre]].<ref>[[Monster:Metadata/Monsters/Hellion/HellionBreachHowlSpectre]]</ref> The extra fire damage is 20% of the physical damage from this variant of buff.\n\n==Monsters==\nThe following [[monster]]s use Empowering Howl:\n{{#cargo_query:\n|tables=monsters\n|fields=CONCAT(\"[[\", _pageName, \"|\", name, \"]]\")=Monster names, skill_ids\n|where=skill_ids HOLDS LIKE \"EmpoweringHowl%\" \n|limit=100\n}}\n\n==References==\n{{reflist}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.1b|\n* Fixed an instance crash that could occur when a Spectred or Conversion Trapped Xoph's Favoured used its Howl skill.\n}}\n{{Version history table row|2.5.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Monster skills]]",
+  "sha256": "265a2bdcdc37bf856ffc8cb7e06684c8c40fbbe233f01ff1047b77c34b12dbc5"
+}

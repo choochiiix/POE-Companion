@@ -1,0 +1,33 @@
+{
+  "title": "Town",
+  "pageId": 17854,
+  "revision": 1493214,
+  "timestamp": "2024-12-22T03:07:00Z",
+  "retrieved": "2026-11-14T10:09:59.084602+00:00",
+  "requested": [
+    "Low Mana",
+    "loss",
+    "modifiers",
+    "mana cost",
+    "support gems",
+    "mana reservation",
+    "buffs",
+    "auras",
+    "curses",
+    "Mana Burn",
+    "Mana Flask",
+    "Mana Gained on Kill",
+    "Portal",
+    "town",
+    "Body Armour",
+    "Helmets",
+    "Gloves",
+    "Boots",
+    "Mana reservation",
+    "fire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "[[File:Lioneye's Watch area screenshot.jpg|thumb|250px|A town]]\n\n'''Towns''' are areas inhabited by [[NPC]]s, which serve as hubs for different areas of the storyline. Every act has one town.\n\nUpon entering a town, a player's [[flask]]s, [[life]], [[mana]], and [[energy shield]] will be completely restored. Players cannot take damage or use any of their skills while in town.\n\n==List of towns==\n* [[Lioneye's Watch (Act 1)|Act 1 - Lioneye's Watch]]\n* [[The Forest Encampment|Act 2 - The Forest Encampment]]\n* [[The Sarn Encampment (Act 3)|Act 3 - The Sarn Encampment]]\n* [[Highgate (Act 4)|Act 4 - Highgate]]\n* [[Overseer's Tower|Act 5 - Overseer's Tower]]\n* [[Lioneye's Watch (Act 6)|Act 6 - Lioneye's Watch]]\n* [[The Bridge Encampment|Act 7 - The Bridge Encampment]]\n* [[The Sarn Encampment (Act 8)|Act 8 - The Sarn Encampment]]\n* [[Highgate (Act 9)|Act 9 - Highgate]]\n* [[Oriath Docks|Act 10 - Oriath Docks]]\n* [[Oriath (Epilogue)|Epilogue - Oriath]] (No longer accessible. Replaced by the Karui Shores.)\n* [[Karui Shores|Epilogue - Karui Shores]]\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.8.3|\n* [[Flask]]s are now filled when a character leaves town.\n}}\n{{Version history table row|0.8.0|\n* The name of the current [[difficulty]] is now displayed in town (if higher than the first difficulty).\n* Players can now walk through each other in towns.\n}}\n{{Version history table row|0.7.2|\n* [[Life]]/[[mana]]/[[energy shield]] are replenished when you arrive at town.\n}}\n{{Version history table row|0.7.1|\n* Your [[flask]]s now refill when you enter town.\n}}\n{{Version history table row|0.5.7|\n* Entering a town now automatically grants the town's [[waypoint]] to the character.\n}}\n{{Version history table row|0.5.6|\n* While in a town, [[skill]]s are now marked as disabled.\n}}\n{{Version history table row|0.5.5|\n* Combat actions are now disabled while in town.\n}}\n{{Version history table end}}\n\n{{Navbox World}}\n{{sister|poe2wiki}}\n\n[[Category:Towns]]",
+  "sha256": "9d475fd16d29b0103e66a9cc300a68a827fdb3da037823a96c16f22e85c5cac4"
+}

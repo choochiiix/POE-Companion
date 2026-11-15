@@ -1,0 +1,33 @@
+{
+  "title": "Energy Shield Aura",
+  "pageId": 129827,
+  "revision": 1484221,
+  "timestamp": "2024-09-28T10:46:04Z",
+  "retrieved": "2026-11-14T10:57:21.493901+00:00",
+  "requested": [
+    "Elemental Conflux",
+    "Elemental Damage Aura",
+    "Elemental Damage Taken Increase",
+    "Elemental Reflection",
+    "Elemental Reflection Aura",
+    "Elemental Thorns",
+    "Elemental Warding",
+    "Elemental Weakness",
+    "Emberstorm",
+    "Empowering Howl",
+    "Encased in Jade",
+    "Encompassing Tentacles",
+    "Endless Hazard",
+    "Endless Pain",
+    "Energy Shield Aura",
+    "Energy Shield Leech",
+    "Energy Shield Regeneration",
+    "Enervation",
+    "Engraved Orb",
+    "Engulfed by Ghostfire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Status\n|name=Energy Shield Aura\n|icon=Discipline skill icon.png\n|type=Buff\n|description=Allies have Energy Shield\n|bonuses= Gain #% of Maximum Life as Energy Shield\n}}\n\n'''Energy Shield Aura''' is a [[monster aura]]. It is granted by totems, [[General Gravicius]], and several other monsters.\n\n==Gallery==\n<gallery>\nFile:Energy Shield Aura.png|An Energy Shield Aura on a player\n</gallery>\n\n[[Category:Monster auras]]",
+  "sha256": "eb17207f3fa280dd7796d4612a2015e3f619f7f295c3f487450be3f72044dcf5"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Vile Bastion",
+  "pageId": 19490,
+  "revision": 1697427,
+  "timestamp": "2026-07-29T12:35:40Z",
+  "retrieved": "2026-11-14T10:57:52.313846+00:00",
+  "requested": [
+    "Valdo's Brilliance",
+    "Vampiric Link",
+    "Veiling Tempest",
+    "Vengeful Cry",
+    "Venom Gyre Blades",
+    "Venomous Web",
+    "Verdant Spores",
+    "Verisium Energy",
+    "Vessel of Vinktar",
+    "Victario's Flight",
+    "Vile Bastion",
+    "Vilenta's Beam",
+    "VinktarLightningBond",
+    "Violent Desire",
+    "Violent Retaliation",
+    "Virulence",
+    "Viscous Swamp",
+    "Vitality Aura",
+    "Vivid Malady",
+    "Void Arrows"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|Vile Bastion}}\n\n'''Vile Bastion''' is a notable [[Ascendancy passive skill]] for the [[Occultist]]. It grants flat [[energy shield]] regeneration and increased maximum energy shield based on your capped [[spell block]] chance. It also grants immunity to [[stun]] while you have any amount of energy shield. Hits that fully deplete energy shield will not stun the player.<ref>https://www.pathofexile.com/forum/view-thread/3284453</ref>\n\n==Ruthless mode==\n{{infocard\n|header    = Vile Bastion (Ruthless)\n|subheader = Ascendancy Notable Passive Skill\n|1         = <div class=\"passive-icon-container passive-icon-type__ascendancy_notable\"><div class=\"passive-icon-frame\"></div>[[File:SoulCatalyst (Occultist) passive skill icon.png]]</div>\n|2         = Damage taken Recouped as Life is also Recouped as Energy Shield\n}}\n\nVile Bastion in [[Ruthless mode]] has a completely different effect. It instead causes your life [[recoup]] to also apply to energy shield.\n==Related unique==\n* {{il|Forbidden Flame}}\n* {{il|Forbidden Flesh}}\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* The Vile Bastion Ascendancy Passive Skill no longer has \"Regenerate 2% of Energy Shield per second for each Enemy you or your Minions have Killed Recently, up to 10% per second\". It now grants 100 Energy Shield Regeneration per second (previously 40) and now has \"Maximum Energy Shield is increased by Chance to Block Spell Damage\".\n}}\n{{Version history table row|3.22.0|\n* {{Ruthless}} No longer provides \"Regenerate 40 Energy Shield per second\", \"Regenerate 2% of Energy Shield per second for each Enemy you or your Minions have Killed Recently, up to 10% per second\" or \"Cannot Be Stunned while you have Energy Shield\" in Ruthless. It now provides \"Damage taken Recouped as Life is also Recouped as Energy Shield.\"\n}}\n{{Version history table row|3.13.0|\n* Now grants 2% energy shield regeneration per second for each enemy you or your minions have killed recently, up to 10% (from a minimum of 1%)\n}}\n{{Version history table row|3.8.0|\n* Now also causes you to regenerate 40 Energy Shield per second.\n}}\n{{Version history table row|3.7.0|\n* Now grants 1% energy shield regeneration per second for each enemy you or your minions have killed recently, up to 10% (from a maximum of 30%).\n* No longer grants +150 to maximum energy shield.\n}}\n{{Version history table row|3.2.0|\n* Added {{c|mod|+150 to maximum Energy Shield}}.\n* Energy shield regeneration per enemy killed increased from 0.5% to 1%. Energy shield regeneration is now capped at 30%.\n* Enemies killed by your minions now also grant energy shield regeneration.\n* Now grants stun immunity while you have any amount of energy shield, instead of only at full energy shield.\n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}",
+  "sha256": "3be3338af4da219b178b7f71ac7fdfd62bd3a0877a10373b9577c1ab0f282620"
+}

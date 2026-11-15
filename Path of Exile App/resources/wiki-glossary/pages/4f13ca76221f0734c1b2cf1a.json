@@ -1,0 +1,33 @@
+{
+  "title": "Monster category",
+  "pageId": 11336,
+  "revision": 1647947,
+  "timestamp": "2026-04-20T01:00:59Z",
+  "retrieved": "2026-11-14T10:11:11.204662+00:00",
+  "requested": [
+    "Discipline",
+    "flasks",
+    "Abyss Jewel",
+    "Unwavering Stance",
+    "Hits can't be evaded",
+    "party",
+    "cast spee",
+    "Monster resistances",
+    "monster category",
+    "Ravenous",
+    "physical damage reduction",
+    "item rarity",
+    "Unique Monsters",
+    "Endurance Charges",
+    "Frenzy Charges",
+    "Power Charges",
+    "Damage reduction",
+    "Unique monsters",
+    "Beast",
+    "Carrion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Merge to|Monster}}\n\n'''Monster categories''' are groupings of monster types that share a property. Some monster categories are used to populate maps with specific features. In rare cases, [[item]] or [[passive skill]] stats may behave differently based on the monster category or type being fought.\n\nPlayers can see the monster category a monster belongs to if they have {{il|Veruso's Ambition}} equipped. Some monsters may belong to more than one category, in which case their primary category will be displayed.\n\nMonster categories are:\n*[[Beast]] (or \"[[Animal]]\")\n:* [[Ape]]\n:* [[Chimeral]]\n:* [[Devourer]]\n:* [[Goatman]]\n:* [[Maw]]\n:* [[Rhoa]]\n:* [[Snake]]\n:* [[Spider]]\n:* [[Sand spitter]]\n:*[[Shaper Guardian]]\n\n*[[Construct]]\n:*[[Construct]]\n:*[[Rock elemental]]\n:*[[Statue]]\n:*[[Totem (monster type)|Totem]]\n\n*[[Demon]]\n:*[[Miscreation]]\n:*[[Undying]]\n\n*[[Eldritch]]\n:*[[Eldritch Horror]]\n:*[[Elder Guardian]]\n\n*[[Humanoid]]\n:*[[Bandit]]\n:*[[Blackguard]]\n:*[[Cannibal]]\n:*[[Experimenter]]\n:*[[Elderslayer]]\n\n*[[Undead]]\n:*[[Skeleton]]\n:*[[Skeleton archer]]\n:*[[Skeleton mage]]\n:*[[Zombie]]\n\n{{Navbox Bestiary}}\n\n[[Category:Monster types]]\n{{sister|poe2wiki}}",
+  "sha256": "ea33571b07844089370be9325e25b2f544f8f7bb3eca6c2039354345a510e465"
+}

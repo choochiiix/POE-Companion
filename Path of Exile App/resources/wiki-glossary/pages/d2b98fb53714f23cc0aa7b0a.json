@@ -1,0 +1,33 @@
+{
+  "title": "Travel",
+  "pageId": 17951,
+  "revision": 1550465,
+  "timestamp": "2025-07-20T01:09:40Z",
+  "retrieved": "2026-11-14T10:11:21.706396+00:00",
+  "requested": [
+    "fireball",
+    "bleed",
+    "decay",
+    "Valour",
+    "Explosion",
+    "Travel",
+    "Attributes",
+    "traps",
+    "mines",
+    "totems",
+    "Spells",
+    "claws",
+    "flying",
+    "Skill Duration",
+    "Envy",
+    "Ghastly Eye Jewel",
+    "of Ice",
+    "Chilling Area",
+    "warcries",
+    "travel"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Distinguish|Movement|Blink}}\n\n'''Travel''' is a [[gem tag]]. This tag generally applies to skills that assist with the character's positioning within the environment. Many Travel skills directly move the character to a designated location.\n\n==Gems==\n===Skill gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Active Skill Gem\" AND skill_gems.gem_tags HOLDS \"Travel\"}} [[skill gems]] with the [[:Category:Travel (gem tag)|Travel]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Active Skill Gem\" AND skill_gems.gem_tags HOLDS \"Travel\"\n}}\n\n===Support gems===\nThere are {{Drop enabled gem count|where=items.class_id=\"Support Skill Gem\" AND skill_gems.gem_tags HOLDS \"Travel\"}} [[support gems]] with the [[:Category:Travel (gem tag)|Travel]] [[gem tag]]:\n{{Drop enabled gem table\n|where=items.class_id=\"Support Skill Gem\"\n   AND skill_gems.gem_tags HOLDS \"Travel\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* {{il|Multistrike Support}} and {{il|Awakened Multistrike Support}} now describe that they cannot support Travel Skills, rather than every Travel Skill stating they cannot be supported by Multistrike. They also now describe that they cannot support [[Retaliation]] Skills.\n}}\n{{Version history table row|?|\n* Introduced to the game as a gem tag.\n}}\n{{Version history table end}}\n\n[[Category:Gem tag mechanics]]\n[[Category:Gem tags]]\n{{sister|poe2wiki}}",
+  "sha256": "783c4454ebc74f518b150d96565b12b48d859fbfdf501b44705ad7dc08ed025f"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Phantasm",
+  "pageId": 12372,
+  "revision": 1444730,
+  "timestamp": "2024-05-12T16:53:23Z",
+  "retrieved": "2026-11-14T10:11:17.302092+00:00",
+  "requested": [
+    "Swords",
+    "Maces",
+    "Sceptres",
+    "hits",
+    "endurance charges",
+    "defences",
+    "inventory",
+    "overkill damage",
+    "frozen",
+    "Unique Jewel",
+    "Aspect",
+    "Guard Skills",
+    "Combat Rush",
+    "Phantasm",
+    "Flame-Touched",
+    "Approaching Flames",
+    "Trauma",
+    "Pact skill",
+    "Drenched",
+    "Mania"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Phantasms''' are a type of [[minion]].\n\n==List of phantasm skills==\n===Support gems===\n{{Drop enabled gem table\n|where=items.name LIKE \"%Phantasm%\"\n}}\n\n===Item skills===\n* {{sl|Summon Phantasm}}\n\n==Buffs==\n* {{stl|Phantasmal Might}}\n\n==Unique items==\nThe table below lists [[unique items]] that are related to phantasms:\n{{Drop enabled unique item table\n|where=items.stat_text like \"%Phantasm%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n===Passive skills===\nThe table below lists [[passive skill]]s that are related to phantasms:\n{{Query base passive skills\n|where=passive_skills.stat_text LIKE \"%Phantasm%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Allies]]",
+  "sha256": "8ba5956ba4c93164e39d1c0cd523396af646475b1235120e6e12020649779211"
+}

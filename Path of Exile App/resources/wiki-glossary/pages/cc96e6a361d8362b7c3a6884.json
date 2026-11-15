@@ -1,0 +1,33 @@
+{
+  "title": "Gruthkul's Despair",
+  "pageId": 7712,
+  "revision": 1486309,
+  "timestamp": "2024-10-13T02:16:18Z",
+  "retrieved": "2026-11-14T10:57:27.136500+00:00",
+  "requested": [
+    "Grasping Pincers",
+    "Grasping Tentacles",
+    "Gravekeeper's Boon",
+    "Gravity Well",
+    "Greater Freezing Shrine",
+    "Greater Lightning Shrine",
+    "Greater Skeletal Shrine",
+    "Green Effluent",
+    "Ground Spores",
+    "Gruesome Grafts",
+    "Gruthkul's Despair",
+    "Haemolytic Aura",
+    "Hallucination",
+    "Hare Foot",
+    "Harmony of Purpose",
+    "Haste Aura",
+    "Hatred Aura",
+    "Headhunter",
+    "Healing",
+    "Heart of the Gargoyle"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Gruthkul's Despair\n| type                   = Debuff\n| description            = Gruthkul's Despair consumes you. You are slowed, take more damage and have reduced light radius.\n}}\n'''Gruthkul's Despair''' is a [[debuff]] applied by [[Gruthkul, Mother of Despair]] and [[Erebix, Light's Bane]], its map variant. The debuff reduces [[light radius]], increases all [[damage taken]] by 5%, and reduces [[action speed]] by 2%.<ref name=\"Prohibited Library Debuff\"/> It stacks up to 9 times, once for each 10% life lost by the boss. It is continuously applied while inside the boss arena. \n\n==Trivia==\nThe file name of the debuff icon of '''Gruthkul's Despair''', is \"Despair.dds\" under the folder \"BuffIcons\", while the skill icon of {{il|Despair}} is also named \"Despair.dds\" under the folder \"SkillIcons\". \n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.0.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|<ref name=\"Prohibited Library Debuff\">{{cite web\n| author = Yohsene\n| date = September 26, 2023\n| title = Gruthkul's Despair testing\n| url = https://discord.com/channels/991073626721763429/991092346651287623/1156290627374415953\n| publisher = [[Prohibited Library (community)|Prohibited Library]] <sup>(requires membership to view)</sup>\n| accessdate = September 26, 2023\n}}</ref>\n}}\n[[Category:Debuffs]]",
+  "sha256": "4525f4524584bd74302222ff811b61ef9d86b50138d969eb80ec1990a50edff5"
+}

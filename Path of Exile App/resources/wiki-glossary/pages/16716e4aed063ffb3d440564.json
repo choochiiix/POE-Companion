@@ -1,0 +1,33 @@
+{
+  "title": "Remnant of Corruption",
+  "pageId": 13612,
+  "revision": 1681324,
+  "timestamp": "2026-07-26T22:43:12Z",
+  "retrieved": "2026-11-14T10:57:39.618212+00:00",
+  "requested": [
+    "Ravenous - Eldritch",
+    "Ravenous - Humanoid",
+    "Ravenous - Undead",
+    "Reap",
+    "Reave",
+    "Red Effluent",
+    "Red Team",
+    "Redeemer Shrine Monster",
+    "Redeemer's Shrine",
+    "Redeemer's Storm",
+    "Refining Tempest",
+    "Reflection",
+    "Regenerating Mana",
+    "Rejuvenation",
+    "Rejuvenation Totem Aura",
+    "Remembrance",
+    "Remnant of Corruption",
+    "Replenishing Shrine",
+    "Replica Headhunter",
+    "Replica Kalisa's Grace"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the essence|the debuff|Remnant of Corruption (debuff)}}\n{{historical content|Remnants of Corruption were removed in [[version 3.27.0]]. Existing Remnants of Corruption in the permanent leagues have been converted to [[Vaal Orb]]s}}\n\n{{Item\n|rarity_id                               = normal\n|name                                    = Remnant of Corruption\n|class_id                                = StackableCurrency\n|size_x                                  = 1\n|size_y                                  = 1\n|drop_level                              = 32\n|tags                                    = currency, default\n|metadata_id                             = Metadata/Items/Currency/CurrencyCorruptMonolith\n|stack_size                              = 9\n|description                             = Corrupts the Essences trapping a monster, modifying them unpredictably<br>\n|help_text                               = Right click this item then left click a monster trapped by Essences to corrupt them. Corrupted Essences cannot be modified again.\n|stack_size_currency_tab                 = 10000\n|essence_type                            = 0\n|essence_category                        = Remnant of Corruption\n|essence_monster_modifier_ids            = RemnantOfCorruptionMonsterBuff, RemnantOfCorruptionMonsterAura, RemnantOfCorruptionMonsterStats\n|is_essence                              = True\n|drop_level_maximum                      = 100\n|is_in_game                              = false\n|release_version                         = 2.4.0\n|removal_version                         = 3.27.0\n}}\n\n'''Remnant of Corruption''' is a special type of [[essence]]. Rather than being used to [[craft]] equipment, Remnants of Corruption [[corrupt]] and modify the essences empowering rare monsters trapped in essence crystals.\n\n==Mechanics==\nEssences can be corrupted by using a Remnant of Corruption on an essence monolith ''before'' releasing the imprisoned monster.\n\nThis will result in one of the following outcomes chosen at random:\n\n# Imprisoned monsters are released with no changes to essences.\n# All essence tiers are increased by 1 (e.g. 'Screaming' upgraded to 'Shrieking').\n# Adds an additional essence type.\n# Transform each essence to a random essence type of the same tier in the next group of the same tier (e.g. \"of Fear\" (Group B) transformed to \"of Wrath\" (Group C)). Additional caveats:\n## Note that this outcome can also increase the tier of the essence if the original essence is a lower tier than the minimum tier for the next group. (e.g. Muttering Essence of Fear will upgrade into a Weeping Tier C Essence).\n## {{il|Essence of Hysteria}}, {{il|Essence of Insanity}}, {{il|Essence of Horror}} and {{il|Essence of Delirium}} can only be obtained by corrupting monsters with an essence of group E, which can be remembered using the mnemonic \"Purple MEDS\" (e.g. {{il|Shrieking Essence of Misery}}, {{il|Shrieking Essence of Envy}}, {{il|Shrieking Essence of Dread}}, {{il|Shrieking Essence of Scorn}}). The tier of essence does not matter.\n\nMaps affected by an {{il|Essence Scarab of Stability}} causes corruption results to always upgrade or transform essences.\n\nThe [[Crystal Resonance]] [[Atlas passive skill]] will cause all the essences on the monster to be replaced with one of the essence it had.\n\n==Monster empowering effect==\n[[File:Remnant of Corruption aura.jpg|thumb|An [[Ancient Bonestalker]] with the [[Remnant of Corruption (debuff)|Remnant of Corruption aura]]]]\nA rare monster empowered by Remnant of Corruption uses the [[Remnant of Corruption (debuff)|Remnant of Corruption aura]], which reduces the character's [[movement speed]] and inflicts [[physical]] [[damage over time]]. The monster cannot be [[leech]]ed from. On death, it spawns two [[Fleshmonster]]s.\n\n{{Item acquisition}}\n\n==Gallery==\n<gallery>\nFile:Remnant of Corruption essence crystal.jpg\nFile:Remnant of Corruption essence crystal 2.jpg\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.27.0|\n* {{il|Vaal Orb|Vaal Orbs}} can now be used on monsters trapped in Essences, and will function as Remnants of Corruption did previously. Remnants of Corruption will no longer be obtainable, and existing Remnants of Corruption will be converted to Vaal Orbs.\n}}\n{{Version history table row|2.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "14413a417b7ec4c3ade26464a97502b0efa9cc99f1705c0504055ec7506d910a"
+}

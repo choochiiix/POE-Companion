@@ -1,0 +1,33 @@
+{
+  "title": "Sand of Eternity",
+  "pageId": 14187,
+  "revision": 1489416,
+  "timestamp": "2024-10-13T04:10:16Z",
+  "retrieved": "2026-11-14T10:57:41.957413+00:00",
+  "requested": [
+    "Rumblemarch Life Regen",
+    "Rumi's Concoction",
+    "Runesurge",
+    "Rupture",
+    "Sacred Ashes",
+    "Sacred Infusion",
+    "Sacred Suffering",
+    "Sacrificial Zeal",
+    "Sailors Lantern",
+    "Sand Bladestorm",
+    "Sand Stance",
+    "Sand of Eternity",
+    "Sands of Shakari",
+    "Sandstorm",
+    "Sap of the Seasons",
+    "Sapped Ground",
+    "Sapphire Flask",
+    "Sapping Conflux",
+    "Saqawine Presence",
+    "Scathing Tempest"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Sand of Eternity\n|class_id                                = LabyrinthTrinket\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = That which takes an eternity does not happen.\n|drop_level                              = 1\n|tags                                    = default\n|metadata_id                             = Metadata/Items/QuestItems/Labyrinth/Trinkets/SandOfEternity\n|description                             = The next Idol you hit will no longer regenerate life\n|release_version                         = 2.2.0\n}}\n{{status\n| name                   = Sand of Eternity\n| type                   = Buff\n}}\n'''Sand of Eternity''' is a [[Labyrinth trinket]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.2.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "4d553cede3cc3835c65b580acd5937a890596c3ea897cefc5b2da67eae60d2f6"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Summon Bestial Ursa",
+  "pageId": 16012,
+  "revision": 1698817,
+  "timestamp": "2026-08-03T07:01:11Z",
+  "retrieved": "2026-11-14T10:10:03.371936+00:00",
+  "requested": [
+    "Jewel",
+    "Modifiers",
+    "item quantity",
+    "Mirage",
+    "Item Quantity",
+    "Support gems",
+    "Buff",
+    "Experience",
+    "Helmet",
+    "gems",
+    "Life Flask",
+    "Animate Guardian's Weapon",
+    "Bestial Rhoa",
+    "Bestial Snake",
+    "Bestial Ursa",
+    "Manifest Dancing Dervish",
+    "Spectral Wolf",
+    "Spectral Tiger",
+    "Raise Spiders",
+    "Summon Harbinger of Brutality"
+  ],
+  "aliases": [
+    "Bestial Ursa"
+  ],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=SummonBeastialUrsa}}\n'''Summon Bestial Ursa''' is a [[spell]] that summons an allied [[Ursa]] [[minion]]. The skill is solely available through {{il|page=Yriel's Fostering (Ursa)}}. \n\n==Skill Functions and Interactions==\nThe summoned Bestial Ursa uses a [[Ground Slam]] attack and a [[Skill:DropBearSummonedRallyingCry|Rallying Cry]] skill that grants 25% increased damage and 14.8 mana regeneration per second for 4 seconds, with a 5 second cooldown. Like the other [[bestial minion]]s, the Bestial Ursa's hits cannot be evaded.\n\n==Acquisition==\nSummon Bestial Ursa can only be obtained by equipping {{il|page=Yriel's Fostering (Ursa)}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.9.0|\n* Now immune to damage and cannot be targeted by enemies.\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "f5c6bfafa815ffbc510bc3306af32656d095b0fa4f78ab8e86f760f461fe4a90"
+}

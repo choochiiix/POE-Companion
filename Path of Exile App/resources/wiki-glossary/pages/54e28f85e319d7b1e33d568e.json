@@ -1,0 +1,33 @@
+{
+  "title": "Blitz Charge",
+  "pageId": 2112,
+  "revision": 1544547,
+  "timestamp": "2025-06-17T17:10:16Z",
+  "retrieved": "2026-11-14T10:57:12.677713+00:00",
+  "requested": [
+    "Black Smoke",
+    "Blackflame Aura",
+    "Blackflame Ignite",
+    "Blackflame Wall",
+    "Blade Flurry",
+    "Blade Vortex",
+    "Bladefall of Trarthus",
+    "Bleeding Immunity",
+    "Blessing of the Storm",
+    "Blightreach",
+    "Blitz Charge",
+    "Block Test",
+    "Blood Barrier",
+    "Blood Bladestorm",
+    "Blood Charges",
+    "Blood Cheat",
+    "Blood Drained",
+    "Blood Offering",
+    "Blood Purge",
+    "Blood Rage"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Historical content|[[Blitz]] was removed in [[Version 3.26.0]]}}\n{{status\n| name                   = Blitz Charge\n| type                   = Charge\n| icon                   = Blitz_(Berserker)_passive_skill_icon.png\n}}\n'''Blitz charges''' are [[charge]]s obtained through the [[Berserker]] ascendency.\n\nThey have a duration of 10 seconds which refreshes upon gaining a new blitz charge. All Blitz charges fall off after not gaining a charge for 10 seconds.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n* The [[Blitz]] Ascendancy Passive Skill has been replaced with a new Notable, [[Gore Dancer]], which grants 30% of your Life Leech is Instant. Requires [[Aspect of Carnage]].\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game\n}}\n{{Version history table end}}\n\n[[Category:Charges]]",
+  "sha256": "933ef36463af2f8a5051290ca33c1e0265aed1255b3aa661264cb1c70c6a24ca"
+}

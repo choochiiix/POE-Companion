@@ -1,0 +1,33 @@
+{
+  "title": "Phantasmal Might",
+  "pageId": 12389,
+  "revision": 1700795,
+  "timestamp": "2026-08-16T04:07:05Z",
+  "retrieved": "2026-11-14T10:57:36.431161+00:00",
+  "requested": [
+    "Pestilent Strike Damage",
+    "Phantasmal Might",
+    "Phase Run",
+    "Phase Run Damage",
+    "Phase Running",
+    "Phasing Buff",
+    "Phoenix Fire Bomb",
+    "Phylactery",
+    "Physical Aegis",
+    "Physical Damage Immunity",
+    "Physical Damage Taken Increase",
+    "Physical Damage and Bleed",
+    "Physical Empowered",
+    "Physical Empowerment",
+    "Physical Projectile Retaliation",
+    "Physical Reflection",
+    "Physical Reflection Aura",
+    "Physical Thorns",
+    "Piercing Screech",
+    "Piety Beam"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Phantasmal Might\n| type                   = Buff\n| description            = Your spells deal additional physical damage.\n}}\n\n'''Phantasmal Might''' is a stacking [[buff]] which grants additional [[physical damage]] to [[spell]]s based on the level and number of [[Phantasm]]s the user controls.\n\n==Sources==\n* {{il|The Black Cane}} \n* The Black Cane [[Reliquarian]] passive in [[version 3.29.0]]\n\n==Mechanics==\nThe amount of physical damage added scales with the level of each Phantasm owned. Phantasm level is based on the skill/gem level of the source that summoned it. \n\nWhen {{il|Soulwrest}}'s {{sl|Summon Phantasm}} and {{il|Summon Phantasm Support}} are linked, Phantasms summoned through corpse consumption will inherit the support's maximum Phantasm count and both Summon Phantasm contribute to Phantasmal Might based on the numerical values corresponding to their respective levels. Lv25 from Soulwrest and Lv21 from support gem combine for a total of min 44+48 and max 66+74, granting 92–140 added spell physical damage per summoned Phantasm.(v3.29 Reliquarian only)\n\n:Note: it is not recommended to simultaneously link the Summon Phantasm Support to any non-Summon Phantasm skill that can deal [[damage]] or [[cull]]; if it does, it will activate the support's stat condition and summon a Phantasm based on the support gem, with the maximum minion count and stats limited to what is listed on the support gem.\n\nMultiple sources of the Phantasmal Might buff do not stack.\n\nDue to Phantasms having very low life, it is recommended to use {{psl|Blessed Rebirth}} and/or {{psl|Prolonged Servitude}} to increase their uptime.\n\n===Maximum added damage===\n{| class=\"wikitable\"\n|-\n! Items used !! Max # of<br>Phantasms !! Phantasm<br>Level !! Added damage<br>per Phantasm !! Max total<br>added damage\n|-\n| Level 21 {{il|Summon Phantasm Support}} || 11 || 21 || 44-66 || 484-726\n|-\n| Level 21 {{il|Summon Phantasm Support}} + Level 3 {{il|Congregation Support}} + {{il|The Dark Monarch}} || 30 || 21 || 44-66 || 1320-1980\n|-\n| {{il|Forbidden Shako}} w/ Level 35 {{il|Summon Phantasm Support}} || 13 || 35 || 57-87 || 741-1131\n|-\n| {{il|Forbidden Shako}} w/ Level 35 {{il|Summon Phantasm Support}}<br>+ Level 4 {{il|Congregation Support}} || 18 || 35 || 57-87 || 1026-1566\n|-\n| '''(3.29 [[Reliquarian]] only)'''<br>{{il|Soulwrest}} + Level 21 {{il|Summon Phantasm Support}} + Level 4 {{il|Congregation Support}} + {{il|The Dark Monarch}} || 62 || 25 and 21 || 92-140 || 5704-8680\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Now provides 50% more Added Physical Damage to Spells at all levels of the respective Phantasm source.\n}}\n{{Version history table row|3.9.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Buffs]]",
+  "sha256": "75a79fb4bfa21fab944481fefc0450b08fe34e8d6e008e99f366e7b78c91b9ef"
+}

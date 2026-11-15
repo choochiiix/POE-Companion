@@ -1,0 +1,35 @@
+{
+  "title": "Axe",
+  "pageId": 1535,
+  "revision": 1675302,
+  "timestamp": "2026-07-20T00:59:57Z",
+  "retrieved": "2026-11-14T10:11:16.434600+00:00",
+  "requested": [
+    "Item Rarity",
+    "Wildwood",
+    "Chest",
+    "Blight",
+    "Fishing Rod",
+    "Hiveborn",
+    "Gold",
+    "Tattoo",
+    "Imbalanced Guard",
+    "Moving",
+    "passives",
+    "Movement",
+    "Stationary",
+    "Life reservation",
+    "light radius",
+    "Distance",
+    "distance",
+    "Sapped",
+    "Weapons",
+    "Axes"
+  ],
+  "aliases": [
+    "Axes"
+  ],
+  "missing": false,
+  "wikitext": "'''Axes''' are a one-handed and two-handed melee [[weapon]] class requiring [[strength]] and [[dexterity]] to equip. Most axes have no implicit [[modifier]]s but do have high base [[physical damage]] and moderate [[attack speed]], resulting in overall higher damage per second than [[sword]]s or [[mace]]s.\n\n==Mechanics==\nA list of benefits that only affect axes and [[sword]]s\n*Gems\n**{{il|Lacerate}}\n**{{il|Lancing steel}}\n**{{il|Shattering steel}}\n**{{il|Splitting steel}}\n\n*Support gems\n**{{il|Close combat support}} can only be used with axes and swords.\n\n==One-handed axes==\n{{main|One-handed axe}}\n\n===List of one-handed axe base types===\n{{main|List of one-handed axe base types}}\n\nThere are {{Drop enabled base item count|where=items.class_id=\"One Hand Axe\"}} one-handed axe base types that can drop.\n\n{{Drop enabled base item table\n|where = items.class_id=\"One Hand Axe\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|str=1\n|dex=1\n|stat=1\n}}\n\n===List of unique one-handed axes===\n{{main|List of unique one-handed axes}}\n\nThere are {{Drop enabled unique item count|where=items.class_id=\"One Hand Axe\"}} unique one-handed axes that can drop.\n\n{{Drop enabled unique item table\n|where = items.class_id=\"One Hand Axe\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|str=1\n|dex=1\n|stat=1\n}}\n\n==Two-handed axes==\n{{main|Two-handed axe}}\n\n===List of two-handed axe base types===\n{{main|List of two-handed axe base types}}\n\nThere are {{Drop enabled base item count|where=items.class_id=\"Two Hand Axe\"}} two-handed axe base types that can drop.\n\n{{Drop enabled base item table\n|where = items.class_id=\"Two Hand Axe\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|str=1\n|dex=1\n|stat=1\n}}\n\n===List of unique two-handed axes===\n{{main|List of unique two-handed axes}}\n\nThere are {{Drop enabled unique item count|where=items.class_id=\"Two Hand Axe\"}} unique two-handed axes that can drop.\n\n{{Drop enabled unique item table\n|where = items.class_id=\"Two Hand Axe\"\n|large=1\n|level=1\n|weapon=1\n|dps=1\n|str=1\n|dex=1\n|stat=1\n}}\n\n==Passive skills==\nThere are [[passive skill]]s that grant axe bonuses.\n{{Query base passive skills\n|where=\n  passive_skill_stats.id LIKE \"%axe%\"\n}}\n\n===Masteries===\nThe following [[Passive Mastery|Masteries]] are related to Axes:\n{{Query masteries|where=mastery_groups.id=\"Axe\"}}\n\n==Active attack skill gems==\n{| align=\"center\"\n|+ List of active attack [[skill gems]] that axes can use.\n|-\n| style=\"vertical-align:top;\" | {{Drop enabled gem table by item class|One Hand Axe}}\n| style=\"vertical-align:top;\" | {{Drop enabled gem table by item class|Two Hand Axe}}\n|}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.9.3|\n* Base weapon types now have more appropriate implicit mods to create strong differences between them. Axes do additional damage.\n}}\n{{Version history table end}}\n\n\n{{Navbox Weapons}}\n{{sister|poe2wiki}}\n\n[[Category:Axes| ]]",
+  "sha256": "2f531d1690bc67a4269438b1dd2b90b426d1313e62300f97242c446dba280bf0"
+}

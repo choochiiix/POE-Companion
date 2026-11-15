@@ -1,0 +1,33 @@
+{
+  "title": "Power",
+  "pageId": 122572,
+  "revision": 1546798,
+  "timestamp": "2025-06-20T18:25:22Z",
+  "retrieved": "2026-11-14T10:11:18.157009+00:00",
+  "requested": [
+    "Frost",
+    "Corrosion",
+    "cast time",
+    "stationary",
+    "moving",
+    "Shaper's Presence",
+    "Regenerate",
+    "expire",
+    "debuffs",
+    "lingering blade",
+    "bestial minion",
+    "Critical strikes",
+    "Cold Exposure",
+    "Damage Types",
+    "damage types",
+    "Elemental Hit",
+    "Power",
+    "area damage",
+    "Anointed",
+    "The Searing Exarch"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Power''' is a mechanic used to calculate certain skills and effects, primarily [[Warcry|warcries]].\n\n==Mechanics==\nEnemy [[monster]]s and players have a number of power based on their [[rarity]]. \n\n* {{c|normal|Normal}} enemies have 1 Power.\n* {{c|magic|Magic}} enemies have 5 Power.\n* {{c|rare|Rare}} enemies have 10 Power.\n* {{c|unique|Unique}} enemies have 20 Power.\n* Players have 5 Power.\n\n==Related unique items==\n{{Drop enabled unique item table\n|where= items.stat_text LIKE \"%Power%\" \nAND items.stat_text NOT LIKE \"%Power%Charge%\"\nAND items.name != \"Megalomaniac\"\nAND items.name != \"Malachai's Mark\"\n|large=1\n|base_item=1\n|class=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\n===Passive skills===\nThe following [[passive skill]]s are related to Power:\n{{Query base passive skills\n|where= passive_skills.ID NOT LIKE \"%Atlas%\"\n  AND passive_skills.stat_text LIKE \"%power%\" AND passive_skills.stat_text NOT LIKE \"%power%charge%\"\n}}\n\n===Ascendancy passive skills===\nThe following [[Ascendancy passive skill]]s are related to Power:\n{{Query ascendancy passive skills\n|where=passive_skills.stat_text LIKE \"%power%\" AND passive_skills.stat_text NOT LIKE \"%power%charge%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.11.0|\n* Each [[Warcry]] is enhanced by the proximity of enemies, and for some warcries, [[Ally|allies]] or [[Kill#Corpses|corpses]] too. This is measured as 'Power', with Normal enemies providing 1 Power, Magic enemies providing 2, Rare enemies providing 10, Unique enemies providing 20, and players providing 5. All Warcries also [[taunt]] enemies in range.\n}}\n{{Version history table end}}\n\n[[Category:Game mechanics]]\n{{sister|poe2wiki}}",
+  "sha256": "37bc527d08abd484ab8248e8494380681f62e7142781fb1c7689f2174768a48b"
+}

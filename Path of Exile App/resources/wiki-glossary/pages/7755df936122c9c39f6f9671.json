@@ -1,0 +1,35 @@
+{
+  "title": "Ethereal tendrils",
+  "pageId": 6132,
+  "revision": 1358409,
+  "timestamp": "2023-06-05T12:16:32Z",
+  "retrieved": "2026-11-14T10:57:22.325354+00:00",
+  "requested": [
+    "Enlarging Tempest",
+    "Enrage",
+    "Envy Aura",
+    "Eroding Touch",
+    "Escalating Ruin",
+    "Escalating Vulnerability",
+    "Essence Drain",
+    "Essence Drain Regeneration",
+    "Essence Glutton",
+    "Essence of Anger",
+    "Essence of Hatred",
+    "Essence of Misery",
+    "Essence of Wrath",
+    "Eternal Empire Aura",
+    "Eternal Scourge",
+    "Ethereal Tempest",
+    "Ethereal Tendrils",
+    "Evasion Aura",
+    "Evolving Shrine",
+    "Evolving Shrine Monster"
+  ],
+  "aliases": [
+    "Ethereal Tendrils"
+  ],
+  "missing": false,
+  "wikitext": "{{Status\n|name= Ethereal Tendrils\n|type=Debuff\n|icon= Grasping Vines status icon.png\n|description=You are slowed by ethereal tendrils. Move to break them.\n}}\n'''Ethereal tendrils''' is a stackable [[debuff]]. It has the same status graphic and mechanic as {{stl|Grasping Vines}} but with different in-game status icon description.\n\nIt is applied by [[The Maven]] to aid the map boss in the fight.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "1f3808f35da8f0acd7652778605ea5d2a54ce6c01abe26df564c1b0d768a17bb"
+}

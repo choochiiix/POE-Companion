@@ -1,0 +1,33 @@
+{
+  "title": "Animate Guardian's Weapon",
+  "pageId": 599,
+  "revision": 1659321,
+  "timestamp": "2026-06-21T14:06:25Z",
+  "retrieved": "2026-11-14T10:10:03.367814+00:00",
+  "requested": [
+    "Jewel",
+    "Modifiers",
+    "item quantity",
+    "Mirage",
+    "Item Quantity",
+    "Support gems",
+    "Buff",
+    "Experience",
+    "Helmet",
+    "gems",
+    "Life Flask",
+    "Animate Guardian's Weapon",
+    "Bestial Rhoa",
+    "Bestial Snake",
+    "Bestial Ursa",
+    "Manifest Dancing Dervish",
+    "Spectral Wolf",
+    "Spectral Tiger",
+    "Raise Spiders",
+    "Summon Harbinger of Brutality"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=AnimateGuardiansWeapon}}\n\n'''Animate Guardian's Weapon''' is a [[skill]] granted by the [[unique]] {{il|Chains of Command}}.\n\nDue to the wiki infobox coding, it is malformed. The mod {{c|mod|Trigger this Skill when your Animated Guardian Kills an Enemy}} is for the level 20 version of the skill, while {{c|mod|10% chance to Trigger this Skill when an Animated Weapon Kills an Enemy}} is for the level 18 version.\n\nCompared to {{il|Animate Weapon}}, '''Animate Guardian's Weapon''' does not have the mods {{c|mod|Minions deal #% more Damage}}, {{c|mod|Minions have #% more Attack Speed}} and {{c|mod|Can use Items requiring up to Level #}}. Since it is not a gem (thus cannot have [[quality]]) and cannot animate Lingering Blades, the relevant mods of Animate Weapon are also not present in '''Animate Guardian's Weapon.'''\n==Skill level progression==\n{{Skill progression|id=AnimateGuardiansWeapon\n|c1_abbr              = additional minions'<br>physical attack damage\n  |c1_header          = Minions' Attacks deal x to y additional Physical Damage\n  |c1_pattern_extract = Minions' Attacks deal (%d+) to (%d+) additional Physical Damage\n  |c1_pattern_value   = %d&nbsp;to&nbsp;%d\n|c2_abbr              = Maximum<br>Animated Weapons\n  |c2_header          = +x to Maximum Animated Weapons\n  |c2_pattern_extract = +(%d+%.*%d*) to Maximum Animated Weapons\n  |c2_pattern_value   = %s\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.28.0b|\n* Animate Guardians Weapon now also follows you through area transitions.\n}}\n{{Version history table row|3.28.0|\n* Temporary Minions which follow the player will now persist with you through area transitions from one combat area to another, excluding the hideout or hub areas like Kingsmarch. Buffs or stolen modifiers on these minions will not be carried over. Animate Weapon of Self Reflection specifically is not yet functional with this system, but we are working on a fix there as well.\n}}\n{{Version history table row|3.10.0|\n* Animate Guardian's Weapon have been updated in line with {{il|Animate Weapon}}. The level 18 version of the skill adds 108 to 159 physical damage to the attacks of minions animated by it. This level of the skill can animate up to 13 minions. The level 20 version of the skill adds 126 to 184 physical damage to the attacks of minions animated by it. This level of the skill can animate up to 14 minions. Both have a base duration of 20 seconds. These changes affect all versions of the item.\n}}\n{{Version history table row|3.2.2b|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n==See also==\n* {{sl|Summon Phantasm}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "84698965835e7911630d532cb76f68e0bc63c49b0e942779e146c7e9b6b97589"
+}

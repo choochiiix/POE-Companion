@@ -1,0 +1,33 @@
+{
+  "title": "Her Embrace",
+  "pageId": 8137,
+  "revision": 1347462,
+  "timestamp": "2023-04-09T15:35:14Z",
+  "retrieved": "2026-11-14T10:57:27.907620+00:00",
+  "requested": [
+    "Heartstopper",
+    "Heat",
+    "Her Blessing",
+    "Her Embrace",
+    "Her Mask",
+    "Herald Of Agony",
+    "Herald Of Ash",
+    "Herald Of Ice",
+    "Herald Of The Hive",
+    "Herald Of Thunder",
+    "Herald of Purity",
+    "Heretic's Ire",
+    "Heretical Flare",
+    "Hexing Shrine",
+    "High-Impact Mines",
+    "Hinder Immunity",
+    "Hinekora's Aid",
+    "Hit by Explosive Arrow",
+    "Hit by Infernal Blow",
+    "Hit by Lightning Arrow"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Her Embrace\n| type                   = Buff\n| description =     Cannot be Stunned<br/>123% of Sword Physical Damage gained as Extra Fire Damage<br/>Unaffected by Burning Ground<br/>Immune to Freeze, Chill and Ignite<br/>20% increased Attack, Cast and Movement Speed\n}}\n\n'''Her Embrace''' is a [[buff]] that grants:\n* Cannot be [[Stun]]ned\n* 123% of Sword [[Physical]] Damage gained as Extra [[Fire]] Damage\n* Unaffected by [[Burning Ground]]\n* Immune to [[Freeze]], [[Chill]] and [[Ignite]]\n* 20% increased [[Attack speed|Attack]], [[Cast speed|Cast]] and [[Movement Speed]]\n\n==Sources==\n{{il|Oni-Goroshi}} grants Her Embrace for three seconds when the character [[ignite]]s an enemy, as long as Oni-Goroshi remains equipped. Unequipping Oni-Goroshi or switching to a different weapon will immediately remove Her Embrace.\n==See also==\n* [[Her Blessing]], the debuff from the old version of Oni-Goroshi, {{il|The Goddess Unleashed}}.\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.1.1c|\n* Introduced to the game. {{Undocumented}}\n}}\n{{Version history table end}}\n[[Category:Buffs]]",
+  "sha256": "d166212edfcd070f9a372d145ab53930331011c3204d23ce40a2c6520e23a672"
+}

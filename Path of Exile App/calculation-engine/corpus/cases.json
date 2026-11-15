@@ -1,0 +1,197 @@
+[
+  {
+    "id": "spell-baseline",
+    "skill": "fireball",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": []
+  },
+  {
+    "id": "spell-level20",
+    "skill": "fireball",
+    "gemLevel": 20,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": []
+  },
+  {
+    "id": "spell-resistant-enemy",
+    "skill": "fireball",
+    "gemLevel": 20,
+    "penalty": 0,
+    "resistance": 75,
+    "armour": 0,
+    "evasion": 0,
+    "mods": []
+  },
+  {
+    "id": "spell-negative-resistance",
+    "skill": "fireball",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": -50,
+    "armour": 0,
+    "evasion": 0,
+    "mods": []
+  },
+  {
+    "id": "spell-speed-critical",
+    "skill": "fireball",
+    "gemLevel": 20,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "30% increased Cast Speed",
+      "100% increased Critical Strike Chance",
+      "20% increased Spell Damage"
+    ]
+  },
+  {
+    "id": "defensive-pools",
+    "skill": "fireball",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "+100 to maximum Life",
+      "20% increased maximum Life",
+      "+50 to maximum Mana",
+      "10% increased maximum Mana",
+      "100% increased Armour"
+    ]
+  },
+  {
+    "id": "resistance-overcap",
+    "skill": "fireball",
+    "gemLevel": 1,
+    "penalty": -60,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "+150% to Fire Resistance",
+      "+90% to Cold Resistance",
+      "+30% to Lightning Resistance",
+      "+20% to Chaos Resistance"
+    ]
+  },
+  {
+    "id": "attributes",
+    "skill": "fireball",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "+50 to Strength",
+      "+50 to Dexterity",
+      "+50 to Intelligence"
+    ]
+  },
+  {
+    "id": "attack-baseline",
+    "skill": "attack",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": []
+  },
+  {
+    "id": "attack-evasion",
+    "skill": "attack",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 500,
+    "mods": []
+  },
+  {
+    "id": "attack-speed-crit",
+    "skill": "attack",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "30% increased Attack Speed",
+      "100% increased Critical Strike Chance",
+      "50% increased Physical Damage"
+    ]
+  },
+  {
+    "id": "attack-armour",
+    "skill": "attack",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 100,
+    "evasion": 0,
+    "mods": []
+  },
+  {
+    "id": "attack-conversion",
+    "skill": "attack",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "50% of Physical Damage Converted to Fire Damage"
+    ]
+  },
+  {
+    "id": "attack-gain",
+    "skill": "attack",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "Gain 20% of Physical Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "id": "attack-conversion-scaling",
+    "skill": "attack",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "100% of Physical Damage Converted to Fire Damage",
+      "50% increased Physical Damage",
+      "20% increased Fire Damage"
+    ]
+  },
+  {
+    "id": "attack-conversion-chain",
+    "skill": "attack",
+    "gemLevel": 1,
+    "penalty": 0,
+    "resistance": 0,
+    "armour": 0,
+    "evasion": 0,
+    "mods": [
+      "50% of Physical Damage Converted to Lightning Damage",
+      "50% of Lightning Damage Converted to Cold Damage",
+      "20% increased Cold Damage"
+    ]
+  }
+]

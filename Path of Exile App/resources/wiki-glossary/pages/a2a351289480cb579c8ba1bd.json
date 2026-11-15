@@ -1,0 +1,35 @@
+{
+  "title": "Transfigured skill gem",
+  "pageId": 119611,
+  "revision": 1648608,
+  "timestamp": "2026-05-11T20:18:04Z",
+  "retrieved": "2026-11-14T10:08:33.955674+00:00",
+  "requested": [
+    "Siphoning charge",
+    "Brutal charge",
+    "Absorption charge",
+    "Affliction charge",
+    "Corrupted blood",
+    "Corrupted",
+    "Unmodifiable",
+    "Mirrored",
+    "Split (item modifier)",
+    "Fractured item",
+    "Synthesised item",
+    "Influenced item",
+    "Quality",
+    "Gem quality",
+    "Transfigured gem",
+    "Vaal skill",
+    "Socket",
+    "Link",
+    "Support gem",
+    "Skill gem"
+  ],
+  "aliases": [
+    "Transfigured gem"
+  ],
+  "missing": false,
+  "wikitext": "'''Transfigured skill gems''' are alternate versions of existing [[skill gem]]s, denoted by having \"{{c|gem|of X}}\" as a [[suffix]] that alters its function and balance. While they are technically the same item as their default versions, they can often drastically change the identity of the skill, even changing its [[gem tag]]s and mechanics.\n\n__TOC__\n\n==Overview==\nTransfigured gems that have been corrupted to grant a [[Vaal skill gem|Vaal]] skill will provide the transfigured base skill and Vaal skill. Vaal versions of skills do not have transfigurations.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/3452002#31|title=Path of Exile 2 and Path of Exile: Affliction Recently Asked Questions|date=December 5, 2023|accessdate=December 5, 2023}}</ref>\n\n[[Trigger]] [[cooldown]]s are shared between multiple skills of the same type, which include their regular versions and alternate versions such as transfigured and [[Trarthan gem]]s.\n\nSkill [[microtransaction]]s are compatible with their respective transfigured versions.<ref>{{cite web|url=https://www.pathofexile.com/forum/view-thread/3452002#19|title=Path of Exile 2 and Path of Exile: Affliction Recently Asked Questions|date=December 4, 2023|accessdate=December 4, 2023}}</ref>\n\nWithin [[stash tab]]s, transfigured gems can be searched by searching for \"transfigured\" or any set of characters composing the word, including \"trans\" or \"sfi\".\n\n==Acquisition==\nTransfigured skill gem can be acquired from these sources:\n\n* Using the [[Divine Font]] at the end of the [[Labyrinth]] allows players to obtain transfigured gems with varying degrees of randomness. This is the case for most skill gems.\n* The Fortification [[Syndicate Safehouse]] with [[Tora, the Culler|Tora]] stationed contains a trapped chest that can contain transfigured gems.\n* In [[The Tunnel]] in [[Act 9]], there is an unmarked lever inside the Trial of Ascendancy (around the last third of the gauntlet) that opens a secret room containing a chest that drops a random transfigured gem (once per character).\n\n==List of transfigured skill gems==\n{{main|List of transfigured skill gems}}\n\nThere are {{Drop enabled gem count|where=items.class_id=\"Active Skill Gem\" AND items.base_item_id IS NOT NULL AND items.acquisition_tags HOLDS NOT \"trarthan gem\"}} transfigured skill gems, of which there are {{drop enabled gem count|where = items.class_id=\"Active Skill Gem\" AND items.base_item_id IS NOT NULL AND items.acquisition_tags HOLDS NOT \"trarthan gem\" AND skill_gems.primary_attribute = \"strength\"}} red, {{drop enabled gem count|where = items.class_id=\"Active Skill Gem\" AND items.base_item_id IS NOT NULL AND items.acquisition_tags HOLDS NOT \"trarthan gem\" AND skill_gems.primary_attribute = \"dexterity\"}} green, and {{drop enabled gem count|where = items.class_id=\"Active Skill Gem\" AND items.base_item_id IS NOT NULL AND items.acquisition_tags HOLDS NOT \"trarthan gem\" AND skill_gems.primary_attribute = \"intelligence\"}} blue gems.\n\n{{:List of transfigured skill gems}}\n\n==Version history==\nThe transfigured gem system, introduced in 3.23, replaced three older systems <ref>[https://youtu.be/pE2D4bgTeIQ?t=1653 3.23 Release Video - 27:33 -- Three Systems Replaced by Transfigured Gems]</ref> that enhanced or altered the effects of skills: [[alternate quality]] [[gem]]s, [[labyrinth enchantment|labyrinth helmet enchantments]], and [[Threshold jewel|unique threshold jewels]]. It also took, or took inspiration, from prior league systems, such as 3.21's [[Crucible Passive Tree]] notables. <!-- 12-13-23 -- Is there a reference or example for Crucible [or other league] notables/behaviors appearing in trans gems? Sure, generally GGG mines or brings forward older ideas they liked, but only the three systems first mentioned were discussed in the 3.23 release and subsequent videos.-->\n\n{{Version history table header}}\n{{Version history table row|3.24.2|\n*Transfigured Gems are no longer displayed as results when searching for the base version of a Skill Gem on the Trade Website.\n}}\n{{Version history table row|3.23.0|\n* [[Alternate quality]] [[gem]]s, [[labyrinth enchantment|labyrinth helmet enchantments]] and [[Threshold jewel|unique threshold jewels]] are all systems that were trying to subtly modify the behaviour of [[skill]]s. With this expansion these have been combined into a new system called [[Transfigured Gem]]s that allows us to fully achieve the goal of these three systems, and then some.\n* Transfigured Gems are alternate versions of existing skill gems that have different functionality and balance than their regular versions. We have added many of these, with interesting variations that drastically change how existing skills play.\n* Some existing skill gems have had stats or interactions removed from the base gem and moved to the Transfigured versions to provide more focused support for pre-existing alternate playstyles.\n}}\n{{Version history table end}}\n\n==See also==\n* [[Trarthan gem]]\n\n==References==\n{{reflist}}\n\n{{Navbox Skills}}\n\n[[Category:Skill gems]]",
+  "sha256": "96a0e66ef7b73700f026c7c5cf7343dd5cd9fb48b1acfd31e2cee332fe01623f"
+}

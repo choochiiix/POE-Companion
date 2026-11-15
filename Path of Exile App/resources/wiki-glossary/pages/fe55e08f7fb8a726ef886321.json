@@ -1,0 +1,33 @@
+{
+  "title": "Of Ice",
+  "pageId": 11788,
+  "revision": 1241932,
+  "timestamp": "2022-10-21T16:12:31Z",
+  "retrieved": "2026-11-14T10:11:21.699884+00:00",
+  "requested": [
+    "fireball",
+    "bleed",
+    "decay",
+    "Valour",
+    "Explosion",
+    "Travel",
+    "Attributes",
+    "traps",
+    "mines",
+    "totems",
+    "Spells",
+    "claws",
+    "flying",
+    "Skill Duration",
+    "Envy",
+    "Ghastly Eye Jewel",
+    "of Ice",
+    "Chilling Area",
+    "warcries",
+    "travel"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''of Ice''' may refer to the following mods:\n{{Modifier table\n|q_tables=mod_stats, mod_spawn_weights\n|q_join=mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where=\n  mods.name = \"of Ice\"\n|stat_text=1\n|level=1\n|spawn_weights=1\n|domain=1\n|generation_type =1\n}}\n\n{{Disambiguation}}",
+  "sha256": "632f513d2d45ecf0ce282c4f9da4f8ce425c8f71a26a18b7b2878819c6ef762a"
+}

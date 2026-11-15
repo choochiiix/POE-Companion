@@ -1,0 +1,33 @@
+{
+  "title": "Quicksilver Flask",
+  "pageId": 13257,
+  "revision": 1597918,
+  "timestamp": "2025-12-05T13:50:48Z",
+  "retrieved": "2026-11-14T10:57:38.768468+00:00",
+  "requested": [
+    "Quartz Flask",
+    "Quicksand",
+    "Quicksand ",
+    "Quicksilver Flask",
+    "RED BUFF",
+    "RENAME ME",
+    "Radiant Crusade",
+    "Radiant Crusade's Onslaught",
+    "Radiant Faith",
+    "Radiant Ground",
+    "Radiating Tempest",
+    "Raised Spider",
+    "Rakiata's Leadership",
+    "Rallied",
+    "Rallying Cry",
+    "Rat Tornado",
+    "Rats",
+    "Ravenous - Beast",
+    "Ravenous - Construct",
+    "Ravenous - Demon"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Quicksilver Flask\n|class_id                                = UtilityFlask\n|size_x                                  = 1\n|size_y                                  = 2\n|drop_level                              = 4\n|drop_rarities_ids                       = normal, magic, unique\n|tags                                    = utility_flask, flask, default\n|metadata_id                             = Metadata/Items/Flasks/FlaskUtility6\n|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.\n|required_level                          = 4\n|flask_duration                          = 6\n|buff_id                                 = flask_utility_sprint\n|buff_value1                             = 40\n|buff_stat_text                          = 40% increased [[Movement Speed]]\n|charges_max                             = 60\n|charges_per_use                         = 30\n|release_version                         = 0.10.0\n|quest_reward1_type                      = quest\n|quest_reward1_quest                     = Mercy Mission\n|quest_reward1_quest_id                  = a1q5\n|quest_reward1_act                       = 1\n|quest_reward2_type                      = quest\n|quest_reward2_quest                     = The Great White Beast\n|quest_reward2_quest_id                  = a2q10\n|quest_reward2_act                       = 2\n|recipe1_part1_item_name                 = The Shortcut\n|recipe1_part1_amount                    = 1\n|recipe1_description                     = level 100 {{c|magic|Quicksilver Flask}} {{ml|FlaskBuffMovementSpeedWhileHealing3}}\n}}\n{{status\n| name                   = Quicksilver Flask\n| type                   = Flask Effect\n|description             = You have increased Movement Speed\n}}\n\n'''Quicksilver Flask''' is a [[utility flask]] base type. It can have [[list of utility flask modifiers|utility flask modifiers]] (one prefix and one suffix at most).\n\n==Modifiers==\n{{Main|List of modifiers for utility flasks}}\n\n{{Item unique versions}}\n\n== Usage ==\nQuicksilver Flasks are used in some vendor recipes for increased movement speed on boots:\n\n\n1. For Crafting {{c|magic|Magic}} Boots with {{c|mod|10% increased Movement Speed}}:\n* Combine {{c|normal|Normal}} Boots, Quicksilver Flask, and {{il|Orb of Augmentation}} at a vendor.\n\n2. For Crafting {{c|magic|Magic}} Boots with higher values of movement speed:\n* Combine {{c|magic|Magic}} Boots or {{c|rare|Rare}} with {{c|mod|x% increased Movement Speed}}, Quicksilver Flask, and {{il|Orb of Augmentation}}.\n* This recipe outputs {{c|magic|Magic}} Boots with 5% higher movement speed (and no other modifiers), up to a maximum of 30% ({{ml|MovementVelocity5}}; T2). \n\n{{Item acquisition}}\n\n{{Item skin list}}\n\n==Ruthless mode==\nUtility Flasks cannot gain charges while active in [[Ruthless mode]]. This flask also has a base flask duration of 2.00 seconds instead.\n\n==Gallery==\n<gallery>\nQuicksilver Flask effect.jpg|Quicksilver Flask effect\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.16.0|\n*Now last '''6''' seconds (previously 4).\n}}\n{{Version history table row|3.15.0|\n* No longer a quest reward of {{ql|The Key to Freedom}}\n}}\n{{Version history table row|3.0.0|\n* Now also a quest reward of {{ql|The Key to Freedom}}\n}}\n{{Version history table row|2.2.0|\n* Quicksilver Flasks now last for 4 seconds (down from 5 seconds).\n}}\n{{Version history table row|0.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "cb623f4951697f1adb08f587f08ee666b8890a05d931dada4761d8a1d501ef86"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Snowstorm",
+  "pageId": 119532,
+  "revision": 1444582,
+  "timestamp": "2024-05-11T23:42:58Z",
+  "retrieved": "2026-11-14T10:57:44.401354+00:00",
+  "requested": [
+    "Siphoning Charges",
+    "Siphoning Ring",
+    "Siphoning Trap",
+    "Skeletal Shrine",
+    "Skitterbots",
+    "Slipstream",
+    "Slow",
+    "Slow Aura",
+    "Smite Aura",
+    "Smothered",
+    "Snared",
+    "Snipe",
+    "Sniper's Mark",
+    "Snow Bolt",
+    "Snow Cloak",
+    "Snowstorm",
+    "Soaked to the Bone",
+    "Solaris Shrine",
+    "Somatic Shell",
+    "Soothing Salve"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Passive skill box|{{FULLBASEPAGENAME}}}}\n'''{{FULLBASEPAGENAME}}''' is a [[notable passive skill]]. It can only appear when placing [[cluster jewel]]s into the player character's skill tree.\n\nIt only spawns from a {{il|Large Cluster Jewel}} with the [[enchantment]] {{c|enchanted|Added Small Passive Skills grant: 12% increased Lightning Damage}} or {{c|enchanted|Added Small Passive Skills grant: 12% increased Cold Damage}}.\n==Sources==\n===Mods===\n{{Query spawnable modifiers\n|where=mod_stats.id LIKE \"%snowstorm%\"\n|stat_text=1\n|spawn_weights=1\n|level=1\n| tags=1\n}}\n\n\n===Unique items===\nThe following [[unique item]]s are related to {{FULLBASEPAGENAME}}:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE '%snowstorm%' OR items.name = \"Megalomaniac\"\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* The Cluster Jewel notable Snowstorm now causes you to Gain 8% of Lightning Damage as Extra Cold Damage against Chilled Enemies (previously 10%).\n}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "beea3d1651a4afe698cbf1d14df0e76a8ae7cae32bd0742cdafb397b6b4fa5b7"
+}

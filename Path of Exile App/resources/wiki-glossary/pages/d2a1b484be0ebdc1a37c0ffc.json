@@ -1,0 +1,33 @@
+{
+  "title": "Shield Mastery",
+  "pageId": 86970,
+  "revision": 1605750,
+  "timestamp": "2026-01-17T22:23:24Z",
+  "retrieved": "2026-11-14T10:57:43.565529+00:00",
+  "requested": [
+    "Shadow Surge",
+    "Shaper's Seed",
+    "Sharding Tempest",
+    "Shattered Shield",
+    "Shavronne's Aura",
+    "Shield Mastery",
+    "Shining Tempest",
+    "Shivering Tempest",
+    "Shock Immunity",
+    "Shock Prevention",
+    "Shocking Aura",
+    "Shrill Screech",
+    "Shrink",
+    "Shrinking Tempest",
+    "Shrouded Shrine",
+    "Sigil of Power",
+    "Signalled Prey",
+    "Silver Descry",
+    "Silver Flask",
+    "Singularity"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Mastery infobox|Shield Mastery}}\n\n'''Shield Mastery''' is a [[mastery]].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* The Shield Passive Mastery that causes Counterattacks to have a 50% chance to Debilitate on Hit for 1 second has been replaced with a new Mastery that provides a 30% chance to Avoid being Stunned while holding a Shield.\n}}\n{{Version history table row|3.16.0|\n* Introduced to the game.\n}}\n{{Version history table end}}",
+  "sha256": "1e7c5c5d52d771793f5d1158514e72f41ba5e10cbcedf73837547e5b70ce48cc"
+}

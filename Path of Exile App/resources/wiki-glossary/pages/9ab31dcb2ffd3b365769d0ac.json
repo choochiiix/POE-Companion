@@ -1,0 +1,33 @@
+{
+  "title": "Darkness",
+  "pageId": 4550,
+  "revision": 1578243,
+  "timestamp": "2025-10-24T00:27:11Z",
+  "retrieved": "2026-11-14T10:57:18.315379+00:00",
+  "requested": [
+    "Cruelty",
+    "Crusader Shrine Monster",
+    "Crusader's Shrine",
+    "Crushing Darkness",
+    "Crystalised Fear",
+    "Cube of Absorbtion",
+    "Curse Immunity",
+    "Cursed Flesh",
+    "Cyclone",
+    "Damage Aura",
+    "Damage Reduction Aura",
+    "Dancing Dervish",
+    "Dark Gift",
+    "Dark Pit",
+    "Dark Temptation",
+    "Dark Vortex",
+    "Darkness",
+    "Darktongue's Kiss",
+    "Dead Spectre",
+    "Death Draw"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Darkness\n| type                   = Debuff\n| description            = The darkness is overwhelming, you are dying. Get to the light!\n}}\n\n'''Darkness''' is a stacking [[debuff]] dealing increasingly high [[damage type|darkness]] [[damage over time]]. It occurs in the [[Azurite Mine]] when a character moves outside the [[Delve#Light and Darkness|lit]] areas of the mine. The debuff deals damage equal to 2% of the player's life and energy shield per second,{{Confirm|3.5.0 change}} gaining a stack every 0.25 seconds (maximum 5000 stacks). Stepping into a lit area clears the debuff. \n\n==Mechanics==\nDarkness stacks every 0.25 seconds up to a maximum of 5000 stacks.\nEach stack deals 2% of your eHP per second.{{Confirm|3.5.0 change}} (0.5% at 75% darkness resistance). Without any mitigation or regeneration you will die in darkness at 20 stacks (5 seconds). First second you will miss 5% ehp, then - 18%, 39%, 68% and 105% at the 5 second.\n\nAt 0% darkness resistance if regeneration is applied to Life pool it will produce (1 / 1516) of health degeneration per stack. The cap will be at 1516 darkness stacks with 1 eHP or so.\n\nIf regeneration is applied to energy shield instead, the degen will produce (ES / eHP / 1516) of degen per stack. The cap will be at 1137 stacks with 4 eHP (3 ES) character.\n\n'''Note:''' the current hidden degen mechanic cannot be ''mitigated'' by any % life regen. But (as well as the main Darkness damage) it can be mitigated by reduced damage taken over time modifiers such as [[The Pantheon#Major gods|Arakaali's pantheon]], [[Crafting Bench|crafted]] mod {{c|mod|% reduced Damage taken from Damage Over Time}}, by [[Mind over Matter]] keystone (*1.4) and {{il|Kintsugi}} body armour (*1.35).\n\nIn order to calculate number of stacks which you can handle with your regeneration use formula: \"maximum stacks = (all the mitigations) * regeneration * 50 / eHP \"\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Fixed a bug where Delve darkness damage was not being dealt at some very deep depths. Thanks Steve!\n}}\n{{Version history table row|3.8.2|\n* Fixed a bug where being in a [[Breach (original)|Breach]] created by {{il|Vaal Breach}} removed the '''Darkness''' debuff.\n}}\n{{Version history table row|3.5.0|\n* Slightly reduced the damage dealt by the '''Darkness''' based on player life and energy shield, and added a small amount of flat damage per Darkness stack.\n}}\n{{Version history table row|3.4.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Delve}}\n\n[[Category:Debuffs]]",
+  "sha256": "401cfdeb7dd645650d95215b250e4588665d37ea0cf8d806b79f260fb59c8b86"
+}

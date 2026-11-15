@@ -1,0 +1,33 @@
+{
+  "title": "Burning Blood",
+  "pageId": 2654,
+  "revision": 1682644,
+  "timestamp": "2026-07-26T23:31:45Z",
+  "retrieved": "2026-11-14T10:57:14.332627+00:00",
+  "requested": [
+    "Brain Scrambler",
+    "Branching Affliction",
+    "Brine Charges",
+    "Brittle Conflux",
+    "Brittle Ground",
+    "Brutal Attack",
+    "Brutal Charges",
+    "Brutal Shrine",
+    "Brutality",
+    "Brutally Pinned",
+    "Burning Arrow",
+    "Burning Aura",
+    "Burning Blood",
+    "Burning Bond",
+    "Burning Shrine",
+    "Cannot Be Damaged",
+    "Cannot Die",
+    "Cannot Die Aura",
+    "Carrion Golem",
+    "Cat's Agility"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = normal\n|name                                    = Burning Blood\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = There's a place where up is down, <br>where right is wrong, <br>where pleasure is agony, <br>and where the living wish only for death.\n|drop_level                              = 81\n|tags                                    = jewellery_divination, unique_divination, corrupted_divination, unique_corrupted_divination, unique_jewellery_divination, boss_drop_card, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardBurningBlood\n|stack_size                              = 6\n|description                             = {{c|unique|{{iil|Xoph's Blood}}}}<br>{{c|corrupted|Corrupted}}\n|stack_size_currency_tab                 = 10000\n|release_version                         = 3.7.0\n}}\n\n'''Burning Blood''' is a [[divination card]]. A set of six can be exchanged for a [[corrupted]] {{il|Xoph's Blood}}.\n\n{{Item acquisition}}\n\n==Design attribution==\nBurning Blood was created by supporter [https://www.pathofexile.com/account/view-profile/Ayvo_ Ayvo_].\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.26.0|\n{{Atlas div card|Forge of the Phoenix|Fortress|Lighthouse}} (Tier 13+)\n}}\n{{Version history table row|3.25.0|\n* We've done a big shuffle of which Divination Cards can be found in each Map, which means most Maps drop fewer Divination Cards than before, but don't worry you can now see this information for yourself!\n{{Atlas div card|Ashen Wood|Forge of the Phoenix|Lava Lake|Fortress}} (Tier 13+)\n* Drop level changed from 70 to 81. {{Undocumented}}\n}}\n{{Version history table row|3.7.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "0673f5e5ad02427522a2b4e533a10e01c9b3c1c432cb19d1d4a12493a899afcc"
+}

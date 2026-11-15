@@ -1,0 +1,3 @@
+import {createServer} from 'node:http';
+import {readFile} from 'node:fs/promises';
+createServer(async(req,res)=>{const path=new URL(req.url,'http://localhost').pathname;const name=path==='/'?'index.html':path==='/master.json'?'master.json':null;if(!name){res.writeHead(404);res.end();return}try{const body=await readFile(new URL(name,import.meta.url));res.writeHead(200,{'Content-Type':name.endsWith('.json')?'application/json':'text/html','Cache-Control':'no-store'});res.end(body)}catch{res.writeHead(500);res.end('Local glossary unavailable')}}).listen(4322,'127.0.0.1',()=>console.log('Master glossary: http://127.0.0.1:4322'));

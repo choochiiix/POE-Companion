@@ -1,0 +1,33 @@
+{
+  "title": "Toxic Vines",
+  "pageId": 17880,
+  "revision": 1339583,
+  "timestamp": "2023-01-25T03:28:07Z",
+  "retrieved": "2026-11-14T10:57:49.967907+00:00",
+  "requested": [
+    "Tincture Life Thirst",
+    "Tincture Mana Thievery",
+    "Tincture Mana Thirst",
+    "Tincture Sadism",
+    "Tincture Swiftness",
+    "Topaz Flask",
+    "Torment Touched",
+    "Totem Test",
+    "Tower Imbuement",
+    "Toxic Rain Spore Pod",
+    "Toxic Spines",
+    "Toxic Vines",
+    "Tranquility",
+    "Transmogrifying Tempest",
+    "Trap Test",
+    "Trap, Mine, Totem Damage",
+    "Trapped in cocoon",
+    "Treasure Pile",
+    "Treasure!",
+    "Trialmaster's Tether"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Toxic Vines\n| type                   = Debuff\n| description = {{c|normal|You are slowed and taking chaos damage from vines. Move to break them.}}\n}}\n\n'''Toxic Vines''' is an debuff that is cast during a Foul [[Ritual]].\n\nThis debuff applies a movement impairing affect any time the player is stationary and stacks up to a max of ten times. \n\nIn order to remove the debuff, the player must move around for how many stacks of Toxic Vines that still persist.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.1c|\n* Foul Ritual encounters will now only apply Toxic Vines if you stop moving during the Ritual encounter.\n}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n==See also==\n* {{stl|Grasping Vines}}\n* {{stl|Ethereal Tendrils}}\n* {{stl|Thorned Vines}}\n\n[[Category:Debuffs]]",
+  "sha256": "fe73d0d6aa28e7037eaa8edaf12000a2b150e2da8194e0291382e62ae3ea1de8"
+}

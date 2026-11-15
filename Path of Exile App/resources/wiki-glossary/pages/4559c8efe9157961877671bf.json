@@ -1,0 +1,33 @@
+{
+  "title": "Thirst for Blood",
+  "pageId": 17591,
+  "revision": 1701301,
+  "timestamp": "2026-08-24T15:05:34Z",
+  "retrieved": "2026-11-14T10:57:49.218663+00:00",
+  "requested": [
+    "The Surging Thoughts",
+    "The Throne",
+    "The Torrent's Reclamation",
+    "The Unshattered Will",
+    "The Web",
+    "The Yielding Mortality",
+    "Thirst for Blood",
+    "Thorned Shrine",
+    "Thorned Vines",
+    "Three Faces in the Dark",
+    "Thunder Web",
+    "Thunderous Roar",
+    "Tidal Wave",
+    "Tincture Crush",
+    "Tincture Destruction",
+    "Tincture Elemental Scourging",
+    "Tincture Excruciation",
+    "Tincture Execution",
+    "Tincture Flask Thievery",
+    "Tincture Life Thievery"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|Scourge league's quest|Thirst for Blood (quest)}}\n{{Skill infobox|id=ThirstForBlood}}\n\n'''Thirst for Blood''' is a [[reservation]] [[skill]] granted by {{il|Jack, the Axe}}. It [[Reservation|reserve]]s 10% [[life]] and grants 20% [[more]] damage with [[bleed]]ing. It attaches a beam to nearby bleeding enemies, granting a large amount of flat life [[regeneration]] for each enemy affected by the beam.\n\n==Sources==\n{{il|Jack, the Axe}} grants the Level 20 version of the skill.\n\n==Skill progression==\n{{Skill progression\n|skill_id=ThirstForBlood\n|c1_abbr              = Life regen\n  |c1_header          = Regenerate x Life per second for each affected Enemy\n  |c1_pattern_extract = Regenerate (%d+%.*%d*) Life per second for each affected Enemy\n  |c1_pattern_value   = %s\n|c2_abbr              = Bleed damage\n  |c2_header          = Grants x% more Damage with Bleeding\n  |c2_pattern_extract = Grants (%d+)%% more Damage with Bleeding\n  |c2_pattern_value   = %d%%\n}}\n\n==Version history==\nThe Level 30 version of the skill was granted by the 3.28 version of the [[Reliquarian]] passive skill.\n\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]",
+  "sha256": "697229e3b06f4b5b12cd269c5a617f016ac35f3262d956de8da50a7786d1b257"
+}

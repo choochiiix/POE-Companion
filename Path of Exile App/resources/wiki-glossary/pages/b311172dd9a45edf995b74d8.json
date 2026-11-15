@@ -1,0 +1,33 @@
+{
+  "title": "Ward",
+  "pageId": 19788,
+  "revision": 1650010,
+  "timestamp": "2026-06-04T08:26:32Z",
+  "retrieved": "2026-11-14T10:08:28.095946+00:00",
+  "requested": [
+    "Fire resistance",
+    "Cold resistance",
+    "Lightning resistance",
+    "Chaos resistance",
+    "Maximum resistance",
+    "Exposure",
+    "Penetration",
+    "Movement speed",
+    "Action speed",
+    "Attack speed",
+    "Cast speed",
+    "Cooldown",
+    "Cooldown recovery",
+    "Critical strike",
+    "Critical strike multiplier",
+    "Accuracy",
+    "Evasion",
+    "Armour",
+    "Energy shield",
+    "Ward"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Ward''' is a [[defence]] capable of taking damage from [[hit]]s before [[life]] or [[energy shield]]. It can only be found on item bases and uniques related to [[Expedition]] and [[Kingsmarch]].\n\n==Mechanics==\n{{See also|Receiving damage}}\n\nWard is not a pool that can be depleted partially; it is either unbroken or broken. \n\n'''Ward will break on a single hit.''' \n\nThat is: hit damage that would reach [[energy shield]], [[life]], or [[mana]]. That hit is first taken by your Ward and breaks Ward for a duration. \n\nAny damage left over is taken by your energy shield, life, or mana.<ref name=\"Ward\" />\n\nWard does not break in the following cases:\n* when a hit is prevented (e.g. [[evasion]], [[spell dodge]])\n* when a hit's damage is fully mitigated (e.g. [[immunity]], [[avoidance]], [[block]])\n* when damage is fully taken from another resource first (e.g. an [[Aegis]] buff).\n\nBroken Ward is restored after a set delay, normally 2 seconds, which is modified by {{c|mod|#% faster/slower Restoration of Ward}} modifiers. Taking hits while Ward is broken has no effect on the delay.\n\nWard breaking does not change the amount of Ward a character has; only the protective effect is disabled. As such, things that derive from the amount of Ward a character has, such as {{il|Nightgrip}}, remain the same even while Ward is broken.\n\nWard has no effect against [[damage over time]]. It does not take damage over time, nor can it be broken by it.\n\nWard can still break while using {{il|Dissolution of the Flesh}}: Ward breaks to take damage, necessarily before {{c|mod|Life that would be lost by taking Damage}} can be determined.\n\nAs a type of defence, Ward can be scaled by {{c|mod|% increased (Global) Defences}} from e.g. {{il|Skin of the Loyal}}, the {{Ml|BreachBodyAllDefences1}} prefix on {{il|Grasping Mail}}, or {{il|Summon Stone Golem}}.<ref name=\"Ward\" />\n\nWard ''takes'' damage, it does not [[prevented damage|prevent]] damage. Accordingly, Ward does not affect the magnitude of effects based on [[damage taken]], such as [[recoup]], [[stun]], or non-damaging [[ailment]]s (e.g. {{stl|Freeze}}).<ref>https://www.youtube.com/watch?v=6nDQlhecVgA</ref> It also does not lower the amount of damage counted toward {{il|Cast when Damage Taken Support}}.\n\n==Items==\n===Runic base types===\n{{Main|Runic base type}}\n\n{{Drop enabled base item table\n|where=armours.ward_range_maximum>1\n|large=1\n|level=1\n|wd=1\n}}\n\n===Flask===\n{{Drop enabled base item table\n|where=items.stat_text LIKE \"%Ward%\" AND items.stat_text NOT LIKE \"%Reward%\"\n  AND items.class_id NOT IN (\"Active Skill Gem\", \"Support Skill Gem\")\n|large=1\n|level=1\n|stat=1\n}}\n\n===Unique items===\n===Armours===\n{{main|List of unique armours granting ward}}\n{{:List of unique armours granting ward}}\n===Flasks===\n{{Drop enabled unique item table\n|where=items.base_item = \"Iron Flask\"\n|level=1\n|stat=1\n|large=1\n}}\n\n===Accessories===\n{{Drop enabled unique item table\n|where=items.name=\"Ynda's Stand\"\n|large=1\n|level=1\n|wd=1\n|stat=1\n}}\n\n===Other===\n{{Drop enabled unique item table\n|where=items.name=\"Heroic Tragedy\"\n|large=1\n|level=1\n|wd=1\n|stat=1\n}}\n\n==Related support gems==\n{{Drop enabled gem table\n|tables=skill_gems\n|join=items._pageID=skill_gems._pageID\n|where=items.class_id=\"Support Skill Gem\" AND (items.stat_text LIKE \"%Ward%\")\n}}\n\n==Related passive skills==\n===Bloodline ascendancy skills===\n{{Query passive skills\n|where= passive_skills.id NOT LIKE \"atlas%\"\n  AND passive_skills.stat_text LIKE \"%Ward%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Ward is now instantly restored after 2 seconds (previously 4 seconds).\n}}\n{{Version history table row|3.19.0|\n* Ward is now instantly restored after 4 seconds (previously 5 seconds).\n* Added 5 tiers of a new Suffix modifier that can roll on Ward base types, granting up to 58% faster Restoration of Ward.\n}}\n{{Version history table row|3.15.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Ward\">{{cite web\n |title = Re: Ward as an Overlooked Defensive Mechanic - Precis of the Implications\n |url = https://www.reddit.com/r/PathOfExileBuilds/comments/onn7zg/ward_as_an_overlooked_defensive_mechanic_precis/h5tassk/\n |author = Mark_GGG\n |date = July 19, 2021\n |accessdate = August 3, 2021\n |publisher = Path of Exile subreddit\n}}</ref>\n}}\n\n{{Navbox Expedition}}\n\n[[Category:Game mechanics]]\n\n{{sister|poe2wiki=Runic Ward}}",
+  "sha256": "1db2b12a9da529e0076b197aecb590ebd21ff31a7fe767bd9f73b892eda2c940"
+}

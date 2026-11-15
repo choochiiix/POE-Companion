@@ -1,0 +1,33 @@
+{
+  "title": "Class",
+  "pageId": 3454,
+  "revision": 1619189,
+  "timestamp": "2026-03-01T00:56:35Z",
+  "retrieved": "2026-11-14T10:11:12.081050+00:00",
+  "requested": [
+    "Ghost",
+    "Rhoa",
+    "Snake",
+    "Spider",
+    "Statue",
+    "Zombie",
+    "magic",
+    "explicit",
+    "Abyss jewel",
+    "Rarity",
+    "rarity",
+    "fishing",
+    "ailments",
+    "Crushed",
+    "Call of Steel",
+    "class",
+    "Buff Effect",
+    "event",
+    "race",
+    "ranged"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Class''' may refer to:\n\n* [[Character class]], one of the seven playable classes\n* [[Ascendancy class]], one of nineteen playable subclasses\n* [[Item class]], a system of categorizing items into a set with specific shared features\n\n[[Category:disambiguation pages]]",
+  "sha256": "c93e971f057fd14d7c1516edd9abc95cbb1459ac612c83b8da439bf9c91b5b39"
+}

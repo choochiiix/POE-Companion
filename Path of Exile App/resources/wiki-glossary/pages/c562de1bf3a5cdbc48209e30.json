@@ -1,0 +1,33 @@
+{
+  "title": "Hits can't be evaded",
+  "pageId": 8229,
+  "revision": 1703002,
+  "timestamp": "2026-10-09T19:53:23Z",
+  "retrieved": "2026-11-14T10:11:11.204662+00:00",
+  "requested": [
+    "Discipline",
+    "flasks",
+    "Abyss Jewel",
+    "Unwavering Stance",
+    "Hits can't be evaded",
+    "party",
+    "cast spee",
+    "Monster resistances",
+    "monster category",
+    "Ravenous",
+    "physical damage reduction",
+    "item rarity",
+    "Unique Monsters",
+    "Endurance Charges",
+    "Frenzy Charges",
+    "Power Charges",
+    "Damage reduction",
+    "Unique monsters",
+    "Beast",
+    "Carrion"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Hits can't be evaded''' (and its variations) is a modifier that can be found on [[weapon]]s, [[skill]]s and [[passive skill]]s. It makes [[attack]]s ignore attacker's [[accuracy]] and target's [[evasion]], for an effective 100% chance to [[hit]] a target.\n\nSince accuracy and evasion are ignored, a hit that is rolled [[Critical strike|critical]] will not be checked to determine if the critical is evaded or not.<ref name=\"CritsCantBeEvaded\"/> This means that the modifier is strong for critical builds, which are usually suffering a lot from poor accuracy, through the double chances to hit check.\n\n==Sources==\n===Skill gems===\n{{Query stat related skill gems\n|stat_id_query=%always%hit%\n}}\n\n===Veil mod===\n* [[Vagan, Victory's Herald|Vagan]]'s signature veil mod: {{ml|JunMaster2AlwaysHits1}}\n\n===Unique items===\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%always_hit%\" OR item_stats.id LIKE \"%cannot_be_evaded%\"\n|large=1\n|level=1\n|stat=1\n}}\n\n==Passive skills==\n===Ascendancy passives===\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%cannot%evade%\" \n  OR passive_skill_stats.id LIKE \"%cant%evade%\" \n}}\n===Keystones===\n{{Query keystone passive skills\n|where=\n  passive_skills.stat_text LIKE \"%cannot%evade%\" \n  OR passive_skills.stat_text LIKE \"%can't%evade%\" \n}}\n\n==References==\n{{reflist|refs=\n<ref name=\"CritsCantBeEvaded\">{{cite web|author=Mark_GGG|date=February 18, 2013|title=Reaper's Pursuit: Can enemies still \"evade\" critical strikes?|url=http://www.pathofexile.com/forum/view-thread/155742|publisher=Official Path of Exile Forums|accessdate=June 14, 2014}}</ref>\n}}\n\n[[Category:Modifiers]]",
+  "sha256": "09408cab2bdb08f0d9961684e408e5070665c3fa95e45bb0dca3d86b19daa1e8"
+}

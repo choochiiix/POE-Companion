@@ -1,0 +1,33 @@
+{
+  "title": "Primal Aegis",
+  "pageId": 12845,
+  "revision": 1649363,
+  "timestamp": "2026-05-22T23:39:29Z",
+  "retrieved": "2026-11-14T10:57:37.224612+00:00",
+  "requested": [
+    "Piety's Rage",
+    "Pinned",
+    "Plague",
+    "Plague Bearer",
+    "Plaguebringer",
+    "Players Increased",
+    "Poacher's Mark",
+    "Poison Immunity",
+    "Poisonberry Tincture",
+    "Poisoned Faith",
+    "Poisoned Water",
+    "Polymorphed",
+    "Portal Shredder",
+    "Portent Vapors",
+    "Possession",
+    "Precision Aura",
+    "Preserving Stillness",
+    "Pride",
+    "Primal Aegis",
+    "Primal Malady"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=PrimalAegis}}\n'''Primal Aegis''' is a [[active skill|skill]] granted by the [[Bastion of Elements]] ascendancy passive in the [[Elementalist]] skill tree.\n\n==Mechanic==\n*It's triggered automatically when available, has no duration and does not cost any mana.\n*While the Aegis is active, it takes elemental damage from hits before other resources, such as {{il|Molten Shell}}'s buff, [[energy shield]], or [[life]].<ref>https://www.pathofexile.com/forum/view-thread/3008270</ref> This still counts as damage taken by the player for the purpose of [[recoup]] or {{il|Cast when Damage Taken Support}}. \n*The Aegis will be restored to full if it doesn't take elemental damage from hits for 5s.\n**This delay cannot be interrupted while depleted. \n*Its value is equal to 75 multiplied by number allocated [[notable]]s, including ascendancy notables.\n\n==See also==\n*{{sl|id=FireAegis}}\n*{{Sl|Cold Aegis}}\n*{{sl|Elemental Aegis}}\n*{{sl|Lightning Aegis}}\n*{{sl|id=PhysicalAegis}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.14.0|\n* Primal Aegis now takes 75 Damage per Allocated Notable Passive Skill (previously 100).\n}}\n{{Version history table row|3.13.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Buffs]]",
+  "sha256": "ce5a35765e590d7fb1ceca3e0303fb92abda0e47b82882a2f6ce9745054ccb53"
+}

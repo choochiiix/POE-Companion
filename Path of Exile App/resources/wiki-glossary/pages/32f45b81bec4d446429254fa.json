@@ -1,0 +1,33 @@
+{
+  "title": "Damage effectiveness",
+  "pageId": 4440,
+  "revision": 1660645,
+  "timestamp": "2026-07-08T16:19:11Z",
+  "retrieved": "2026-11-14T10:08:32.308362+00:00",
+  "requested": [
+    "Hit",
+    "Attack",
+    "Spell",
+    "Physical damage",
+    "Fire damage",
+    "Cold damage",
+    "Lightning damage",
+    "Chaos damage",
+    "Elemental damage",
+    "Damage conversion",
+    "Damage taken as",
+    "Added damage",
+    "Damage effectiveness",
+    "Leech",
+    "Life leech",
+    "Mana leech",
+    "Life regeneration",
+    "Mana regeneration",
+    "Energy shield recharge",
+    "Recoup"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Damage effectiveness''' is a property of [[skill]]s that modifies the ''base'' and ''added'' flat damage of [[hit]]s, primarily to prevent skills from benefiting disproportionately from flat damage. Low values of effectiveness are characteristic of skills that have high multipliers in other aspects of their damage application, such as a rapid hit rate or large damage modifiers.\n\n==Mechanics==\nDamage effectiveness exists for both '''base''' damage and '''added''' damage. It does not directly affect {{c|mod|Gain #% of X damage as extra Y damage}}, which is a type of [[conversion]].\n\n===Base damage=== \n'''Base''' damage is generally gained from a [[weapon]] by [[attack]]s, and from the skill gem by [[spell]]s. Attack skills will display their base damage effectiveness at the top of their skill gem as ''Attack Damage: #% of Base''. [[Spell]]s have a base damage effectiveness of 100%, which is not displayed.<ref>https://www.reddit.com/r/pathofexile/comments/fcysw7/how_does_spellslinger_stack_with_piscators_and/fjekwkh/</ref>  \n\n===Added damage=== \n'''Added''' damage is all flat damage that isn't '''base''' damage. It can be gained from a wide variety of sources, from gems and equipment to [[buff|buffs and debuffs]], and even mechanics like [[projectile]]s passing through a {{il|Flame Wall}}. If damage is ''added'', it is modified by added damage effectiveness regardless of the source, including active skills that add damage to their own hits, like {{il|Fire Trap}}'s {{c|mod|added Fire Damage against Burning Enemies}}.<ref>https://www.reddit.com/r/pathofexile/comments/8mi3cu/shower_thought_the_new_elemental_hit_will_have/dzosgcm/?context=1</ref> Similar to base damage effectiveness, if a skill lists no added damage effectiveness, it is 100%.<ref>https://www.reddit.com/r/pathofexile/comments/bww2w8/questions_thread_june_05_2019/eq4mnpj/?context=1</ref>\n\nAdded damage effectiveness for [[attack]]s is usually similar to their base damage effectiveness, though they are not necessarily identical.\n\n==Added damage effectiveness of spells==\n{{Drop enabled gem table\n|tables=skill_stats_per_level\n|join=skill._pageID=skill_stats_per_level._pageID\n|where=\n    items.class_id=\"Active Skill Gem\"\n    AND (\n        skill_gems.gem_tags HOLDS \"Spell\" \n    ) \n    AND skill_stats_per_level.id LIKE \"%spell%base%damage%\"\n|level=yes\n|int=yes\n|dex=yes\n|str=yes\n|dmgeff=yes\n|cast_time=yes\n}}\n\n==Added damage effectiveness of attacks==\n{{Drop enabled gem table\n|where=\n    items.class_id=\"Active Skill Gem\"\n    AND (\n        skill_gems.gem_tags HOLDS \"Attack\" \n    ) \n|int=yes\n|dex=yes\n|str=yes\n|dmgeff=yes\n}}\n\n==History==\n{{Version history table header}}\n{{Version history table row|0.11.1|\n* Melee skills with Damage Effectiveness have been changed to having a \"Deals % of Base Damage\" stat.\n* Spells with Damage Effectiveness no longer have their own damage affected by Damage Effectiveness. Damage values on these skills have been updated to reflect this. \n}}\n{{Version history table end}}\n\n==References==\n{{reflist}}\n\n[[Category:Game mechanics]]",
+  "sha256": "c250a01ec0444ee34b90a722b60f26ce96c54e94705ddace32de8506bbf1205e"
+}

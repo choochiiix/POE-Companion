@@ -1,0 +1,33 @@
+{
+  "title": "Void Gaze",
+  "pageId": 19621,
+  "revision": 1649401,
+  "timestamp": "2026-05-22T23:40:28Z",
+  "retrieved": "2026-11-14T10:57:53.141911+00:00",
+  "requested": [
+    "Void Beacon",
+    "Void Gaze",
+    "Void Lens",
+    "Void Snare",
+    "Voltaxic Burst",
+    "Vomitous Ooze",
+    "Vortex",
+    "Vortex Mine",
+    "Vulnerability",
+    "WIP",
+    "War Banner",
+    "War Bringer",
+    "Warcry Damage to Mana",
+    "Warlord Shrine Monster",
+    "Warlord's Mark",
+    "Warlord's Shrine",
+    "Warm Campfire",
+    "Wasting Touch",
+    "Webbed",
+    "Weeping Black"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=VoidGaze}}\n\n'''Void Gaze''' is a [[skill]] granted by the [[unique]] {{il|Eber's Unification}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.5.0|\n*Now reduces enemy Chaos resistance by 20%, has a base Range of 39, up from 26 and now correctly scales its effect to the range.\n*It now lasts 10 seconds (up from 2.5 Seconds), and has a cooldown of 2 Seconds (from 3 seconds).\n}}\n{{Version history table row|3.0.0|\n* Introduced to the game. \n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n[[Category:Active Skill]]\n[[Category:Spell (gem tag)]]\n[[Category:Duration (gem tag)]]\n[[Category:Trigger (gem tag)]]",
+  "sha256": "8cf5839cfcc39c7baa905b0d0b78ed953b6417256099624c6b08eb7b6ecb55e8"
+}

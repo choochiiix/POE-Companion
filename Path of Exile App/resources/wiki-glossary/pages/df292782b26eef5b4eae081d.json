@@ -1,0 +1,33 @@
+{
+  "title": "Loss",
+  "pageId": 122232,
+  "revision": 1674468,
+  "timestamp": "2026-07-18T21:35:39Z",
+  "retrieved": "2026-11-14T10:09:59.084602+00:00",
+  "requested": [
+    "Low Mana",
+    "loss",
+    "modifiers",
+    "mana cost",
+    "support gems",
+    "mana reservation",
+    "buffs",
+    "auras",
+    "curses",
+    "Mana Burn",
+    "Mana Flask",
+    "Mana Gained on Kill",
+    "Portal",
+    "town",
+    "Body Armour",
+    "Helmets",
+    "Gloves",
+    "Boots",
+    "Mana reservation",
+    "fire"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "Loss is a catch-all term for negative changes to resources, primarily [[life]], [[mana]], and [[energy shield]]. It can be considered the opposite of [[recovery]]. \n\n==Mechanics== \nLoss is fundamentally not limited to specific mechanics. It is not necessarily caused by [[damage]], and damage does not necessarily cause loss (e.g. [[Ward]], {{il|Dissolution of the Flesh}}). \n\n: Examples of non-damage loss: \n* Resources spent to pay a [[cost]]\n* [[Reservation]] (if maximum is lowered below current) \n* Over-time loss from {{il|Petrified Blood}} or {{il|Progenesis}}\n* {{c|mod|Removes 15% of Mana Recovered from Life when used}} mana flasks \n* Sacrificing with {{il|Dark Bargain}} or {{il|Rathpith Globe}} \n* Spending a resource for an effect like [[Arcane Cloak]] \n* {{il|Temporal Rift}} (if it rewinds a resource to a lower value) \n* Mana Burn/Weeping Wounds from [[tincture]]s\n* Inherent [[Rage]] loss \n\nLoss from non-damage sources does not [[hit]], cannot be modified by defensive stats, and does not interrupt [[Energy shield|recharge]].<ref>https://www.reddit.com/r/pathofexile/comments/mnojoj/because_life_is_just_spicy_mana/gu7jkek/?context=1</ref> \n\nWhile certain loss mechanics will always leave players with a minimum of 1 life (e.g. sacrificing, tinctures with Bloodsoaked Blade), loss does not need to originate from damage to kill the player. \n\nLoss determines whether a hit is [[savage hit|savage]].<ref>https://www.reddit.com/r/pathofexile/comments/qaerbj/it_will_be_extremely_easy_to_become_immune_to/hh2t1ce/?context=1</ref> \n\nOver-time loss is tracked partially. It's possible to lose 1 life over a duration.<ref>https://www.reddit.com/r/pathofexile/comments/dix4nc/bug_berserker_dies_with_rite_of_ruin_ascendancy/f3ztnys/?context=2</ref> While this can be displayed by the player's life globe, it cannot make a 1/1 life player count as [[low life]].<ref>https://www.youtube.com/watch?v=kQHpteqyPFc</ref> \n\n===Interactions with recovery===\nRecovery and loss are normally distinct modifications.<ref>https://www.reddit.com/r/pathofexile/comments/xf8397/this_interaction_does_not_make_sense_why/ip0fhbd/</ref> When the same event causes both loss and recovery, they are not totalled and applied together; they modify your resources individually, in an order appropriate for the effects involved. (Except {{sl|id=GluttonyOfElements}}.)<ref>https://www.reddit.com/r/pathofexile/comments/qaerbj/it_will_be_extremely_easy_to_become_immune_to/hh2sl0s/?context=1</ref> Modifiers that prevent or disable recovery do not affect loss.\n\nWhen over-time loss and over-time recovery occur together, loss is always handled second.<ref>https://www.pathofexile.com/forum/view-thread/1676002/filter-account-type/staff/page/4#p14699897</ref>\n* Resources ''count'' as [[Full Life|Full]] if they recovered to full at the start of a server frame, even if some of that resource is immediately lost afterward.<ref>https://www.reddit.com/r/pathofexile/comments/8gts4s/bug_why_does_rf_reduce_my_effective_max_life_by_a/dyepyhb/</ref><ref>https://www.pathofexile.com/forum/view-thread/1676002/filter-account-type/staff/page/5#p15196665</ref>  \n** A 1000 life player with 1000 over-time recovery and 800 over-time life loss (in one server frame) will effectively start every server frame with 200 life remaining. They will count as [[full life]] for relevant stats, and be on [[low life]] in practice. If loss per frame ''exceeds'' maximum life, the player will die, regardless of recovery.<ref>https://www.youtube.com/watch?v=D2hJ1E6RfZo</ref> \n* Players using {{il|Petrified Blood}} do not count as leaving [[Low Life]] if over-time recovery causes them to leave low life, and over-time loss causes them to immediately return to it.<ref>https://www.youtube.com/watch?v=ozjvdsT3r80</ref>\n\n==References==\n\n[[Category:Game mechanics]]",
+  "sha256": "19a7f58f343e3973237b5a2d0e7e8bda4e39af53d7128c95455d7512ac0ed5c4"
+}

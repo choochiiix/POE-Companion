@@ -1,0 +1,35 @@
+{
+  "title": "The Eldritch Decay",
+  "pageId": 16832,
+  "revision": 1682693,
+  "timestamp": "2026-07-26T23:32:53Z",
+  "retrieved": "2026-11-14T10:57:20.721182+00:00",
+  "requested": [
+    "Draugurflame",
+    "Draugurflame Burn",
+    "Dread Banner",
+    "Drought",
+    "Drowning",
+    "Drowning Domain",
+    "Duration Test",
+    "Dying Breath",
+    "Dying Sun",
+    "Earth Drinker",
+    "Ebon Affliction",
+    "Echoing Tempest",
+    "Effigy",
+    "Eldritch Decay",
+    "Eldritch Empowerment",
+    "Electrified Ground Trap",
+    "Electrifying Bond",
+    "Electrifying Gaze",
+    "Electrifying Sight",
+    "Elemental Aegis"
+  ],
+  "aliases": [
+    "Eldritch Decay"
+  ],
+  "missing": false,
+  "wikitext": "{{About|the divination card|the quest|The Eldritch Decay (quest)}}\n{{Redirect|Eldritch decay|the ground effect|eldritch decay (ground effect)}}\n\n{{Item\n|rarity_id                               = normal\n|name                                    = The Eldritch Decay\n|class_id                                = DivinationCard\n|size_x                                  = 1\n|size_y                                  = 1\n|flavour_text                            = Time dismantles all things eventually, but some wish to accelerate the process.\n|drop_level                              = 81\n|tags                                    = shaper_divination, elder_divination, boss_drop_card, divination_card, default\n|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheEldritchDecay\n|stack_size                              = 4\n|description                             = {{c|white|Uber Elder Fragment}}\n|stack_size_currency_tab                 = 10000\n|drop_monsters                           = Metadata/Monsters/AtlasBosses/TheElder/ElderGuardian1, Metadata/Monsters/AtlasBosses/TheElder/ElderGuardian2, Metadata/Monsters/AtlasBosses/TheElder/ElderGuardian3, Metadata/Monsters/AtlasBosses/TheElder/ElderGuardian4_\n|is_drop_restricted                      = true\n|release_version                         = 3.10.0\n}}\n\n'''The Eldritch Decay''' is a [[divination card]]. A set of four can be exchanged for a random [[Uber Elder fragment]].\n\n{{Item acquisition}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Items}}",
+  "sha256": "6d76503c84e123ec2e032432839cc93504dccde500ef5b0eb07a89b238d7c060"
+}

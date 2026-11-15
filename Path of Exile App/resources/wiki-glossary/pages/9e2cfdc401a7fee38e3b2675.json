@@ -1,0 +1,33 @@
+{
+  "title": "Garb of the Ephemeral",
+  "pageId": 7065,
+  "revision": 1675562,
+  "timestamp": "2026-07-20T13:27:11Z",
+  "retrieved": "2026-11-14T10:57:25.576080+00:00",
+  "requested": [
+    "Frenzied",
+    "Fright Mask",
+    "Frigid Beam",
+    "Frigid Roar",
+    "Frontal Proximity Shield",
+    "Frost Bomb",
+    "Frost Nova",
+    "Frost Shield",
+    "Frostbite",
+    "Frozen Damage Increase",
+    "Frozen Ground",
+    "Fulgurite Tincture",
+    "GREEN BUFF",
+    "Gale Force",
+    "Galvanic Field",
+    "Galvanic Flare",
+    "Galvanizing Tempest",
+    "Gambler's Greed",
+    "Garb of the Ephemeral",
+    "Garukhan's Sandstorm"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{for|the legacy, fractured version|Garb of the Ephemeral (Fractured)}}\n{{Item\n|is_synthesised                          = true\n|rarity_id                               = unique\n|name                                    = Garb of the Ephemeral\n|class_id                                = Body Armour\n|base_item                               = Savant's Robe\n|implicit1_text                          = <1 to 3 random synthesised implicit modifiers>\n|explicit1                               = LocalIncreasedEnergyShieldPercentUnique__24\n|explicit2                               = StrengthIntelligenceRequirementsUnique__1\n|explicit3                               = DivineChargeOnHitUnique__1_\n|explicit4                               = GainDivinityOnMaxDivineChargeUnique__1\n|explicit5                               = NearbyAlliesCannotBeSlowedUnique__1\n|explicit6                               = NearbyEnemiesCannotCritUnique__1\n|flavour_text                            = Exceptional men and women of strong will can flicker a spark,<br>but something much greater is needed to unleash the wildfire of true divine flames.\n|release_version                         = 3.6.0\n|drop_monsters                           = Metadata/Monsters/LeagueSynthesis/SynthesisVenariusBoss\n|acquisition_tags                        = Synthesis\n}}\n\n'''Garb of the Ephemeral''' is a [[synthesised]] [[unique]] {{il|Savant's Robe}}. It always drops with one to three random [[synthesised implicit modifier]]s.\n\n==Mechanics==\n{{c|mod|Nearby Allies' Action Speed cannot be modified to below Base Value}}: [[Allies]] within 5 metres of the character cannot have their [[action speed]] modified to below base value.\n\n{{c|mod|Nearby Enemies cannot deal Critical Strikes}}: Enemies within 6 metres of the character cannot deal [[critical strike]]s.\n\n===Divinity===\n{{stl|Divinity}}: {{c|help|You are larger, deal more Elemental Damage, take less Elemental Damage and are immune to Curses.}}\n\nDivinity is a [[buff]] that is granted upon reaching 10 Divine Charges. The buff grants 75% more Elemental Damage, 25% less Elemental Damage taken, and Immune to Curses, and lasts 10 seconds.\n\n===Divine Charge===\n[[Divine Charge]] - You do not gain Divine Charges while Divinity is active on you. You can gain maximum of 1 charge per second. Once the maximum number of divine charges is gained, Divinity is granted for 10 seconds. Divine charges cannot be gained during Divinity. Garb of the Ephemeral is the only source of divine charges.\n\n{{Item acquisition}}\n\n==Gallery==\n<gallery>\nFile:Garb of the Ephemeral 3D.png|3D\n</gallery>\n\n==Version history==\nDuring [[Synthesis league]], Garb of the Ephemeral dropped as a [[fractured item]] from the [[Venarius]] boss encounter in the [[Cortex]] distant memory. A synthesised Garb of the Ephemeral could be created using the [[Synthesiser]].\n\n{{Version history table header}}\n{{Version history table row|3.29.0|\n* Non-Unique Synthesised Items can no longer be obtained, except through Corrupting Synthesis Unique Items to be Rare items.\n* The [[Beastcrafting|Bestiary Craft]] to Reroll a Synthesis Implicit Modifier on an item can now only be applied to Unique items.\n}}\n{{Version history table row|3.26.0|\n* The {{stl|Divinity}} Buff granted by the Garb of the Ephemeral Unique Body Armour now grants 75% more Elemental Damage (previously 50%) and 25% less Elemental Damage taken (previously 20%).\n}}\n{{Version history table row|3.23.0d|rel=before|\n* Synthesised unique items now return a synthesised copy with a random synthesised implicit instead of a non-synthesised version when vendored using the 3-to-1 [[vendor recipe]]. {{Undocumented}}\n}}\n{{Version history table row|3.14.0|\n* A Garb of the Ephemeral created using the newly introduced 3-to-1 vendor recipe will not have any synthesised implicit modifiers. {{Undocumented}}\n}}\n{{Version history table row|3.8.0|\n* If you're lucky, [[Zana]] will now offer 5 new unique maps as part of her missions. Each map contains a boss encounter originally from the Synthesis league, and each can drop unique items originally exclusive to that league. Note, you cannot obtain Fractured items, nor will you have any access to the Synthesiser.\n** Garb of the Ephemeral drops as a synthesised item from the Venarius boss encounter in the {{il|Cortex}} map. {{Undocumented}}\n}}\n{{Version history table row|3.6.6c|\n* With the end of Synthesis league, this item is drop disabled. Synthesis league mechanics were not added to the core game. {{Undocumented}}\n}}\n{{Version history table row|3.6.3d|\n* Added 3D Art for Garb of the Ephemeral.\n}}\n{{Version history table row|3.6.0|\n* Introduced to the game in Synthesis league.\n}}\n{{Version history table end}}\n\n{{Navbox Unique Items}}\n\n[[Category:Unique body armours with 3D art]]",
+  "sha256": "6894b70cc0e863523f35231fafd97776113a0020b0d3e864ee440cd3d00efaf8"
+}

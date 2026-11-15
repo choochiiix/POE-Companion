@@ -1,0 +1,33 @@
+{
+  "title": "Savage hit",
+  "pageId": 14237,
+  "revision": 1703095,
+  "timestamp": "2026-10-13T21:03:40Z",
+  "retrieved": "2026-11-14T10:11:24.425361+00:00",
+  "requested": [
+    "corrupted item",
+    "unique monsters",
+    "Impact",
+    "Overwhelm",
+    "savage hit",
+    "Will of the Lords",
+    "jewel socket",
+    "Skeleton archer",
+    "marauder",
+    "one-handed",
+    "flask charge",
+    "shatter",
+    "Rain of Arrows",
+    "Frozen",
+    "ignited",
+    "shocked",
+    "scorched",
+    "sapped",
+    "burn",
+    "Assassin"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "'''Savage Hit''' is a [[keyword]] that refers to [[hit]]s that remove at least 15% of the target's maximum [[life]]. \n\n==Mechanics==\nSavage Hits are determined purely by ''life'' [[loss]], not by [[damage taken]].<ref name=\"Chaos Inoculation\" /> The following do not count toward the Savage Hit threshold:\n* Loss of resources other than life (e.g. {{il|Steelskin}}, [[energy shield]], [[mana]], [[ward]])\n* Prevented life loss (e.g. {{il|Petrified Blood}})<ref>https://www.reddit.com/r/pathofexile/comments/mcqir3/314_league_info_megathread/gu7i5v0/?context=8</ref>\n* {{il|Dissolution of the Flesh}}'s life [[reservation]] above current life\n\n==Related unique items==\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=item_stats.id LIKE \"%savage%\"\n |large=1\n |level=1\n |stat=1\n}}\n\n==Related modifiers==\n===Flask mods===\n{{Query spawnable modifiers\n|where=mods.domain=1 AND mod_stats.id LIKE \"%savage%\" \n|spawn_weights=1\n|generation_type=1\n}}\n\n==Related passive skills==\n{{Query passive skills\n|where=passive_skill_stats.id LIKE \"%savage%\"\n}}\n\n==Related skill gems==\n{{Drop enabled gem table\n|tables=skill_gems\n|join=items._pageID=skill_gems._pageID\n|where=items.class_id=\"Active Skill Gem\" AND (items.stat_text LIKE \"%Savage hit%\")\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|2.3.0|\n* Savage Hit removed life threshold decreased from 20% to 15%. \n}}\n{{Version history table row|2.2.0|\n* Added to the game.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Chaos Inoculation\">{{cite web|author=Mark_GGG|date=March 1, 2016|title=Savage Hit and Chaos Inoculation|url=https://www.pathofexile.com/forum/view-thread/1595023#p12916860|publisher=Path of Exile|accessdate=March 1, 2016}}</ref>\n}}\n\n[[Category:Keywords]]\n{{sister|poe2wiki=Savage Hit}}",
+  "sha256": "6fd06e7c6da9eeba8400893b5f20177dfcdf9e1ffd16067f0f1ced3d0b70518e"
+}

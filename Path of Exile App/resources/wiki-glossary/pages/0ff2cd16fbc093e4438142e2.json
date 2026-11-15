@@ -1,0 +1,33 @@
+{
+  "title": "Profane ground",
+  "pageId": 12999,
+  "revision": 1619517,
+  "timestamp": "2026-03-01T13:58:15Z",
+  "retrieved": "2026-11-14T10:11:12.978882+00:00",
+  "requested": [
+    "weapons",
+    "dual wield",
+    "sceptre",
+    "implicit",
+    "Crucible Passive Skill Tree",
+    "Flying",
+    "Summon Raging Spirit",
+    "Caustic ground",
+    "Scorched ground",
+    "Profane ground",
+    "Fungal ground",
+    "Brine ground",
+    "Smoke cloud",
+    "normal",
+    "Foulborn unique item",
+    "level",
+    "Evasion Rating",
+    "Battlemage",
+    "Quivers",
+    "Shields"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n|name                    = Profane Ground\n|type                    = Debuff\n|description             = You are on an enemy's Profane Ground, increasing the effect of Curses on you and making you easier to critically hit.\n}}\n\n'''Profane ground''' is a detrimental [[ground effect]] that applies 100% increased [[critical strike]] chance and 10% increased [[curse]] effect against enemies standing on the ground.\n\n==Related unique items==\nThe following [[unique item]]s are related to Profane Ground:\n{{Drop enabled unique item table\n|tables=item_stats\n|join=items._pageID=item_stats._pageID\n|where=items.stat_text LIKE \"%Profane Ground%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n\n==Related passive skills==\nThe table below displays [[passive skills]] related to profane ground.\n\n===Bloodline Ascendancy passive skills===\n{{Query passive skills\n|where=\n  passive_skill_stats.id LIKE \"%profane%\" AND passive_skills.id LIKE \"%AlternateAscendancy%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* Hits against Enemies on Profane Ground have 100% increased Critical Strike Chance, and Curses have 10% increased Effect on them (previously Enemies had -10% to all Resistances, and Hits against them had 100% increased Critical Strike Chance).\n}}\n{{Version history table row|3.21.0|\n* Fixed an issue where the reminder text for Profane Ground incorrectly stated hits against enemies have +1% to Critical Strike Chance, when it is really 100% increased Critical Strike Chance. This is not a functional change.\n}}\n{{Version history table row|3.11.0|\n* Introduced to the game: {{il|Broken Faith}} now causes you to create Profane Ground instead of Consecrated Ground.\n}}\n{{Version history table end}}\n\n==See also==\n* {{stl|Consecrated Ground}}\n\n==References==\n{{Reflist}}\n\n[[Category:Ground effects]]",
+  "sha256": "0e59b4128df62b0840bec1f0468959cd10245e3164417834d639197b15121a27"
+}

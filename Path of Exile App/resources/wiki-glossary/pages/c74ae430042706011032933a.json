@@ -1,0 +1,33 @@
+{
+  "title": "Temporal Interference",
+  "pageId": 133338,
+  "revision": 1705695,
+  "timestamp": "2026-11-13T13:14:38Z",
+  "retrieved": "2026-11-14T10:57:47.572158+00:00",
+  "requested": [
+    "Tainted Power Charges",
+    "Tarred Ground",
+    "Tasalio's Blessing",
+    "Taste of Blood",
+    "Taste of Hate",
+    "Taunted",
+    "Tawhanuku's Leadership",
+    "Tawhoa's Remedies",
+    "Tears of Rot",
+    "Tempest Shield",
+    "Temporal Anomaly",
+    "Temporal Bubble",
+    "Temporal Interference",
+    "Tenacious Vigor",
+    "Tender Embrace",
+    "Test",
+    "The Basics",
+    "The Battle Within",
+    "The Beast",
+    "The Betrayal"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Temporal Interference\n| type                   = Temporal\n| description            = Pausing is disabled.\n}}\n\n'''Temporal Interference''' is a [[debuff]] that prevents you from [[Pause|pausing]] the game.\n\n==Sources==\nUsually you get this debuff when you are against a [[Pinnacle Boss]].\n* [[The Shaper]] \n* [[The Elder]]\n* [[Uber Elder]]\n* [[Venarius]]\n* [[Sirus, Awakener of Worlds]] \n* [[The Maven]]\n* [[The Searing Exarch]]\n* [[The Eater of Worlds]]\n* [[The Black Star]]\n* [[The Infinite Hunger]]\n* [[Incarnation of Dread]]\n* [[Incarnation of Fear]]\n* [[Incarnation of Neglect]]\n* [[Uber Shaper]] \n* [[Uber Uber Elder]] \n* [[Uber Venarius]]\n* [[Uber Sirus]] \n* [[Uber Maven]]\n* [[Uber Exarch]]\n* [[Uber Eater]]\n* [[Uber Neglect]]\n* [[Uber Fear]]\n* [[Uber Dread]]\n\nOther bosses or encounters with Temporal Interference include:\n\n* Any [[Maven's Invitation]]\n* [[Atziri, Queen of the Vaal]]\n* [[Admiral Valerius]]\n* [[The Black Knight]]\n* [[Sasan, the Bandit Lord]]\n* [[It That Was Tul]] and [[It That Was Esh]]\n* [[Saresh, of the Weeping Black]]\n* [[Zorath, Vile Assembled]]\n* [[Velka, the Tide Witch]]\n* [[The Coven Queen]]\n\n[[Category:Debuffs]]",
+  "sha256": "f92145c9091503405bb9e5df989207f403a11e0e8d60c29692749a40a46ac342"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Far Shot",
+  "pageId": 6376,
+  "revision": 1702988,
+  "timestamp": "2026-10-07T22:58:44Z",
+  "retrieved": "2026-11-14T10:11:20.796858+00:00",
+  "requested": [
+    "Ballista Totem",
+    "fortification",
+    "petrified",
+    "of Lightning",
+    "avoid",
+    "Crimson Dance",
+    "Acrobatics",
+    "Sacrifice of Blood",
+    "rune",
+    "Energy Blade",
+    "Temporal Rift",
+    "Tornado",
+    "Runic",
+    "Alva",
+    "Port",
+    "Flasks",
+    "Far Shot",
+    "Race",
+    "pierces",
+    "Kineticism"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{About|the keyword|the ascendancy passive skill|Far Shot (ascendancy passive skill)}}\n\n'''Far Shot''' is a [[keyword]] that scales the [[damage]] of [[projectile]] [[attack]]s with respect to the [[distance]] the projectile has travelled, reducing damage initially then increasing damage after covering a long distance.\n\nIt can be found as a [[modifier]] on various items. The {{c|mod|Far Shot}} modifier grants {{c|help text|Projectile Attack Hits deal 20% less Damage to targets at the start of their movement, dealing up to 60% more Damage to targets as the projectile travels farther}}.\n\nMonsters also have a variation of Far Shot which scales differently.\n\n==Mechanics==\nThe projectile has a maximum damage penalty of 20% less near the start of travel (up to 10 units), then linearly scales to a maximum damage increase of 60% more at 70 units.<ref>https://discord.com/channels/174993814845521922/174994219390337024/986425582579490906</ref>\n\nIt is important to note that damage scaling is done with respect to the total distance the projectile has travelled, not its current distance from the point of origin.<ref name=\"DistanceCalc\" /> If the projectile changes direction—as is the case with {{il|Spectral Throw}}—distance travelled continues to increase as the projectile returns to its point of origin.  Projectiles that travel in multiple segments (such as [[Arrow Nova Support]]) include the payload distance in the damage penalty.<ref>https://www.pathofexile.com/forum/view-thread/2688019/page/1#p22595920</ref> \n<section begin=data />{{#vardefine:FS0|0.8}} {{#vardefine:FS10|0.8}} {{#vardefine:FS25|1.0}} {{#vardefine:FS70|1.6}}<section end=data />\n{| class=\"wikitable\"\n|-\n! Distance !! Multiplier\n|-\n| 0   || {{#var:FS0}} \n|-\n| 10  || {{#var:FS10}} \n|-\n| 25  || {{#var:FS25}} \n|-\n| 70+ || {{#var:FS70}} \n|}\n\nSee also the mechanically similar [[Point Blank]]. \n\n==Interactions==\n===Attacks only===\nThe Far Shot effect only works with [[attack]] projectiles. This includes projectile portions of melee weapon attacks such as {{il|Lightning Strike}}'s and {{il|Molten Strike}}'s projectiles. It does not affect spells.\n\n===Fork, pierce and chain===\nA projectile which pierces, chains or forks is still considered the same projectile, and its total travel distance is used.\n\n===Point Blank===\n{{#lst:Point Blank|data}}\n[[Point Blank]] and [[Far Shot]] are multiplicative with each other and can make damage more consistent by counteracting each other's damage penalties.\n\n[[File:PB+FS Interaction2.png|none|thumb|906x906px|The Purple Graph shows the damage scaling Interaction between Point Blank and Far Shot.]]\n\n===Projectile speed===\nProjectile speed has no impact on the distances at which Far Shot's multiplier affects damage.\n\n===Longshot===\n{{psl|Longshot}} functions similar to Far Shot, but has a smaller distance range 3.5-7 meters (35-70 units), has no negative scaling, and instead grants increased Damage instead of more Damage.\n\n[[Deadeye]]'s [[Far Shot (Ascendancy passive)|Far Shot]] Ascendancy Notable also scales similarly.\n\n==On Enemies==\nFar Shot is also used as a [[monster modifiers|monster modifier]]. It is used by [[Retch (monster type)|Retchs]], [[Maelström]]s, as well as some [[unique monster]]s. These modifiers likely use a similar damage scaling, starting at 0% more.\n\n{{Modifier table\n|q_tables = mod_stats, mod_spawn_weights\n|q_join = mods._pageID=mod_stats._pageID, mods._pageID=mod_spawn_weights._pageID\n|q_where = mods.mod_groups HOLDS \"FarShot\" AND domain = \"3\" AND mods.id != \"MonsterFarShotDisplay\"\n|stat_text=1\n|level=1\n}}\n\n==Related unique items==\nThe following [[unique item]]s are related to Far Shot:\n{{Drop enabled unique item table\n|where=items.stat_text LIKE \"%Far%Shot%\"\n|large=1\n|base_item=1\n|level=1\n|stat=1\n}}\n==Passive skills==\n{{Query passive skills\n|where=\n  passive_skill_stats.id LIKE \"%projectile_damage_+%_max_as_distance_travelled_increases%\"\nAND passive_skills.name != \"Deadeye\"\n|ascendancy=0\n}}\n\n===Ascendancy passives===\n{{Query ascendancy passive skills\n|where=\n  passive_skill_stats.id LIKE \"%far_shot%\"\nOR passive_skill_stats.id LIKE \"%projectile_damage_+%_max_as_distance_travelled_increases%\"\n}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* The '''Far Shot''' keyword now causes your projectiles to deal 20% less damage at very close range (previously no penalty), up to 60% more at a range of 70 or greater (previously 30% more).\n}}\n{{Version history table row|3.0.0|\n* Added a new keyword -- Far Shot: Projectile Attacks gain Damage as they travel farther, dealing up to 30% more Damage to targets.\n}}\n{{Version history table row|1.0.0|\n* Some monsters now have \"Far Shot\" causing them to do less damage to closer targets and more damage to farther away targets.\n}}\n{{Version history table end}}\n\n==References==\n{{reflist|refs=\n<ref name=\"DistanceCalc\">{{cite web|author=Mark_GGG|date=May 7, 2014|title=Molten Strike & Point Blank interaction|url=https://www.pathofexile.com/forum/view-thread/916639/page/2#p7791098|publisher=Official Path of Exile Forums|accessdate=January 3, 2016}}</ref>\n}}\n\n[[Category:Keywords]]",
+  "sha256": "8be4f5e336e5efbb6d7d0c7e1d8e92aeb5285c895057d0c44e2196cc7698f1b4"
+}

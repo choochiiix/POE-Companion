@@ -1,0 +1,33 @@
+{
+  "title": "Dying Breath",
+  "pageId": 5580,
+  "revision": 1481978,
+  "timestamp": "2024-08-25T03:17:40Z",
+  "retrieved": "2026-11-14T10:57:20.721182+00:00",
+  "requested": [
+    "Draugurflame",
+    "Draugurflame Burn",
+    "Dread Banner",
+    "Drought",
+    "Drowning",
+    "Drowning Domain",
+    "Duration Test",
+    "Dying Breath",
+    "Dying Sun",
+    "Earth Drinker",
+    "Ebon Affliction",
+    "Echoing Tempest",
+    "Effigy",
+    "Eldritch Decay",
+    "Eldritch Empowerment",
+    "Electrified Ground Trap",
+    "Electrifying Bond",
+    "Electrifying Gaze",
+    "Electrifying Sight",
+    "Elemental Aegis"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Item\n|rarity_id                               = unique\n|name                                    = Dying Breath\n|class_id                                = Warstaff\n|base_item                               = Iron Staff\n|flavour_text                            = The whispers of the dead<br>Carry wisdom for the living,<br>If you are willing to give your life<br>To listen.\n|explicit1                               = IncreasedCastSpeedUniqueStaff5\n|explicit2                               = MaximumManaUniqueStaff5\n|explicit3                               = AuraIncreasedIncreasedAreaOfEffectUniqueStaff5\n|explicit4                               = CurseAreaOfEffectUniqueStaff5\n|explicit5                               = UndyingBreathCurseAuraDisplayUniqueStaff5  <!-- UndyingBreathCurseAuraUniqueStaff5 -->\n|explicit6                               = UndyingBreathDamageAuraDisplayUniqueStaff5  <!--UndyingBreathDamageAuraUniqueStaff5 -->\n|explicit7                               = DamageTakenUniqueStaff5\n|release_version                         = 1.0.6\n}}\n{{status\n| name        = Dying Breath\n| type        = Buff\n| description = Grants increased Damage\n}}\n'''Dying Breath''' is a [[unique]] {{il|Iron Staff}}.\n\n==Mechanics==\nDying Breath applies a special [[aura]] to the character:<ref name=\"Announcement\"/>\n\n{|\n| [[File:Dying Breath status icon.png]] || \n* Party members and [[minion]]s within the aura have 18% increased [[damage]]. This bonus applies to ''all'' damage, including that of [[spell]]s, [[trap]]s, and [[totem]]s.\n* Enemies within the aura are affected by [[curse]]s from any source with 18% increased effect (additive with other curse effect).\n|}\n\nNote that the aura given by Dying Breath needs line of sight, unlike auras given by skills. Also, the aura comes from the item, not the player, so it won't be affected by any aura bonuses.\n\nThe [[Nearby]] radius is 75.\n{{Item acquisition}}\n\n==Legacy variants==\nDying Breath has [[legacy variant]]s.\n\n{{legacy variant table header|base=yes|level=yes}}\n{{legacy variant table row|3.25.0|base={{il|Iron Staff}}|level=13\n|\n*{{c|mod|+18(20)% Chance to Block Attack Damage while wielding a Staff}}{{efn|name=Reroll legacy implicit1}}\n|\n* 18% increased Cast Speed\n* 18% increased maximum Mana\n* 18% increased Area of Effect of Aura Skills\n* 18% increased Area of Effect of Hex Skills\n* Nearby Enemies have 18% increased Effect of Curses on them\n* Nearby allies gain 18% increased Damage\n* 18% increased effect of Non-Curse Auras from your Skills\n}}\n{{legacy variant table row|2.6.0|base={{il|Coiled staff}}|level=23\n|\n* {{c|mod|+18(22)% Chance to Block Attack Damage while wielding a Staff}}{{efn|name=Reroll legacy implicit2}}\n|\n* 18% increased Cast Speed\n* 18% increased maximum Mana\n* 18% increased Area of Effect of Aura Skills\n* 18% increased Area of Effect of Hex Skills\n* Nearby Enemies have 18% increased Effect of Curses on them\n* Nearby allies gain 18% increased Damage\n* 18% increased effect of Non-Curse Auras from your Skills\n}}\n{{Legacy variant table end}}\n\n==Design attribution==\nDying Breath was created by supporter [https://www.pathofexile.com/account/view-profile/Lezli Lezli].<ref name=\"Announcement\"/>\n\n==Gallery==\n<gallery>\nFile:Dying_Breath3D.png\nFile:Dying_Breath_3D.png\nFile:Dying_Breath_aura.png\nFile:Dying_Breath_Partical_Effects.gif\nFile:Dying_Breath_art.jpeg\n</gallery>\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.25.0|\n* This item's basetype's implicit modifier was changed.\n* Legacy Dying Breath which are on Coiled Staff base, can now have the implicit block value raised to 22%, as the implicit mod is shared with other base, which receive numeric buff. {{Undocumented}}\n}}\n{{Version history table row|3.8.0|\n* Several Staves are now classified as Warstaves. Warstaves can no longer roll caster-related modifiers, while Staves retain their old mod generation behaviour.\n}}\n{{Version history table row|3.7.0|\n* Certain staff base types can no longer roll spell-based mods such as added damage for spells or increased spell damage. Their base attack speeds have been slightly increased, and their damage decreased to compensate. This affects all existing versions of these base types. (For a full list, see {{section link|Version 3.7.0|Item Balance}}.)\n}}\n{{Version history table row|3.3.0|\n* Added 3D art.\n}}\n{{Version history table row|2.6.0|\n* Base type of new '''Dying Breath''' had changed to {{il|Iron staff}} (from {{il|Coiled staff}}) (no change in block chance). {{Undocumented}}\n}}\n{{Version history table row|2.0.0|\n* The radius of the Auras has been increased to 75, to be the same as Leer Cast.\n}}\n{{Version history table row|1.2.0|\n* Dying Breath now grants 18% increased Aura Effect, instead of 18% increased damage taken. Old copies of the item have been automatically updated.\n}}\n{{Version history table row|1.0.6|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n==Notes==\n{{Notelist|notes=\n{{efn|name=Reroll legacy implicit1|Using a {{il|Blessed Orb}} on a legacy Dying Breath Iron Staff with the implicit modifier {{c|mod|+18% Chance to Block Attack Damage while wielding a Staff}} will increase the value of that modifier to 20%.}}\n{{efn|name=Reroll legacy implicit2|Using a {{il|Blessed Orb}} on a legacy Dying Breath Coiled Staff with the implicit modifier {{c|mod|+18% Chance to Block Attack Damage while wielding a Staff}} will increase the value of that modifier to 22%.}}\n}}\n\n==References==\n{{reflist|refs=\n<ref name=\"Announcement\">{{cite web|author=Lezli|date=January 27, 2014|title=Dying Breath 1.0.6 Unique|url=http://www.pathofexile.com/forum/view-thread/775112/page/1#p6718976|publisher=Official Path of Exile Forums|accessdate=March 16, 2014}}</ref>\n}}\n\n{{Navbox Unique Items}}\n[[Category:Unique items created by supporters]]\n[[Category:Buffs]]\n[[Category:Unique staves with 3D art]]",
+  "sha256": "f295af59395c332eef91aafc57ab3b8c2f3ddbf545701e98a642707e302ff08f"
+}

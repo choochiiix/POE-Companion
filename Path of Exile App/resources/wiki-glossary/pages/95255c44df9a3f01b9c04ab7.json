@@ -1,0 +1,33 @@
+{
+  "title": "Putrefaction",
+  "pageId": 13172,
+  "revision": 1459820,
+  "timestamp": "2024-06-03T11:31:36Z",
+  "retrieved": "2026-11-14T10:57:37.996408+00:00",
+  "requested": [
+    "Prismatic Tincture",
+    "Prismplate",
+    "Procyonic Procession",
+    "Projectile Test",
+    "ProphecyQuantity",
+    "Protection",
+    "Protective Link",
+    "Protective Shield",
+    "Proximity Shield",
+    "Punisher",
+    "Punishment",
+    "Purging Flame",
+    "Purity of Elements Aura",
+    "Purity of Fire Aura",
+    "Purity of Ice Aura",
+    "Purity of Lightning Aura",
+    "Purple Effluent",
+    "Pursuit of Faith",
+    "Putrefaction",
+    "Pyroclast Mines"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Putrefaction\n| type                   = Debuff\n| icon = BloodCloudDebuff.png\n| description = {{c|white|You are taking Physical Damage over time}}\n}}\n'''Putrefaction''' is a [[debuff]] that deals physical [[damage over time]]. Applied by enemies with {{ml|MonsterAfflictionHasDestroyCorpseDegenZoneDaemon}} [[Delirium]] modifier.\n\nInternal name {{code|affliction_corpse_degen}}.\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.10.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n[[Category:Debuffs]]",
+  "sha256": "f00f9066ab3d7c2edb3a7d60abdc57a42e608aa3a2c19c048377d58814189474"
+}

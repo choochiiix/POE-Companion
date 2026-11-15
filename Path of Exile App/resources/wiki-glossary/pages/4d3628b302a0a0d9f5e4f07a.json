@@ -1,0 +1,33 @@
+{
+  "title": "Elemental Aegis",
+  "pageId": 5745,
+  "revision": 1649338,
+  "timestamp": "2026-05-22T23:38:08Z",
+  "retrieved": "2026-11-14T10:57:20.721182+00:00",
+  "requested": [
+    "Draugurflame",
+    "Draugurflame Burn",
+    "Dread Banner",
+    "Drought",
+    "Drowning",
+    "Drowning Domain",
+    "Duration Test",
+    "Dying Breath",
+    "Dying Sun",
+    "Earth Drinker",
+    "Ebon Affliction",
+    "Echoing Tempest",
+    "Effigy",
+    "Eldritch Decay",
+    "Eldritch Empowerment",
+    "Electrified Ground Trap",
+    "Electrifying Bond",
+    "Electrifying Gaze",
+    "Electrifying Sight",
+    "Elemental Aegis"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{Skill infobox|id=ElementalAegis}}\n\n'''Elemental Aegis''' is a [[skill]] that applies a protective [[buff]] on the character and absorbs [[elemental damage]] from [[hit]]s up to a certain amount before it dissipates for 10 seconds.\n\n==Acquisition==\nElemental Aegis can only be obtained by equipping {{il|Magna Eclipsis}}, having a capacity of 1000. \n\n==See also==\n* {{sl|id=FireAegis}}\n* {{sl|id=ColdAegis}}\n* {{sl|id=LightningAegis}}\n* {{sl|id=PhysicalAegis}}\n* {{sl|Primal Aegis}}\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|3.13.0|\n* No longer has its recharge timer interrupted by damage if the buff is depleted\n}}\n{{Version history table row|3.1.0|\n* Introduced to the game.\n}}\n{{Version history table end}}\n\n{{Navbox Skills}}\n\n[[Category:Active Skill]]\n[[Category:Buffs]]",
+  "sha256": "1ca47501ddc75df3a3029210e193b609755a35c717ebd90e35a3f20cc33589e3"
+}

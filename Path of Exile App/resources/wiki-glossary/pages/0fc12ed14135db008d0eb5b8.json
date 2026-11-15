@@ -1,0 +1,33 @@
+{
+  "title": "Spawn",
+  "pageId": 15431,
+  "revision": 1365802,
+  "timestamp": "2023-08-04T00:38:43Z",
+  "retrieved": "2026-11-14T10:11:23.508526+00:00",
+  "requested": [
+    "Element",
+    "Cruel",
+    "Ghost Shroud",
+    "Reflect",
+    "unique jewel",
+    "caustic ground",
+    "Elemental Relic",
+    "Endurance",
+    "Ailments",
+    "recharge",
+    "One-Handed",
+    "Abyssal socket",
+    "amulets",
+    "rings",
+    "quivers",
+    "Two-Handed",
+    "Monsters",
+    "Spawn",
+    "influence",
+    "unique monster"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{MonsterBox\n| name = Spawn\n| image = \n| rarity = Normal\n| type = Sea Witch\n| location = [[The Upper Submerged Passage]] <br> [[The Ship Graveyard]] <br> [[The Ship Graveyard Cave]] <br> [[The Cavern of Anger]]\n| resistance = Cold\n| damage =\n| modifier =\n| skill = \n}}\n\n'''Spawn''' is a [[spawn (monster type)|spawn]]-type monster that are usually summoned by [[sea witch]]es. \n\n==Areas==\n* [[The Upper Submerged Passage]]\n* [[The Ship Graveyard]]\n* [[The Ship Graveyard Cave]]\n* [[The Cavern of Anger]]\n\n==Abilities==\n* Resists Cold\n\n==Version history==\n{{Version history table header}}\n{{Version history table row|0.8.3|\n* Reduced [[damage]] dealt by Spawn [[monster]]s and increased their [[life]].\n}}\n{{Version history table row|0.5.11|\n* Added sounds to Spawns.\n}}\n{{Version history table row|0.5.10|\n* Added Spawn monsters back into the caves.\n}}\n{{Version history table end}}\n\n{{Navbox Bestiary}}\n\n[[Category:Sea witches]]\n[[Category:Act 1 monsters]]",
+  "sha256": "0c838c82bf9db8dfa8b7e99d8b9283ad01f2f5a17f3b921aa6983ccd280b05c6"
+}

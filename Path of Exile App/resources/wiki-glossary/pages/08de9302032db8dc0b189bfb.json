@@ -1,0 +1,33 @@
+{
+  "title": "Soulfire",
+  "pageId": 95754,
+  "revision": 1536791,
+  "timestamp": "2025-06-06T11:49:31Z",
+  "retrieved": "2026-11-14T10:57:45.184550+00:00",
+  "requested": [
+    "Soul Catcher",
+    "Soul Link",
+    "Soul Ripper",
+    "Soulchill",
+    "Soulfire",
+    "Soulrend",
+    "Spectral",
+    "Spectral Pack",
+    "Spectral Swiftness",
+    "Speed Aura",
+    "Speed Gale",
+    "Speed Randomisation",
+    "Spellslinger",
+    "Spider Aspect",
+    "Spider's Web",
+    "Spike Pinned",
+    "Spinning Blades",
+    "Spiral Test Cheat",
+    "Spirit Charges",
+    "Spirit Containment"
+  ],
+  "aliases": [],
+  "missing": false,
+  "wikitext": "{{status\n| name                   = Soulfire\n| type                   = Debuff\n| description            = You are taking fire damage over time<br><br>The light of the dead<br>Burns flesh from thy mortal frame<br>Only bones remain\n}}\n\n'''Soulfire''' is a [[debuff]] that deals [[Fire damage]] over time. This debuff can stack.\n\nIt is applied by the Soul Lanterns and Ghostfire Aura while fighting [[Captain Clayborne, The Accursed]] in {{il|Frozen Cabins Map}}.\n\n[[Category:Debuffs]]",
+  "sha256": "c0dd8b4f1d597500d121ce8b501a2b4e0fc097145cf9462f77bc00d7dafbde5b"
+}
