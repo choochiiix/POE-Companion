@@ -41,3 +41,5 @@ Shared ownership: foundation owns tokens/global styles, shared motion, Character
 ## Verification record
 
 Pre-change baseline: all 130 Node regressions passed. Initial sandbox execution passed 128 and denied loopback access for two HTTP tests; rerunning with loopback permission passed all 130. Browser verification uses ephemeral servers and isolated storage, never the active user session. Further results and independent findings are recorded as implementation completes.
+
+React migration's latest feature-level QA is recorded in REACT-QA.md. The six-screen renderer checks and focused workflows pass, but its original ignored engine/data hash manifest is missing, two current PoB capture checks are stale, and independent post-fix review remains open. The React preview has not replaced the existing application entrypoint.
