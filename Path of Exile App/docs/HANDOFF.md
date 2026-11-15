@@ -1,4 +1,15 @@
-# Current handoff — November 14, 2026
+# Current handoff — React migration, November 15, 2026
+
+The application-wide React frontend migration is the current assignment. Use the repository [README](../README.md), [migration scope](REACT-MIGRATION.md), and [QA status](REACT-QA.md) as the current source of truth. This file's detailed Character/runtime notes below are from the November 14 Character pilot and are retained as historical constraints, not as the current migration status.
+
+- The normal local launch remains `npm start` / `Start Crafting.cmd` on `127.0.0.1:4317`, serving `crafting-ui/index.html`.
+- The React preview runs locally from `renderer/dist` through `renderer/server.mjs` (default port 4321); that server delegates non-renderer requests, including data, engine-module and artwork routes, to the original local handler. This does not change the normal launcher.
+- The default entrypoint has not been switched. Keep the current backend, route aliases, saved keys/formats, and user data intact. Different ports have different browser storage; do not automatically migrate/reset saves.
+- Latest renderer build/typecheck and targeted Crafting, Items and responsive visual browser checks pass. The full Node regression is **128/130**, with the same exact failures recorded in [REACT-QA.md](REACT-QA.md). The authentic SHA baseline remains blocked by the user's decision; independent post-fix QA is pending.
+- Do not cut over yet. After all gates are resolved or the user explicitly waives them, the candidate integration is to serve React's built entry and assets on the existing `127.0.0.1:4317` origin while retaining the existing backend routes and aliases. Verify same-origin saves and rollback before changing the launcher.
+- Do not refresh an active crafting session casually; its history is session-only. No Electron wrapper or remote backend is assumed.
+
+## Historical Character pilot handoff — November 14, 2026
 
 All requested work is complete. The user asked to tidy, wrap up and move to a new chat in preparation for a major task. Its scope has not been provided. Read this and NEXT-TASK.md, acknowledge readiness, then wait. Do not invent work, refresh the browser, rebuild data or start a migration.
 

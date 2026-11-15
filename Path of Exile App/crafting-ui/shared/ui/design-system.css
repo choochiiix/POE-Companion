@@ -38,6 +38,7 @@ body::before {display:none}
 @media(forced-colors:active){.ui-panel,.ui-dialog,.ui-button,.ui-field{border-color:CanvasText}.plan-switch button[aria-pressed=true]{outline:1px solid Highlight}}
 .spring-dropdown{position:relative;display:block;min-width:0;width:100%}
 .spring-dropdown select{width:100%;color:transparent;caret-color:transparent;appearance:none;padding-right:32px;cursor:pointer}
+.ui-dialog .spring-dropdown select,.character-design-dialog .spring-dropdown select{color:transparent}
 .spring-dropdown select option{color:var(--text-secondary);background:var(--surface)}
 .spring-dropdown-value{position:absolute;left:12px;right:32px;top:0;bottom:0;display:flex;align-items:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;pointer-events:none;font:13px var(--font-ui);color:var(--text-secondary)}
 .spring-dropdown-chevron{position:absolute;right:12px;top:10px;pointer-events:none;color:var(--text-muted);font:16px/1 var(--font-ui)}

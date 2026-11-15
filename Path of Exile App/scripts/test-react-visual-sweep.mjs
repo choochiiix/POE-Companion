@@ -26,12 +26,13 @@ try{
  const dialog=page.getByRole('dialog');await dialog.getByLabel('Character class',{exact:true}).click();
  await page.waitForFunction(()=>document.querySelector('.spring-dropdown-menu:popover-open [role=option]'));
  assert.equal(await page.locator('.spring-dropdown-menu:popover-open').count(),1);
+ await page.waitForFunction(()=>{const menu=document.querySelector('.spring-dropdown-menu:popover-open');return menu&&[...menu.querySelectorAll('.spring-dropdown-option')].every(row=>Number(row.style.opacity)===1)&&[...document.querySelectorAll('.spring-dropdown-value')].every(value=>Number(value.children[0].style.opacity)===0&&Number(value.children[1].style.opacity)===1);});
  await page.screenshot({path:'docs/previews/react-migration/final/character-open-class.png'});
  await dialog.getByLabel('Character class',{exact:true}).press('End');await dialog.getByLabel('Character class',{exact:true}).press('Enter');
  await page.waitForFunction(()=>!document.querySelector('.spring-dropdown-menu:popover-open'),null,{timeout:5000});assert.equal(await page.locator('.spring-dropdown-menu:popover-open').count(),0);
  await dialog.getByLabel('Ascendancy',{exact:true}).click();await page.keyboard.press('Escape');
  assert.equal(await dialog.count(),1,'Escape closes the dropdown before its parent dialog');await page.keyboard.press('Escape');await dialog.waitFor({state:'hidden'});
- await page.getByRole('button',{name:'Settings',exact:true}).click();await page.getByRole('dialog').waitFor();await page.screenshot({path:'docs/previews/react-migration/final/settings.png'});await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'Settings',exact:true}).click();const settings=page.getByRole('dialog',{name:'Settings'});await settings.waitFor();assert.equal(await settings.getByRole('heading',{name:'Settings',exact:true}).count(),1,'Settings dialog has one heading');await settings.evaluate(async node=>{await Promise.allSettled(node.getAnimations({subtree:true}).map(animation=>animation.finished));});await page.screenshot({path:'docs/previews/react-migration/final/settings.png'});await page.keyboard.press('Escape');
  assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
  console.log('PASS: six screens desktop/mobile overflow + captures, class dropdown End/Enter and confirmation close, nested Escape, Settings modal, no page errors/remote requests.');
 }finally{await browser?.close();server.kill();}
