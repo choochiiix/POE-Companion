@@ -1,22 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile, access, readdir } from 'node:fs/promises';
-import { uiRoutes } from '../server/routes.mjs';
+import { readFile, readdir } from 'node:fs/promises';
 import { makeServer } from '../server.mjs';
 import { conciseDefinition } from '../shared/definitions/glossary-model.js';
 
-test('all route aliases and relative module imports resolve after organization', async () => {
-  for (const file of new Set(Object.values(uiRoutes))) {
-    const url = new URL('../' + file, import.meta.url);
-    await access(url);
-    if (!file.endsWith('.js')) continue;
-    const source = await readFile(url, 'utf8');
-    const imports = source.matchAll(/(?:from\s*|import\s*)['"](\.[^'"]+)['"]/g);
-    for (const [, specifier] of imports) await access(new URL(specifier, url));
-  }
-});
-
-test('missing allowlisted files respond cleanly and leave the server usable', async () => {
+test('missing local resources and retired UI routes respond cleanly', async () => {
   const server = makeServer();
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   const origin = `http://127.0.0.1:${server.address().port}`;
@@ -25,13 +13,8 @@ test('missing allowlisted files respond cleanly and leave the server usable', as
       assert.equal((await fetch(origin + path)).status, 404);
       assert.equal((await fetch(origin + '/')).status, 200);
     }
-    for (const [path, file] of Object.entries(uiRoutes)) {
-      const response = await fetch(origin + path);
-      assert.equal(response.status, 200, path);
-      assert.equal(response.headers.get('x-content-type-options'), 'nosniff');
-      if (path === '/character.js') {
-        assert.match(await response.text(), /from '\/features\/tree\/tree.js'/);
-      }
+    for (const path of ['/app.js', '/character.js', '/features/character/character.js', '/definition-tooltips.js']) {
+      assert.equal((await fetch(origin + path)).status, 404, path);
     }
     assert.equal((await fetch(origin + '/server/routes.mjs')).status, 404);
   } finally {

@@ -1,7 +1,16 @@
-import {nodeVisual} from '@legacy/features/tree/tree-model.js';
 import type {TreeNode} from './types';
 export interface Camera {scale:number;ox:number;oy:number}
-export function nodeRadius(node:TreeNode,scale:number){return Math.max(node.isNotable||node.isMastery||node.isKeystone?4:2.5,Math.min(42,(node.isKeystone?75:node.isNotable||node.isMastery?55:35)*scale));}
+const beamAngles=new Map<string,number>();
+// Keep the beam palette and pointer response centralized for easy retheming.
+export const TREE_BEAM_STYLE={
+ colors:['#ffaa40','#ff9e58','#d46bba','#9c40ff','#ffaa40'],
+ stops:[0,.27,.58,.82,1],
+ glow:'#b45be8',
+ influenceDistance:230,
+ maxPointerRotation:.32,
+ easing:.12,
+} as const;
+export function nodeRadius(node:TreeNode,scale:number){const start=node.classStartIndex!==undefined||node.isAscendancyStart,size=start?68:node.isKeystone?60:node.isNotable?50:node.isMastery?44:node.isJewelSocket?38:32,min=start?5.5:node.isKeystone?5.1:node.isNotable?4.5:node.isMastery?3.9:node.isJewelSocket?3.3:2.5;return Math.max(min,Math.min(36,size*scale));}
 export function fitCamera(canvas:HTMLCanvasElement,nodes:TreeNode[]):Camera {
  const xs=nodes.map(n=>n.x),ys=nodes.map(n=>n.y),w=canvas.clientWidth,h=canvas.clientHeight;
  if(!nodes.length||!w||!h)return {scale:.08,ox:w/2,oy:h/2};
@@ -9,11 +18,15 @@ export function fitCamera(canvas:HTMLCanvasElement,nodes:TreeNode[]):Camera {
  return {scale,ox:w/2-(Math.max(...xs)+Math.min(...xs))/2*scale,oy:h/2-(Math.max(...ys)+Math.min(...ys))/2*scale};
 }
 export function hitNode(list:TreeNode[],x:number,y:number,{scale,ox,oy}:Camera){let closest:TreeNode|undefined,dist=Infinity;for(const node of list){const d=Math.hypot(node.x*scale+ox-x,node.y*scale+oy-y);if(d<=Math.max(7,nodeRadius(node,scale)+4)&&d<dist){closest=node;dist=d;}}return closest;}
-export function drawTree(canvas:HTMLCanvasElement,list:TreeNode[],nodes:Map<string,TreeNode>,selected:Set<string>,current:TreeNode|undefined,query:string,{scale,ox,oy}:Camera){
+type Highlight='all'|'search'|'allocated'|'unallocated'|'notables'|'keystones'|'masteries'|'jewels'|'starts';
+export function drawTree(canvas:HTMLCanvasElement,list:TreeNode[],nodes:Map<string,TreeNode>,selected:Set<string>,current:TreeNode|undefined,query:string,{scale,ox,oy}:Camera,highlight:Highlight='all',pointer?:{x:number;y:number}){
  const ctx=canvas.getContext('2d');if(!ctx)return;
  const dpr=devicePixelRatio||1,w=canvas.clientWidth,h=canvas.clientHeight;if(!w||!h)return;
- canvas.width=w*dpr;canvas.height=h*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.fillStyle='#0A0E14';ctx.fillRect(0,0,w,h);
+ const css=getComputedStyle(canvas),color=(name:string,fallback:string)=>css.getPropertyValue(name).trim()||fallback,bg=color('--tree-canvas-bg','#08090a'),nodeFill=color('--tree-node-fill','#161718'),edge=color('--tree-edge','#23252a'),active=color('--tree-active','#e4f222'),label=color('--tree-label','#d0d6e0'),nodeStroke=color('--tree-node-stroke','#68717d'),selectedFill=color('--tree-selected-fill','#aab83d');
+ canvas.width=w*dpr;canvas.height=h*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);
  const ids=new Set(list.map(n=>n.id)),q=query.toLowerCase();
- for(const n of list)for(const id of n.links){if(id<n.id||!ids.has(id))continue;const other=nodes.get(id)!;const on=selected.has(id)&&selected.has(n.id);ctx.strokeStyle=on?'#FFB454':'#6C7680';ctx.lineWidth=on?2:1;ctx.beginPath();ctx.moveTo(n.x*scale+ox,n.y*scale+oy);ctx.lineTo(other.x*scale+ox,other.y*scale+oy);ctx.stroke();}
- for(const node of list){const visual=nodeVisual(node),x=node.x*scale+ox,y=node.y*scale+oy,r=nodeRadius(node,scale);if(x+r<0||x-r>w||y+r<0||y-r>h)continue;ctx.beginPath();if(visual.shape==='circle')ctx.arc(x,y,r,0,Math.PI*2);else{const sides=visual.shape==='hex'?6:4,offset=visual.shape==='square'?Math.PI/4:-Math.PI/2;for(let i=0;i<sides;i++){const a=offset+i*2*Math.PI/sides,xx=x+Math.cos(a)*r,yy=y+Math.sin(a)*r;if(i)ctx.lineTo(xx,yy);else ctx.moveTo(xx,yy);}ctx.closePath();}const on=selected.has(node.id);ctx.fillStyle=on?visual.color:'#151B22';ctx.fill();ctx.lineWidth=on?2:1;ctx.strokeStyle=visual.color;ctx.stroke();if(r>=7){ctx.fillStyle=on?'#0A0E14':visual.color;ctx.font=`600 ${Math.max(9,Math.min(17,r))}px Segoe UI`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(visual.symbol,x,y);}if(on||current===node||(q&&node.search.includes(q))){ctx.beginPath();ctx.arc(x,y,r+3,0,Math.PI*2);ctx.strokeStyle=current===node?'#E6E1D9':on?'#FFB454':'#AAD94C';ctx.lineWidth=current===node?2:1;ctx.stroke();}if(node.classStartIndex!==undefined||node.isAscendancyStart){ctx.textAlign='left';ctx.fillStyle='#E6E1D9';ctx.font='12px Segoe UI';ctx.fillText(node.name,x+r+6,y);}}
+ const matches=(n:TreeNode)=>{switch(highlight){case'search':return !!q&&n.search.includes(q);case'allocated':return selected.has(n.id);case'unallocated':return !selected.has(n.id);case'notables':return !!n.isNotable;case'keystones':return !!n.isKeystone;case'masteries':return !!n.isMastery;case'jewels':return !!n.isJewelSocket;case'starts':return n.classStartIndex!==undefined||!!n.isAscendancyStart;default:return true;}};
+ for(const n of list)for(const id of n.links){if(id<n.id||!ids.has(id))continue;const other=nodes.get(id)!;const on=selected.has(id)&&selected.has(n.id),related=matches(n)||matches(other);ctx.globalAlpha=highlight==='all'?1:related?.7:.12;ctx.strokeStyle=on?active:edge;ctx.lineWidth=on?2:1;ctx.beginPath();ctx.moveTo(n.x*scale+ox,n.y*scale+oy);ctx.lineTo(other.x*scale+ox,other.y*scale+oy);ctx.stroke();}ctx.globalAlpha=1;
+ for(const node of list){const x=node.x*scale+ox,y=node.y*scale+oy,r=nodeRadius(node,scale),match=matches(node),on=selected.has(node.id);if(x+r<0||x-r>w||y+r<0||y-r>h)continue;ctx.globalAlpha=highlight==='all'||match?1:.16;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=on?selectedFill:nodeFill;ctx.fill();ctx.lineWidth=1;ctx.strokeStyle=nodeStroke;ctx.stroke();if(node.classStartIndex!==undefined||node.isAscendancyStart){ctx.globalAlpha=highlight==='all'||match?1:.16;ctx.textAlign='left';ctx.fillStyle=label;ctx.font='12px Segoe UI';ctx.fillText(node.name,x+r+6,y);}if(highlight!=='all'&&match){const base=-Math.PI/2,distance=pointer?Math.hypot(pointer.x-x,pointer.y-y):Infinity,influence=Math.pow(Math.max(0,1-distance/TREE_BEAM_STYLE.influenceDistance),2),pointerAngle=pointer?Math.atan2(pointer.y-y,pointer.x-x):base,direction=Math.atan2(Math.sin(pointerAngle-base),Math.cos(pointerAngle-base)),target=base+direction*TREE_BEAM_STYLE.maxPointerRotation*influence,previous=beamAngles.get(node.id)??base,delta=Math.atan2(Math.sin(target-previous),Math.cos(target-previous)),angle=previous+delta*TREE_BEAM_STYLE.easing;beamAngles.set(node.id,angle);const gradient=ctx.createConicGradient(angle,x,y);TREE_BEAM_STYLE.colors.forEach((beamColor,index)=>gradient.addColorStop(TREE_BEAM_STYLE.stops[index],beamColor));ctx.globalAlpha=1;ctx.beginPath();ctx.arc(x,y,r+1,0,Math.PI*2);ctx.strokeStyle=gradient;ctx.lineWidth=Math.max(1.4,Math.min(2.4,r*.35));ctx.shadowColor=TREE_BEAM_STYLE.glow;ctx.shadowBlur=5+4*influence;ctx.stroke();ctx.shadowBlur=0;}}
+ ctx.globalAlpha=1;
 }

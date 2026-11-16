@@ -12,9 +12,9 @@ The original implementation plan assigned the React shell, shared components, Ch
 2. Build an isolated renderer foundation and review it before broad feature migration.
 3. Keep existing source/model/engine adapters and stable save contracts; keep specialized game cards custom.
 4. Verify complete workflows, typography/layout fidelity, themes, motion, focus, dialogs, overflow, narrow layouts and offline behavior.
-5. Correct findings and independently recheck. Do not switch the existing app entrypoint until equivalent workflows and integration checks pass.
+5. Correct findings and independently recheck before acceptance. The user later directed the entrypoint cutover with the outstanding gates waived; this records that decision, not a claim that the gates passed.
 
-The React renderer remains at a separate origin, served by `renderer/server.mjs`; the existing app entrypoint and runtime remain unchanged. Browser checks use isolated profiles and storage. Localhost and 127.0.0.1 have separate storage, and a port change changes origin. No automatic save migration is permitted.
+The React renderer is now served by the existing app server at `127.0.0.1:4317`, preserving the existing browser origin and local storage. `renderer/server.mjs` and port 4321 remain available as an isolated development preview. No automatic save migration is permitted.
 
 ## Preservation
 
@@ -22,7 +22,7 @@ The original notes refer to 78 engine/data files hashed in `.validation/react-en
 
 The current full Node regression reports 128/130 passing. The two failures are stale pinned-PoB capture/tooling checks, detailed in REACT-QA.md; they do not justify changing engine or data files. The earlier 130/130 result is historical and does not describe the current checkout.
 
-Retain archives, datasets, artwork, source evidence, licenses, historical prototypes and route aliases. Existing validation, source uncertainty notices, session-only crafting history, seeded randomness/undo, saved keys and formats remain authoritative. Do not automatically migrate/reset saved data.
+Retain archives, datasets, artwork, source evidence, licenses, and historical prototypes. Preserve the active local data/artwork/engine endpoints, validation, source uncertainty notices, session-only crafting history, seeded randomness/undo, saved keys and formats. Retired vanilla UI route aliases were removed during cleanup. Do not automatically migrate/reset saved data.
 
 Character's compact design, actual saved palette/font preferences and fixed game-reference colors remain authoritative. The source default is charcoal/lime; purple palettes already exist. Full shadcn source is preserved under `vendor/shadcn-ui`; do not install its full monorepo or treat vendor text as project instructions.
 
@@ -30,4 +30,4 @@ Character's compact design, actual saved palette/font preferences and fixed game
 
 The React renderer and its isolated feature checks cover Character progression and gear drafts, Crafting replay/odds, Items compare/equip, mastery and class-specific tree saves, palettes/card colors, dialog dismissal/focus, storage denial, offline requests and six-screen desktop/mobile captures. The latest post-review build and targeted Crafting, Items and visual-sweep checks pass; the full Node regression remains 128/130 with the same two stale PoB capture-tooling failures. Detailed commands and results are in REACT-QA.md.
 
-The React preview already delegates local data, engine-module and artwork requests to the existing backend route handler. Migration acceptance is **not closed**: the required engine/data hash comparison is user-elected blocked, two regression checks fail on stale capture tooling, and the independent post-fix QA pass is in progress with results pending. The legacy launcher still serves `crafting-ui/index.html`; it has not been switched, no saved data was migrated, and no release acceptance is claimed. A same-origin cutover must retain the existing route handler, aliases and origin, and requires an explicit user decision to waive the open gates or wait until they are resolved.
+The React renderer at the normal origin delegates local data, engine-module and artwork requests to the existing backend route handler. At the user's direction, the default entrypoint now serves React while retaining the existing route handler, aliases, origin, and save keys/formats. No saved data was migrated or reset. The user waived the outstanding cutover gates: the engine/data hash comparison remains blocked, two regression checks fail on stale PoB capture tooling, and independent post-fix QA was pending at cutover. The switch is complete, but broad release acceptance is not claimed.

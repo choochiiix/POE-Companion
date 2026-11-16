@@ -1,5 +1,7 @@
 # Character gear editor
 
+**Historical UI notes:** the manual gear model and its save key remain in use, but the vanilla gear-editor screen/controller and its browser scripts were removed after React became the default. Current presentation is implemented in `renderer/src/features/character/`.
+
 Current presentation: the Character pilot supersedes older layout/card descriptions below. Equipment is a compact right-hand list with softened spring disclosures and simplified UI-fitting cards; stats/attributes/breakdown are left. Full item information and fixed rarity/modifier colors remain. Edit character now includes image dropdowns, level and campaign penalty synchronized with Combat assumptions. See [current handoff](HANDOFF.md) and [pilot details](ui-overhaul/CHARACTER-PILOT.md). Model/save/calculation limitations below remain applicable.
 
 

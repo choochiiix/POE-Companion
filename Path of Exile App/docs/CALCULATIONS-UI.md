@@ -1,5 +1,7 @@
 # Live calculation integration
 
+**Historical UI integration notes:** these records describe the former vanilla Character screen. React is now the production UI; the shared source adapter and saved calculation context remain active, but `calculations.js` and its legacy browser check were removed. See `renderer/src/adapters/calculations.ts` and `docs/REACT-MIGRATION.md` for current ownership.
+
 Current presentation: the Character pilot supersedes older layout/card descriptions below. Equipment is a compact right-hand list with softened spring disclosures and simplified UI-fitting cards; stats/attributes/breakdown are left. Full item information and fixed rarity/modifier colors remain. Edit character now includes image dropdowns, level and campaign penalty synchronized with Combat assumptions. See [current handoff](HANDOFF.md) and [pilot details](ui-overhaul/CHARACTER-PILOT.md). Model/save/calculation limitations below remain applicable.
 
 

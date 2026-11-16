@@ -8,6 +8,7 @@ sys.dont_write_bytecode=True
 ROOT=Path(__file__).resolve().parent.parent
 spec=importlib.util.spec_from_file_location('glossary',ROOT/'scripts/wiki-glossary.py');source=importlib.util.module_from_spec(spec);spec.loader.exec_module(source)
 master=source.load(ROOT/'glossary/master.json')
+editorial={entry['id']:entry for entry in source.load(ROOT/'glossary/reviewed.json')}
 support_names={g['name'] for g in source.load(ROOT/'crafting-ui/skills-data.json')['gems'] if g['type']=='support'}
 chosen={}
 for entry in sorted(master['entries'],key=lambda e:0 if e['status']=='reviewed' else 1 if e['kind'] in ('skill','granted-skill') else 2):
@@ -25,11 +26,10 @@ for entry in sorted(master['entries'],key=lambda e:0 if e['status']=='reviewed' 
     if is_skill:chosen[key]['definition']+=' This is the base skill description; an item’s granted level and special modifiers can change its values.'
 for key,aliases in {'dexterity':['Dex'],'strength':['Str'],'intelligence':['Int'],'area of effect':['AoE'],'evasion':['Evasion Rating']}.items():
     if key in chosen:chosen[key]['aliases']+=aliases
-for key,name,aliases,definition in [
- ('buff','Buff Effect',['Buff Effect'],'Changes the strength of the applicable buff’s effects. The modifier must specify which buff or buffs it affects.'),
- ('reservation','No Reservation',['has no Reservation','have no Reservation'],'The specified skill reserves none of its usual resource. This does not by itself change other costs of the skill.')]:
+for key,editorial_id in [('buff','phrase:buff-effect'),('reservation','phrase:no-reservation')]:
+    editorial_entry=editorial[editorial_id]
     base=chosen.get(key) or next((e for e in master['entries'] if e['name'].casefold()==key and e['definition']),None)
-    if base:chosen[name.casefold()]={**base,'id':'phrase:'+name.lower().replace(' ','-'),'name':name,'aliases':aliases,'definition':definition,'status':'reviewed','tooltipEligible':True}
+    if base:chosen[editorial_entry['name'].casefold()]={**base,**{k:editorial_entry[k] for k in ('id','name','aliases','definition','kind')},'status':'reviewed','tooltipEligible':True}
 entries=list(chosen.values())
 for name in ['Fire','Cold','Lightning','Physical','Chaos']:
     base=chosen.get((name+' damage').casefold())

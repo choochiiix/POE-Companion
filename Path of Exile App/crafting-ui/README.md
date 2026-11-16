@@ -1,21 +1,11 @@
-# Exile Companion UI
+# Local application data and adapters
 
-Production browser app: Character, Crafting, Skill tree, Skills, Item library and Compendium, with Settings in a modal. Read the root [project handoff](../README.md) for current status and limitations.
+The production interface is the React app in `../renderer/`. This folder keeps the local HTTP server, offline datasets and artwork, plus selected domain models and styles that React still reuses.
 
-Run from the root using npm start or Start Crafting.cmd with Node 22.18+. Existing origin: http://127.0.0.1:4317/. Normal use requires no installation or network. Verify an existing server before starting/stopping one. Reload clears crafting history; localhost has separate saved data.
+- `server.mjs` serves the built React entry and assets at `127.0.0.1:4317`, then handles local dataset, artwork, and engine-source requests.
+- `features/` contains shared data validators, crafting/catalog adapters, calculation assembly, theme models, and a few styles imported by React. Retain files that `renderer/src/` imports.
+- `styles/tokens.css`, `shared/layout/cards.css`, and `features/{character,items,skills}/*.css` are still used by the React build.
+- JSON datasets and `assets/` are bundled offline data and artwork; preserve them and their provenance.
+- `test/` covers the retained data/model/backend code and local HTTP boundary.
 
-## Source ownership
-
-- index.html: initial shell/static markup; feature modules also build runtime UI.
-- features/: screen presentation, models and styles, including calculations.
-- shared/ui/: reusable DOM/control helpers.
-- shared/layout/: navigation, shared cards and inspectors.
-- shared/definitions/ and shared/tags/: shared reference behavior.
-- styles/: design tokens/global styles.
-- server/: explicit UI URL map; server.mjs remains the entrypoint.
-- test/: model/integration/HTTP checks; browser suites live in root scripts/.
-- Generated JSON and assets/: preserved offline data/artwork.
-
-Pure mechanics stay in sibling engine directories; source preparation stays outside presentation code. Preserve legacy URLs and storage contracts when replacing screens.
-
-Upcoming work starts at [the overhaul workspace](../docs/ui-overhaul/README.md). New experiments belong in prototypes/ui-overhaul/; production remains here. See [file organization](../docs/FILE-ORGANIZATION.md).
+The retired vanilla HTML shell and screen controllers were removed. The separate React development preview remains in `../renderer/server.mjs` on port 4321.

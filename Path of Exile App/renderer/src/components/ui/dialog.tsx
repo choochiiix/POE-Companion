@@ -1,6 +1,7 @@
 import {useRef,type ComponentProps} from 'react';
 import { Dialog as Primitive } from 'radix-ui';
 import { cn } from '@/lib/utils';
+import { CloseIcon } from '@/components/ui/icons';
 export const Dialog = Primitive.Root;
 export const DialogTrigger = Primitive.Trigger;
 export const DialogClose = Primitive.Close;
@@ -19,7 +20,7 @@ export function DialogContent({className,children,onOpenAutoFocus,onCloseAutoFoc
    {...props}
   >
    {children}
-   <Primitive.Close className="dialog-dismiss" aria-label="Close dialog">×</Primitive.Close>
+   <Primitive.Close className="dialog-dismiss" aria-label="Close dialog"><CloseIcon size={16} strokeWidth={1.8} aria-hidden="true"/></Primitive.Close>
   </Primitive.Content>
  </Primitive.Portal>;
 }

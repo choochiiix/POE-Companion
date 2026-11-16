@@ -1,20 +1,37 @@
-import { uiRoutes } from './server/routes.mjs';
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { stripTypeScriptTypes } from 'node:module';
 import { pathToFileURL } from 'node:url';
 
-// Local static server only. The browser runs the actual engine, not a second implementation.
+// Local server for the React app, offline data/assets, and existing engine modules.
 const root = new URL('./', import.meta.url);
+const rendererRoot = new URL('../renderer/dist/', import.meta.url);
 export function makeServer() {
   return createServer(async (req, res) => {
     try {
       const path = new URL(req.url ?? '/', 'http://localhost').pathname;
+      // Serve the React app at the established origin so existing browser saves
+      // remain available. Other requests go through the narrow local data/API map below.
+      const rendererPath = path === '/' || path === '/index.html'
+        ? 'index.html'
+        : /^\/assets\/[A-Za-z0-9._-]+\.(?:js|css|svg)$/.test(path)
+          ? path.slice(1)
+          : null;
+      if (rendererPath) {
+        const file = new URL(rendererPath, rendererRoot);
+        const extension = file.pathname.split('.').pop();
+        const body = await readFile(file);
+        const types = { js: 'text/javascript', css: 'text/css', svg: 'image/svg+xml' };
+        res.writeHead(200, {
+          'Content-Type': types[extension] || 'text/html',
+          'Cache-Control': 'no-store',
+          'X-Content-Type-Options': 'nosniff',
+        });
+        res.end(body);
+        return;
+      }
       let file;
-      const route = uiRoutes[path];
-      if (route) file = new URL(route, root);
-      else if (path === '/' || path === '/index.html') file = new URL('index.html', root);
-      else if (path === '/glossary-data.json') file = new URL('../glossary/master.json', root);
+      if (path === '/glossary-data.json') file = new URL('../glossary/master.json', root);
       else if (['/unique-art.json', '/catalog-data.json', '/skills-data.json', '/tag-data.json', '/tooltip-data.json', '/buff-data.json'].includes(path)) file = new URL(path.slice(1), root);
       else if (/^\/assets\/(?:uniques|gems|buffs)\/[a-f0-9]{24}\.png$/.test(path) || /^\/assets\/currency\/[a-z]+\.webp$/.test(path)) file = new URL(path.slice(1), root);
       else if (/^\/assets\/(?:ascendancies|classes)\/[a-z]+\.png$/.test(path)) file = new URL(path.slice(1), root);
@@ -30,9 +47,6 @@ export function makeServer() {
       const extension = file.pathname.split('.').pop();
       const ts = extension === 'ts';
       let body = await readFile(file);
-      if (route && path !== '/' + route && extension === 'js') {
-        body = body.toString('utf8').replace(/((?:from\s*|import\s*(?:\(\s*)?)['"])(\.[^'"]+)(['"])/g, (_, prefix, specifier, suffix) => prefix + new URL(specifier, 'http://localhost/' + route).pathname + suffix);
-      }
       if (ts) body = stripTypeScriptTypes(body.toString('utf8'), { mode: 'strip' });
       const types = { js:'text/javascript', mjs:'text/javascript', ts:'text/javascript', css:'text/css', html:'text/html', json:'application/json', png:'image/png', webp:'image/webp', jpg:'image/jpeg' };
       res.writeHead(200, {
@@ -54,6 +68,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     process.exitCode = 1;
   });
   server.listen(4317, '127.0.0.1', () =>
-    console.log('Crafting test UI: http://127.0.0.1:4317 â€” Ctrl+C to stop'),
+    console.log('Exile Companion: http://127.0.0.1:4317 â€” Ctrl+C to stop'),
   );
 }

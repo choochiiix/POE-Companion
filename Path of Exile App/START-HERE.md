@@ -1,24 +1,17 @@
 # Start here
 
-Upcoming UI overhaul: start at [docs/ui-overhaul/README.md](docs/ui-overhaul/README.md). Production remains in crafting-ui/; new design experiments belong in prototypes/ui-overhaul/.
+The production app is the React renderer. For the next task, read the project [README](README.md), then the current [handoff](docs/HANDOFF.md) and [next-task notes](docs/NEXT-TASK.md). The user has not specified the next feature request; do not invent work.
 
+Run the app with **Start Crafting.cmd** or `npm start`, then use **http://127.0.0.1:4317/**. Keep this origin for existing browser saves. The React preview on port 4321 has separate browser storage. Crafting history is session-only and is cleared by refresh.
 
-Read **README.md** for the current master handoff. A concise continuation brief is in [docs/HANDOFF.md](docs/HANDOFF.md).
+## Project map
 
-Double-click **Start Crafting.cmd** in this folder, or run `npm start` with Node 22.18+. Open **http://127.0.0.1:4317/** and leave the server running. Normal use needs no dependency installation and no internet. This is a local browser companion, not a packaged desktop app.
+- `renderer/src/`: React screens, shared UI components, and visual system.
+- `renderer/dist/`: generated bundle served by the normal local app.
+- `crafting-ui/server.mjs`: local server for the React bundle, offline data, artwork, and engine modules.
+- `crafting-ui/features/`: retained domain models/adapters and selected styles used by React.
+- `crafting-engine/`, `calculation-engine/`: game logic; keep mechanics out of presentation components.
+- `crafting-data/`, `crafting-ui/*.json`, `crafting-ui/assets/`, `glossary/`, `data-sources/`: offline datasets and artwork.
+- `resources/`, `references/`, `vendor/`: source material, provenance, licenses, and preserved upstream projects.
 
-Use the same browser origin for your saves: `localhost` and `127.0.0.1` store data separately. Refreshing clears the current crafting session; character, equipment, skills, tree, settings and themes have separate local persistence.
-
-## Organization
-
-- `crafting-engine/`: standalone TypeScript crafting engine and tests.
-- `crafting-data/`: generated crafting bundle and snapshot tests.
-- `crafting-ui/features/`: Character, Crafting, tree, item library, Skills, Compendium and Settings source.
-- `crafting-ui/shared/`, `styles/`, `server/`, `test/`: shared UI/models, tokens, route map and regression tests.
-- `crafting-ui/assets/`: local unique-item, buff and currency artwork; do not remove.
-- `scripts/`: explicit offline builds/imports and development checks.
-- `glossary/`, `resources/`, `data-sources/`, `references/`: glossary, cached sources/provenance/licenses and original archives; preserve them.
-- `docs/`: design, source limits, handoff and preview images.
-- `prototypes/catalogix/`: retained historical design concept, separate from production.
-
-The only project root is `C:/Users/wshan/Documents/ChatGPT/Path of Exile App`. No Git repository exists here. Do not create another project copy. See [docs/FILE-ORGANIZATION.md](docs/FILE-ORGANIZATION.md) for conventions and compatibility routes.
+The old vanilla frontend is retired. See [file organization](docs/FILE-ORGANIZATION.md) for current ownership. Preserve user changes, saved-data keys/formats, offline behavior, source data, artwork, and licenses. Do not commit or push unless the user asks.

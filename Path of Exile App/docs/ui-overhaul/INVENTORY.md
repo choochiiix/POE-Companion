@@ -1,33 +1,18 @@
-# Screen and dependency inventory
+# Feature inventory preserved through the React migration
 
-| Area | Production owner | Carry forward |
-| --- | --- | --- |
-| Shell | index.html, shared/layout/, styles/ | Six screens, navigation state, Settings modal |
-| Character | features/character/ | Class/ascendancy, equipment compatibility, gear Add/Edit/Remove, exact affix rolls |
-| Calculations | features/calculations/ | Stat cards, breakdowns, resistances, assumptions, compare/equip, pending diagnostics |
-| Crafting | features/crafting/ | Seeded rolls, undo/random state, targets, odds worker, history/spending |
-| Skill tree | features/tree/ | Pan/zoom/search, inspect/pin, allocation paths, masteries, saved selections/export |
-| Skills | features/skills/ | Browse/details, saved groups, support compatibility, Calculate this group |
-| Item library | features/items/ | Search/filter, unique cards, inspectors, compare/equip |
-| Compendium | features/compendium/ | Glossary, buffs/debuffs/flasks, source variants and definitions |
-| Settings | features/settings/ | Theme/font, density/text size/motion, scoped resets, storage notices |
-| Shared references | shared/definitions/, shared/tags/, shared/layout/cards.css | Inline definitions, reference-card styling, focus behavior |
+This is a functional inventory, not a current source-path map. The React implementation is under `renderer/src/`; see [current file organization](../FILE-ORGANIZATION.md).
 
-Paths above are relative to crafting-ui/.
+| Area | User-facing behavior to preserve |
+| --- | --- |
+| App shell | Six sections, navigation state, and Settings dialog |
+| Character | Class/ascendancy, equipment, detailed gear, and calculations |
+| Calculations | Stat cards, breakdowns, resistances, assumptions, compare/equip, and pending diagnostics |
+| Crafting | Seeded rolls, undo/random state, targets, odds, history, and spending |
+| Skill tree | Search, inspection, allocation paths, masteries, saved selections, and export |
+| Skills | Browse/details, saved groups, support compatibility, and calculation handoff |
+| Item library | Search/filter, unique cards, inspection, compare, and equip |
+| Compendium | Glossary, buffs/debuffs/flasks, source variants, and definitions |
+| Settings | Theme/font, density, text size, motion, scoped resets, and storage notices |
+| Shared reference UI | Inline definitions, fixed game-reference colors, and focus behavior |
 
-## Coupling to resolve deliberately
-
-- index.html contains initial markup; feature modules also construct screens. Static HTML alone does not represent the running layout.
-- features/calculations/calculations.js builds Character presentation, moves equipment into its grid and class controls into a dialog, then removes the old wrapper. Coordinate markup replacement with this setup so the new UI has one layout owner.
-- gear-editor.js owns drafts/cards/modal; gear-model.js validates through the actual crafting engine. Preserve that boundary.
-- build:change connects build consumers. Equipment changes also invalidate comparison overrides. Preserve event/getter contracts or migrate all consumers together.
-- server/routes.mjs maps legacy and canonical UI URLs; server.mjs also serves engine/data modules. Check routes and imports when moving files.
-- Global and feature styles cooperate today. Establish new ownership, then remove superseded rules instead of accumulating override layers.
-
-## Saves and sources
-
-Preserve all character, equipment, detailed gear, calculation, skill, tree, settings and theme schemas/keys. Detailed gear uses poe-companion.gear.v1; equipment base IDs use poe-companion.equipment.v1; context/overrides use poe-companion.calculation.v1. Tree saves are class/ascendancy-specific. Models remain the schema source of truth.
-
-Crafting history is session-only; reload loses it. Keep http://127.0.0.1:4317/ because localhost stores saves separately. Verify the current server process before stopping it.
-
-Preserve generated JSON, artwork, raw sources, archives, provenance and licenses in place. UI work does not imply data rebuilds or expanded calculation coverage. Unsupported mechanics remain diagnostic; selected PoB comparisons do not establish full parity.
+Keep user save keys and schemas stable. Crafting history is session-only. Keep unsupported game mechanics visible as diagnostics rather than implying complete calculation coverage. These requirements are also recorded in the current [handoff](../HANDOFF.md) and [calculation limits](../CALCULATIONS-UI.md).

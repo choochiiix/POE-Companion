@@ -1,30 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { makeServer } from '../server.mjs';
-test('local UI serves engine modules and blocks arbitrary files', async () => {
+test('React shell serves offline data and engine modules while blocking retired UI files', async () => {
   const server = makeServer();
   await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
   try {
     const url = `http://127.0.0.1:${server.address().port}`;
-    for (const path of [
-      '/',
-      '/app.js',
-      '/character.js',
-      '/character-data.js',
-      '/odds-worker.js',
-      '/style.css',
-      '/skills.js',
-      '/skills-model.js',
-      '/tag-model.js',
-      '/glossary-model.js',
-      '/definition-tooltips.js',
-      '/definition-tooltips.css',
-      '/skills.css',
-      '/src/index.ts',
-      '/src/model.ts',
-      '/src/repoe.ts',
-      '/test/fixtures.ts',
-    ]) {
+    const shell = await fetch(url + '/');
+    assert.equal(shell.status, 200);
+    assert.match(shell.headers.get('content-type'), /text\/html/);
+    const html = await shell.text();
+    assert.match(html, /<div id="root"><\/div>/);
+    const jsAsset = html.match(/src="(\/assets\/[^"]+\.js)"/)?.[1];
+    const cssAsset = html.match(/href="(\/assets\/[^"]+\.css)"/)?.[1];
+    assert.ok(jsAsset);
+    assert.ok(cssAsset);
+    for (const path of [jsAsset, cssAsset, '/src/index.ts', '/src/model.ts', '/src/repoe.ts', '/test/fixtures.ts']) {
       const response = await fetch(url + path);
       assert.equal(response.status, 200, path);
       const body = await response.text();
@@ -33,6 +24,9 @@ test('local UI serves engine modules and blocks arbitrary files', async () => {
         assert.match(response.headers.get('content-type'), /javascript/);
         assert.ok(!body.includes('export interface'));
       }
+    }
+    for (const path of ['/app.js', '/character.js', '/odds-worker.js', '/style.css', '/features/character/character.js']) {
+      assert.equal((await fetch(url + path)).status, 404, path);
     }
     const dataset = await fetch(url + '/data/repoe-poe1.json');
     assert.equal(dataset.status, 200);

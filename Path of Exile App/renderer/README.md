@@ -1,11 +1,28 @@
 # React renderer
 
-Parallel React 19 / TypeScript / shadcn renderer. The existing production app and every engine, dataset, save key, asset and route alias stay in place.
+The React 19 / TypeScript app is the normal frontend. The regular launcher serves the built files from `renderer/dist` at `http://127.0.0.1:4317/`, keeping the established browser origin and saved data. The local server continues to provide offline data, artwork, and engine-source endpoints.
 
-Run `pnpm install --frozen-lockfile` in this directory, then `pnpm build` and `node server.mjs`. Open http://127.0.0.1:4321. Set `RENDERER_PORT` to choose another standalone port. The combined server serves the built renderer and delegates existing offline data/artwork routes to the original server factory without connecting to or restarting the live application.
+## Build
 
-For development, keep the combined server running on 4321 and run `pnpm dev` (4320). Vite proxies offline resources to the standalone server. `pnpm typecheck` checks the renderer; the existing root regression suite checks engines and source adapters separately.
+From this directory, run:
 
-The current workspace reuses the already installed proof dependencies through a local node_modules junction. The package manifest and frozen lockfile make a normal independent install possible on another machine. The shadcn license is retained alongside the vendor archive.
-On Windows, `Start React Preview.cmd` in the project root opens the standalone preview using the bundled runtime. It never rebuilds or restarts the production application.
-Shared Button follows the pinned shadcn component source (license retained); Radix supplies dialog/popover accessibility. React adapters preserve the existing dropdown, disclosure and Plan Switch spring samples with explicit lifecycle cleanup. The renderer imports only pure source models/adapters and unchanged crafting/calculation engines. Vite may report ignored upstream Radix use-client directives; these do not affect this browser-only renderer build.
+```powershell
+pnpm install --frozen-lockfile
+pnpm build
+```
+
+Then restart the normal app (`npm start` from the project root or `Start Crafting.cmd`) to serve the updated bundle.
+
+## Development preview
+
+`Start React Preview.cmd` starts `server.mjs` at `http://127.0.0.1:4321/`. That separate port has separate browser storage. For Vite hot reload, start the combined preview server on 4321, then run `pnpm dev` on 4320; Vite proxies local data and artwork requests to the preview server. `pnpm typecheck` checks the renderer.
+
+The renderer uses bundled shadcn-style components and Radix primitives. Shared domain models and selected styles are imported from `crafting-ui/`; pure crafting/calculation engines remain in their own packages. The pinned shadcn license is retained in this directory.
+
+## UI icon standard
+
+Use `lucide-react` for UI icons and import them through `src/components/ui/icons.ts`. Keep icon sizing and stroke weight consistent with nearby controls. Do not add hand-drawn SVGs or text glyphs for generic UI actions. Preserve Path of Exile-specific artwork and game-semantic node symbols, since they represent source data rather than interface decoration.
+
+## Skill tree rendering
+
+The passive tree is drawn to canvas in `src/features/tree/tree-canvas.ts`. Nodes use circular marks sized by type; the **Highlight nodes** list emphasizes a selected category while dimming the rest. Matching nodes use a pointer-responsive orange-to-purple rim gradient. Adjust its colors, stops, glow, and pointer response in the `TREE_BEAM_STYLE` constant near the top of `tree-canvas.ts`. The animation is pointer-driven and respects reduced-motion preferences. Keep allocation and saved-tree behavior in `TreePage.tsx` and its existing adapters.

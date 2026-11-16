@@ -1,5 +1,5 @@
 {
-  "name": "crafting-engine-test-ui",
+  "name": "poe-companion-local-server",
   "private": true,
   "type": "module",
   "scripts": {
