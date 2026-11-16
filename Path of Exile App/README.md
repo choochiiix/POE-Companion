@@ -11,7 +11,7 @@ Local-first Path of Exile companion app. The React 19 / TypeScript frontend is t
 
 ## Windows desktop app
 
-- Install the Windows setup file from the GitHub release named **Exile Companion v0.2.0**. Setup creates a desktop shortcut and Start menu entry.
+- Download `release/Exile-Companion-Setup-0.2.0.exe` from this repository to install the Windows desktop app. Setup creates a desktop shortcut and Start menu entry.
 - To run the desktop build from source, install Node.js 22.18 or newer and pnpm, run `pnpm install`, then `pnpm desktop:dev` from this folder.
 - Build a Windows installer with `pnpm desktop:dist`. Electron opens the production renderer in its own window and runs the existing data server locally on loopback. No hosted backend is used; calculations run on the CPU and Chromium renders the interface using available GPU acceleration.
 

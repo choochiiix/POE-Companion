@@ -1,4 +1,5 @@
 node_modules/
 .validation/
 *.zip
-release/
+release/*
+!release/Exile-Companion-Setup-*.exe
