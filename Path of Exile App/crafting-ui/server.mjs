@@ -14,14 +14,14 @@ export function makeServer() {
       // remain available. Other requests go through the narrow local data/API map below.
       const rendererPath = path === '/' || path === '/index.html'
         ? 'index.html'
-        : /^\/assets\/[A-Za-z0-9._-]+\.(?:js|css|svg)$/.test(path)
+        : /^\/assets\/[A-Za-z0-9._-]+\.(?:js|css|svg|jpg|png)$/.test(path)
           ? path.slice(1)
           : null;
       if (rendererPath) {
         const file = new URL(rendererPath, rendererRoot);
         const extension = file.pathname.split('.').pop();
         const body = await readFile(file);
-        const types = { js: 'text/javascript', css: 'text/css', svg: 'image/svg+xml' };
+        const types = { js: 'text/javascript', css: 'text/css', svg: 'image/svg+xml', jpg: 'image/jpeg', png: 'image/png' };
         res.writeHead(200, {
           'Content-Type': types[extension] || 'text/html',
           'Cache-Control': 'no-store',
@@ -35,6 +35,7 @@ export function makeServer() {
       else if (['/unique-art.json', '/catalog-data.json', '/skills-data.json', '/tag-data.json', '/tooltip-data.json', '/buff-data.json'].includes(path)) file = new URL(path.slice(1), root);
       else if (/^\/assets\/(?:uniques|gems|buffs)\/[a-f0-9]{24}\.png$/.test(path) || /^\/assets\/currency\/[a-z]+\.webp$/.test(path)) file = new URL(path.slice(1), root);
       else if (/^\/assets\/(?:ascendancies|classes)\/[a-z]+\.png$/.test(path)) file = new URL(path.slice(1), root);
+      else if (path === '/devault-ascii-gradient.jpg') file = new URL('../renderer/dist/devault-ascii-gradient.jpg', import.meta.url);
       else if (/^\/tree-data\/[a-z0-9-]+\.(json|png|jpg|webp)$/.test(path)) file = new URL('../data-sources/pob-tree-3_29/' + path.split('/').pop(), root);
       else if (path === '/data/repoe-poe1.json') file = new URL('../crafting-data/repoe-poe1.json', root);
       else if (path === '/calculation-data.json') file = new URL('calculation-data.json', root);
@@ -71,3 +72,5 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     console.log('Exile Companion: http://127.0.0.1:4317 â€” Ctrl+C to stop'),
   );
 }
+
+

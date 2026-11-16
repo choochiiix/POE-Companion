@@ -14,6 +14,7 @@ Crafting history is session-only and disappears when the page is refreshed. Char
 ## Current code ownership
 
 - `renderer/src/` contains the React screens and components for Character, Crafting, Skill tree, Skills, Item library, Compendium, and Settings.
+- The Character page's aurora backdrop, generated palette, and GlassSurface layers are owned by `renderer/src/features/character/` and `renderer/src/components/ui/GlassSurface.*`. `renderer/scripts/generate-aurora.mjs` regenerates the background and palette CSS.
 - `renderer/dist/` is the generated production build served by the normal app. From `renderer/`, run `pnpm build` after changing the React source.
 - `crafting-ui/server.mjs` is the normal local server. `crafting-ui/features/` and selected `crafting-ui/shared/` and `crafting-ui/styles/` files contain domain models, adapters, and styles still used by React.
 - `crafting-engine/` and `calculation-engine/` hold the independent game logic. `crafting-data/`, `crafting-ui/*.json`, `crafting-ui/assets/`, `glossary/`, and `data-sources/` hold generated offline data and artwork.
@@ -24,6 +25,7 @@ The retired vanilla HTML shell, screen controllers, route aliases, and vanilla U
 ## UI and contributor rules
 
 - Make UI changes in `renderer/src/`. Reuse shared components for consistent app-wide updates instead of editing repeated controls one by one. The shared `SpringSelect` owns dropdown appearance/behavior.
+- The current aurora theme and WebGL GlassSurface treatment are scoped to the Character page and sidebar. Edit `renderer/scripts/generate-aurora.mjs` for palette/background changes; `aurora-palette.generated.css` is generated output. Glass refraction settings live in the `LiquidGlassLayer` helper in `CharacterPage.tsx`.
 - Use `lucide-react` for generic UI icons and import through `renderer/src/components/ui/icons.ts`. Keep PoE tree symbols and game artwork because they represent game data.
 - Keep visual changes compact and restrained; avoid blocky surfaces and forceful motion. Respect reduced-motion settings, focus/keyboard use, narrow layouts, and offline operation.
 - Keep mechanics in the crafting/calculation engines and use existing domain adapters. Preserve existing local-storage keys/formats, all source data and licenses, and local-only requests.

@@ -1,4 +1,4 @@
-# Current handoff — November 15, 2026
+# Current handoff — November 16, 2026
 
 ## Current state
 
@@ -7,6 +7,10 @@
 - `SpringSelect` is the shared dropdown used across screens. Recent work reduced dropdown motion and tightened the option highlight response.
 - UI icons use `lucide-react` through `renderer/src/components/ui/icons.ts`. Keep future generic interface icons on this shared entry point. Preserve game-specific tree symbols and PoE artwork.
 - The user prefers a compact, restrained interface and dislikes blocky panels and strong/violent motion. Keep motion modest and respect reduced-motion preferences, keyboard access, focus behavior, narrow screens, and offline use.
+- The Character route currently has the generated ASCII aurora background, matching green/teal UI palette, and React Bits GlassSurface WebGL layers on its sidebar and main panels. Glass uses distortion scale `-28`, zero RGB offsets, `displace={2}` for subtle diffusion, and `blur={17}` for the displacement map. See [renderer README](../renderer/README.md) for ownership and tuning notes.
+- Character overview layout: wide Equipment workspace beside a narrower right statistics rail for core stats, attributes, and breakdown. Resistance and skill context remain in lower support panels; the areas stack below 1050px. The aurora is fixed behind the full scrolling Character page.
+- Current glass settings: distortion scale `-28`, zero RGB offsets, `displace={3.5}`, and `blur={22}`. Glass text is neutral white/gray; green/teal stays for accents. Panel borders and glow rings are minimized while keyboard focus remains visible.
+- The shared workspace breadcrumb/header was removed from the app shell; route content now begins directly below the shell top. Navigation, route content, and storage behavior are unchanged.
 
 ## Preservation rules
 
@@ -20,12 +24,12 @@
 
 The full Node suite was **128/130 before the vanilla UI cleanup**; the two failures were stale pinned-PoB capture/tooling checks. The requested engine/data hash comparison is blocked because its baseline manifest is absent. The full suite has not been rerun since the cleanup, and broad release acceptance is not claimed. See [React migration](REACT-MIGRATION.md) and [React QA](REACT-QA.md) for details.
 
-Most recent UI work added Lucide icons, ran renderer TypeScript checking and a production Vite build, and loaded the rebuilt preview. The build completes; Vite reports the main chunk at about 502 kB, just over its 500 kB advisory threshold. The automated test suite was not run for that icon change.
+Most recent UI work arranged Character equipment beside a right statistics rail, tuned glass darkness/softness, standardized neutral text, reduced panel borders/glows, and extended the aurora behind the full page. A production Vite build succeeded; tests were not run for these visual changes. Review the full-page background and layout in the browser before release.
 
 ## Working tree
 
-The checkout has uncommitted changes from the React cutover cleanup (retired vanilla UI files and scripts removed, server/docs updated), recent shared dropdown-motion tuning, the Lucide icon integration and rebuilt `renderer/dist`, plus this handoff refresh. Preserve this combined work. Inspect `git status` before editing; do not assume every pending change belongs to the next request.
+The checkout has a large set of uncommitted changes from the React UI cutover, theme/background work, GlassSurface integration, generated build assets, and other recent UI work. Preserve this combined work. Inspect `git status` before editing; do not assume every pending change belongs to the next request.
 
 ## Next chat
 
-Read [README](../README.md), [START-HERE](../START-HERE.md), and [NEXT-TASK](NEXT-TASK.md), then inspect `git status` before editing. No new feature request has been supplied yet; acknowledge readiness and wait for the user's scope. Do not continue the previous task speculatively.
+Read [README](../README.md), [renderer README](../renderer/README.md), [START-HERE](../START-HERE.md), and [NEXT-TASK](NEXT-TASK.md), then inspect `git status` before editing. The current browser page is `http://127.0.0.1:4317/#character`. Continue UI work from the user's next request without reverting the existing uncommitted workspace changes.
