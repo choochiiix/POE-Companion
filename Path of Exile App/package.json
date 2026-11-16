@@ -2,12 +2,15 @@
   "name": "poe1-crafting-project",
   "version": "0.2.0",
   "private": true,
+  "main": "desktop/main.cjs",
   "type": "module",
   "engines": {
     "node": ">=22.18.0"
   },
   "scripts": {
     "start": "node crafting-ui/server.mjs",
+    "desktop:dev": "electron desktop/main.cjs",
+    "desktop:dist": "electron-builder --win nsis --x64",
     "tags:build": "node scripts/build-tags.mjs",
     "data:build": "node --experimental-strip-types scripts/build-data.mjs",
     "test": "node --experimental-strip-types --test crafting-engine/test/*.test.ts crafting-data/test/*.test.ts crafting-ui/test/*.test.mjs calculation-engine/test/*.test.ts",
@@ -20,6 +23,51 @@
   },
   "devDependencies": {
     "typescript": "~5.8.3",
-    "@types/node": "^22.0.0"
+    "@types/node": "^22.0.0",
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.exilecompanion.desktop",
+    "productName": "Exile Companion",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "desktop/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": ".",
+        "to": ".",
+        "filter": [
+          "crafting-ui/**",
+          "renderer/dist/**",
+          "glossary/master.json",
+          "catalog-data.json",
+          "unique-art.json",
+          "skills-data.json",
+          "tag-data.json",
+          "tooltip-data.json",
+          "buff-data.json",
+          "data-sources/pob-tree-3_29/**",
+          "crafting-data/repoe-poe1.json",
+          "crafting-engine/**",
+          "calculation-engine/src/**"
+        ]
+      }
+    ],
+    "win": {
+      "target": ["nsis"],
+      "artifactName": "Exile-Companion-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Exile Companion"
+    }
   }
 }

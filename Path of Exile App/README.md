@@ -9,6 +9,12 @@ Local-first Path of Exile companion app. The React 19 / TypeScript frontend is t
 - Keep using this address to retain the browser storage associated with existing saves. `localhost` and `127.0.0.1` have separate storage.
 - **Start React Preview.cmd** runs a separate preview on port 4321, with separate browser storage.
 
+## Windows desktop app
+
+- Install the Windows setup file from the GitHub release named **Exile Companion v0.2.0**. Setup creates a desktop shortcut and Start menu entry.
+- To run the desktop build from source, install Node.js 22.18 or newer and pnpm, run `pnpm install`, then `pnpm desktop:dev` from this folder.
+- Build a Windows installer with `pnpm desktop:dist`. Electron opens the production renderer in its own window and runs the existing data server locally on loopback. No hosted backend is used; calculations run on the CPU and Chromium renders the interface using available GPU acceleration.
+
 Crafting history is session-only and disappears when the page is refreshed. Character, gear, skills, tree, settings, themes, and calculation context use local browser storage. The app does not automatically reset or migrate saved data.
 
 ## Current code ownership
