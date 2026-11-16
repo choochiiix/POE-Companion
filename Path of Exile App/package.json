@@ -1,6 +1,6 @@
 {
   "name": "poe1-crafting-project",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "main": "desktop/main.cjs",
   "type": "module",
@@ -59,7 +59,9 @@
       }
     ],
     "win": {
-      "target": ["nsis"],
+      "target": [
+        "nsis"
+      ],
       "artifactName": "Exile-Companion-Setup-${version}.${ext}"
     },
     "nsis": {

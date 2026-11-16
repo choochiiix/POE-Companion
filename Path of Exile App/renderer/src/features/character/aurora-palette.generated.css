@@ -48,7 +48,6 @@
 
 .app-shell[data-route='character'] .app-sidebar {
   position: relative;
-  isolation: isolate;
   overflow: hidden;
   background: rgba(3, 11, 21, 0.08) !important;
   border-color: var(--aurora-line);
@@ -56,7 +55,7 @@
   -webkit-backdrop-filter: none !important;
   box-shadow: inset -1px 0 rgba(200, 248, 226, 0.12), 8px 0 32px var(--aurora-shadow);
 }
-.app-shell[data-route='character'] .app-sidebar > :not(.character-glass-layer) {
+.app-shell[data-route='character'] .app-sidebar > :not(.character-glass-layer):not(.sidebar-toggle) {
   position: relative;
   z-index: 1;
 }
@@ -76,14 +75,13 @@
   backdrop-filter: none;
 }
 #characterPanel[data-character-theme='nyx'] :is(.character-panel,.loadout-panel,.calculation-detail,.calculation-bottom-grid>section,.calculation-comparison-view) {
-  background: rgba(3, 11, 21, 0.12);
+  background: rgba(3, 11, 21, 0.05);
   border-color: transparent;
   box-shadow: 0 14px 34px var(--aurora-shadow);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
   border-radius: 12px;
   position: relative;
-  isolation: isolate;
   overflow: hidden;
 }
 .character-glass-backdrop {
@@ -112,7 +110,13 @@
 }
 .character-glass-layer .glass-surface__content { display: none; }
 .character-glass-layer .glass-surface__frame {
-  background: linear-gradient(145deg, rgba(3, 11, 21, 0.48), rgba(7, 27, 42, 0.38) 46%, rgba(78, 185, 173, 0.24)) !important;
+  background: linear-gradient(145deg, rgba(3, 11, 21, 0.11), rgba(7, 27, 42, 0.08) 46%, rgba(10, 43, 61, 0.05)) !important;
+  box-shadow: inset 0 1px rgba(200, 248, 226, 0.16), inset 0 -1px rgba(3, 11, 21, 0.2);
+}
+.character-glass-layer.glass-surface--svg {
+  background: linear-gradient(145deg, rgba(3, 11, 21, 0.11), rgba(7, 27, 42, 0.08) 46%, rgba(10, 43, 61, 0.05)) !important;
+  -webkit-backdrop-filter: var(--filter-id) blur(4px) saturate(112%);
+  backdrop-filter: var(--filter-id) blur(4px) saturate(112%);
   box-shadow: inset 0 1px rgba(200, 248, 226, 0.16), inset 0 -1px rgba(3, 11, 21, 0.2);
 }
 #characterPanel[data-character-theme='nyx'] :is(.character-panel,.loadout-panel,.calculation-detail,.calculation-bottom-grid>section,.calculation-comparison-view) > :not(.character-glass-layer) {

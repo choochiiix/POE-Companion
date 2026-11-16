@@ -11,7 +11,7 @@ Local-first Path of Exile companion app. The React 19 / TypeScript frontend is t
 
 ## Windows desktop app
 
-- Download `release/Exile-Companion-Setup-0.2.0.exe` from this repository to install the Windows desktop app. Setup creates a desktop shortcut and Start menu entry.
+- The latest committed Windows installer is `release/Exile-Companion-Setup-0.2.0.exe`; the source version is 0.3.0, and its matching installer will be attached to the 0.3.0 GitHub release after release approval. Setup creates a desktop shortcut and Start menu entry.
 - To run the desktop build from source, install Node.js 22.18 or newer and pnpm, run `pnpm install`, then `pnpm desktop:dev` from this folder.
 - Build a Windows installer with `pnpm desktop:dist`. Electron opens the production renderer in its own window and runs the existing data server locally on loopback. No hosted backend is used; calculations run on the CPU and Chromium renders the interface using available GPU acceleration.
 
@@ -31,7 +31,8 @@ The retired vanilla HTML shell, screen controllers, route aliases, and vanilla U
 ## UI and contributor rules
 
 - Make UI changes in `renderer/src/`. Reuse shared components for consistent app-wide updates instead of editing repeated controls one by one. The shared `SpringSelect` owns dropdown appearance/behavior.
-- The current aurora theme and WebGL GlassSurface treatment are scoped to the Character page and sidebar. Edit `renderer/scripts/generate-aurora.mjs` for palette/background changes; `aurora-palette.generated.css` is generated output. Glass refraction settings live in the `LiquidGlassLayer` helper in `CharacterPage.tsx`.
+- The Character page supports three locally bundled Aurora backgrounds with matching accents. Edit `renderer/scripts/generate-aurora.mjs` for the base generator and its generated palette; keep the variants and selectors coordinated. Glass refraction settings live in the shared `LiquidGlassLayer` helper in `CharacterPage.tsx`.
+- Keep the Character glass overlay and text contrast consistent with the [glass readability standard](docs/UI-STANDARDIZATION.md#character-glass-readability-standard). Tune its frame gradient in the aurora generator, regenerate, rebuild, and inspect the rendered cards; the underlying panel background does not control the visible glass tint.
 - Use `lucide-react` for generic UI icons and import through `renderer/src/components/ui/icons.ts`. Keep PoE tree symbols and game artwork because they represent game data.
 - Keep visual changes compact and restrained; avoid blocky surfaces and forceful motion. Respect reduced-motion settings, focus/keyboard use, narrow layouts, and offline operation.
 - Keep mechanics in the crafting/calculation engines and use existing domain adapters. Preserve existing local-storage keys/formats, all source data and licenses, and local-only requests.
