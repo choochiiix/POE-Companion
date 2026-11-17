@@ -14,6 +14,15 @@ test('stat adapter preserves source and rejects unknown contextual wording', () 
   assert.equal(source.modifiers.length,4); assert.equal(source.modifiers[2]!.value,-20);
   assert.equal(source.modifiers[2]!.kind,'MORE'); assert.equal(source.unsupported!.length,2);
 });
+test('shared tree and equipment wording routes resistance and paired defence stats', () => {
+  const source = translateStatLines('passive:example', 'passive', ['+12% to all Elemental Resistances', '+14% to Cold and Lightning Resistances', '8% increased Armour and Evasion Rating', 'mysterious contextual effect']);
+  assert.deepEqual(source.modifiers.map(mod => [mod.stat, mod.kind, mod.value]), [
+    ['fireResistance', 'BASE', 12], ['coldResistance', 'BASE', 12], ['lightningResistance', 'BASE', 12],
+    ['coldResistance', 'BASE', 14], ['lightningResistance', 'BASE', 14],
+    ['armour', 'INC', 8], ['evasion', 'INC', 8],
+  ]);
+  assert.deepEqual(source.unsupported, ['mysterious contextual effect']);
+});
 test('comparison boundary calculates complete independent snapshots without mutating saves', () => {
   const {assembled} = assembleTrial();
   const before = { ...assembled.input, attributes: {strength:0,dexterity:0,intelligence:0}, attributeBonuses:false };

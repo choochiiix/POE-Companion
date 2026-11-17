@@ -17,6 +17,25 @@ const names: Readonly<Record<string, Stat>> = {
 export function translateStatLines(id: string, kind: ModifierSource['kind'], lines: readonly string[]): ModifierSource {
   const modifiers: Modifier[] = [], unsupported: string[] = [];
   lines.forEach((line, index) => {
+    const sharedResistance = /^([+-]?[\d.]+)% to all (Elemental Resistances|Resistances)$/.exec(line);
+    if (sharedResistance) {
+      const types = sharedResistance[2] === 'Resistances' ? ['fire', 'cold', 'lightning', 'chaos'] as const : ['fire', 'cold', 'lightning'] as const;
+      for (const type of types) modifiers.push({ id: `line:${index}:${type}`, stat: `${type}Resistance`, kind: 'BASE', value: Number(sharedResistance[1]) });
+      return;
+    }
+    const pairedResistance = /^([+-]?[\d.]+)% to (Fire|Cold|Lightning|Chaos) and (Fire|Cold|Lightning|Chaos) Resistances$/.exec(line);
+    if (pairedResistance) {
+      for (const type of [pairedResistance[2]!.toLowerCase(), pairedResistance[3]!.toLowerCase()]) {
+        modifiers.push({ id: `line:${index}:${type}`, stat: `${type}Resistance`, kind: 'BASE', value: Number(pairedResistance[1]) });
+      }
+      return;
+    }
+    const pairedDefence = /^([\d.]+)% (increased|reduced) (Armour and Evasion Rating|Evasion Rating and Armour)$/.exec(line);
+    if (pairedDefence) {
+      const value = Number(pairedDefence[1]) * (pairedDefence[2] === 'reduced' ? -1 : 1);
+      modifiers.push({ id: `line:${index}:armour`, stat: 'armour', kind: 'INC', value }, { id: `line:${index}:evasion`, stat: 'evasion', kind: 'INC', value });
+      return;
+    }
     const percent = /^([\d.]+)% (increased|reduced|more|less) (.+)$/.exec(line);
     const flat = /^([+-]?[\d.]+)(%)? to (.+)$/.exec(line);
     const name = percent?.[3] ?? flat?.[3];

@@ -192,3 +192,14 @@
     color:CanvasText;
   }
 }
+
+/* RePoE flask PNGs are three horizontal inventory layers; crop each and stack them. */
+.unique-card-art .unique-card-art-image--flask {
+  width:52px;
+  height:104px;
+  max-width:100%;
+  background-size:157px 104px;
+  background-position:0 0, -52px 0, -105px 0;
+  background-repeat:no-repeat;
+}
+

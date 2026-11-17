@@ -29,3 +29,11 @@ test('rolled local armour applies per item before global scaling',()=>{
  const input=fixture();input.overrides['body-armour']={baseId:input.equipment['body-armour'],name:'Armour',lines:[],rawStats:{'local_physical_damage_reduction_rating_+%':100}};
  assert.equal(assembleWorkspace(input).calculation.defence.pools.armour.value,46);
 });
+test('selected tree resistance and equipped resistance modifiers reach the visible calculation',()=>{
+ const input=fixture();
+ input.tree={...input.tree,nodes:{...input.tree.nodes,adapterResistanceFixture:{id:'adapterResistanceFixture',name:'Resistance fixture',stats:['+12% to all Elemental Resistances']}}};
+ input.selection={selected:['adapterResistanceFixture'],masteries:{}};
+ input.overrides['body-armour']={baseId:input.equipment['body-armour'],name:'Resistant armour',lines:['+18% to Fire Resistance','+14% to Cold and Lightning Resistances']};
+ const result=assembleWorkspace(input).calculation.defence.resistances;
+ assert.equal(result.fire.effective,30);assert.equal(result.cold.effective,26);assert.equal(result.lightning.effective,26);assert.equal(result.chaos.effective,0);
+});

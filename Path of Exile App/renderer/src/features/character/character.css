@@ -85,3 +85,13 @@ body:has(.app-shell[data-aurora='rosegold']) #characterPanel[data-character-them
   #characterPanel .loadout-panel,
   #characterPanel .character-stat-column { order: initial; }
 }
+
+#characterPanel .calculation-resist-values>div small{display:block;margin-top:4px;color:var(--text-muted);font-size:11px;line-height:1.35}
+
+
+#characterPanel .resistance-sources{position:relative;margin-top:4px;font-size:11px}#characterPanel .resistance-sources summary{cursor:pointer;color:var(--text-muted);list-style:none}#characterPanel .resistance-sources summary::-webkit-details-marker{display:none}#characterPanel .resistance-sources summary::after{content:' ⓘ'}#characterPanel .resistance-sources[open] ul,#characterPanel .resistance-sources[open]>p{position:absolute;z-index:5;left:0;bottom:100%;min-width:160px;margin:0;padding:8px 12px;background:var(--surface-raised);border:1px solid var(--line);border-radius:6px;box-shadow:0 8px 20px #0008;text-align:left;color:var(--text-secondary)}#characterPanel .resistance-sources ul{list-style:none}#characterPanel .resistance-sources li{white-space:nowrap}
+
+#characterPanel .resistance-sources{display:none}#characterPanel .resistance-source-list{position:relative;margin-top:8px;font-size:11px}#characterPanel .resistance-source-list summary{cursor:pointer;color:var(--text-muted)}#characterPanel .resistance-source-list ul{margin:6px 0 0;padding-left:16px;color:var(--text-secondary)}#characterPanel .resistance-source-list li{margin:3px 0}#characterPanel .resistance-source-list p{margin:6px 0 0;color:var(--text-muted)}
+
+#characterPanel .calculation-resist-values>div{display:flex;align-items:baseline;justify-content:space-between;gap:8px}#characterPanel .calculation-resist-values>div>span{text-transform:capitalize}
+
