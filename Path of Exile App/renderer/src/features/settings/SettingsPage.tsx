@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Select } from '@/components/ui/select';
-import { LiquidGlassLayer } from '@/features/character/CharacterPage';
+import { LiquidGlassLayer } from '@/features/character/LiquidGlassLayer';
 import { getAppearanceController } from '@/adapters/appearance';
 import { readSave, writeSave } from '@/adapters/storage';
 import {

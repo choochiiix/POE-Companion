@@ -7,7 +7,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { CompendiumIcon, SkillTreeIcon, CraftingIcon, ItemLibraryIcon, SettingsIcon, SkillsIcon, CharacterIcon, SidebarCollapseIcon, SidebarExpandIcon } from '@/components/ui/icons';
 import { applyAppearance } from '@/adapters/appearance';
 import CharacterPage from '@/features/character/CharacterPage';
-import { LiquidGlassLayer } from '@/features/character/CharacterPage';
+import { LiquidGlassLayer } from '@/features/character/LiquidGlassLayer';
 import auroraEmerald from '@/features/character/aurora-emerald.png';
 import auroraViolet from '@/features/character/aurora-violet.png';
 import auroraRoseGold from '@/features/character/aurora-rosegold.png';

@@ -12,6 +12,10 @@
 - Current glass settings use native live backdrop filtering with restrained distortion and neutral white/gray text; accents, panel borders, and keyboard focus follow the selected Aurora palette.
 - Character-card glass readability is controlled by the generated GlassSurface tint gradient and live backdrop filter. Change it in `renderer/scripts/generate-aurora.mjs`, regenerate, rebuild, and inspect the actual overlay; changing the base panel background alone will not meaningfully change the glass. See [UI standardization](UI-STANDARDIZATION.md#character-glass-readability-standard).
 - The shared workspace breadcrumb/header was removed from the app shell; route content now begins directly below the shell top. Navigation, route content, and storage behavior are unchanged.
+- Character equipment cards now use rarity-colored item detail layouts. The resistance source disclosure groups modifiers by equipment source, including armor, weapons, jewelry, and passive tree points.
+- The equipment editor uses the Character route's liquid-glass treatment, responsive spacing, and Aurora-specific accents. Since its dialog is portaled outside the Character panel, theme tokens are explicitly bound to the dialog for Emerald, Violet, and Rose Gold; input text and placeholder colors follow the selected palette. Labels use consistent Title Case.
+- The shared `LiquidGlassLayer` lives in `renderer/src/features/character/LiquidGlassLayer.tsx` so Character, Settings, the app shell, and the gear editor can reuse the same glass implementation.
+- Latest editor styling verification: renderer TypeScript check and Vite build pass. Manual desktop and narrow viewport inspection passed. Automated Playwright visual scripts could not start because Playwright is not installed in the app environment.
 
 ## Preservation rules
 
