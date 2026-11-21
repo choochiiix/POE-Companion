@@ -1,5 +1,7 @@
 # Calculation engine
 
+The [PoB 2.68.1 comparison](reference/v2.68.1/README.md) records the latest calculation coverage, executable fixtures, and source snapshot limits. Run it with `npm run calculations:release`.
+
 Latest: the production app now consumes this library through `crafting-ui/features/calculations/` using the shared snapshot API. It integrates Character, saved Skills, tree selections and Catalog/Crafting comparisons without adding DOM/storage dependencies here. See `docs/CALCULATIONS-UI.md` for source-adapter coverage, partial-result semantics and separate context persistence. Latest full regression:124 tests passed; live calculation, Settings and Skills browser suites passed. This supersedes historical no-UI statements below.
 
 Latest expansion: [16-build actual PoB corpus](corpus/README.md), **288 matching selected comparisons**, reusable conservative stat/effect adapters, and shared `calculateBuild` / `compareBuilds` snapshot APIs for future screen integration. UI designs are separate under `prototypes/calculations/` for user review; no production integration. Full parity remains incomplete.

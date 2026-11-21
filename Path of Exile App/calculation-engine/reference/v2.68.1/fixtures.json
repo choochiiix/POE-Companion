@@ -1,0 +1,114 @@
+[
+  {
+    "id": "default-scion",
+    "character": "Scion",
+    "classId": 0,
+    "level": 1,
+    "penalty": -60,
+    "enemy": {"level": 1, "armour": 0, "evasion": 10000, "accuracy": 100},
+    "incoming": {"kind": "spell", "damage": {"physical": 20, "fire": 20}}
+  },
+  {
+    "id": "rolled-sword",
+    "character": "Witch",
+    "classId": 3,
+    "level": 20,
+    "penalty": 0,
+    "skill": "default-attack",
+    "enemy": {"level": 20, "armour": 0, "evasion": 500, "accuracy": 100},
+    "sword": {
+      "implicit": "40% increased Global Accuracy Rating",
+      "explicit": [
+        "Adds 2 to 4 Physical Damage",
+        "20% increased Physical Damage",
+        "10% increased Attack Speed",
+        "20% increased Critical Strike Chance"
+      ],
+      "rawStats": {
+        "local_minimum_added_physical_damage": 2,
+        "local_maximum_added_physical_damage": 4,
+        "local_physical_damage_+%": 20,
+        "local_attack_speed_+%": 10,
+        "local_critical_strike_chance_+%": 20
+      }
+    }
+  },
+  {
+    "id": "rolled-sword-accuracy",
+    "character": "Witch",
+    "classId": 3,
+    "level": 20,
+    "penalty": 0,
+    "skill": "default-attack",
+    "enemy": {"level": 20, "armour": 0, "evasion": 500, "accuracy": 100},
+    "sword": {
+      "implicit": "40% increased Global Accuracy Rating",
+      "explicit": [
+        "Adds 2 to 4 Physical Damage",
+        "20% increased Physical Damage",
+        "10% increased Attack Speed",
+        "20% increased Critical Strike Chance"
+      ],
+      "rawStats": {
+        "local_minimum_added_physical_damage": 2,
+        "local_maximum_added_physical_damage": 4,
+        "local_physical_damage_+%": 20,
+        "local_attack_speed_+%": 10,
+        "local_critical_strike_chance_+%": 20
+      }
+    },
+    "mods": ["+300 to Accuracy Rating"]
+  },
+  {
+    "id": "fireball-penetration",
+    "character": "Witch",
+    "classId": 3,
+    "level": 20,
+    "penalty": 0,
+    "skill": "fireball",
+    "treeVersion": "3_29",
+    "gemLevel": 1,
+    "gemQuality": 0,
+    "supportLevel": 1,
+    "passives": [57264, 33296],
+    "enemy": {"level": 20, "armour": 0, "evasion": 100, "accuracy": 100, "fireResistance": 75, "firePenetration": 20, "fireExposure": 10},
+    "mods": ["Inflict Fire Exposure on Hit, applying -10% to Fire Resistance", "Damage Penetrates 20% Fire Resistance"]
+  },
+  {
+    "id": "conversion",
+    "character": "Witch",
+    "classId": 3,
+    "level": 20,
+    "penalty": 0,
+    "skill": "default-attack",
+    "sword": {"implicit": "40% increased Global Accuracy Rating", "explicit": [], "rawStats": {}},
+    "enemy": {"level": 20, "armour": 0, "evasion": 100, "accuracy": 100},
+    "mods": [
+      "50% of Physical Damage Converted to Lightning Damage",
+      "50% of Lightning Damage Converted to Cold Damage",
+      "20% increased Cold Damage"
+    ]
+  },
+  {
+    "id": "mixed-spell-hit",
+    "character": "Scion",
+    "classId": 0,
+    "level": 20,
+    "penalty": 0,
+    "enemy": {"level": 20, "armour": 0, "evasion": 100, "accuracy": 100},
+    "incoming": {"kind": "spell", "damage": {"physical": 40, "fire": 80}, "suppressionChance": 100, "suppressionEffect": 40, "hitsPerSecond": 1},
+    "mods": ["+100% to Fire Resistance", "+100% chance to Suppress Spell Damage"]
+  },
+  {
+    "id": "reserved-mana-and-es",
+    "character": "Witch",
+    "classId": 3,
+    "level": 20,
+    "penalty": 0,
+    "enemy": {"level": 20, "armour": 0, "evasion": 100, "accuracy": 100},
+    "robe": {"baseEnergyShield": 17},
+    "clarityLevel": 1,
+    "manaReservation": 34,
+    "manaRegeneration": 2.9
+  }
+]

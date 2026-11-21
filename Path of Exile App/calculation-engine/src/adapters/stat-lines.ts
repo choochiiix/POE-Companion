@@ -8,7 +8,7 @@ const names: Readonly<Record<string, Stat>> = {
   'Spell Damage': 'spellDamage', 'Physical Damage': 'physicalDamage', 'Fire Damage': 'fireDamage',
   'Lightning Damage': 'lightningDamage', 'Cold Damage': 'coldDamage', 'Chaos Damage': 'chaosDamage',
   'Attack Speed': 'attackSpeed', 'Cast Speed': 'castSpeed', 'Critical Strike Chance': 'critChance',
-  'Global Accuracy Rating': 'accuracy', 'maximum Life': 'life', 'maximum Mana': 'mana',
+  'Global Accuracy Rating': 'accuracy', 'Accuracy Rating': 'accuracy', 'maximum Life': 'life', 'maximum Mana': 'mana',
   'Armour': 'armour', 'Evasion Rating': 'evasion', 'maximum Energy Shield': 'energyShield',
   'Strength': 'strength', 'Dexterity': 'dexterity', 'Intelligence': 'intelligence',
   'Fire Resistance': 'fireResistance', 'Cold Resistance': 'coldResistance', 'Lightning Resistance': 'lightningResistance', 'Chaos Resistance': 'chaosResistance',
@@ -20,13 +20,13 @@ export function translateStatLines(id: string, kind: ModifierSource['kind'], lin
     const sharedResistance = /^([+-]?[\d.]+)% to all (Elemental Resistances|Resistances)$/.exec(line);
     if (sharedResistance) {
       const types = sharedResistance[2] === 'Resistances' ? ['fire', 'cold', 'lightning', 'chaos'] as const : ['fire', 'cold', 'lightning'] as const;
-      for (const type of types) modifiers.push({ id: `line:${index}:${type}`, stat: `${type}Resistance`, kind: 'BASE', value: Number(sharedResistance[1]) });
+      for (const type of types) modifiers.push({ id: `line:${index}:${type}`, stat: `${type}Resistance` as Stat, kind: 'BASE', value: Number(sharedResistance[1]) });
       return;
     }
     const pairedResistance = /^([+-]?[\d.]+)% to (Fire|Cold|Lightning|Chaos) and (Fire|Cold|Lightning|Chaos) Resistances$/.exec(line);
     if (pairedResistance) {
       for (const type of [pairedResistance[2]!.toLowerCase(), pairedResistance[3]!.toLowerCase()]) {
-        modifiers.push({ id: `line:${index}:${type}`, stat: `${type}Resistance`, kind: 'BASE', value: Number(pairedResistance[1]) });
+        modifiers.push({ id: `line:${index}:${type}`, stat: `${type}Resistance` as Stat, kind: 'BASE', value: Number(pairedResistance[1]) });
       }
       return;
     }

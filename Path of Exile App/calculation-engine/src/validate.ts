@@ -1,11 +1,12 @@
 import { damageTypes } from './model.ts';
 import type { CalculationInput } from './model.ts';
 import { validateConversions } from './conversion.ts';
-import { validateIncomingHit } from './advanced-defence.ts';
+import { validateDefenceConfiguration, validateIncomingHit } from './advanced-defence.ts';
 
 const stats = new Set(['damage', ...damageTypes.map(type => `${type}Damage`), 'elementalDamage', 'attackDamage', 'spellDamage',
   'attackSpeed', 'castSpeed', 'actionSpeed', 'accuracy', 'critChance', 'critMultiplier', 'life', 'mana', 'energyShield', 'armour', 'evasion', 'strength', 'dexterity', 'intelligence',
   ...['fire', 'cold', 'lightning', 'chaos'].flatMap(type => [`${type}Resistance`, `${type}MaximumResistance`])]);
+const resistanceTypes = new Set<string>(damageTypes.filter(type => type !== 'physical'));
 export function validate(input: CalculationInput): void {
   const finite = (value: number, label: string, min = -Number.MAX_VALUE) => {
     if (!Number.isFinite(value) || value < min) throw new RangeError(`Invalid ${label}`);
@@ -15,9 +16,23 @@ export function validate(input: CalculationInput): void {
   if (input.rounding !== undefined && !['continuous', 'pob'].includes(input.rounding)) throw new TypeError('Unknown rounding policy');
   validateConversions(input.conversion ?? []);
   if (input.incomingHit) validateIncomingHit(input.incomingHit);
+  if (input.defenceConfig !== undefined) validateDefenceConfiguration(input.defenceConfig);
   for (const key of ['life', 'mana', 'energyShield', 'armour', 'evasion'] as const) finite(input.pools[key], key, 0);
   for (const type of ['fire', 'cold', 'lightning', 'chaos'] as const) {
     finite(input.resistances[type], 'resistance'); finite(input.enemy.resistances[type], 'enemy resistance');
+  }
+  for (const layer of ['exposure', 'penetration'] as const) {
+    const adjustments = input.enemy[layer];
+    if (adjustments === undefined) continue;
+    if (adjustments === null || typeof adjustments !== 'object' || Array.isArray(adjustments)) {
+      throw new TypeError(`Invalid enemy ${layer}`);
+    }
+    for (const [type, value] of Object.entries(adjustments)) {
+      if (!resistanceTypes.has(type) || (layer === 'exposure' && type === 'chaos')) {
+        throw new TypeError(`Invalid ${type} ${layer}`);
+      }
+      finite(value, `enemy ${type} ${layer}`, 0);
+    }
   }
   finite(input.resistancePenalty, 'resistance penalty');
   for (const key of ['armour', 'evasion', 'accuracy'] as const) finite(input.enemy[key], `enemy ${key}`, 0);

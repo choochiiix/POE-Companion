@@ -10,7 +10,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
-import { LiquidGlassLayer } from '@/components/ui/LiquidGlassLayer';
 import { Select } from '@/components/ui/select';
 import { getAppearanceController } from '@/adapters/appearance';
 import { auroraStorageKey, isAuroraChoice, readAurora, saveAurora } from '@/adapters/aurora';
@@ -77,7 +76,6 @@ export default function SettingsPage() {
   return (
     <div id="settingsPanel" className="settings-panel">
       <section className="settings-card workspace-glass" aria-labelledby="settings-appearance-title">
-        <LiquidGlassLayer />
         <h2 id="settings-appearance-title">Appearance</h2>
         <div className="form-grid settings-appearance-grid">
           <label>
@@ -147,7 +145,6 @@ export default function SettingsPage() {
       </section>
 
       <section className="settings-card workspace-glass" aria-labelledby="settings-display-title">
-        <LiquidGlassLayer />
         <h2 id="settings-display-title">Display preferences</h2>
         <div className="form-grid settings-display-grid">
           {([

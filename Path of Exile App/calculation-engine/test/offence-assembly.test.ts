@@ -46,6 +46,14 @@ test('Fireball level-20 snapshot assembles base damage, effectiveness and explic
   assert.ok(Math.abs(out.offence!.dps - 2426 * 1.025 / 0.75) < 1e-9);
 });
 
+test('direct weapon resolution follows PoB endpoint and attack-rate rounding', () => {
+  const resolved = resolveWeapon({ id: 'continuous', damage: { physical: { min: 4, max: 9 } }, attacksPerSecond: 1000 / 645,
+    criticalChance: 5, local: { increasedPhysicalDamage: 20, increasedAttackSpeed: 10 } });
+  assert.equal(resolved.damage.physical!.min, 5);
+  assert.equal(resolved.damage.physical!.max, 11);
+  assert.equal(resolved.attacksPerSecond, 1.71);
+});
+
 test('support assembly rejects explicit incompatibility, scopes modifiers and preserves unsupported diagnostics', () => {
   const out = assembleSkill({ definition: { id: 'spell', kind: 'spell', tags: ['fire'], baseTime: 1, baseCritChance: 0, damage: { fire: { min: 10, max: 10 } } }, accuracy: 0,
     supports: [{ id: 'wrong', compatibleKinds: ['attack'], modifiers: [{ id: 'bad', stat: 'damage', kind: 'MORE', value: 999 }] },

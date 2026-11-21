@@ -6,11 +6,21 @@
 }
 
 body:has(.app-shell[data-aurora]) .settings-dialog.dialog-content {
-  background: rgb(3 11 21 / 84%);
+  background: rgb(3 11 21 / 94%);
   border-color: var(--aurora-border);
   box-shadow: 0 22px 60px var(--aurora-shadow), inset 0 1px var(--aurora-control);
-  backdrop-filter: blur(16px) saturate(124%);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   color: var(--text);
+}
+
+body:has(.app-shell[data-aurora]) .settings-dialog.dialog-content[data-state='open'] {
+  animation: settings-dialog-in 160ms ease-out;
+}
+
+@keyframes settings-dialog-in {
+  from { opacity: 0; transform: translateY(4px) scale(.99); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 .settings-dialog > .dialog-header {
@@ -44,7 +54,10 @@ body:has(.app-shell[data-aurora]) .settings-dialog.dialog-content {
   gap: 13px;
   padding: var(--space-2);
   border: 1px solid var(--aurora-line);
-  background: color-mix(in srgb, var(--aurora-accent) 5%, rgb(3 11 21 / 32%));
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--aurora-accent) 7%, transparent), transparent 55%),
+    color-mix(in srgb, var(--aurora-accent) 5%, rgb(3 11 21 / 72%));
+  box-shadow: inset 0 1px color-mix(in srgb, var(--aurora-control) 32%, transparent);
 }
 
 .settings-card h2 {

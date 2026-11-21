@@ -1,5 +1,5 @@
 import type { DamageConversion } from './conversion.ts';
-import type { IncomingHitScenario } from './advanced-defence.ts';
+import type { DefenceConfiguration, IncomingHitScenario } from './advanced-defence.ts';
 export const damageTypes = ['physical', 'lightning', 'cold', 'fire', 'chaos'] as const;
 export type DamageType = typeof damageTypes[number];
 export type ResistanceType = Exclude<DamageType, 'physical'>;
@@ -36,6 +36,16 @@ export interface SkillInput {
   readonly critMultiplier: number;
   readonly accuracy: number;
 }
+export interface EnemyInput {
+  readonly armour: number;
+  readonly evasion: number;
+  readonly accuracy: number;
+  readonly resistances: Record<ResistanceType, number>;
+  /** Selected exposure magnitude, in percentage points, after resolving competing sources. */
+  readonly exposure?: Partial<Record<ResistanceType, number>>;
+  /** Effective hit penetration, in percentage points. */
+  readonly penetration?: Partial<Record<ResistanceType, number>>;
+}
 export interface CalculationInput {
   readonly version: 1;
   /** Explicit snapshot rounding; continuous remains the backward-compatible default. */
@@ -45,9 +55,10 @@ export interface CalculationInput {
   readonly pools: { readonly life: number; readonly mana: number; readonly energyShield: number; readonly armour: number; readonly evasion: number };
   readonly resistances: Record<ResistanceType, number>;
   readonly resistancePenalty: number;
-  readonly enemy: { readonly armour: number; readonly evasion: number; readonly accuracy: number; readonly resistances: Record<ResistanceType, number> };
+  readonly enemy: EnemyInput;
   readonly incomingPhysicalHit: number;
   readonly conversion?: readonly DamageConversion[];
+  readonly defenceConfig?: DefenceConfiguration;
   readonly incomingHit?: IncomingHitScenario;
   readonly skill?: SkillInput;
 }

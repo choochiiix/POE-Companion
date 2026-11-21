@@ -18,6 +18,7 @@
     "calculations:compare": "node --experimental-strip-types calculation-engine/reference/compare.ts",
     "calculations:trial": "node --experimental-strip-types calculation-engine/trial/run.ts",
     "calculations:corpus": "node --experimental-strip-types calculation-engine/corpus/run.ts",
+    "calculations:release": "node --experimental-strip-types calculation-engine/reference/v2.68.1/compare.mjs",
     "calculations:data": "node scripts/build-calculation-ui.mjs",
     "typecheck": "tsc --project crafting-engine/tsconfig.json && tsc --project crafting-data/tsconfig.json && tsc --project calculation-engine/tsconfig.json"
   },

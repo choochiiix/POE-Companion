@@ -6,11 +6,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.app-shell:not([data-route='character']) {
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-color: #595959;
-}
 body {
   --accent: var(--aurora-accent);
   --accent-hover: var(--aurora-soft);

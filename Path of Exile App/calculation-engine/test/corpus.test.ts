@@ -14,6 +14,12 @@ test('stat adapter preserves source and rejects unknown contextual wording', () 
   assert.equal(source.modifiers.length,4); assert.equal(source.modifiers[2]!.value,-20);
   assert.equal(source.modifiers[2]!.kind,'MORE'); assert.equal(source.unsupported!.length,2);
 });
+
+test('stat adapter recognizes the pinned ordinary Accuracy Rating wording', () => {
+  const source = translateStatLines('accuracy-fixture', 'equipment', ['+300 to Accuracy Rating']);
+  assert.deepEqual(source.modifiers, [{ id: 'line:0', stat: 'accuracy', kind: 'BASE', value: 300 }]);
+  assert.deepEqual(source.unsupported, []);
+});
 test('shared tree and equipment wording routes resistance and paired defence stats', () => {
   const source = translateStatLines('passive:example', 'passive', ['+12% to all Elemental Resistances', '+14% to Cold and Lightning Resistances', '8% increased Armour and Evasion Rating', 'mysterious contextual effect']);
   assert.deepEqual(source.modifiers.map(mod => [mod.stat, mod.kind, mod.value]), [

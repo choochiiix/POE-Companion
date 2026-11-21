@@ -1,4 +1,10 @@
-# Current handoff — November 16, 2026
+# Current handoff — November 21, 2026
+
+## Calculation upgrade
+
+- The production workspace adapter now resolves rolled weapon stats and exposes hit, resource, and survivability breakdowns. Existing screens use the same adapter and save formats. Future panels can read the new outputs directly. Scenario controls can supply optional encounter inputs through the adapter.
+- The executable PoB Community 2.68.1 comparison matched 190 selected values across seven fixtures. The full regression passed 145 tests, including 57 calculation-engine tests, and the production bundle passed desktop and narrow Edge smoke checks. See the [reference guide](../calculation-engine/reference/v2.68.1/README.md) for reproduction commands, field mappings, and coverage limits.
+- Settings now uses an opaque outer dialog and lightweight preference cards. The rebuilt renderer includes these styles and the calculation upgrade.
 
 ## Current state
 

@@ -69,11 +69,20 @@ export function assembleBuild(build: BuildInput) {
   sources.push(...(build.passives ?? []), ...(build.buffs ?? []), ...(build.gems ?? []), ...(build.configuration ?? []), ...(build.sources ?? []));
   const input: CalculationInput = {
     version: build.version, sources, pools: { ...build.pools }, resistances: { ...build.resistances },
-    resistancePenalty: build.resistancePenalty, enemy: { ...build.enemy, resistances: { ...build.enemy.resistances } },
+    resistancePenalty: build.resistancePenalty, enemy: { ...build.enemy, resistances: { ...build.enemy.resistances },
+      ...(build.enemy.exposure === undefined ? {} : { exposure: { ...build.enemy.exposure } }),
+      ...(build.enemy.penetration === undefined ? {} : { penetration: { ...build.enemy.penetration } }) },
     incomingPhysicalHit: build.incomingPhysicalHit,
     ...(build.rounding === undefined ? {} : { rounding: build.rounding }),
     ...(build.conversion === undefined ? {} : { conversion: build.conversion.map(rule => ({ ...rule })) }),
     ...(build.incomingHit === undefined ? {} : { incomingHit: { ...build.incomingHit, damage: { ...build.incomingHit.damage }, ...(build.incomingHit.takenAs === undefined ? {} : { takenAs: build.incomingHit.takenAs.map(rule => ({ ...rule })) }) } }),
+    ...(build.defenceConfig === undefined ? {} : { defenceConfig: {
+      ...build.defenceConfig,
+      ...(build.defenceConfig.reservation === undefined ? {} : { reservation: Object.fromEntries(Object.entries(build.defenceConfig.reservation).map(([pool, value]) => [pool, value ? { ...value } : value])) }),
+      ...(build.defenceConfig.recovery === undefined ? {} : { recovery: Object.fromEntries(Object.entries(build.defenceConfig.recovery).map(([pool, value]) => [pool, value ? { ...value } : value])) }),
+      ...(build.defenceConfig.energyShieldRecharge === undefined ? {} : { energyShieldRecharge: { ...build.defenceConfig.energyShieldRecharge } }),
+      ...(build.defenceConfig.unsupportedPoolRouting === undefined ? {} : { unsupportedPoolRouting: [...build.defenceConfig.unsupportedPoolRouting] }),
+    } }),
     ...(build.conditions === undefined ? {} : { conditions: [...build.conditions] }),
     ...(build.skill === undefined ? {} : { skill: { ...build.skill, damage: Object.fromEntries(Object.entries(build.skill.damage).map(([type, range]) => [type, { ...range }])) } }),
   };

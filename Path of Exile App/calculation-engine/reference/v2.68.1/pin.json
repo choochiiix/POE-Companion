@@ -1,0 +1,39 @@
+{
+  "version": "2.68.1",
+  "revision": "a41fec6c20f822a658ae5df1273e8c69d5969bac",
+  "archiveUrl": "https://codeload.github.com/PathOfBuildingCommunity/PathOfBuilding/zip/a41fec6c20f822a658ae5df1273e8c69d5969bac",
+  "archiveSha256": "23459dd146f08b7248d1aec2e4e6e4a2a175962cd1caa85956c94a459600c18b",
+  "upstreamFiles": [
+    "manifest.xml",
+    "runtime/lua51.dll",
+    "src/HeadlessWrapper.lua",
+    "src/GameVersions.lua",
+    "src/Modules/CalcSetup.lua",
+    "src/Modules/CalcActiveSkill.lua",
+    "src/Modules/CalcPerform.lua",
+    "src/Modules/CalcOffence.lua",
+    "src/Modules/CalcDefence.lua",
+    "src/Modules/CalcSections.lua",
+    "src/Modules/ConfigOptions.lua",
+    "src/Modules/Calcs.lua",
+    "src/Classes/Item.lua",
+    "src/Data/Gems.lua",
+    "src/Data/Misc.lua",
+    "src/Data/SkillStatMap.lua",
+    "src/Data/Skills/act_int.lua",
+    "src/Data/Skills/sup_int.lua",
+    "src/TreeData/3_29/tree.lua",
+    "src/TreeData/3_30/tree.lua",
+    "spec/System/TestAttacks_spec.lua",
+    "spec/System/TestDefence_spec.lua"
+  ],
+  "localSources": [
+    "crafting-ui/calculation-data.json",
+    "crafting-ui/skills-data.json",
+    "data-sources/pob-tree-3_29/tree-view.json",
+    "data-sources/repoe-poe1/base_items.json",
+    "data-sources/repoe-poe1/mods.json",
+    "data-sources/repoe-poe1/provenance.json",
+    "resources/gem-import-report.json"
+  ]
+}

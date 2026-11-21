@@ -26,6 +26,8 @@ export interface ActiveSkillDefinition {
   /** Multipliers, not percentages. Independent base and added-damage factors. */
   readonly baseMultiplier?: number;
   readonly addedDamageEffectiveness?: number;
+  /** Selected catalog evidence; numerical definition values must already match this level/quality. */
+  readonly sourceEvidence?: { readonly level: number; readonly quality: number; readonly sourceId: string };
   readonly unsupported?: readonly string[];
 }
 export interface SupportInput {
@@ -63,6 +65,7 @@ export function resolveWeapon(weapon: WeaponInput) {
   if (!weapon.id.trim()) throw new TypeError('Weapon id required');
   ranges(weapon.damage); ranges(weapon.local?.addedDamage);
   const local = weapon.local ?? {};
+  // PoB v2.68.1 Item.lua:2338-2344 applies local physical increase, then quality, then rounds endpoints.
   const physicalFactor = Math.max(0, 1 + finite(local.increasedPhysicalDamage ?? 0, 'local physical increase', -100) / 100)
     * (1 + finite(local.quality ?? 0, 'weapon quality') / 100);
   const attacksPerSecond = Math.round(finite(weapon.attacksPerSecond, 'weapon attack rate', Number.MIN_VALUE)
@@ -84,6 +87,11 @@ export function resolveWeapon(weapon: WeaponInput) {
 export function assembleSkill(input: SkillAssemblyInput) {
   const definition = input.definition;
   if (!definition.id.trim() || !['attack', 'spell'].includes(definition.kind)) throw new TypeError('Invalid skill definition');
+  if (definition.sourceEvidence && (!definition.sourceEvidence.sourceId.trim()
+    || !Number.isInteger(definition.sourceEvidence.level) || definition.sourceEvidence.level < 1
+    || !Number.isFinite(definition.sourceEvidence.quality) || definition.sourceEvidence.quality < 0 || definition.sourceEvidence.quality > 100)) {
+    throw new TypeError('Invalid active skill source evidence');
+  }
   if (definition.kind === 'attack' && !input.weapon) throw new TypeError('Ordinary attack requires weapon');
   if (definition.kind === 'spell' && (definition.baseTime === undefined || definition.baseCritChance === undefined)) throw new TypeError('Spell requires base time and critical chance');
   ranges(definition.damage); ranges(input.addedDamage);
@@ -116,5 +124,5 @@ export function assembleSkill(input: SkillAssemblyInput) {
     baseCritChance: finite(weapon?.criticalChance ?? definition.baseCritChance!, 'skill critical chance'),
     critMultiplier: finite(input.criticalMultiplier ?? 150, 'critical multiplier', 100), accuracy: finite(input.accuracy, 'accuracy') };
   if (skill.baseCritChance > 100) throw new RangeError('Critical chance exceeds 100%');
-  return { skill, sources, rejectedSupports, weapon };
+  return { skill, sources, rejectedSupports, weapon, ...(definition.sourceEvidence ? { sourceEvidence: { ...definition.sourceEvidence } } : {}) };
 }
