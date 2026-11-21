@@ -33,3 +33,5 @@
 .spring-dropdown-options {scrollbar-width:none;-ms-overflow-style:none}
 .spring-dropdown-options::-webkit-scrollbar {display:none;width:0;height:0}
 
+
+.spring-dropdown-group{position:sticky;top:0;z-index:2;display:flex;align-items:center;min-height:34px;margin:5px 0 3px;padding:7px 10px;color:var(--text-primary);font-size:11px;font-weight:750;line-height:1.3;letter-spacing:.055em;text-transform:uppercase;background:color-mix(in srgb,var(--accent) 15%,var(--surface));border-top:1px solid color-mix(in srgb,var(--accent) 48%,var(--control-border));border-bottom:1px solid color-mix(in srgb,var(--accent) 28%,transparent);border-radius:5px;text-shadow:0 1px 8px color-mix(in srgb,var(--accent) 22%,transparent)}.spring-dropdown-group:first-child{margin-top:2px}
