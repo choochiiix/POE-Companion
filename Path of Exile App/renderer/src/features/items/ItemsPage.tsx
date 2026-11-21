@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { Panel } from '@/components/ui/panel';
 import { Select } from '@/components/ui/select';
 import { DefinitionText } from '@/components/DefinitionText';
 import { fetchJson } from '@/adapters/api';
@@ -28,7 +29,64 @@ function CatalogWorkspace({data,artwork}:{data:CatalogData;artwork:ArtworkData})
  function viewBase(base:CatalogItem){update({...clearFilters('base'),category:base.category});setSelected(base.id);}
  function viewUnique(unique:CatalogItem){update({...clearFilters('unique'),category:unique.category,search:unique.name});setVariants(new Map(variants).set(unique.family,unique.id));setSelected(unique.id);}
  const baseDetails=(base:CatalogItem)=><section data-definition-surface="item-modifier"><h3>{base.name}</h3><p>{base.category} / {base.itemClass} / {base.baseType} · Level {base.level}</p><p>Requirements: {JSON.stringify(base.requirements)}</p>{base.variant&&<p>Selected: {base.variant} · {base.legacy?'Legacy':'Non-legacy'}</p>}{(['implicit','explicit'] as const).map(field=><div key={field}><h4>{field} mods</h4>{!base[field].length&&<p>None</p>}{base[field].map((mod,index)=><div key={index}><p><DefinitionText text={mod.text} surface="item-modifier" record={base.id}/></p><small>{mod.key} | {JSON.stringify(mod.ranges)}{mod.unparsed?' UNPARSED':''}</small></div>)}</div>)}{Object.entries(base.stats).map(([key,value])=><p key={key}>{key}: {value}</p>)}<h4>Uniques using this base</h4>{!uniques.some(u=>u.baseId===base.id)&&<p>None in source data</p>}<div className="actions">{uniques.filter(u=>u.baseId===base.id).map(u=><Button variant="outline" size="sm" key={u.id} onClick={()=>viewUnique(u)}>{u.name} / {u.variant}</Button>)}</div></section>;
- return <><div className="page-heading"><div><h1>Item library</h1><p className="muted">{data.report.definitions.toLocaleString()} PoB unique definitions · {uniques.length.toLocaleString()} variants · Offline source snapshot</p></div></div><LibraryLayout title="Item inspector" categories={['',...categories].map(category=><Button key={category} variant="ghost" disabled={filters.mode==='base'&&!category} aria-pressed={filters.category===category} onClick={()=>update({...filters,category})}>{category||'All items'}</Button>)} inspector={inspected?(inspected.baseId?<><UniqueCard key={inspected.id} item={inspected} artwork={artwork} bases={bases} variants={[]} readonly/><p className="source-note">Reference details · use the library controls to change your setup.</p></>:baseDetails(inspected)):<p>Select Inspect on a record to see its details here.</p>}><div className="catalog-filters"><label>Browse<Select value={filters.mode} onChange={e=>update(clearFilters(e.target.value as CatalogFilters['mode']))}><option value="unique">Unique catalog</option><option value="base">Base browser</option></Select></label><label>Category<Select value={filters.category} onChange={e=>update({...filters,category:e.target.value})}><option value="" disabled={filters.mode==='base'}>All types</option>{categories.map(value=><option key={value}>{value}</option>)}</Select></label><label className="catalog-search">Search name, base or mods<Input type="search" placeholder="Search items…" value={filters.search} onChange={e=>update({...filters,search:e.target.value})}/></label><label>Item class<Select value={filters.itemClass} onChange={e=>update({...filters,itemClass:e.target.value})}><option value="">All item classes</option>{classes.map(value=><option key={value}>{value}</option>)}</Select></label><label>Required attribute<Select value={filters.attribute} onChange={e=>update({...filters,attribute:e.target.value})}><option value="">Any</option>{['strength','dexterity','intelligence'].map(value=><option key={value}>{value}</option>)}</Select></label><label>Maximum required level<Input type="number" min={0} step={1} placeholder="Any level" value={filters.level} onChange={e=>update({...filters,level:e.target.value})}/></label><label>Stat<Select value={filters.stat} onChange={e=>update({...filters,stat:e.target.value})}><option value="">Any modifier</option>{stats.map(value=><option key={value}>{value}</option>)}</Select></label><label>Sort<Select value={filters.sort} onChange={e=>update({...filters,sort:e.target.value as CatalogFilters['sort']})}><option value="name">Name</option><option value="level">Level</option><option value="stat" disabled={!filters.stat}>First stat range maximum, descending</option></Select></label><Button variant="outline" className="catalog-reset" onClick={()=>update(clearFilters(filters.mode))}>Clear filters</Button></div><p className="source-note" role="status">{filters.mode==='unique'?`${families.length.toLocaleString()} uniques · ${visible.length.toLocaleString()} matching versions · Sorted by type`:`${visible.length.toLocaleString()} matching bases · Sorted by type`}</p>{filters.mode==='base'?<><label>Category / class / base<Select value={item?.id||''} onChange={e=>setSelected(e.target.value)}>{[...new Set(visible.map(i=>`${i.category} / ${i.itemClass}`))].map(group=><optgroup key={group} label={group}>{visible.filter(i=>`${i.category} / ${i.itemClass}`===group).map(i=><option key={i.id} value={i.id}>{i.baseType} — {i.name}</option>)}</optgroup>)}</Select></label>{item?<>{baseDetails(item)}<Button variant="outline" onClick={()=>{setInspected(item);revealInspector('Item inspector');}}>Inspect base</Button></>:<p>No bases match these filters.</p>}</>:<section className="unique-results">{!visible.length&&<p>No uniques match these filters.</p>}{[...new Set(families.slice(0,120).map(g=>`${g.item.category} / ${g.item.itemClass}`))].map(key=><div key={key}><h3 className="unique-group-heading">{key}</h3><div className="unique-card-list">{families.slice(0,120).filter(g=>`${g.item.category} / ${g.item.itemClass}`===key).map(({item,variants:versions})=><UniqueCard key={item.id} item={item} artwork={artwork} bases={bases} variants={versions} onVariant={id=>setVariants(new Map(variants).set(item.family,id))} onBase={viewBase} onInspect={()=>{setInspected(item);revealInspector('Item inspector');}}/>)}</div></div>)}{families.length>120&&<p className="source-note">Showing the first 120 of {families.length} uniques. Refine search or filters to find any indexed unique.</p>}</section>}</LibraryLayout><details className="source-note"><summary>{data.report.diagnostics.length} source diagnostics · import coverage</summary><p>{data.report.limitations.join(' ')}</p><p>{data.report.missingFlavor} variant records have no matched flavor text. Missing text is explicitly marked. Full item/raw-line report: resources/catalog-import-report.json.</p></details></>;
+ return <><div className="page-heading"><div><h1>Item library</h1><p className="muted">{data.report.definitions.toLocaleString()} PoB unique definitions · {uniques.length.toLocaleString()} variants · Offline source snapshot</p></div></div><LibraryLayout title="Item inspector" categories={['',...categories].map(category=><Button key={category} variant="ghost" disabled={filters.mode==='base'&&!category} aria-pressed={filters.category===category} onClick={()=>update({...filters,category})}>{category||'All items'}</Button>)} inspector={inspected?(inspected.baseId?<><UniqueCard key={inspected.id} item={inspected} artwork={artwork} bases={bases} variants={[]} readonly/><p className="source-note">Reference details · use the library controls to change your setup.</p></>:baseDetails(inspected)):<p>Select Inspect on a record to see its details here.</p>}>
+  <Panel aria-label="Item filters">
+    <div className="library-filter-grid catalog-filter-grid">
+      <label>
+        Browse
+        <Select value={filters.mode} onChange={event => update(clearFilters(event.target.value as CatalogFilters['mode']))}>
+          <option value="unique">Unique catalog</option>
+          <option value="base">Base browser</option>
+        </Select>
+      </label>
+      <label>
+        Category
+        <Select value={filters.category} onChange={event => update({...filters, category: event.target.value})}>
+          <option value="" disabled={filters.mode === 'base'}>All types</option>
+          {categories.map(value => <option key={value}>{value}</option>)}
+        </Select>
+      </label>
+      <label className="catalog-filter-search">
+        Search name, base or mods
+        <Input type="search" placeholder="Search items…" value={filters.search} onChange={event => update({...filters, search: event.target.value})} />
+      </label>
+      <label>
+        Item class
+        <Select value={filters.itemClass} onChange={event => update({...filters, itemClass: event.target.value})}>
+          <option value="">All item classes</option>
+          {classes.map(value => <option key={value}>{value}</option>)}
+        </Select>
+      </label>
+      <label>
+        Required attribute
+        <Select value={filters.attribute} onChange={event => update({...filters, attribute: event.target.value})}>
+          <option value="">Any</option>
+          {['strength', 'dexterity', 'intelligence'].map(value => <option key={value}>{value}</option>)}
+        </Select>
+      </label>
+      <label>
+        Maximum required level
+        <Input type="number" min={0} step={1} placeholder="Any level" value={filters.level} onChange={event => update({...filters, level: event.target.value})} />
+      </label>
+      <label>
+        Stat
+        <Select value={filters.stat} onChange={event => update({...filters, stat: event.target.value})}>
+          <option value="">Any modifier</option>
+          {stats.map(value => <option key={value}>{value}</option>)}
+        </Select>
+      </label>
+      <label>
+        Sort
+        <Select value={filters.sort} onChange={event => update({...filters, sort: event.target.value as CatalogFilters['sort']})}>
+          <option value="name">Name</option>
+          <option value="level">Level</option>
+          <option value="stat" disabled={!filters.stat}>First stat range maximum, descending</option>
+        </Select>
+      </label>
+      <Button variant="outline" onClick={() => update(clearFilters(filters.mode))}>Clear filters</Button>
+    </div>
+  </Panel>
+  <p className="source-note" role="status">{filters.mode==='unique'?`${families.length.toLocaleString()} uniques · ${visible.length.toLocaleString()} matching versions · Sorted by type`:`${visible.length.toLocaleString()} matching bases · Sorted by type`}</p>{filters.mode==='base'?<Panel aria-label="Base details"><label>Category / class / base<Select value={item?.id||''} onChange={e=>setSelected(e.target.value)}>{[...new Set(visible.map(i=>`${i.category} / ${i.itemClass}`))].map(group=><optgroup key={group} label={group}>{visible.filter(i=>`${i.category} / ${i.itemClass}`===group).map(i=><option key={i.id} value={i.id}>{i.baseType} — {i.name}</option>)}</optgroup>)}</Select></label>{item?<>{baseDetails(item)}<Button variant="outline" onClick={()=>{setInspected(item);revealInspector('Item inspector');}}>Inspect base</Button></>:<p>No bases match these filters.</p>}</Panel>:<section className="unique-results">{!visible.length&&<p>No uniques match these filters.</p>}{[...new Set(families.slice(0,120).map(g=>`${g.item.category} / ${g.item.itemClass}`))].map(key=><div key={key}><h3 className="unique-group-heading">{key}</h3><div className="unique-card-list">{families.slice(0,120).filter(g=>`${g.item.category} / ${g.item.itemClass}`===key).map(({item,variants:versions})=><UniqueCard key={item.id} item={item} artwork={artwork} bases={bases} variants={versions} onVariant={id=>setVariants(new Map(variants).set(item.family,id))} onBase={viewBase} onInspect={()=>{setInspected(item);revealInspector('Item inspector');}}/>)}</div></div>)}{families.length>120&&<p className="source-note">Showing the first 120 of {families.length} uniques. Refine search or filters to find any indexed unique.</p>}</section>}</LibraryLayout><details className="source-note"><summary>{data.report.diagnostics.length} source diagnostics · import coverage</summary><p>{data.report.limitations.join(' ')}</p><p>{data.report.missingFlavor} variant records have no matched flavor text. Missing text is explicitly marked. Full item/raw-line report: resources/catalog-import-report.json.</p></details></>;
 }
 
 

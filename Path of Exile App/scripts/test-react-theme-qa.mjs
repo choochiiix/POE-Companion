@@ -39,19 +39,24 @@ try{
    const style=node=>{if(!node)return null;const computed=getComputedStyle(node);return {backgroundColor:computed.backgroundColor,backgroundImage:computed.backgroundImage,color:computed.color,borderColor:computed.borderColor,fontFamily:computed.fontFamily,fontSize:computed.fontSize};};
    return {card:style(element),header:style(element.querySelector('header')),title:style(element.querySelector('header h4')),body:style(element.querySelector('.equipped-gear-body,.unique-card-body,.gem-card-body')),modifier:style(element.querySelector('.gear-mod-block p,.item-mod-normal,.gem-value'))};
   });
-  const reference=await capture(),backgrounds=new Set();
+  const reference=await capture(),backgrounds=new Set(),sidebarBackgrounds=new Set();
   await nav.getByRole('button',{name:'Settings',exact:true}).click();
   await settings.waitFor();
   for(const preset of themePresets){
    await page.locator('#colorTheme').selectOption(preset.id);
-   backgrounds.add(await page.locator('.app-sidebar').evaluate(element=>getComputedStyle(element).backgroundColor));
+   sidebarBackgrounds.add(await page.locator('.app-sidebar').evaluate(element=>getComputedStyle(element).backgroundColor));
+   if(verifyAppTheme){
+    backgrounds.add(await page.locator('#workspace-content .ui-input:visible').first()
+     .evaluate(element=>getComputedStyle(element).backgroundColor));
+   }
    assert.deepEqual(await capture(),reference,`${label} reference card changed under ${preset.id}`);
   }
   for(const font of ['theme',...Object.keys(presetFontStyles)]){
    await page.locator('#themeFont').selectOption(font);
    assert.deepEqual(await capture(),reference,`${label} reference card changed under font ${font}`);
   }
-  if(verifyAppTheme)assert.ok(backgrounds.size>1,'Application palette still changes outside the fixed game-reference card');
+  assert.equal(sidebarBackgrounds.size,1,'Sidebar keeps the selected Aurora glass when the color theme changes');
+  if(verifyAppTheme)assert.ok(backgrounds.size>1,'Saved palette changes the workspace input outside the fixed game-reference card');
   await page.getByRole('button',{name:'Restore original theme'}).click();
   await page.keyboard.press('Escape');
   await settings.waitFor({state:'hidden'});

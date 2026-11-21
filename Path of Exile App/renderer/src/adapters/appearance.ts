@@ -5,6 +5,7 @@ let controller:ReturnType<typeof createThemeController>|undefined;
 export function getAppearanceController(){return controller??=createThemeController({root:document.documentElement});}
 export function applyAppearance() {
   const controller = getAppearanceController();
+  document.documentElement.dataset.colorTheme = Object.keys(controller.getTheme().colors).length ? 'custom' : 'original';
   const settings = readSave(settingsStorageKey,validateSettings);
   document.documentElement.dataset.density = settings.density;
   document.documentElement.dataset.textSize = settings.textSize;

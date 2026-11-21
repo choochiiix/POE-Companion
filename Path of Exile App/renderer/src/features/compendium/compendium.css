@@ -1,0 +1,114 @@
+.compendium-records {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.compendium-table {
+  table-layout: fixed;
+  overflow-wrap: anywhere;
+}
+
+.compendium-table th:first-child {
+  width: 48%;
+}
+
+.data-table.compendium-table td {
+  padding-block: var(--space-half);
+}
+
+[data-density='compact'] .data-table.compendium-table td {
+  padding-block: var(--space-compact);
+}
+
+.compendium-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.compendium-table tbody tr:has([aria-pressed='true']) {
+  background: var(--selection-bg);
+}
+
+.compendium-table .compendium-record {
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  min-height: 30px;
+  padding: var(--space-half) var(--space-dense);
+  color: var(--text-secondary);
+  text-align: left;
+  white-space: normal;
+}
+
+.compendium-table .compendium-record[aria-pressed='true'] {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.buff-row-icon {
+  flex: none;
+  object-fit: contain;
+}
+
+.buff-inspector-icon {
+  object-fit: contain;
+}
+
+.buff-source-id {
+  display: block;
+  color: var(--text-muted);
+  font-size: 10px;
+}
+
+.compendium-definition {
+  line-height: var(--line-body);
+}
+
+.compendium-badge {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.compendium-reference details {
+  margin: var(--space-1) 0;
+  border-top: 1px solid var(--line);
+  padding-top: var(--space-dense);
+}
+
+.compendium-reference summary {
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.compendium-reference summary:hover {
+  color: var(--text);
+}
+
+.compendium-reference summary + p {
+  margin-top: var(--space-dense);
+}
+
+.compendium-reference p {
+  margin-bottom: var(--space-1);
+}
+
+[data-text-size='large'] .compendium-table {
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 700px) {
+  .compendium-table th:first-child {
+    width: 58%;
+  }
+
+  .compendium-table :is(th, td):last-child {
+    display: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .compendium-record[aria-pressed='true'] {
+    outline: 1px solid Highlight;
+  }
+}

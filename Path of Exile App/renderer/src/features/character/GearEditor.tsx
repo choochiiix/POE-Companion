@@ -8,7 +8,7 @@ import { SpringSelect } from '@/components/ui/spring-select';
 import {
   Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle,
 } from '@/components/ui/dialog';
-import { LiquidGlassLayer } from './LiquidGlassLayer';
+import { LiquidGlassLayer } from '@/components/ui/LiquidGlassLayer';
 
 type GearRoll = { id: string; values: Record<string, number> };
 export interface GearRow {
@@ -189,7 +189,7 @@ export function GearEditor({ slot, bases, mods, equipment, current, onClose, onS
 
   return (
     <Dialog open onOpenChange={open => { if (!open) onClose(); }}>
-      <DialogContent className="character-design-dialog character-glass-dialog gear-editor" onEscapeKeyDown={event => {
+      <DialogContent variant="character" className="character-glass-dialog gear-editor" onEscapeKeyDown={event => {
         if (!searchOpen) return;
         event.preventDefault();
         closeSearch();

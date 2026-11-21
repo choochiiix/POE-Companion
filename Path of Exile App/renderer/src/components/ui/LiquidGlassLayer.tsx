@@ -4,7 +4,6 @@ export function LiquidGlassLayer({
   borderRadius = 12,
   className = 'character-glass-layer',
 }: {
-  backdrop?: unknown;
   borderRadius?: number;
   className?: string;
 }) {

@@ -1,8 +1,19 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
+import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import { LiquidGlassLayer } from '@/components/ui/LiquidGlassLayer';
 import { Select } from '@/components/ui/select';
-import { LiquidGlassLayer } from '@/features/character/LiquidGlassLayer';
 import { getAppearanceController } from '@/adapters/appearance';
+import { auroraStorageKey, isAuroraChoice, readAurora, saveAurora } from '@/adapters/aurora';
 import { readSave, writeSave } from '@/adapters/storage';
 import {
   themePresets,
@@ -19,15 +30,6 @@ import {
 import type { SettingsSave } from './types';
 import './settings.css';
 
-const auroraStorageKey = 'poe-companion.aurora-background.v1';
-const auroraChoices = ['emerald', 'violet', 'rosegold'] as const;
-function readAuroraChoice() {
-  try {
-    const choice = localStorage.getItem(auroraStorageKey);
-    return auroraChoices.includes(choice as typeof auroraChoices[number]) ? choice! : 'emerald';
-  } catch { return 'emerald'; }
-}
-
 export default function SettingsPage() {
   const [controller] = useState(getAppearanceController);
   const [initial] = useState(() => {
@@ -42,20 +44,27 @@ export default function SettingsPage() {
   const [settings, setSettings] = useState(initial.value);
   const [status, setStatus] = useState(initial.error || controller.getError());
   const [theme, setTheme] = useState(controller.getTheme());
-  const [aurora, setAurora] = useState(readAuroraChoice);
+  const [aurora, setAurora] = useState(readAurora);
+  const [resetOpen, setResetOpen] = useState(false);
   const palette = identifyPreset(theme);
   const font = identifyFontStyle(theme);
 
+  useEffect(() => {
+    const sync = (event: StorageEvent) => {
+      if (!event.key || event.key === auroraStorageKey) setAurora(readAurora());
+    };
+    window.addEventListener('storage', sync);
+    return () => window.removeEventListener('storage', sync);
+  }, []);
+
   function save(next: SettingsSave) {
     setSettings(next);
-    document.documentElement.dataset.density = next.density;
-    document.documentElement.dataset.textSize = next.textSize;
-    document.documentElement.dataset.motion = next.motion;
     setStatus(
       writeSave(settingsStorageKey, next)
         ? 'Storage unavailable. Preferences apply until this page is reloaded.'
         : 'Preferences saved on this device.',
     );
+    window.dispatchEvent(new Event('appearance:change'));
   }
 
   function saveTheme(next: ReturnType<typeof controller.getTheme>) {
@@ -67,8 +76,8 @@ export default function SettingsPage() {
 
   return (
     <div id="settingsPanel" className="settings-panel">
-      <section className="settings-card" aria-labelledby="settings-appearance-title">
-        <LiquidGlassLayer className="character-glass-layer settings-glass-layer" />
+      <section className="settings-card workspace-glass" aria-labelledby="settings-appearance-title">
+        <LiquidGlassLayer />
         <h2 id="settings-appearance-title">Appearance</h2>
         <div className="form-grid settings-appearance-grid">
           <label>
@@ -107,10 +116,11 @@ export default function SettingsPage() {
           Aurora background
           <Select id="auroraBackground" value={aurora} onChange={event => {
             const next = event.target.value;
-            if (!auroraChoices.includes(next as typeof auroraChoices[number])) return;
+            if (!isAuroraChoice(next)) return;
             setAurora(next);
-            try { localStorage.setItem(auroraStorageKey, next); } catch { /* Keep the current session choice. */ }
-            window.dispatchEvent(new Event('aurora:change'));
+            setStatus(saveAurora(next)
+              ? 'Aurora saved on this device.'
+              : 'Storage unavailable. Aurora applies until this page is reloaded.');
           }}>
             <option value="emerald">Aurora — Emerald</option>
             <option value="violet">Aurora — Violet</option>
@@ -119,7 +129,7 @@ export default function SettingsPage() {
           <small>Changes the local background and matching interface accents.</small>
         </label>
         <p className="settings-note">
-          Themes change colors and fonts only. Equipped and unique item cards keep their game-reference colors and typography. Fonts use local installations with system fallbacks; nothing is downloaded.
+          Color themes and local fonts style workspace text and inset surfaces. Aurora controls the backdrop and interface accents.
         </p>
         <div className="settings-actions">
           <Button
@@ -136,19 +146,20 @@ export default function SettingsPage() {
         </div>
       </section>
 
-      <section className="settings-card" aria-labelledby="settings-display-title">
-        <LiquidGlassLayer className="character-glass-layer settings-glass-layer" />
+      <section className="settings-card workspace-glass" aria-labelledby="settings-display-title">
+        <LiquidGlassLayer />
         <h2 id="settings-display-title">Display preferences</h2>
         <div className="form-grid settings-display-grid">
           {([
-            ['Display density', 'density', [['standard', 'Standard'], ['compact', 'Compact']], 'Compact reduces gaps in library panels and glossary rows.'],
-            ['Text size', 'textSize', [['standard', 'Standard'], ['large', 'Large']], 'Larger text for controls and reference cards. Browser zoom is also supported.'],
+            ['Display density', 'density', [['standard', 'Standard'], ['compact', 'Compact']], 'Compact reduces spacing in controls and panels.'],
+            ['Text size', 'textSize', [['standard', 'Standard'], ['large', 'Large']], 'Larger text for controls and reference cards.'],
             ['Motion', 'motion', [['system', 'Follow system'], ['reduced', 'Reduce motion']], 'Your operating system’s reduced-motion preference is always respected.'],
           ] as const).map(([label, key, choices, hint]) => (
             <label key={key}>
               {label}
               <Select
                 value={settings[key]}
+                aria-label={label}
                 aria-describedby={`settings-${key}-hint`}
                 onChange={event => save({ ...settings, [key]: event.target.value })}
               >
@@ -158,14 +169,26 @@ export default function SettingsPage() {
             </label>
           ))}
         </div>
-        <div className="settings-actions">
-          <Button variant="outline" onClick={() => save({ ...defaultSettings } as SettingsSave)}>
-            Reset preferences
-          </Button>
-        </div>
-        <p className="settings-note">
-          Resets only these preferences. Your saved characters, equipment, skill groups and tree are preserved.
-        </p>
+        <Dialog open={resetOpen} onOpenChange={setResetOpen}>
+          <div className="settings-actions">
+            <DialogTrigger asChild>
+              <Button variant="outline">Reset preferences</Button>
+            </DialogTrigger>
+          </div>
+          <DialogContent className="settings-reset-dialog">
+            <DialogHeader>
+              <DialogTitle>Reset display preferences?</DialogTitle>
+              <DialogDescription>Restore the defaults for display density, text size, and motion.</DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <DialogClose asChild><Button variant="ghost">Cancel</Button></DialogClose>
+              <Button onClick={() => {
+                save({ ...defaultSettings } as SettingsSave);
+                setResetOpen(false);
+              }}>Reset preferences</Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       </section>
       <p className="settings-status" role="status">{status}</p>
     </div>

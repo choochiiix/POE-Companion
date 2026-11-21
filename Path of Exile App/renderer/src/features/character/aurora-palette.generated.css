@@ -22,6 +22,33 @@
   --aurora-shadow: rgba(3, 11, 21, 0.62);
 }
 
+body:has(.app-shell[data-aurora='violet']) {
+  --aurora-accent:#d3b8ef;
+  --aurora-soft:#f5d5ff;
+  --aurora-muted:#c0a6d5;
+  --aurora-text:#f0e5ff;
+  --aurora-border:#b678dd88;
+  --aurora-line:#8965b866;
+  --aurora-glow:#b678dd44;
+  --aurora-shadow:#0008;
+  --aurora-selection:#8965b844;
+  --aurora-control:#d3b8ef20;
+  --aurora-teal:#b678dd;
+}
+body:has(.app-shell[data-aurora='rosegold']) {
+  --aurora-accent:#f3b4a0;
+  --aurora-soft:#fff0d8;
+  --aurora-muted:#e5b57d;
+  --aurora-text:#fff0d8;
+  --aurora-border:#dc7f8388;
+  --aurora-line:#dc7f8366;
+  --aurora-glow:#dc7f8344;
+  --aurora-shadow:#0008;
+  --aurora-selection:#b9576644;
+  --aurora-control:#f3b4a020;
+  --aurora-teal:#dc7f83;
+}
+
 body {
   --aurora-control: color-mix(in srgb, var(--aurora-accent) 14%, transparent);
   --control-hover: var(--aurora-control);
@@ -50,7 +77,7 @@ body {
   --focus-ring: 2px solid var(--aurora-accent);
 }
 
-.app-shell[data-route='character'] .app-sidebar {
+.app-shell[data-aurora] .app-sidebar {
   position: relative;
   overflow: hidden;
   background: rgba(3, 11, 21, 0.08) !important;
@@ -59,7 +86,7 @@ body {
   -webkit-backdrop-filter: none !important;
   box-shadow: inset -1px 0 rgba(200, 248, 226, 0.12), 8px 0 32px var(--aurora-shadow);
 }
-.app-shell[data-route='character'] .app-sidebar > :not(.character-glass-layer):not(.sidebar-toggle) {
+.app-shell[data-aurora] .app-sidebar > :not(.character-glass-layer):not(.sidebar-toggle) {
   position: relative;
   z-index: 1;
 }
@@ -78,6 +105,7 @@ body {
   box-shadow: 0 18px 48px var(--aurora-shadow), inset 0 1px rgba(200, 248, 226, 0.08);
   backdrop-filter: none;
 }
+.workspace-glass,
 #characterPanel[data-character-theme='nyx'] :is(.character-panel,.loadout-panel,.calculation-detail,.calculation-bottom-grid>section,.calculation-comparison-view) {
   background: rgba(3, 11, 21, 0.05);
   border-color: transparent;
@@ -87,19 +115,6 @@ body {
   border-radius: 12px;
   position: relative;
   overflow: hidden;
-}
-.character-glass-backdrop {
-  position: fixed !important;
-  left: 0 !important;
-  top: 0 !important;
-  width: 100vw !important;
-  height: 100vh !important;
-  object-fit: cover !important;
-  object-position: center top !important;
-  max-width: none !important;
-  opacity: 0;
-  pointer-events: none;
-  z-index: -1;
 }
 .character-glass-layer {
   position: absolute !important;
@@ -141,7 +156,7 @@ body {
   border-color: var(--aurora-border);
   box-shadow: 0 0 14px rgba(78, 185, 173, 0.1);
 }
-body:has(.app-shell[data-route='character']) :is(.definition-bubble,.dialog-content,.spring-options,.spring-dropdown-menu) {
+body:has(.app-shell[data-aurora]) :is(.definition-bubble,.dialog-content,.spring-options,.spring-dropdown-menu) {
   background: var(--aurora-raised);
   border-color: var(--aurora-border);
   color: var(--aurora-text);

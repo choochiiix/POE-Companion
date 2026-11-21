@@ -1,1 +1,234 @@
-.craft-setup{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:end;margin-bottom:12px}.craft-check{display:flex;flex-direction:row;align-items:center;height:34px}.craft-check input{width:14px;height:14px}.craft-main{display:grid;grid-template-columns:1.05fr 1fr;gap:16px;margin-top:16px}.craft-goal{display:grid;gap:12px}.craft-current-item{margin-top:16px;padding:14px;background:var(--item-card-bg);border-left:2px solid var(--item-card-normal);font-size:12px;color:var(--item-card-property)}.craft-current-item[data-rarity=magic]{border-color:var(--item-card-magic)}.craft-current-item[data-rarity=rare]{border-color:var(--item-card-rare)}.craft-current-item h3{color:var(--item-card-normal)}.craft-current-item[data-rarity=magic] h3{color:var(--item-card-magic)}.craft-current-item[data-rarity=rare] h3{color:var(--item-card-rare)}.craft-mod{border-top:1px solid var(--item-card-rule);padding-top:12px;margin-top:12px;color:var(--item-card-mod)}.craft-mod strong{font-size:13px}.craft-mod p{margin:4px 0;overflow-wrap:anywhere}.craft-subheading{margin-top:20px}.craft-currencies{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.craft-currencies button{justify-content:flex-start;white-space:normal;font-size:12px}.craft-currencies img{object-fit:contain;flex-shrink:0}.craft-lower{margin-top:16px}.craft-pool{max-height:400px;overflow:auto}.craft-pool td:first-child{overflow-wrap:anywhere}.craft-pool td:last-child{white-space:nowrap}.craft-goal pre{background:var(--surface);padding:12px;border-radius:6px;font-size:12px}.craft-lower ol{font-size:12px;padding-left:20px}.craft-lower li{margin-bottom:8px}#craftingPanel .source-note{font-size:11px;color:var(--text-muted)}@media(max-width:1000px){.craft-setup{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:760px){.craft-main{grid-template-columns:1fr}.craft-setup{grid-template-columns:repeat(2,minmax(0,1fr))}.craft-currencies button{padding-inline:6px}} 
+#craftingPanel {
+  container: crafting / inline-size;
+}
+
+#craftingPanel > .page-heading {
+  margin-bottom: var(--space-1);
+}
+
+.craft-setup {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-card);
+  align-items: end;
+  margin-bottom: var(--space-card);
+}
+
+.craft-setup > label,
+.craft-goal > label {
+  min-width: 0;
+}
+
+.craft-check {
+  flex-direction: row;
+  align-items: center;
+  min-height: 40px;
+}
+
+#craftingPanel .craft-check .ui-input {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  accent-color: var(--accent);
+}
+
+[data-density='compact'] .craft-check {
+  min-height: 34px;
+}
+
+.craft-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.craft-goal {
+  display: grid;
+  gap: var(--space-card);
+}
+
+.craft-goal .form-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+}
+
+.craft-goal > p,
+.craft-goal > pre {
+  margin: 0;
+}
+
+.craft-current-item {
+  --craft-rarity: var(--item-card-normal);
+
+  display: grid;
+  gap: var(--space-1);
+  margin-top: var(--space-card);
+  padding: var(--space-card);
+  border: 1px solid color-mix(in srgb, var(--craft-rarity) 45%, #171717);
+  border-radius: var(--radius-card);
+  background: linear-gradient(180deg, #090909, #020202);
+  box-shadow: 0 5px 18px #0008, inset 0 0 0 1px #ffffff08;
+  color: var(--item-card-property);
+  font: 13px/1.5 'Segoe UI', sans-serif;
+}
+
+.craft-current-item[data-rarity='magic'] {
+  --craft-rarity: var(--item-card-magic);
+}
+
+.craft-current-item[data-rarity='rare'] {
+  --craft-rarity: var(--item-card-rare);
+}
+
+.craft-current-item h3 {
+  margin: 0;
+  color: var(--craft-rarity);
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.craft-current-item > p {
+  margin: 0;
+}
+
+.craft-current-item > button {
+  justify-self: start;
+  max-width: 100%;
+  height: auto;
+  min-height: 36px;
+  white-space: normal;
+  text-align: left;
+  font-family: var(--font-ui);
+}
+
+.craft-current-item summary {
+  width: fit-content;
+  color: var(--item-card-property);
+  cursor: pointer;
+}
+
+.craft-current-item article {
+  padding-top: var(--space-1);
+}
+
+.craft-current-item .is-springing {
+  overflow: clip;
+}
+
+.craft-mod {
+  border-top: 1px solid var(--item-card-rule);
+  padding-top: var(--space-1);
+  color: var(--item-card-mod);
+}
+
+.craft-mod p {
+  margin: 4px 0;
+  overflow-wrap: anywhere;
+}
+
+.craft-subheading {
+  margin: var(--space-2) 0 var(--space-1);
+}
+
+.craft-currencies {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-dense);
+}
+
+.craft-currencies button {
+  justify-content: flex-start;
+  min-width: 0;
+  height: auto;
+  min-height: 36px;
+  padding-inline: var(--space-control);
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  font-size: .86em;
+}
+
+.craft-currencies img {
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+#craftingPanel #message {
+  margin: var(--space-card) 0 0;
+  color: var(--text-secondary);
+  font-size: .86em;
+}
+
+.craft-lower {
+  margin-top: var(--space-2);
+}
+
+.craft-pool {
+  max-height: 400px;
+  overflow: auto;
+  scrollbar-color: var(--control-border) transparent;
+}
+
+.craft-pool td:first-child {
+  overflow-wrap: anywhere;
+}
+
+.craft-pool td:last-child {
+  white-space: nowrap;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.craft-goal pre {
+  padding: var(--space-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  font-size: .86em;
+}
+
+.craft-lower ol {
+  padding-left: 20px;
+  font-size: .86em;
+  overflow-wrap: anywhere;
+}
+
+.craft-lower li {
+  margin-bottom: var(--space-1);
+}
+
+#craftingPanel .source-note {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+#craftingPanel .craft-mod .source-note {
+  color: var(--item-card-muted);
+}
+
+@container crafting (max-width: 760px) {
+  .craft-setup {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@container crafting (max-width: 620px) {
+  .craft-main,
+  .craft-lower {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .craft-setup {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .craft-main {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .craft-setup {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

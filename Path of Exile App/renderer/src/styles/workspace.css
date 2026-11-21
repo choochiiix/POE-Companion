@@ -1,0 +1,101 @@
+/* Shared chrome follows Aurora. Saved theme text and inset surfaces inherit from html. */
+.app-shell[data-aurora] {
+  background-color: #030b15;
+  background-position: center top;
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.app-shell:not([data-route='character']) {
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #595959;
+}
+body {
+  --accent: var(--aurora-accent);
+  --accent-hover: var(--aurora-soft);
+  --line: var(--aurora-line);
+  --control-border: var(--aurora-border);
+  --selection-bg: var(--aurora-selection);
+  --focus-ring: 2px solid var(--aurora-accent);
+}
+html:not([data-color-theme='custom']) body {
+  --text: #f5f7f5;
+  --text-secondary: #e1e7e3;
+  --text-muted: #c7d0ca;
+  --text-caption: #bcc7c1;
+  --surface: rgba(3, 11, 21, .46);
+  --surface-raised: color-mix(in srgb, var(--aurora-teal) 16%, #081421);
+}
+.workspace-glass {
+  isolation: isolate;
+  min-width: 0;
+  overflow: visible;
+  color: var(--text);
+}
+.workspace-glass > .character-glass-layer,
+.workspace-dialog > .character-glass-layer {
+  z-index: -1;
+  border-radius: inherit;
+}
+.workspace-glass > .glass-surface--fallback {
+  background-color: rgba(3, 11, 21, .36);
+}
+.workspace-dialog.dialog-content {
+  isolation: isolate;
+  border-radius: 14px;
+  scrollbar-color: var(--aurora-border) transparent;
+}
+body:has(.app-shell[data-aurora]) .workspace-dialog {
+  background: color-mix(in srgb, var(--aurora-teal) 8%, rgba(4, 17, 27, .92));
+}
+.workspace-dialog .dialog-header h2 {
+  font-size: 21px;
+  line-height: 1.3;
+  font-weight: 550;
+  letter-spacing: -.02em;
+}
+.workspace-dialog .dialog-header p {
+  font-size: 13px;
+  color: var(--aurora-muted);
+}
+:where(.app-shell:not([data-route='character']), .workspace-dialog, .settings-dialog) label {
+  font-weight: 550;
+  line-height: 1.35;
+}
+:is(.app-shell:not([data-route='character']), .workspace-dialog, .settings-dialog) :is(input.ui-input, .spring-dropdown select) {
+  height: 40px;
+  padding: 8px 11px;
+  background: var(--surface);
+  border: 1px solid var(--aurora-line);
+  border-radius: 8px;
+  box-shadow: inset 0 1px rgba(239,255,242,.05);
+  font: 400 13px/1.4 var(--font-ui);
+  transition: border-color 140ms ease, background-color 140ms ease, box-shadow 140ms ease;
+}
+:is(.app-shell:not([data-route='character']), .workspace-dialog, .settings-dialog) .spring-dropdown select {
+  padding-right: 34px;
+  color: transparent;
+}
+:is(.app-shell:not([data-route='character']), .workspace-dialog, .settings-dialog) :is(button, input, select, textarea):focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+.spring-dropdown-highlight { background: var(--control-hover); }
+body:has(.app-shell[data-aurora]) :is(.spring-dropdown-menu, .definition-bubble) {
+  background-color: color-mix(in srgb, var(--aurora-teal) 13%, rgba(4,18,29,.96));
+}
+[data-density='compact'] :is(.workspace-glass, .settings-dialog) :is(input.ui-input, .spring-dropdown select) {
+  height: 34px;
+  padding-block: 5px;
+}
+[data-text-size='large'] :is(.workspace-glass, .settings-dialog) :is(.ui-input, .spring-dropdown-value, label) {
+  font-size: 15px;
+}
+@media (max-width: 760px) {
+  .app-shell .app-sidebar .nav-label { display: inline; width: auto; flex: none; }
+  .app-shell .app-sidebar .nav-item { height: 30px !important; padding: 0 8px !important; font-size: 11px !important; }
+}
+@media (max-width: 620px) {
+  .workspace-dialog.dialog-content { width: calc(100% - 20px); padding: 18px; border-radius: 12px; }
+}

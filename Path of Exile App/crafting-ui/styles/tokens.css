@@ -45,6 +45,7 @@
   --radius-inline:2px;
   --line-tight:1.2;
   --line-body:1.6;
+  --aurora-control: #ffffff0d;
   --control-hover:#ffffff0d;
   --selection-bg:#ffffff0d;
   --gem-color:#1aa29b;
@@ -58,6 +59,7 @@
   /* Game item identity stays independent of application color/font themes. */
   --item-card-bg:#080808;
   --item-card-header:#151b22;
+  --gear-rarity:var(--item-card-normal);
   --item-card-normal:#e6e1d9;
   --item-card-magic:#59c2ff;
   --item-card-rare:#e6b450;
