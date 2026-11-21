@@ -189,12 +189,12 @@ export function GearEditor({ slot, bases, mods, equipment, current, onClose, onS
 
   return (
     <Dialog open onOpenChange={open => { if (!open) onClose(); }}>
-      <DialogContent className="character-design-dialog gear-editor" onEscapeKeyDown={event => {
+      <DialogContent className="character-design-dialog character-glass-dialog gear-editor" onEscapeKeyDown={event => {
         if (!searchOpen) return;
         event.preventDefault();
         closeSearch();
       }}>
-        <LiquidGlassLayer className="character-glass-layer gear-editor-glass" />
+        <LiquidGlassLayer className="character-glass-layer character-dialog-glass" />
         <DialogHeader>
           <DialogTitle>Create / Edit {slot.replaceAll('-', ' ')} Equipment</DialogTitle>
           <DialogDescription>Ordinary equipment only. Eligibility uses the local crafting snapshot; special crafting systems are not included.</DialogDescription>

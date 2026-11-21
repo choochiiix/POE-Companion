@@ -3,9 +3,11 @@
 }
 
 body:has(.settings-dialog) .settings-dialog.dialog-content {
+  --settings-accent: var(--aurora-accent);
+  --settings-line: color-mix(in srgb, var(--settings-accent) 34%, transparent);
   background: rgba(3, 11, 21, 0.84) !important;
-  border-color: rgba(123, 225, 199, 0.34) !important;
-  box-shadow: 0 22px 60px rgba(3, 11, 21, 0.72), inset 0 1px rgba(200, 248, 226, 0.14) !important;
+  border-color: var(--settings-line) !important;
+  box-shadow: 0 22px 60px rgba(3, 11, 21, 0.72), inset 0 1px var(--control-hover) !important;
   -webkit-backdrop-filter: var(--filter-id) blur(16px) saturate(124%);
   backdrop-filter: var(--filter-id) blur(16px) saturate(124%) !important;
 }
@@ -22,9 +24,9 @@ body:has(.settings-dialog) .settings-dialog.dialog-content {
   gap: 13px;
   overflow: hidden;
   padding: 16px;
-  border: 1px solid rgba(121, 199, 147, 0.3);
+  border: 1px solid var(--settings-line);
   border-radius: 12px;
-  background: rgba(7, 27, 28, 0.32);
+  background: color-mix(in srgb, var(--settings-accent) 5%, rgba(3, 11, 21, 0.32));
   box-shadow: 0 14px 34px rgba(3, 11, 21, 0.46);
 }
 
@@ -42,10 +44,26 @@ body:has(.settings-dialog) .settings-dialog.dialog-content {
 }
 
 .settings-glass-layer.glass-surface--svg {
-  background: linear-gradient(145deg, rgba(12, 65, 49, 0.34), rgba(10, 52, 43, 0.28) 46%, rgba(7, 34, 34, 0.22)) !important;
+  background: linear-gradient(145deg, var(--control-hover), transparent) !important;
   -webkit-backdrop-filter: var(--filter-id) blur(4px) saturate(112%);
   backdrop-filter: var(--filter-id) blur(4px) saturate(112%);
-  box-shadow: inset 0 1px rgba(200, 248, 226, 0.16), inset 0 -1px rgba(3, 11, 21, 0.2);
+  box-shadow: inset 0 1px var(--control-hover), inset 0 -1px rgba(3, 11, 21, 0.2);
+}
+
+.settings-dialog :is(.dialog-dismiss, .spring-dropdown-chevron) {
+  color: var(--settings-accent);
+}
+
+.settings-dialog :is(.spring-dropdown select, .spring-dropdown-menu) {
+  border-color: var(--settings-line);
+}
+
+.settings-dialog :is(.spring-dropdown-option.highlighted, .spring-dropdown-highlight) {
+  background: var(--control-hover);
+}
+
+.settings-dialog :is(button, select):focus-visible {
+  outline-color: var(--settings-accent);
 }
 
 .settings-card h2 {
@@ -92,7 +110,7 @@ body:has(.settings-dialog) .settings-dialog.dialog-content {
 .settings-status {
   min-height: 1.5em;
   margin: 0;
-  color: #a5d9cb;
+  color: var(--settings-accent);
   font-size: 11px;
 }
 

@@ -14,7 +14,7 @@
 #characterPanel .calculation-header small {font-size:11px;letter-spacing:.06em;color:var(--text-muted)}
 #characterPanel .calculation-header h2 {font-size:24px;font-weight:510;letter-spacing:-.022em;line-height:1.13;margin:8px 0 0}
 #characterPanel :where(button:not(.definition-term)),.character-design-dialog :where(button:not(.definition-term)) {min-height:30px;border:1px solid var(--line);border-radius:6px;padding:6px 10px;background:transparent;color:var(--text-secondary);box-shadow:none;font:400 13px/1.4 var(--font-ui);letter-spacing:-.01em}
-#characterPanel :where(button:not(.definition-term)):hover,.character-design-dialog :where(button:not(.definition-term)):hover {background:#ffffff0d;border-color:var(--control-border)}
+#characterPanel :where(button:not(.definition-term)):hover,.character-design-dialog :where(button:not(.definition-term)):hover {background:var(--control-hover);border-color:var(--control-border)}
 #characterPanel :is(button,summary):focus-visible,.character-design-dialog :is(button,input,select,summary):focus-visible {outline:2px solid var(--text-secondary);outline-offset:3px}
 #characterPanel .calculation-header>button {background:var(--accent);color:var(--bg);border:0;font-size:14px;font-weight:510;padding:8px 12px}
 #characterPanel .calculation-header>button:hover {background:#effa65}
@@ -30,22 +30,29 @@
 #characterPanel .calculation-main-grid {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
 #characterPanel .character-stat-column {display:grid;gap:16px;min-width:0}
 #characterPanel :is(.character-panel,.loadout-panel,.calculation-detail,.calculation-bottom-grid>section,.calculation-comparison-view) {margin:0;padding:16px;background:var(--bg-secondary);border:0;border-radius:6px;box-shadow:inset 0 0 0 1px var(--line);min-width:0}
-#characterPanel :is(.character-panel>h3,.loadout-panel>h2,.calculation-bottom-grid h3) {font-size:14px;line-height:1.5;letter-spacing:-.01em;font-weight:510;margin:0 0 12px}
+#characterPanel :is(.character-panel>h3,.character-attributes>h3,.loadout-panel>h2,.calculation-bottom-grid h3) {font-size:14px;line-height:1.5;letter-spacing:-.01em;font-weight:510;margin:0 0 12px}
 #characterPanel .calculation-summary {display:flex;flex-direction:column;margin:0;gap:0;background:none;border:0;border-radius:0}
 #characterPanel .calculation-stat {display:flex;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;gap:12px;width:100%;min-height:34px;padding:6px 8px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}
 #characterPanel .calculation-stat:last-child {border-bottom:0}
 #characterPanel .calculation-stat span {font-size:13px;color:var(--text-secondary)}
 #characterPanel .calculation-stat strong {font:400 14px/1.5 var(--font-ui);font-variant-numeric:tabular-nums;letter-spacing:-.01em;color:var(--text)}
 #characterPanel .calculation-stat[aria-pressed=true] {background:#ffffff05;box-shadow:inset 2px 0 var(--accent);border-color:var(--line)}
-#characterPanel .character-attribute-values {display:grid;grid-template-columns:1fr auto;margin:0;font-size:13px;gap:0}
-#characterPanel .character-attribute-values dt,#characterPanel .character-attribute-values dd {padding:6px 0;border-bottom:1px solid var(--line);text-transform:capitalize}
+#characterPanel .equipment-body>.gear-slot:is(:hover,:focus-within),
+#characterPanel :is(.calculation-resist-values,.character-attribute-values)>div:hover,
+#characterPanel .resistance-source-list>summary:is(:hover,:focus-visible) {background:var(--aurora-control)}
+#characterPanel .character-attribute-values {margin:0;font-size:13px}
+#characterPanel .character-attribute-values>div {display:grid;grid-template-columns:1fr auto;padding:6px 0;border-bottom:1px solid var(--line);text-transform:capitalize}
 #characterPanel .character-attribute-values dd {margin:0;font-variant-numeric:tabular-nums;color:var(--text)}
-#characterPanel .character-attribute-values :nth-last-child(-n+2) {border-bottom:0}
+#characterPanel .character-attribute-values>div:last-child {border-bottom:0}
 #characterPanel #equipmentStatus {font-size:12px;color:var(--text-muted);line-height:1.5;margin:0 0 16px}
 #characterPanel .equipment-body {display:flex;flex-direction:column;gap:0;margin:0;max-width:none}
 #characterPanel .body-outline {display:none}
 #characterPanel .equipment-body>.gear-slot {display:grid;grid-template-columns:100px minmax(0,1fr);width:100%;text-align:left;align-items:start;justify-content:stretch;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;padding:4px 0;gap:8px;overflow:visible;min-height:36px}
 #characterPanel .equipment-body>.gear-slot:last-child {border:0}
+#characterPanel .equipment-body>.gear-slot>strong,
+#characterPanel .calculation-resist-values>div,
+#characterPanel .resistance-source-list>summary,
+#characterPanel .character-attribute-values dt {padding-inline-start:8px}
 #characterPanel .gear-slot>strong,#characterPanel .gear-slot.has-base>strong {font-size:13px;font-weight:400;line-height:28px;color:var(--text-muted);margin:0;text-align:left}
 #characterPanel .gear-slot .gear-card-content {display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:4px;text-align:right;min-width:0}
 #characterPanel .gear-slot .character-item-detail {width:auto;text-align:left;font-size:13px;min-width:0}
@@ -105,7 +112,7 @@
 #characterPanel .character-item-detail[open] {grid-column:1/-1}
 #characterPanel .gear-slot:not(.has-base) .gear-card-content>button {grid-column:2/-1;justify-self:end}
 #characterPanel .calculation-identity {border-bottom:1px solid var(--line)}
-#characterPanel section.character-attributes {background:transparent;box-shadow:none;border-top:1px solid var(--line);border-radius:0;padding-top:12px}
+#characterPanel .character-attributes {margin-top:12px;border-top:1px solid var(--line);padding-top:12px}
 #characterPanel .calculation-bottom-grid>section {background:transparent;box-shadow:none;border-top:1px solid var(--line);border-radius:0;padding-top:12px}
 #characterPanel .calculation-bottom-grid p {font-size:13px}
 #characterPanel .calculation-notice {margin-top:16px}
@@ -209,7 +216,7 @@ html:has(#characterPanel:not([hidden])) {scrollbar-gutter:stable}
 .character-identity-editor #classChoices button {min-height:38px;border:1px solid var(--line);background:var(--surface);color:var(--text-secondary);font-size:13px;font-weight:400;padding:8px 10px;border-radius:6px;text-align:left;box-shadow:none}
 .character-identity-editor #classChoices button[aria-pressed=true] {background:#ffffff0d;border-color:var(--text-muted);color:var(--text);box-shadow:inset 2px 0 var(--accent)}
 .character-identity-editor #classChoices button[aria-pressed=true]::after {color:var(--accent)}
-.character-identity-editor #classChoices button:hover {background:#23252a;color:var(--text)}
+.character-identity-editor #classChoices button:hover {background:var(--control-hover);color:var(--text)}
 .character-identity-editor .field-caption {font-size:12px;margin-bottom:8px;color:var(--text-muted)}
 .character-identity-editor .class-picker {margin-bottom:20px}
 .character-identity-editor .ascendancy-picker {margin:0 0 12px;font-size:12px;gap:8px}

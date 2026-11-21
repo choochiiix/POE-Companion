@@ -1,5 +1,8 @@
 .nav-item>span {display:inline-flex;flex:0 0 18px;height:18px;align-items:center;justify-content:center}
 .nav-item>span svg {display:block}
+.app-sidebar :is(.nav-item > [aria-hidden='true'], .sidebar-toggle-glyph) {
+  color: var(--aurora-accent);
+}
 .dialog-dismiss {display:grid;width:36px;height:36px;padding:0;place-items:center;font-size:initial;line-height:1}
 .dialog-dismiss svg {display:block}
 @media(max-width:760px) {.nav-item>span {display:none}}
