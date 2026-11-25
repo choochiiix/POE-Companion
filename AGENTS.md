@@ -64,4 +64,4 @@ Check `git status --short`, existing diffs, call sites and save/data contracts b
 
 ## Subagent delegation
 
-Delegate well-scoped research, investigation, implementation or verification when it improves efficiency or accuracy. Prefer Luna Medium for suitable tasks when available. Specify the scope and deliverable, and keep concurrent edits disjoint. The primary agent owns coordination, integration, validation and final quality.
+Delegate well-scoped research, investigation, implementation or verification when it improves efficiency or accuracy. If the parent agent uses any Sol model, regardless of reasoning effort, it may spawn only agents using Luna High. If the parent agent uses a Luna model, it may also spawn only agents using Luna High. When useful, either parent may use all three available subagent slots. Specify each agent's scope and deliverable, and keep concurrent edits disjoint. The primary agent owns coordination, integration, validation and final quality.
