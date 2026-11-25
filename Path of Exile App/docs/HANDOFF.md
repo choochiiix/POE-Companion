@@ -52,3 +52,7 @@ Read [README](../README.md), [renderer README](../renderer/README.md), [START-HE
 - Source PNGs live in `renderer/src/features/character/`; `renderer/dist/` contains the built renderer served by the normal local app and desktop package.
 - Current source version: 0.3.0. The existing committed setup artifact remains 0.2.0 until the 0.3.0 installer is built and approved for release.
 - Release checklist: build/typecheck renderer, inspect each background and accent pairing in the browser, run applicable requested checks, prepare the tagged release summary, and obtain user sign-off before pushing/tagging.
+
+## Character Defence — November 25, 2026
+
+Character now includes a compact Defence panel in the statistics rail. `DefencePanel.tsx` owns temporary incoming attack amount/type controls; `characterDefence` in the calculation adapter supplies an ephemeral encounter to the existing engine. With the control disabled, the panel uses the saved incoming physical-hit amount. No save keys or formats change. Max-hit thresholds, raw repeated-hit budget, fractional hits to depletion, and estimated landed-hit damage remain partial estimates. The panel exposes engine metric reasons and unresolved build effects and states the pool-routing and unsupported-mechanic assumptions.

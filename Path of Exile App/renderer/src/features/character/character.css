@@ -210,3 +210,26 @@ body:has(.app-shell[data-aurora]) .character-glass-dialog .spring-dropdown-menu{
   color: var(--aurora-muted);
   font-size: 12px;
 }
+
+#characterPanel .character-defence { padding:16px; }
+#characterPanel .character-defence h3 { display:flex;justify-content:space-between;gap:8px; }
+#characterPanel .character-defence :is(p,small,summary,li) { color:var(--text-muted);font-size:11px;line-height:1.5; }
+#characterPanel .character-defence h3 small { font-weight:400; }
+#characterPanel .defence-values { margin:8px 0 12px; }
+#characterPanel .defence-values>div { display:flex;justify-content:space-between;gap:12px;padding:3px 0;font-size:12px; }
+#characterPanel .defence-values dt { text-transform:capitalize; }
+#characterPanel .defence-values dd { margin:0;text-align:right;font-variant-numeric:tabular-nums; }
+#characterPanel .defence-values dd small { display:block;max-width:180px; }
+#characterPanel .defence-toggle { display:flex;align-items:center;gap:8px;font-size:12px;cursor:pointer; }
+#characterPanel .defence-scenario { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-top:10px; }
+#characterPanel .defence-scenario label { min-width:0;font-size:11px; }
+#characterPanel .defence-scenario :is(input,.react-spring-select) { width:100%;min-width:0; }
+#characterPanel .character-defence details { overflow-wrap:anywhere; }
+#characterPanel .character-defence :is(input,select,summary):focus-visible { outline:var(--focus-ring);outline-offset:3px; }
+#characterPanel[data-character-theme='nyx'] .character-defence .defence-toggle { display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:8px; }
+#characterPanel[data-character-theme='nyx'] .character-defence .defence-toggle input { width:auto;min-height:0;margin:0;accent-color:var(--accent); }
+#characterPanel .defence-limit-heading { display:flex;align-items:center;gap:6px;color:var(--text-muted);font-size:11px; }
+#characterPanel[data-character-theme='nyx'] .character-defence .defence-info { display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;min-height:26px;padding:0;border:0;background:transparent;box-shadow:none;color:var(--text-secondary);cursor:help; }
+#characterPanel .character-defence .defence-info:focus-visible { outline:var(--focus-ring);outline-offset:2px; }
+.defence-info-tooltip { max-width:min(320px,calc(100vw - 32px));font-size:12px;line-height:1.5;z-index:80; }
+.defence-info-tooltip p { margin:8px 0 0; }

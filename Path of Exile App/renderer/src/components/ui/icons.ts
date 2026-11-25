@@ -3,6 +3,7 @@
 export {
   BookOpen as CompendiumIcon,
   Check,
+  Info as InfoIcon,
   ChevronDown,
   ChevronLeft,
   ChevronRight,

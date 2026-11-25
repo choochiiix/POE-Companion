@@ -1,3 +1,5 @@
+import type { IncomingHitScenario } from '../../../calculation-engine/src/advanced-defence.ts';
+import type { calculate } from '../../../calculation-engine/src/core.ts';
 import {useEffect,useState} from 'react';
 import {assembleWorkspace,compareWorkspace} from '@legacy/features/calculations/source-adapter.js';
 import {validCharacter,validEquipment} from '@legacy/features/character/character-data.js';
@@ -33,3 +35,7 @@ export function calculationInput(sources:Sources,context=readSave(contextKey,val
 }
 export {assembleWorkspace,compareWorkspace};
 export function useCalculations(){const revision=useBuildRevision();const [sources,setSources]=useState<Sources>();const [error,setError]=useState('');useEffect(()=>{let alive=true;loadSources().then(value=>{if(alive)setSources(value);}).catch(error=>{if(alive)setError(String(error.message));});return()=>{alive=false;};},[]);let result:ReturnType<typeof assembleWorkspace>|undefined;let input:ReturnType<typeof calculationInput>|undefined;try{if(sources){input=calculationInput(sources);result=assembleWorkspace(input);}}catch(error){if(!error)return {sources,error:'Calculation unavailable',revision};return {sources,error:String((error as Error).message),revision};}return {sources,result,input,error,revision};}
+/** Temporary encounter input; no storage writes. */
+export function characterDefence(input: ReturnType<typeof calculationInput>, scenario?: IncomingHitScenario): ReturnType<typeof calculate> {
+ return assembleWorkspace({...input, calculation: {incomingHit: scenario ?? {kind:'attack',damage:{physical:input.context.incomingHit}}}}).calculation;
+}
