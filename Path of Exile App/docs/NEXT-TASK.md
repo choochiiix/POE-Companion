@@ -17,6 +17,6 @@ Ask for clarification only when the user's requested behavior cannot be inferred
 
 - Renderer typecheck/build: run from `renderer/` (`pnpm typecheck`, `pnpm build`).
 - Current React browser checks: `scripts/test-react-*.mjs`.
-- Full Node regression: `npm test` at the project root. It was last documented as 128/130 before the vanilla UI cleanup, with two stale PoB capture/tooling failures. It has not been rerun after cleanup.
-- `docs/REACT-QA.md` records the blocked baseline hash comparison and the distinction between prior and retested checks. Do not overstate this evidence as broad release acceptance.
+- Latest recorded full Node regression: 145 passing tests on November 21, including 57 calculation-engine tests. The archived trial/corpus comparisons also passed; this supersedes the migration-era 128/130 result. See [PoB comparison evidence](../calculation-engine/reference/v2.68.1/README.md).
+- [React QA](REACT-QA.md) separates historical browser checks from later evidence. The original preservation baseline remains absent; do not claim broad release acceptance from targeted checks.
 - Keep browser QA in isolated profiles/servers. Do not use tests that modify the user's live browser storage.

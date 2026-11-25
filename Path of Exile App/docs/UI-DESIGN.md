@@ -1,23 +1,12 @@
 # Current UI design rules
 
-Read HANDOFF.md for the current project state. The Character pilot is implemented and refined; other screens retain the preceding Ayu Aurora design. Do not roll the pilot out without a user request.
+Use the [current handoff](HANDOFF.md), [UI standard](UI-STANDARDIZATION.md) and [renderer guide](../renderer/README.md) for current implementation and tuning. Earlier Character pilot requirements and screenshots remain in [design history](ui-overhaul/README.md).
 
-## Character pilot
+- All routes share the selected fixed Aurora backdrop and sidebar. Emerald is the default; Violet and Rose Gold supply matching accents, focus and selection. Theme/font preferences remain independent and apply to workspace text and inset surfaces where supported.
+- Character places the wide Equipment workspace beside a narrower statistics rail, with resistance and skill context below. The grid stacks below 1050px. Keep the compact composition, portraits and Overview/Comparison states.
+- Shared panels use LiquidGlassLayer from the shared UI directory. Settings uses a near-opaque outer dialog with no backdrop filter and lightweight tinted preference cards. Edit generator-owned glass rules in the Aurora generator, regenerate and rebuild before visual checks.
+- Keep controls compact, motion restrained, and keyboard focus visible. Respect OS and app reduced motion. Preserve SpringSelect keyboard/search behavior, disclosure motion, Plan Switch behavior, dialog focus restoration and nested Escape handling.
+- Item rarity, equipped cards, gems, portraits and tree symbols retain their game-specific colors, typography and artwork. Keep complete property, requirement, modifier and source evidence available.
+- Gear edits are drafts until saved; dismissing a draft never saves it. Preserve class/level/campaign context synchronization, seeded crafting and RNG restoration on undo, save validation and session-memory storage fallback.
 
-The north-star reference is ui-overhaul/references/DESIGN.md, interpreted through subsequent explicit user refinements. The user rejected cosmetic reskinning, oversized/blocky panels and violent animation. Current density is intentionally tighter than the original reference's large section gaps/card padding.
-
-- Neutral dark canvas #08090a, card #0f1011, elevated #161718, quiet #23252a borders, white/grey text and lime #e4f222 primary action. Local Inter/system fallback; no remote fonts.
-- Small controls, mostly6px corners,16px panel padding, compact34–36px rows, modest gaps. Rounded Character view switch uses10px outer/7px inner corners. Sidebar matches only while Character is visible.
-- Header: chosen ascendancy portrait plus softly faded art; small icons use dedicated face portraits, banners use reviewed full artwork where available. Original art files/provenance stay preserved. No wrong-ascendancy substitutions.
-- Core stats/attributes/breakdown left, compact equipment list right, resistances/skill setup below. Do not restore the old body-shaped equipment composition.
-- Edit character: image dropdowns for class/ascendancy, level1–100, campaign penalty and live identity preview. Retain immediate-save notices and context synchronization.
-- Browser-managed spring view-switch animation must survive throttled/stopped rAF and rapid reversals. Do not restore the per-frame JS driver that visibly stalled for the user.
-- Dropdowns and item disclosures use softened spring motion. Preserve keyboard/search behavior, viewport bounds, reduced motion, one active menu, hidden scrollbar chrome and completed value rolls.
-- Modals close via background click, Escape or their close action, with focus return. Inside interactions and drags starting inside do not dismiss. Gear draft dismissal never saves.
-- Equipped item cards fit the neutral UI but preserve every property, requirement, implicit/explicit modifier and source note. Normal/magic/rare/property/modifier colors/fonts remain fixed across themes. Unique-library card appearance remains unchanged.
-
-## Scope and accessibility
-
-Other five screens and Settings remain in their established design. Existing themes change those surrounding app colors/fonts; do not remove theme persistence or freeze unrelated screens. Keep offline runtime, readable contrast, labels, keyboard focus, announcements, reduced motion and390px reflow. Test actual rendered backgrounds when adding faded art/transparency. Targeted tests are not a full accessibility audit.
-
-Production ownership and reference previews are documented in FILE-ORGANIZATION.md, HANDOFF.md and ui-overhaul/CHARACTER-PILOT.md. The previous Ayu Aurora guide is preserved in archive/UI-DESIGN-before-major-task-2026-11-14.md for screens that have not been redesigned.
+Check desktop and narrow layouts, all three Auroras, dialogs, open dropdowns, contrast and local-only requests in isolated storage. Rebuild tracked renderer output for renderer changes. Record new results separately from [historical QA](REACT-QA.md); a targeted check does not establish full mechanics or release acceptance.

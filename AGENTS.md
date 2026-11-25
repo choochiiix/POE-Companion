@@ -56,7 +56,7 @@ Edit renderer source and rebuild `renderer/dist/` whenever renderer inputs chang
 
 Add focused coverage when existing tests miss a behavioral change. Run the relevant checks, typecheck and regression suite. For a focused Node test, run `node --experimental-strip-types --test crafting-engine/test/engine.test.ts` from the app directory or substitute the relevant test path. Run colocated renderer tests directly when relevant since `npm test` omits them.
 
-For React changes, build first and run the affected browser checks from the app directory, for example `node scripts/test-react-crafting-qa.mjs`. Set `PLAYWRIGHT_MODULE` to a resolvable Playwright module when required. The React QA scripts launch Edge. Check visual changes at desktop and narrow viewports. The [QA record](Path%20of%20Exile%20App/docs/REACT-QA.md) documents stale pinned PoB capture checks and a missing preservation baseline. Report current results separately from that evidence and leave reference guards intact.
+For React changes, build first and run the affected browser checks from the app directory, for example `node scripts/test-react-crafting-qa.mjs`. Set `PLAYWRIGHT_MODULE` to a resolvable Playwright module when required. The React QA scripts launch Edge. Check visual changes at desktop and narrow viewports. The [QA record](Path%20of%20Exile%20App/docs/REACT-QA.md) separates migration-era stale PoB capture checks from later passing verification; the original preservation baseline remains missing. Report new results separately from recorded evidence and leave reference guards intact.
 
 ## Agent workflow
 

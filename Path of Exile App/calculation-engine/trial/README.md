@@ -14,7 +14,7 @@ The trial reads existing local RePoE base/mod records, the PoB tree JSON and gen
 
 `../reference/trial.lua` defines the equivalent build and captures selected outputs, modifier totals and raw source values. The small `build-capture.json` records the archive, runner, trial-script and local-source hashes. Tests reject stale capture/tool/source combinations. Headless execution is a Windows development tool; normal tests compare the saved capture without loading DLLs.
 
-From the project root, using the bundled Python path in docs/HANDOFF.md if necessary:
+From the app directory, using an installed compatible Windows Python interpreter (not the Windows Store alias):
 
 ```powershell
 python calculation-engine/reference/run-build-trial.py --output calculation-engine/reference/build-capture.json

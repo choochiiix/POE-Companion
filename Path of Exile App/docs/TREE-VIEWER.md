@@ -1,6 +1,6 @@
 ﻿# Offline 3.29 tree viewer
 
-Read the root README.md first. It is the current project handoff and takes precedence over historical screenshots or delivery notes.
+Read the [app README](../README.md) and [current handoff](HANDOFF.md) first. React ownership is `renderer/src/features/tree/TreePage.tsx` and `tree-canvas.ts`.
 
 ## Source and rebuild
 
@@ -15,17 +15,17 @@ The viewer does not load sprite JSON, sprite images, or CDN resources. Original 
 - Full-width canvas; no left node list. Pan/zoom by pointer or canvas keyboard controls.
 - Search node IDs, names, stats and mastery effects above the map. Enter / Next match cycles all matching records without a 150-result truncation.
 - Hover details; click to pin. Escape / Close dismisses details. Search pins details for keyboard access.
-- Canvas symbols and SVG legend share `nodeVisual`. Structural flags determine shapes; names provide presentation categories. Source stats are authoritative, not the visual category.
+- Canvas nodes use circular marks sized by type. Highlight nodes emphasizes a category and dims the rest; matching nodes use a pointer-responsive orange-to-purple rim. Tune `TREE_BEAM_STYLE` in `tree-canvas.ts`. Source stats are authoritative, not the visual category.
 - Class/primary ascendancy views, ordinary shortest-path allocation, user passive budget, eight ascendancy points, branch refunds and undo.
 - Masteries require a cluster notable and disallow duplicate effects.
 - Local saves by class/ascendancy; JSON selection export. No import workflow yet.
 
 ## Limits
 
-Special multiple-choice ascendancy allocation, Scion alternate starts/extra-point mechanics, bloodline allocation, cluster expansion, tattoos, anoints and build-stat calculations are not implemented. Multiple-choice allocations are refused. Alternate ascendancy/bloodline views are reference-only. Primary ascendancy allocation requires selecting it in Character.
+Special multiple-choice ascendancy allocation, Scion alternate starts/extra-point mechanics, bloodline allocation, cluster expansion, tattoos and anoints are not implemented. Selected passive/mastery stats feed the shared calculation adapter, with unresolved mechanics retained as diagnostics. Multiple-choice allocations are refused. Alternate ascendancy/bloodline views are reference-only. Primary ascendancy allocation requires selecting it in Character.
 
 Budget is user-configured, not level/quest-derived; reducing it does not automatically rebuild the allocation. Some source-only records have no static position; search can inspect them, but they cannot be allocated as ordinary map nodes. Connections are straight segments, not original orbit arcs. No in-game validation or official-export comparison is complete.
 
 ## Visual requirements
 
-Use the Ayu Aurora tokens and palette specified in README.md. Earlier pastel, red/violet, sprite-based or sidebar-search screenshots are superseded. Keep matching legend symbols, filled allocated nodes and outer rings so color is not the only cue. Keep tooltips readable and their controls reachable by pointer and keyboard. Preserve offline operation and existing saved selections.
+Use the shared Aurora roles and [UI standard](UI-STANDARDIZATION.md), while retaining game-specific tree meanings. Earlier sprite-based or sidebar-search screenshots are historical. Keep allocation marks and highlight rings so color is not the only cue. Respect reduced motion for pointer-responsive highlights. Keep tooltips readable and their controls reachable by pointer and keyboard. Preserve offline operation and existing saved selections.

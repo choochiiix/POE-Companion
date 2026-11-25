@@ -27,7 +27,7 @@ All routes share the sidebar and selected fixed Aurora background. Settings stor
 
 `src/components/ui/LiquidGlassLayer.tsx` wraps GlassSurface for native live backdrop sampling. The image belongs to the shell. The SVG-capable layer uses `var(--filter-id) blur(4px) saturate(112%)` and an 11% / 8% / 5% tint gradient. GlassSurface supplies the fallback. Edit `scripts/generate-aurora.mjs` and run `pnpm generate:aurora` when changing generated rules. Rebuild the renderer after source changes.
 
-Use the shared Panel for a workspace panel. Semantic containers such as a navigation region or inspector can use `.workspace-glass` and one decorative LiquidGlassLayer. Keep long rows, game cards and canvas contents lightweight. Settings uses deeper outer glass. DialogContent uses explicit surface variants, including for portals opened while another screen is active.
+Use the shared Panel for a workspace panel. Semantic containers such as a navigation region or inspector can use `.workspace-glass` and one decorative LiquidGlassLayer. Keep long rows, game cards and canvas contents lightweight. Settings uses a near-opaque outer dialog with no backdrop filter and lightweight tinted preference cards without LiquidGlassLayer. DialogContent uses explicit surface variants, including for portals opened while another screen is active.
 
 Aurora supplies the backdrop, chrome, selection and focus. Color themes supply text and inset surfaces in migrated workspaces. The font selector controls interface and reference font roles where applicable. Character retains its reference typography and composition, including its 1050px Equipment and statistics breakpoint. Item rarity, equipped cards, gem treatments, portraits and tree symbols retain their game-specific styling.
 

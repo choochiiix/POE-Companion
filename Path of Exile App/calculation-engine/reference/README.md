@@ -12,7 +12,7 @@ node --experimental-strip-types calculation-engine/reference/compare.ts
 node --experimental-strip-types --test calculation-engine/test/reference.test.ts
 ```
 
-Use the bundled Python path from `docs/HANDOFF.md` if `python` resolves to the Windows Store alias. The first command hashes the 640MB ZIP, so it takes longer than ordinary unit tests. The capture is committed as a small offline fixture so ordinary tests do not load DLLs. To validate the engine against fresh actual Lua, rerun the first command before comparing.
+Use an installed compatible Windows Python interpreter if `python` resolves to the Windows Store alias. The first command hashes the 640MB ZIP, so it takes longer than ordinary unit tests. The capture is committed as a small offline fixture so ordinary tests do not load DLLs. To validate the engine against fresh actual Lua, rerun the first command before comparing.
 
 ## Verified scope and discrepancy
 

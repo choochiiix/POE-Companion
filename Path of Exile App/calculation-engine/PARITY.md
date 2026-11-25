@@ -14,13 +14,11 @@ Each track must identify supported semantics, reject invalid inputs and report u
 
 ## Integrated result
 
-Latest corpus extends to 16 actual headless PoB builds and 288 selected matching comparisons, covering spell/attack endpoints, attributes/pools, resistances, speed/crits, armour, conversion and gain-as-extra. See [corpus coverage and exclusions](corpus/README.md). Shared normalized snapshot/comparison APIs support future multi-screen integration. PoB UI input/output mapping is documented in `prototypes/calculations/README.md`; those designs await review. Broad source adapters and full mechanics parity remain pending.
+The production workspace adapter now integrates Character, saved Skills, selected passives and item comparisons. The [PoB Community 2.68.1 comparison](reference/v2.68.1/README.md) records 190 selected matches across seven executable fixtures covering rolled weapon stats, accuracy, resistance stages, conversion, resource outputs and deterministic defensive scenarios. Its coverage matrix states the remaining limits and older source snapshots.
 
-**Latest trial:** one actual pinned headless PoB build now compares against local-source item/mod/passive/gem adapters: 26 selected values match within 1e-9. Explicit snapshot rounding corrected the observed continuous-vs-rounded difference. This supersedes the earlier statement that no full headless build had run; broad build coverage remains pending. Full regression now **117 passed**, including 43 calculation tests. See [trial](trial/README.md).
+The November 21 verification records 145 passing Node tests, including 57 calculation tests, plus successful typechecks and targeted browser checks. The archived [16-build corpus](corpus/README.md) and [source-backed trial](trial/README.md) matched 288 comparisons and 26 fields respectively. Earlier 114/117-test milestones and unavailable-compiler notes are historical.
 
-All five tracks delivered scoped implementations and were synthesized through `src/index.ts` and the shared `core.ts` coordinator. Build assembly preserves optional conversion and incoming-hit scenarios; actors use the same validated core; the public composition test combines skill/support, equipment/passive/attribute, conversion, defensive scenario and actor layers. Latest full regression: 114 passed, including 40 calculation tests. Static typechecking remains unavailable (`tsc` absent).
-
-Reference tooling actually executed the pinned Lua accuracy/armour helpers. Eight of nine comparisons match; zero accuracy and zero evasion remains a documented difference (PoB 100%, engine 5%). This is helper evidence, not a full-build comparison. Track 4 implements conversion and advanced hit scenarios but leaves ailments/DoT pending. Track 5 supplies normalized actor/trigger orchestration, not every unique/minion mechanic. Per-track documentation records precise scope.
+The archived helper comparison retains the documented zero-accuracy/zero-evasion difference (PoB 100%, engine 5%). Actor/trigger orchestration remains a separate normalized API. Ailments, advanced sustain and special mechanics remain incomplete; the latest coverage matrix is authoritative for the supported subset.
 
 ## Remaining parity gate
 

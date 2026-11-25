@@ -2,7 +2,7 @@
 
 Sixteen fixtures execute actual archived PoB headless builds. All **288 selected comparisons** match within 1e-8. These are scoped comparisons, not a claim of full PoB parity.
 
-Full regression after integration: **120 tests passed**, including 46 calculation tests. Static compiler verification remains unavailable because tsc is absent. Original trial still matches all26 selected values.
+Historical corpus-delivery verification: 120 tests passed, including 46 calculation tests. The later November 21 run passed 145 tests, including 57 calculation tests, and engine/data typechecks. See [latest comparison evidence](../reference/v2.68.1/README.md). The original trial remains separate at 26 selected values.
 
 `cases.json` is the explicit fixture input. `reference/corpus.lua` reads it, constructs each equivalent build using PoB's own item parser/tree allocation/gem support/configuration/calculator, and captures outputs. `corpus-capture.json` pins the archive, runner, Lua script and source-data hashes. `run.ts` rejects stale definitions/tooling/sources and independently assembles our inputs from local records. Expected calculation outputs never feed our adapter.
 
@@ -31,12 +31,12 @@ node --experimental-strip-types calculation-engine/corpus/run.ts
 node --experimental-strip-types --test calculation-engine/test/corpus.test.ts
 ```
 
-Use bundled Python from docs/HANDOFF.md when the Windows Store alias is unavailable. The Node report command is also `npm run calculations:corpus`. The original 26-value trial remains separate; changes to the shared runner require refreshing both captures.
+Use an installed Python interpreter with the required Windows runtime support; the Windows Store alias alone is insufficient. The Node report command is also `npm run calculations:corpus`. The original 26-value trial remains separate; changes to the shared runner require refreshing both captures.
 
 ## Application integration boundary
 
-`calculateBuild(BuildInput)` is the shared normalized snapshot entrypoint for future Character/tree/Skills consumers. `compareBuilds(before, after)` calculates two complete independent snapshots, returns source breakdowns/diagnostics and selected deltas, and never equips items or writes saves. Percentage change is null for zero baselines; missing skill DPS remains null. Consumers must preserve one explicit combat context when constructing item alternatives. Existing save shapes are not these engine contracts; dedicated source/save adapters remain required.
+`calculateBuild(BuildInput)` is the shared normalized snapshot entrypoint used by the production workspace source adapter for Character/tree/Skills consumers. `compareBuilds(before, after)` calculates two complete independent snapshots, returns source breakdowns/diagnostics and selected deltas, and never equips items or writes saves. Percentage change is null for zero baselines; missing skill DPS remains null. Consumers must preserve one explicit combat context when constructing item alternatives. Existing save shapes are not these engine contracts; dedicated source/save adapters remain required.
 
-## Still outside differential coverage
+## Outside this archived corpus coverage
 
-Arbitrary classes/gear/passive legality, interpolated gem levels/quality, general support-expression matching, charges/flasks/conditional feedback, unique exceptions, ailments/DoT/impale, recovery/reservation/resource sustain, minion/trigger full builds, and EHP/max-hit simulation remain pending. Block/suppression/taken-as currently have unit cases, not these full-build comparisons. UI prototypes are separate review artifacts, never evidence of implemented mechanics. Coverage is per fixture/stat, never a blanket badge on arbitrary builds.
+Arbitrary classes/gear/passive legality, interpolated gem levels/quality, general support-expression matching, charges/flasks/conditional feedback, unique exceptions, ailments/DoT/impale, recovery/reservation/resource sustain, minion/trigger full builds, and EHP/max-hit simulation remain pending. These exclusions describe this archived corpus. Later explicit resource, suppression and survivability comparisons are documented in the [2.68.1 coverage matrix](../reference/v2.68.1/README.md). UI prototypes are separate review artifacts, never evidence of implemented mechanics. Coverage is per fixture/stat, never a blanket badge on arbitrary builds.
