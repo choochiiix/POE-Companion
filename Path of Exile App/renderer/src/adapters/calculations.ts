@@ -21,7 +21,7 @@ export function validContext(input:unknown):Context {
 }
 export function saveContext(context:Context){const issue=writeSave(contextKey,validContext(context));buildChanged();return issue;}
 export interface Sources {data:any;tree:any;gems:any[];pack:any}
-export function loadSources():Promise<Sources>{return Promise.all([fetchJson<any>('/calculation-data.json'),fetchJson<any>('/tree-data/tree-view.json'),fetchJson<any>('/skills-data.json'),fetchJson<any>('/data/repoe-poe1.json')]).then(([data,tree,skills,pack])=>({data,tree,gems:skills.gems,pack}));}
+export function loadSources():Promise<Sources>{return Promise.all([fetchJson<any>('/calculation-data.json'),fetchJson<any>('/tree-data/tree.json'),fetchJson<any>('/skills-data.json'),fetchJson<any>('/data/repoe-poe1.json')]).then(([data,tree,skills,pack])=>({data,tree,gems:skills.gems,pack}));}
 export function calculationInput(sources:Sources,context=readSave(contextKey,validContext)) {
  const character=readSave('poe-companion.character.v1',validCharacter),equipment=readSave('poe-companion.equipment.v1',value=>validEquipment(value,sources.pack.bases)) as Record<string,string>;
  const cls=sources.tree.classes.find((row:any)=>row.name===character.characterClass),asc=cls.ascendancies.find((row:any)=>row.name===character.ascendancy)?.id??'';

@@ -10,6 +10,7 @@ export {
   GitBranch as SkillTreeIcon,
   Hammer as CraftingIcon,
   LibraryBig as ItemLibraryIcon,
+  Orbit as TheorycraftingIcon,
   PanelLeftClose as SidebarCollapseIcon,
   PanelLeftOpen as SidebarExpandIcon,
   Settings2 as SettingsIcon,

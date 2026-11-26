@@ -37,4 +37,4 @@ Use `lucide-react` for UI icons and import them through `src/components/ui/icons
 
 ## Skill tree rendering
 
-The passive tree is drawn to canvas in `src/features/tree/tree-canvas.ts`. Nodes use circular marks sized by type; the **Highlight nodes** list emphasizes a selected category while dimming the rest. Matching nodes use a pointer-responsive orange-to-purple rim gradient. Adjust its colors, stops, glow, and pointer response in the `TREE_BEAM_STYLE` constant near the top of `tree-canvas.ts`. The animation is pointer-driven and respects reduced-motion preferences. Keep allocation and saved-tree behavior in `TreePage.tsx` and its existing adapters.
+The Skill tree draws from the full local 3.29 snapshot and the sprite rectangles in sprites.json. The canvas uses the bundled background, cluster art, frames, node icons and connectors. The **Highlight nodes** filter uses static outlines, and the inspector distinguishes hover previews from pinned nodes. Allocation and saved-tree behavior still use TreePage.tsx and the existing adapters. Character shares the same cached snapshot, while the artwork loads when the Skill tree opens.

@@ -1,0 +1,36 @@
+#theorycraftingPanel { container: theorycrafting / inline-size; }
+.theorycrafting-page .page-heading { margin-bottom: var(--space-half); }
+.theorycrafting-controls { display: grid; grid-template-columns: minmax(160px, .7fr) minmax(220px, 1fr) minmax(240px, 1.4fr); gap: var(--space-card); align-items: end; }
+.theorycrafting-controls label, .theorycrafting-scenario-grid label { min-width: 0; }
+.theorycrafting-scenario { margin-top: var(--space-2); padding-top: var(--space-card); border-top: 1px solid var(--line); }
+.theorycrafting-scenario h3 { margin: 0 0 var(--space-card); font-size: var(--text-sm); }
+.theorycrafting-scenario-grid { display: grid; grid-template-columns: repeat(4, minmax(110px, 1fr)); gap: var(--space-card); }
+.theorycrafting-result-summary { display: flex; flex-wrap: wrap; gap: var(--space-card); margin: var(--space-2) 0 var(--space-card); padding: var(--space-card) var(--space-2); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); }
+.theorycrafting-result-summary span { color: var(--text-muted); font-size: var(--text-xs); }
+.theorycrafting-diagnostics { margin: 0; padding-left: 1.2rem; color: var(--text-secondary); font-size: var(--text-sm); }
+.theorycrafting-results { display: grid; gap: var(--space-2); }
+.theorycrafting-group h2 { margin: 0 0 var(--space-card); font-size: 1rem; }
+.theorycrafting-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: var(--space-card); }
+.theorycrafting-card { min-width: 0; padding: var(--space-card); border: 1px solid var(--line); border-radius: var(--radius-md); background: color-mix(in srgb, var(--surface) 82%, transparent); }
+.theorycrafting-card header { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-card); }
+.theorycrafting-card h3 { margin: 0; font-size: .95rem; }
+.theorycrafting-relation { margin: 3px 0 0; color: var(--text-secondary); font-size: var(--text-xs); }
+.theorycrafting-explanation { margin: var(--space-card) 0 0; color: var(--text); font-size: var(--text-xs); line-height: 1.5; }
+.theorycrafting-evidence { flex: 0 0 auto; padding: 2px 6px; border: 1px solid var(--line); border-radius: 999px; color: var(--text-secondary); font-size: 10px; text-transform: uppercase; letter-spacing: .04em; }
+.evidence-calculated { color: var(--accent); }
+.evidence-conditional { color: #e5ba72; }
+.evidence-rule-based { color: #aeb9cb; }
+.theorycrafting-conditions { margin: var(--space-card) 0 0; color: var(--text-secondary); font-size: var(--text-xs); line-height: 1.45; }
+.theorycrafting-conditions strong { color: var(--text); font-size: var(--text-xs); }
+.theorycrafting-conditions ul { margin: 4px 0 0; padding-left: 1.1rem; }
+.theorycrafting-cost { margin: var(--space-card) 0 0; color: #e5ba72; font-size: var(--text-xs); }
+.theorycrafting-comparison { display: grid; gap: 2px; margin-top: var(--space-card); padding: var(--space-card); border-left: 2px solid var(--accent); background: color-mix(in srgb, var(--accent) 8%, transparent); font-size: var(--text-xs); }
+.theorycrafting-comparison span, .theorycrafting-comparison small { color: var(--text-secondary); }
+.theorycrafting-card footer { margin-top: var(--space-card); padding-top: var(--space-half); border-top: 1px solid var(--line); color: var(--text-muted); overflow-wrap: anywhere; }
+.theorycrafting-card footer small { display: block; }
+.theorycrafting-provenance { margin-top: 3px; color: var(--text-secondary); }
+.theorycrafting-sources { margin: var(--space-2) 0; color: var(--text-secondary); font-size: var(--text-xs); }
+.theorycrafting-sources code { display: block; margin-top: 4px; color: var(--text-muted); overflow-wrap: anywhere; }
+@container theorycrafting (max-width: 760px) { .theorycrafting-controls, .theorycrafting-scenario-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@container theorycrafting (max-width: 480px) { .theorycrafting-controls, .theorycrafting-scenario-grid { grid-template-columns: minmax(0, 1fr); } .theorycrafting-result-summary { display: grid; gap: 4px; } .theorycrafting-card header { flex-direction: column; } }
+@media (forced-colors: active) { .theorycrafting-card, .theorycrafting-result-summary { border-color: CanvasText; background: Canvas; } }
